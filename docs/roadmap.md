@@ -12,7 +12,8 @@
 
 - [ ] Prueba del usuario con mando y ajustes de sensaciones.
 - [ ] Integrar presentación B sin perder las demás opciones.
-- [ ] Elegir/retocar personajes, alternativas, retratos y fondos individualmente.
+- [x] Elegir las propuestas de personajes (Goku G2 HDBZ), retratos y los nueve fondos.
+- [ ] Integrar los retratos elegidos con presentación B y jugabilidad en el próximo BIN combinado.
 - [ ] Implementar HUD y comprobar sus recursos/paletas.
 - [ ] Implementar aura C2 y validar inicio, carga, salida y daño en una partida real.
 - [ ] Revisar ataques especiales y sus colores.

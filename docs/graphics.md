@@ -14,17 +14,19 @@ O: original; V1: primer ajuste; A: anime claro; B: HDBZ cálido; C: equilibrado/
 
 ![Personajes](../assets/comparisons/overview/01-Personajes-todas.png)
 
-Original y propuesta para los once personajes, con colores alternativos de jugador 2. Goku conserva además su primera propuesta y la dirección HDBZ aceptada.
+**Elegida la propuesta para los once personajes; Goku G2 HDBZ**, el 4 de noviembre de 2026. Se conservan originales, propuestas y colores alternativos. Las paletas están disponibles en Colores v1 y en la variante de Jugabilidad v1 con colores.
 
 ## Selección y retratos
 
 ![Retratos](../assets/comparisons/overview/02-Retratos.png)
 
-Se conservan las formas originales; cambia la paleta. Hay pantallas individuales en [portraits](../assets/comparisons/portraits).
+**Elegida la propuesta v1 de todos los retratos**, el 4 de noviembre de 2026. Pendiente de integrar en el próximo BIN combinado. Se conservan las formas originales; cambia la paleta. Hay pantallas individuales en [portraits](../assets/comparisons/portraits).
 
 ## Escenarios
 
 ![Escenarios](../assets/comparisons/overview/03-Escenarios.png)
+
+**Elegida la propuesta Colores v1 de los nueve fondos**, el 4 de noviembre de 2026. Disponible en la variante de Jugabilidad v1 con colores.
 
 Nueve fondos: torneo, desierto, montañas rocosas, Sala del Tiempo, carretera, pradera, Namek, Namek en destrucción y costa. A la izquierda, original; a la derecha, Colores v1. Las localizaciones adicionales siguen en espera.
 
@@ -32,12 +34,12 @@ Nueve fondos: torneo, desierto, montañas rocosas, Sala del Tiempo, carretera, p
 
 ![HUD](../assets/comparisons/overview/05-HUD-todas.png)
 
-**Bocetos, pendientes de implementar.** H1 es el primer concepto; H2 incorpora las caras originales; H3 refleja al jugador 2; H4 actualiza sus paletas. La dirección vigente combina los retratos originales recoloreados con el jugador 2 mirando hacia dentro.
+**Bocetos, pendientes de implementar.** H1 es el primer concepto; H2 incorpora las caras originales; H3 refleja al jugador 2; H4 actualiza sus paletas. La referencia vigente es **H4**, que conserva el diseño H3 y usa la paleta de los retratos de selección elegidos. H3 se mantiene como alternativa histórica.
 
 ## Auras
 
 ![Auras](../assets/comparisons/overview/06-Auras-Goku.png)
 
-**Conceptos, pendientes de implementar.** Goku tiene elegida C2: llamas altas doradas y polvo, sin rayos. C1 con rayos se mantiene sólo como historial. Rayos reservados para Gohan y Cell, como máximo.
+**Conceptos, pendientes de implementar.** Goku tiene elegida C2: llamas altas doradas y polvo, sin rayos. C1 con rayos se mantiene sólo como historial. Cell y Gohan SSJ2 deben llevar rayos; los demás, sin rayos.
 
 Falta validar aparición, carga, retirada al soltar y corte por daño dentro del juego. No se ha aprobado una animación de cierre implementada: se quiere evitar un final brusco. Todavía no existen propuestas individuales de aura para los otros diez personajes.

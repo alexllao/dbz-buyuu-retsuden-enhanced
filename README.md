@@ -13,9 +13,11 @@ Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y 
 | Apartado | Estado |
 | --- | --- |
 | Controles v1 | Implementados y probados en emulador con los 11 personajes, en normal y turbo. |
-| Paletas de personajes y escenarios | Primera propuesta para 11 personajes, colores alternativos y 9 escenarios. |
+| Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
+| Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
+| Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
 | Presentación | **B — HDBZ cálido elegida**; pendiente de integrar en la próxima ROM. |
-| HUD | Boceto con retratos originales recoloreados y jugador 2 reflejado hacia el centro. |
+| HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
 | Auras | Goku **C2 sin rayos** como referencia elegida; implementación pendiente. |
 | Ataques especiales | Revisión pendiente. |
 
@@ -82,7 +84,7 @@ Esta elección todavía no forma parte de la ROM de jugabilidad v1. **Las demás
 
 [Las 67 imágenes y todas las variantes →](docs/graphics.md)
 
-Reglas guardadas: retratos originales de selección para el HUD; jugador 2 mirando hacia el centro; **Goku C2 con llamas y polvo, sin rayos**. Los rayos quedan reservados para **Gohan y Cell como máximo**. Los conceptos anteriores con rayos se conservan como historial.
+Reglas guardadas: retratos originales de selección para el HUD; jugador 2 mirando hacia el centro; **Goku C2 con llamas y polvo, sin rayos**. **Cell y Gohan SSJ2 deben llevar rayos; los demás, sin rayos**. Los conceptos anteriores con rayos se conservan como historial.
 
 ## Estructura
 
@@ -103,6 +105,6 @@ La rama de trabajo es **`development`**. Cada cambio debe conservar las variante
 
 ## Próximo paso
 
-Probar la jugabilidad v1 con mando, elegir las variantes gráficas una a una e integrar la presentación B. Después vendrán el HUD, las auras y los ataques especiales. Las localizaciones nuevas siguen en espera.
+Probar la jugabilidad v1 con mando e integrar la presentación B y los retratos elegidos en el próximo BIN combinado. Las propuestas de personajes y escenarios ya están elegidas. Después vendrán el HUD, las auras y los ataques especiales. Las localizaciones nuevas siguen en espera.
 
 Proyecto de modificación no oficial. Los personajes, el juego original y Hyper Dragon Ball Z se mencionan como obras y referencias de sus respectivos autores. [Créditos y procedencia](docs/credits.md).

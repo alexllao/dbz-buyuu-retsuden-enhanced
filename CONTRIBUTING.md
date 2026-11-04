@@ -9,4 +9,4 @@ La rama de trabajo actual es `development`.
 5. Para cambios de 68000, ensambla la fuente, verifica los hooks y repite las pruebas relevantes en emulador. Documenta el alcance real.
 6. Versiona IPS y manifiestos. Las ROMs completas, herramientas, estados, cachés y salidas locales están excluidos de Git.
 
-No cambies la regla de rayos: sólo Gohan y Cell, como máximo. La presentación vigente es B; Goku usa como referencia de aura C2 sin rayos. HUD con retratos originales y jugador 2 reflejado hacia dentro.
+No cambies la regla de rayos: Cell y Gohan SSJ2 deben llevarlos; los demás no. La presentación vigente es B; Goku usa como referencia de aura C2 sin rayos. HUD con retratos originales y jugador 2 reflejado hacia dentro.

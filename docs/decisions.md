@@ -10,6 +10,11 @@ Registro estructurado: [project/decisions.json](../project/decisions.json).
 | 2026-11-03 | Auras | Dirección C; revisión C2 para Goku sin rayos. Rayos sólo para Gohan y Cell, como máximo. | Concepto. |
 | 2026-11-03 | Jugabilidad | Implementar las mejoras 1–4, conservando la velocidad general. | V1 implementada y probada en emulador. |
 | 2026-11-04 | Presentación | **B — HDBZ cálido**. Guardar las otras variantes. | Elegida; pendiente integrar. |
+| 2026-11-04 | Personajes | **Propuesta para los once; Goku G2 HDBZ**. Conservar el resto de versiones. | Elegidas; disponibles en Colores v1. |
+| 2026-11-04 | Retratos | **Propuesta v1 de todos los retratos de selección**. | Elegidos; próxima integración combinada pendiente. |
+| 2026-11-04 | Escenarios | **Propuesta Colores v1 para los nueve escenarios**. | Elegidos; disponibles en Colores v1. |
+| 2026-11-04 | HUD | **H4**, al corresponder a la paleta de selección elegida; mantener H3. | Pendiente implementar. |
+| 2026-11-04 | Auras | **C2**; **Cell y Gohan SSJ2 con rayos**, resto sin rayos. | Integración y vídeos reales solicitados. |
 | 2026-11-04 | Repositorio | Rama `development`; pnpm para las herramientas del proyecto. | Estructura inicial. |
 
 Las alternativas no elegidas siguen en el catálogo. No convertir un boceto en una función implementada al actualizar la documentación.

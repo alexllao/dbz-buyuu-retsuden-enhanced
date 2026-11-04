@@ -8,26 +8,120 @@
     "status": "Elegida; pendiente integrar en la siguiente ROM"
   },
   "characters": {
-    "direction": "Goku HDBZ aceptado como referencia; revisión individual pendiente"
+    "selected": "Propuesta Colores v1",
+    "date": "2026-11-04",
+    "goku": "G2 HDBZ",
+    "roster": [
+      {
+        "id": 0,
+        "name": "Goku",
+        "selected": "G2 HDBZ"
+      },
+      {
+        "id": 1,
+        "name": "Gohan",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 2,
+        "name": "Piccolo",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 3,
+        "name": "Vegeta",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 4,
+        "name": "Trunks",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 5,
+        "name": "Cell",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 6,
+        "name": "Androide 18",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 7,
+        "name": "Krilin",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 8,
+        "name": "Freezer",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 9,
+        "name": "Recoome",
+        "selected": "Propuesta"
+      },
+      {
+        "id": 10,
+        "name": "Ginyu",
+        "selected": "Propuesta"
+      }
+    ],
+    "overview": "assets/comparisons/overview/01-Personajes-todas.png",
+    "status": "Elegidas; disponibles en Colores v1 y en la variante Jugabilidad v1 con colores",
+    "history": "Conservar originales y todas las propuestas anteriores"
   },
   "stages": {
-    "direction": "Torneo aceptado como referencia; revisión individual pendiente"
+    "selected": "Propuesta Colores v1 para los nueve escenarios",
+    "date": "2026-11-04",
+    "names": [
+      "Torneo",
+      "Desierto",
+      "Montañas rocosas",
+      "Sala del Tiempo",
+      "Carretera",
+      "Pradera",
+      "Namek",
+      "Namek en destrucción",
+      "Costa"
+    ],
+    "overview": "assets/comparisons/overview/03-Escenarios.png",
+    "status": "Elegidos; disponibles en Colores v1 y en la variante Jugabilidad v1 con colores"
   },
   "hud": {
     "direction": "Retratos originales de selección recoloreados, marcos verdes/dorados, vida amarilla y KI cian",
     "player2Portrait": "Reflejado horizontalmente hacia el centro",
-    "status": "Boceto; pendiente implementar"
+    "status": "Referencia elegida por coherencia con selección; pendiente implementar",
+    "selected": "H4",
+    "selectionRule": "El usuario acepta H3 o H4 según la paleta de selección; H4 corresponde a los retratos v1 elegidos.",
+    "keepAlternative": "H3",
+    "date": "2026-11-04"
   },
   "auras": {
     "goku": "C2: llamas altas y polvo, sin rayos",
     "image": "assets/comparisons/auras/C2-Goku-sin-rayos.png",
     "lightningAllowedOnly": [
-      "Gohan",
-      "Cell"
+      "Cell",
+      "Gohan SSJ2"
     ],
-    "status": "Concepto; pendiente implementar y validar el cierre dentro del juego",
-    "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku"
+    "status": "Elegidas; integración real y vídeos antes/después de los once personajes solicitados",
+    "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku",
+    "selected": "C2",
+    "date": "2026-11-04",
+    "lightningRequiredFor": [
+      "Cell",
+      "Gohan SSJ2"
+    ],
+    "otherCharacters": "Sin rayos; Gohan en otras formas tampoco debe llevarlos.",
+    "reviewVideo": "Grabación real del juego, no previsualización generada"
   },
   "specialAttacks": "Pendientes",
-  "additionalStages": "En espera por petición del usuario"
+  "additionalStages": "En espera por petición del usuario",
+  "portraits": {
+    "selected": "Propuesta v1 de los once retratos",
+    "date": "2026-11-04",
+    "overview": "assets/comparisons/overview/02-Retratos.png",
+    "status": "Elegidos; capturas y paletas guardadas, pendientes de integrar en el próximo BIN combinado"
+  }
 }

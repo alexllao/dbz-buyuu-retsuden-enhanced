@@ -26,7 +26,7 @@ for (const item of images) {
 const decisions = await json('project/decisions.json');
 assert.equal(decisions.presentation.selected, 'B');
 assert.equal(decisions.preservePreviousVersions, true);
-assert.deepEqual(decisions.auras.lightningAllowedOnly, ['Gohan', 'Cell']);
+assert.deepEqual(decisions.auras.lightningAllowedOnly, ['Cell', 'Gohan SSJ2']);
 await stat(resolve(root, decisions.presentation.image));
 await stat(resolve(root, decisions.auras.image));
 const matrix = await json('evidence/gameplay-v1/character-matrix.json');
