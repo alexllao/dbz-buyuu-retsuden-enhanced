@@ -448,5 +448,19 @@
     "defaultReview": "v6.6 retained",
     "romSha256": "1ab750ecfa72e1fd77b04cf1c1c753013fe34416f4af325b658917bfdac48ba7",
     "docs": "docs/combos-v2.md"
+  },
+  "combosExperimentalV3": {
+    "status": "Optional prototype implemented; manual playtest and visual approval pending",
+    "characters": "All11 human characters",
+    "speed": "Normal, ground; CPU/turbo combo changes disabled",
+    "inputs": "Mix standing A/B freely on confirmed hit; finish with own native special/Meteor motion and requirements",
+    "antiLoop": "Max3 basics and1 finisher; no reverse cancel; close exceptions when finisher program ends; reset budget only after6 consecutive neutral updates for both actors",
+    "damage": "Native finisher damage unchanged; v2 quarter-kick rule is not inherited",
+    "window": "36 eligible updates after confirmed basic hit",
+    "counter": "Not implemented in ROM; videos have no counter overlay",
+    "limitations": "Not all routes connect: original range/hurt poses retained, timings differ; bounded tests against Goku, no universal infinite proof",
+    "defaultReview": "v6.6 retained",
+    "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+    "docs": "docs/combos-v3.md"
   }
 }

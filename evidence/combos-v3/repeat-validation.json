@@ -1,0 +1,489 @@
+{
+  "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+  "cases": 15,
+  "passed": true,
+  "jobs": [
+    {
+      "cid": 0,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            72,
+            258,
+            445,
+            627
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1024,
+            1027,
+            1031,
+            2049
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            81,
+            133,
+            162,
+            242,
+            293,
+            522
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1024,
+            1027,
+            2051
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            261,
+            480,
+            540,
+            600,
+            635,
+            690
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            40,
+            51,
+            1024,
+            1027,
+            1028,
+            2110,
+            2111
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        }
+      ]
+    },
+    {
+      "cid": 1,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            70,
+            260,
+            441,
+            624
+          ],
+          "programs": [
+            0,
+            3,
+            1036,
+            1039,
+            2056
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            84,
+            97,
+            112,
+            126,
+            139,
+            164,
+            332,
+            498,
+            660
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1036,
+            1039,
+            2057
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1036,
+            1039,
+            2113
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50,
+            72,
+            257,
+            441,
+            619
+          ],
+          "programs": [
+            0,
+            3,
+            1060,
+            1063,
+            2068
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50,
+            241,
+            420,
+            630
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        }
+      ]
+    },
+    {
+      "cid": 6,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            71,
+            258,
+            442,
+            656
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1096,
+            1099,
+            1103,
+            2086
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1096,
+            1099,
+            1100
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            538
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1096,
+            1099,
+            1100
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        }
+      ]
+    },
+    {
+      "cid": 10,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            79,
+            277,
+            476,
+            669
+          ],
+          "programs": [
+            0,
+            3,
+            1144,
+            1147,
+            2107
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            173
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1144,
+            1147,
+            1148
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            157,
+            218,
+            425,
+            635
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            40,
+            1144,
+            1147,
+            1148
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "checks": {
+            "noBudgetRearmWhileVictimTrapped": true,
+            "maxTwoLinks": true
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Repeated special motions for720frames after ABA, five attackers; no budget reset without six neutral frames, no stale finisher contact exception once native program ended",
+  "limits": [
+    "Native ordinary specials remain available after recovery; no global change to their original rules",
+    "Bounded tests only, not proof against every possible infinite"
+  ]
+}

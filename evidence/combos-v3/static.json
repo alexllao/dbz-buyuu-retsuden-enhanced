@@ -1,0 +1,52 @@
+{
+  "targetSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+  "codeSha256": "6b8dbaf868ba0b2a95752e2badbaf445deea4eedf46fcf7a02c05e10bd7583ec",
+  "codeBytes": 1390,
+  "decodedBytes": 1390,
+  "changedBytes": 1406,
+  "outsideAllowedChangedBytes": 0,
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      36300,
+      6
+    ],
+    [
+      73236,
+      6
+    ],
+    [
+      73720,
+      6
+    ],
+    [
+      73460,
+      6
+    ],
+    [
+      73940,
+      6
+    ],
+    [
+      504212,
+      6
+    ],
+    [
+      3997696,
+      1390
+    ]
+  ],
+  "preserved": {
+    "nativeDamage": true,
+    "auraCode": true,
+    "sideSwitch": true,
+    "battlePalettes": true,
+    "stagePalettes": true,
+    "introAndTitle": true,
+    "credits": true,
+    "nativeAnimationData": true
+  }
+}

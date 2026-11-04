@@ -1,0 +1,4428 @@
+{
+  "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+  "cid": 0,
+  "mode": "meteor19",
+  "frames": 478,
+  "fps": 59.92274340431231,
+  "matchesTraceHP": true,
+  "bothIdleAtEnd": true,
+  "counterInRom": false,
+  "counterOverlay": false,
+  "fixture": "Native commands, charge via A+B, only initial positions/facing fixed; no HP/ki/actions/timers forced",
+  "summary": {
+    "mode": "meteor19",
+    "charged": false,
+    "startKi": 126,
+    "hits": [
+      9,
+      30,
+      49,
+      240
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      51,
+      1024,
+      1027,
+      2110,
+      2111
+    ],
+    "committed": true,
+    "minKi": 126,
+    "idleAtEnd": true,
+    "maxLinks": 2
+  },
+  "trace": [
+    {
+      "f": 0,
+      "keys": [
+        "A"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 1,
+      "keys": [
+        "A"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 2,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 3,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 4,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 5,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 6,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 7,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 8,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 9,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 136
+    },
+    {
+      "f": 10,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 136
+    },
+    {
+      "f": 11,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 136
+    },
+    {
+      "f": 12,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 152
+    },
+    {
+      "f": 13,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 152
+    },
+    {
+      "f": 14,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 152
+    },
+    {
+      "f": 15,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 152
+    },
+    {
+      "f": 16,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 152
+    },
+    {
+      "f": 17,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 152
+    },
+    {
+      "f": 18,
+      "keys": [
+        "B"
+      ],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 141
+    },
+    {
+      "f": 19,
+      "keys": [
+        "B"
+      ],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 141
+    },
+    {
+      "f": 20,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 21,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 22,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 23,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 24,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 25,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 26,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 27,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 28,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 29,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 190,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 30,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 137
+    },
+    {
+      "f": 31,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 32,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 33,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 34,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 35,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 36,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 37,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 38,
+      "keys": [],
+      "program": 1027,
+      "action": 35,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 153
+    },
+    {
+      "f": 39,
+      "keys": [
+        "A"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 142
+    },
+    {
+      "f": 40,
+      "keys": [
+        "A"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 142
+    },
+    {
+      "f": 41,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 142
+    },
+    {
+      "f": 42,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 43,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 44,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 45,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 46,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 47,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 48,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 180,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 49,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 138
+    },
+    {
+      "f": 50,
+      "keys": [],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 51,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 52,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 53,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 54,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 55,
+      "keys": [
+        "DOWN",
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 56,
+      "keys": [
+        "DOWN",
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 57,
+      "keys": [
+        "DOWN",
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 58,
+      "keys": [
+        "DOWN",
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 59,
+      "keys": [
+        "DOWN"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 60,
+      "keys": [
+        "DOWN"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 61,
+      "keys": [
+        "DOWN"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 62,
+      "keys": [
+        "DOWN"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 63,
+      "keys": [
+        "DOWN",
+        "LEFT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 64,
+      "keys": [
+        "DOWN",
+        "LEFT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 65,
+      "keys": [
+        "DOWN",
+        "LEFT"
+      ],
+      "program": 3,
+      "action": 3,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 66,
+      "keys": [
+        "DOWN",
+        "LEFT"
+      ],
+      "program": 3,
+      "action": 3,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 67,
+      "keys": [
+        "LEFT"
+      ],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 68,
+      "keys": [
+        "LEFT"
+      ],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 69,
+      "keys": [
+        "LEFT"
+      ],
+      "program": 2,
+      "action": 2,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 70,
+      "keys": [
+        "LEFT"
+      ],
+      "program": 2,
+      "action": 2,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 71,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 72,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 73,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 74,
+      "keys": [
+        "RIGHT"
+      ],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 75,
+      "keys": [
+        "RIGHT",
+        "B"
+      ],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 76,
+      "keys": [
+        "RIGHT",
+        "B"
+      ],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 77,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 78,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 79,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 80,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 81,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 82,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 83,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 84,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 85,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 86,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 87,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 88,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 89,
+      "keys": [],
+      "program": 1,
+      "action": 1,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 154
+    },
+    {
+      "f": 90,
+      "keys": [
+        "B"
+      ],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 174
+    },
+    {
+      "f": 91,
+      "keys": [],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 174
+    },
+    {
+      "f": 92,
+      "keys": [
+        "A"
+      ],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 174
+    },
+    {
+      "f": 93,
+      "keys": [],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 170
+    },
+    {
+      "f": 94,
+      "keys": [
+        "B"
+      ],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 170
+    },
+    {
+      "f": 95,
+      "keys": [],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 170
+    },
+    {
+      "f": 96,
+      "keys": [
+        "A"
+      ],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 170
+    },
+    {
+      "f": 97,
+      "keys": [],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 170
+    },
+    {
+      "f": 98,
+      "keys": [
+        "B"
+      ],
+      "program": 2110,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 12,
+      "combo": 170
+    },
+    {
+      "f": 99,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 170
+    },
+    {
+      "f": 100,
+      "keys": [
+        "A"
+      ],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 170
+    },
+    {
+      "f": 101,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 170
+    },
+    {
+      "f": 102,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 103,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 104,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 105,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 106,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 107,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 108,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 109,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 110,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 111,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 112,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 113,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 114,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 115,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 116,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 117,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 118,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 119,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 120,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 121,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 122,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 123,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 124,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 125,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 126,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 127,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 128,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 129,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 130,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 131,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 132,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 133,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 134,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 135,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 136,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 137,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 138,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 139,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 140,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 141,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 142,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 143,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 144,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 145,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 146,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 147,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 148,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 149,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 150,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 151,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 152,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 153,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 154,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 155,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 156,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 157,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 158,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 159,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 160,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 161,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 162,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 163,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 164,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 165,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 166,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 167,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 168,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 169,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 170,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 171,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 172,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 173,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 174,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 175,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 176,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 177,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 178,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 179,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 180,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 181,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 182,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 183,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 184,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 185,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 186,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 187,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 188,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 189,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 190,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 191,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 192,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 193,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 194,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 195,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 196,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 197,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 198,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 199,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 200,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 201,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 202,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 203,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 204,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 205,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 206,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 207,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 208,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 209,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 210,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 211,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 212,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 213,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 214,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 215,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 216,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 217,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 218,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 219,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 220,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 221,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 222,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 223,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 224,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 225,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 226,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 227,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 228,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 229,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 230,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 231,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 232,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 233,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 234,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 235,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 236,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 237,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 238,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 239,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 170,
+      "enemyAction": 20,
+      "combo": 234
+    },
+    {
+      "f": 240,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 241,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 242,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 243,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 244,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 245,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 246,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 247,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 248,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 249,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 250,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 251,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 252,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 253,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 254,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 255,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 256,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 257,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 258,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 259,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 260,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 261,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 262,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 263,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 264,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 265,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 266,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 267,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 268,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 269,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 270,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 271,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 272,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 273,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 274,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 275,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 276,
+      "keys": [],
+      "program": 2111,
+      "action": 56,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 277,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 278,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 279,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 280,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 281,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 282,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 283,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 284,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 285,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 286,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 287,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 288,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 289,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 290,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 291,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 292,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 293,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 294,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 295,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 296,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 297,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 298,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 299,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 300,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 301,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 302,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 303,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 304,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 305,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 306,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 307,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 308,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 309,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 310,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 311,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 312,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 313,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 314,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 315,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 316,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 317,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 318,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 319,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 320,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 321,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 322,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 323,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 324,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 325,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 326,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 327,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 328,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 329,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 330,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 331,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 332,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 333,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 334,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 335,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 336,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 337,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 338,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 339,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 340,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 341,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 342,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 343,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 344,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 345,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 346,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 347,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 348,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 349,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 350,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 351,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 352,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 353,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 354,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 355,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 356,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 357,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 358,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 359,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 360,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 361,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 362,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 363,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 364,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 365,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 366,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 367,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 368,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 369,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 370,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 371,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 372,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 373,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 374,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 375,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 376,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 377,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 378,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 379,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 380,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 381,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 382,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 383,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 384,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 385,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 386,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 387,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 388,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 389,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 390,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 391,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 392,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 393,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 394,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 395,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 396,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 397,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 398,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 399,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 400,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 401,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 402,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 403,
+      "keys": [],
+      "program": 51,
+      "action": 14,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 404,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 405,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 406,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 407,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 408,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 409,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 410,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 411,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 412,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 413,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 414,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 415,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 416,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 417,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 418,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 419,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 420,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 421,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 422,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 423,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 424,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 425,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 426,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 427,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 428,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 429,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 430,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 431,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 432,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 433,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 434,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 435,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 436,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 437,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 438,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 439,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 440,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 18,
+      "combo": 234
+    },
+    {
+      "f": 441,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 442,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 443,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 444,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 445,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 446,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 447,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 14,
+      "combo": 234
+    },
+    {
+      "f": 448,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 449,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 450,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 451,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 452,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 453,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 454,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 234
+    },
+    {
+      "f": 455,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 456,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 457,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 458,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 459,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 460,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 461,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 462,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 463,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 464,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 465,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 466,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 467,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 468,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 469,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 470,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 471,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 472,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 473,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 474,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 475,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 476,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    },
+    {
+      "f": 477,
+      "keys": [],
+      "program": 0,
+      "action": 0,
+      "enemyHP": 137,
+      "enemyAction": 0,
+      "combo": 136
+    }
+  ]
+}

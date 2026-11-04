@@ -9,6 +9,32 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const genericCombo = await json('patches/combos-v3/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, genericCombo.patch.path))), genericCombo.patch.sha256);
+for (const name of ['matrix', 'side-regression', 'repeat-validation']) {
+  const report = await json(`evidence/combos-v3/${name}.json`);
+  assert(report.passed);
+  assert.equal(report.romSha256, genericCombo.target.sha256);
+}
+const genericStatic = await json('evidence/combos-v3/static.json');
+assert.equal(genericStatic.targetSha256, genericCombo.target.sha256);
+assert.equal(genericStatic.outsideAllowedChangedBytes, 0);
+assert(Object.values(genericStatic.preserved).every(Boolean));
+const genericCode = Buffer.from((await readFile(resolve(root, 'src/gameplay/combos-v3/combos.hex'), 'utf8')).trim(), 'hex');
+assert.equal(sha256(genericCode), genericStatic.codeSha256);
+assert.equal(genericCode.length, genericStatic.decodedBytes);
+const genericNative = await json('evidence/combos-v3/native-regression.json');
+assert(genericNative.passed);
+assert.equal(genericNative.targetSha256, genericCombo.target.sha256);
+const genericFinishers = await json('evidence/combos-v3/finisher-validation.json');
+assert.equal(genericFinishers.romSha256, genericCombo.target.sha256);
+assert(genericFinishers.allElevenDownBConnectAfterABA);
+const genericVideo = await json('evidence/combos-v3/video-validation.json');
+assert.equal(genericVideo.romSha256, genericCombo.target.sha256);
+assert(!genericVideo.counterInRom && !genericVideo.counterOverlay);
+assert.equal(genericVideo.cases.length, 13);
+assert(genericVideo.cases.every(item => item.matchesTraceHP && item.bothIdleAtEnd && item.romSha256 === genericCombo.target.sha256));
+for (const item of genericVideo.files) assert.equal(sha256(await readFile(resolve(root, 'assets/media/combos-v3', item.filename))), item.sha256);
 const kicks = await json('patches/combos-v2/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, kicks.patch.path))), kicks.patch.sha256);
 const kickMatrix = await json('evidence/combos-v2/matrix.json');

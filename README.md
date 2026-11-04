@@ -27,6 +27,14 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Prueba opcional de combos v3: los once personajes
+
+Mezcla hasta **tres básicos A/B** al acertar y remata con una técnica propia o Meteor, introduciendo su comando original. Primera prueba común para los once personajes humanos en suelo y velocidad normal. El remate cierra las ayudas de la cadena; sólo se recupera el presupuesto tras seis actualizaciones con ambos luchadores libres. Pendiente de probar con mando.
+
+[Vídeo real de los once personajes](assets/media/combos-v3/Combos-v3-once-personajes.mp4) · [Goku A-B-A → Meteor](assets/media/combos-v3/Goku-ABA-Meteor.mp4) · [Goku A-B-A → ráfaga](assets/media/combos-v3/Goku-ABA-rafaga.mp4) · [Reglas, resultados y límites](docs/combos-v3.md). Los vídeos no llevan contador: todavía no está en la ROM.
+
+Construcción: `pnpm build:review --rom ruta/a/original.bin --version combos-v3`. **La opción por defecto sigue siendo v6.6** y se conservan v1/v2. Se mantienen alcance, cajas, condiciones y daño nativos del remate; algunas rutas fallan por distancia o pose. Las pruebas reducen riesgos de bucles, sin demostrar que todo infinito sea imposible.
+
 ## Prueba opcional de combos v2: puños y patadas
 
 **A, A, B al conectar: dos puñetazos y remate de patadas.** En las tomas reales, Goku enlaza cinco impactos y Vegeta cuatro. Sólo velocidad normal y mandos humanos; se usa una ráfaga nativa distinta para cada personaje y se modera el daño de las patadas. Pendiente de valorar jugando.
@@ -159,6 +167,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Dos puños + patadas (prueba opcional Combos v2, sólo normal)** | A, soltar, A al conectar, B tras el segundo impacto. [Condiciones](docs/combos-v2.md) |
 | **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
@@ -183,6 +192,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Kiai Cannon | mantener ↓ ↓ ↘ → + A |
@@ -204,6 +214,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Shot | ← → + A |
 | Energy Shock | ← ↙ ↓ + A |
@@ -224,6 +235,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Dos puños + patadas (prueba opcional Combos v2, sólo normal)** | A, soltar, A al conectar, B tras el segundo impacto. [Condiciones](docs/combos-v2.md) |
 | **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
@@ -246,6 +258,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Cannon | ← → + A |
 | Energy Slash | mantener ↓ ↓ ↙ ← + A |
@@ -266,6 +279,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Shot | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -287,6 +301,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Flash Beam | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -307,6 +322,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -327,6 +343,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Frieza Beam | ← → + A |
 | Destructo Disc | mantener ↓ ↓ ↘ → + A |
@@ -348,6 +365,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -369,6 +387,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Energy Cannon | mantener ↓ ↓ ↘ → + A |

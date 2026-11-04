@@ -1,0 +1,4203 @@
+{
+  "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+  "cases": 176,
+  "allElevenDownBConnectAfterABA": true,
+  "jobs": [
+    {
+      "cid": 0,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1027,
+            3072
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3072
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            72
+          ],
+          "programs": [
+            0,
+            1024,
+            1027,
+            2049
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2049
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1025,
+            1027,
+            2112
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2112
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1027
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            81,
+            133,
+            162
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1024,
+            1027,
+            2051
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2051
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            240
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            51,
+            1024,
+            1027,
+            2110,
+            2111
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2110,
+            2111
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1024,
+            1027,
+            1028
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1025,
+            1027
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1027,
+            3072
+          ],
+          "committed": true,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3072
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49,
+            71
+          ],
+          "programs": [
+            0,
+            1024,
+            1027,
+            2049
+          ],
+          "committed": true,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2049
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1027,
+            1028,
+            2112
+          ],
+          "committed": true,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2112
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1024,
+            1025,
+            1027
+          ],
+          "committed": false,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49,
+            80,
+            131,
+            162
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1024,
+            1027,
+            2051
+          ],
+          "committed": true,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2051
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49,
+            225
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            51,
+            1024,
+            1027,
+            2110,
+            2111
+          ],
+          "committed": true,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2110,
+            2111
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1024,
+            1027,
+            1028
+          ],
+          "committed": false,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 148,
+          "hits": [
+            8,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            2,
+            1024,
+            1025,
+            1027
+          ],
+          "committed": false,
+          "minKi": 148,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 1,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1036,
+            1039,
+            3084
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3084
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            70
+          ],
+          "programs": [
+            0,
+            1036,
+            1039,
+            2056
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2056
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1036,
+            1037,
+            1039,
+            2115
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2115
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            93,
+            1036,
+            1039
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            84,
+            97,
+            111,
+            125,
+            138,
+            163
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1036,
+            1039,
+            2057
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2057
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1036,
+            1039,
+            2113
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2113
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            93,
+            1036,
+            1039
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            93,
+            1036,
+            1039
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47
+          ],
+          "programs": [
+            0,
+            1036,
+            1039,
+            3084
+          ],
+          "committed": true,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3084
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47,
+            68
+          ],
+          "programs": [
+            0,
+            1036,
+            1039,
+            2056
+          ],
+          "committed": true,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2056
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47
+          ],
+          "programs": [
+            0,
+            1036,
+            1037,
+            1039,
+            2115
+          ],
+          "committed": true,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2115
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47
+          ],
+          "programs": [
+            0,
+            93,
+            1036,
+            1039
+          ],
+          "committed": false,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47,
+            82,
+            96,
+            108,
+            121,
+            134,
+            158
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1036,
+            1039,
+            2057
+          ],
+          "committed": true,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2057
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1036,
+            1039,
+            2113
+          ],
+          "committed": true,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2113
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            93,
+            1036,
+            1039
+          ],
+          "committed": false,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 152,
+          "hits": [
+            8,
+            29,
+            47
+          ],
+          "programs": [
+            0,
+            2,
+            93,
+            1036,
+            1039
+          ],
+          "committed": false,
+          "minKi": 152,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 2,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            70
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1051,
+            3096
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3096
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            79
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1051,
+            2063
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2063
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            79,
+            107
+          ],
+          "programs": [
+            0,
+            51,
+            1048,
+            1049,
+            1051,
+            2064
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2064
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1051,
+            1052
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1,
+            1048,
+            1049,
+            1051,
+            1052
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            121
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1048,
+            1049,
+            1051,
+            1052
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1048,
+            1049,
+            1051,
+            2116
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2116
+          ]
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1051,
+            1052
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53,
+            69
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1052,
+            3096
+          ],
+          "committed": true,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3096
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53,
+            78
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1052,
+            2063
+          ],
+          "committed": true,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2063
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53,
+            91,
+            118
+          ],
+          "programs": [
+            0,
+            51,
+            1048,
+            1049,
+            1052,
+            2064
+          ],
+          "committed": true,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2064
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1052
+          ],
+          "committed": false,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53,
+            104
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1048,
+            1049,
+            1052
+          ],
+          "committed": false,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53,
+            116
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1048,
+            1049,
+            1052
+          ],
+          "committed": false,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1048,
+            1049,
+            1052,
+            2116
+          ],
+          "committed": true,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2116
+          ]
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 154,
+          "hits": [
+            9,
+            32,
+            53
+          ],
+          "programs": [
+            0,
+            1048,
+            1049,
+            1052
+          ],
+          "committed": false,
+          "minKi": 154,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1060,
+            1063,
+            3106
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3106
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50,
+            72
+          ],
+          "programs": [
+            0,
+            1060,
+            1063,
+            2068
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2068
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50,
+            73,
+            116
+          ],
+          "programs": [
+            0,
+            51,
+            1060,
+            1063,
+            2069
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2069
+          ]
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50,
+            113
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1061,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50,
+            113
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1061,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            2,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51
+          ],
+          "programs": [
+            0,
+            1060,
+            1063,
+            3106
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3106
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51,
+            72
+          ],
+          "programs": [
+            0,
+            1060,
+            1063,
+            2068
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2068
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51,
+            99
+          ],
+          "programs": [
+            0,
+            1060,
+            1061,
+            1063
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51,
+            74,
+            114
+          ],
+          "programs": [
+            0,
+            51,
+            1060,
+            1063,
+            2069
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2069
+          ]
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1063,
+            1064
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            10,
+            31,
+            51
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1063
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 4,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            81
+          ],
+          "programs": [
+            0,
+            1072,
+            1075,
+            3118
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3118
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            69
+          ],
+          "programs": [
+            0,
+            1072,
+            1075,
+            2075
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2075
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            96,
+            120
+          ],
+          "programs": [
+            0,
+            1072,
+            1075,
+            2074
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2074
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1072,
+            1075
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            93,
+            1072,
+            1075
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1072,
+            1075,
+            2120
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2120
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1072,
+            1075,
+            1076
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            2,
+            1072,
+            1075
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49,
+            81
+          ],
+          "programs": [
+            0,
+            1072,
+            1075,
+            3118
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3118
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49,
+            71
+          ],
+          "programs": [
+            0,
+            1072,
+            1075,
+            2075
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2075
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49,
+            96,
+            119
+          ],
+          "programs": [
+            0,
+            1072,
+            1075,
+            2074
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2074
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49
+          ],
+          "programs": [
+            0,
+            1072,
+            1075
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1072,
+            1075
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1072,
+            1075,
+            2120
+          ],
+          "committed": true,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2120
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1072,
+            1075,
+            1076
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 151,
+          "hits": [
+            8,
+            29,
+            49
+          ],
+          "programs": [
+            0,
+            2,
+            93,
+            1072,
+            1075
+          ],
+          "committed": false,
+          "minKi": 151,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 5,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64,
+            80
+          ],
+          "programs": [
+            0,
+            1084,
+            1087,
+            3132
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3132
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64,
+            89
+          ],
+          "programs": [
+            0,
+            1084,
+            1087,
+            2080
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2080
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64
+          ],
+          "programs": [
+            0,
+            1084,
+            1085,
+            1087
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64
+          ],
+          "programs": [
+            0,
+            1084,
+            1085,
+            1087
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1084,
+            1087,
+            1088
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1087,
+            1088
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43,
+            64
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 1,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 6,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            63
+          ],
+          "programs": [
+            0,
+            1096,
+            1099,
+            3141
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3141
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49,
+            71
+          ],
+          "programs": [
+            0,
+            1096,
+            1099,
+            2086
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2086
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1096,
+            1099
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1096,
+            1099,
+            2123
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2123
+          ]
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            30,
+            49
+          ],
+          "programs": [
+            0,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49,
+            64
+          ],
+          "programs": [
+            0,
+            1096,
+            1099,
+            3141
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3141
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49,
+            71
+          ],
+          "programs": [
+            0,
+            1096,
+            1099,
+            2086
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2086
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49
+          ],
+          "programs": [
+            0,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49
+          ],
+          "programs": [
+            0,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1096,
+            1099
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1096,
+            1099,
+            2123
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2123
+          ]
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            49
+          ],
+          "programs": [
+            0,
+            2,
+            1096,
+            1097,
+            1099
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 7,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            3153
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3153
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            75
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            2091
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2091
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            98
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            1112
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            98
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            1112
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            95,
+            119,
+            148,
+            165,
+            181
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1108,
+            1111,
+            2089,
+            2090
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": false,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2089,
+            2090
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            269
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1108,
+            1111,
+            2125,
+            2126
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2125,
+            2126
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            105
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1108,
+            1111,
+            1112
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            29,
+            48,
+            99
+          ],
+          "programs": [
+            0,
+            2,
+            1108,
+            1111,
+            1112
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            3153
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3153
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48,
+            75
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            2091
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2091
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48,
+            97
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            1112
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48,
+            97
+          ],
+          "programs": [
+            0,
+            1108,
+            1111,
+            1112
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48,
+            95,
+            118,
+            145,
+            162,
+            178
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1108,
+            1111,
+            2089,
+            2090
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2089,
+            2090
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48,
+            267
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1108,
+            1111,
+            2125,
+            2126
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2125,
+            2126
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            93,
+            1108,
+            1111
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            30,
+            48,
+            95
+          ],
+          "programs": [
+            0,
+            2,
+            1108,
+            1109,
+            1111
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 8,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51,
+            65
+          ],
+          "programs": [
+            0,
+            1120,
+            1123,
+            3165
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3165
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51,
+            83
+          ],
+          "programs": [
+            0,
+            1120,
+            1123,
+            2096
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2096
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51
+          ],
+          "programs": [
+            0,
+            51,
+            1120,
+            1123,
+            2095
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2095
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51
+          ],
+          "programs": [
+            0,
+            1120,
+            1123,
+            1124
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1120,
+            1123
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1120,
+            1123,
+            1124
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1120,
+            1123,
+            2127
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2127
+          ]
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            32,
+            51
+          ],
+          "programs": [
+            0,
+            2,
+            1120,
+            1123,
+            1124
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50,
+            64
+          ],
+          "programs": [
+            0,
+            1120,
+            1123,
+            3165
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3165
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50,
+            79
+          ],
+          "programs": [
+            0,
+            1120,
+            1123,
+            2096
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2096
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            51,
+            1120,
+            1123,
+            2095
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2095
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1120,
+            1123
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1120,
+            1123
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1120,
+            1123
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1120,
+            1123,
+            2127
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2127
+          ]
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            9,
+            31,
+            50
+          ],
+          "programs": [
+            0,
+            1120,
+            1121,
+            1123
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 9,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            3177
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3177
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55,
+            81
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            2103
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2103
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            3179
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3179
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55,
+            146
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            2100
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2100
+          ]
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55,
+            105
+          ],
+          "programs": [
+            0,
+            1,
+            3,
+            1132,
+            1135
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55,
+            185
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            51,
+            1132,
+            1135,
+            2134,
+            2135
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2134,
+            2135
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55,
+            127
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1132,
+            1135,
+            1136
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            55,
+            113
+          ],
+          "programs": [
+            0,
+            1132,
+            1133,
+            1135,
+            1136
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            3177
+          ],
+          "committed": true,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3177
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55,
+            82
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            2103
+          ],
+          "committed": true,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2103
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            3179
+          ],
+          "committed": true,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3179
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55,
+            145
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            2100
+          ],
+          "committed": true,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2100
+          ]
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55
+          ],
+          "programs": [
+            0,
+            1,
+            1132,
+            1135,
+            1136
+          ],
+          "committed": false,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55,
+            186
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1132,
+            1135,
+            2134,
+            2135
+          ],
+          "committed": true,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2134,
+            2135
+          ]
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1132,
+            1135,
+            1136
+          ],
+          "committed": false,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 147,
+          "hits": [
+            9,
+            34,
+            55,
+            117
+          ],
+          "programs": [
+            0,
+            1132,
+            1135,
+            1136
+          ],
+          "committed": false,
+          "minKi": 147,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    },
+    {
+      "cid": 10,
+      "cases": [
+        {
+          "mode": "blast",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1144,
+            1147,
+            3188
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3188
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            79
+          ],
+          "programs": [
+            0,
+            1144,
+            1147,
+            2107
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2107
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54,
+            80
+          ],
+          "programs": [
+            0,
+            51,
+            1144,
+            1147,
+            2106
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2106
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1144,
+            1147
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1144,
+            1145,
+            1147
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor19",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1,
+            1144,
+            1147
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            2,
+            1144,
+            1147,
+            1148
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            34,
+            54
+          ],
+          "programs": [
+            0,
+            1144,
+            1147
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "blast",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55
+          ],
+          "programs": [
+            0,
+            1144,
+            1147,
+            3188
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            3188
+          ]
+        },
+        {
+          "mode": "downB",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55,
+            81
+          ],
+          "programs": [
+            0,
+            1144,
+            1147,
+            2107
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2107
+          ]
+        },
+        {
+          "mode": "fbf",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55,
+            80
+          ],
+          "programs": [
+            0,
+            51,
+            1144,
+            1147,
+            2106
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2106
+          ]
+        },
+        {
+          "mode": "quarter",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55
+          ],
+          "programs": [
+            0,
+            1144,
+            1147
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "flurry",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55,
+            98
+          ],
+          "programs": [
+            0,
+            1,
+            51,
+            1144,
+            1147,
+            2109
+          ],
+          "committed": true,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": [
+            2109
+          ]
+        },
+        {
+          "mode": "meteor19",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1144,
+            1145,
+            1147,
+            1148
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor16",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1144,
+            1145,
+            1147
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        },
+        {
+          "mode": "meteor1a",
+          "charged": true,
+          "startKi": 156,
+          "hits": [
+            11,
+            35,
+            55
+          ],
+          "programs": [
+            0,
+            1144,
+            1147
+          ],
+          "committed": false,
+          "minKi": 156,
+          "idleAtEnd": true,
+          "maxLinks": 2,
+          "actualFinisherPrograms": []
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Native command token and own repertoire/requirements retained; commitment alone does not guarantee hit",
+    "Charged branch reaches only about148 Ki by native A+B; this does not validate >205 Ki Meteor conditions",
+    "No full121 matchups, corner/air/CPU/turbo combo implementation or universal infinite-combo proof"
+  ]
+}
