@@ -1,0 +1,177 @@
+{
+  "targetSha256": "1ab750ecfa72e1fd77b04cf1c1c753013fe34416f4af325b658917bfdac48ba7",
+  "cases": [
+    {
+      "cid": 0,
+      "case": "normalB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        12
+      ],
+      "candidateHits": [
+        12
+      ],
+      "sourceEndKi": 132,
+      "candidateEndKi": 132,
+      "passed": true
+    },
+    {
+      "cid": 0,
+      "case": "downB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        16
+      ],
+      "candidateHits": [
+        15
+      ],
+      "sourceEndKi": 131,
+      "candidateEndKi": 131,
+      "passed": true
+    },
+    {
+      "cid": 0,
+      "case": "flurryB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        28,
+        81,
+        111
+      ],
+      "candidateHits": [
+        28,
+        81,
+        111
+      ],
+      "sourceEndKi": 131,
+      "candidateEndKi": 131,
+      "passed": true
+    },
+    {
+      "cid": 0,
+      "case": "quarterB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        26
+      ],
+      "candidateHits": [
+        26
+      ],
+      "sourceEndKi": 132,
+      "candidateEndKi": 131,
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "case": "normalB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        12
+      ],
+      "candidateHits": [
+        12
+      ],
+      "sourceEndKi": 132,
+      "candidateEndKi": 132,
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "case": "downB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        16
+      ],
+      "candidateHits": [
+        17
+      ],
+      "sourceEndKi": 132,
+      "candidateEndKi": 132,
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "case": "flurryB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        32
+      ],
+      "candidateHits": [
+        33
+      ],
+      "sourceEndKi": 132,
+      "candidateEndKi": 132,
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "case": "quarterB",
+      "checks": {
+        "samePrograms": true,
+        "sameHitCount": true,
+        "sameFinalHP": true,
+        "sameMinimumKi": true,
+        "sameFinalAction": true
+      },
+      "sourceHits": [
+        20,
+        63
+      ],
+      "candidateHits": [
+        20,
+        63
+      ],
+      "sourceEndKi": 131,
+      "candidateEndKi": 131,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Standing kick, crouching kick and two directional B command probes per character outside new AA-B combo; native menus, actual inputs, fixed initial positions/facing only",
+  "limits": [
+    "Impact frame may differ by one; no cycle-exact timing equivalence asserted",
+    "One Goku directional-B probe ends with2 fewer ki units; minimum ki and damage match. End ki includes passive recovery and is recorded, not asserted identical. No ki writes added by this patch."
+  ]
+}

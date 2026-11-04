@@ -27,13 +27,13 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Prueba opcional de combos: Goku y Vegeta
+## Prueba opcional de combos v2: puños y patadas
 
-**Dos puños cercanos y salida opcional a proyectil**, sólo a velocidad normal: A, soltar, A al conectar y después atrás, adelante + A. Los enlaces se habilitan al acertar; fallar o golpear la guardia conserva la recuperación. El proyectil mantiene su salida y alcance nativos y puede no conectar.
+**A, A, B al conectar: dos puñetazos y remate de patadas.** En las tomas reales, Goku enlaza cinco impactos y Vegeta cuatro. Sólo velocidad normal y mandos humanos; se usa una ráfaga nativa distinta para cada personaje y se modera el daño de las patadas. Pendiente de valorar jugando.
 
-[Ver comparación real: v6.6 izquierda, prototipo derecha](assets/media/combos-v1/Comparacion-combos-Goku-Vegeta.mp4) · [Condiciones, pruebas y límites](docs/combos-v1.md). Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version combos-v1`. **La construcción predeterminada sigue siendo v6.6.** Turbo, CPU y los otros nueve personajes conservan su combate anterior. Pendiente de probar con mando y valorar el equilibrio.
+[Ver el vídeo real de los remates](assets/media/combos-v2/Combos-v2-punetazos-y-patadas.mp4) · [Condiciones, pruebas y límites](docs/combos-v2.md). El contador del vídeo está superpuesto; no está en la ROM. Hay [toma limpia de Goku](assets/media/combos-v2/Goku-combo-real-sin-contador.mp4) y [de Vegeta](assets/media/combos-v2/Vegeta-combo-real-sin-contador.mp4).
 
-**[Vídeo del contador propuesto](assets/concepts/combo-counter-v1/Contador-combos-demostracion.mp4):** dos impactos, final de cadena, proyectil posterior, bloqueo y fallo. Es un contador superpuesto sobre grabaciones reales para revisar su aspecto; **todavía no está implementado en la ROM**.
+Construir esta prueba: `pnpm build:review --rom ruta/a/original.bin --version combos-v2`. **La construcción predeterminada sigue siendo v6.6.** Se conserva la [prueba v1 de dos puños y proyectil](docs/combos-v1.md) y la [primera propuesta visual de contador](assets/concepts/combo-counter-v1/Contador-combos-demostracion.mp4).
 
 ## Revisión actual: ROM v6.6
 
@@ -159,6 +159,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Dos puños + patadas (prueba opcional Combos v2, sólo normal)** | A, soltar, A al conectar, B tras el segundo impacto. [Condiciones](docs/combos-v2.md) |
 | **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
@@ -223,6 +224,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Dos puños + patadas (prueba opcional Combos v2, sólo normal)** | A, soltar, A al conectar, B tras el segundo impacto. [Condiciones](docs/combos-v2.md) |
 | **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |

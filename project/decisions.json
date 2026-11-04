@@ -395,7 +395,7 @@
     "evidence": "evidence/intro-original-lineup-v6-6/restoration.json"
   },
   "combosExperimentalV1": {
-    "status": "Implemented optional prototype; user playtest pending",
+    "status": "Previous optional prototype retained; v2 adds requested kick finishers",
     "characters": [
       "Goku",
       "Vegeta"
@@ -425,5 +425,28 @@
     ],
     "sourceRomSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
     "graphics": "Code-rendered pixel UI superposed in postproduction, not a native Mega Drive HUD asset"
+  },
+  "combosExperimentalV2": {
+    "status": "Implemented optional prototype; user visual and manual playtest pending",
+    "characters": [
+      "Goku",
+      "Vegeta"
+    ],
+    "speed": "Normal only; turbo original",
+    "input": "A, release, A on contact, B after second hit",
+    "observedHits": {
+      "Goku": 5,
+      "Vegeta": 4
+    },
+    "observedDamage": {
+      "Goku": 41,
+      "Vegeta": 23
+    },
+    "damageRule": "Quarter positive native kick-finisher damage, minimum1, cap3 kick impacts; ordinary damage unchanged outside combo",
+    "changes": "Faster native finisher, hit reaction refresh/extension only during confirmed finisher, follow-up step8 first link /16 finisher when separated",
+    "counter": "Postproduced preview only, not in ROM",
+    "defaultReview": "v6.6 retained",
+    "romSha256": "1ab750ecfa72e1fd77b04cf1c1c753013fe34416f4af325b658917bfdac48ba7",
+    "docs": "docs/combos-v2.md"
   }
 }
