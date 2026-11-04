@@ -35,6 +35,10 @@ Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura
 
 Los vídeos con rayos que aparecen más abajo corresponden a versiones históricas y no a la decisión vigente.
 
+## Colores de aura: referencias encontradas
+
+**Cell se queda en dorado como los SSJ, sin rayos.** Ya hay fotogramas de referencia para Piccolo, Cell, Freezer, Krilin y Recoome. A18 y Ginyu siguen abiertos; no se ha aplicado todavía una nueva paleta a la ROM. [Ver las imágenes, los colores observados y sus fuentes](docs/aura-color-references.md).
+
 ## Corrección del contorno: C2 v3
 
 Tras elegir el tamaño de C2 v2, el usuario señaló puntas cortadas y huecos. **C2 v3 ya corrige esas uniones dentro del juego**, con un contorno de 80 × 128 basado en la referencia SNES aportada. Mantiene el dorado para los superguerreros y el polvo; Cell y Gohan SSJ2 alternan tres formas de rayos blancos. El contorno fue aceptado posteriormente; los rayos de este vídeo se retiraron en la [revisión actual](docs/auras-c2-v3-no-rays.md).

@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-04",
+  "status": "Reference research, not ROM colour implementation",
+  "lightning": false,
+  "shape": "Approved C2v3 contour retained",
+  "references": [
+    {
+      "character": "Piccolo",
+      "file": "Piccolo-vs-17.png",
+      "color": "Blanco con tonos azulados",
+      "scope": "Carga de cuerpo completo frente a A17. No implica que todas sus técnicas tengan este color.",
+      "page": "https://fandomwire.com/top-5-piccolo-aura-farming-moments-in-dragon-ball/",
+      "image": "https://fwmedia.fandomwire.com/wp-content/uploads/2025/06/16085321/image-361.png",
+      "confidence": "Color observado en un fotograma del anime; episodio exacto y edición no cotejados",
+      "sha256": "2ece11a4885757554fa2ddc9f7f6a15a8df12832cd78d1338498c455ec18608f",
+      "bytes": 983758
+    },
+    {
+      "character": "Cell",
+      "file": "Cell-Goku-gold.jpg",
+      "color": "Dorado como los SSJ, sin rayos",
+      "scope": "Aura de cuerpo completo frente a Goku. Color elegido expresamente por el usuario.",
+      "page": "https://wegotthiscovered.com/anime/here-are-all-forms-of-cell-in-dragon-ball/",
+      "image": "https://wegotthiscovered.com/wp-content/uploads/2022/08/Dragon-Ball-Z-Super-Saiyan-Cell-and-Goku.jpg?resize=564",
+      "confidence": "Color observado y decisión explícita del usuario",
+      "sha256": "be971b959bfc7a34454c5bde3211f7c64111c53f1e7c13194b15db45a45d2ba6",
+      "bytes": 99452
+    },
+    {
+      "character": "Freezer",
+      "file": "Freezer-Z98-powerup.webp",
+      "color": "Blanco azulado / azul cian claro",
+      "scope": "Carga hacia el 100% en Namek, identificada por la galería del episodio 98 de DBZ. Propuesta para trasladar esa familia de color a su aura en el mod.",
+      "page": "https://dragon-ballwiki.com/wiki/a-final-attack/",
+      "image": "https://wikiassets.net/dragonballz-087920/images/ccc4da9643aa7f7a52bce912236125d6.webp",
+      "confidence": "Fotograma observado; episodio atribuido por una galería secundaria",
+      "sha256": "ccc4da9643aa7f7a52bce912236125d64f994eb743232c1cf6da96c93798a467",
+      "bytes": 92560
+    },
+    {
+      "character": "Krilin",
+      "file": "Krillin-Z54-potential.webp",
+      "color": "Blanco luminoso",
+      "scope": "Potencial despertado por el Gran Patriarca. La imagen muestra el resplandor y el texto de la sinopsis describe aura blanca; no es una medición de paleta de todos los episodios.",
+      "page": "https://dragon-ballwiki.com/wiki/gurus-gift/",
+      "image": "https://wikiassets.net/dragonballz-087920/images/5c5c61342cf5d1bfbc62b1af896e9789.webp",
+      "confidence": "Fotograma observado más descripción secundaria de DBZ 54",
+      "sha256": "5c5c61342cf5d1bfbc62b1af896e97899e723ce6ec2422ced45d9796f7f337e4",
+      "bytes": 92740
+    },
+    {
+      "character": "Recoome",
+      "file": "Recoome-bomber-charge.webp",
+      "color": "Núcleo blanco con borde violeta",
+      "scope": "Carga corporal previa a Ultra Fighting Bomber. Sirve como referencia visual; no se ha demostrado que toda carga del personaje use siempre ese tono.",
+      "page": "https://dragon-ballwiki.com/wiki/recoome/",
+      "image": "https://wikiassets.net/dragonballz-087920/images/814064c93a5162142858cc6ed7933bc1.webp",
+      "confidence": "Color observado en el fotograma de preparación de una técnica",
+      "sha256": "814064c93a5162142858cc6ed7933bc113cf35e9eab5c1dfc1a764f4c12cfd3d",
+      "bytes": 159164
+    }
+  ],
+  "unresolved": [
+    {
+      "character": "Android 18",
+      "status": "No habitual DBZ charge aura hue established in the inspected sources",
+      "proposal": "A neutral white/light aura would be an adaptation choice for the game, not a confirmed exclusive anime colour",
+      "context": "The official character profile describes her perpetual energy reactor. Official HDBZ screenshots inspected show attacks and poses, not a comparable charge aura.",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_181.html",
+        "https://network.mugenguild.com/balthazar/hyperdbz/character-info.html?name=Android%2018"
+      ]
+    },
+    {
+      "character": "Ginyu",
+      "status": "No ordinary charge aura hue established in this bounded search",
+      "excluded": "Purple Body Change effect and purple/black Xenoverse Villainous Mode do not establish his normal charging aura",
+      "sources": [
+        "https://dragon-ballwiki.com/wiki/captain-ginyu/",
+        "https://en.dragon-ball-official.com/news/01_3949.html"
+      ]
+    }
+  ],
+  "limits": [
+    "Colours vary by scene, lighting, remaster and technique. These are visual colour families, not official hex swatches.",
+    "Downloaded frames were inspected; image-search generated captions were not treated as evidence.",
+    "Some search results were from Super, fanart, AI art, mods or attacks: those were not used to establish ordinary DBZ charging colours.",
+    "Native Buyuu shared gold palette remains unchanged in the current no-rays ROM."
+  ],
+  "credits": "Original anime frames: Toei Animation / Dragon Ball rights holders. Host pages and image URLs recorded per item. HDBZ references: Team Z2.",
+  "searchBoundary": "DBZ episode references and image galleries, official Dragon Ball profile, official HDBZ creator catalogue and screenshots for Piccolo/Krillin/A18/Freeza. This is a bounded web search, not a frame-by-frame viewing of all episodes."
+}

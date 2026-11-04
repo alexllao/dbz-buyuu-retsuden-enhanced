@@ -18,4 +18,4 @@ Esta variante intermedia todavía conserva la paleta común. No debe presentarse
 
 [Manifiesto](../patches/auras-c2-v3-no-rays/manifest.json) · [Punteros](../src/auras/c2-v3-no-rays/map-pointers.hex) · [Evidencia](../evidence/auras-c2-v3-no-rays/validation.json) · [Base C2 v3](auras-c2-v3.md).
 
-[Registro de referencias y confianza de los colores](../research/auras-colors/reference-ledger.json). El dorado de los Super Saiyan tiene respaldo general; todavía falta contrastar visualmente la carga concreta de los otros siete personajes.
+[Registro de referencias y confianza de los colores](../research/auras-colors/reference-ledger.json). El primer pase se conserva como historial. La [revisión con fotogramas del anime](aura-color-references.md) aporta referencias para cinco personajes; A18 y Ginyu siguen abiertos. Cell queda elegido en dorado como los SSJ.
