@@ -231,7 +231,7 @@
       "supersedes": "Aprobación anterior de rayos para Cell y Gohan SSJ2"
     },
     "colorReview": {
-      "status": "References collected for Piccolo/Cell/Freezer/Krilin/Recoome; A18/Ginyu open. ROM palette adaptation pending.",
+      "status": "Cell golden and Ginyu lilac selected by user. Anime references collected for Piccolo/Freezer/Krilin/Recoome; A18 open. ROM palette adaptation pending.",
       "shapeAndAnimation": "Preserve accepted contour and animation",
       "reference": "Character type and original game style; anime and HDBZ as visual references",
       "superSaiyans": "Golden",
@@ -253,9 +253,15 @@
         "Recoome": "Núcleo blanco con borde violeta"
       },
       "unresolved": [
-        "Android 18",
-        "Ginyu"
-      ]
+        "Android 18"
+      ],
+      "ginyu": {
+        "color": "Lilac with a light core",
+        "lightning": false,
+        "status": "User selected; ROM adaptation pending",
+        "date": "2026-11-04",
+        "evidence": "ginyu seria tipo lila"
+      }
     },
     "parentSource": "src/auras/c2-v3/aura.asm"
   },

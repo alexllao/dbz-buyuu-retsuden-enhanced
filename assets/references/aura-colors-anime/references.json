@@ -70,15 +70,6 @@
         "https://en.dragon-ball-official.com/news/01_181.html",
         "https://network.mugenguild.com/balthazar/hyperdbz/character-info.html?name=Android%2018"
       ]
-    },
-    {
-      "character": "Ginyu",
-      "status": "No ordinary charge aura hue established in this bounded search",
-      "excluded": "Purple Body Change effect and purple/black Xenoverse Villainous Mode do not establish his normal charging aura",
-      "sources": [
-        "https://dragon-ballwiki.com/wiki/captain-ginyu/",
-        "https://en.dragon-ball-official.com/news/01_3949.html"
-      ]
     }
   ],
   "limits": [
@@ -88,5 +79,17 @@
     "Native Buyuu shared gold palette remains unchanged in the current no-rays ROM."
   ],
   "credits": "Original anime frames: Toei Animation / Dragon Ball rights holders. Host pages and image URLs recorded per item. HDBZ references: Team Z2.",
-  "searchBoundary": "DBZ episode references and image galleries, official Dragon Ball profile, official HDBZ creator catalogue and screenshots for Piccolo/Krillin/A18/Freeza. This is a bounded web search, not a frame-by-frame viewing of all episodes."
+  "searchBoundary": "DBZ episode references and image galleries, official Dragon Ball profile, official HDBZ creator catalogue and screenshots for Piccolo/Krillin/A18/Freeza. This is a bounded web search, not a frame-by-frame viewing of all episodes.",
+  "userSelections": {
+    "Cell": {
+      "color": "Golden like SSJ",
+      "lightning": false
+    },
+    "Ginyu": {
+      "color": "Lilac",
+      "lightning": false,
+      "date": "2026-11-04",
+      "evidence": "ginyu seria tipo lila"
+    }
+  }
 }
