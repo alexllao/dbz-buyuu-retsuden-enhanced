@@ -1,0 +1,82 @@
+{
+  "status": "Practical V4 prototype route: share5C00temporarily during normal Ki, with explicit native-FX invalidation and conservative busy guards. Not a globally free region.",
+  "chosen_layout_113tiles": [
+    {"logical":"0..44","VRAM":"A260..A800","tiles":45},
+    {"logical":"45..75","VRAM":"A820..AC00","tiles":31},
+    {"logical":"76..107","VRAM":"5C00..6000","tiles":32},
+    {"logical":"108..112","VRAM":"AE80..AF20","tiles":5}
+  ],
+  "why_normal_stage_pixels_are_safe": {
+    "table":"1769CAgraphics/18C168maps",
+    "scope":"All9full512pixel-high static stage maps, every strip and every64tile row parsed independently.",
+    "tile_range_5C00":"736..767(hex2E0..2FF)",
+    "stage_max_referenced_tiles":[618,639,727,426,511,734,733,735,366],
+    "references_736_767":0,
+    "report":"work/auras/colors-review/stage-5c00-references.json",
+    "limitation":"This establishes no static scenery reference to those32tiles, not absence of native sprite/effect writes."
+  },
+  "native5C00owner": {
+    "entry":"1B91A",
+    "gate":"CMP.W#3,E9C4; return unless equal",
+    "loader":"1B924LEA1B942,A0;1B928MOVEA.W#5C00,A1;1B92CJSR15D2",
+    "source":"1B942 compressed block,1024decompressed bytes",
+    "range":"5C00..6000 exact32tiles",
+    "postload":"1B934 sets actor program017F via20B7A",
+    "dispatch":"Native program015C maps to1B6A0, which calls1B732. That dispatcher looks up globalE9CE; command43 selects relative entry1B76C ->1B91A.",
+    "consumer":"Program017F handler1C2F6 invokes1C310. Mapping table1C3A4 contains tile2E0..2FF effects, confirming genuine native sprite consumers of5C00.",
+    "do_not_remove":"Preserve the original native15D2call and graphics for this effect. A wrapper may mark the custom aura atlas dirty afterward."
+  },
+  "nativeA260temporary_owner": {
+    "load":"28E98LEA2A3A0,A0;28E9CMOVEA.W#A260,A1;28EA0JSR15D2",
+    "source_bytes":1440,
+    "range":"A260..A800",
+    "caller":"The only direct call to28E8A found in main combat code is2885C, immediately after28856MOVE.W#4,E9C4.",
+    "normal_restore":"28718reloadsoriginalauraB6F0 after camera transition throughE71C=0; V3already hooks this to the custom loader.",
+    "recommendation":"Also mark dirty after the original28EA0call; do not replace the native2A3A0special-effect graphics with aura art."
+  },
+  "busy_lifecycle": {
+    "unsafe_test":"E9C4==0 alone is not sufficient.",
+    "static_proof":"In state3handler28814, E9CE43 causes CLRE9C4at28890, followed by E73C XORC0at28898/2889C. Native program017F and camera/cinematic state can continue whileE9C4is already0.",
+    "runtime_proof":"Synthetic native-program fixture below actually observedE9C4=0 withE73C82then02 while program017F and the original5C00FX remained resident.",
+    "conservative_normal_gate":"Allow custom aura upload/draw only when wordE9C4==0 AND byteE73C==0. Keep native FX running while busy.",
+    "cache_protocol":"Known native5C00/A260writers set dirty. Custom loader called while busy marks dirty and defers. On the first permitted normal custom-aura entry, reload all needed atlas segments once and clear dirty. This is the proposed V4 protocol, not code changed by this investigation.",
+    "last_frame_limit":"The first reload after a cinematic needs runtime checking that no still-staged native5C00sprite will be shown with the newly loaded aura tiles. Native effect sequence normally finishes during the return transition, but the exact final-SAT ordering was not exhaustively established here.",
+    "mid_match_limit":"Any other resource overwrite, stage transition or mid-match CID/style change needs invalidation/reload coverage; the two known FX writers alone are not a universal proof."
+  },
+  "initial_load_order": {
+    "verified":"733C..734E selects and decompresses the stage atVRAM0 BEFORE738A calls common graphics9972, including original aura initialization9994.",
+    "consequence":"The initial custom aura loader at9994 may safely replace unused stage-tail5C00pixels after stage loading; ordinary stage decompression will not immediately overwrite that initial atlas.",
+    "source":"7346BSR90B0;734AMOVEA#0,A1;734EJSR15D2;738ABSR9972"
+  },
+  "read_only_runtime_audit": {
+    "report":"work/auras/colors-review/5c00-audit/report.json",
+    "core":"GenesisPlusGX v1.7.4f27655b, originalROM, native normal speed",
+    "normal_cases":"P1charge+release, bothcharge+release, separation then nativeCplanechange and charge.",
+    "normal_results":"One hash per5C00range, zero2E0..2FFsprite entries, E9C4/E73C=0 in sampled normal cases.",
+    "synthetic_fixture":"Explicitly forced valid actor program015C, E9C4=3,E9CE43,E73C41,E73740 in RAM. No CPU-PC jump and no ROM change. This is not a naturally entered special input sequence.",
+    "synthetic_result":"Native code loaded5C00with exact decompressed source1B942, changed actor program to017F, and later clearedE9C4whileE73Cremained nonzero.44sampled states matched nativeFXdata.",
+    "synthetic_limit":"The fixture did not validate a complete natural cinematic lifecycle or visible effect sprite sequence. Its observed native5C00sprite count was0, so it proves the resource write and busy-state distinction, not all display behavior."
+  },
+  "window_alternative_review": {
+    "reject_BC00_C000":"Not a safe flat free block. Window may still appear horizontally below the verticalR18boundary, and this region includes native blank/solid pattern tiles.",
+    "native_pattern_owners":"736CsetsVDPBE00and fills0x200words withEEEE;738EsetsVDPBDE0and73A6clears16words. Tile5EFatBDE0is the native transparent blank, tile5F0atBE00a solid-indexE pattern. Do not overwrite either.",
+    "display_proof":"OfficialGenesisPlusGX vdp_render.c1573..1584 uses the horizontal Window clip outside the vertical boundary;1647uses128byte Window row stride inH40 and1654..1656fetches only visible columns. https://raw.githubusercontent.com/libretro/Genesis-Plus-GX/master/core/vdp_render.c",
+    "padding_candidate":"Each row has one aligned32byte tile in unused columns48..63: B060+row*80hex. Exclude rows0..7because native102D2loads1024bytesatB000, and exclude row27/BDE0because native maps reference blanktile5EF. Remaining23paddingtiles are only an alternative allocation candidate.",
+    "audit":"1223originalROMsnapshots: all32paddingtile hashes andBC00..C000unchanged; native camera-splitE740values0/FF and plane flags00/10observed;R12=81,R17=8A,R18=04. Only5EFamong rows8..31padding candidates was referenced by plane/windowtables. This is bounded evidence, not all-mode safety.",
+    "audit_report":"work/auras/colors-review/window-vram-audit/report.json",
+    "cost":"Scattered1tile-per-row allocation can split sprites and increase counts. Not selected for the minimal V4 path."
+  },
+  "plane_height_alternative": {
+    "reject_drop_in":"ChangingR16from64x64to64x32does not simply free8KB without visual changes: static stages are512pixels high and cameraYcan reach280, so a256pixel wrap aliases the air/ground scenery unless the renderer also streams/rebuilds rows.",
+    "status":"No such background-streaming redesign implemented or proposed for the current color preview."
+  },
+  "required_V4_QA": [
+    "Verify both per-player atlases and dust in all4physicalsegments after normal entry, including mixed-color simultaneouscharge.",
+    "Verify original5C00andA260FXwriters still upload their native source and set dirty; custom aura must not overwrite them while busy.",
+    "Verify E9C4clears beforeE73Ccan remainbusy and that custom reload happens only after both clear.",
+    "Check no old native5C00sprite remains in stagingSATwhen custom atlas is restored after a real special.",
+    "Repeat sprite80/20scanline budgets, no airborne dust, nativeHP/natural-hit interruption, camera/HScroll/SAT and HUD/stage palette checks.",
+    "Label normalKi videos as previews; do not claim exhaustive all-stage or all-special compatibility until exercised."
+  ],
+  "changes":"No ROM/repository edited. Analysis scripts, static ledgers and read-only native-emulator reports only."
+}

@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: jugabilidad v1 experimental · contorno C2 v3 aceptado, sin rayos; colores por personaje pendientes · escenario nevado en bocetos**
+**Estado: jugabilidad v1 experimental · ki por personaje v4 grabado y listo para validación visual · escenario nevado en bocetos**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -22,22 +22,26 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
 | Presentación | **G — C con contraste marcado elegida**; pendiente de integrar en la próxima ROM. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
-| Auras | **Contorno C2 v3 aceptado; sin rayos en todos los personajes.** Pendiente adaptar colores por personaje. |
+| Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; pendiente validación visual de paletas. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Auras actuales: sin rayos
+## Ki actual: colores por personaje v4
 
-**El contorno nuevo está aceptado. Por la última decisión, ningún personaje lleva rayos, incluidos Cell y Gohan SSJ2.** Se mantienen tamaño, animación, polvo y salida. Sólo queda adaptar los colores por tipo de personaje y estilo del original; esta prueba intermedia conserva todavía la paleta común.
+**Ya están implementadas y grabadas las once paletas para revisión. Todos los personajes van sin rayos.** Cell comparte dorado con los Super Saiyan; Ginyu usa lila, Recoome blanco/violeta, Piccolo/A18/Freezer blanco azulado y Krilin blanco. El contorno aprobado se mantiene.
 
-[Ver Cell sin rayos](assets/media/auras-c2-v3-no-rays/Cell.mp4) · [Ver Gohan sin rayos](assets/media/auras-c2-v3-no-rays/Gohan-SSJ2.mp4) · [Cambios y pruebas](docs/auras-c2-v3-no-rays.md)
+![Ginyu: ki lila dentro del juego](assets/media/ki-colores-v4/Capturas/10-Ginyu.png)
 
-Los vídeos con rayos que aparecen más abajo corresponden a versiones históricas y no a la decisión vigente.
+[Ver los once, antes y después](assets/media/ki-colores-v4/Ki-todos-antes-despues.mp4) · [Revisar las salidas a cámara lenta](assets/media/ki-colores-v4/Salida-ki-todos-lenta.mp4) · [Vídeos individuales, pruebas y límites](docs/ki-colores-v4.md)
 
-## Colores de aura: referencias encontradas
+La comparación muestra el ki nativo con Colores v1 a la izquierda y la nueva aura a la derecha. Son grabaciones reales. La ROM de prueba es de 4 MiB y las paletas quedan pendientes de tu aprobación visual. La revisión de especiales completos y hardware sigue pendiente.
 
-**Cell se queda en dorado como los SSJ, sin rayos.** Ya hay fotogramas de referencia para Piccolo, Cell, Freezer, Krilin y Recoome. **Ginyu queda elegido en lila, sin rayos.** **A18 queda elegida en blanco como Freezer, sin rayos.** La adaptación de estos colores a la ROM sigue pendiente. [Ver las imágenes, los colores observados y sus fuentes](docs/aura-color-references.md).
+La [variante anterior sin rayos y paleta común](docs/auras-c2-v3-no-rays.md) se conserva. Los vídeos con rayos de versiones antiguas que aparecen más abajo forman parte del historial.
+
+## Colores de aura: referencias
+
+[Imágenes del anime y decisiones de color](docs/aura-color-references.md). Cell dorado, Ginyu lila y A18 blanca como Freezer son elecciones expresas del usuario; ya están aplicadas en esta prueba v4.
 
 ## Corrección del contorno: C2 v3
 

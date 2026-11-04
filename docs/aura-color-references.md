@@ -45,3 +45,5 @@ Potencial despertado por el Gran Patriarca. La imagen muestra el resplandor y el
 Carga corporal previa a Ultra Fighting Bomber. Sirve como referencia visual; no se ha demostrado que toda carga del personaje use siempre ese tono. [Fuente](https://dragon-ballwiki.com/wiki/recoome/).
 
 [Registro completo, fuentes y límites](../research/auras-colors/anime-reference-review.json). Los fotogramas del anime pertenecen a sus titulares; se conservan como referencias de estudio del mod.
+
+**Estado posterior:** los colores individuales ya están [implementados y grabados en v4](ki-colores-v4.md), pendientes de validación visual.

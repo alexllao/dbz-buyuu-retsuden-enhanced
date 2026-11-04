@@ -1,0 +1,27 @@
+{
+  "version": "c2-v4-character-colors",
+  "source": {
+    "bytes": 2097152,
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557"
+  },
+  "patch": {
+    "path": "patches/auras-c2-v4/auras-c2.ips",
+    "sha256": "df01a7e58da243011383c2048f9754a404d89b8528fe521b797da3415bd415ba"
+  },
+  "target": {
+    "filename": "Jugabilidad_v1_Colores_v1_Ki_Individual_v4.bin",
+    "bytes": 4194304,
+    "sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b"
+  },
+  "code": {
+    "base": "0x7B400",
+    "bytes": 3818,
+    "assemblyHex": "src/auras/c2-v4/aura.hex",
+    "sha256": "dfa65c66b85df7d671fb98da1835c7910e8c8e4bc72f2964e6da9a3f50b050e0",
+    "mapTable": "0x7b6ea"
+  },
+  "resources": "src/auras/c2-v4/resources.json",
+  "characterRemap": "evidence/auras-c2-v4/character-remap.json",
+  "lightningCharacterIds": [],
+  "status": "Individual palettes implemented and recorded; user visual validation pending"
+}

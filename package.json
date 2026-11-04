@@ -18,6 +18,7 @@
     "build:auras": "node tools/build-auras.mjs",
     "build:auras:v2": "node tools/build-auras.mjs --version c2-v2",
     "build:auras:v3": "node tools/build-auras.mjs --version c2-v3",
-    "build:auras:no-rays": "node tools/build-auras.mjs --version c2-v3-no-rays"
+    "build:auras:no-rays": "node tools/build-auras.mjs --version c2-v3-no-rays",
+    "build:auras:v4": "node tools/build-auras.mjs --version c2-v4"
   }
 }

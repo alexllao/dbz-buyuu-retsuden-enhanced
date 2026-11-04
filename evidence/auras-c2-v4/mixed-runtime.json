@@ -1,0 +1,151 @@
+{
+  "status": "PASS for bounded normal-Ki and synthetic shared-resource checks; not a complete special-attack release validation",
+  "sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+  "rom": "work/auras/colors-v4/candidate.bin",
+  "core": "GenesisPlusGXv1.7.4f27655b, native normal speed",
+  "reports": [
+    "work\\auras\\colors-v4\\runtime-qa-extra\\pair-00-02\\report.json",
+    "work\\auras\\colors-v4\\runtime-qa-extra\\pair-09-06\\report.json"
+  ],
+  "tested_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      9,
+      6
+    ]
+  ],
+  "pair_names": [
+    "Goku/Piccolo",
+    "Recoome/Android18"
+  ],
+  "normal_sample_count": 1430,
+  "normal_results": {
+    "all113atlas_tiles_exact_in_all_samples": true,
+    "segment_breakdown": "P1A26045+A82010; P2A96021+5C0032+AE802; commonDustAEC03. Combinedlogical113tiles across4physicalareas.",
+    "max_frame_sprites": 78,
+    "max_scanline_sprites": 18,
+    "max_scanline_width_pixels": 232,
+    "tile540_tail_preserved": true,
+    "commonCRAM54_63_preserved": true,
+    "dirty_always_zero": true,
+    "air_dust_max": 0,
+    "P2charge": "Pass",
+    "two_consecutive_charges": "Pass",
+    "simultaneous_different_styles": "Pass: both resident atlases match expected streams while both actors sustain; SAT palette assignments distinct as listed below."
+  },
+  "simultaneous_palette_evidence": [
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "P1_aura_palette_banks": [
+        3
+      ],
+      "P2_aura_palette_banks": [
+        1
+      ],
+      "dust_palette_banks": [
+        3
+      ],
+      "both_sustain_samples": 65
+    },
+    {
+      "pair": [
+        9,
+        6
+      ],
+      "P1_aura_palette_banks": [
+        0
+      ],
+      "P2_aura_palette_banks": [
+        1
+      ],
+      "dust_palette_banks": [
+        3
+      ],
+      "both_sustain_samples": 63
+    }
+  ],
+  "native_FX_wrapper_results": [
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "kind": "native5C00",
+      "native_fx_loaded": true,
+      "first_native_fx_frame": 2,
+      "all_subsequent_busy_samples_preserve_native_fx": true,
+      "all_subsequent_busy_samples_keep_dirty": true,
+      "samples_E9C4_zero_but_E73C_busy": 170,
+      "both_C2phases_zero": true,
+      "natural_end_observed": false
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "kind": "nativeA260",
+      "first_native_fx_frame": 14,
+      "all_subsequent_busy_samples_preserve_native_fx": true,
+      "all_subsequent_busy_samples_keep_dirty": true,
+      "modes": [
+        [
+          4,
+          65
+        ]
+      ],
+      "fixture": "Synthetic state3,E9CE0: native state3 branch enters4 and calls28E8A/28EA0; no direct CPU jump."
+    },
+    {
+      "pair": [
+        9,
+        6
+      ],
+      "kind": "native5C00",
+      "native_fx_loaded": true,
+      "first_native_fx_frame": 1,
+      "all_subsequent_busy_samples_preserve_native_fx": true,
+      "all_subsequent_busy_samples_keep_dirty": true,
+      "samples_E9C4_zero_but_E73C_busy": 170,
+      "both_C2phases_zero": true,
+      "natural_end_observed": false
+    }
+  ],
+  "forced_normal_restore_tests": [
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "first_fully_restored_frame": 7,
+      "following_samples_stay_exact": true,
+      "fixture": "EXPLICIT forced transition: clearE9C4/E73C/E9CE and set native actorprograms idle. This is not a naturally completed special.",
+      "timing_caution": "First full snapshot atframe7 of this fixture is not a profiled universal decompression duration."
+    },
+    {
+      "pair": [
+        9,
+        6
+      ],
+      "first_fully_restored_frame": 7,
+      "following_samples_stay_exact": true,
+      "fixture": "EXPLICIT forced transition: clearE9C4/E73C/E9CE and set native actorprograms idle. This is not a naturally completed special.",
+      "timing_caution": "First full snapshot atframe7 of this fixture is not a profiled universal decompression duration."
+    }
+  ],
+  "static_stage_and_lifecycle_evidence": "work/auras/colors-review/vram-extra-findings.json andstage-5c00-references.json:all9static maps have zero references736..767; native5C00is nevertheless a temporary special-effect resource, not globally free.",
+  "limitations": [
+    "Modified-ROM extraQA uses two mixed pairs on native stage0 at normal speed. Root records the11P1character previews separately.",
+    "Natural cinematic input/complete ending not exercised. Synthetic5C00scene retainedE73Cnonzero through180frames; this is an incomplete synthetic scene, not evidence of a natural-game hang.",
+    "The safe-state restoration check explicitly forces scene flags/programs toidle and must not be described as a native completed special.",
+    "Final-SAT transition timing after a real special, every special/state/stage, turbo modified-ROM behavior and hardware remain unvalidated.",
+    "Common palette preservation is verified for the ten shared entries54..63. This does not independently prove every consumer of modified per-character palette slots; the separate character-remap audit owns that scope.",
+    "No ROM or repository modified during this QA."
+  ]
+}

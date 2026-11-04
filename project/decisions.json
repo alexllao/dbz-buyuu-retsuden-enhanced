@@ -111,7 +111,7 @@
     "goku": "C2: llamas altas y polvo, sin rayos",
     "image": "assets/comparisons/auras/C2-Goku-sin-rayos.png",
     "lightningAllowedOnly": [],
-    "status": "Contorno nuevo aceptado; todos los rayos retirados. Adaptación de colores por personaje pendiente.",
+    "status": "Colores individuales implementados y grabados para los once; validación visual pendiente. Todos sin rayos.",
     "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku",
     "selected": "C2",
     "date": "2026-11-04",
@@ -120,31 +120,33 @@
       "Gohan SSJ2"
     ],
     "otherCharacters": "Sin rayos; Gohan en otras formas tampoco debe llevarlos.",
-    "reviewVideo": "assets/media/auras-c2-v3-no-rays/Cell.mp4",
-    "implementation": "C2v3 sin rayos, conserva contorno80x128, polvo y salida. Colores por personaje pendientes.",
-    "slowExitVideo": "assets/media/auras-c2-v3/Salida-Goku-lenta.mp4",
-    "validation": "evidence/auras-c2-v3-no-rays/validation.json",
-    "source": "src/auras/c2-v3-no-rays/map-pointers.hex",
+    "reviewVideo": "assets/media/ki-colores-v4/Ki-todos-antes-despues.mp4",
+    "implementation": "Dos atlas de llama residentes, geometría C2v3 preservada; paletas por personaje. ROM de prueba4MiB.",
+    "slowExitVideo": "assets/media/ki-colores-v4/Salida-ki-todos-lenta.mp4",
+    "validation": "evidence/auras-c2-v4/validation.json",
+    "source": "src/auras/c2-v4/aura.asm",
     "nativeAdaptation": {
       "width": 80,
       "height": 128,
-      "tiles": 64,
-      "flameTiles": 55,
+      "tiles": 113,
+      "flameTiles": 110,
       "lightningForms": 0,
-      "palette": "Paleta compartida nativa conservada",
+      "palette": "Individual palettes; native common HUD/dust palette preserved",
       "graphicsSegments": [
         "A260..A800",
-        "A820..AA80"
+        "A820..AC00",
+        "5C00..6000 (shared temporary effect, guarded)",
+        "AE80..AF20"
       ],
       "reservedScrollTile": "540",
       "releaseTicks": 12,
       "fade": "Densidad temporal; cada fotograma visible conserva el contorno entero",
-      "referenceMapIdentity": 384
+      "referenceMapIdentity": 768
     },
-    "userVisualApproval": "Aspecto del contorno nuevo aceptado; adaptar únicamente colores por tipo de personaje y estética original. Retirar rayos incluso Cell/Gohan.",
-    "currentRevision": "c2-v3-no-rays",
+    "userVisualApproval": "Contorno y dirección de colores elegidos; pendiente validar las once grabaciones v4.",
+    "currentRevision": "c2-v4",
     "sizeComparisonVideo": "assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4",
-    "runtimeQa": "evidence/auras-c2-v3-no-rays/validation.json",
+    "runtimeQa": "evidence/auras-c2-v4/mixed-runtime.json",
     "previousRevision": {
       "id": "c2-v1",
       "documentation": "docs/auras-c2-v1.md",
@@ -160,8 +162,7 @@
       "yo los veo bien los raios"
     ],
     "readmePreviews": [
-      "assets/media/auras-c2-v3-no-rays/Cell.mp4",
-      "assets/media/auras-c2-v3-no-rays/Gohan-SSJ2.mp4"
+      "assets/media/ki-colores-v4/Capturas/10-Ginyu.png"
     ],
     "directionApproval": {
       "status": "approved",
@@ -231,7 +232,7 @@
       "supersedes": "Aprobación anterior de rayos para Cell y Gohan SSJ2"
     },
     "colorReview": {
-      "status": "Cell golden, Ginyu lilac and A18 white like Freezer selected by user. Colour references available for remaining characters. ROM palette adaptation pending.",
+      "status": "Implemented and recorded in c2-v4; user visual approval pending",
       "shapeAndAnimation": "Preserve accepted contour and animation",
       "reference": "Character type and original game style; anime and HDBZ as visual references",
       "superSaiyans": "Golden",
@@ -256,17 +257,18 @@
       "ginyu": {
         "color": "Lilac with a light core",
         "lightning": false,
-        "status": "User selected; ROM adaptation pending",
+        "status": "Implemented; visual validation pending",
         "date": "2026-11-04",
         "evidence": "ginyu seria tipo lila"
       },
       "android18": {
         "color": "White with a subtle cool-blue tint, like Freezer",
         "lightning": false,
-        "status": "User selected; ROM adaptation pending",
+        "status": "Implemented; visual validation pending",
         "date": "2026-11-04",
         "evidence": "a18 color tipo blanco, como freezer si te va bien"
-      }
+      },
+      "rom": "patches/auras-c2-v4/manifest.json"
     },
     "parentSource": "src/auras/c2-v3/aura.asm"
   },

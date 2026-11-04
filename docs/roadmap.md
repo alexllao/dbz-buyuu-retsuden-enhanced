@@ -22,7 +22,8 @@
 - [ ] Implementar HUD y comprobar sus recursos/paletas.
 - [ ] Corregir los cortes rectos y huecos en las uniones del contorno del aura, señalados en la captura de Ginyu.
 - [x] Contorno C2 v3 aceptado; retirada posterior de todos los rayos implementada y grabada con Cell/Gohan.
-- [ ] Adaptar los colores de aura por tipo de personaje y estilo del juego original.
+- [x] Implementar y grabar colores de aura por personaje, manteniendo el contorno aprobado y todos sin rayos.
+- [ ] Validación visual de las once paletas v4; revisar especiales completos y hardware antes de considerar una ROM final.
 - [ ] Repetir las pruebas afectadas tras la reparación del contorno.
 - [ ] Ampliar las pruebas C2 v2 a más situaciones con otros efectos simultáneos.
 - [ ] Revisar ataques especiales y sus colores.

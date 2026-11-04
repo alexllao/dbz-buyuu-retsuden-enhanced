@@ -19,3 +19,5 @@ Esta variante intermedia todavía conserva la paleta común. No debe presentarse
 [Manifiesto](../patches/auras-c2-v3-no-rays/manifest.json) · [Punteros](../src/auras/c2-v3-no-rays/map-pointers.hex) · [Evidencia](../evidence/auras-c2-v3-no-rays/validation.json) · [Base C2 v3](auras-c2-v3.md).
 
 [Registro de referencias y confianza de los colores](../research/auras-colors/reference-ledger.json). El primer pase se conserva como historial. La [revisión con fotogramas del anime](aura-color-references.md) aporta referencias para cinco personajes; A18 y Ginyu siguen abiertos. Cell queda elegido en dorado como los SSJ.
+
+**Estado posterior:** los colores individuales ya están [implementados y grabados en v4](ki-colores-v4.md), pendientes de validación visual.

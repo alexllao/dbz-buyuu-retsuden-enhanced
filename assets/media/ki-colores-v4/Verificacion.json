@@ -1,0 +1,250 @@
+{
+  "revision": "c2-v4-character-colors",
+  "source_sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "target_sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+  "target_bytes": 4194304,
+  "rom_filename": "Jugabilidad_v1_Colores_v1_Ki_Individual_v4.bin",
+  "patch_sha256": "df01a7e58da243011383c2048f9754a404d89b8528fe521b797da3415bd415ba",
+  "characters": [
+    {
+      "character_id": 0,
+      "name": "Goku-SSJ",
+      "color": "DORADO",
+      "comparison_video": "00-Goku-SSJ.mp4",
+      "comparison_sha256": "93e773324483dd8a0ecbd40290dcf5e1c4329cacda548230dab5ba6072ca5ad4",
+      "new_only_video": "Solo-nuevo/00-Goku-SSJ.mp4",
+      "new_only_sha256": "2a95f67394dfccbb5f4bdd93390a6a5f099981dceb21d75a14f386bd02b0dd55",
+      "screenshot": "Capturas/00-Goku-SSJ.png",
+      "screenshot_sha256": "109fe1c4494304a888dc83f766acd6301ed55355334cf4001bd48c192bbace52",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 62,
+        "scanline_sprites": 15,
+        "scanline_pixels": 200
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 1,
+      "name": "Gohan-SSJ2",
+      "color": "DORADO",
+      "comparison_video": "01-Gohan-SSJ2.mp4",
+      "comparison_sha256": "7235220fc9fa4ef9dd6e136e0fcec69f2e2fc754cd80dcfd6131b6f01a3480b7",
+      "new_only_video": "Solo-nuevo/01-Gohan-SSJ2.mp4",
+      "new_only_sha256": "816c977fe9192065deb0295c180da392a8409cd1fbb0e6d609825a43a6e5ce50",
+      "screenshot": "Capturas/01-Gohan-SSJ2.png",
+      "screenshot_sha256": "d7c9ea074209f88b66b4fe0fcc560b201446f74a513dc3942756f24682dd9ed4",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 59,
+        "scanline_sprites": 15,
+        "scanline_pixels": 192
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 2,
+      "name": "Piccolo",
+      "color": "BLANCO AZULADO",
+      "comparison_video": "02-Piccolo.mp4",
+      "comparison_sha256": "71c558564edf4d89e8e5a6c69914f321ee9a249321d975c431d173b9d7e557df",
+      "new_only_video": "Solo-nuevo/02-Piccolo.mp4",
+      "new_only_sha256": "0d555c9f287166bedc56d21783d80462c46af300c64caef64fbd41073fb77ce6",
+      "screenshot": "Capturas/02-Piccolo.png",
+      "screenshot_sha256": "7a03179eeb558a2fbf47b4ca9b197a8fda39492cea1c8a025896261e1aa75b33",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 67,
+        "scanline_sprites": 16,
+        "scanline_pixels": 200
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 3,
+      "name": "Vegeta-SSJ",
+      "color": "DORADO",
+      "comparison_video": "03-Vegeta-SSJ.mp4",
+      "comparison_sha256": "c84643a06d0b27c744ab2328f26c12ae22e798233c4f080f553cb33098d8e85c",
+      "new_only_video": "Solo-nuevo/03-Vegeta-SSJ.mp4",
+      "new_only_sha256": "1b5a27a5874d250bbe4a1393a5b9ab321af6957adb8ef8440fa04194dafab60f",
+      "screenshot": "Capturas/03-Vegeta-SSJ.png",
+      "screenshot_sha256": "7ece5d9f8fa525b7b0a073f5f3db73493f189e214e122f9c99230bf017ec57b8",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 60,
+        "scanline_sprites": 15,
+        "scanline_pixels": 200
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 4,
+      "name": "Trunks-SSJ",
+      "color": "DORADO",
+      "comparison_video": "04-Trunks-SSJ.mp4",
+      "comparison_sha256": "364cbf8a826c94799245d47dcad6f321848e22c0c0b9609fc927dcb48b0c7ff5",
+      "new_only_video": "Solo-nuevo/04-Trunks-SSJ.mp4",
+      "new_only_sha256": "837454fe36eb439f2fbe3a3e82441375e7830d5b4253d1c6fa6e3d41f283b1f8",
+      "screenshot": "Capturas/04-Trunks-SSJ.png",
+      "screenshot_sha256": "06da303fed8ec980b1c6a27b603c25fa72e4ea55882f0b3ba4295000242e3341",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 59,
+        "scanline_sprites": 15,
+        "scanline_pixels": 192
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 5,
+      "name": "Cell",
+      "color": "DORADO",
+      "comparison_video": "05-Cell.mp4",
+      "comparison_sha256": "8bcae861293ef282dde5efc24c749e2cef0a8eea326e4ad9eb4c2a27dc164bf0",
+      "new_only_video": "Solo-nuevo/05-Cell.mp4",
+      "new_only_sha256": "b432d8b21d6b1cc4a04cf8e63056d70143d168a1955926afd7f3f4191a3717bf",
+      "screenshot": "Capturas/05-Cell.png",
+      "screenshot_sha256": "2948986ff23dbb7d901bcd6f620540a936a10dfc0455328dbf1c8ac989d05208",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 64,
+        "scanline_sprites": 15,
+        "scanline_pixels": 208
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 6,
+      "name": "A18",
+      "color": "BLANCO AZULADO",
+      "comparison_video": "06-A18.mp4",
+      "comparison_sha256": "df1640b4b9ed5d76827e38788fe8e580a0aa6d03f76730687abdd140a83db471",
+      "new_only_video": "Solo-nuevo/06-A18.mp4",
+      "new_only_sha256": "ec5977819a3fed8f880fa14c5d8e5cb2a766853f5ea405814d864204be736505",
+      "screenshot": "Capturas/06-A18.png",
+      "screenshot_sha256": "849158d83c420b2ea816451f0875a9842a5ea6d752fc72eb372a6a0162368bc6",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 62,
+        "scanline_sprites": 16,
+        "scanline_pixels": 200
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 7,
+      "name": "Krilin",
+      "color": "BLANCO",
+      "comparison_video": "07-Krilin.mp4",
+      "comparison_sha256": "5af8df0d709b58ea8de18e21ab2701274dc8567dfe9bdb98b4f610afc5efe916",
+      "new_only_video": "Solo-nuevo/07-Krilin.mp4",
+      "new_only_sha256": "f82423d7550f7e52a143d4e30166ea67f6985d06ba1d78c11c115d7a366b3b83",
+      "screenshot": "Capturas/07-Krilin.png",
+      "screenshot_sha256": "5de579cad69d70e0c36cc3f168f1fbdaa4ad9ecd85ba7f412ee2f82d473340b0",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 59,
+        "scanline_sprites": 15,
+        "scanline_pixels": 208
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 8,
+      "name": "Freezer",
+      "color": "BLANCO AZULADO",
+      "comparison_video": "08-Freezer.mp4",
+      "comparison_sha256": "623bc3ebbc7a006646709c137741cc7e15f01857c41a72730e18d3f63a4f40fd",
+      "new_only_video": "Solo-nuevo/08-Freezer.mp4",
+      "new_only_sha256": "073370d40f27d6c4f979dd9cbd9cac1989cd464b01e1150bcfaa737d69c8a0b4",
+      "screenshot": "Capturas/08-Freezer.png",
+      "screenshot_sha256": "bedff8375ce699b4ccb95252151eba54cc09cb22da185ee0710339ec83e1ecef",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 63,
+        "scanline_sprites": 16,
+        "scanline_pixels": 208
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 9,
+      "name": "Recoome",
+      "color": "BLANCO Y VIOLETA",
+      "comparison_video": "09-Recoome.mp4",
+      "comparison_sha256": "40a57920fbdd28d82c732238b8e75371c0c709b5d911c31e1b7de546129ffd18",
+      "new_only_video": "Solo-nuevo/09-Recoome.mp4",
+      "new_only_sha256": "c55648fc6ebd0608e175762203555b31edf818853e6238c14a92055947156827",
+      "screenshot": "Capturas/09-Recoome.png",
+      "screenshot_sha256": "c549a850819e43bc1a851c182ecdead3448243cfa228fb1df8ccc17640cca504",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 67,
+        "scanline_sprites": 16,
+        "scanline_pixels": 216
+      },
+      "lightning": false
+    },
+    {
+      "character_id": 10,
+      "name": "Ginyu",
+      "color": "LILA",
+      "comparison_video": "10-Ginyu.mp4",
+      "comparison_sha256": "52030b7670a188b5ef88942a7e50c41b5cefcc3a6a5f8c3c79f732e3100c7740",
+      "new_only_video": "Solo-nuevo/10-Ginyu.mp4",
+      "new_only_sha256": "4820854f8c95642577720c9338c2920142a3d4ce224835745b2b4d23572b86d2",
+      "screenshot": "Capturas/10-Ginyu.png",
+      "screenshot_sha256": "005a2d961c9bb95b430b3a7d70a89629cc2c46be356cfae4baafa608404e7d2e",
+      "recorded_frames": 260,
+      "palette_samples": 16,
+      "all_palette_and_atlas_samples_exact": true,
+      "graphics_budgets": {
+        "sprites": 60,
+        "scanline_sprites": 15,
+        "scanline_pixels": 208
+      },
+      "lightning": false
+    }
+  ],
+  "comparison_source": {
+    "sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+    "description": "Native original Ki effect with previously accepted controls/colors v1. This is not the untouched ROM as a whole."
+  },
+  "montage": {
+    "path": "Ki-todos-antes-despues.mp4",
+    "sha256": "6a658648d5da5ccf19a992ece223635b6df734a96026ce03a672ed15b75fec6f"
+  },
+  "slow_exit": {
+    "path": "Salida-ki-todos-lenta.mp4",
+    "sha256": "0687da5ec15fcf960cfa53edb7b8f4e564db2e935d3d69865e3d8f54ed555e0c"
+  },
+  "visual_user_approval": "Pending for these individual aura palettes",
+  "limits": [
+    "Recorded with Genesis Plus GX v1.7.4 f27655b; normal speed, controlled idle opponent, one native charge/release/movement sequence per fighter.",
+    "Videos have no audio. Slow exit is an explicitly labelled playback at one quarter speed.",
+    "Shape and dust preserved. Palette mapping is a Mega Drive adaptation, not exact anime hex sampling.",
+    "Separate character palette/mirror and shared-effect QA reports accompany the prototype; not an exhaustive claim for all special attacks, stages or physical hardware.",
+    "Presentation G, credit, selection portraits, HUD H4 and snow stage are not integrated in this ROM."
+  ]
+}

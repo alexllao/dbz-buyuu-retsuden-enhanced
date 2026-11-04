@@ -28,3 +28,7 @@ El 4 de noviembre de 2026 se mantiene el dorado para los superguerreros, incluid
 ## Última revisión de auras
 
 El contorno C2 v3 está aceptado. La petición posterior retira todos los rayos, incluidos los de Cell y Gohan SSJ2; sustituye las decisiones anteriores sobre rayos. Se mantienen forma, tamaño, animación, polvo y salida. Queda pendiente adaptar los colores por tipo de personaje y estilo del original. [Versión sin rayos y grabaciones reales](auras-c2-v3-no-rays.md).
+
+## Ki individual v4
+
+Colores elegidos e implementados para los once personajes; todos sin rayos. Cell dorado, Ginyu lila y A18 blanca como Freezer. [Grabaciones reales para validar](ki-colores-v4.md). El contorno se mantiene aceptado y estas paletas concretas quedan pendientes de aprobación visual.
