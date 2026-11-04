@@ -393,5 +393,23 @@
     "feedback": "Nada, los personajes dejalos como en original",
     "keep": "Warm-C large Goku face and title, both credits and existing combat changes",
     "evidence": "evidence/intro-original-lineup-v6-6/restoration.json"
+  },
+  "combosExperimentalV1": {
+    "status": "Implemented optional prototype; user playtest pending",
+    "characters": [
+      "Goku",
+      "Vegeta"
+    ],
+    "speed": "Normal only; turbo original",
+    "command": "Close standing A, release, A on hit, then optional Back Forward+A after second hit",
+    "scope": "Two punch link; native projectile cancel, third hit not guaranteed",
+    "firstLinkStepPixels": 8,
+    "tests": {
+      "comboCases": 200,
+      "sideSwitchRegressionCases": 374
+    },
+    "defaultReview": "v6.6 retained",
+    "targetSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+    "docs": "docs/combos-v1.md"
   }
 }

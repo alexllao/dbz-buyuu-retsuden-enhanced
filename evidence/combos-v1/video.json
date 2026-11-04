@@ -1,0 +1,59 @@
+{
+  "recordings": [
+    {
+      "romSha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+      "cid": 0,
+      "tag": "base",
+      "fps": 59.92274340431231,
+      "frames": 240,
+      "hits": [
+        35
+      ],
+      "fixture": "Native menus, actual human command inputs, fixed initial positions/facing only, no HP/ki/action/timer forcing; silent emulator capture"
+    },
+    {
+      "romSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+      "cid": 0,
+      "tag": "combos",
+      "fps": 59.92274340431231,
+      "frames": 240,
+      "hits": [
+        35,
+        55
+      ],
+      "fixture": "Native menus, actual human command inputs, fixed initial positions/facing only, no HP/ki/action/timer forcing; silent emulator capture"
+    },
+    {
+      "romSha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+      "cid": 3,
+      "tag": "base",
+      "fps": 59.92274340431231,
+      "frames": 240,
+      "hits": [
+        34,
+        69
+      ],
+      "fixture": "Native menus, actual human command inputs, fixed initial positions/facing only, no HP/ki/action/timer forcing; silent emulator capture"
+    },
+    {
+      "romSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+      "cid": 3,
+      "tag": "combos",
+      "fps": 59.92274340431231,
+      "frames": 240,
+      "hits": [
+        34,
+        51,
+        82
+      ],
+      "fixture": "Native menus, actual human command inputs, fixed initial positions/facing only, no HP/ki/action/timer forcing; silent emulator capture"
+    }
+  ],
+  "sameInputsPerPair": true,
+  "comparisonSha256": "7a8439df220407d8792c8f4a17bd1a414402ac235c1e579841d36546504bac86",
+  "comparisonBytes": 648304,
+  "comparisonPath": "outputs\\combos-v1\\Comparacion-combos-Goku-Vegeta.mp4",
+  "left": "v6.6 actual",
+  "right": "Prototype normal-speed combos",
+  "silent": true
+}

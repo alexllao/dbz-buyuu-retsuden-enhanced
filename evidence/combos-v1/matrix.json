@@ -1,0 +1,5864 @@
+{
+  "romSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+  "jobs": [
+    {
+      "cid": 0,
+      "port": 1,
+      "turbo": false,
+      "cases": 25,
+      "checks": {
+        "bothDirectionsLinked": true,
+        "finisherCancelObserved": true,
+        "guardNoCancel": true,
+        "whiffNoCancel": true,
+        "heldOnlyOneContinuation": true,
+        "trueTwoHitLinkObserved": true,
+        "defenderRegainsControlBeforeLaterNormalHits": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            74
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1025,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            30,
+            80
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            35
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1027
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            30
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            36
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1028
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 0,
+      "port": 1,
+      "turbo": true,
+      "cases": 25,
+      "checks": {
+        "normalSpeedOnlyGate": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            52,
+            108
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            52,
+            108
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            52,
+            108
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            56,
+            112
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            56,
+            112
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            56,
+            112
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            58,
+            114
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            58,
+            114
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            58,
+            114
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            70
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1025,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            52,
+            143
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33,
+            36
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1025,
+            1028
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            52
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            36
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1028
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            52,
+            107
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            52,
+            107
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            52,
+            107
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            56,
+            112
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            56,
+            112
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            58,
+            114
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            58,
+            114
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            58,
+            114
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 0,
+      "port": 2,
+      "turbo": false,
+      "cases": 25,
+      "checks": {
+        "bothDirectionsLinked": true,
+        "finisherCancelObserved": true,
+        "guardNoCancel": true,
+        "whiffNoCancel": true,
+        "heldOnlyOneContinuation": true,
+        "trueTwoHitLinkObserved": true,
+        "defenderRegainsControlBeforeLaterNormalHits": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            73
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1025,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            28,
+            112,
+            131
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32
+          ],
+          "programs": [
+            0,
+            93,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1025
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            28
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            31
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024,
+            3072
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 0,
+      "port": 2,
+      "turbo": true,
+      "cases": 25,
+      "checks": {
+        "normalSpeedOnlyGate": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            51,
+            106
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            51,
+            106
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            51,
+            106
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            55,
+            110
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            55,
+            110
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            55,
+            110
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            67
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1025,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32,
+            35
+          ],
+          "programs": [
+            0,
+            1024,
+            1027
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            72,
+            96,
+            120,
+            144
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1025
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            72
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33,
+            36
+          ],
+          "programs": [
+            0,
+            93,
+            1024,
+            1025,
+            1028
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            51,
+            105
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            51,
+            105
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            51,
+            106
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            3072
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "port": 1,
+      "turbo": false,
+      "cases": 25,
+      "checks": {
+        "bothDirectionsLinked": true,
+        "finisherCancelObserved": true,
+        "guardNoCancel": true,
+        "whiffNoCancel": true,
+        "heldOnlyOneContinuation": true,
+        "trueTwoHitLinkObserved": true,
+        "defenderRegainsControlBeforeLaterNormalHits": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            10,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            10,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            10,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            74
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1061,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            27
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            27,
+            112,
+            140
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            35
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1063
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            27,
+            58
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1061
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            10,
+            27
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            10,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            10,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            10,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "port": 1,
+      "turbo": true,
+      "cases": 25,
+      "checks": {
+        "normalSpeedOnlyGate": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            122
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            122
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            122
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            54,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            54,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            54,
+            111
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            113
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            113
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            113
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            67
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1061,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            33,
+            58,
+            81,
+            145
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33,
+            35
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1061,
+            1063
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            33
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33,
+            35,
+            36
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1061,
+            1063,
+            1064
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            120
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            120
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            120
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            120
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            120
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            120
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            125
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            125
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            125
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "port": 2,
+      "turbo": false,
+      "cases": 25,
+      "checks": {
+        "bothDirectionsLinked": true,
+        "finisherCancelObserved": true,
+        "guardNoCancel": true,
+        "whiffNoCancel": true,
+        "heldOnlyOneContinuation": true,
+        "trueTwoHitLinkObserved": true,
+        "defenderRegainsControlBeforeLaterNormalHits": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            25,
+            53
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            25,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            25,
+            63
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            25,
+            53
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            25,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            25,
+            63
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            33
+          ],
+          "programs": [
+            0,
+            1061
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            25
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            27,
+            116
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            35
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1063
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            27
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1061
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            25
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            25,
+            53
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            25,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            25,
+            63
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            25,
+            53
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            25,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            25,
+            63
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            27,
+            55
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            27,
+            57
+          ],
+          "stages": [
+            0,
+            1,
+            2
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            27,
+            65
+          ],
+          "stages": [
+            0,
+            1
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060,
+            3106
+          ],
+          "kiBefore": 126,
+          "kiMin": 126,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cid": 3,
+      "port": 2,
+      "turbo": true,
+      "cases": 25,
+      "checks": {
+        "normalSpeedOnlyGate": true
+      },
+      "betweenSnapshotRecoveryAmbiguities": [],
+      "summaries": [
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            123
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            123
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 2,
+          "hits": [
+            9,
+            123
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 4,
+          "hits": [
+            9,
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": false,
+          "second": 6,
+          "hits": [
+            9,
+            128
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "whiff",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            69
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1061,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "guard",
+          "reverse": false,
+          "second": 16,
+          "hits": [],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "unsupported-kick",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            32
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32,
+            35
+          ],
+          "programs": [
+            0,
+            1060,
+            1063
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "held-button",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            32
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            32,
+            56,
+            79,
+            140
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33,
+            35
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1061,
+            1063
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "spam-defend",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            32
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            15,
+            32,
+            33
+          ],
+          "programs": [
+            0,
+            93,
+            1060,
+            1061
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": false,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "no-finisher",
+          "reverse": false,
+          "second": 16,
+          "hits": [
+            9,
+            32
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            32
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            122
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            122
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 2,
+          "hits": [
+            9,
+            122
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            14,
+            32,
+            33,
+            58
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            1060,
+            1061,
+            1070,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            54,
+            109
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            54,
+            109
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 4,
+          "hits": [
+            9,
+            54,
+            109
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            110
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 0
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            110
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 3
+        },
+        {
+          "mode": "chain",
+          "reverse": true,
+          "second": 6,
+          "hits": [
+            9,
+            56,
+            110
+          ],
+          "stages": [
+            0
+          ],
+          "actions": [
+            0,
+            1,
+            2,
+            32
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            3106
+          ],
+          "kiBefore": 128,
+          "kiMin": 128,
+          "idleAtEnd": true,
+          "finisherDelay": 6
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "cases": 200,
+  "passed": true,
+  "limits": [
+    "Normal speed only; turbo gate preserves native combat",
+    "Three-hit damage string not guaranteed to be uninterrupted; projectile keeps native startup/range",
+    "Only Goku and Vegeta; only standing close punch links",
+    "No exhaustive infinite-combo proof; bounded spam and held-input tests"
+  ]
+}

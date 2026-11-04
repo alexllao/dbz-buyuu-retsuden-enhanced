@@ -1,0 +1,20 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_Combos_v1.bin",
+    "sha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/combos-v1/experimental.ips",
+    "sha256": "bf7aac542c87d0dc6cf768013d60097b53dfcf4d2f23d790098b31cd7e9b35f9"
+  },
+  "experimental": true,
+  "defaultBuildUnchanged": "v6.6",
+  "scope": "Normal-speed human Goku/Vegeta close standing punch link and optional native Energy Blast cancel. Turbo, CPU and other characters retain native combat. User playtest pending.",
+  "inheritsGameplay": "patches/review-v3/manifest.json"
+}

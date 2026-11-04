@@ -27,6 +27,12 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Prueba opcional de combos: Goku y Vegeta
+
+**Dos puños cercanos y salida opcional a proyectil**, sólo a velocidad normal: A, soltar, A al conectar y después atrás, adelante + A. Los enlaces se habilitan al acertar; fallar o golpear la guardia conserva la recuperación. El proyectil mantiene su salida y alcance nativos y puede no conectar.
+
+[Ver comparación real: v6.6 izquierda, prototipo derecha](assets/media/combos-v1/Comparacion-combos-Goku-Vegeta.mp4) · [Condiciones, pruebas y límites](docs/combos-v1.md). Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version combos-v1`. **La construcción predeterminada sigue siendo v6.6.** Turbo, CPU y los otros nueve personajes conservan su combate anterior. Pendiente de probar con mando y valorar el equilibrio.
+
 ## Revisión actual: ROM v6.6
 
 **Los personajes pequeños de la intro vuelven exactamente al original**, por petición del usuario. Se conserva el Goku grande cálido de C y la pantalla de BANDAI y ALEX LLAO de v6.4/v6.5. [Capturas reales y comprobaciones](docs/intro-original-lineup-v6-6.md).
@@ -151,6 +157,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -214,6 +221,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |

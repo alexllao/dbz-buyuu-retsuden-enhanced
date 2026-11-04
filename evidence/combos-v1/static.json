@@ -1,0 +1,47 @@
+{
+  "targetSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+  "changedBytes": 918,
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      36300,
+      6
+    ],
+    [
+      73236,
+      6
+    ],
+    [
+      73720,
+      6
+    ],
+    [
+      73460,
+      6
+    ],
+    [
+      73940,
+      6
+    ],
+    [
+      3997696,
+      900
+    ]
+  ],
+  "outsideAllowedChangedBytes": 0,
+  "preserved": {
+    "controls": true,
+    "auras": true,
+    "sideSwitch": true,
+    "battlePalettes": true,
+    "stagePalettes": true,
+    "openingAndTitle": true,
+    "credit": true
+  },
+  "codeBytes": 900,
+  "decodedInstructionBytes": 900,
+  "codeSha256": "54a6af95cbdbd5b972df584ce281ba910e45b6da05afb08e63cb7f077591cc6d"
+}
