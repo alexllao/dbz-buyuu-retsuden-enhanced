@@ -1,0 +1,87 @@
+{
+  "sourceSha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57",
+  "targetSha256": "ebbf131a2559f436a1faa5281207777347fd443fa87ffa8a16f6ad0611178bf1",
+  "operations": [
+    {
+      "address": 3932160,
+      "bytes": 10620,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 3960832,
+      "bytes": 1220,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 3969024,
+      "bytes": 350,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 3970048,
+      "bytes": 2,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 489662,
+      "bytes": 4,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 489710,
+      "bytes": 4,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 491472,
+      "bytes": 4,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 491496,
+      "bytes": 4,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 1760722,
+      "bytes": 32,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 1760754,
+      "bytes": 32,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 1760786,
+      "bytes": 32,
+      "purpose": "Undo v6.2 body recomposition"
+    },
+    {
+      "address": 1760690,
+      "bytes": 160,
+      "purpose": "Original opening and title palettes, all five banks"
+    },
+    {
+      "address": 3973120,
+      "bytes": 64,
+      "purpose": "Original title background palette copy, isolated from combat"
+    },
+    {
+      "address": 490368,
+      "bytes": 4,
+      "purpose": "Title-only palette source pointer"
+    }
+  ],
+  "checks": {
+    "allFivePaletteBanksEqualOriginal": true,
+    "allFourBodyResourcePointersEqualOriginal": true,
+    "creditOperationsUnchanged": true,
+    "gameplayCodeUnchanged": true
+  },
+  "nativeCaptureChecks": {
+    "fullOpeningFrame960PixelExactToOriginal": true,
+    "titleAboveCreditsPixelExactToOriginalAt1800": true,
+    "coldBootReachedBattleTransition": true
+  }
+}

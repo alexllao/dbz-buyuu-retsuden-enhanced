@@ -1,5 +1,7 @@
 # Paleta G desde la primera pantalla: v6.1
 
+> Revisión histórica: el usuario pidió restaurar los colores originales de la cara, presentación e intro. La versión actual es [v6.3](intro-original-v6-3.md); la aprobación anterior de G ya no está vigente.
+
 **La cara grande de Goku queda aprobada. Los personajes completos no están aprobados:** el usuario pide que coincidan con las paletas de combate elegidas. La primera armonización de piel de v6.1 se conserva como historial y requiere revisión.
 
 La cara de Goku que aparece al arrancar seguía naranja, aunque la pantalla de título posterior ya tenía la paleta G elegida. El juego carga dos copias distintas de esa paleta: la apertura usa `0x1ADDB2` y el título posterior usa `0x1ADE32`. La revisión v6 sólo había actualizado la segunda.

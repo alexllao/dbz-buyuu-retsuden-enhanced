@@ -2,12 +2,12 @@
   "updated": "2026-11-04",
   "preservePreviousVersions": true,
   "presentation": {
-    "selected": "G",
-    "label": "C con contraste marcado",
-    "image": "assets/comparisons/title/G.png",
+    "selected": "Original",
+    "label": "Paletas originales de presentación e intro",
+    "image": "assets/media/intro-original-v6-3/Titulo-colores-originales.png",
     "date": "2026-11-04",
-    "status": "v6.1: G en apertura y título; piel compartida del montaje ajustada; créditos conservados",
-    "feedback": "Más sombras y menos amarillo, tomando C como base. El usuario eligió G.",
+    "status": "v6.3: colores originales restaurados por petición del usuario; variantes anteriores conservadas",
+    "feedback": "La cara de Goku sigue pareciendo pálida; restaurar presentación e intro originales para revisar el conjunto",
     "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
     "paletteRecord": "research/palettes/title-shadows-v1.json",
     "modCredit": {
@@ -16,7 +16,7 @@
       "usePseudonym": false
     },
     "openingConsistency": {
-      "status": "Large Goku face approved; full-body character colors rejected and pending battle-palette alignment",
+      "status": "Superseded: original opening and title colors restored in v6.3",
       "cause": "Opening0x1ADDB2 retained original palette while title0x1ADE32 already usedG",
       "face": "Entries1..15 exactly equal approvedG; distinct backdrop entry0 retained",
       "fullBody": "Needs per-character mapping to the battle palettes already selected; G skin-only harmonization rejected",
@@ -24,7 +24,7 @@
       "approval": {
         "date": "2026-11-04",
         "feedback": "los colores del goku de fondo estan bien pero los personajes no, no son como los del juego que coloreamos",
-        "scope": "Large background Goku face only; full-body palette is not approved"
+        "scope": "Historical G face approval withdrawn by latest request; original colors restored"
       }
     }
   },
@@ -352,10 +352,15 @@
     "video": "assets/media/side-switch/Todos-cambio-de-lado.mp4"
   },
   "introV6_2": {
-    "status": "Implemented; body and font visual approval pending",
-    "approved": "Large background Goku face G only",
+    "status": "Historical candidate; superseded by original intro colors in v6.3",
+    "approved": "No current approval for G face; user requested original intro colors",
     "body": "Selected battle palettes adapted into three body banks; 27 explicit secondary shade merges; 13 protected principal ramps",
     "credit": "Original Bandai retained; ALEX LLAO 2026 in same-height bitmap style beside it",
     "romSha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57"
+  },
+  "introV6_3": {
+    "status": "Original intro and title colors restored; user review pending",
+    "credits": "Bandai and ALEX LLAO retained",
+    "preserveOtherModChanges": true
   }
 }

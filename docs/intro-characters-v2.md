@@ -1,5 +1,7 @@
 # Apertura y créditos: revisión v6.2
 
+> Revisión histórica: el usuario pidió restaurar los colores originales de la cara, presentación e intro. La versión actual es [v6.3](intro-original-v6-3.md); la aprobación anterior de G ya no está vigente.
+
 La cara grande G de Goku aprobada se conserva exactamente. Se corrigen los personajes completos de la apertura, que en v6.1 sólo habían recibido una armonización común de piel. Ahora sus materiales toman los colores de las paletas de combate elegidas. **Los personajes de esta pantalla y la fuente ajustada quedan pendientes de revisión visual del usuario.**
 
 ![v6.1 izquierda; nueva propuesta derecha](../assets/media/intro-v2/Personajes-antes-despues.png)

@@ -9,6 +9,12 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const intro63 = await json('patches/review-v6-3/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, intro63.patch.path))), intro63.patch.sha256);
+const restoration63 = await json('evidence/intro-original-v6-3/restoration.json');
+assert.equal(restoration63.targetSha256, intro63.target.sha256);
+assert(Object.values(restoration63.checks).every(value => value === true));
+assert(Object.values(restoration63.nativeCaptureChecks).every(value => value === true));
 const intro62 = await json('patches/review-v6-2/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, intro62.patch.path))), intro62.patch.sha256);
 const intro62Evidence = await json('evidence/intro-v2/combined-validation.json');
@@ -33,7 +39,7 @@ for (const item of images) {
   assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256, item.path);
 }
 const decisions = await json('project/decisions.json');
-assert.equal(decisions.presentation.selected, 'G');
+assert.equal(decisions.presentation.selected, 'Original');
 assert.equal(decisions.presentation.modCredit.text, '- 2026 ALEX LLAO');
 assert.equal(decisions.presentation.modCredit.usePseudonym, false);
 assert.equal(decisions.preservePreviousVersions, true);
@@ -204,4 +210,4 @@ catch { /* An exported source archive may have no .git metadata. */ }
 for (const path of tracked) {
   assert(!/\.(bin|smd|gen|zip|dll|exe|state|srm)$/i.test(path), `Archivo generado/base inesperado en Git: ${path}`);
 }
-console.log(`Verificado: ${images.length} imágenes, decisión G, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);
+console.log(`Verificado: ${images.length} imágenes, presentación original, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);
