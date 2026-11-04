@@ -1,0 +1,107 @@
+{
+  "status": "PASS: four ground-sweep reactions, previous v5 versus current v5.2; floor wait30->12ticks, wake duration and damage retained",
+  "cases": [
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "before": {
+        "romSha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+        "floorTicks": 30,
+        "floorSeconds": 0.5507090985027426,
+        "wakeTicks": 30,
+        "damage": 6,
+        "floorStartFrame": 110,
+        "wakeStartFrame": 143,
+        "idleFrame": 178
+      },
+      "after": {
+        "romSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+        "floorTicks": 12,
+        "floorSeconds": 0.25032231750124667,
+        "wakeTicks": 30,
+        "damage": 6,
+        "floorStartFrame": 110,
+        "wakeStartFrame": 125,
+        "idleFrame": 159
+      }
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "before": {
+        "romSha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+        "floorTicks": 30,
+        "floorSeconds": 0.5507090985027426,
+        "wakeTicks": 29,
+        "damage": 8,
+        "floorStartFrame": 116,
+        "wakeStartFrame": 149,
+        "idleFrame": 185
+      },
+      "after": {
+        "romSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+        "floorTicks": 12,
+        "floorSeconds": 0.25032231750124667,
+        "wakeTicks": 29,
+        "damage": 8,
+        "floorStartFrame": 116,
+        "wakeStartFrame": 131,
+        "idleFrame": 166
+      }
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "before": {
+        "romSha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+        "floorTicks": 30,
+        "floorSeconds": 0.5340209440026595,
+        "wakeTicks": 24,
+        "damage": 9,
+        "floorStartFrame": 129,
+        "wakeStartFrame": 161,
+        "idleFrame": 190
+      },
+      "after": {
+        "romSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+        "floorTicks": 12,
+        "floorSeconds": 0.21694600850108045,
+        "wakeTicks": 24,
+        "damage": 9,
+        "floorStartFrame": 129,
+        "wakeStartFrame": 142,
+        "idleFrame": 170
+      }
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "before": {
+        "romSha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+        "floorTicks": 30,
+        "floorSeconds": 0.5673972530028257,
+        "wakeTicks": 29,
+        "damage": 7,
+        "floorStartFrame": 118,
+        "wakeStartFrame": 152,
+        "idleFrame": 188
+      },
+      "after": {
+        "romSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+        "floorTicks": 12,
+        "floorSeconds": 0.25032231750124667,
+        "wakeTicks": 29,
+        "damage": 7,
+        "floorStartFrame": 118,
+        "wakeStartFrame": 133,
+        "idleFrame": 169
+      }
+    }
+  ],
+  "scope": "Manual fixture from compare_manual.py, both humans, Goku sweep against four defenders; no CPU autoplay",
+  "limits": [
+    "Air reactions, KO and cinematic hits not retimed or newly validated",
+    "State-based protection ends18ticks earlier than v5 as control returns earlier",
+    "No hardware validation; subjective feel for user review"
+  ]
+}

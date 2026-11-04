@@ -4,19 +4,20 @@
     "bytes": 2097152
   },
   "target": {
-    "filename": "Buyuu_Retsuden_Enhanced_v5.bin",
-    "sha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+    "filename": "Buyuu_Retsuden_Enhanced_v5_2.bin",
+    "sha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
     "bytes": 4194304
   },
   "patch": {
     "path": "patches/review-v2/enhanced-v5.ips",
-    "sha256": "6a8a0076373a505768da3845a4b363179cec23d86755d0b59063979b03bbe682"
+    "sha256": "2b3310615eb2ab1a9c6517feaacb248bfbf64946b4480a932a6b93fb11f8ba7e"
   },
   "components": [
     "gameplay v2: native locomotion with original inertia; v1 basic recovery/input queue retained",
-    "ground knockdown A1 42->30 ticks; A4 54->30 ticks; A5 unchanged30",
+    "ground knockdown final floor hold A1/A4/A5 all12 ticks; falling and wake timing retained",
     "approved title G and - 2026 ALEX LLAO",
-    "character/stage colors v1 and Ki v4 without lightning"
+    "character/stage colors v1 and Ki v4 without lightning",
+    "© BANDAI 1994 and - 2026 ALEX LLAO on the same line"
   ],
   "limits": [
     "Manual feel remains for user review",

@@ -1,15 +1,15 @@
 {
-  "status": "Real emulator title captured and visually inspected; BANDAI preserved",
+  "status": "Captured and visually verified in final combined v5.2 ROM",
   "text": "- 2026 ALEX LLAO",
   "sourceSha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
-  "targetSha256": "ffac017e55c0e25e28c563fdec54d7447b7129fc825ff90f0576b4af7f1acadd",
+  "targetSha256": "ee3ba2c66e22baec7908ad00838740c37bd21639c37e648c3943acbc814c5ad2",
   "paletteSource": "work/rom/presentation-shadows-G.bin",
   "paletteRange": "0x1ADE32..0x1ADE51",
   "vramNewTiles": "0xD000..0xD2FF",
-  "originalCreditRow": "All original Japanese and BANDAI 1994 copyright sprites and graphics preserved; original two lines moved up16px; mod credit appended on separate third line",
+  "originalCreditRow": "All original Japanese and BANDAI 1994 copyright sprites and graphics preserved; Japanese line unchanged; BANDAI moved left, ALEX on the same row",
   "creditLineNativeY": {
-    "japanese": 168,
-    "bandai1994": 184,
+    "japanese": 184,
+    "bandai1994": 200,
     "alexLlao": 200
   },
   "patchOperations": [
@@ -20,8 +20,8 @@
     },
     {
       "address": 4129792,
-      "data": "000ea680d0100f0da688f0100f0da6901010000da20c18000005a20a08000005a202e8000f0da2e0c8000f0da2de58f0f001a2d638f0f00da2ce18f0f00da2c6f8f0ff0da2bed8f0ff0da2b6b8f0ff0da2ae98f0ff0d",
-      "label": "Credit map: three new sprites plus all eleven original Japanese and BANDAI copyright sprites, original lines moved up16px"
+      "data": "000ea6800010000da6882010000da6904010000da20cec100f05a20adc100f05a202bc100f0da2e09c100f0da2de58000001a2d63800000da2ce1800000da2c6f8000f0da2bed8000f0da2b6b8000f0da2ae98000f0d",
+      "label": "Credit map: three new sprites plus all eleven original Japanese and BANDAI copyright sprites, BANDAI shifted left to share its original row with ALEX"
     },
     {
       "address": 4130048,
@@ -45,30 +45,15 @@
     },
     {
       "address": 398,
-      "data": "ae9e",
+      "data": "f84e",
       "label": "Mega Drive checksum"
     }
   ],
   "unchangedOutsideOperations": true,
-  "originalCopyrightVerification": {
-    "allElevenSpritesPreserved": true,
-    "onlyOriginalSpriteChange": "Y minus16; attr, tile, x, size and graphic resources unchanged",
-    "originalGraphicResourcesByteIdentical": true
-  },
   "capture": {
-    "path": "work\\gameplay-review\\title-credits-preserve-bandai.png",
-    "sha256": "60720a56d2f5fec3adfcd1d4e219c4ec52dda9003348e649033580c023efe3b7",
-    "core": "Genesis Plus GX v1.7.4 f27655b",
-    "framesFromBoot": 1276,
-    "nativeSize": [
-      320,
-      224
-    ],
-    "scale": 2,
-    "visualInspection": "Japanese copyright line, original BANDAI1994 row, new -2026ALEXLLAO row all visible with separate baselines"
-  },
-  "limits": [
-    "No physical Mega Drive test.",
-    "Patch operations are based on V4; combine by address to preserve newer gameplay changes, then recalculate checksum."
-  ]
+    "path": "assets/media/gameplay-v2/Presentacion-G-ALEX-LLAO.png",
+    "sha256": "1dc001524782d4e64c52061515a51fa7cd2092294574a934f242579b63b9cf4b",
+    "romSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+    "bothCreditsSameRow": true
+  }
 }

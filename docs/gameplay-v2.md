@@ -31,10 +31,16 @@ El repositorio conserva v1 y sus grabaciones como historial. El vídeo anterior 
 
 ## Presentación y crédito
 
-La revisión combinada integra la paleta G y añade **- 2026 ALEX LLAO** en una línea propia, conservando **© BANDAI 1994** y la línea japonesa. Los retratos de selección, HUD H4 y escenario 10 siguen pendientes.
+La revisión combinada integra la paleta G y añade **- 2026 ALEX LLAO** junto a **© BANDAI 1994**, conservando la línea japonesa. Los retratos de selección, HUD H4 y escenario 10 siguen pendientes.
 
 ![Presentación real de la revisión](../assets/media/gameplay-v2/Presentacion-G-ALEX-LLAO.png)
 
 ## Maniobra propuesta para después
 
 Cambio de lado a corta distancia, sin golpe y para todos los personajes. Está anotado, sin implementar. El High Speed Move original de Goku/Gohan/Cell es una técnica ofensiva distinta y permanece con su comando original.
+
+## Revisión v5.2: menos reposo y créditos juntos
+
+El usuario sigue notando lenta la espera de v5. Se reduce el reposo final de A1, A4 y A5 de 30 a **12 ticks**, conservando la unidad de 6 ticks y los pesos de caída anteriores. Cabeceras/peso final: A1 `84/2`, A4 `84/2`, A5 `96/2`. Incluye también a Cell. Se observaron unos 0,22–0,25 s en cuatro barridos manuales, con el mismo daño y la misma duración de levantarse. La protección asociada a estar derribado acaba 18 ticks antes que en v5. Reacciones de otro plano, KO y cinemáticas no se han recortado.
+
+[Evidencia v5 frente a v5.2](../evidence/gameplay-v2/knockdown-fast.json) · [Comparación Gohan](../assets/media/gameplay-v2/Gohan-v5-izquierda-v5-2-derecha.mp4). La tabla de 30 ticks anterior describe v5 y se conserva como historial. Bandai y ALEX LLAO aparecen ahora en la misma línea, debajo del texto japonés.

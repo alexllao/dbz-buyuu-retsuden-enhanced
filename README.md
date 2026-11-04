@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: revisión v5 de prueba · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
+**Estado: revisión v5.2 de prueba · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -20,14 +20,16 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
 | Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
-| Presentación | **G integrada**, con **© BANDAI 1994** y **- 2026 ALEX LLAO** en líneas separadas. |
+| Presentación | **G integrada**, con **© BANDAI 1994** y **- 2026 ALEX LLAO** en la misma línea. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
 | Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; paletas aceptadas visualmente. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Revisión actual: ROM v5
+## Revisión actual: ROM v5.2
+
+**Ajuste tras la prueba del usuario:** el reposo tumbado baja de 30 a **12 ticks** (unos 0,22–0,25 s en estos ensayos). Se conserva la caída y el levantamiento. Bandai y ALEX LLAO comparten ahora la misma línea. [Comparación Gohan: v5 izquierda / v5.2 derecha](assets/media/gameplay-v2/Gohan-v5-izquierda-v5-2-derecha.mp4).
 
 Corrige la carrera que fallaba en v1: doble toque hacia delante o atrás y mantener; al soltar, salida con inercia original. Acorta la espera tumbado tras los derribos terrestres largos e integra la presentación G con los créditos originales y el del mod. **La valoración con mando sigue abierta.**
 

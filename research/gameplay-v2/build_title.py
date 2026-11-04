@@ -32,15 +32,17 @@ for strip in range(3):
     for x in range(0,8,2):
      xx=strip*32+tx*8+x;yy=ty*8+y;tiles.append(pix[yy*W+xx]*16+pix[yy*W+xx+1])
 resource=struct.pack('<H',len(tiles)-1)+b''.join(b'\xff'+tiles[i:i+8] for i in range(0,len(tiles),8))
-# Keep all eleven original copyright sprites, moving their two lines up sixteen pixels.
+# Retain both original credit rows. Shift BANDAI left to share its row with ALEX.
 old=base[0x1adfb2:0x1adff6];newmap=bytearray(struct.pack('>H',14))
 for i in range(3):
- x=-48+i*32;y=16;hi=((y>>8)&15)<<4|((x>>8)&15)
+ x=i*32;y=16;hi=((y>>8)&15)<<4|((x>>8)&15)
  newmap.extend(struct.pack('>HBBBB',0xa680+i*8,x&255,y&255,hi,13))
 for i in range(11):
- entry=bytearray(old[2+i*6:2+(i+1)*6]);y=((entry[4]>>4)<<8)|entry[3]
- if y&0x800:y-=0x1000
- y=(y-16)&0xfff;entry[3]=y&255;entry[4]=((y>>8)<<4)|(entry[4]&15)
+ entry=bytearray(old[2+i*6:2+(i+1)*6])
+ if i<4:
+  x=((entry[4]&15)<<8)|entry[2]
+  if x&0x800:x-=0x1000
+  x=(x-44)&0xfff;entry[2]=x&255;entry[4]=(entry[4]&0xf0)|(x>>8)
  newmap.extend(entry)
 assert len(newmap)==86
 ops=[]
@@ -48,7 +50,7 @@ def put(a,d,label):
  ops.append(dict(address=a,data=bytes(d).hex(),label=label));rom[a:a+len(d)]=d
 assert all(x==255 for x in base[0x3f0000:0x3f0800])
 put(0x3f0000,resource,'New outlined credit glyphs, native compressed resource')
-put(0x3f0400,newmap,'Credit map: three new sprites plus all eleven original Japanese and BANDAI copyright sprites, original lines moved up16px')
+put(0x3f0400,newmap,'Credit map: three new sprites plus all eleven original Japanese and BANDAI copyright sprites, BANDAI shifted left to share its original row with ALEX')
 # Preserve all registers around native VRAM decompression, then reproduce displaced title init instruction.
 code=bytes.fromhex('48e7fffe41f9003f0000327cd0004eb9000015d24cdf7fff31fc0050e9e64e75')
 put(0x3f0500,code,'Title-only load helper at VRAM D000; native renderer SAT is DC00')
@@ -59,6 +61,6 @@ put(0x78096,struct.pack('>I',0x3f0400),'Redirect copyright sprite map')
 put(0x1ade32,Path('work/rom/presentation-shadows-G.bin').read_bytes()[0x1ade32:0x1ade52],'Approved presentation palette G, sixteen words only')
 cs=sum(struct.unpack('>'+str((len(rom)-512)//2)+'H',rom[512:]))&65535;put(0x18e,struct.pack('>H',cs),'Mega Drive checksum')
 (P/'title-credits.bin').write_bytes(rom)
-report=dict(status='Built; real title capture pending',text=text,sourceSha256=hashlib.sha256(base).hexdigest(),targetSha256=hashlib.sha256(rom).hexdigest(),paletteSource='work/rom/presentation-shadows-G.bin',paletteRange='0x1ADE32..0x1ADE51',vramNewTiles='0xD000..0xD2FF',originalCreditRow='All original Japanese and BANDAI 1994 copyright sprites and graphics preserved; original two lines moved up16px; mod credit appended on separate third line',creditLineNativeY={'japanese':168,'bandai1994':184,'alexLlao':200},patchOperations=ops,unchangedOutsideOperations=all(any(o['address']<=i<o['address']+len(bytes.fromhex(o['data'])) for o in ops) for i,(a,b) in enumerate(zip(base,rom)) if a!=b))
+report=dict(status='Built; real title capture pending',text=text,sourceSha256=hashlib.sha256(base).hexdigest(),targetSha256=hashlib.sha256(rom).hexdigest(),paletteSource='work/rom/presentation-shadows-G.bin',paletteRange='0x1ADE32..0x1ADE51',vramNewTiles='0xD000..0xD2FF',originalCreditRow='All original Japanese and BANDAI 1994 copyright sprites and graphics preserved; Japanese line unchanged; BANDAI moved left, ALEX on the same row',creditLineNativeY={'japanese':184,'bandai1994':200,'alexLlao':200},patchOperations=ops,unchangedOutsideOperations=all(any(o['address']<=i<o['address']+len(bytes.fromhex(o['data'])) for o in ops) for i,(a,b) in enumerate(zip(base,rom)) if a!=b))
 (P/'title-credits.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 steps=json.loads(Path('work/emulator/steps-presentation-lighter.json').read_text());steps[-1]['save']=str(P/'title-credits-preserve-bandai.png');(P/'title-steps.json').write_text(json.dumps(steps));print(report['targetSha256'])
