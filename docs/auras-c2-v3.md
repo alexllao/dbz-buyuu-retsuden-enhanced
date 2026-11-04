@@ -1,4 +1,6 @@
-# C2 v3: corrección del contorno
+# C2 v3: corrección del contorno (historial)
+
+**Revisión posterior:** contorno aceptado; todos los rayos retirados por petición del usuario. [Versión vigente sin rayos](auras-c2-v3-no-rays.md).
 
 Esta prueba responde a las puntas cortadas y huecos que el usuario detectó en C2 v2. La dirección visual, el tamaño y los rayos de v2 estaban aceptados; **la corrección de contorno v3 está implementada y pendiente de revisión visual**.
 

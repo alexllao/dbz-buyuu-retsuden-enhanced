@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: jugabilidad v1 experimental · contorno C2 v3 corregido y listo para revisión · escenario nevado en bocetos**
+**Estado: jugabilidad v1 experimental · contorno C2 v3 aceptado, sin rayos; colores por personaje pendientes · escenario nevado en bocetos**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -22,14 +22,22 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
 | Presentación | **G — C con contraste marcado elegida**; pendiente de integrar en la próxima ROM. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
-| Auras | **Dirección C2 v2 elegida**; la corrección de cortes y huecos está implementada como **C2 v3**, pendiente de valoración visual. |
+| Auras | **Contorno C2 v3 aceptado; sin rayos en todos los personajes.** Pendiente adaptar colores por personaje. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Auras actuales: sin rayos
+
+**El contorno nuevo está aceptado. Por la última decisión, ningún personaje lleva rayos, incluidos Cell y Gohan SSJ2.** Se mantienen tamaño, animación, polvo y salida. Sólo queda adaptar los colores por tipo de personaje y estilo del original; esta prueba intermedia conserva todavía la paleta común.
+
+[Ver Cell sin rayos](assets/media/auras-c2-v3-no-rays/Cell.mp4) · [Ver Gohan sin rayos](assets/media/auras-c2-v3-no-rays/Gohan-SSJ2.mp4) · [Cambios y pruebas](docs/auras-c2-v3-no-rays.md)
+
+Los vídeos con rayos que aparecen más abajo corresponden a versiones históricas y no a la decisión vigente.
+
 ## Corrección del contorno: C2 v3
 
-Tras elegir el tamaño de C2 v2, el usuario señaló puntas cortadas y huecos. **C2 v3 ya corrige esas uniones dentro del juego**, con un contorno de 80 × 128 basado en la referencia SNES aportada. Mantiene el dorado para los superguerreros y el polvo; Cell y Gohan SSJ2 alternan tres formas de rayos blancos. La revisión visual de esta corrección sigue abierta.
+Tras elegir el tamaño de C2 v2, el usuario señaló puntas cortadas y huecos. **C2 v3 ya corrige esas uniones dentro del juego**, con un contorno de 80 × 128 basado en la referencia SNES aportada. Mantiene el dorado para los superguerreros y el polvo; Cell y Gohan SSJ2 alternan tres formas de rayos blancos. El contorno fue aceptado posteriormente; los rayos de este vídeo se retiraron en la [revisión actual](docs/auras-c2-v3-no-rays.md).
 
 ![Ginyu: contorno anterior y corregido, grabación real](assets/media/auras-c2-v3/Ginyu-contorno-antes-despues.gif)
 

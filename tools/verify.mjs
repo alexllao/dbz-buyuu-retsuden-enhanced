@@ -29,7 +29,7 @@ assert.equal(decisions.presentation.selected, 'G');
 assert.equal(decisions.presentation.modCredit.text, '- 2026 ALEX LLAO');
 assert.equal(decisions.presentation.modCredit.usePseudonym, false);
 assert.equal(decisions.preservePreviousVersions, true);
-assert.deepEqual(decisions.auras.lightningAllowedOnly, ['Cell', 'Gohan SSJ2']);
+assert.deepEqual(decisions.auras.lightningAllowedOnly, []);
 await stat(resolve(root, decisions.presentation.image));
 await stat(resolve(root, decisions.auras.image));
 const matrix = await json('evidence/gameplay-v1/character-matrix.json');
@@ -111,6 +111,26 @@ assert(qa2.capacity.tested_max_sprites_per_frame <= 80);
 assert(qa2.capacity.tested_max_scanline_sprites <= 20);
 assert(qa2.capacity.tested_max_scanline_width_pixels <= 320);
 await verifyAuraV3(root, manifest.source.sha256);
+const noRays = await json('patches/auras-c2-v3-no-rays/manifest.json');
+assert.equal(noRays.source.sha256, manifest.source.sha256);
+assert.equal(sha256(await readFile(resolve(root, noRays.patch.path))), noRays.patch.sha256);
+assert.deepEqual(noRays.lightningCharacterIds, []);
+const noRaysTable = await readHex(noRays.mapTable.hex);
+assert.equal(noRaysTable.length, 384 * 4);
+const v3 = await json('patches/auras-c2-v3/manifest.json');
+const v3maps = await readHex(v3.maps.hex);
+for (let i = 0; i < 384; i++) {
+  const plain = i - (i % 8 >= 4 ? 4 : 0);
+  assert.equal(noRaysTable.readUInt32BE(i * 4), Number(v3.maps.pointers[plain]));
+  const entry = v3.maps.storage.find(e => Number(e.address) === noRaysTable.readUInt32BE(i * 4));
+  assert(entry);
+  const count = v3maps.readUInt16BE(entry.offset);
+  for (let j = 0; j < count; j++) {
+    const tile = v3maps.readUInt16BE(entry.offset + 2 + j * 6) & 0x7ff;
+    assert(tile < 0x54b || tile > 0x550, 'Un mapa alcanzable conserva rayos');
+  }
+}
+
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {

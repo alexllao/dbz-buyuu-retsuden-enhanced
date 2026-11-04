@@ -21,7 +21,8 @@
 - [ ] Integrar los retratos elegidos con presentación G y jugabilidad en el próximo BIN combinado.
 - [ ] Implementar HUD y comprobar sus recursos/paletas.
 - [ ] Corregir los cortes rectos y huecos en las uniones del contorno del aura, señalados en la captura de Ginyu.
-- [ ] Grabar y revisar el contorno corregido durante la carga y la retirada; conservar tamaño, polvo y rayos aceptados.
+- [x] Contorno C2 v3 aceptado; retirada posterior de todos los rayos implementada y grabada con Cell/Gohan.
+- [ ] Adaptar los colores de aura por tipo de personaje y estilo del juego original.
 - [ ] Repetir las pruebas afectadas tras la reparación del contorno.
 - [ ] Ampliar las pruebas C2 v2 a más situaciones con otros efectos simultáneos.
 - [ ] Revisar ataques especiales y sus colores.

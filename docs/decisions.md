@@ -1,4 +1,4 @@
-# Decisiones vigentes
+# Decisiones e historial
 
 Registro estructurado: [project/decisions.json](../project/decisions.json).
 
@@ -24,3 +24,7 @@ Registro estructurado: [project/decisions.json](../project/decisions.json).
 Las alternativas no elegidas siguen en el catálogo. No convertir un boceto en una función implementada al actualizar la documentación.
 
 El 4 de noviembre de 2026 se mantiene el dorado para los superguerreros, incluida Vegeta, y se aportan referencias de Super Butoden 2 para contorno y tres formas de rayos. C2 v3 corrige el contorno y queda para revisar. Se eligen montañas nevadas como primera propuesta visual del escenario 10, con vistas de suelo y vuelo; la integración real no se ha iniciado.
+
+## Última revisión de auras
+
+El contorno C2 v3 está aceptado. La petición posterior retira todos los rayos, incluidos los de Cell y Gohan SSJ2; sustituye las decisiones anteriores sobre rayos. Se mantienen forma, tamaño, animación, polvo y salida. Queda pendiente adaptar los colores por tipo de personaje y estilo del original. [Versión sin rayos y grabaciones reales](auras-c2-v3-no-rays.md).

@@ -1,0 +1,592 @@
+{
+  "date": "2026-11-04",
+  "task": "Evidence-only per-character aura colour reference review",
+  "latestUserDirection": {
+    "shape": "Reuse approved C2 v3 shape",
+    "lightning": "Remove lightning for EVERY character, including Cell and Gohan SSJ2",
+    "artDirection": "Consider colours by character/type and original game; no palette or ROM edit authorised by this research ledger"
+  },
+  "summary": "Original Buyuu has a common yellow/gold-grey aura. Golden/yellow for the four Super Saiyans has official general support. Distinct ordinary charging hues for seven non-SSJ fighters remain unverified here; no skin/projectile-to-aura inference is made.",
+  "searchBoundary": "Official Dragon Ball website, creator Team Z2 website/movelist, original ROM and existing before-C2 local emulator captures. No anime episode colour frames or Team Z2 live charging captures were extracted in this short pass.",
+  "sources": [
+    {
+      "id": "buyuu-native",
+      "kind": "primary_binary_and_local_emulator_evidence",
+      "title": "Buyuu Retsuden native shared charge aura",
+      "path": "work/rom/original.bin",
+      "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+      "facts": [
+        "A single common charge-aura map at0x9F0A uses palette bank3; common graphics at0xB6F0 decompress to1440bytes/45tiles.",
+        "Common CRAM colours come from0x9102. The original aura uses indices7,8,9,15: pale yellow, amber, dark warm outline and light-grey core.",
+        "This effect does not supply eleven independently coloured aura palettes. Piccolo and Ginyu are not green/purple charge auras in this source."
+      ],
+      "confidence": "high",
+      "scopeLimit": "Original game art is evidence for the game, not a claim about canonical anime colours."
+    },
+    {
+      "id": "db-official-super-saiyan-gold",
+      "kind": "official_franchise_site_later_game_comparison",
+      "title": "Comparing the Worlds of Dragon Ball and Dragon Ball Z: Kakarot — Iconic Scenes",
+      "url": "https://en.dragon-ball-official.com/news/01_539.html",
+      "published": "2021-09-21",
+      "observation": "Official article identifies the aura of Super Saiyans as golden when discussing the recreated first transformation scene.",
+      "shortQuote": "golden aura that radiates from all Super Saiyans",
+      "supports": "Golden/yellow colour family for SSJ Goku, SSJ/SSJ2 Gohan, SSJ Vegeta and SSJ Trunks.",
+      "doesNotSupport": "Exact DBZ anime cel palette/hex values, every scene, or colours of non-Saiyans. The example shown is Kakarot, not a measured original DBZ animation frame.",
+      "confidence": "high for the broad golden SSJ family; unverified for exact original-anime colour samples"
+    },
+    {
+      "id": "team-z2-official-origin",
+      "kind": "creator_official_website",
+      "title": "Hyper DBZ — About the Game",
+      "url": "https://network.mugenguild.com/balthazar/hyperdbz/about.html",
+      "observation": "Team Z2 distinguishes its own build from fan-made Z2-inspired additions and directs users to its own site for official downloads.",
+      "supports": "Source-authenticity boundary: an arbitrary HDBZ-labelled fan character is not proof of a Team Z2 aura palette.",
+      "doesNotSupport": "This page does not list charging-aura colours by character."
+    },
+    {
+      "id": "team-z2-current-home",
+      "kind": "creator_official_website",
+      "title": "Hyper DBZ — Wicked Ambition",
+      "url": "https://network.mugenguild.com/balthazar/hyperdbz/",
+      "observation": "Official game landing page and trailer/download links were located; no per-character aura colour was measured in this bounded review.",
+      "doesNotSupport": "No claim that the eleven Buyuu fighters all have Team Z2 counterparts, or that their hues were verified."
+    },
+    {
+      "id": "team-z2-piccolo-mode",
+      "kind": "creator_hosted_movelist",
+      "title": "Power Mode — Piccolo",
+      "url": "https://network.mugenguild.com/balthazar/hyperdbz/movelist/chara/piccolo/powerMode.html",
+      "observation": "Text describes a mode meter/kanji progressing grey/yellow/orange/red and separate explosive/projectile moves.",
+      "doesNotSupport": "Those UI colours and attack descriptions do not establish the colour of Piccolo ordinary body-enveloping charge aura. No green aura inferred from his skin.",
+      "imageInspectionLimit": "Linked PNGs could not be fetched by the browsing tool; no visual-colour conclusion is drawn from their filenames."
+    },
+    {
+      "id": "team-z2-general-charge",
+      "kind": "creator_hosted_legacy_movelist",
+      "title": "General Gameplay Information — Power Charge",
+      "url": "https://network.mugenguild.com/justnopoint/HDBZ/movelist/chara/1general/specialMoves.html",
+      "observation": "Defines Power Charge as manually filling the power meter; no body-aura colour table is given.",
+      "supports": "Distinction between the charge action, UI meters and offensive ki projectiles."
+    },
+    {
+      "id": "team-z2-a18-mode",
+      "kind": "creator_hosted_legacy_movelist",
+      "title": "Power Mode — Eighteen",
+      "url": "https://network.mugenguild.com/justnopoint/HDBZ/movelist/chara/eighteen/powerMode.html",
+      "observation": "Cold Mode changes the energy meter and disables Power Charge in that mode.",
+      "doesNotSupport": "The mode name or meter colours do not prove an ice-blue charging aura for Android18."
+    },
+    {
+      "id": "excluded-ginyu-change",
+      "kind": "official_franchise_site_different_series_and_effect",
+      "title": "Weekly Character Showcase239 — Ginyu from Dragon Ball Super",
+      "url": "https://en.dragon-ball-official.com/news/01_3949.html",
+      "observation": "Mentions an aura for body changing in Dragon Ball Super.",
+      "excludedReason": "Wrong effect and series context for DBZ Namek charging aura. Not evidence for a purple ordinary charge aura."
+    },
+    {
+      "id": "excluded-frieza-projectile",
+      "kind": "official_franchise_site_later_game_projectile",
+      "title": "Sparking ZERO recreates Ultimate Moves",
+      "url": "https://en.dragon-ball-official.com/news/01_3039.html",
+      "observation": "Describes red-black colouring of Frieza Death Ball in Sparking ZERO.",
+      "excludedReason": "Death Ball is a projectile, not his body-enveloping power-up aura. Later-game styling cannot be substituted for a verified DBZ charge reference."
+    }
+  ],
+  "nativeOriginalPalette": [
+    {
+      "indexInBank3": 7,
+      "cramWord": "0x08EE",
+      "nominalLinear3BitRgb": [
+        255,
+        255,
+        145
+      ],
+      "rgbLimit": "Nominal linear conversion of hardware bits, not a sampled anime colour or a calibrated emulator/hardware sRGB value."
+    },
+    {
+      "indexInBank3": 8,
+      "cramWord": "0x008C",
+      "nominalLinear3BitRgb": [
+        218,
+        145,
+        0
+      ],
+      "rgbLimit": "Nominal linear conversion of hardware bits, not a sampled anime colour or a calibrated emulator/hardware sRGB value."
+    },
+    {
+      "indexInBank3": 9,
+      "cramWord": "0x0028",
+      "nominalLinear3BitRgb": [
+        145,
+        36,
+        0
+      ],
+      "rgbLimit": "Nominal linear conversion of hardware bits, not a sampled anime colour or a calibrated emulator/hardware sRGB value."
+    },
+    {
+      "indexInBank3": 15,
+      "cramWord": "0x0CCC",
+      "nominalLinear3BitRgb": [
+        218,
+        218,
+        218
+      ],
+      "rgbLimit": "Nominal linear conversion of hardware bits, not a sampled anime colour or a calibrated emulator/hardware sRGB value."
+    }
+  ],
+  "roster": [
+    {
+      "id": 0,
+      "character": "Goku SSJ",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid00-before\\frame-090.png",
+        "captureSha256": "00c2fc4952f9928cb275e3a88e56d3e9f1d233d1910868cfdfc2d54158929881",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": "Golden/yellow",
+        "basis": "Official broad SSJ colour family plus original Buyuu effect",
+        "confidence": "high for broad family; no exact anime hex claim",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native",
+          "db-official-super-saiyan-gold"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "character": "Gohan SSJ2",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid01-before\\frame-090.png",
+        "captureSha256": "0ba4acafc679d04d93cab37a8f2662a6577a7d8f31ba578527d008ab4830362f",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it. In this saved Gohan frame the aura is not visibly drawn; shared native renderer/palette and charge flag are the evidence."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": "Golden/yellow",
+        "basis": "Official broad SSJ colour family plus original Buyuu effect",
+        "confidence": "high for broad family; no exact anime hex claim",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native",
+          "db-official-super-saiyan-gold"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "character": "Piccolo",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid02-before\\frame-091.png",
+        "captureSha256": "9e7655c90dff32bafee1336bd409f866d650d771cf0a1a630adf7a1710d46d8d",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home",
+          "team-z2-piccolo-mode"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Green skin, Demon Mode UI or Special Beam Cannon projectile colour does not prove a green charging aura."
+    },
+    {
+      "id": 3,
+      "character": "Vegeta SSJ",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid03-before\\frame-091.png",
+        "captureSha256": "502678cbf8ddd597fce363984572a74eae5161be3f695c482b42653be56de87a",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": "Golden/yellow",
+        "basis": "Official broad SSJ colour family plus original Buyuu effect",
+        "confidence": "high for broad family; no exact anime hex claim",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native",
+          "db-official-super-saiyan-gold"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "character": "Trunks SSJ",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid04-before\\frame-091.png",
+        "captureSha256": "583345cc56499e614fc45ad1d55f271764abcffd15566fe860bd19502f4a7198",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": "Golden/yellow",
+        "basis": "Official broad SSJ colour family plus original Buyuu effect",
+        "confidence": "high for broad family; no exact anime hex claim",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native",
+          "db-official-super-saiyan-gold"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "character": "Cell",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid05-before\\frame-091.png",
+        "captureSha256": "49559e6115808e049f78dbb654caf877420348c13116bf7a572894051f7420b9",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Green carapace does not establish green charging aura. Saiyan ancestry does not by itself make the Super Saiyan article a Cell-specific colour reference."
+    },
+    {
+      "id": 6,
+      "character": "Android18",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid06-before\\frame-090.png",
+        "captureSha256": "30d0653f09c4c0bd94157ddb90915dd8c63d703a686a65aed3af90bc2d0751cd",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home",
+          "team-z2-a18-mode"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Cold Mode/Infinity Engine gauge does not prove a blue body aura; android energy mechanics are not an aura colour reference."
+    },
+    {
+      "id": 7,
+      "character": "Krillin",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid07-before\\frame-090.png",
+        "captureSha256": "3d584b076201ebec6b7ba70eda53849c6a150c2f4f607374d4cda200e6ddadae",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Yellow Destructo Disc/Kienzan is a projectile colour, not proof of his body aura."
+    },
+    {
+      "id": 8,
+      "character": "Frieza",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid08-before\\frame-090.png",
+        "captureSha256": "e550d4dd5d351b7b82c2531c86a9d7c4aafbcf5cb5691e11c49e45dbed1c09fb",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Purple skin plates, Death Ball/Death Beam and Golden Frieza are separate from this Z-era final-form charging aura."
+    },
+    {
+      "id": 9,
+      "character": "Recoome",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid09-before\\frame-091.png",
+        "captureSha256": "42785eee4e40272348051dc87d7959f095aa716d1efca486788bbb5643efbc98",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Eraser Gun mouth beam and hair/armour colours are not ordinary charge-aura colours."
+    },
+    {
+      "id": 10,
+      "character": "Ginyu",
+      "lightning": false,
+      "originalBuyuu": {
+        "family": "Shared golden/amber outer aura with pale-yellow transition and light-grey core",
+        "confidence": "high",
+        "sourceIds": [
+          "buyuu-native"
+        ],
+        "referenceCapture": "work\\auras\\runtime\\cid10-before\\frame-090.png",
+        "captureSha256": "c6abc9f63e6c0cd5295b02efc278150ea366b75b265e0356424ee413947eb749",
+        "captureRomSha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+        "captureNote": "Before C2: Jugabilidad v1 + Colores v1. Original aura palette, map and compressed art checked byte-identical to original ROM. Native aura flashes; not every saved frame shows it."
+      },
+      "animeDbz": {
+        "directFrameVerified": false,
+        "exactPaletteVerified": false,
+        "status": "No identified original-DBZ anime charging frame with validated colour was inspected in this bounded review."
+      },
+      "hdbzTeamZ2": {
+        "ordinaryChargeAuraColourVerified": false,
+        "colourFamily": null,
+        "sourceIds": [
+          "team-z2-official-origin",
+          "team-z2-current-home"
+        ],
+        "status": "Official source located; no specific body-charge-aura colour extracted. Do not use fan Z2i edits as Team Z2 evidence."
+      },
+      "reviewRecommendation": {
+        "family": null,
+        "basis": "Distinct non-SSJ hue remains unverified; do not invent a canonical assignment.",
+        "confidence": "unverified for an individual anime/HDBZ hue",
+        "fallback": "Keep original shared golden/amber family until a specific charging reference is verified.",
+        "sourceIds": [
+          "buyuu-native"
+        ]
+      },
+      "explicitlyRejectedInference": "Purple skin or the body-change technique does not establish a purple ordinary charge aura."
+    }
+  ],
+  "negativeFindingsAreBounded": "Unverified here does not mean a colour never appears in the anime or HDBZ. It means this pass does not provide that specific evidence.",
+  "implementationChanges": false,
+  "repositoryEdited": false,
+  "romEdited": false,
+  "nextEvidenceNeeded": [
+    "Identify an ordinary body-charge scene in original DBZ for each non-SSJ fighter, not a projectile or body-change effect.",
+    "Capture official Team Z2 build at a named character/default palette/normal charge state; keep its artistic convention separate from original anime.",
+    "Treat any new non-SSJ colour family chosen before that as a design proposal for user review, not a canonical claim."
+  ]
+}

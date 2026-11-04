@@ -110,11 +110,8 @@
   "auras": {
     "goku": "C2: llamas altas y polvo, sin rayos",
     "image": "assets/comparisons/auras/C2-Goku-sin-rayos.png",
-    "lightningAllowedOnly": [
-      "Cell",
-      "Gohan SSJ2"
-    ],
-    "status": "Dirección C2v2 elegida; corrección de contorno C2v3 implementada y probada en emulador, pendiente de revisión visual",
+    "lightningAllowedOnly": [],
+    "status": "Contorno nuevo aceptado; todos los rayos retirados. Adaptación de colores por personaje pendiente.",
     "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku",
     "selected": "C2",
     "date": "2026-11-04",
@@ -123,17 +120,17 @@
       "Gohan SSJ2"
     ],
     "otherCharacters": "Sin rayos; Gohan en otras formas tampoco debe llevarlos.",
-    "reviewVideo": "assets/media/auras-c2-v3/Todas-las-auras-antes-despues.mp4",
-    "implementation": "C2v3 conserva80x128, usa el contorno SNES aportado, tres formas de rayos y el polvo elegido; sin huecos por desplazamiento de tiras",
+    "reviewVideo": "assets/media/auras-c2-v3-no-rays/Cell.mp4",
+    "implementation": "C2v3 sin rayos, conserva contorno80x128, polvo y salida. Colores por personaje pendientes.",
     "slowExitVideo": "assets/media/auras-c2-v3/Salida-Goku-lenta.mp4",
-    "validation": "evidence/auras-c2-v3/validation.json",
-    "source": "src/auras/c2-v3/aura.asm",
+    "validation": "evidence/auras-c2-v3-no-rays/validation.json",
+    "source": "src/auras/c2-v3-no-rays/map-pointers.hex",
     "nativeAdaptation": {
       "width": 80,
       "height": 128,
       "tiles": 64,
       "flameTiles": 55,
-      "lightningForms": 3,
+      "lightningForms": 0,
       "palette": "Paleta compartida nativa conservada",
       "graphicsSegments": [
         "A260..A800",
@@ -144,10 +141,10 @@
       "fade": "Densidad temporal; cada fotograma visible conserva el contorno entero",
       "referenceMapIdentity": 384
     },
-    "userVisualApproval": "Dirección, tamaño, polvo y rayos aceptados; corrección del contorno y revisión final pendientes",
-    "currentRevision": "c2-v3",
+    "userVisualApproval": "Aspecto del contorno nuevo aceptado; adaptar únicamente colores por tipo de personaje y estética original. Retirar rayos incluso Cell/Gohan.",
+    "currentRevision": "c2-v3-no-rays",
     "sizeComparisonVideo": "assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4",
-    "runtimeQa": "evidence/auras-c2-v2/runtime-qa.json",
+    "runtimeQa": "evidence/auras-c2-v3-no-rays/validation.json",
     "previousRevision": {
       "id": "c2-v1",
       "documentation": "docs/auras-c2-v1.md",
@@ -156,15 +153,15 @@
       "height": 112,
       "preserved": true
     },
-    "feedback": "La primera prueba C2 se veía pequeña; se piden rayos blancos largos y polvo.",
+    "feedback": "Aspecto nuevo correcto. Quitar todos los rayos y adaptar colores por tipo de personaje y original.",
     "approvalDate": "2026-11-04",
     "approvalEvidence": [
       "c2 v2 de aura me encanta",
       "yo los veo bien los raios"
     ],
     "readmePreviews": [
-      "assets/media/auras-c2-v2/Tres-tamanos-preview.gif",
-      "assets/media/auras-c2-v2/Rayos-Cell-Gohan-preview.gif"
+      "assets/media/auras-c2-v3-no-rays/Cell.mp4",
+      "assets/media/auras-c2-v3-no-rays/Gohan-SSJ2.mp4"
     ],
     "directionApproval": {
       "status": "approved",
@@ -177,10 +174,11 @@
       "evidence": [
         "c2 v2 de aura me encanta",
         "yo los veo bien los raios"
-      ]
+      ],
+      "historicalLightningApprovalSuperseded": true
     },
     "contourCorrection": {
-      "status": "implemented-pending-visual-review",
+      "status": "approved",
       "revision": "c2-v3",
       "video": "assets/media/auras-c2-v3/Todas-las-auras-antes-despues.mp4",
       "ginyu": "assets/media/auras-c2-v3/Ginyu-contorno-antes-despues.gif",
@@ -191,11 +189,12 @@
         128
       ],
       "sourceMapIdentity": 384,
-      "enclosedHoles": 0
+      "enclosedHoles": 0,
+      "approvalDate": "2026-11-04"
     },
-    "lastApprovedDirection": "c2-v2",
+    "lastApprovedDirection": "c2-v3 contour without lightning",
     "superWarriorAuraColor": "Dorada, incluido Vegeta; referencia azul usada sólo para la forma",
-    "lightningAnimationForms": 3,
+    "lightningAnimationForms": 0,
     "previousNativeAdaptationV2": {
       "width": 80,
       "height": 128,
@@ -224,7 +223,23 @@
         "groundY": "0x1C0"
       },
       "fade": "Fases finales con menos piezas para respetar los límites de dibujo"
-    }
+    },
+    "lightningDecision": {
+      "enabled": false,
+      "date": "2026-11-04",
+      "evidence": "non, kita los rayos de cell i ggohan",
+      "supersedes": "Aprobación anterior de rayos para Cell y Gohan SSJ2"
+    },
+    "colorReview": {
+      "status": "pending",
+      "shapeAndAnimation": "Preserve accepted contour and animation",
+      "reference": "Character type and original game style; anime and HDBZ as visual references",
+      "superSaiyans": "Golden",
+      "otherCharacters": "Review individually; do not infer aura color from skin/clothes/projectiles",
+      "commonPaletteIsFinal": false,
+      "referenceLedger": "research/auras-colors/reference-ledger.json"
+    },
+    "parentSource": "src/auras/c2-v3/aura.asm"
   },
   "specialAttacks": "Pendientes",
   "additionalStages": "Propuesta visual de un décimo escenario nevado; no integrado",
