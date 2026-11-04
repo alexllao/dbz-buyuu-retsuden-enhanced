@@ -16,7 +16,7 @@ assert.equal(code.length, manifest.assembly.bytes);
 assert.equal(sha256(code), manifest.assembly.sha256);
 const graphics = await json('project/graphics.json');
 const images = graphics.categories.flatMap(category => category.items);
-assert.equal(images.length, 67);
+assert.equal(images.length, 71);
 assert.equal(images.length, graphics.imageCount);
 assert.equal(new Set(images.map(item => item.path)).size, images.length);
 for (const item of images) {
@@ -24,7 +24,9 @@ for (const item of images) {
   assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256, item.path);
 }
 const decisions = await json('project/decisions.json');
-assert.equal(decisions.presentation.selected, 'B');
+assert.equal(decisions.presentation.selected, 'G');
+assert.equal(decisions.presentation.modCredit.text, '- 2026 ALEX LLAO');
+assert.equal(decisions.presentation.modCredit.usePseudonym, false);
 assert.equal(decisions.preservePreviousVersions, true);
 assert.deepEqual(decisions.auras.lightningAllowedOnly, ['Cell', 'Gohan SSJ2']);
 await stat(resolve(root, decisions.presentation.image));
@@ -37,6 +39,38 @@ const summary = await json('evidence/gameplay-v1/summary.json');
 assert.equal(summary.romSha256, manifest.targets.gameplay.sha256);
 assert.equal(summary.damageMatchesOriginal, true);
 assert.equal(summary.queuedHitInterruptions, 15);
+const aura = await json('patches/auras-c2-v1/manifest.json');
+assert.equal(aura.source.sha256, manifest.source.sha256);
+assert.equal(sha256(await readFile(resolve(root, aura.patch.path))), aura.patch.sha256);
+const readHex = async path => Buffer.from((await readFile(resolve(root, path), 'utf8')).replace(/\s/g, ''), 'hex');
+assert.equal(sha256(await readHex(aura.code.assemblyHex)), aura.code.assembled_sha256);
+assert.equal((await readHex(aura.tiles.hex)).length, 45 * 32);
+const auraMaps = await readHex(aura.maps.hex);
+assert.equal(aura.maps.addresses.length, 16);
+for (const address of aura.maps.addresses) {
+  const offset = Number(address) - Number(aura.maps.base);
+  const count = auraMaps.readUInt16BE(offset);
+  assert(count > 0 && count <= 34);
+  for (let i = 0; i < count; i++) {
+    const at = offset + 2 + i * 6;
+    const tile = auraMaps.readUInt16BE(at) & 0x7ff;
+    const size = auraMaps[at + 5];
+    const tiles = (((size >> 2) & 3) + 1) * ((size & 3) + 1);
+    assert(tile >= 0x513 && tile + tiles <= 0x540, 'Aura fuera del espacio de VRAM reservado');
+  }
+}
+const auraValidation = await json('evidence/auras-c2-v1/validation.json');
+assert.equal(auraValidation.target_sha256, aura.target.sha256);
+assert.equal(auraValidation.characters.length, 11);
+assert.deepEqual(auraValidation.characters.filter(item => item.lightning).map(item => item.character_id), [1, 5]);
+for (const item of auraValidation.characters) {
+  assert(item.exit_completed && item.movement_after_release && item.scratch_magic_stable);
+  assert.equal(sha256(await readFile(resolve(root, 'assets/media/auras-c2-v1', item.video))), item.sha256);
+}
+const auraQa = await json('evidence/auras-c2-v1/runtime-qa.json');
+assert.equal(auraQa.prototype_sha256, aura.target.sha256);
+assert.equal(auraQa.frames_with_aura_when_both_phase_zero.length, 0);
+assert.equal(auraQa.native118_11f_match_all_frames, true);
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -62,4 +96,4 @@ catch { /* An exported source archive may have no .git metadata. */ }
 for (const path of tracked) {
   assert(!/\.(bin|smd|gen|zip|dll|exe|state|srm)$/i.test(path), `Archivo generado/base inesperado en Git: ${path}`);
 }
-console.log(`Verificado: ${images.length} imágenes, decisión B, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);
+console.log(`Verificado: ${images.length} imágenes, decisión G, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);

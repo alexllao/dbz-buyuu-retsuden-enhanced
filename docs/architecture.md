@@ -17,8 +17,12 @@ La ROM original es un artefacto 68000, no un proyecto de C recompilable. El trab
 
 La entrada pendiente dura cinco actualizaciones posteriores, se consume una vez y se limpia al salir de los estados admitidos o cambiar el tipo de control. Las pulsaciones tempranas caducan. Las recuperaciones sólo se recortan cuando una secuencia simple ha llegado a su última pose; las fases complejas y el movimiento aéreo conservan sus reglas.
 
-La transición visual usa poses existentes y cede inmediatamente a una nueva acción. No añade sprites dibujados ni incluye el HUD o aura conceptual.
+La transición visual de Jugabilidad v1 usa poses existentes y cede inmediatamente a una nueva acción. Ese parche no añade sprites dibujados ni incluye el HUD o las auras. El [prototipo C2](auras-c2-v1.md) se versiona por separado, con sus propios gráficos y código.
 
 El turbo usa los valores nativos `E756/E758`: `0x100/0x100` normal y `0x140/0xCC` turbo. El cálculo inverso está en `0x207E6`. El juego ya conserva un historial de direcciones; no asumir que carece de toda memoria de entrada.
 
 Offsets de paleta históricos: normales `0x80064`, alternativas `0x801E4`, fondos `0x19E51E`, con diez colores comunes desde `0x9102`. Ver [research/palettes](../research/palettes) y los scripts de extracción históricos antes de modificar estos bloques.
+
+## Auras C2 experimentales
+
+La primera adaptación C2 usa un recurso de 64 × 112 píxeles y 45 tiles y conserva la paleta compartida nativa. El código distingue Gohan SSJ2 (ID 1) y Cell (ID 5) para los rayos; el resto utiliza la variante sin rayos. La salida visual al soltar dura doce ticks. Fuente, código y recursos están en [src/auras/c2-v1](../src/auras/c2-v1). La validación y la aprobación visual se registran separadas de las pruebas históricas de Jugabilidad v1.

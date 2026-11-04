@@ -14,7 +14,9 @@ pnpm build:colors --rom "ruta/a/original.bin"
 
 La base se valida por tamaño y SHA-256. El constructor comprueba los parches, recalcula el checksum de Mega Drive y exige que el resultado coincida con el hash del [manifiesto](../patches/gameplay-v1/manifest.json). Nunca sobrescribe la entrada. Las salidas y su registro aparecen en `dist/`.
 
-La variante `colors` aplica primero Colores v1 y después Jugabilidad v1; por último recalcula el checksum. No incluye aún la presentación B, el HUD ni el aura C2.
+La variante `colors` aplica primero Colores v1 y después Jugabilidad v1; por último recalcula el checksum. No incluye aún la presentación G, el HUD ni el aura C2.
+
+El [prototipo C2](auras-c2-v1.md) se conserva como un parche experimental separado en [patches/auras-c2-v1](../patches/auras-c2-v1), con su propio manifiesto. Combina Jugabilidad v1, Colores v1 y Auras C2 desde la base original. Los comandos de arriba siguen generando las dos variantes v1 anteriores; no incorporan automáticamente ese prototipo. La presentación G, el crédito y el HUD tampoco están incluidos en la prueba C2.
 
 ## Ensamblar la fuente del 68000
 

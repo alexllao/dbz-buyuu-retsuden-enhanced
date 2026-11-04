@@ -1,0 +1,53 @@
+{
+  "version": "c2-v1-experimental",
+  "source": {
+    "bytes": 2097152,
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557"
+  },
+  "patch": {
+    "path": "patches/auras-c2-v1/auras-c2.ips",
+    "sha256": "e5f2a6fc85a2df41933beded5c6250bcf5befd6015b75b183ebdd23e166debdd"
+  },
+  "target": {
+    "filename": "Jugabilidad_v1_Colores_v1_Auras_C2_Prueba.bin",
+    "bytes": 2097152,
+    "sha256": "87a0002421fd41451c7c4fa9e2ac447253822a4ea97125d943c2004cf5ab64ea"
+  },
+  "code": {
+    "base": "0x7B400",
+    "bytes": 378,
+    "assemblyHex": "src/auras/c2-v1/aura.hex",
+    "assembled_sha256": "bfb01b8609d3bb7983de111e87233e936ecc01fd240241527d3bd18f8743a761",
+    "note": "Assembler output contains zero table pointers; final table is fixed during integration."
+  },
+  "maps": {
+    "base": "0x7b800",
+    "end": "0x7c3f0",
+    "addresses": [
+      "0x7b800",
+      "0x7b8b6",
+      "0x7b96c",
+      "0x7ba22",
+      "0x7bad8",
+      "0x7bba6",
+      "0x7bc74",
+      "0x7bd42",
+      "0x7bdf8",
+      "0x7beae",
+      "0x7bf64",
+      "0x7c01a",
+      "0x7c0d0",
+      "0x7c19e",
+      "0x7c26c",
+      "0x7c33a"
+    ],
+    "hex": "src/auras/c2-v1/maps.hex"
+  },
+  "tiles": {
+    "bytes": 1440,
+    "baseVram": "0xA260",
+    "endVram": "0xA800",
+    "hex": "src/auras/c2-v1/tiles.hex"
+  },
+  "status": "Experimental visual review; not yet user approved"
+}

@@ -1,0 +1,53 @@
+{
+  "base": "C anterior",
+  "status": "G elegida; las capturas son reales. Pendiente integrar en la próxima ROM combinada.",
+  "feedback": "C gusta como base, pero necesita más sombras y menos amarillo; dos referencias aportadas por el usuario.",
+  "method": "Capturas reales del emulador; sólo cuatro colores de la paleta de presentación y checksum. Dibujo y distribución de píxeles conservados.",
+  "variants": [
+    {
+      "id": "E",
+      "label": "C con sombra suave",
+      "skin": {
+        "3": 1130,
+        "5": 2220,
+        "9": 3822,
+        "10": 3278
+      },
+      "preview": "assets/comparisons/title/E.png",
+      "sha256": "ea442e469be483c3223ae2ae6dcef892dbfcbeea333ade3c697dfe02f816e205"
+    },
+    {
+      "id": "F",
+      "label": "C con sombra anime",
+      "skin": {
+        "3": 1128,
+        "5": 1676,
+        "9": 3822,
+        "10": 2766
+      },
+      "preview": "assets/comparisons/title/F.png",
+      "sha256": "9ec7ee7819e695bc7f2a29bcbfebdb310c3a96bbe10515ae8afe473e48c66ae0"
+    },
+    {
+      "id": "G",
+      "label": "C con contraste marcado",
+      "skin": {
+        "3": 582,
+        "5": 1674,
+        "9": 3822,
+        "10": 3278
+      },
+      "preview": "assets/comparisons/title/G.png",
+      "sha256": "d4e180ecc4fed99d729cc13a482a7102380524c2928815546518b959aa8a5e09"
+    }
+  ],
+  "chosen": "G",
+  "chosenOn": "2026-11-04",
+  "paletteBase": "0x1ADE32",
+  "modCredit": {
+    "text": "- 2026 ALEX LLAO",
+    "status": "Solicitado; pendiente implementar en los gráficos de presentación",
+    "usePseudonym": false
+  },
+  "comparison": "assets/comparisons/title/Comparacion-C-E-F-G.png"
+}

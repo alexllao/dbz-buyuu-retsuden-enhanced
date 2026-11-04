@@ -1,0 +1,947 @@
+{
+  "status": "PASS for tested natural scenarios; scope limits below",
+  "prototype_sha256": "87a0002421fd41451c7c4fa9e2ac447253822a4ea97125d943c2004cf5ab64ea",
+  "reference_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+  "core": "Genesis Plus GX v1.7.4 f27655b; native normal boot speed",
+  "scenarios": {
+    "p2-charge-release": {
+      "fixture": "Natural controller input; both control bytes human",
+      "hits": [],
+      "p1_phases": [
+        0
+      ],
+      "p2_phases": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        128
+      ],
+      "aura_sprite_max": 34,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ],
+        [
+          37,
+          128,
+          651
+        ],
+        [
+          93,
+          12,
+          693
+        ],
+        [
+          95,
+          10,
+          695
+        ],
+        [
+          98,
+          8,
+          697
+        ],
+        [
+          100,
+          6,
+          699
+        ],
+        [
+          103,
+          4,
+          701
+        ],
+        [
+          105,
+          2,
+          703
+        ],
+        [
+          107,
+          0,
+          705
+        ]
+      ],
+      "hit_visual_checks": [],
+      "engine_ticks_prototype": 146,
+      "engine_ticks_reference": 146
+    },
+    "two-charges": {
+      "fixture": "Natural controller input; both control bytes human",
+      "hits": [],
+      "p1_phases": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ],
+        [
+          36,
+          128,
+          650
+        ],
+        [
+          81,
+          12,
+          684
+        ],
+        [
+          83,
+          10,
+          686
+        ],
+        [
+          85,
+          8,
+          688
+        ],
+        [
+          87,
+          6,
+          690
+        ],
+        [
+          89,
+          4,
+          692
+        ],
+        [
+          91,
+          2,
+          694
+        ],
+        [
+          94,
+          0,
+          696
+        ],
+        [
+          168,
+          128,
+          764
+        ],
+        [
+          210,
+          12,
+          794
+        ],
+        [
+          213,
+          10,
+          796
+        ],
+        [
+          215,
+          8,
+          798
+        ],
+        [
+          217,
+          6,
+          800
+        ],
+        [
+          219,
+          4,
+          802
+        ],
+        [
+          222,
+          2,
+          804
+        ],
+        [
+          224,
+          0,
+          806
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ]
+      ],
+      "hit_visual_checks": [],
+      "engine_ticks_prototype": 249,
+      "engine_ticks_reference": 250
+    },
+    "simultaneous": {
+      "fixture": "Natural controller input; both control bytes human",
+      "hits": [],
+      "p1_phases": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        128
+      ],
+      "aura_sprite_max": 34,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ],
+        [
+          36,
+          128,
+          650
+        ],
+        [
+          90,
+          12,
+          686
+        ],
+        [
+          94,
+          10,
+          688
+        ],
+        [
+          97,
+          8,
+          690
+        ],
+        [
+          99,
+          6,
+          692
+        ],
+        [
+          102,
+          4,
+          694
+        ],
+        [
+          105,
+          2,
+          696
+        ],
+        [
+          107,
+          0,
+          698
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ],
+        [
+          37,
+          128,
+          651
+        ],
+        [
+          100,
+          12,
+          693
+        ],
+        [
+          104,
+          10,
+          695
+        ],
+        [
+          106,
+          8,
+          697
+        ],
+        [
+          108,
+          6,
+          699
+        ],
+        [
+          110,
+          4,
+          701
+        ],
+        [
+          112,
+          2,
+          703
+        ],
+        [
+          114,
+          0,
+          705
+        ]
+      ],
+      "hit_visual_checks": [],
+      "engine_ticks_prototype": 147,
+      "engine_ticks_reference": 146
+    },
+    "hit-during-charge-distance24": {
+      "fixture": "Natural controller input; both control bytes human; opponent distance forced for collision",
+      "hits": [
+        [
+          82,
+          188,
+          0,
+          12
+        ]
+      ],
+      "p1_phases": [
+        0,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          619
+        ],
+        [
+          37,
+          128,
+          654
+        ],
+        [
+          82,
+          0,
+          686
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          619
+        ]
+      ],
+      "hit_visual_checks": [
+        {
+          "hit_index": 82,
+          "hp": 188,
+          "action": 12,
+          "phase_zero_index": 82,
+          "aura_sprites_between_hit_and_end": 0,
+          "any_aura_after_hit": false
+        }
+      ],
+      "engine_ticks_prototype": 160,
+      "engine_ticks_reference": 160
+    },
+    "hit-during-charge-distance40": {
+      "fixture": "Natural controller input; both control bytes human; opponent distance forced for collision",
+      "hits": [
+        [
+          83,
+          188,
+          128,
+          12
+        ]
+      ],
+      "p1_phases": [
+        0,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ],
+        [
+          36,
+          128,
+          652
+        ],
+        [
+          86,
+          0,
+          688
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ]
+      ],
+      "hit_visual_checks": [
+        {
+          "hit_index": 83,
+          "hp": 188,
+          "action": 12,
+          "phase_zero_index": 86,
+          "aura_sprites_between_hit_and_end": 0,
+          "any_aura_after_hit": false
+        }
+      ],
+      "engine_ticks_prototype": 161,
+      "engine_ticks_reference": 160
+    },
+    "hit-during-charge-distance56": {
+      "fixture": "Natural controller input; both control bytes human; opponent distance forced for collision",
+      "hits": [
+        [
+          83,
+          188,
+          128,
+          12
+        ]
+      ],
+      "p1_phases": [
+        0,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ],
+        [
+          36,
+          128,
+          652
+        ],
+        [
+          86,
+          0,
+          688
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ]
+      ],
+      "hit_visual_checks": [
+        {
+          "hit_index": 83,
+          "hp": 188,
+          "action": 12,
+          "phase_zero_index": 86,
+          "aura_sprites_between_hit_and_end": 0,
+          "any_aura_after_hit": false
+        }
+      ],
+      "engine_ticks_prototype": 160,
+      "engine_ticks_reference": 160
+    },
+    "hit-during-fade-distance24": {
+      "fixture": "Natural controller input; both control bytes human; opponent distance forced for collision",
+      "hits": [
+        [
+          67,
+          188,
+          10,
+          12
+        ]
+      ],
+      "p1_phases": [
+        0,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          619
+        ],
+        [
+          37,
+          128,
+          654
+        ],
+        [
+          61,
+          12,
+          672
+        ],
+        [
+          65,
+          10,
+          674
+        ],
+        [
+          70,
+          0,
+          676
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          619
+        ]
+      ],
+      "hit_visual_checks": [
+        {
+          "hit_index": 67,
+          "hp": 188,
+          "action": 12,
+          "phase_zero_index": 70,
+          "aura_sprites_between_hit_and_end": 0,
+          "any_aura_after_hit": false
+        }
+      ],
+      "engine_ticks_prototype": 163,
+      "engine_ticks_reference": 163
+    },
+    "hit-during-fade-distance40": {
+      "fixture": "Natural controller input; both control bytes human; opponent distance forced for collision",
+      "hits": [
+        [
+          69,
+          188,
+          10,
+          12
+        ]
+      ],
+      "p1_phases": [
+        0,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ],
+        [
+          36,
+          128,
+          652
+        ],
+        [
+          63,
+          12,
+          672
+        ],
+        [
+          67,
+          10,
+          674
+        ],
+        [
+          72,
+          0,
+          676
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ]
+      ],
+      "hit_visual_checks": [
+        {
+          "hit_index": 69,
+          "hp": 188,
+          "action": 12,
+          "phase_zero_index": 72,
+          "aura_sprites_between_hit_and_end": 0,
+          "any_aura_after_hit": false
+        }
+      ],
+      "engine_ticks_prototype": 163,
+      "engine_ticks_reference": 162
+    },
+    "hit-during-fade-distance56": {
+      "fixture": "Natural controller input; both control bytes human; opponent distance forced for collision",
+      "hits": [
+        [
+          69,
+          188,
+          10,
+          12
+        ]
+      ],
+      "p1_phases": [
+        0,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ],
+        [
+          36,
+          128,
+          652
+        ],
+        [
+          63,
+          12,
+          672
+        ],
+        [
+          67,
+          10,
+          674
+        ],
+        [
+          72,
+          0,
+          676
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          618
+        ]
+      ],
+      "hit_visual_checks": [
+        {
+          "hit_index": 69,
+          "hp": 188,
+          "action": 12,
+          "phase_zero_index": 72,
+          "aura_sprites_between_hit_and_end": 0,
+          "any_aura_after_hit": false
+        }
+      ],
+      "engine_ticks_prototype": 163,
+      "engine_ticks_reference": 162
+    },
+    "forced-HP-during-charge": {
+      "fixture": "Natural controller input; both control bytes human; HP -10 forced atframe60",
+      "hits": [
+        [
+          60,
+          190,
+          0,
+          15
+        ]
+      ],
+      "p1_phases": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ],
+        [
+          36,
+          128,
+          650
+        ],
+        [
+          60,
+          0,
+          668
+        ],
+        [
+          63,
+          128,
+          670
+        ],
+        [
+          81,
+          12,
+          684
+        ],
+        [
+          83,
+          10,
+          686
+        ],
+        [
+          85,
+          8,
+          688
+        ],
+        [
+          87,
+          6,
+          690
+        ],
+        [
+          89,
+          4,
+          692
+        ],
+        [
+          91,
+          2,
+          694
+        ],
+        [
+          94,
+          0,
+          696
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ]
+      ],
+      "hit_visual_checks": [],
+      "engine_ticks_prototype": 131,
+      "engine_ticks_reference": 131
+    },
+    "forced-HP-during-fade": {
+      "fixture": "Natural controller input; both control bytes human; HP -10 forced atframe84",
+      "hits": [
+        [
+          84,
+          190,
+          10,
+          15
+        ]
+      ],
+      "p1_phases": [
+        0,
+        10,
+        12,
+        128
+      ],
+      "p2_phases": [
+        0
+      ],
+      "aura_sprite_max": 30,
+      "last30_aura_sprite_max": 0,
+      "last30_phase_max": [
+        0,
+        0
+      ],
+      "p1_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ],
+        [
+          36,
+          128,
+          650
+        ],
+        [
+          81,
+          12,
+          684
+        ],
+        [
+          83,
+          10,
+          686
+        ],
+        [
+          85,
+          0,
+          688
+        ]
+      ],
+      "p2_phase_transitions": [
+        [
+          0,
+          0,
+          616
+        ]
+      ],
+      "hit_visual_checks": [],
+      "engine_ticks_prototype": 130,
+      "engine_ticks_reference": 130
+    }
+  },
+  "frames_with_aura_when_both_phase_zero": [],
+  "native118_11f_match_all_frames": true,
+  "native118_127_differences": [
+    {
+      "case": "hit-during-charge-distance40",
+      "index": 87,
+      "actor": "p2",
+      "prototype": "00000000000000000000000000000008",
+      "reference": "0000000000000000000000000000000a"
+    },
+    {
+      "case": "hit-during-charge-distance40",
+      "index": 88,
+      "actor": "p2",
+      "prototype": "00000000000000000000000000000006",
+      "reference": "00000000000000000000000000000008"
+    },
+    {
+      "case": "hit-during-charge-distance40",
+      "index": 89,
+      "actor": "p2",
+      "prototype": "00000000000000000000000000000004",
+      "reference": "00000000000000000000000000000006"
+    },
+    {
+      "case": "hit-during-charge-distance40",
+      "index": 90,
+      "actor": "p2",
+      "prototype": "00000000000000000000000000000002",
+      "reference": "00000000000000000000000000000004"
+    },
+    {
+      "case": "hit-during-charge-distance40",
+      "index": 91,
+      "actor": "p2",
+      "prototype": "00000000000000000000000000000000",
+      "reference": "00000000000000000000000000000002"
+    },
+    {
+      "case": "hit-during-fade-distance24",
+      "index": 75,
+      "actor": "p2",
+      "prototype": "00000000000000000000000000000000",
+      "reference": "00000000000000000000000000000002"
+    }
+  ],
+  "native_difference_explanation": "Six framewise mismatches confined to P2+127 native countdown, shifted by one game tick around enemy attack. No mismatch at118..11F. Absolute frame parity and actor animation pose differ; input schedules run in display frames, not synchronized native engine ticks.",
+  "write_scope": "Hook source and assembled instruction listing only write110 magic,111 phase,112 word,114 word.116..117, controls108..10F and native118+ not written by hook.",
+  "forced_hp_limitation": "Forcing HP loss without changing charge action/input suppresses aura on next actor draw, then held A+B rearms it. This is artificial and is not treated as a natural hit cancellation test. Six real P2 kick collisions produce action12, clear nativeBD, and no aura sprites from the hit frame onward.",
+  "limitations": [
+    "QA uses GokuP1 and default native GohanP2; full11roster recordings performed separately by parent.",
+    "Human/CPU control bytes forced human; positions and facing forced for collision fixtures.",
+    "No hardware test.",
+    "118..11F stayedzero in these cases; this cannot prove all possible native uses absent.",
+    "One core frame may repeat previous rendered frame during native slowdown. Phase cancellation is sampled on alternating actor draw; natural visual aura cancellation was immediate in all six observed impacts."
+  ]
+}

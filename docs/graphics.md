@@ -1,14 +1,20 @@
 # Galería de variantes
 
-Se conservan **67 imágenes**. El catálogo con rutas y hashes está en [project/graphics.json](../project/graphics.json). Las subcarpetas de [assets/comparisons](../assets/comparisons) contienen imágenes individuales a mayor tamaño.
+Se conservan **71 imágenes**. El catálogo con rutas y hashes está en [project/graphics.json](../project/graphics.json). Las subcarpetas de [assets/comparisons](../assets/comparisons) contienen imágenes individuales a mayor tamaño.
 
 ## Presentación
 
-**Elegida: B — HDBZ cálido**, el 4 de noviembre de 2026. Pendiente de integrar en ROM. La preferencia del usuario se refiere al matiz de piel, no sólo a su brillo.
+**Elegida: G — C con contraste marcado**, el 4 de noviembre de 2026. Parte de C, con más sombras y menos amarillo. La captura es real y conserva el dibujo original; falta integrarla en la próxima ROM combinada. B fue la elección anterior y se conserva.
 
 ![Todas las presentaciones](../assets/comparisons/overview/04-Presentacion-todas.png)
 
 O: original; V1: primer ajuste; A: anime claro; B: HDBZ cálido; C: equilibrado/V2 aclarada; D: melocotón suave. C y V2 son la misma versión.
+
+![Comparación C, E, F y G](../assets/comparisons/title/Comparacion-C-E-F-G.png)
+
+E: C con sombra suave; F: C con sombra anime; **G: C con contraste marcado, elegida**. Los cuatro colores y los hashes de las ROMs de previsualización están guardados en [title-shadows-v1.json](../research/palettes/title-shadows-v1.json).
+
+Crédito del mod solicitado: **- 2026 ALEX LLAO**, sin pseudónimo. Pendiente implementarlo en los gráficos de presentación.
 
 ## Personajes
 
@@ -40,6 +46,6 @@ Nueve fondos: torneo, desierto, montañas rocosas, Sala del Tiempo, carretera, p
 
 ![Auras](../assets/comparisons/overview/06-Auras-Goku.png)
 
-**Conceptos, pendientes de implementar.** Goku tiene elegida C2: llamas altas doradas y polvo, sin rayos. C1 con rayos se mantiene sólo como historial. Cell y Gohan SSJ2 deben llevar rayos; los demás, sin rayos.
+**C2 ya tiene un prototipo implementado en la ROM, pendiente de revisión visual.** Goku lleva el aura sin rayos; Gohan SSJ2 (ID 1) y Cell (ID 5), con rayos. El resto del reparto no lleva rayos. C1 se mantiene sólo como historial.
 
-Falta validar aparición, carga, retirada al soltar y corte por daño dentro del juego. No se ha aprobado una animación de cierre implementada: se quiere evitar un final brusco. Todavía no existen propuestas individuales de aura para los otros diez personajes.
+La adaptación utiliza 64 × 112 píxeles y 45 tiles, mantiene la paleta compartida nativa y retira el aura durante doce ticks al soltar la carga. Su dibujo y colores no son idénticos al boceto generado. Hay [grabaciones reales de los once personajes y de la salida a cámara lenta](auras-c2-v1.md). El usuario debe revisar el aspecto y la suavidad del cierre antes de aprobarlos; la evidencia de pruebas está separada de esa aprobación visual.

@@ -1,0 +1,22 @@
+{
+  "status": "Original resources identified; C2 replacement is not implemented",
+  "verified_on": "2026-11-04",
+  "mapping_rom_offset": "0x9F0A",
+  "mapping_sprite_count": 23,
+  "compressed_graphics_rom_offset": "0xB6F0",
+  "compressed_graphics_end_exclusive": "0xB97C",
+  "decompressed_bytes": 1440,
+  "tile_count": 45,
+  "vram_destination": "0xA260",
+  "vram_tile_start": "0x513",
+  "vram_tile_end_exclusive": "0x540",
+  "loader_instruction": "0x9994 LEA 0xB6F0,A0; 0x999A MOVEA.W #0xA260,A1; 0x999E JSR 0x15D2",
+  "drawing_function": "0x9ECE",
+  "lightning_required_for": ["Cell", "Gohan SSJ2"],
+  "pending": [
+    "Create and integrate native C2 aura tiles and mapping",
+    "Identify Gohan SSJ2 condition before enabling lightning",
+    "Validate startup, release, hit interruption and control recovery",
+    "Record actual before/after gameplay for all eleven characters"
+  ]
+}

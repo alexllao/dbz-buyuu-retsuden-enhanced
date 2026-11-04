@@ -1,0 +1,54 @@
+{
+  "analysis": "Static local Capstone disassembly plus controlled Genesis Plus GX native boot probes of supplied original ROM; no ROM modification",
+  "hook_site": "0x9ECE, replace TST.B $BD(A0) (4 bytes) and BEQ.S 0x9F08 (2 bytes) with JMP absolute",
+  "entry_actor": "A0 points to P1 E75E or P2 E886; original aura call alternates display frames using E6A9 bit0",
+  "return": "JMP 0x9F08 (RTS), matching original BSR/fallthrough contexts",
+  "native_draw": "0x9ED4..0x9EF2, worldX+0A-cameraX+16, worldY+10-cameraY+18+0x20; map9F0A passed to1C66",
+  "native_flag": "BD is set in charge1A688 and several special handlers, cleared by common action reset20BD2; reader8AD8 suppresses actor shadow while nonzero. Do not retain flag for fade.",
+  "native_charge": "Action decimal15/hex0F; source1A692 tests held inputword1A via actor BA and BB bit selectors. CID0,1,3,4,9 alternate pose21/74; this is body animation, not aura selection.",
+  "goHan": {
+    "cid": 1,
+    "observed": "Native sprite frame0 extracted from0x95902 and map0xA17C6 shows upright gold hair and purple gi; image work/auras/native/gohan-frame0.png.",
+    "interpretation": "This is the native roster Gohan SSJ2. One Gohan roster entry; no alternate-form flag has been established. Apply lightning toCID1 andCID5 for current roster, rather than inventing a transformation flag.",
+    "secondary_context": [
+      "https://dragonball.fandom.com/wiki/Dragon_Ball_Z%3A_Buy%C5%AB_Retsuden",
+      "https://videogamehistory.fandom.com/wiki/Dragon_Ball_Z%3A_Buy%C5%AB_Retsuden"
+    ],
+    "limitation": "No exhaustive proof that the ROM cannot contain unused or story-only alternate art. Future added forms must explicitly override lightning."
+  },
+  "ram_proposal": {
+    "range": "Actor110..115 inclusive, provisional until runtime verified",
+    "layout": "110 magicC2,111 phase80=sustain or1..12=fade,112 framecounterword,114 previousHPword",
+    "preserves": "Controls108..10F, native118+;116..117 not written",
+    "scan": "Each even address0x200..7A724 decoded one instruction, search positive $110..$117(A0..A6): only false overlaps into tables/compressed data. Suspicious85xx/1CD5x/422C4 neighborhoods inspected, no valid actor access observed.",
+    "limitations": "Scan does not prove absence of computed/indexed accesses or bulk structure copies. Must runtime compare scratch values and native gameplay."
+  },
+  "implementation": "aura_hook.asm at7B400. Sixteen pointer table frame0plain4/bolts4/frame1plain4/bolts4. Fade uses native engine-frame delta for12ticks despite alternating actor drawing. Starts when charge input released, does not delay native controls. HP loss cancels; residual off for actions other than idle0/charge0F. NativeBD left untouched.",
+  "required_validation": [
+    "Assemble syntax and instruction boundaries",
+    "Patch table pointers",
+    "Confirm actor scratch untouched by native game",
+    "Release/recharge",
+    "P1/P2 simultaneous auras",
+    "Damage interruption",
+    "Native noncharge effects usingBD",
+    "Native normal/turbo behavior"
+  ],
+  "runtime_probe": {
+    "characters": [
+      0,
+      1,
+      5
+    ],
+    "schedule": "10idle,60A+B,60release,20right,30idle; forced both fighters human",
+    "scratch110to117": "All zero across all180samples for each of the3characters",
+    "engine_frame_counter": "E6A8 advances0or1 peremuframe; native slowdowns mean12ticks approximately12-15displayframes",
+    "native_aura_exit": "After release atscheduleframe70, BD persists until97(Goku/Cell)or99(Gohan)",
+    "bindings": "BA=6,BB=4,heldword50 duringAB,0afterrelease",
+    "files": [
+      "hook-probe-0.json",
+      "hook-probe-1.json",
+      "hook-probe-5.json"
+    ]
+  }
+}

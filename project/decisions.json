@@ -2,10 +2,19 @@
   "updated": "2026-11-04",
   "preservePreviousVersions": true,
   "presentation": {
-    "selected": "B",
-    "label": "HDBZ cálido",
-    "image": "assets/comparisons/title/B.png",
-    "status": "Elegida; pendiente integrar en la siguiente ROM"
+    "selected": "G",
+    "label": "C con contraste marcado",
+    "image": "assets/comparisons/title/G.png",
+    "date": "2026-11-04",
+    "status": "Elegida; captura real de la paleta disponible, pendiente integrar en la siguiente ROM combinada",
+    "feedback": "Más sombras y menos amarillo, tomando C como base. El usuario eligió G.",
+    "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
+    "paletteRecord": "research/palettes/title-shadows-v1.json",
+    "modCredit": {
+      "text": "- 2026 ALEX LLAO",
+      "status": "Solicitado; pendiente implementar en los gráficos de presentación",
+      "usePseudonym": false
+    }
   },
   "characters": {
     "selected": "Propuesta Colores v1",
@@ -105,7 +114,7 @@
       "Cell",
       "Gohan SSJ2"
     ],
-    "status": "Elegidas; integración real y vídeos antes/después de los once personajes solicitados",
+    "status": "C2 experimental implementada en la ROM de prueba y grabada dentro del juego; pendiente de revisión visual del usuario",
     "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku",
     "selected": "C2",
     "date": "2026-11-04",
@@ -114,7 +123,24 @@
       "Gohan SSJ2"
     ],
     "otherCharacters": "Sin rayos; Gohan en otras formas tampoco debe llevarlos.",
-    "reviewVideo": "Grabación real del juego, no previsualización generada"
+    "reviewVideo": "assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4",
+    "implementation": "Prototipo nativo C2 v1, no versión gráfica final aprobada",
+    "slowExitVideo": "assets/media/auras-c2-v1/Salida-Goku-lenta.mp4",
+    "validation": "evidence/auras-c2-v1/validation.json",
+    "source": "src/auras/c2-v1/aura.asm",
+    "nativeAdaptation": {
+      "width": 64,
+      "height": 112,
+      "tiles": 45,
+      "palette": "Paleta compartida nativa conservada",
+      "conceptMatch": "Adaptación del boceto C2; dibujo y colores no idénticos al concepto generado",
+      "releaseTicks": 12,
+      "lightningCharacterIds": [
+        1,
+        5
+      ]
+    },
+    "userVisualApproval": "Pendiente"
   },
   "specialAttacks": "Pendientes",
   "additionalStages": "En espera por petición del usuario",

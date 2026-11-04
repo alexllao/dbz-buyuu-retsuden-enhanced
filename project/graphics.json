@@ -1,6 +1,6 @@
 {
-  "revision": 2,
-  "imageCount": 67,
+  "revision": 3,
+  "imageCount": 71,
   "categories": [
     {
       "id": "characters",
@@ -283,6 +283,26 @@
           "id": "V2-aclarada-igual-a-C",
           "path": "assets/comparisons/title/V2-aclarada-igual-a-C.png",
           "sha256": "b01c0040227d400a2629eea7e0bc06a7650417a8fa41fd8c8e143a8131d01a0d"
+        },
+        {
+          "id": "E",
+          "path": "assets/comparisons/title/E.png",
+          "sha256": "0194dc7d041fa2d60556920a715bb91321bb94a936a7c29b1ad4b4f47ad07aaa"
+        },
+        {
+          "id": "F",
+          "path": "assets/comparisons/title/F.png",
+          "sha256": "753301c7350a1909ea068bf9f076eccbaffabcdf75f76b624d381b5267ff5192"
+        },
+        {
+          "id": "G",
+          "path": "assets/comparisons/title/G.png",
+          "sha256": "ae2d5d695229e17714ae34be445272e3ff9cca01e92fe8757fc363a3d2561cfd"
+        },
+        {
+          "id": "Comparacion-C-E-F-G",
+          "path": "assets/comparisons/title/Comparacion-C-E-F-G.png",
+          "sha256": "ce0999a7c4b2871609ad39a66a62268bee57af52ebcc8e7af9c6d2bcf56a55ac"
         }
       ]
     },

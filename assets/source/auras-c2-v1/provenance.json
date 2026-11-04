@@ -1,0 +1,11 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Design source for a native Mega Drive sprite; never used to simulate gameplay video",
+  "references": [
+    "assets/comparisons/auras/C2-Goku-sin-rayos.png",
+    "Original common aura extracted locally from the user's ROM"
+  ],
+  "prompt": "Create a production pixel-art GAME SPRITE, isolated golden Dragon Ball charging aura, no character, no ground, no letters, transparent background. Use image 1 (the C2 Goku scene) ONLY as art-direction reference for the flame colors, sharp flame tongues and cream-white energy core. Use image 2 (isolated original aura) as the strict shape/proportion/layout reference. Output a single aura, centered, 5:7 aspect ratio silhouette equivalent to an 80x112 pixel Mega Drive sprite. Sharp elongated upward flame tongues, jagged but elegant gold outer boundary, luminous pale-yellow inner fringe, solid cream-white inner mass. Mirror symmetry left-right. Keep the broad teardrop outline and flat rounded base of image2 but make the crown taller and sharper and remove grey core, replace it with warm cream-white. Limit exactly 3 visible flat colors plus transparency: golden ochre outer edge #CC8800, bright yellow inner flame #FFDD44, ivory core #FFFFCC. NO lightning, NO sparks outside silhouette, NO dust, NO glow blur, NO gradients, NO antialias. Coarse crisp pixel-grid aesthetic as if native 80x112 sprite enlarged by nearest neighbor. Single sprite fills most of canvas with narrow transparent margins. The game character is drawn separately and must NOT appear.",
+  "integration": "Converted to a symmetric 64x112 indexed sprite using existing shared colors 7, 11, 8. Native 8x32 sprite strips, tile-sequence overlap packing, 44 flame tiles plus one native electric zigzag tile. 1440-byte VRAM budget preserved.",
+  "limits": "The integrated prototype is a hardware-constrained adaptation of C2, not an exact copy of the concept or the generated source. Lightning sprite enabled only for roster IDs1 and5. Dust from the concept has not been integrated."
+}
