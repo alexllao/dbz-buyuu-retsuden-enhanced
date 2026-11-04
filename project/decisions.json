@@ -358,6 +358,17 @@
     "credit": "Original Bandai retained; ALEX LLAO 2026 in same-height bitmap style beside it",
     "romSha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57"
   },
+  "introWarmConcept": {
+    "date": "2026-11-04",
+    "selected": "C",
+    "label": "Contraste anime",
+    "feedback": "contraste anime me parece correcto",
+    "image": "assets/concepts/intro-warm-v1/Variantes-A-B-C.png",
+    "status": "Concepto visual elegido; adaptación a ROM y revisión de capturas reales pendientes",
+    "direction": "Piel cálida basada en el original, contornos negros y mayor contraste en pelo, sombras y reparto",
+    "preservePreviousVariants": true,
+    "currentRom": "v6.3, presentación e intro con colores originales"
+  },
   "introV6_3": {
     "status": "Original intro and title colors restored; user review pending",
     "credits": "Bandai and ALEX LLAO retained",
