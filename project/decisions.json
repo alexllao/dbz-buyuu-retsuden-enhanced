@@ -4,9 +4,9 @@
   "presentation": {
     "selected": "C anime cálido",
     "label": "Adaptación del concepto C: Contraste anime",
-    "image": "assets/media/intro-refined-v6-5/Titulo-contraste-anime-conservado.png",
+    "image": "assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png",
     "date": "2026-11-04",
-    "status": "v6.5: cara grande cálida de Goku aprobada desde v6.4 y conservada; personajes completos corregidos, pendientes de revisión visual",
+    "status": "v6.6: Goku grande cálido y título conservados; personajes pequeños de intro restaurados al original por petición del usuario",
     "feedback": "Concepto C elegido; aplicar el mismo estilo también a la pantalla con BANDAI y ALEX LLAO",
     "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
     "paletteRecord": "research/palettes/title-shadows-v1.json",
@@ -364,10 +364,10 @@
     "label": "Contraste anime",
     "feedback": "contraste anime me parece correcto",
     "image": "assets/concepts/intro-warm-v1/Variantes-A-B-C.png",
-    "status": "Concepto C elegido; cara grande de v6.4 aprobada; corrección de personajes v6.5 pendiente de revisión",
+    "status": "Goku grande cálido conservado; recolor de personajes pequeños descartado por el usuario",
     "direction": "Piel cálida basada en el original, contornos negros y mayor contraste en pelo, sombras y reparto",
     "preservePreviousVariants": true,
-    "currentRom": "v6.5: Goku cálido conservado y sombras de los personajes recuperadas"
+    "currentRom": "v6.6: Goku grande C cálido; personajes pequeños originales"
   },
   "introV6_3": {
     "status": "Original intro and title colors restored; user review pending",
@@ -382,10 +382,16 @@
     "feedback": "el goku si lo veo perfecto pero los personajes no los veo bien hay errores"
   },
   "introV6_5": {
-    "status": "Native verified; user lineup visual approval pending",
+    "status": "Historical candidate; user requested original lineup instead",
     "approvedScope": "Large warm-C Goku face from v6.4 only, retained byte/pixel exact",
     "change": "Gray trouser and armor ramps restored; Recoome uses shared human skin ramp; Cell shares Piccolo green tones; minor near-black/trim shades harmonized instead",
     "combatUnchanged": true,
     "evidence": "evidence/intro-refined-v6-5/validation.json"
+  },
+  "introV6_6": {
+    "status": "Original small-character lineup restored by explicit user request",
+    "feedback": "Nada, los personajes dejalos como en original",
+    "keep": "Warm-C large Goku face and title, both credits and existing combat changes",
+    "evidence": "evidence/intro-original-lineup-v6-6/restoration.json"
   }
 }

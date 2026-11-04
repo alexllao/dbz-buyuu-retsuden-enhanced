@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: revisión v6.5 de prueba · intro y título con contraste anime cálido · cambio de lado sin golpe para los once personajes · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación C cálida y créditos integrados · ki v4 aceptado**
+**Estado: revisión v6.6 de prueba · intro y título con contraste anime cálido · cambio de lado sin golpe para los once personajes · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación C cálida y créditos integrados · ki v4 aceptado**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -20,18 +20,18 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
 | Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
-| Presentación | **C cálida adaptada a apertura y título**, pendiente de revisión visual; **© BANDAI 1994** y **- 2026 ALEX LLAO** juntos. [Capturas actuales](docs/intro-refined-v6-5.md). |
+| Presentación | **C cálida adaptada a apertura y título**, pendiente de revisión visual; **© BANDAI 1994** y **- 2026 ALEX LLAO** juntos. [Capturas actuales](docs/intro-original-lineup-v6-6.md). |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
 | Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; paletas aceptadas visualmente. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Revisión actual: ROM v6.5
+## Revisión actual: ROM v6.6
 
-**Se conserva el Goku cálido de C que el usuario ha dado por bueno.** La pantalla de BANDAI y ALEX LLAO queda igual a v6.4. Se corrigen los personajes completos de la apertura: vuelven los tonos grises de pantalones y armaduras y se mejora la separación de la piel de Recoome. **La corrección del reparto está pendiente de revisión visual.** [Antes y después reales](docs/intro-refined-v6-5.md).
+**Los personajes pequeños de la intro vuelven exactamente al original**, por petición del usuario. Se conserva el Goku grande cálido de C y la pantalla de BANDAI y ALEX LLAO de v6.4/v6.5. [Capturas reales y comprobaciones](docs/intro-original-lineup-v6-6.md).
 
-La conversión anterior había reducido demasiado las sombras de algunos materiales. Esta adaptación conserva esos grises y armoniza en su lugar pequeños tonos de contorno y detalles. Los colores de combate, escenarios, auras y jugabilidad se conservan.
+Los colores de combate, escenarios, auras y jugabilidad se conservan. Las propuestas de recolor del reparto se guardan únicamente como historial.
 
 También está disponible el [ASM de estudio comentado en castellano](docs/asm-en-castellano.md): incluye rutinas identificadas y fuentes de nuestros parches. No es el código fuente original; las zonas desconocidas quedan marcadas y no se ha validado recompilar el juego completo.
 

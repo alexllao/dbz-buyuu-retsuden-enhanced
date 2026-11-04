@@ -1,5 +1,7 @@
 # Personajes completos de la apertura: corrección v6.5
 
+> Historial: el usuario descarta el recolor del reparto y pide dejarlo original. Aplicado en [v6.6](intro-original-lineup-v6-6.md), conservando el Goku grande cálido.
+
 El usuario ve bien el Goku grande de v6.4, pero señala errores en los personajes pequeños. **Goku y el título con BANDAI y ALEX LLAO se conservan exactamente.** Esta corrección del reparto sigue pendiente de valoración visual.
 
 ## Comparación real: antes arriba, después abajo

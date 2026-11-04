@@ -1,0 +1,18 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "e22161407017c636b34993ea456fedf30c88bd2ff8786f3db9f9a0b776eeff14",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v6_6.bin",
+    "sha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v6-6/enhanced-v6-6.ips",
+    "sha256": "cb4b419f74d3809566a1720adb965eb6242a21244577fe292d65339331a72b09"
+  },
+  "scope": "Original full-body intro lineup restored. Warm-C large Goku face and title retained. Combat changes and both credits retained.",
+  "inheritsGameplay": "patches/review-v3/manifest.json"
+}

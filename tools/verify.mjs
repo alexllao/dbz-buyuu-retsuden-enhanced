@@ -9,6 +9,12 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const intro66 = await json('patches/review-v6-6/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, intro66.patch.path))), intro66.patch.sha256);
+const native66 = await json('evidence/intro-original-lineup-v6-6/restoration.json');
+assert.equal(native66.targetSha256, intro66.target.sha256);
+assert(Object.values(native66.checks).every(Boolean));
+assert(Object.values(native66.nativeChecks).every(Boolean));
 const intro65 = await json('patches/review-v6-5/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, intro65.patch.path))), intro65.patch.sha256);
 const native65 = await json('evidence/intro-refined-v6-5/validation.json');
@@ -219,4 +225,4 @@ catch { /* An exported source archive may have no .git metadata. */ }
 for (const path of tracked) {
   assert(!/\.(bin|smd|gen|zip|dll|exe|state|srm)$/i.test(path), `Archivo generado/base inesperado en Git: ${path}`);
 }
-console.log(`Verificado: ${images.length} imágenes, C cálida con reparto corregido, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);
+console.log(`Verificado: ${images.length} imágenes, Goku cálido con reparto original, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);

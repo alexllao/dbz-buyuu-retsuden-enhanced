@@ -1,0 +1,83 @@
+{
+  "sourceSha256": "e22161407017c636b34993ea456fedf30c88bd2ff8786f3db9f9a0b776eeff14",
+  "targetSha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+  "checks": {
+    "originalBodyPaletteBanks": true,
+    "originalPointer778BE": true,
+    "originalPointer778EE": true,
+    "originalPointer77FD0": true,
+    "originalPointer77FE8": true,
+    "openingGokuPaletteUnchanged": true,
+    "titleGokuPaletteUnchanged": true,
+    "creditsUnchanged": true,
+    "titleBackgroundUnchanged": true,
+    "battlePalettesUnchanged": true,
+    "stagePalettesUnchanged": true,
+    "controlsUnchanged": true,
+    "sideSwitchUnchanged": true
+  },
+  "operations": [
+    {
+      "address": 3932160,
+      "bytes": 11719,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 3960832,
+      "bytes": 1223,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 3969024,
+      "bytes": 392,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 3970048,
+      "bytes": 2,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 489662,
+      "bytes": 4,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 489710,
+      "bytes": 4,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 491472,
+      "bytes": 4,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 491496,
+      "bytes": 4,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 1760722,
+      "bytes": 32,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 1760754,
+      "bytes": 32,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    },
+    {
+      "address": 1760786,
+      "bytes": 32,
+      "purpose": "Restore original intro lineup resource, pointer or palette"
+    }
+  ],
+  "nativeChecks": {
+    "bodyPixelsEqualOriginalAt960": true,
+    "outsideBodyEqualV65At960": true,
+    "titleFrame1800EqualV65": true,
+    "initialGokuFrame720EqualV65": true
+  },
+  "nativeColdBootReachedBattleTransitionAtFrame": 2200
+}
