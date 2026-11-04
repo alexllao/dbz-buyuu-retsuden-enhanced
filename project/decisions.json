@@ -6,7 +6,7 @@
     "label": "C con contraste marcado",
     "image": "assets/comparisons/title/G.png",
     "date": "2026-11-04",
-    "status": "G integrada; línea japonesa conservada, Bandai y ALEX LLAO juntos",
+    "status": "v6.1: G en apertura y título; piel compartida del montaje ajustada; créditos conservados",
     "feedback": "Más sombras y menos amarillo, tomando C como base. El usuario eligió G.",
     "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
     "paletteRecord": "research/palettes/title-shadows-v1.json",
@@ -14,6 +14,13 @@
       "text": "- 2026 ALEX LLAO",
       "status": "Integrado al lado de © BANDAI 1994, en la misma línea",
       "usePseudonym": false
+    },
+    "openingConsistency": {
+      "status": "Implemented for user review",
+      "cause": "Opening0x1ADDB2 retained original palette while title0x1ADE32 already usedG",
+      "face": "Entries1..15 exactly equal approvedG; distinct backdrop entry0 retained",
+      "fullBody": "6shared skin entries mapped to G light/mid/shadow",
+      "evidence": "evidence/intro-v1/validation.json"
     }
   },
   "characters": {

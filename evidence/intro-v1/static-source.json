@@ -1,0 +1,327 @@
+{
+  "status": "Static source evidence and proposed palette mapping; no ROM edited",
+  "sourceOriginalSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "sourceV6Sha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "approvedGSourceSha256": "d4e180ecc4fed99d729cc13a482a7102380524c2928815546518b959aa8a5e09",
+  "finding": "Cold intro and later title load separate near-duplicate Goku palettes. V6 patches later title only; fullbody montage uses three other shared original banks.",
+  "coldIntro": {
+    "stateMachine": "0x77844..0x77BD8, local phase table0x7786C",
+    "state0Init": "0x7787A",
+    "resourceLoads": [
+      {
+        "code": "0x778BC",
+        "source": "0x1A6306",
+        "destinationVram": "0x0000",
+        "uncompressedBytes": 24576,
+        "role": "Fullbody montage tile graphics"
+      },
+      {
+        "code": "0x778CC",
+        "source": "0x1A8EA2",
+        "destinationVram": "0x6000",
+        "uncompressedBytes": 24576,
+        "role": "Large Goku face graphics reused later"
+      },
+      {
+        "code": "0x778DC",
+        "source": "0x1AC9C0",
+        "destinationVram": "0xE000",
+        "uncompressedBytes": 4096,
+        "role": "Goku large face plane map"
+      },
+      {
+        "code": "0x778EC",
+        "source": "0x1AD18C",
+        "destinationVram": "0xC000",
+        "uncompressedBytes": 4096,
+        "role": "Six fullbody plane character artwork plus other character sprites"
+      }
+    ],
+    "palette": [
+      "0x1ADDB2",
+      "0x1ADDD2",
+      "0x1ADDF2",
+      "0x1ADE12"
+    ],
+    "paletteRoutes": [
+      {
+        "code": "0x77A20..0x77A2A",
+        "source": "0x1ADDB2",
+        "operation": "Native fade0x12AA with D1=0x10 while scrollC038 nonzero: first16 colors."
+      },
+      {
+        "code": "0x77A4C..0x77A56",
+        "source": "0x1ADDB2",
+        "operation": "Native fade0x12AA with D1=0x40: all64 colors."
+      },
+      {
+        "code": "0x77A5C..0x77A6C",
+        "source": "0x1ADDB2",
+        "operation": "Copy first16 colors toRAM E454."
+      }
+    ],
+    "sprites": [
+      {
+        "drawCode": "0x77FCE",
+        "map": "0x1ADE72",
+        "anchor": "x240-scrollC038,y216",
+        "count": 17
+      },
+      {
+        "drawCode": "0x77FE6",
+        "map": "0x1ADEDA",
+        "anchor": "x80-scrollC038,y216",
+        "count": 8
+      }
+    ],
+    "nativeStaticReconstruction": "fullbody-native.png"
+  },
+  "laterTitle": {
+    "paletteLoad": "0x77B6E..0x77B7A copies32 colors from0x1ADE32 intoE4D4 fade destination",
+    "otherTitleBanks": "0x77B7E copies32 colors from0x19E51E",
+    "initialGokuPalette": "0x1ADDB2",
+    "laterGokuPalette": "0x1ADE32",
+    "originalCompare": "Entries1..15 exact equal; index0 initial0600 vs later0000",
+    "v6InitialStillOriginal": true,
+    "v6LaterEqualsApprovedG": true
+  },
+  "palettes": [
+    {
+      "bank": 0,
+      "address": "0x1addb2",
+      "original": [
+        "0600",
+        "0002",
+        "0C46",
+        "046E",
+        "008E",
+        "048C",
+        "0820",
+        "0EE0",
+        "0288",
+        "0CCE",
+        "08AE",
+        "0E84",
+        "04CC",
+        "0082",
+        "0AEE",
+        "0EEE"
+      ],
+      "v6": [
+        "0600",
+        "0002",
+        "0C46",
+        "046E",
+        "008E",
+        "048C",
+        "0820",
+        "0EE0",
+        "0288",
+        "0CCE",
+        "08AE",
+        "0E84",
+        "04CC",
+        "0082",
+        "0AEE",
+        "0EEE"
+      ]
+    },
+    {
+      "bank": 1,
+      "address": "0x1addd2",
+      "original": [
+        "0042",
+        "0C6A",
+        "0EAC",
+        "0ACA",
+        "06C6",
+        "0282",
+        "026C",
+        "0A48",
+        "020A",
+        "08CE",
+        "0A88",
+        "048E",
+        "0444",
+        "0000",
+        "0222",
+        "0CCC"
+      ],
+      "v6": [
+        "0042",
+        "0C6A",
+        "0EAC",
+        "0ACA",
+        "06C6",
+        "0282",
+        "026C",
+        "0A48",
+        "020A",
+        "08CE",
+        "0A88",
+        "048E",
+        "0444",
+        "0000",
+        "0222",
+        "0CCC"
+      ]
+    },
+    {
+      "bank": 2,
+      "address": "0x1addf2",
+      "original": [
+        "0022",
+        "0228",
+        "044E",
+        "08CE",
+        "048E",
+        "026C",
+        "004A",
+        "0E66",
+        "00AC",
+        "0624",
+        "0222",
+        "0A44",
+        "0444",
+        "0A88",
+        "0CCC",
+        "0EEE"
+      ],
+      "v6": [
+        "0022",
+        "0228",
+        "044E",
+        "08CE",
+        "048E",
+        "026C",
+        "004A",
+        "0E66",
+        "00AC",
+        "0624",
+        "0222",
+        "0A44",
+        "0444",
+        "0A88",
+        "0CCC",
+        "0EEE"
+      ]
+    },
+    {
+      "bank": 3,
+      "address": "0x1ade12",
+      "original": [
+        "0224",
+        "0CEA",
+        "0E22",
+        "06A6",
+        "0264",
+        "0EEE",
+        "0C64",
+        "0888",
+        "0666",
+        "0444",
+        "0422",
+        "0C42",
+        "0424",
+        "02AA",
+        "0222",
+        "0266"
+      ],
+      "v6": [
+        "0224",
+        "0CEA",
+        "0E22",
+        "06A6",
+        "0264",
+        "0EEE",
+        "0C64",
+        "0888",
+        "0666",
+        "0444",
+        "0422",
+        "0C42",
+        "0424",
+        "02AA",
+        "0222",
+        "0266"
+      ]
+    }
+  ],
+  "proposal": {
+    "initialFace": "Copy approved G entries1..15 from1ADE34..1ADE51 to1ADDB4..1ADDD1, preserving native initial backdropindex0=0600. Do not redirect all64colors to titlepalette; nextbanks differ.",
+    "fullbodySkinGroups": [
+      {
+        "bank": 1,
+        "index": 9,
+        "address": "0x1adde4",
+        "old": "08CE",
+        "proposed": "0CCE",
+        "role": "human skin light",
+        "sourceGIndex": 10,
+        "scope": "Shared entry; may also shade boots, armor or costume pixels. Native screenshot review required."
+      },
+      {
+        "bank": 1,
+        "index": 11,
+        "address": "0x1adde8",
+        "old": "048E",
+        "proposed": "068A",
+        "role": "human skin middle",
+        "sourceGIndex": 5,
+        "scope": "Shared entry; may also shade boots, armor or costume pixels. Native screenshot review required."
+      },
+      {
+        "bank": 1,
+        "index": 6,
+        "address": "0x1addde",
+        "old": "026C",
+        "proposed": "0246",
+        "role": "human skin shadow",
+        "sourceGIndex": 3,
+        "scope": "Shared entry; may also shade boots, armor or costume pixels. Native screenshot review required."
+      },
+      {
+        "bank": 2,
+        "index": 3,
+        "address": "0x1addf8",
+        "old": "08CE",
+        "proposed": "0CCE",
+        "role": "human skin light",
+        "sourceGIndex": 10,
+        "scope": "Shared entry; may also shade boots, armor or costume pixels. Native screenshot review required."
+      },
+      {
+        "bank": 2,
+        "index": 4,
+        "address": "0x1addfa",
+        "old": "048E",
+        "proposed": "068A",
+        "role": "human skin middle",
+        "sourceGIndex": 5,
+        "scope": "Shared entry; may also shade boots, armor or costume pixels. Native screenshot review required."
+      },
+      {
+        "bank": 2,
+        "index": 5,
+        "address": "0x1addfc",
+        "old": "026C",
+        "proposed": "0246",
+        "role": "human skin shadow",
+        "sourceGIndex": 3,
+        "scope": "Shared entry; may also shade boots, armor or costume pixels. Native screenshot review required."
+      }
+    ],
+    "preserve": [
+      "Whites and blacks in all three body banks",
+      "Initial backdrop colors",
+      "Later titlelogo palette1ADE52",
+      "Later titleG palette1ADE32 unchanged"
+    ],
+    "limitations": [
+      "Fullbody artwork shares banks and some characters use multiple banks. Do not copy each battle palette wholesale.",
+      "Skin/light roles are proposed by native indexed artwork inspection, not official HDBZ hex swatches.",
+      "Six-color proposal harmonizes human skin to approved G; it does not claim complete recoloring of all costume/alien colors.",
+      "This static reconstruction is not an emulator screenshot; root is recording native boot runtime."
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "sourceSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "targetSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "checks": {
+    "openingPaletteEqualsApprovedG": true,
+    "openingBackdropEntryPreserved": true,
+    "sharedSkinEntriesMatchApprovedGRamp": true,
+    "laterTitleFramePixelExact": true,
+    "segaFramePixelExact": true,
+    "nativeSceneScheduleUnchanged": true,
+    "onlyPaletteEntriesAndChecksumChanged": true
+  },
+  "scope": "Cold boot, no buttons or RAM writes, sampled through frame2160; stopped before battle state0C. No CPU autoplay. No gameplay rerun required: code and all other bytes verified unchanged.",
+  "captures": [
+    {
+      "path": "assets/media/intro-v1/Cara-inicial-antes.png",
+      "sha256": "6bbe20f5c954423d2692416072d18bb26f13fc57384462f4bc9703d96f7bda8d",
+      "romSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+      "frameFromColdBoot": 720
+    },
+    {
+      "path": "assets/media/intro-v1/Cara-inicial-despues.png",
+      "sha256": "8982659ca8566c2d671758c016520e14d652792833cae801767da80810ee40a8",
+      "romSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+      "frameFromColdBoot": 720
+    },
+    {
+      "path": "assets/media/intro-v1/Personajes-completos-antes.png",
+      "sha256": "e685e1f62fbfbd0fb311df03f131502b8c6c629fc42dea110f412c8124d80886",
+      "romSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+      "frameFromColdBoot": 960
+    },
+    {
+      "path": "assets/media/intro-v1/Personajes-completos-despues.png",
+      "sha256": "c7eb7cd9fefdffd76132768a10e0e64278e6e5088e41e346ca1676a0d1e55132",
+      "romSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+      "frameFromColdBoot": 960
+    }
+  ],
+  "sharedPaletteLimit": "Six skin entries also shade some boots or armor; alien colors, black/white entries and sprite shapes were retained."
+}

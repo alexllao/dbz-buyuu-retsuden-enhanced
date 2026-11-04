@@ -6,13 +6,14 @@ import { applyIps, sha256, updateGenesisChecksum } from './lib/rom.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 async function main() {
   const args = process.argv.slice(2).filter(x => x !== '--');
-  let input, version = 'v6';
+  let input, version = 'v6.1';
   for (let i = 0; i < args.length; i += 2) {
-    if (!args[i + 1] || !['--rom', '--version'].includes(args[i])) throw new Error('Usa pnpm build:review --rom ruta/a/original.bin [--version v6|v5.2]');
+    if (!args[i + 1] || !['--rom', '--version'].includes(args[i])) throw new Error('Usa pnpm build:review --rom ruta/a/original.bin [--version v6.1|v6|v5.2]');
     if (args[i] === '--rom') input = args[i + 1]; else version = args[i + 1];
   }
-  if (!input || !['v6', 'v5.2'].includes(version)) throw new Error('Indica --rom y una versión admitida: v6 o v5.2.');
-  const folder = version === 'v6' ? 'review-v3' : 'review-v2';
+  const versions = { 'v6.1': 'review-v6-1', 'v6': 'review-v3', 'v5.2': 'review-v2' };
+  if (!input || !Object.hasOwn(versions, version)) throw new Error('Indica --rom y una versión admitida: v6.1, v6 o v5.2.');
+  const folder = versions[version];
   const manifest = JSON.parse(await readFile(resolve(root, `patches/${folder}/manifest.json`), 'utf8'));
   const source = await readFile(resolve(input));
   if (source.length !== manifest.source.bytes || sha256(source) !== manifest.source.sha256) throw new Error('La ROM original no coincide con la base japonesa admitida.');

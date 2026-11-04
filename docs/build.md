@@ -54,4 +54,8 @@ pnpm build:auras:v3 --rom ruta/a/original.bin genera la prueba de contorno corre
 
 ## Revisión v6: cambio de lado
 
-`pnpm build:review --rom ruta/a/original.bin` genera por defecto la v6, con el nuevo comando adelante/atrás/adelante+C. `--version v5.2` conserva la construcción de la revisión anterior. Los parches y manifiestos de ambas versiones se mantienen separados. [Comando y validación](side-switch.md).
+`pnpm build:review --rom ruta/a/original.bin --version v6` genera la v6, con el nuevo comando adelante/atrás/adelante+C. `--version v5.2` conserva la construcción de la revisión anterior. Los parches y manifiestos de ambas versiones se mantienen separados. [Comando y validación](side-switch.md).
+
+## Revisión v6.1: coherencia de la introducción
+
+`pnpm build:review --rom ruta/a/original.bin` genera por defecto la v6.1. Iguala la primera cara de Goku con G y adapta seis tonos compartidos de piel del montaje posterior. El resto de v6 se conserva. [Capturas y verificación](intro-palettes.md).

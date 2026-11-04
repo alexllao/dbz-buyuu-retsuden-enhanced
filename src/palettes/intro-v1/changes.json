@@ -1,0 +1,56 @@
+{
+  "sourceSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "targetSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "changes": [
+    {
+      "address": "0x1addb4",
+      "before": "00020c46046e008e048c08200ee002880cce08ae0e8404cc00820aee0eee",
+      "after": "00020642024604ae068a042004a4028a0eee0cce086204ac02620aee0eee",
+      "role": "Opening Goku palette entries1..15: exact approved G title colors; entry0 preserved"
+    },
+    {
+      "address": "0x1adde4",
+      "before": "08ce",
+      "after": "0cce",
+      "role": "body bank1 skin light; source approved G skin ramp"
+    },
+    {
+      "address": "0x1adde8",
+      "before": "048e",
+      "after": "068a",
+      "role": "body bank1 skin mid; source approved G skin ramp"
+    },
+    {
+      "address": "0x1addde",
+      "before": "026c",
+      "after": "0246",
+      "role": "body bank1 skin shadow; source approved G skin ramp"
+    },
+    {
+      "address": "0x1addf8",
+      "before": "08ce",
+      "after": "0cce",
+      "role": "body bank2 skin light; source approved G skin ramp"
+    },
+    {
+      "address": "0x1addfa",
+      "before": "048e",
+      "after": "068a",
+      "role": "body bank2 skin mid; source approved G skin ramp"
+    },
+    {
+      "address": "0x1addfc",
+      "before": "026c",
+      "after": "0246",
+      "role": "body bank2 skin shadow; source approved G skin ramp"
+    },
+    {
+      "address": "0x18e",
+      "before": "a99d",
+      "after": "a6df",
+      "role": "Genesis checksum"
+    }
+  ],
+  "changedBytes": 31,
+  "scope": "Only opening face palette duplicate,6shared full-body skin entries andchecksum. Approved title G, credit, gameplay, ki, graphics/mapping and timing unchanged. Shared colors can also shade boots or armor."
+}

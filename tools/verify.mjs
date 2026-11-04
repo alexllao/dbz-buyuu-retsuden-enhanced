@@ -162,6 +162,16 @@ const sideStatic = await json('evidence/side-switch/static-verification.json');
 assert.equal(sideStatic.targetSha256, reviewV3.target.sha256);
 assert(sideStatic.onlyAllowedRangesChanged && Object.values(sideStatic.preserved).every(item => item.unchanged));
 
+const introReview = await json('patches/review-v6-1/manifest.json');
+assert.equal(introReview.baseReviewSha256, reviewV3.target.sha256);
+assert.equal(sha256(await readFile(resolve(root, introReview.patch.path))), introReview.patch.sha256);
+const introValidation = await json('evidence/intro-v1/validation.json');
+assert.equal(introValidation.targetSha256, introReview.target.sha256);
+assert(Object.values(introValidation.checks).every(Boolean));
+for (const capture of introValidation.captures) {
+  assert.equal(sha256(await readFile(resolve(root, capture.path))), capture.sha256);
+}
+
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {

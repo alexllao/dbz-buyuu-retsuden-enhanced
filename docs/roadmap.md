@@ -51,3 +51,5 @@ El décimo escenario tiene una propuesta visual de montañas nevadas, en suelo y
 - [x] Comprobar que la maniobra de Gohan no golpea y corregir la documentación.
 - [x] Añadir entrada independiente para los once personajes;374casos de comando real y vídeo de cada uno.
 - [ ] Valorar con mando el equilibrio del nuevo cambio de lado.
+
+- [x] v6.1: igualar la paleta duplicada de Goku en el arranque y armonizar la piel de las figuras completas con G; capturas reales antes/después.

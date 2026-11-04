@@ -1,0 +1,18 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v6_1.bin",
+    "sha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v6-1/enhanced-v6-1.ips",
+    "sha256": "300976eed3ac8d929ad99989d8f02d740b17d077d963aa93488b68174bb0170f"
+  },
+  "scope": "Opening face palette equals approved G;6shared full-body skin entries use G light/mid/shadow;31byte differences including checksum; no code or graphics change",
+  "inheritsGameplay": "patches/review-v3/manifest.json"
+}
