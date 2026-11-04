@@ -1,0 +1,8 @@
+{
+  "source": "User-provided Super Butoden2 aura and reference GIF/sheets",
+  "reference": "../../references/super-butoden-2/Aura-rayos-variante-3.png",
+  "source_url": "https://www.spriters-resource.com/snes/dragonballzsuperbutoden2/",
+  "credits": "Original graphics from Dragon Ball Z: Super Butoden2; Gohan sheet carries extraction creditCyrus Annihilator. All user-provided sheets and their visible credits are retained separately.",
+  "conversion": "Native80x128 indexed import, palette slots7/8/11, mirror left outline, fill30 enclosed alpha pixels, fixed tile grid. No generated gameplay.",
+  "lightning": "Three native white forms, two joined16px segments per32px arc; onlyCell/GohanSSJ2."
+}

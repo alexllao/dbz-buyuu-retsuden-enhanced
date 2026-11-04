@@ -9,6 +9,7 @@
 - [x] Presentación G elegida; B y las demás variantes conservadas.
 - [x] Primera adaptación C2 implementada y grabada dentro del juego con los once personajes.
 - [x] C2 v2: aura más grande, rayos blancos largos y polvo sólo en el suelo; vídeos reales de revisión.
+- [x] Dirección C2 v2 aceptada: 80 × 128 píxeles, polvo y rayos blancos largos de Cell/Gohan SSJ2.
 - [x] Pruebas C2 v2 de golpes, ambos jugadores, cargas repetidas/simultáneas, carga aérea y límites de dibujo en los casos registrados.
 
 ## Siguiente revisión
@@ -19,10 +20,17 @@
 - [x] Elegir las propuestas de personajes (Goku G2 HDBZ), retratos y los nueve fondos.
 - [ ] Integrar los retratos elegidos con presentación G y jugabilidad en el próximo BIN combinado.
 - [ ] Implementar HUD y comprobar sus recursos/paletas.
-- [ ] Aprobar visualmente o ajustar C2 v2: tamaño, rayos, polvo y retirada de doce ticks.
+- [ ] Corregir los cortes rectos y huecos en las uniones del contorno del aura, señalados en la captura de Ginyu.
+- [ ] Grabar y revisar el contorno corregido durante la carga y la retirada; conservar tamaño, polvo y rayos aceptados.
+- [ ] Repetir las pruebas afectadas tras la reparación del contorno.
 - [ ] Ampliar las pruebas C2 v2 a más situaciones con otros efectos simultáneos.
 - [ ] Revisar ataques especiales y sus colores.
 - [ ] Hacer reproducible el replay histórico de pruebas con un núcleo de emulación externo.
 - [ ] Probar en más emuladores y, si se dispone de ella, Mega Drive física.
 
-Las nuevas localizaciones permanecen en espera por petición del usuario. La licencia del código se decidirá antes de declarar una licencia general para el repositorio.
+El décimo escenario tiene una propuesta visual de montañas nevadas, en suelo y vuelo; su integración en ROM sigue pendiente. La licencia del código se decidirá antes de declarar una licencia general para el repositorio.
+
+- [x] Implementar y grabar la corrección de contorno C2 v3.
+- [ ] Revisar visualmente la llama y la salida de C2 v3.
+- [x] Preparar bocetos de suelo y vuelo para montañas nevadas.
+- [ ] Auditar cajas reales y ventanas de colisión para valorar el parche de jugabilidad.

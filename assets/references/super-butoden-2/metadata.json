@@ -1,0 +1,69 @@
+{
+  "game": "Dragon Ball Z: Super Butoden 2",
+  "platform": "Super Nintendo / Super Famicom",
+  "provenance": "Referencias locales aportadas por el usuario; se conservan sin sobrescribir.",
+  "creditNote": "Los nombres anteriores acreditan la extracción según las láminas. No se presentan como autores originales del juego ni como colaboradores del mod. Dragon Ball y los gráficos originales pertenecen a sus respectivos titulares.",
+  "files": [
+    {
+      "path": "assets/references/super-butoden-2/Backgrounds.gif",
+      "sha256": "065810dae3e8535aea47a34d084fe08294730b53b0a49e6020d30bf80152d6f9",
+      "dimensions": [
+        538,
+        982
+      ],
+      "credit": "Bonzai",
+      "creditRole": "Extracción de fondos, según crédito visible en la lámina",
+      "source": "Archivo aportado por el usuario; crédito leído de la propia imagen"
+    },
+    {
+      "path": "assets/references/super-butoden-2/Mini Backgrounds.gif",
+      "sha256": "d0a7fa99c953cf850c51530febbe9944f2301c032da60b246044efaabd02c6c3",
+      "dimensions": [
+        529,
+        600
+      ],
+      "credit": "Son-Gohan",
+      "creditRole": "Extracción de fondos pequeños, según crédito visible en la lámina",
+      "source": "Archivo aportado por el usuario; crédito leído de la propia imagen"
+    },
+    {
+      "path": "assets/references/super-butoden-2/Sheet-usuario.png",
+      "sha256": "61e877b406f8ed8ec6e4a159d38efe4271f0f3e8b1308f0c0228e9f480ac7cf8",
+      "dimensions": [
+        557,
+        1034
+      ],
+      "credit": "Krmlack",
+      "creditRole": "Extracción de sprites de NPC y elementos de Super Butoden 2, según crédito visible en la lámina",
+      "source": "Archivo aportado por el usuario; crédito leído de la propia imagen"
+    }
+  ],
+  "extractedReferences": [
+    {
+      "path": "assets/references/super-butoden-2/Nieve-fondo-referencia.png",
+      "source": "Backgrounds.gif",
+      "crop": {
+        "x": 269,
+        "y": 395,
+        "width": 256,
+        "height": 189
+      },
+      "scale": 3,
+      "filter": "nearest-neighbor",
+      "sha256": "b719ecc95b8858328ee1ace372d7a71af84e0fde242299a55ecbdb83d9638bf0"
+    },
+    {
+      "path": "assets/references/super-butoden-2/Nieve-mini-referencia.png",
+      "source": "Mini Backgrounds.gif",
+      "crop": {
+        "x": 284,
+        "y": 105,
+        "width": 240,
+        "height": 88
+      },
+      "scale": 3,
+      "filter": "nearest-neighbor",
+      "sha256": "ffef77ec4feb6d5618ca0dd4d3bec612fe1092454bcf9c90267adbc3fc3e38ff"
+    }
+  ]
+}

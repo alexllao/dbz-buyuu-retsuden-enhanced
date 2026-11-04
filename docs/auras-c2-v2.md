@@ -1,6 +1,12 @@
 # Auras C2 v2: más tamaño, rayos largos y polvo
 
-Esta segunda revisión amplía las auras y añade los detalles que faltaban en la primera prueba. Es un **prototipo real para revisión visual**, todavía pendiente de aprobación del usuario.
+Esta segunda revisión amplía las auras y añade los detalles que faltaban en la primera prueba. El usuario ha **elegido C2 v2 y aprobado también sus rayos** el 4 de noviembre de 2026.
+
+La aceptación corresponde a la dirección visual, el tamaño, el polvo y los rayos. Una revisión posterior señala extremos rectos y huecos en el contorno de las llamas, visibles en la captura de Ginyu. **La reparación de las uniones está en curso y el apartado gráfico sigue abierto.** Se mantienen los 80 × 128 píxeles y los rayos elegidos; estos vídeos y pruebas corresponden a C2 v2 antes de la reparación.
+
+Comentario del usuario: «se han de mejorar un poco las auras... fijae hay llamas que tereminan de golpe tipo rectas y sitios donde no hayh nada.»
+
+Referencias de esa revisión: [captura de Ginyu](../assets/references/auras-contour-review/Ginyu-cortes.png) y [detalle del corte](../assets/references/auras-contour-review/Detalle-corte.png).
 
 [Vídeo de los once personajes, antes y después](../assets/media/auras-c2-v2/Todas-las-auras-antes-despues.mp4) · [Tres tamaños con Goku](../assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4) · [Salida a cámara lenta](../assets/media/auras-c2-v2/Salida-Goku-lenta.mp4).
 
@@ -47,7 +53,7 @@ La [validación de esta revisión](../evidence/auras-c2-v2/validation.json) y el
 - Cincuenta y cinco muestras de carga aérea sin polvo.
 - Máximos observados de 76 sprites de 80 disponibles; en una línea, 18 de 20 sprites y 232 de 320 píxeles.
 
-Estos resultados corresponden a los casos probados. Quedan fuera otros efectos simultáneos y la consola física. La revisión visual del tamaño, los rayos, el polvo y la suavidad del cierre sigue pendiente.
+Estos resultados corresponden a los casos probados. Quedan fuera otros efectos simultáneos y la consola física. La dirección visual está aceptada, pero la corrección del contorno y su revisión siguen pendientes; estas pruebas no validan la reparación todavía en curso.
 
 Las pruebas de colisión fijan posiciones y orientación para reproducir los golpes. La comprobación aérea fuerza la altura y el plano después de iniciar la carga; demuestra que se elige el mapa sin polvo, no una secuencia natural de vuelo.
 

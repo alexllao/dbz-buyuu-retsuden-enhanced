@@ -46,6 +46,10 @@ Nueve fondos: torneo, desierto, montañas rocosas, Sala del Tiempo, carretera, p
 
 ![Auras](../assets/comparisons/overview/06-Auras-Goku.png)
 
-**C2 v2 es la revisión actual implementada en la ROM, pendiente de aprobación visual.** El aura pasa de 64 × 112 a **80 × 128 píxeles**. Cell y Gohan SSJ2 llevan rayos blancos de 32 píxeles; Goku y los demás siguen sin rayos. Se añade polvo animado en los pies sólo al cargar en el suelo. C1 y C2 v1 se mantienen como historial.
+**La dirección C2 v2 está elegida: tamaño, polvo y rayos aceptados.** El aura pasa de 64 × 112 a **80 × 128 píxeles**. Cell y Gohan SSJ2 llevan rayos blancos de 32 píxeles; Goku y los demás siguen sin rayos. Se añade polvo animado en los pies sólo al cargar en el suelo. C1 y C2 v1 se mantienen como historial.
 
-La paleta compartida nativa se conserva y la retirada dura doce ticks del juego. El dibujo sigue siendo una adaptación del boceto. Hay [grabaciones reales de los once personajes, comparación de los tres tamaños y salida a cámara lenta](auras-c2-v2.md). El usuario debe revisar el tamaño, los rayos, el polvo y la suavidad del cierre; la evidencia de pruebas está separada de esa aprobación visual.
+La paleta compartida nativa se conserva y la retirada dura doce ticks del juego. El dibujo sigue siendo una adaptación del boceto. Hay [grabaciones reales de los once personajes, comparación de los tres tamaños y salida a cámara lenta](auras-c2-v2.md). Tras aceptar la dirección, el usuario detectó cortes rectos y huecos en el contorno, visibles en Ginyu. La reparación de las uniones está en curso; falta revisar el resultado corregido antes de cerrar el apartado gráfico.
+
+## Contorno C2 v3 y escenario nevado
+
+La corrección de huecos y cortes ya está implementada como [prueba C2 v3](auras-c2-v3.md), pendiente de valoración visual. Se conserva el tamaño y la dirección de C2 v2. El [décimo escenario nevado](stage10-snow.md) dispone de bocetos de suelo y vuelo; todavía no está integrado.

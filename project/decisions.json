@@ -114,7 +114,7 @@
       "Cell",
       "Gohan SSJ2"
     ],
-    "status": "C2 v2 experimental implementada y grabada; ampliada tras la revisión de tamaño, rayos blancos largos y polvo. Pendiente de aprobación visual del usuario",
+    "status": "Dirección C2v2 elegida; corrección de contorno C2v3 implementada y probada en emulador, pendiente de revisión visual",
     "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku",
     "selected": "C2",
     "date": "2026-11-04",
@@ -123,12 +123,80 @@
       "Gohan SSJ2"
     ],
     "otherCharacters": "Sin rayos; Gohan en otras formas tampoco debe llevarlos.",
-    "reviewVideo": "assets/media/auras-c2-v2/Todas-las-auras-antes-despues.mp4",
-    "implementation": "Prototipo nativo C2 v2; conserva C2 v1, no versión gráfica final aprobada",
-    "slowExitVideo": "assets/media/auras-c2-v2/Salida-Goku-lenta.mp4",
-    "validation": "evidence/auras-c2-v2/validation.json",
-    "source": "src/auras/c2-v2/aura.asm",
+    "reviewVideo": "assets/media/auras-c2-v3/Todas-las-auras-antes-despues.mp4",
+    "implementation": "C2v3 conserva80x128, usa el contorno SNES aportado, tres formas de rayos y el polvo elegido; sin huecos por desplazamiento de tiras",
+    "slowExitVideo": "assets/media/auras-c2-v3/Salida-Goku-lenta.mp4",
+    "validation": "evidence/auras-c2-v3/validation.json",
+    "source": "src/auras/c2-v3/aura.asm",
     "nativeAdaptation": {
+      "width": 80,
+      "height": 128,
+      "tiles": 64,
+      "flameTiles": 55,
+      "lightningForms": 3,
+      "palette": "Paleta compartida nativa conservada",
+      "graphicsSegments": [
+        "A260..A800",
+        "A820..AA80"
+      ],
+      "reservedScrollTile": "540",
+      "releaseTicks": 12,
+      "fade": "Densidad temporal; cada fotograma visible conserva el contorno entero",
+      "referenceMapIdentity": 384
+    },
+    "userVisualApproval": "Dirección, tamaño, polvo y rayos aceptados; corrección del contorno y revisión final pendientes",
+    "currentRevision": "c2-v3",
+    "sizeComparisonVideo": "assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4",
+    "runtimeQa": "evidence/auras-c2-v2/runtime-qa.json",
+    "previousRevision": {
+      "id": "c2-v1",
+      "documentation": "docs/auras-c2-v1.md",
+      "reviewVideo": "assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4",
+      "width": 64,
+      "height": 112,
+      "preserved": true
+    },
+    "feedback": "La primera prueba C2 se veía pequeña; se piden rayos blancos largos y polvo.",
+    "approvalDate": "2026-11-04",
+    "approvalEvidence": [
+      "c2 v2 de aura me encanta",
+      "yo los veo bien los raios"
+    ],
+    "readmePreviews": [
+      "assets/media/auras-c2-v2/Tres-tamanos-preview.gif",
+      "assets/media/auras-c2-v2/Rayos-Cell-Gohan-preview.gif"
+    ],
+    "directionApproval": {
+      "status": "approved",
+      "date": "2026-11-04",
+      "scope": [
+        "Tamaño 80x128",
+        "Polvo animado en el suelo",
+        "Rayos blancos largos de Cell y Gohan SSJ2"
+      ],
+      "evidence": [
+        "c2 v2 de aura me encanta",
+        "yo los veo bien los raios"
+      ]
+    },
+    "contourCorrection": {
+      "status": "implemented-pending-visual-review",
+      "revision": "c2-v3",
+      "video": "assets/media/auras-c2-v3/Todas-las-auras-antes-despues.mp4",
+      "ginyu": "assets/media/auras-c2-v3/Ginyu-contorno-antes-despues.gif",
+      "source": "src/auras/c2-v3/aura.asm",
+      "evidence": "evidence/auras-c2-v3/runtime-qa.json",
+      "dimensions": [
+        80,
+        128
+      ],
+      "sourceMapIdentity": 384,
+      "enclosedHoles": 0
+    },
+    "lastApprovedDirection": "c2-v2",
+    "superWarriorAuraColor": "Dorada, incluido Vegeta; referencia azul usada sólo para la forma",
+    "lightningAnimationForms": 3,
+    "previousNativeAdaptationV2": {
       "width": 80,
       "height": 128,
       "tiles": 45,
@@ -156,27 +224,23 @@
         "groundY": "0x1C0"
       },
       "fade": "Fases finales con menos piezas para respetar los límites de dibujo"
-    },
-    "userVisualApproval": "Pendiente",
-    "currentRevision": "c2-v2",
-    "sizeComparisonVideo": "assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4",
-    "runtimeQa": "evidence/auras-c2-v2/runtime-qa.json",
-    "previousRevision": {
-      "id": "c2-v1",
-      "documentation": "docs/auras-c2-v1.md",
-      "reviewVideo": "assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4",
-      "width": 64,
-      "height": 112,
-      "preserved": true
-    },
-    "feedback": "La primera prueba C2 se veía pequeña; se piden rayos blancos largos y polvo."
+    }
   },
   "specialAttacks": "Pendientes",
-  "additionalStages": "En espera por petición del usuario",
+  "additionalStages": "Propuesta visual de un décimo escenario nevado; no integrado",
   "portraits": {
     "selected": "Propuesta v1 de los once retratos",
     "date": "2026-11-04",
     "overview": "assets/comparisons/overview/02-Retratos.png",
     "status": "Elegidos; capturas y paletas guardadas, pendientes de integrar en el próximo BIN combinado"
+  },
+  "stage10": {
+    "selectedForVisualProposal": "Montañas nevadas",
+    "date": "2026-11-04",
+    "groundImage": "assets/concepts/stage10-snow/Nieve-propuesta-v1.png",
+    "airImage": "assets/concepts/stage10-snow/Nieve-vuelo-propuesta-v1.png",
+    "documentation": "docs/stage10-snow.md",
+    "status": "Bocetos de suelo y vuelo; no se ha añadido un ID ni un escenario a la ROM",
+    "userVisualApproval": "Pendiente"
   }
 }

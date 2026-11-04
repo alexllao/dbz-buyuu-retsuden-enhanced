@@ -16,6 +16,7 @@
     "build:colors": "node tools/build.mjs --variant colors",
     "assemble": "pwsh -NoProfile -File tools/assembly/assemble.ps1",
     "build:auras": "node tools/build-auras.mjs",
-    "build:auras:v2": "node tools/build-auras.mjs --version c2-v2"
+    "build:auras:v2": "node tools/build-auras.mjs --version c2-v2",
+    "build:auras:v3": "node tools/build-auras.mjs --version c2-v3"
   }
 }

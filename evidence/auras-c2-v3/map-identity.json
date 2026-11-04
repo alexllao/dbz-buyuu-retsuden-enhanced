@@ -1,0 +1,10 @@
+{
+  "maps_checked": 384,
+  "flame_sprites_per_map": [
+    40
+  ],
+  "pixel_identity_with_indexed_source": true,
+  "enclosed_alpha_holes": 0,
+  "reserved_tile540_references": 0,
+  "method": "Independent decode of384actualROMsprite maps, remap physical tile gap and reconstruct80x128flame bitmap; compare every palette-index pixel against direct-art.json."
+}

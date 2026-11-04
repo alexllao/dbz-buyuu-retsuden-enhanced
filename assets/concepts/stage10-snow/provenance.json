@@ -1,0 +1,59 @@
+{
+  "id": "stage10-snow-concept-v1",
+  "date": "2026-11-04",
+  "title": "Escenario 10: Montañas nevadas",
+  "status": "BOCETO VISUAL; pendiente de revisión del usuario",
+  "choice": "Montañas nevadas elegidas por el usuario para la primera prueba visual, no para inserción en ROM todavía",
+  "mode": "Built-in image_gen, edición con tres referencias locales",
+  "prompt": "assets/concepts/stage10-snow/Prompt.txt",
+  "image": "assets/concepts/stage10-snow/Nieve-propuesta-v1.png",
+  "imageSha256": "27baee1d81c9c21a7f9a258c8a99f48cb7e4d39d0e9c27289bd3269a3379de25",
+  "dimensions": [
+    1500,
+    1049
+  ],
+  "nativeGeneratedFile": "exec-644a962b-140a-49b1-b09d-58028eb1aaa0.png",
+  "inputImages": [
+    {
+      "role": "Edit target",
+      "path": "assets/concepts/stage10-snow/Base-Buyuu.png",
+      "source": "work/auras/runtime/cid00-before/frame-149.png",
+      "sha256": "c91c821619249e9ec382909137cbaede969ad9b3721cd00b0b0a17475afa7186",
+      "description": "Captura real previa de Buyuu Retsuden con Goku a la izquierda y Gohan a la derecha"
+    },
+    {
+      "role": "Snow battlefield reference",
+      "path": "assets/references/super-butoden-2/Nieve-fondo-referencia.png",
+      "sha256": "b719ecc95b8858328ee1ace372d7a71af84e0fde242299a55ecbdb83d9638bf0"
+    },
+    {
+      "role": "Mountain panorama reference",
+      "path": "assets/references/super-butoden-2/Nieve-mini-referencia.png",
+      "sha256": "ffef77ec4feb6d5618ca0dd4d3bec612fe1092454bcf9c90267adbc3fc3e38ff"
+    }
+  ],
+  "referencesMetadata": "assets/references/super-butoden-2/metadata.json",
+  "labelVerified": true,
+  "verifiedVisibleLabels": [
+    "ESCENARIO 10 · MONTAÑAS NEVADAS",
+    "BOCETO VISUAL · NO INTEGRADO EN ROM"
+  ],
+  "visualReview": {
+    "snowMountainsVisible": true,
+    "snowGroundPlaneVisible": true,
+    "gokuLeftAndGohanRight": true,
+    "hudPresent": true,
+    "tournamentBuildingsRemoved": true,
+    "nativeSpritesAndHudPixelExact": false,
+    "preservationNote": "HUD, personajes, aura y posiciones se aproximan al original. La imagen generada puede reinterpretar píxeles y detalles; no es composición exacta ni captura de ROM modificada."
+  },
+  "romModified": false,
+  "newStageIdImplemented": false,
+  "emulatorCaptureOfNewStage": false,
+  "megaDrivePaletteOrVramVerified": false,
+  "remaining": [
+    "Revisión visual del usuario",
+    "Si se acepta: estudiar recursos, paletas, planos, cámara y selector para un escenario adicional real",
+    "No sustituir ni borrar los nueve escenarios existentes"
+  ]
+}

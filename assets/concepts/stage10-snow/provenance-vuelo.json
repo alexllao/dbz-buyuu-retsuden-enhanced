@@ -1,0 +1,56 @@
+{
+  "id": "stage10-snow-aerial-concept-v1",
+  "date": "2026-11-04",
+  "title": "Escenario 10: montañas nevadas, vista aérea",
+  "status": "BOCETO VISUAL; vuelo y escenario no integrados en ROM",
+  "request": "Mostrar cómo se vería el escenario nevado nuevo durante un combate en el aire, manteniendo coherencia con la propuesta de suelo",
+  "mode": "Built-in image_gen, edición con dos referencias locales",
+  "image": "assets/concepts/stage10-snow/Nieve-vuelo-propuesta-v1.png",
+  "imageSha256": "6b048d69bdfb681b28a06fcc90d21cb63b190bbc3e291f5f88dc27d1598ca9c4",
+  "dimensions": [
+    1500,
+    1049
+  ],
+  "prompt": "assets/concepts/stage10-snow/Prompt-vuelo.txt",
+  "nativeGeneratedFile": "exec-8d3188b8-f98f-4df0-b9bd-bfdfdd4d816d.png",
+  "inputImages": [
+    {
+      "role": "Edit target: same-location ground proposal",
+      "path": "assets/concepts/stage10-snow/Nieve-propuesta-v1.png",
+      "sha256": "27baee1d81c9c21a7f9a258c8a99f48cb7e4d39d0e9c27289bd3269a3379de25"
+    },
+    {
+      "role": "Snow mountain panorama reference",
+      "path": "assets/references/super-butoden-2/Nieve-mini-referencia.png",
+      "sha256": "ffef77ec4feb6d5618ca0dd4d3bec612fe1092454bcf9c90267adbc3fc3e38ff"
+    }
+  ],
+  "referencesMetadata": "assets/references/super-butoden-2/metadata.json",
+  "labelVerified": true,
+  "verifiedVisibleLabels": [
+    "ESCENARIO 10 · MONTAÑAS NEVADAS",
+    "VISTA AÉREA · BOCETO · NO INTEGRADO EN ROM"
+  ],
+  "visualReview": {
+    "sameSnowLocationPalette": true,
+    "muchMoreSky": true,
+    "distantMountainChainLowerInFrame": true,
+    "fightersVisiblyAirborne": true,
+    "nativeLikeHudPresent": true,
+    "noGroundContactShadowsOrDust": true,
+    "noLightningOnGokuOrGohan": true,
+    "nativeSpritesAndHudPixelExact": false,
+    "preservationNote": "HUD, Goku y Gohan son aproximaciones generadas a la estética del juego. Las poses aéreas y el nuevo encuadre no proceden de una captura real de una ROM modificada."
+  },
+  "romModified": false,
+  "newStageIdImplemented": false,
+  "newStageFlightImplemented": false,
+  "emulatorCaptureOfNewStage": false,
+  "cameraOrBackgroundLayersImplemented": false,
+  "megaDrivePaletteOrVramVerified": false,
+  "remaining": [
+    "Revisión visual de las vistas de suelo y aire",
+    "Si se aceptan: estudiar recursos, cámara, planos y cambio de vista en la ROM",
+    "Validar el aspecto en una futura prueba real, sin perder los nueve escenarios existentes"
+  ]
+}

@@ -26,7 +26,7 @@ La [segunda revisión C2](auras-c2-v2.md) amplía el aura a 80 × 128 píxeles y
 pnpm build:auras:v2 --rom "ruta/a/original.bin"
 ```
 
-El [parche C2 v2](../patches/auras-c2-v2/auras-c2.ips) y su [manifiesto](../patches/auras-c2-v2/manifest.json) corresponden a Jugabilidad v1 + Colores v1 + Auras C2 v2 desde la misma base japonesa original. La presentación G, el crédito, la selección recoloreada y el HUD siguen pendientes de integración. La prueba está pendiente de aprobación visual.
+El [parche C2 v2](../patches/auras-c2-v2/auras-c2.ips) y su [manifiesto](../patches/auras-c2-v2/manifest.json) corresponden a Jugabilidad v1 + Colores v1 + Auras C2 v2 desde la misma base japonesa original. El usuario ha aceptado su tamaño, polvo y rayos; una revisión posterior detectó cortes rectos y huecos del contorno, pendientes de corregir. Este comando sigue generando C2 v2, anterior a esa reparación. La presentación G, el crédito, la selección recoloreada y el HUD siguen pendientes de integración.
 
 ## Ensamblar la fuente del 68000
 
@@ -43,3 +43,7 @@ También se admiten `GHIDRA_HOME` y `JAVA_HOME`. El ensamblado crea un proyecto 
 ## Investigación histórica
 
 Los scripts previos están en [research/legacy](../research/legacy). Conservan convenciones del espacio de trabajo original y no son la entrada de construcción soportada de este repositorio. Las pruebas automáticas de CI verifican herramientas, catálogos y evidencia; no ejecutan la ROM ni descargan una ROM o un emulador.
+
+## Corrección de contorno C2 v3
+
+pnpm build:auras:v3 --rom ruta/a/original.bin genera la prueba de contorno corregido. Conserva las variantes anteriores. Véase [C2 v3](auras-c2-v3.md). El escenario nevado sólo tiene bocetos de suelo y vuelo, sin integración en ROM.

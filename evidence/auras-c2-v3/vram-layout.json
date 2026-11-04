@@ -1,0 +1,68 @@
+{
+  "status": "Split-atlas candidate supported by static loaders and2841 native runtime snapshots; full modified-ROM QA still required",
+  "rom": "work/rom/original.bin",
+  "known_live_layout": [
+    {"range":"0000..6000","use":"Stage graphics: all nine stage resources decompress to4000or6000 bytes, loaded at0000 by734E via90B0/1769CA table"},
+    {"range":"6000..6C00","use":"P1 dynamic character frame buffer, loaderA146"},
+    {"range":"6C00..7000","use":"Common effect sourceA71C,1024bytes, loader99AE"},
+    {"range":"7000..7C00","use":"P2 dynamic character frame buffer, loaderA1BA"},
+    {"range":"7C00..8000","use":"Common effect sourceB484,1024bytes, loader99BE"},
+    {"range":"8000..9000","use":"Common sourceA85A,4096bytes, loader997C"},
+    {"range":"9000..A000","use":"Common sourceAD92,4096bytes, loader998E; also some special effects replace this"},
+    {"range":"A000..A260","use":"Native HUD/common small graphics; not proposed for reuse"},
+    {"range":"A260..A800","use":"Original aura45tiles, sourceB6F0 decompressed1440bytes"},
+    {"range":"A800..A804","use":"Active two-word horizontal scroll table, R13=2A andR11=00; native writer7136"},
+    {"range":"A804..AC00","use":"No changes/references observed in bounded native runtime audit; reserve whole tileA800..A820 anyway"},
+    {"range":"AC00..AE80","use":"80-entry hardware SAT; native transfer706E..70D6 copies40longwords*4iterations=640bytes"},
+    {"range":"AE80..B000","use":"No changes observed,384bytes; unnecessary alternative candidate, do not allocate yet"},
+    {"range":"B000..C000","use":"Window name table, R3=2C. Loader102D2 can also load1024bytes sourceA71C atB000 in another effect/state"},
+    {"range":"C000..E000","use":"PlaneA name table, R2=30,64x64"},
+    {"range":"E000..10000","use":"PlaneB name table, R4=07,64x64"}
+  ],
+  "proposed_split_atlas64logical_tiles": {
+    "segment0":{"logical_tiles":[0,44],"physical_tiles":["0x513","0x53F"],"vram_range":"A260..A800","bytes":1440},
+    "reserved":{"physical_tile":"0x540","vram_range":"A800..A820","reason":"Includes live horizontal scroll words. Never upload graphics across this tile."},
+    "segment1":{"logical_tiles":[45,63],"physical_tiles":["0x541","0x553"],"vram_range":"A820..AA80","bytes":608},
+    "mapping":"physical_tile=0x513+logical_tile+(1 if logical_tile>=45 else0)",
+    "effects":"With55flame+6ray+3dust: bolt tiles54B..550; dust551..553.",
+    "sprite_chunks":"Split any contiguous source chunk crossing logical45 into separate mapped pieces at its existing pixel boundary. For one-tile-wide vertical strips this is aY split; preserve exact positions and tiles so no seam is introduced.",
+    "loader":"Two native15D2 calls with separate compressed streams. Do not upload one contiguous64tile block fromA260, because that overwritesHScrollA800."
+  },
+  "verified_loader_sites": [
+    {"site":"0x9994","length":16,"bytes":"41fa1d5a4e71327ca2604eb9000015d2","meaning":"Initial auraB6F0 toA260; candidate replace withJSR dual-loader plus5NOP"},
+    {"site":"0x1C2DC","length":16,"bytes":"41f90000b6f0327ca2604eb9000015d2","meaning":"Reload original aura; candidate same dual-loader hook. A0 actor was pushed at1C2DA and restored at1C2EC."},
+    {"site":"0x28718","length":16,"bytes":"41f90000b6f0327ca2604eb9000015d2","meaning":"Restore original aura after other effect; candidate same dual-loader hook"},
+    {"site":"0x28E98","length":14,"bytes":"41fa1506327ca2604eb9000015d2","meaning":"DO NOT REPLACE withC2 loader: source2A3A0 is a different1440byte effect that intentionally replacesA260..A800. This invalidates any live aura-atlas cache."}
+  ],
+  "runtime_evidence": {
+    "core":"Genesis Plus GX v1.7.4 f27655b",
+    "memory3":"retro_get_memory_data(3)=NULL and size0; direct libretro video-RAM exposure unavailable",
+    "extraction":"Serialized stateVRAM starts at0x12425 in this exact local core build. Offset validated against word-swapped decompressed8000/9000/A260 native graphics. Raw VRAM words decode little-endian because this core stores swapped16bit words.",
+    "VDP_register_extraction":"VRAM block followed byCRAM128,VSRAM128,then32registerbytes. Order corroborated by official Genesis Plus GX vdp_context_save.",
+    "official_source":"https://raw.githubusercontent.com/libretro/Genesis-Plus-GX/master/core/vdp_ctrl.c",
+    "saved_baseline":"work/auras/v3/vram-probe/baseline.state; baseline-vram-swapped.bin",
+    "samples":2841,
+    "reports":["work/auras/v3/vram-audit/report.json","work/auras/v3/vram-audit-5/report.json","work/auras/v3/vram-audit-turbo/report.json"],
+    "characters":"Goku and CellP1, defaultGohanP2",
+    "speed_pairs":[[256,256],[320,204]],
+    "tested":"Idle, P1/P2/simultaneouscharge+release, jump,punch,kick,moving camera,separationup to464worldpixels,seededCPUcombat",
+    "scroll_registers":"R11=00,R13=2A throughout recorded battle snapshots",
+    "scroll4byte_changes":"A800..A803 changed119/139/165distinct values in the three runs respectively",
+    "candidate_changes":"A804..A81F,A820..ABFF,AE80..AFFF each retain exactly one hash throughout each run",
+    "candidate_references":"No tile541..55F references found in all plane/window wordsB000..FFFF or the active hardwareSAT link chain in any sample",
+    "stage_scope":"Runtime fixture stage0 only. Nine-stage loader-size analysis supports the same allocation, but runtime flight/special cut-scenes on every stage were not exhaustively exercised. E73C stayed0; large opponent separation is not claimed as a confirmed native split-screen mode."
+  },
+  "R11_static_scope": {
+    "method":"Bounded immediate-word search and contextual localCapstone disassembly; does not exclude every computed register write",
+    "default":"8B00 in initial register table at638",
+    "valid_immediate_locations_outside_main_fight":[{"offset":"36210","value":"8B03"},{"offset":"3C86E","value":"8B00"},{"offset":"3DD32","value":"8B00"},{"offset":"44314","value":"8B02"},{"offset":"4AA3A","value":"8B00"}],
+    "main_fight_range":"No valid immediate R11 write identified in8000..2B000. Data coincidences were excluded.",
+    "restriction":"The candidate gap is a battle allocation; do not assume it remains free in title, selection, credits or unrelated display modes."
+  },
+  "fade_recommendation": {
+    "preferred_first_prototype":"Temporal density fade using intact full-contour maps, not moving/collapsing native-size pieces and not uploading new atlas phases during live gameplay.",
+    "reason":"15D2/15F0 performs byte-orientedLZ expansion throughRAM8030 andVDPportwrites. Literal path alone has substantial68kcycle cost; a2KB live upload has no established2ms budget and risks stalls. Shared atlas also creates P1/P2 phase conflicts and cache invalidation from28E98.",
+    "limitation":"Temporal fade visibility and smoothness must be reviewed in a real gameplay recording. It preserves the contour on every visible frame but may increase flicker."
+  },
+  "required_followup":"After implementing dual loader and remapped atlas, assertHScrollA800..A803 matches native movement, inspect all11characters, native reloads and special-effect restore paths, and repeat SAT limits/natural hit/air-dust tests."
+}

@@ -1,0 +1,30 @@
+{
+  "game": "Dragon Ball Z: Super Butoden 2 (SNES)",
+  "source_url": "https://www.spriters-resource.com/snes/dragonballzsuperbutoden2/",
+  "source": "User-provided sheets, crops and GIF, saved on2026-11-04",
+  "purpose": "References for contour, lightning animation, smoke and later special attacks; not a request to replace character art",
+  "visible_sheet_credits": [
+    "ShadeDBZ: Vegeta, Piccolo and Cell sheets",
+    "Belial: Goku sheet",
+    "Cyrus Annihilator: Gohan sheet",
+    "Cavery210: extra Cell vs Mr.Satan sprites"
+  ],
+  "user_decisions": [
+    "Golden auras for Super Warriors, including Vegeta; blue Vegeta source used for shape only",
+    "One base aura and three lightning forms as animation reference",
+    "Preserve C2v2 size and approved dust; repair flat-cut tips and gaps"
+  ],
+  "files": [
+    "Aura-Gohan-captura.png",
+    "Vegeta-sprites-efectos.png",
+    "Piccolo-sprites-efectos.png",
+    "Cell-sprites-efectos.png",
+    "Goku-sprites-efectos.png",
+    "Aura-rayos-variante-1.png",
+    "Gohan-sprites-efectos.png",
+    "Vegeta-aura-azul-referencia-forma.png",
+    "Aura-rayos-variante-2.png",
+    "Aura-rayos-variante-3.png",
+    "Gohan-aura-rayos-referencia.gif"
+  ]
+}

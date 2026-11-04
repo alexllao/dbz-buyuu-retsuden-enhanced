@@ -1,0 +1,231 @@
+{
+  "status": "PASS for tested V3 candidate; visual approval and broader special/stage coverage remain pending",
+  "rom": "work/rom/auras-c2-v3.bin",
+  "sha256": "a4fc88c3c8032f9ec0e4c44a1ffbdf5c1c48c8eb88b4946cde25307070239507",
+  "core": "Genesis Plus GX v1.7.4 f27655b, native normal boot",
+  "runtime_report": "work/auras/qa/v3-prototype/report.json",
+  "total_sampled_frames": 2435,
+  "standard_cases": 11,
+  "additional_cases": [
+    "forced-upper-plane",
+    "camera-scroll"
+  ],
+  "capacity": {
+    "limits": {
+      "sprites_frame": 80,
+      "sprites_scanline": 20,
+      "sprite_width_pixels_scanline": 320
+    },
+    "tested_max_sprites_frame": 72,
+    "tested_max_sprites_scanline": 16,
+    "tested_max_sprite_width_pixels_scanline": 216,
+    "tested_max_aura_sprites": 46,
+    "flame_sprites": 40,
+    "full_plain_aura_sprites": 42,
+    "full_lightning_aura_sprites": 46,
+    "over_limit_frames": 0,
+    "method": "Read native SAT staging bufferE04E/E452, count native-size bounding boxes and width totals on every visible scanline. Width sums conservatively include offscreen horizontal width."
+  },
+  "runtime_behavior": {
+    "natural_collisions": [
+      {
+        "case": "hit-during-charge-distance24",
+        "index": 83,
+        "hp": 188,
+        "aura_sprites_max_from_hit": 0
+      },
+      {
+        "case": "hit-during-charge-distance40",
+        "index": 83,
+        "hp": 188,
+        "aura_sprites_max_from_hit": 0
+      },
+      {
+        "case": "hit-during-charge-distance56",
+        "index": 83,
+        "hp": 188,
+        "aura_sprites_max_from_hit": 0
+      },
+      {
+        "case": "hit-during-fade-distance24",
+        "index": 68,
+        "hp": 188,
+        "aura_sprites_max_from_hit": 0
+      },
+      {
+        "case": "hit-during-fade-distance40",
+        "index": 67,
+        "hp": 188,
+        "aura_sprites_max_from_hit": 0
+      },
+      {
+        "case": "hit-during-fade-distance56",
+        "index": 67,
+        "hp": 188,
+        "aura_sprites_max_from_hit": 0
+      }
+    ],
+    "p2_charge_release": "Pass",
+    "two_consecutive_charges": "Pass",
+    "simultaneous_charges": "Pass",
+    "frames_with_sprites_when_both_phases_zero": 0,
+    "last30frames_all_standard_cases": "Both phases0 and zero aura sprites",
+    "native118_11f_values": [
+      "0000000000000000"
+    ],
+    "fade": "12game ticks, temporal density; every visible map retains the full contour. No live graphics upload or contracting pieces. Perceived smoothness remains subject to user review."
+  },
+  "map_identity": {
+    "maps_checked": 384,
+    "flame_sprites_per_map": [
+      40
+    ],
+    "pixel_identity_with_indexed_source": true,
+    "enclosed_alpha_holes": 0,
+    "reserved_tile540_references": 0,
+    "method": "Independent decode of384actualROMsprite maps, remap physical tile gap and reconstruct80x128flame bitmap; compare every palette-index pixel against direct-art.json."
+  },
+  "VRAM": {
+    "atlas_logical_tiles": 64,
+    "physical_tile_gap": "0x540 reserved",
+    "primary": {
+      "range": "A260..A800",
+      "bytes": 1440,
+      "expected_sha256": "5c38544739af282e4e533f0fccaa41650444081c1a7ff793b76b8efa6a6d73a7",
+      "mismatched_frames": 0
+    },
+    "extra": {
+      "range": "A820..AA80",
+      "bytes": 608,
+      "expected_sha256": "dcf61f9d49f40b5b5890772fda7baf7782cb883174003766592d5da144868db5",
+      "mismatched_frames": 0
+    },
+    "reserved_scroll_tile_tail": {
+      "range": "A804..A820",
+      "mismatched_frames_vs_original_baseline": 0
+    },
+    "active_reserved_tile540_sprite_references": 0,
+    "registers_R11_R13": [
+      [
+        0,
+        42
+      ]
+    ],
+    "hscroll": {
+      "fixture": "150framesRIGHT then150LEFT, native cameraRAM unchanged by fixture",
+      "distinct_scroll_word_pairs": 73,
+      "current_RAM_matches": 162,
+      "samples_not_matching_current_or_previous3camera_samples": [],
+      "explanation": "Native writer7136 writes negativeC038/C03A intoA800/A802 during its video phase. CameraRAM can update afterward, so serialized snapshots show normal frame-phase lag. All300 samples match native camera words within the bounded history."
+    }
+  },
+  "loader_hooks": {
+    "aura_load_graphics": "0x7bb94",
+    "sites": {
+      "0x9994": "4eb90007bb944e714e714e714e714e71",
+      "0x1c2dc": "4eb90007bb944e714e714e714e714e71",
+      "0x28718": "4eb90007bb944e714e714e714e714e71"
+    },
+    "all_three_JSR_plus5NOP_verified": true,
+    "special_effect_28E98_preserved": true,
+    "runtime_scope": "Initial dual loader was exercised by native boot and both VRAM segments verified on2435frames. The two later native restore call sites were checked statically; no unsafe CPU-PC jumps and no claim that both restore paths executed in these fixtures."
+  },
+  "air_dust": {
+    "fixture": "Synthetic: charge established normally, then worldY forcedA0 and plane bit4 set. HeldAB; tests no-dust map selection, not a natural flight input claim.",
+    "samples": 55,
+    "worldY_values": [
+      160
+    ],
+    "dust_max": 0,
+    "flame_max": 40,
+    "result": "Pass: zero airborne dust in all samples."
+  },
+  "by_case": {
+    "p2-charge-release": {
+      "max_sprites": 72,
+      "max_scanline_sprites": 16,
+      "max_scanline_width_pixels": 216,
+      "max_aura_sprites": 46
+    },
+    "two-charges": {
+      "max_sprites": 62,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "simultaneous": {
+      "max_sprites": 66,
+      "max_scanline_sprites": 16,
+      "max_scanline_width_pixels": 184,
+      "max_aura_sprites": 46
+    },
+    "hit-during-charge-distance24": {
+      "max_sprites": 64,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "hit-during-charge-distance40": {
+      "max_sprites": 62,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "hit-during-charge-distance56": {
+      "max_sprites": 62,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "hit-during-fade-distance24": {
+      "max_sprites": 67,
+      "max_scanline_sprites": 16,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "hit-during-fade-distance40": {
+      "max_sprites": 64,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "hit-during-fade-distance56": {
+      "max_sprites": 64,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "forced-HP-during-charge": {
+      "max_sprites": 62,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "forced-HP-during-fade": {
+      "max_sprites": 62,
+      "max_scanline_sprites": 15,
+      "max_scanline_width_pixels": 200,
+      "max_aura_sprites": 42
+    },
+    "forced-upper-plane": {
+      "max_sprites": 66,
+      "max_scanline_sprites": 14,
+      "max_scanline_width_pixels": 144,
+      "max_aura_sprites": 40
+    },
+    "camera-scroll": {
+      "max_sprites": 26,
+      "max_scanline_sprites": 8,
+      "max_scanline_width_pixels": 192,
+      "max_aura_sprites": 0
+    }
+  },
+  "limitations": [
+    "Modified-ROM runtime fixture uses GokuP1/GohanP2 on native stage0 at normal speed. Full11roster video recording is separate.",
+    "Original-ROM VRAM audit additionally covers Cell and turbo; do not treat that as modified-ROM all-stage/special validation.",
+    "All9stage resource loader sizes remain below6000 and do not overlap the candidate gap by static analysis. Flight/split/cut-scene effects on every stage were not exercised.",
+    "Human control flags forced for both actors; collision positions/facing forced for six kicks. ForcedHP probes are diagnostic only, not natural hit claims.",
+    "No hardware test. Temporal fade shape and flicker require a real-video visual decision.",
+    "No game code or ROM was modified during QA."
+  ]
+}

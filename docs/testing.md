@@ -21,11 +21,11 @@ Resultados: [resumen](../evidence/gameplay-v1/summary.json) y [matriz](../eviden
 
 Estas medidas son del motor emulado, no del retraso físico mando/pantalla. La rapidez al leer una dirección no equivale al tiempo de preparación de un golpe. Las pruebas no cubren todos los combos, colisiones, especiales y enfrentamientos, ni hardware real.
 
-## Prototipo de auras C2
+## Primera prueba C2 v1, conservada como historial
 
 La evidencia del prototipo se conserva en [validation.json](../evidence/auras-c2-v1/validation.json). Las grabaciones reales de los once personajes y la retirada a cámara lenta están reunidas en [Auras C2](auras-c2-v1.md).
 
-El alcance que debe revisarse incluye aparición, carga sostenida, retirada de doce ticks, corte por daño, regreso al control, cargas repetidas, segundo jugador y cargas simultáneas. La aprobación visual del usuario sigue pendiente, aunque una prueba automática pase. No se afirma validación en Mega Drive física.
+El alcance de revisión incluye aparición, carga sostenida, retirada de doce ticks, corte por daño, regreso al control, cargas repetidas, segundo jugador y cargas simultáneas. Esta primera prueba se conserva como historial; la dirección aceptada y las correcciones pendientes corresponden a C2 v2, descrita a continuación. No se afirma validación en Mega Drive física.
 
 ## Revisión C2 v2
 
@@ -33,6 +33,12 @@ La [validación C2 v2](../evidence/auras-c2-v2/validation.json) y el [informe de
 
 Pasan los seis golpes naturales probados, el jugador 2, dos cargas consecutivas y cargas simultáneas. En 55 muestras de carga aérea no se dibujó polvo. Los máximos observados fueron 76/80 sprites, 18/20 sprites en una línea y 232/320 píxeles en una línea. La retirada sigue durando doce ticks del juego y reduce piezas en sus fases finales.
 
-El resultado está limitado a esos escenarios en Genesis Plus GX. No se han validado todos los efectos simultáneos ni consola física, y sigue pendiente la aprobación visual del usuario. Las pruebas y vídeos C2 v1 se conservan como historial.
+El resultado está limitado a esos escenarios en Genesis Plus GX. No se han validado todos los efectos simultáneos ni consola física. El usuario ha aceptado la dirección C2 v2, su tamaño, polvo y rayos, pero después ha señalado cortes rectos y huecos en el contorno. Las pruebas funcionales anteriores no cierran ese defecto gráfico. Las pruebas y vídeos C2 v1 se conservan como historial.
 
 Los golpes usan colisiones reales con posiciones y orientación preparadas. La prueba aérea fuerza altura y plano tras iniciar la carga: comprueba la selección del mapa sin polvo, no una entrada de vuelo natural. Los vídeos de los once personajes se registran aparte de este pase centrado en Goku y Gohan.
+
+La reparación de las uniones del contorno está en curso. Cuando se integre, necesita nuevas capturas y comprobación de continuidad de las llamas en carga y retirada, además de repetir los casos funcionales y de capacidad afectados. No se declara terminado el apartado visual ni se atribuyen a esa reparación los resultados de C2 v2.
+
+## Auditoría de contorno C2 v3
+
+Se han contrastado los 384 mapas con el gráfico adaptado y las dos zonas de VRAM con el atlas cargado. Pasan los seis golpes naturales y las pruebas registradas; las limitaciones y evidencias están en [C2 v3](auras-c2-v3.md). La retirada usa densidad temporal y requiere revisión visual. Este pase no valida todos los especiales ni hardware físico.

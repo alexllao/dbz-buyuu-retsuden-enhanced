@@ -16,8 +16,11 @@ Registro estructurado: [project/decisions.json](../project/decisions.json).
 | 2026-11-04 | Retratos | **Propuesta v1 de todos los retratos de selección**. | Elegidos; próxima integración combinada pendiente. |
 | 2026-11-04 | Escenarios | **Propuesta Colores v1 para los nueve escenarios**. | Elegidos; disponibles en Colores v1. |
 | 2026-11-04 | HUD | **H4**, al corresponder a la paleta de selección elegida; mantener H3. | Pendiente implementar. |
-| 2026-11-04 | Auras | **C2**; **Cell y Gohan SSJ2 con rayos**, resto sin rayos. | Prototipo real implementado y grabado; pendiente de revisión visual. |
-| 2026-11-04 | Revisión de auras C2 v2 | La primera prueba resulta pequeña; ampliar a **80 × 128**, rayos blancos largos y polvo animado en el suelo. | Implementada y probada en los casos registrados; pendiente de aprobación visual. C2 v1 conservada. |
+| 2026-11-04 | Auras | **C2**; **Cell y Gohan SSJ2 con rayos**, resto sin rayos. | Dirección C2 v2 y rayos aceptados; contorno pendiente de corregir. |
+| 2026-11-04 | Revisión de auras C2 v2 | La primera prueba resulta pequeña; ampliar a **80 × 128**, rayos blancos largos y polvo animado en el suelo. | Tamaño, polvo y rayos aceptados; probada en los casos registrados. C2 v1 conservada. |
+| 2026-11-04 | Contorno del aura | Corregir extremos rectos y huecos en las uniones de las llamas, señalados en Ginyu. Conservar tamaño y rayos elegidos. | Reparación en curso; resultado gráfico pendiente de revisar. |
 | 2026-11-04 | Repositorio | Rama `development`; pnpm para las herramientas del proyecto. | Estructura inicial. |
 
 Las alternativas no elegidas siguen en el catálogo. No convertir un boceto en una función implementada al actualizar la documentación.
+
+El 4 de noviembre de 2026 se mantiene el dorado para los superguerreros, incluida Vegeta, y se aportan referencias de Super Butoden 2 para contorno y tres formas de rayos. C2 v3 corrige el contorno y queda para revisar. Se eligen montañas nevadas como primera propuesta visual del escenario 10, con vistas de suelo y vuelo; la integración real no se ha iniciado.

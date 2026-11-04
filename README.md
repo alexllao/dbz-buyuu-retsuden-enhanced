@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: jugabilidad v1 experimental · auras C2 v2 con más tamaño, rayos largos y polvo, para revisión**
+**Estado: jugabilidad v1 experimental · contorno C2 v3 corregido y listo para revisión · escenario nevado en bocetos**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -22,20 +22,54 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
 | Presentación | **G — C con contraste marcado elegida**; pendiente de integrar en la próxima ROM. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
-| Auras | **C2 v2 experimental**: aura más grande, rayos blancos largos en Cell/Gohan SSJ2 y polvo animado en el suelo. Vídeos reales; pendiente de revisión visual. |
+| Auras | **Dirección C2 v2 elegida**; la corrección de cortes y huecos está implementada como **C2 v3**, pendiente de valoración visual. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Auras C2 en el juego
+## Corrección del contorno: C2 v3
+
+Tras elegir el tamaño de C2 v2, el usuario señaló puntas cortadas y huecos. **C2 v3 ya corrige esas uniones dentro del juego**, con un contorno de 80 × 128 basado en la referencia SNES aportada. Mantiene el dorado para los superguerreros y el polvo; Cell y Gohan SSJ2 alternan tres formas de rayos blancos. La revisión visual de esta corrección sigue abierta.
+
+![Ginyu: contorno anterior y corregido, grabación real](assets/media/auras-c2-v3/Ginyu-contorno-antes-despues.gif)
+
+[Ver los once personajes](assets/media/auras-c2-v3/Todas-las-auras-antes-despues.mp4) · [Ver Cell y sus rayos](assets/media/auras-c2-v3/05-Cell.mp4) · [Revisar la salida a cámara lenta](assets/media/auras-c2-v3/Salida-Goku-lenta.mp4) · [Fuentes y pruebas de C2 v3](docs/auras-c2-v3.md)
+
+La salida conserva el contorno entero y lo apaga durante doce ticks; ya no contrae tiras por separado. La ROM de prueba combina Jugabilidad v1, Colores v1 y esta revisión del aura. Las versiones anteriores siguen disponibles.
+
+## Auras C2 v2: dirección elegida e historial
+
+**C2 v2 elegida el 4 de noviembre de 2026:** tamaño, aspecto del aura y polvo aceptados. También quedan aprobados los rayos blancos largos de Cell y Gohan SSJ2.
+
+La revisión posterior detectó extremos de llama rectos y huecos en el contorno, visibles en la captura de Ginyu. **La corrección de esas uniones está en curso**: se mantienen los 80 × 128 píxeles, el polvo y los rayos elegidos. El apartado visual sigue abierto hasta revisar el contorno corregido.
+
+![Comparación real: original, C2 v1 y C2 v2](assets/media/auras-c2-v2/Tres-tamanos-preview.gif)
+
+**Rayos de Cell y Gohan SSJ2, dentro del juego:**
+
+![Rayos blancos y polvo de Cell y Gohan SSJ2](assets/media/auras-c2-v2/Rayos-Cell-Gohan-preview.gif)
+
+[Ver Cell en vídeo](assets/media/auras-c2-v2/05-Cell.mp4) · [Ver Gohan SSJ2 en vídeo](assets/media/auras-c2-v2/01-Gohan-SSJ2.mp4)
 
 La segunda prueba responde a la revisión de tamaño: el aura ocupa **80 × 128 píxeles**, frente a los 64 × 112 de C2 v1 y los 80 × 112 del original. Es un **25 % más ancha y un 14 % más alta que la primera prueba**. Conserva la paleta compartida nativa; el dibujo sigue siendo una adaptación para Mega Drive del concepto elegido.
 
 **Goku y el resto del reparto no llevan rayos; Gohan SSJ2 y Cell, sí.** Sus arcos blancos son intermitentes y alcanzan 32 píxeles, frente a los ocho del recurso anterior. Se añaden dos nubes de polvo animadas junto a los pies, sólo al cargar desde el suelo. Al soltar, la retirada visual sigue durando doce ticks del juego y reduce sus piezas para respetar los límites de dibujo de la consola.
 
-Los vídeos son grabaciones reales de los once personajes. Las pruebas cubren golpes, cargas consecutivas, ambos jugadores y ausencia de polvo en el aire; **la aprobación visual del usuario sigue pendiente**. [Detalles, vídeos y evidencia C2 v2](docs/auras-c2-v2.md).
+Los vídeos son grabaciones reales de los once personajes. Las pruebas cubren golpes, cargas consecutivas, ambos jugadores y ausencia de polvo en el aire. **La dirección C2 v2 y sus rayos están aceptados; falta corregir y revisar el contorno.** [Detalles, vídeos y evidencia C2 v2](docs/auras-c2-v2.md).
 
 La ROM de prueba combina **Jugabilidad v1 + Colores v1 + Auras C2 v2**. La presentación G, el crédito **- 2026 ALEX LLAO**, los retratos de selección y el HUD H4 todavía están pendientes de integración.
+
+## Propuesta de décimo escenario: montañas nevadas
+
+El usuario ha elegido montañas nevadas para una primera propuesta visual, con vistas de suelo y vuelo. **Son bocetos; el décimo escenario todavía no está integrado en la ROM.**
+
+| En el suelo | Durante el vuelo |
+| --- | --- |
+| ![Boceto del escenario nevado en el suelo](assets/concepts/stage10-snow/Nieve-propuesta-v1.png) | ![Boceto de la vista aérea del escenario nevado](assets/concepts/stage10-snow/Nieve-vuelo-propuesta-v1.png) |
+
+[Ver ambas vistas y sus referencias](docs/stage10-snow.md). Las imágenes del escenario se han generado como conceptos visuales; los vídeos y GIF de las auras sí son grabaciones del mod en el emulador.
+
+Referencias aportadas: [Super Butōden 2 en The Spriters Resource](https://www.spriters-resource.com/snes/dragonballzsuperbutoden2/) y [archivos conservados con sus créditos](assets/references/super-butoden-2/references.json).
 
 ## Las cuatro mejoras de jugabilidad
 
@@ -123,6 +157,6 @@ La rama de trabajo es **`development`**. Cada cambio debe conservar las variante
 
 ## Próximo paso
 
-Revisar el tamaño, los rayos, el polvo y la retirada de C2 v2 en los vídeos reales, y probar la jugabilidad v1 con mando. Después, integrar la presentación G, el crédito, los retratos elegidos y el HUD H4. Los ataques especiales siguen pendientes y las localizaciones nuevas permanecen en espera.
+Corregir las uniones, los cortes rectos y los huecos del contorno del aura, manteniendo el tamaño, el polvo y los rayos aceptados; volver a grabarlo y revisarlo. Después, integrar la presentación G, el crédito, los retratos elegidos y el HUD H4. La prueba con mando, los ataques especiales y la validación en consola siguen pendientes; las localizaciones nuevas permanecen en espera.
 
 Proyecto de modificación no oficial. Los personajes, el juego original y Hyper Dragon Ball Z se mencionan como obras y referencias de sus respectivos autores. [Créditos y procedencia](docs/credits.md).

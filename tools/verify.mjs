@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import assert from 'node:assert/strict';
 import { sha256 } from './lib/rom.mjs';
+import { verifyAuraV3 } from './lib/verify-aura-v3.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
@@ -109,6 +110,7 @@ assert.equal(qa2.tested.residual_sprites_when_both_phases_zero, 0);
 assert(qa2.capacity.tested_max_sprites_per_frame <= 80);
 assert(qa2.capacity.tested_max_scanline_sprites <= 20);
 assert(qa2.capacity.tested_max_scanline_width_pixels <= 320);
+await verifyAuraV3(root, manifest.source.sha256);
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
