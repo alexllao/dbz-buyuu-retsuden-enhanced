@@ -23,5 +23,5 @@
   "resources": "src/auras/c2-v4/resources.json",
   "characterRemap": "evidence/auras-c2-v4/character-remap.json",
   "lightningCharacterIds": [],
-  "status": "Individual palettes implemented and recorded; user visual validation pending"
+  "status": "Ki palettes visually approved; bounded native CPU comparison completed; manual control feel and full special-attack coverage pending"
 }

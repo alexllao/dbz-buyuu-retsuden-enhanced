@@ -1,6 +1,6 @@
 # Ki por personaje: colores v4 para validar
 
-Los once vídeos son grabaciones reales de la ROM de prueba. Cada secuencia muestra carga, retirada y vuelta al movimiento. El contorno C2 v3 aceptado, su tamaño y el polvo se conservan; **ningún personaje tiene rayos de aura**. Falta la aprobación visual de estas paletas concretas.
+Los once vídeos son grabaciones reales de la ROM de prueba. Cada secuencia muestra carga, retirada y vuelta al movimiento. El contorno C2 v3 aceptado, su tamaño y el polvo se conservan; **ningún personaje tiene rayos de aura**. **Paletas aceptadas visualmente por el usuario el 4 de noviembre de 2026.** La [comparación CPU original/mod está completada](cpu-comparison-v1.md), con los límites allí descritos.
 
 ![Ginyu con la paleta lila, captura real](../assets/media/ki-colores-v4/Capturas/10-Ginyu.png)
 

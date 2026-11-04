@@ -32,3 +32,7 @@ El contorno C2 v3 está aceptado. La petición posterior retira todos los rayos,
 ## Ki individual v4
 
 Colores elegidos e implementados para los once personajes; todos sin rayos. Cell dorado, Ginyu lila y A18 blanca como Freezer. [Grabaciones reales para validar](ki-colores-v4.md). El contorno se mantiene aceptado y estas paletas concretas quedan pendientes de aprobación visual.
+
+## Validación posterior
+
+El usuario acepta las once paletas de ki v4. Se completa la [comparación CPU del original frente al mod](cpu-comparison-v1.md), dentro de cinco minutos por ROM. La sensación de control y la aprobación de jugabilidad corresponden a su prueba con el mando.

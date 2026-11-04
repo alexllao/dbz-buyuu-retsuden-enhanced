@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS for this bounded native CPU comparison; not human-playability approval or exhaustive special-attack validation",
+  "source_hashes": {
+    "original": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "enhanced": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b"
+  },
+  "rom_filename": "Buyuu_Retsuden_Enhanced_v4_Prueba_CPU.bin",
+  "rom_bytes": 4194304,
+  "rom_sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+  "patch_sha256": "df01a7e58da243011383c2048f9754a404d89b8528fe521b797da3415bd415ba",
+  "pairs": [
+    {
+      "index": 0,
+      "pair": [
+        0,
+        1
+      ],
+      "label": "Goku SSJ vs Gohan SSJ2",
+      "comparison": "Combates/01-Goku-SSJ-vs-Gohan-SSJ2.mp4",
+      "original": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          165,
+          157
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Original/01-Goku-SSJ-vs-Gohan-SSJ2.mp4",
+        "video_sha256": "d00e99b0eabee258d399349f3c81da4045efb1c582014cac940d4e70005c4fe5",
+        "native_ko": null,
+        "samples": 355,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "enhanced": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          160,
+          163
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Mod/01-Goku-SSJ-vs-Gohan-SSJ2.mp4",
+        "video_sha256": "dc77f763dab632bf5e20539673704f6cf5168e3cf56dc4219e990e9884089994",
+        "native_ko": null,
+        "samples": 359,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "comparison_sha256": "96ad1f3cb295d5d13ad68e5ede9e11f129c2259b784b85ddb17c72699f975876"
+    },
+    {
+      "index": 1,
+      "pair": [
+        9,
+        6
+      ],
+      "label": "Recoome vs A18",
+      "comparison": "Combates/02-Recoome-vs-A18.mp4",
+      "original": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          181,
+          160
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Original/02-Recoome-vs-A18.mp4",
+        "video_sha256": "232004e51934eb93ba03b8ca1c541201107ac628b4165220c5de71c58dde6514",
+        "native_ko": null,
+        "samples": 355,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "enhanced": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          170,
+          168
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Mod/02-Recoome-vs-A18.mp4",
+        "video_sha256": "2c6d91b02ca277470a896becffdb455521bb49cb71e6f1feaab57f31f08704bb",
+        "native_ko": null,
+        "samples": 356,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "comparison_sha256": "4f91522dc1dd07d6214c122c8b652a61bee708950ac2dfcf3975fb4011f83ba9"
+    },
+    {
+      "index": 2,
+      "pair": [
+        10,
+        8
+      ],
+      "label": "Ginyu vs Freezer",
+      "comparison": "Combates/03-Ginyu-vs-Freezer.mp4",
+      "original": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          168,
+          166
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Original/03-Ginyu-vs-Freezer.mp4",
+        "video_sha256": "9b889cf905e2d5b1f7939df038855087019723dd5e6349a9ae7b3b494728a1cf",
+        "native_ko": null,
+        "samples": 355,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "enhanced": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          190,
+          156
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Mod/03-Ginyu-vs-Freezer.mp4",
+        "video_sha256": "283e79670b5876ab2935d497059f8f120921bfde72425663893d093cf8ad94a5",
+        "native_ko": null,
+        "samples": 355,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "comparison_sha256": "1b4960502876d1726975fca112e0240a445571c1f3d4b3451f80069cffded1a7"
+    },
+    {
+      "index": 3,
+      "pair": [
+        2,
+        5
+      ],
+      "label": "Piccolo vs Cell",
+      "comparison": "Combates/04-Piccolo-vs-Cell.mp4",
+      "original": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          189,
+          135
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Original/04-Piccolo-vs-Cell.mp4",
+        "video_sha256": "e583d290f0d82458fc130ebac1b1de589b30bf26718d7a7a174340669d27f85f",
+        "native_ko": null,
+        "samples": 354,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "enhanced": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          154,
+          157
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Mod/04-Piccolo-vs-Cell.mp4",
+        "video_sha256": "270a95831a56e5473d2c390c9652a274d493941e660c0d0f8529657a3f4948e9",
+        "native_ko": null,
+        "samples": 357,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "comparison_sha256": "073ab29becf4aae253f1ab96941209e114696ee31ee21f08768c1151b81761ec"
+    },
+    {
+      "index": 4,
+      "pair": [
+        3,
+        4
+      ],
+      "label": "Vegeta SSJ vs Trunks SSJ",
+      "comparison": "Combates/05-Vegeta-SSJ-vs-Trunks-SSJ.mp4",
+      "original": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          155,
+          155
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Original/05-Vegeta-SSJ-vs-Trunks-SSJ.mp4",
+        "video_sha256": "fc4390607ff9d2f7981cb21f4f25fbab3e89e052036426edc5debaa6a6dd9baa",
+        "native_ko": null,
+        "samples": 356,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "enhanced": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          165,
+          181
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Mod/05-Vegeta-SSJ-vs-Trunks-SSJ.mp4",
+        "video_sha256": "eb4e0ca88a96ba28112705d9dcea177afcfaed5b73c0c1f108772b97ad57a0a5",
+        "native_ko": null,
+        "samples": 354,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "comparison_sha256": "586509a150bc0c2ee2a142d0e933a228b64d6e05cd16d10f6cdeaf8a8f00b3f0"
+    },
+    {
+      "index": 5,
+      "pair": [
+        7,
+        5
+      ],
+      "label": "Krilin vs Cell",
+      "comparison": "Combates/06-Krilin-vs-Cell.mp4",
+      "original": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          179,
+          176
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Original/06-Krilin-vs-Cell.mp4",
+        "video_sha256": "7df5c64f8590dbc9696a77453a516b41a22d3af5f57c951bd2c79b243aefa4b6",
+        "native_ko": null,
+        "samples": 356,
+        "atlas_judged": 0,
+        "atlas_faults": 0
+      },
+      "enhanced": {
+        "seconds": 34.995059986674285,
+        "frames": 2097,
+        "initial_hp": [
+          200,
+          200
+        ],
+        "final_hp": [
+          174,
+          172
+        ],
+        "freeze_suspect": null,
+        "host_buttons": [],
+        "video": "Mod/06-Krilin-vs-Cell.mp4",
+        "video_sha256": "8b41bcdf8fd99c68687d0492348a62deb71d668d400ababeb8dd0ac2be6a61a2",
+        "native_ko": null,
+        "samples": 355,
+        "atlas_judged": 20,
+        "atlas_faults": 0
+      },
+      "comparison_sha256": "534bbd48db75f3d928396217ccf478510c6e6a21d11a32b72364fb6bddb9a8f4"
+    }
+  ],
+  "formal_gameplay_seconds": {
+    "original": 209.97035992004572,
+    "enhanced": 209.97035992004572
+  },
+  "total_gameplay_seconds_including_preflights": {
+    "original": 260.98604822679977,
+    "enhanced": 254.97831260676986
+  },
+  "max_seconds_per_rom": 300,
+  "video": "Comparacion-CPU-original-vs-mod.mp4",
+  "video_sha256": "f116135d6b7a57d13a892a3bf798165128c8c71385a77315b8cd1b1db32181ef",
+  "method": [
+    "Each ROM boots independently with the same native menu navigation, matchup, stage and default options.",
+    "Original is the untouched Japanese ROM217fc312, not the previously recolored6460comparison source.",
+    "Only native control-type bytes P1+BE/P2+BE are enabled for CPU. No host button, health, position, RNG or scene forcing during combat.",
+    "Native normal speed retained. Six formal bouts of at most35seconds cover the11fighters on tournament stage0. Each video starts after CPU activation.",
+    "Combat traces diverge; damage/winners are not a deterministic balancing or responsiveness test."
+  ],
+  "findings": [
+    "No five-second identical-frame/counter freeze suspects detected in the12formal bouts.",
+    "Both native AIs act and deal damage. No KO occurred inside these bounded clips.",
+    "Twenty sampled visible-Ki states in Krilin/Cell have correct resident graphics. Other residency samples do not imply visible Ki coverage.",
+    "No cinematic special-effect state was triggered; real end-of-special restoration was not validated by this autoplay.",
+    "Conservative scanline-width pressure exceeds320 in some Piccolo/Cell frames in both original and mod; inspected stills do not show an obvious new visual defect."
+  ],
+  "limits": [
+    "One stage, normal speed, native default difficulty; no turbo or physical-console coverage.",
+    "Graphics/AI snapshots sampled every6frames plus events; not a per-frame hardware or controller-latency proof.",
+    "Human feel, command responsiveness and SF2CE-like playability remain for the user to assess with a controller.",
+    "Current ROM includes gameplayv1, colorsv1 and individualKiv4. TitleG, real-namecredit, selectedportraits, HUDH4 and snowstage are not yet integrated.",
+    "Videos are muted."
+  ]
+}

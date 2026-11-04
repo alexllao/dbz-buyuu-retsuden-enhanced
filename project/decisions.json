@@ -111,14 +111,11 @@
     "goku": "C2: llamas altas y polvo, sin rayos",
     "image": "assets/comparisons/auras/C2-Goku-sin-rayos.png",
     "lightningAllowedOnly": [],
-    "status": "Colores individuales implementados y grabados para los once; validación visual pendiente. Todos sin rayos.",
+    "status": "Las once paletas v4 aceptadas visualmente; comparación CPU acotada completada. Prueba manual de jugabilidad pendiente.",
     "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku",
     "selected": "C2",
     "date": "2026-11-04",
-    "lightningRequiredFor": [
-      "Cell",
-      "Gohan SSJ2"
-    ],
+    "lightningRequiredFor": [],
     "otherCharacters": "Sin rayos; Gohan en otras formas tampoco debe llevarlos.",
     "reviewVideo": "assets/media/ki-colores-v4/Ki-todos-antes-despues.mp4",
     "implementation": "Dos atlas de llama residentes, geometría C2v3 preservada; paletas por personaje. ROM de prueba4MiB.",
@@ -143,7 +140,7 @@
       "fade": "Densidad temporal; cada fotograma visible conserva el contorno entero",
       "referenceMapIdentity": 768
     },
-    "userVisualApproval": "Contorno y dirección de colores elegidos; pendiente validar las once grabaciones v4.",
+    "userVisualApproval": "Las once paletas v4 aceptadas por el usuario el 2026-11-04.",
     "currentRevision": "c2-v4",
     "sizeComparisonVideo": "assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4",
     "runtimeQa": "evidence/auras-c2-v4/mixed-runtime.json",
@@ -232,7 +229,7 @@
       "supersedes": "Aprobación anterior de rayos para Cell y Gohan SSJ2"
     },
     "colorReview": {
-      "status": "Implemented and recorded in c2-v4; user visual approval pending",
+      "status": "User visually approved all eleven recorded palettes",
       "shapeAndAnimation": "Preserve accepted contour and animation",
       "reference": "Character type and original game style; anime and HDBZ as visual references",
       "superSaiyans": "Golden",
@@ -242,7 +239,7 @@
       "cell": {
         "color": "Golden like the Super Saiyans",
         "lightning": false,
-        "status": "User selected",
+        "status": "Implemented and visually approved",
         "date": "2026-11-04",
         "evidence": "cell sera una aura como los ssj"
       },
@@ -257,20 +254,29 @@
       "ginyu": {
         "color": "Lilac with a light core",
         "lightning": false,
-        "status": "Implemented; visual validation pending",
+        "status": "Visually approved in the eleven-character v4 review",
         "date": "2026-11-04",
         "evidence": "ginyu seria tipo lila"
       },
       "android18": {
         "color": "White with a subtle cool-blue tint, like Freezer",
         "lightning": false,
-        "status": "Implemented; visual validation pending",
+        "status": "Visually approved in the eleven-character v4 review",
         "date": "2026-11-04",
         "evidence": "a18 color tipo blanco, como freezer si te va bien"
       },
-      "rom": "patches/auras-c2-v4/manifest.json"
+      "rom": "patches/auras-c2-v4/manifest.json",
+      "visualApproval": {
+        "date": "2026-11-04",
+        "evidence": "vale, yo lo veo bien",
+        "revision": "c2-v4"
+      }
     },
-    "parentSource": "src/auras/c2-v3/aura.asm"
+    "parentSource": "src/auras/c2-v3/aura.asm",
+    "historicalLightningRequiredFor": [
+      "Cell",
+      "Gohan SSJ2"
+    ]
   },
   "specialAttacks": "Pendientes",
   "additionalStages": "Propuesta visual de un décimo escenario nevado; no integrado",
@@ -297,5 +303,25 @@
     "viewer": "assets/tools/collision-viewer/visor-colisiones.html",
     "documentation": "docs/collision-review-v1.md",
     "balanceChangesApproved": false
+  },
+  "cpuComparison": {
+    "date": "2026-11-04",
+    "documentation": "docs/cpu-comparison-v1.md",
+    "video": "assets/media/cpu-comparison-v1/Comparacion-CPU-original-vs-mod.mp4",
+    "originalSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "enhancedSha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+    "nativeCPU": true,
+    "hostCombatButtons": [],
+    "formalSecondsPerRom": {
+      "original": 209.97035992004572,
+      "enhanced": 209.97035992004572
+    },
+    "totalSecondsIncludingPreflight": {
+      "original": 260.98604822679977,
+      "enhanced": 254.97831260676986
+    },
+    "status": "Completed bounded test; no freeze detected",
+    "humanPlayabilityApproval": false,
+    "naturalCinematicSpecialsCovered": false
   }
 }

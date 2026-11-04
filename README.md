@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: jugabilidad v1 experimental · ki por personaje v4 grabado y listo para validación visual · escenario nevado en bocetos**
+**Estado: jugabilidad v1 experimental · ki v4 aceptado; comparación CPU original/mod completada, prueba manual pendiente · escenario nevado en bocetos**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -22,10 +22,18 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
 | Presentación | **G — C con contraste marcado elegida**; pendiente de integrar en la próxima ROM. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
-| Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; pendiente validación visual de paletas. |
+| Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; paletas aceptadas visualmente. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
+
+## Prueba CPU: original frente a nuestra ROM
+
+**Seis enfrentamientos con los once personajes, unos 3 min 30 s por versión**, sin botones humanos durante el combate. Original japonés sin parches a la izquierda; Jugabilidad v1 + Colores v1 + Ki v4 a la derecha. No se detectaron bloqueos en estos ensayos. La jugabilidad con mando sigue pendiente de valoración del usuario.
+
+[Ver la comparación completa](assets/media/cpu-comparison-v1/Comparacion-CPU-original-vs-mod.mp4) · [Vídeos por pareja, resultados y límites](docs/cpu-comparison-v1.md)
+
+Contando los sondeos previos, la IA se ejecutó 260,99 s en el original y 254,98 s en la nueva, dentro del máximo de cinco minutos por ROM. No se activaron escenas cinemáticas de especiales en esta tanda, por lo que su restauración natural sigue pendiente de revisar.
 
 ## Ki actual: colores por personaje v4
 
@@ -35,7 +43,7 @@ Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura
 
 [Ver los once, antes y después](assets/media/ki-colores-v4/Ki-todos-antes-despues.mp4) · [Revisar las salidas a cámara lenta](assets/media/ki-colores-v4/Salida-ki-todos-lenta.mp4) · [Vídeos individuales, pruebas y límites](docs/ki-colores-v4.md)
 
-La comparación muestra el ki nativo con Colores v1 a la izquierda y la nueva aura a la derecha. Son grabaciones reales. La ROM de prueba es de 4 MiB y las paletas quedan pendientes de tu aprobación visual. La revisión de especiales completos y hardware sigue pendiente.
+La comparación muestra el ki nativo con Colores v1 a la izquierda y la nueva aura a la derecha. Son grabaciones reales. La ROM de prueba es de 4 MiB y las once paletas están aceptadas visualmente. La revisión de especiales completos y hardware sigue pendiente.
 
 La [variante anterior sin rayos y paleta común](docs/auras-c2-v3-no-rays.md) se conserva. Los vídeos con rayos de versiones antiguas que aparecen más abajo forman parte del historial.
 

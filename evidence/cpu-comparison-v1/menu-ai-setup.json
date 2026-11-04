@@ -1,0 +1,86 @@
+{
+  "status": "Setup verified; preflight frozen, no further autoplay by this subtask",
+  "module": "work/cpu-soak/menu_ai_setup.py",
+  "functions": {
+    "boot_versus": "boot_versus(namespace,p1_id,p2_id,settle_frames=180)",
+    "snapshot": "snapshot(namespace)",
+    "stop_after_ko": "stop_after_ko(namespace,display_frame,first_ko_frame,fps) -> stop,first_ko_frame,reason"
+  },
+  "namespaceKeys": [
+    "steps",
+    "tick",
+    "wb",
+    "rb",
+    "rw"
+  ],
+  "nativeMenuSelection": "Existing controlled versus steps; insertP1 directions before step9 and replaceP2RIGHT atstep11 when selecting a differentP2. Actual IDs asserted, never forced.",
+  "onlyFixtureWrites": "ActorBE control-type bytes:0while settling, then1for both CPUs. No HP, position, CID, difficulty or game-state writes.",
+  "readyChecks": {
+    "gameStateE6A4": 12,
+    "cpuGateE742": 0,
+    "inputGateE744": 0,
+    "bothHP": "positive"
+  },
+  "nativeDispatchProof": {
+    "humanOrCpuSelector": "0x9008 tests actorBE; CPU branch0x902E testsE744 beforeJSR2B936",
+    "cpuRoutineGate": "0x2B936 testsE742 andactorBE; onlyzeroE742/nonzeroBE proceeds toAI routines2B950/2C1F0",
+    "difficulty": "Native boot default retained. No difficulty RAM address established and no difficulty edit recommended.",
+    "initialization": "Actual versus menu initializes native AI state; no manual AI counters/state/RNG reset is needed in the tested fixture."
+  },
+  "stopRecommendation": {
+    "koSignal": "Native HPwordactor+24 reaches0; latch the first observation.",
+    "tailFrames": "round(2*coreFPS), about120displayframes",
+    "cap": "Root formal comparison6x40s after this45s preflight; keep per-ROM CPU budget below300s.",
+    "globalStateLimit": "E6A4=0xC identifies active game context, not a standalone KO signal. No naturalKO occurred in either bounded preflight, so KO animation-tail handling is not runtime-validated here."
+  },
+  "preflight": [
+    {
+      "report": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\cpu-soak\\verification-original\\report.json",
+      "romSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+      "cpuDisplayFrames": 2697,
+      "coreFps": 59.92274340431231,
+      "emulatedCpuSeconds": 45.00795268672415,
+      "sampleRowsSaved": 180,
+      "nativeCpuObservedBoth": true,
+      "initialHp": [
+        200,
+        200
+      ],
+      "finalHp": [
+        155,
+        151
+      ],
+      "firstNativeKoFrame": null,
+      "stopReason": "45s cap",
+      "afterBootControllerCommands": "None, tick() only",
+      "mediaSaved": false,
+      "savedArtifacts": "JSON/log only; this preflight did not encode video"
+    },
+    {
+      "report": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\cpu-soak\\verification-v4\\report.json",
+      "romSha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+      "cpuDisplayFrames": 2697,
+      "coreFps": 59.92274340431231,
+      "emulatedCpuSeconds": 45.00795268672415,
+      "sampleRowsSaved": 180,
+      "nativeCpuObservedBoth": true,
+      "initialHp": [
+        200,
+        200
+      ],
+      "finalHp": [
+        150,
+        145
+      ],
+      "firstNativeKoFrame": null,
+      "stopReason": "45s cap",
+      "afterBootControllerCommands": "None, tick() only",
+      "mediaSaved": false,
+      "savedArtifacts": "JSON/log only; this preflight did not encode video"
+    }
+  ],
+  "budgetNote": "Recorded emulatedCPU seconds cover the designated post-enable CPU phase, not menu/bootstrap frames. No preflight video was saved. Root reports should distinguish playback duration from test-run duration.",
+  "noMoreAutoplay": true,
+  "romEdited": false,
+  "repositoryEdited": false
+}

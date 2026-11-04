@@ -1,0 +1,1 @@
+Scripts del ensayo original. Conservan las rutas `work/` del espacio de trabajo y requieren el emulador local ya preparado. No son un bot de entradas: la CPU del juego decide todos los botones durante el combate. La ROM usada se reconstruye mediante `pnpm build:auras:v4 --rom ruta/a/original.bin`.

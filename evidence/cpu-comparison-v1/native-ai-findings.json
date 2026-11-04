@@ -1,0 +1,296 @@
+{
+  "status": "Native AI selection verified; metrics specification and bounded preflight review, not the final six-pair soak verdict",
+  "scope": "Read-only analysis. This subtask changed no ROM or repository files. No additional autoplay after the parent requested a stop.",
+  "original_sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "v4_sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+  "native_ai": {
+    "actors": [
+      "0xE75E",
+      "0xE886"
+    ],
+    "selector": "byte actor+0xBE nonzero selects native CPU input; set1 on both initialized versus actors, then empty host inputs.",
+    "dispatcher_sources": [
+      "0x8F92 tests P1 BE; 0x8FBC tests E744; 0x8FC0 JSR2B936",
+      "0x9008 tests P2 BE; 0x9036 JSR2B936"
+    ],
+    "routine_source": "0x2B936 returns if E742 is nonzero or actorBE zero; otherwise calls native decision2B950 and script-to-input2C1F0.",
+    "input_source": "0x2C1F0 saves old actor1A to RAM8000, clears actor1A/1C, selects BF script from table2D096 using cursor44 and executes native handler. C1/46 queue a next script.",
+    "state_fields": {
+      "BE": "control selector",
+      "BF": "behavior/script ID",
+      "C0": "brain state; FF handled natively",
+      "C1": "queued script; FF means none",
+      "44_word": "current script cursor",
+      "46_word": "queued cursor",
+      "C2_C4_bytes": "native saturating timers",
+      "1A_word": "native held input",
+      "1C_word": "native pressed input"
+    },
+    "limits": "BE1 selects AI, not uninterrupted movement: native pause, KO, menus, hitstop and cinematic gates remain effective. No difficulty or RNG alteration is established or recommended.",
+    "independent_probe": {
+      "path": "work/cpu-soak/native-ai-probe.json",
+      "frames": 360,
+      "seconds": 6.00773562002992,
+      "rom": "ORIGINAL only",
+      "host_inputs": "empty on both ports",
+      "summary": {
+        "p1": {
+          "unique_held_words": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            10,
+            16,
+            18
+          ],
+          "unique_pressed_words": [
+            0,
+            2,
+            6,
+            10,
+            12,
+            15,
+            16
+          ],
+          "unique_actions": [
+            0,
+            3,
+            4,
+            5,
+            9,
+            12,
+            14,
+            19,
+            39,
+            41,
+            56
+          ],
+          "unique_behaviors_BF": [
+            11,
+            15,
+            17,
+            54,
+            108,
+            109,
+            110
+          ],
+          "x_start": 144,
+          "x_end": 24,
+          "hp_start": 200,
+          "hp_end": 180,
+          "BE_values": [
+            1
+          ]
+        },
+        "p2": {
+          "unique_held_words": [
+            0,
+            2,
+            4,
+            5,
+            8,
+            10,
+            16
+          ],
+          "unique_pressed_words": [
+            0,
+            2,
+            5,
+            6,
+            8,
+            12,
+            13,
+            16
+          ],
+          "unique_actions": [
+            0,
+            2,
+            3,
+            9,
+            14,
+            35,
+            41,
+            56
+          ],
+          "unique_behaviors_BF": [
+            11,
+            15,
+            17,
+            48,
+            56,
+            97,
+            108
+          ],
+          "x_start": 225,
+          "x_end": 95,
+          "hp_start": 200,
+          "hp_end": 200,
+          "BE_values": [
+            1
+          ]
+        }
+      }
+    },
+    "existing_preflight": [
+      {
+        "report": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\cpu-soak\\verification-original\\report.json",
+        "romSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+        "cpuDisplayFrames": 2697,
+        "coreFps": 59.92274340431231,
+        "emulatedCpuSeconds": 45.00795268672415,
+        "sampleRowsSaved": 180,
+        "nativeCpuObservedBoth": true,
+        "initialHp": [
+          200,
+          200
+        ],
+        "finalHp": [
+          155,
+          151
+        ],
+        "firstNativeKoFrame": null,
+        "stopReason": "45s cap",
+        "afterBootControllerCommands": "None, tick() only",
+        "mediaSaved": false,
+        "savedArtifacts": "JSON/log only; this preflight did not encode video"
+      },
+      {
+        "report": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\cpu-soak\\verification-v4\\report.json",
+        "romSha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+        "cpuDisplayFrames": 2697,
+        "coreFps": 59.92274340431231,
+        "emulatedCpuSeconds": 45.00795268672415,
+        "sampleRowsSaved": 180,
+        "nativeCpuObservedBoth": true,
+        "initialHp": [
+          200,
+          200
+        ],
+        "finalHp": [
+          150,
+          145
+        ],
+        "firstNativeKoFrame": null,
+        "stopReason": "45s cap",
+        "afterBootControllerCommands": "None, tick() only",
+        "mediaSaved": false,
+        "savedArtifacts": "JSON/log only; this preflight did not encode video"
+      }
+    ],
+    "time_accounting": {
+      "independent_original_seconds": 6.00773562002992,
+      "independent_v4_seconds": 0,
+      "parent_preflight_seconds_per_rom": 45.00795268672415,
+      "planned_formal_seconds_per_rom": 240,
+      "planned_total_original_seconds": 291.0156883067541,
+      "planned_total_v4_seconds": 285.00795268672414,
+      "note": "Counts designated CPU-enabled phases. Bootstrap/menu frames are separate; no claim that these counters include all historical project testing."
+    }
+  },
+  "recommended_frame_record": {
+    "global": [
+      "displayFrame",
+      "coreFPS",
+      "validFramebufferWidthHeight",
+      "E6A8 native counter",
+      "E6A4 game state",
+      "E6A6 substate",
+      "E71A scene",
+      "E742 CPU gate byte",
+      "E744 input gate byte",
+      "E73C cinematic byte",
+      "E9C4 effect word",
+      "E9CE effect selector word",
+      "E874 atlas dirty byte",
+      "E740 split state",
+      "FFFF5002 native global hitstop word"
+    ],
+    "per_actor": [
+      "actual CID+58",
+      "BE",
+      "BF",
+      "C0",
+      "C1",
+      "C2..C4",
+      "cursor44/46",
+      "native input1A/1C",
+      "program+0",
+      "pose+4",
+      "prepared pose+5",
+      "action+5B",
+      "HP+24",
+      "X+A/Y+10",
+      "camera16/18",
+      "hitstop40",
+      "aura phase111"
+    ],
+    "events": [
+      "HP drops and KO",
+      "mode/scene transitions",
+      "dirty rise/fall",
+      "atlas mismatch intervals after eligibility",
+      "sprite-cap and scanline-pressure intervals"
+    ]
+  },
+  "stall_detection": {
+    "rule": "Record suspicious intervals of sustained native-counter and broad-state stasis while active battle, both HP positive and no known pause/hitstop/cinematic gate. Review the associated video before calling a hang.",
+    "avoid_false_positives": [
+      "No movement or no HP change alone is not a stall.",
+      "Counter repeats can occur during native load or frame work; allow repeats and wrap16bit.",
+      "A completed round or native scene transition is valid; stop with a labelled tail rather than resetting HP.",
+      "AI counters may saturateFF and script cursors may repeat legitimately.",
+      "Synthetic incomplete FX fixture left E73C nonzero; that was not evidence of a real-game hang."
+    ],
+    "verdict_limits": "No universal stall-duration threshold was validated. Core return and a changing framebuffer alone do not establish correct game logic."
+  },
+  "v4_atlas_detection": {
+    "eligible": "After normal bootstrap, E874==0 AND wordE9C4==0 AND byteE73C==0. Sample after a returned core frame, not during a decoder call.",
+    "physical_regions": [
+      {
+        "address": "A260",
+        "bytes": 1440,
+        "logical": "0..44"
+      },
+      {
+        "address": "A820",
+        "bytes": 992,
+        "logical": "45..75"
+      },
+      {
+        "address": "5C00",
+        "bytes": 1024,
+        "logical": "76..107"
+      },
+      {
+        "address": "AE80",
+        "bytes": 160,
+        "logical": "108..112"
+      }
+    ],
+    "actual_character_rule": "Expected streams must use actual current actor CIDs, including any native body swap and same-Recoome alternate rule, rather than fixture names only.",
+    "normal_expectation": "All113 logical tiles equal the streams selected by current CIDs, with VRAM word-byte swapping normalized. Treat a persistent eligible mismatch as a candidate regression and retain capture.",
+    "busy_expectation": "Dirty1 or E9C4/E73C busy allows native FX to replace5C00 orA260. Do not call those native writes corruption. Track restoration once both gates clear.",
+    "dirty_lifecycle": "Native FX loader wrappers1B92C and28EA0 mark E874. Aura entry suppresses while busy and reloads all streams after both gates clear, then clears dirty. Existing controlled transition recovered after7displayframes; that is not a universal deadline.",
+    "reserved_data": "Do not compare HScrollA800 first4bytes to a constant. TailA804..A820 must stay intact under normal tested HScroll mode0. SATAC00..AE80 is native dynamic data.",
+    "palette": "CommonCRAM entries54..63 are expected native normal colors; use ROM-appropriate per-character palettes for actor banks. Native flash/cinematic changes require contextual handling.",
+    "prior_bounded_qa": "work/auras/colors-v4/runtime-qa-extra/summary.json:1430 normal samples, exact113tiles, max78sprites/18perline/232width; synthetic shared-resource FX preservation/restoration verified. Natural full-special completion was not validated by that fixture."
+  },
+  "sprite_budget": {
+    "native_buffer": "E04E entries8bytes; byteE452 count. y=(word0&511)-128, size=byte2, width=(((size>>2)&3)+1)*8, height=((size&3)+1)*8.",
+    "H40_limits": {
+      "frame_sprites": 80,
+      "scanline_sprites": 20,
+      "scanline_sprite_width_pixels": 320
+    },
+    "measurement": "For visible lines0..223 count overlapping sprite bounding boxes and sum their widths. Record maxima and contiguous pressure intervals, with native action/scene and pair.",
+    "limitations": [
+      "Counts at80 may hide dropped intended pieces because native1C66 stops adding onceE452 reaches80.",
+      "Bounding-box width is conservative for transparent or partially offscreen sprites.",
+      "Native original FX may already exceed a scanline budget; compare both ROMs and matching scene types before assigning a regression.",
+      "Real CPU trajectories need not remain identical after gameplay changes; differing damage alone is not a correctness metric."
+    ]
+  },
+  "pending": "Parent formal six-pair CPU reports and videos; no final soak PASS inferred from these preflights."
+}
