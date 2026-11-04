@@ -4,6 +4,8 @@ Prototipo opcional, pendiente de valoración jugando. Se pueden mezclar hasta **
 
 ## Capturas reales
 
+[**Vídeo largo con sonido: 4 min 41 s**](../assets/media/combos-v3/Combos-v3-combates-largos-con-sonido.mp4). Ocho combates o fragmentos de hasta36 segundos, con los once personajes y distintos escenarios. Se usan posiciones iniciales y recursos nativos, sin forzar vida, energía, acciones ni temporizadores. Dos mandos automatizados introducen los movimientos según la situación; no es la IA nativa ni una partida humana. Los combates que llegan a KO muestran hasta tres segundos posteriores, dentro del límite de cada fragmento. El archivo incluye capítulos por enfrentamiento. [Validación](../evidence/combos-v3/long-video-validation.json).
+
 [Los once personajes: A-B-A y una técnica nativa](../assets/media/combos-v3/Combos-v3-once-personajes.mp4) · [Goku: A-B-A → Meteor](../assets/media/combos-v3/Goku-ABA-Meteor.mp4) · [Goku: A-B-A → ráfaga](../assets/media/combos-v3/Goku-ABA-rafaga.mp4).
 
 Son grabaciones reales del emulador, sin audio y sin contador añadido. **El contador todavía no está en la ROM.** Se arranca por los menús y se introducen botones reales; únicamente se fijan posición/orientación iniciales y ambos mandos humanos. No se fuerzan vida, energía, acciones ni temporizadores. Las trazas de vida de los vídeos coinciden con las de los sondeos y se conserva el final y regreso al control.

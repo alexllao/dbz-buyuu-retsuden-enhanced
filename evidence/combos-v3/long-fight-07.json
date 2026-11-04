@@ -1,0 +1,21 @@
+{
+  "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+  "pair": [
+    5,
+    2
+  ],
+  "stageSelection": 7,
+  "frames": 2157,
+  "fps": 59.92274340431231,
+  "seconds": 35.996349256679274,
+  "koFrame": null,
+  "comboAttempts": [
+    1,
+    0
+  ],
+  "finalHP": [
+    200,
+    96
+  ],
+  "fixture": "Native menus, native initial positions/HP/ki/actions/timers; both actor control flags set to human; two state-driven scripted controllers. Native sound, no postproduced hits or HUD counter. Fixed-length excerpts if no KO."
+}

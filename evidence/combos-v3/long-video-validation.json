@@ -1,0 +1,115 @@
+{
+  "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
+  "videoPath": "assets/media/combos-v3/Combos-v3-combates-largos-con-sonido.mp4",
+  "sha256": "ba6db1e81cf2b95208b8080b69f8d191de8e576b83e308a2d41b1f0c8f24571d",
+  "bytes": 23833885,
+  "durationSeconds": 280.717052,
+  "nativeAudio": true,
+  "counterOverlay": false,
+  "control": "Two automated human-controller inputs; native CPU combo use not implemented",
+  "fixture": "Native menus, native initial positions/HP/ki/actions/timers; both actor control flags set to human; two state-driven scripted controllers. Native sound, no postproduced hits or HUD counter. Fixed-length excerpts if no KO.",
+  "chapters": [
+    {
+      "startSeconds": 0.0,
+      "endSeconds": 28.704,
+      "title": "Goku vs Vegeta",
+      "comboAttempts": [
+        2,
+        0
+      ],
+      "koFrame": 1539
+    },
+    {
+      "startSeconds": 28.704,
+      "endSeconds": 64.7,
+      "title": "Gohan vs Cell",
+      "comboAttempts": [
+        4,
+        0
+      ],
+      "koFrame": 2048
+    },
+    {
+      "startSeconds": 64.7,
+      "endSeconds": 100.696,
+      "title": "Piccolo vs Freezer",
+      "comboAttempts": [
+        1,
+        1
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 100.696,
+      "endSeconds": 136.692,
+      "title": "Trunks vs A18",
+      "comboAttempts": [
+        2,
+        0
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 136.692,
+      "endSeconds": 172.688,
+      "title": "Krilin vs Recoome",
+      "comboAttempts": [
+        2,
+        0
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 172.688,
+      "endSeconds": 208.684,
+      "title": "Ginyu vs Goku",
+      "comboAttempts": [
+        3,
+        1
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 208.684,
+      "endSeconds": 244.68,
+      "title": "Vegeta vs Trunks",
+      "comboAttempts": [
+        2,
+        1
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 244.68,
+      "endSeconds": 280.676,
+      "title": "Cell vs Piccolo",
+      "comboAttempts": [
+        1,
+        0
+      ],
+      "koFrame": null
+    }
+  ],
+  "streamProbe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "duration": "280.642655"
+      },
+      {
+        "codec_type": "audio",
+        "duration": "280.717052"
+      },
+      {
+        "codec_type": "data",
+        "duration": "280.676000"
+      }
+    ],
+    "format": {
+      "duration": "280.717052"
+    }
+  },
+  "allElevenCharactersPresent": true
+}

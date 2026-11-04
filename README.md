@@ -31,7 +31,7 @@ Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura
 
 Mezcla hasta **tres básicos A/B** al acertar y remata con una técnica propia o Meteor, introduciendo su comando original. Primera prueba común para los once personajes humanos en suelo y velocidad normal. El remate cierra las ayudas de la cadena; sólo se recupera el presupuesto tras seis actualizaciones con ambos luchadores libres. Pendiente de probar con mando.
 
-[Vídeo real de los once personajes](assets/media/combos-v3/Combos-v3-once-personajes.mp4) · [Goku A-B-A → Meteor](assets/media/combos-v3/Goku-ABA-Meteor.mp4) · [Goku A-B-A → ráfaga](assets/media/combos-v3/Goku-ABA-rafaga.mp4) · [Reglas, resultados y límites](docs/combos-v3.md). Los vídeos no llevan contador: todavía no está en la ROM.
+[**Ver combates largos con sonido (4 min 41 s)**](assets/media/combos-v3/Combos-v3-combates-largos-con-sonido.mp4) · [Vídeo real de los once personajes](assets/media/combos-v3/Combos-v3-once-personajes.mp4) · [Goku A-B-A → Meteor](assets/media/combos-v3/Goku-ABA-Meteor.mp4) · [Goku A-B-A → ráfaga](assets/media/combos-v3/Goku-ABA-rafaga.mp4) · [Reglas, resultados y límites](docs/combos-v3.md). Los vídeos no llevan contador: todavía no está en la ROM.
 
 Construcción: `pnpm build:review --rom ruta/a/original.bin --version combos-v3`. **La opción por defecto sigue siendo v6.6** y se conservan v1/v2. Se mantienen alcance, cajas, condiciones y daño nativos del remate; algunas rutas fallan por distancia o pose. Las pruebas reducen riesgos de bucles, sin demostrar que todo infinito sea imposible.
 
