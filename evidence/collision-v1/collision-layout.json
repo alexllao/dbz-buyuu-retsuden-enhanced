@@ -1,0 +1,287 @@
+{
+  "status": "Native box format, roles and transform verified from ROM code and correlated with natural basic-attack contacts. No geometry changed.",
+  "rom": "work/rom/original.bin",
+  "rom_sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "actors": {
+    "p1": "0xE75E",
+    "p2": "0xE886",
+    "stride": "0x128"
+  },
+  "source_table": {
+    "rom_address": "0x19E6CE",
+    "CID_index": "entry=0x19E6CE+CID*2; bank=entry+signed16BE(ROM[entry]); pose_record=bank+pose*32",
+    "record_bytes": 32,
+    "rectangles_per_pose": 8,
+    "rectangle_order": "Signed bytes x1,y1,x2,y2; firstX byte0x80 disables the rectangle.",
+    "character_banks": [
+      {
+        "cid": 0,
+        "name": "Goku",
+        "address": "0x19E6E6"
+      },
+      {
+        "cid": 1,
+        "name": "Gohan",
+        "address": "0x19F166"
+      },
+      {
+        "cid": 2,
+        "name": "Piccolo",
+        "address": "0x19FC86"
+      },
+      {
+        "cid": 3,
+        "name": "Vegeta",
+        "address": "0x1A0766"
+      },
+      {
+        "cid": 4,
+        "name": "Trunks",
+        "address": "0x1A1326"
+      },
+      {
+        "cid": 5,
+        "name": "Cell",
+        "address": "0x1A1EA6"
+      },
+      {
+        "cid": 6,
+        "name": "Android18",
+        "address": "0x1A2966"
+      },
+      {
+        "cid": 7,
+        "name": "Krillin",
+        "address": "0x1A3486"
+      },
+      {
+        "cid": 8,
+        "name": "Freezer",
+        "address": "0x1A40C6"
+      },
+      {
+        "cid": 9,
+        "name": "Recoome",
+        "address": "0x1A4CE6"
+      },
+      {
+        "cid": 10,
+        "name": "Ginyu",
+        "address": "0x1A5866"
+      }
+    ],
+    "bounds_limit": "Do not infer valid collision-pose counts from graphic-frame counts: they differ for several characters. Runtime cached records avoid reading past a character bank."
+  },
+  "native_cache": {
+    "actor_offset": "0x5C..0x7B inclusive",
+    "slots": [
+      {
+        "slots": [
+          0,
+          1
+        ],
+        "offsets": [
+          "0x5C",
+          "0x60"
+        ],
+        "role": "push",
+        "evidence": "11C9C builds both actors' slots0/1, checks12478, resolves penetration via124F2/20E04/20E2C"
+      },
+      {
+        "slots": [
+          2,
+          3
+        ],
+        "offsets": [
+          "0x64",
+          "0x68"
+        ],
+        "role": "hurt",
+        "evidence": "11D24/11F2C build victim slots2/3 against opponent attack slots4/5"
+      },
+      {
+        "slots": [
+          4,
+          5
+        ],
+        "offsets": [
+          "0x6C",
+          "0x70"
+        ],
+        "role": "attack",
+        "evidence": "11D24/11F2C contact path gated by native attacker byte1E bit7 before hit reaction and damage"
+      },
+      {
+        "slots": [
+          6,
+          7
+        ],
+        "offsets": [
+          "0x74",
+          "0x78"
+        ],
+        "role": "guard",
+        "evidence": "1216A/122B2 compare these against opponent attack4/5 and call21926 blocked-damage path. Goku active examples poses12/13/14/15/75; extracted pose12 visibly guarding."
+      }
+    ],
+    "loader": "0x11C1E..0x11C9A",
+    "coordinate_adjustment": "For every source coordinate except sentinel0x80, add readbyte(actor+0x0E) to X bytes or readbyte(actor+0x14) to Y bytes, modulo256. This is native byte arithmetic, not a guessed art offset.",
+    "facing": "If readbyte(actor+0x59) XOR readbyte(actor+0x5A) is nonzero, swap and negate X endpoints per rectangle: x1=-oldx2, x2=-oldx1, modulo256. Cached RAM already includes this; never mirror it again.",
+    "frame_phase_limit": "2915of2916 observed actor snapshots matched source-table transform exactly. One post-hit P2 sample contained the unflipped cache while facing fields already requested the flipped form, then matched on the next sample. Likely a native update/frame-boundary transient. This does not affect the18 tested hit/miss outcomes; the viewer must not claim every serialized instant is a completed collision tick."
+  },
+  "coordinate_transform": {
+    "world_helper": "1242C/1246E and12434..1246C",
+    "world": "For each valid cached endpoint: sx=s8(cacheX), sy=s8(cacheY); worldX=max(0,s16((word(actor+0A)+sx)&0xFFFF)); worldY=max(0,s16((word(actor+10)+sy)&0xFFFF)). This reproduces EXT.W, ADD.W and BPL/CLR.W in12434..1245A. Disabled firstX80 gives scratchFFFF.",
+    "temporary_world_layout": "Native scratch rectangle is four big-endian words[x1,x2,y1,y2], whereas ROM/cache byte quad is[x1,y1,x2,y2]. Scratch8000/8010 are P1 pairs and8008/8018 P2 pairs in the ordinary two-box path.",
+    "screen": "screenX=worldX-word(actor+16); screenY=worldY-word(actor+18)+32. Do not add actor0E/14 again: cached box offsets already received the native adjustment.",
+    "render_evidence": "Actor renderer8972..89C8:8988 loadsX+0A,898C adds graphic offset+0E,8990 subtracts camera+16;8994 loadsY+10,8998 adds graphic offset+14,899C subtracts camera+18;89A0 adds0x20(32),89C2 calls1C80. Box world helper independently specifies its cache-based transform.",
+    "example": "X300,Y448,cameraX164,cameraY280,zero extra offsets: actor collision origin is screen136,200. Cached Y=-62..-50 maps to screen138..150, not106..118.",
+    "analysis_helper_limit": "native_boxes.py uses max(0,word+signedByte) without an explicit16bit wrap. This is identical throughout measured fixtures (world coordinates below500 and ordinary signed offsets) but is not a generic overflow-boundary emulation. The helper was not modified during this ledger consolidation."
+  },
+  "collision_kernel": {
+    "address": "0x124C0..0x124F0",
+    "disabled": "Reject if either scratch rectangle's firstX word is negative(FFFF sentinel).",
+    "test": "Require signbit16((A.x1-B.x2) XOR (A.x2-B.x1)) and signbit16((A.y1-B.y2) XOR (A.y2-B.y1)).",
+    "touch_rule": "For ordered normal-range rectangles this is A.x1<B.x2 AND A.x2>=B.x1, and equivalentY rule. Do not silently substitute a symmetric strict-AABB test: boundary touching is asymmetric in the actual ordered kernel.",
+    "pair_order": "12478 tries P1rect0/P2rect0, P1rect0/P2rect1, P1rect1/P2rect1, P1rect1/P2rect0. In ordinary contact paths scratchA belongs toP1 andB toP2, even whenP2 is attacking.",
+    "active_gate": "readbyte(attacker+1E)&0x80. Equivalent big-endian word test is word1E&0x8000, NOTword1E&0x0080. Geometry may remain allocated after native attack eligibility is cleared.",
+    "same_plane": "Native plane bit is byte1Ebit4 (word1Ebit12), distinct from jump height. Native same-plane helper2125E tests this XOR bit.",
+    "camera_gate": "Ordinary contact paths skip if globalE740!=0. Writer82E8..8312 derivesE740 from actor camera fields16/18 differing (unlessE73A holds the previous state); do not describe E740 as a simple stage or flight-enabled flag.",
+    "other_gates": "Guard is processed before hurt contact in main loop8DCC..8DD8. Native action/state exclusions, immunity/flags and already-hit checks also affect damage; geometric overlap alone must not be labelled a confirmed hit. Use actual HP loss/native reaction as confirmation."
+  },
+  "damage_path": {
+    "blocked_entry": "0x21926 setsD0=1 and calls219E4",
+    "normal_entry": "219E4/219FE withD0=0 in ordinary hurt handling",
+    "damage_compute": "21AB0..21B38",
+    "HP_write": "21B4E loadsHPword24, subtractsD1, clamps underflow to0, writesHP at21B58"
+  },
+  "attack_selection": {
+    "routine": "0x21612..0x21670",
+    "ground_rule": "If opponent is near its plane floor(height<40), native distanceE71E<0x39(57decimal) chooses variant0; distance>=57 chooses variant1.",
+    "other_rules": "Opponent action7 forces variant1. Actions4/5/6 or height>=40 use the airborne branch: distance<=0x50(80) chooses variant2, larger distance chooses variant1.",
+    "program": "Callers2154x/215C6 add variant toA base0400 orB base0403.21E6C adds CID*12. Native short/long attacks differ in geometry and animation; input is not ignored merely because one variant misses."
+  },
+  "runtime_correlation": {
+    "report": "work/collision/native-box-correlation.json",
+    "source": "work/collision/range-original-cid00-boundary/range-results.json",
+    "cases": 18,
+    "actor_snapshots_checked": 2916,
+    "source_cache_matches": 2915,
+    "outcome_match": "All18 connect/miss outcomes agree with presence/absence of active native attack-victim hurt overlap.",
+    "timing": "A overlaps in displayframes7/8 beforeHP impact9; B overlaps10/11 beforeHP impact12. Current cached pose and rendered/collision processing have native frame-phase ordering; do not relabel this as measured physical input latency.",
+    "Goku_boundary": "Against idleGohan: shortA hits through54, misses55/56; shortB hits through55, misses56; at57 native long variants begin and connect. These observed native gaps support review, not automatic geometry edits."
+  },
+  "matchup_examples": {
+    "report": "work/collision/native-geometry-examples.json",
+    "Piccolo_B": "AtP1X300 longB attack slots4/5 are[295,385,328,400] and[329,390,341,397]. At distance57 Gohan hurt head[346,391,367,408] andbody[342,409,372,448] do not overlap. Goku/Recoome wider hurt shapes can be reached at57; Recoome remains reachable64. This is not explained by height alone.",
+    "Recoome_B": "AtP1X300 longB attack[350,368,397,387] passes above idleGohan head startingY391, leaving4worldpixel vertical separation. AgainstGoku headY376..389 it overlaps and naturally damages at57/64. The same native attack can deliberately miss a shorter target.",
+    "evidence": "New full-native-RAM probes boxes-piccolo-gohan,boxes-recoome-gohan,boxes-recoome-goku under work/collision. No ROM or box data edited."
+  },
+  "viewer_recommendation": "Draw cached native boxes with separate push/hurt/attack/guard colors, suppress disabled slots, indicate attack eligibility separately, and show HP-confirmed impacts distinctly from geometric contact. This is a read-only inspection aid, not a collision patch.",
+  "remaining_unknowns": [
+    "Projectile/effect boxes use separate actor subrecords and table12D30; not yet fully assigned to all special-attack effects.",
+    "All character poses, guard/crouch/air states and exceptional invulnerability paths have not been exhaustively runtime validated.",
+    "Exact visual-frame alignment in a particular Gens-rr Lua callback needs an emulator screenshot/step check because native cache can be mid-update at serialized frame boundaries.",
+    "No conclusion that every observed miss is a bug. Geometry, selection threshold and character height/stance are distinct review questions."
+  ],
+  "changes": "Only analysis scripts/reports/native sprite extracts written underwork/collision. No repository, ROM, geometry, input parser or gameplay parameters modified.",
+  "schemaVersion": 1,
+  "viewer_frame_alignment": {
+    "runtime_verified": "Genesis Plus GX data traces only; no Gens-rr Lua runtime test yet",
+    "observation": "Native collision pass occurs at8DCC/8DD2/8DD8 before actors update/cache calls8DFA/8E1C. A framebuffer callback and RAM sampled afterretro_run may correspond to different native processing phases.",
+    "recommendation": "For frame-step review, compare pose/activeflag/cachedrects against the actual displayed sprite before assigning an exact contact frame. Prefer a stable collision/render callback or retain explicitly labelled frame-phase information. Do not silently redraw sprite-derived bounds or claim untested Gens alignment.",
+    "transient": "One P2 cache orientation transient among2916actor snapshots, GokuBdistance48displayframe38; next snapshot matched again.",
+    "native_order": [
+      {
+        "address": "7602",
+        "event": "Call8DB6 game logic"
+      },
+      {
+        "address": "8DCC",
+        "event": "Push collision11C9C uses pre-refresh cached boxes"
+      },
+      {
+        "address": "8DD2",
+        "event": "Guard collision1216A uses pre-refresh cached boxes"
+      },
+      {
+        "address": "8DD8",
+        "event": "Attack/hurt collision11D24 uses pre-refresh cached boxes"
+      },
+      {
+        "address": "8DF4/8E16",
+        "event": "Actor animation update12F0A"
+      },
+      {
+        "address": "8DFA/8E1C",
+        "event": "Refresh actor cached boxes via11C1E"
+      },
+      {
+        "address": "760E",
+        "event": "Call8804 to prepare sprite graphics/mappings and staging SAT"
+      },
+      {
+        "address": "888C/88CC",
+        "event": "Prepare new graphics only when both staging buffersFFFF0000/FFFF1000are empty"
+      },
+      {
+        "address": "88C4/8908",
+        "event": "Copy currentpose4 into previous/preparedpose5 immediately after preparing a graphics job"
+      },
+      {
+        "address": "8CBC/8E3E",
+        "event": "Video phase copies staging SAT and uploads one queued actor graphic stream"
+      }
+    ],
+    "pose5_semantics": "Last prepared/requested graphic pose, not a confirmed currently visible VRAM pose. The copy4->5 occurs before queued graphics are consumed by the video phase.",
+    "four_capture_observation": "In GokuA54/55/56 captures, previous-samplepose4 equals current preparedpose5 in every actor sample. GokuA57 has one recovery exception: videoFrame38/attackFrame29, previouspose4=1 while preparedpose5still31.",
+    "first_attack_transition": "A54attackFrame7:pose4=30,prepared5=2,previouspose4=2;Frame8:pose4=30,prepared5=30,previouspose4=30. Screenshot ofFrame7shows idle pose2, so drawing currentRAMattackbox on it mixes processing phases.",
+    "display_recommendation": "Use configurable visual FRAME_DELAY=1 for these inspection captures; allow0for immediateRAM. Draw previous cached actor/camera/active-state sample over currentimage only as a labelled alignment aid. Keep logic/HP/contactJSON at its original sample index; record both indices and delay in video metadata.",
+    "not_a_bug_claim": "The observed visual mismatch does not establish incorrect native geometry or a collision one-frame-ahead bug. Game-loop iterations, graphics preparation, queued uploads and emulator frame callbacks are distinct phases; fixed one-display-frame alignment is not universally proven.",
+    "evidence": "work/collision/render-alignment-analysis.json and root GokuA54/55/56/57 native capture traces"
+  },
+  "verified_claims": [
+    {
+      "claim": "Eight4byte collision rectangles perpose at19E6CE relativeCIDtable",
+      "evidence": [
+        "11C1E..11C9A",
+        "2915/2916nativecachematches"
+      ],
+      "confidence": "verified static plus runtime with one documented phase transient"
+    },
+    {
+      "claim": "Slots0/1push,2/3hurt,4/5attack,6/7guard",
+      "evidence": [
+        "11C9C..11D22",
+        "11D24/11F2C",
+        "1216A/122B2",
+        "21926"
+      ],
+      "confidence": "verified native callers; natural attack/hurt outcome correlation18/18"
+    },
+    {
+      "claim": "ScreenY needs+32 aftercamera; cachealreadyflipped/offset",
+      "evidence": [
+        "12434..1246C",
+        "8972..89C8"
+      ],
+      "confidence": "verified static; controlled sample coords consistent"
+    },
+    {
+      "claim": "Groundattackvariantthreshold57, not64",
+      "evidence": [
+        "21612..21670",
+        "boundaryrange nativeE71E andprogram400/401/403/404"
+      ],
+      "confidence": "verified static and runtime"
+    },
+    {
+      "claim": "Some far kicks miss because native shape/targetheight differ",
+      "evidence": [
+        "native-geometry-examples.json",
+        "range-defender-summary.json"
+      ],
+      "confidence": "verified selected matchups; not a general bug verdict"
+    }
+  ]
+}

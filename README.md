@@ -71,6 +71,16 @@ El usuario ha elegido montañas nevadas para una primera propuesta visual, con v
 
 Referencias aportadas: [Super Butōden 2 en The Spriters Resource](https://www.spriters-resource.com/snes/dragonballzsuperbutoden2/) y [archivos conservados con sus créditos](assets/references/super-butoden-2/references.json).
 
+## Revisión de colisiones
+
+**Se conservan las diferencias de tamaño entre personajes.** Que una patada alta no alcance a Gohan puede ser correcto. No hemos cambiado las cajas.
+
+![Visor de cajas nativas](assets/tools/collision-viewer/Visor-colisiones-vista.jpg)
+
+[Descargar y abrir el visor paso a paso](assets/tools/collision-viewer/visor-colisiones.html) · [Resultados y límites](docs/collision-review-v1.md) · [Visor Lua de solo lectura](tools/collision)
+
+El HTML funciona sin conexión y reconstruye 13 ensayos con gráficos nativos y cajas registradas del juego. No es una grabación. Las comparaciones de alcance no detectan cambios en los casos probados; las tablas y rutinas de colisión examinadas conservan sus bytes originales.
+
 ## Las cuatro mejoras de jugabilidad
 
 1. **Parada más rápida:** soltar la dirección interrumpe antes el desplazamiento terrestre; los toques breves conservan un mínimo avance.

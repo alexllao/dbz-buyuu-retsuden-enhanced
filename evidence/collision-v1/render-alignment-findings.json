@@ -1,0 +1,54 @@
+{
+  "runtime_verified": "Genesis Plus GX data traces only; no Gens-rr Lua runtime test yet",
+  "observation": "Native collision pass occurs at8DCC/8DD2/8DD8 before actors update/cache calls8DFA/8E1C. A framebuffer callback and RAM sampled afterretro_run may correspond to different native processing phases.",
+  "recommendation": "For frame-step review, compare pose/activeflag/cachedrects against the actual displayed sprite before assigning an exact contact frame. Prefer a stable collision/render callback or retain explicitly labelled frame-phase information. Do not silently redraw sprite-derived bounds or claim untested Gens alignment.",
+  "transient": "One P2 cache orientation transient among2916actor snapshots, GokuBdistance48displayframe38; next snapshot matched again.",
+  "native_order": [
+    {
+      "address": "7602",
+      "event": "Call8DB6 game logic"
+    },
+    {
+      "address": "8DCC",
+      "event": "Push collision11C9C uses pre-refresh cached boxes"
+    },
+    {
+      "address": "8DD2",
+      "event": "Guard collision1216A uses pre-refresh cached boxes"
+    },
+    {
+      "address": "8DD8",
+      "event": "Attack/hurt collision11D24 uses pre-refresh cached boxes"
+    },
+    {
+      "address": "8DF4/8E16",
+      "event": "Actor animation update12F0A"
+    },
+    {
+      "address": "8DFA/8E1C",
+      "event": "Refresh actor cached boxes via11C1E"
+    },
+    {
+      "address": "760E",
+      "event": "Call8804 to prepare sprite graphics/mappings and staging SAT"
+    },
+    {
+      "address": "888C/88CC",
+      "event": "Prepare new graphics only when both staging buffersFFFF0000/FFFF1000are empty"
+    },
+    {
+      "address": "88C4/8908",
+      "event": "Copy currentpose4 into previous/preparedpose5 immediately after preparing a graphics job"
+    },
+    {
+      "address": "8CBC/8E3E",
+      "event": "Video phase copies staging SAT and uploads one queued actor graphic stream"
+    }
+  ],
+  "pose5_semantics": "Last prepared/requested graphic pose, not a confirmed currently visible VRAM pose. The copy4->5 occurs before queued graphics are consumed by the video phase.",
+  "four_capture_observation": "In GokuA54/55/56 captures, previous-samplepose4 equals current preparedpose5 in every actor sample. GokuA57 has one recovery exception: videoFrame38/attackFrame29, previouspose4=1 while preparedpose5still31.",
+  "first_attack_transition": "A54attackFrame7:pose4=30,prepared5=2,previouspose4=2;Frame8:pose4=30,prepared5=30,previouspose4=30. Screenshot ofFrame7shows idle pose2, so drawing currentRAMattackbox on it mixes processing phases.",
+  "display_recommendation": "Use configurable visual FRAME_DELAY=1 for these inspection captures; allow0for immediateRAM. Draw previous cached actor/camera/active-state sample over currentimage only as a labelled alignment aid. Keep logic/HP/contactJSON at its original sample index; record both indices and delay in video metadata.",
+  "not_a_bug_claim": "The observed visual mismatch does not establish incorrect native geometry or a collision one-frame-ahead bug. Game-loop iterations, graphics preparation, queued uploads and emulator frame callbacks are distinct phases; fixed one-display-frame alignment is not universally proven.",
+  "evidence": "work/collision/render-alignment-analysis.json and root GokuA54/55/56/57 native capture traces"
+}

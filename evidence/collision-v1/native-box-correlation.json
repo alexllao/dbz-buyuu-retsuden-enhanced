@@ -1,0 +1,614 @@
+{
+  "source": "work\\collision\\range-original-cid00-boundary\\range-results.json",
+  "cache_checks": 2916,
+  "cache_mismatch_count": 1,
+  "cache_mismatches": [
+    {
+      "distance": 48,
+      "button": "B",
+      "frame": 38,
+      "who": "p2",
+      "pose": 23,
+      "cache": "eccb0aff80808080eccb0aff8080808080808080808080808080808080808080",
+      "expected": "f6cb14ff80808080f6cb14ff8080808080808080808080808080808080808080"
+    }
+  ],
+  "cases": [
+    {
+      "distance": 48,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 48,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 54,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 54,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 55,
+      "button": "A",
+      "connected": false,
+      "first_impact": null,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "active_geometric_overlap_frames": []
+    },
+    {
+      "distance": 55,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 56,
+      "button": "A",
+      "connected": false,
+      "first_impact": null,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "active_geometric_overlap_frames": []
+    },
+    {
+      "distance": 56,
+      "button": "B",
+      "connected": false,
+      "first_impact": null,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "active_geometric_overlap_frames": []
+    },
+    {
+      "distance": 57,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 57,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 58,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 58,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 59,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 59,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 60,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 60,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 64,
+      "button": "A",
+      "connected": true,
+      "first_impact": 9,
+      "active_frames": [
+        7,
+        8
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 7,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 8,
+          "pairs": [
+            [
+              4,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 64,
+      "button": "B",
+      "connected": true,
+      "first_impact": 12,
+      "active_frames": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "active_geometric_overlap_frames": [
+        {
+          "frame": 10,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "frame": 11,
+          "pairs": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

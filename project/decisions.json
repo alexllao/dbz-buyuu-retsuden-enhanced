@@ -242,5 +242,14 @@
     "documentation": "docs/stage10-snow.md",
     "status": "Bocetos de suelo y vuelo; no se ha añadido un ID ni un escenario a la ROM",
     "userVisualApproval": "Pendiente"
+  },
+  "collisionReview": {
+    "date": "2026-11-04",
+    "status": "Revisión de solo lectura; sin cambios de geometría",
+    "keepNaturalCharacterSizeDifferences": true,
+    "gohanSmallSizeIsIntentional": true,
+    "viewer": "assets/tools/collision-viewer/visor-colisiones.html",
+    "documentation": "docs/collision-review-v1.md",
+    "balanceChangesApproved": false
   }
 }

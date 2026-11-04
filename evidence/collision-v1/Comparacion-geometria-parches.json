@@ -1,0 +1,73 @@
+{
+  "source_sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "scope": "Conservative range covering header and all256 possible8-bit pose records for every known roster bank, plus neighboring data; exact valid pose counts are not inferred. Native character-collision routines and attack selector compared separately. Timing changes elsewhere are outside this byte comparison.",
+  "roster_bank_starts": [
+    "0x19e6e6",
+    "0x19f166",
+    "0x19fc86",
+    "0x1a0766",
+    "0x1a1326",
+    "0x1a1ea6",
+    "0x1a2966",
+    "0x1a3486",
+    "0x1a40c6",
+    "0x1a4ce6",
+    "0x1a5866"
+  ],
+  "variants": [
+    {
+      "rom": "outputs/dbz-jugabilidad-v1/Buyuu_Retsuden_Jugabilidad_v1_Colores_v1.bin",
+      "sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "ranges": {
+        "conservative_collision_region": {
+          "start": "0x19e6ce",
+          "end_exclusive": "0x1a7866",
+          "bytes": 37272,
+          "identical": true,
+          "original_sha256": "ec343c1c5ac0bff46e39a551e2f3a72f195dfc74ffb3d87274ae664057256e67"
+        },
+        "collision_routines": {
+          "start": "0x11c1e",
+          "end_exclusive": "0x12524",
+          "bytes": 2310,
+          "identical": true,
+          "original_sha256": "cf55b80850f075268286c1e08b5919f17c5c8e7ea4eec083ae2f61a7b7660716"
+        },
+        "attack_selector": {
+          "start": "0x21612",
+          "end_exclusive": "0x21672",
+          "bytes": 96,
+          "identical": true,
+          "original_sha256": "71d16aeb4aac5b69de46e8753cbaf45b339418bb51ce6388ea065a791d00b4ed"
+        }
+      }
+    },
+    {
+      "rom": "work/rom/auras-c2-v3.bin",
+      "sha256": "a4fc88c3c8032f9ec0e4c44a1ffbdf5c1c48c8eb88b4946cde25307070239507",
+      "ranges": {
+        "conservative_collision_region": {
+          "start": "0x19e6ce",
+          "end_exclusive": "0x1a7866",
+          "bytes": 37272,
+          "identical": true,
+          "original_sha256": "ec343c1c5ac0bff46e39a551e2f3a72f195dfc74ffb3d87274ae664057256e67"
+        },
+        "collision_routines": {
+          "start": "0x11c1e",
+          "end_exclusive": "0x12524",
+          "bytes": 2310,
+          "identical": true,
+          "original_sha256": "cf55b80850f075268286c1e08b5919f17c5c8e7ea4eec083ae2f61a7b7660716"
+        },
+        "attack_selector": {
+          "start": "0x21612",
+          "end_exclusive": "0x21672",
+          "bytes": 96,
+          "identical": true,
+          "original_sha256": "71d16aeb4aac5b69de46e8753cbaf45b339418bb51ce6388ea065a791d00b4ed"
+        }
+      }
+    }
+  ]
+}
