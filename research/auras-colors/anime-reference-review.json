@@ -60,18 +60,7 @@
       "bytes": 159164
     }
   ],
-  "unresolved": [
-    {
-      "character": "Android 18",
-      "status": "No habitual DBZ charge aura hue established in the inspected sources",
-      "proposal": "A neutral white/light aura would be an adaptation choice for the game, not a confirmed exclusive anime colour",
-      "context": "The official character profile describes her perpetual energy reactor. Official HDBZ screenshots inspected show attacks and poses, not a comparable charge aura.",
-      "sources": [
-        "https://en.dragon-ball-official.com/news/01_181.html",
-        "https://network.mugenguild.com/balthazar/hyperdbz/character-info.html?name=Android%2018"
-      ]
-    }
-  ],
+  "unresolved": [],
   "limits": [
     "Colours vary by scene, lighting, remaster and technique. These are visual colour families, not official hex swatches.",
     "Downloaded frames were inspected; image-search generated captions were not treated as evidence.",
@@ -90,6 +79,12 @@
       "lightning": false,
       "date": "2026-11-04",
       "evidence": "ginyu seria tipo lila"
+    },
+    "Android 18": {
+      "color": "White like Freezer",
+      "lightning": false,
+      "date": "2026-11-04",
+      "evidence": "a18 color tipo blanco, como freezer si te va bien"
     }
   }
 }

@@ -9,7 +9,7 @@ La forma C2 v3 está aceptada y todas las auras siguen sin rayos. **Cell usa dor
 | Freezer | Blanco azulado / cian claro | Carga hacia el 100%, galería de DBZ 98. |
 | Krilin | Blanco luminoso | Potencial liberado por el Gran Patriarca, DBZ 54. |
 | Recoome | Blanco con borde violeta | Carga corporal previa a Ultra Fighting Bomber. |
-| A18 | Abierto; blanco claro sería una adaptación | No se ha establecido un color exclusivo de carga habitual en DBZ. |
+| A18 | **Blanco como Freezer, sin rayos** | Elegido por el usuario; adaptación a la ROM pendiente. |
 | Ginyu | **Lila, sin rayos** | Elegido por el usuario; núcleo claro propuesto, adaptación a la ROM pendiente. |
 
 La propuesta traslada esas familias a la misma forma de aura. No afirma que todos los fotogramas de cada personaje tengan idéntico color. La iluminación, la técnica y la edición varían.

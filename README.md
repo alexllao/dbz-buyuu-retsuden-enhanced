@@ -37,7 +37,7 @@ Los vídeos con rayos que aparecen más abajo corresponden a versiones históric
 
 ## Colores de aura: referencias encontradas
 
-**Cell se queda en dorado como los SSJ, sin rayos.** Ya hay fotogramas de referencia para Piccolo, Cell, Freezer, Krilin y Recoome. **Ginyu queda elegido en lila, sin rayos.** A18 sigue abierta; no se ha aplicado todavía una nueva paleta a la ROM. [Ver las imágenes, los colores observados y sus fuentes](docs/aura-color-references.md).
+**Cell se queda en dorado como los SSJ, sin rayos.** Ya hay fotogramas de referencia para Piccolo, Cell, Freezer, Krilin y Recoome. **Ginyu queda elegido en lila, sin rayos.** **A18 queda elegida en blanco como Freezer, sin rayos.** La adaptación de estos colores a la ROM sigue pendiente. [Ver las imágenes, los colores observados y sus fuentes](docs/aura-color-references.md).
 
 ## Corrección del contorno: C2 v3
 
