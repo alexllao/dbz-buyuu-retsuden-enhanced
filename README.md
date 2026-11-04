@@ -140,15 +140,18 @@ El HTML funciona sin conexión y reconstruye 13 ensayos con gráficos nativos y 
 
 Las flechas de las tablas suponen que miras a la **derecha**: → = hacia el rival, ← = alejarse. Invierte las direcciones cuando mires a la izquierda. Haz las direcciones en secuencia y pulsa el botón junto a la última. «Mantener ↓» indica carga previa; «en el aire» exige estar saltando o volando. La distancia, el ki y el estado de ambos luchadores también pueden condicionar una técnica.
 
-**Guía del juego original:** combinaciones adaptadas de [StrategyWiki: Moves](https://strategywiki.org/wiki/Dragon_Ball_Z:_Buyuu_Retsuden/Moves), revisión [1096353](https://strategywiki.org/w/index.php?title=Dragon_Ball_Z:_Buyuu_Retsuden/Moves&oldid=1096353), aportada por el usuario. Se conservan sus nombres para facilitar la consulta. Las tablas describen los comandos originales, no una validación completa de todos los especiales en el parche.
+**Guía del juego original:** combinaciones adaptadas de [StrategyWiki: Moves](https://strategywiki.org/wiki/Dragon_Ball_Z:_Buyuu_Retsuden/Moves), revisión [1096353](https://strategywiki.org/w/index.php?title=Dragon_Ball_Z:_Buyuu_Retsuden/Moves&oldid=1096353), aportada por el usuario. Se conservan sus nombres para facilitar la consulta. Las tablas conservan los comandos originales y añaden, identificado como **nuevo del mod**, el cambio de lado de cada personaje. No equivalen a una validación completa de todos los especiales en el parche.
 
 El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no golpea**. En la revisión v6, los once personajes pueden cambiar de lado cerca del rival con **→ ← → + C**, sin sustituir sus comandos A/B. Invierte las flechas cuando mires a la izquierda. [Grabaciones y límites](docs/side-switch.md).
+
+**Cambio de lado nuevo:** realiza las direcciones rápidamente y pulsa C con la última. C corresponde a vuelo con el mando por defecto; si reasignas botones, usa esa función. No pulses A ni B a la vez. Funciona cerca del rival, en el mismo plano y desde un estado de movimiento; no cancela ataques, daño ni derribos y puede abortar si no hay espacio al otro lado. La combinación es la misma para los once personajes y ambos jugadores humanos.
 
 <details>
 <summary>Goku: movimientos</summary>
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
 | Kiai Cannon | mantener ↓ ↓ ↘ → + A |
@@ -170,6 +173,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Kiai Cannon | mantener ↓ ↓ ↘ → + A |
 | Shock Wave | → ← → + A |
@@ -190,6 +194,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Shot | ← → + A |
 | Energy Shock | ← ↙ ↓ + A |
 | Shock Wave | → ← → + A |
@@ -209,6 +214,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
 | Destructo Disc | mantener ↓ ↓ ↘ → + A |
@@ -228,6 +234,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Cannon | ← → + A |
 | Energy Slash | mantener ↓ ↓ ↙ ← + A |
 | Double Energy Blast | → ← → + A |
@@ -247,6 +254,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Shot | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
 | Kiai Cannon | mantener ↓ ↓ ↘ → + A |
@@ -267,6 +275,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Flash Beam | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
 | Energy Slash | → ← → + A |
@@ -286,6 +295,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
 | Destructo Disc | mantener ↓ ↓ ↘ → + A |
@@ -305,6 +315,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Frieza Beam | ← → + A |
 | Destructo Disc | mantener ↓ ↓ ↘ → + A |
 | Frieza Cutter | → ← → + A |
@@ -325,6 +336,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
 | Energy Defense | → ← → + A |
@@ -345,6 +357,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
+| **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Energy Cannon | mantener ↓ ↓ ↘ → + A |
 | Ground Explosion | → ← → + A |
