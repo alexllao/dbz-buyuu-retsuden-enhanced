@@ -1,0 +1,18 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "ebbf131a2559f436a1faa5281207777347fd443fa87ffa8a16f6ad0611178bf1",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v6_4.bin",
+    "sha256": "f52e85711cd70bb32d84af37f8bd9c00b30f13b34ec9020699749f9ed5fb5c20",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v6-4/enhanced-v6-4.ips",
+    "sha256": "d36cb03bc46b748446db413cb452b5c658c85c8af530ddfde171e62066bf2118"
+  },
+  "scope": "Warm anime-contrast C palette applied to opening and credit/title screen. Opening lineup uses battle-derived v6.2 resources. Battle palettes, stages, ki, gameplay and credits retained. Native visual review pending.",
+  "inheritsGameplay": "patches/review-v3/manifest.json"
+}

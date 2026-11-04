@@ -1,0 +1,79 @@
+{
+  "sourceSha256": "f52e85711cd70bb32d84af37f8bd9c00b30f13b34ec9020699749f9ed5fb5c20",
+  "targetSha256": "e22161407017c636b34993ea456fedf30c88bd2ff8786f3db9f9a0b776eeff14",
+  "checks": {
+    "battlePalettes": true,
+    "stagePalettes": true,
+    "controls": true,
+    "sideSwitch": true,
+    "creditResource": true,
+    "openingGokuPalette": true,
+    "titleGokuPalette": true
+  },
+  "nativeFrameChecks": [
+    {
+      "frame": 720,
+      "changedPixels": 0,
+      "outsideOriginalBodyMaskChangedPixels": 0
+    },
+    {
+      "frame": 840,
+      "changedPixels": 0,
+      "outsideOriginalBodyMaskChangedPixels": 0
+    },
+    {
+      "frame": 960,
+      "changedPixels": 19064,
+      "outsideOriginalBodyMaskChangedPixels": 0
+    },
+    {
+      "frame": 1080,
+      "changedPixels": 19064,
+      "outsideOriginalBodyMaskChangedPixels": 0
+    },
+    {
+      "frame": 1200,
+      "changedPixels": 19064,
+      "outsideOriginalBodyMaskChangedPixels": 0
+    },
+    {
+      "frame": 1800,
+      "changedPixels": 0,
+      "outsideOriginalBodyMaskChangedPixels": 0
+    }
+  ],
+  "nativeBodyRGBErrorsPerCID": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "satMax": {
+    "count": 75,
+    "lineSprites": 17,
+    "linePixels": 280
+  },
+  "resourceStats": {
+    "bodyBGUniqueTiles": 357,
+    "overlaySprites": 65,
+    "totalWithNativeLineSprites": 74,
+    "allocatedTiles": 673,
+    "maxLineSprites": 17,
+    "maxLinePixels": 280,
+    "colorWords": 41,
+    "paletteOptimizationScore": 17677
+  },
+  "scope": "Restore gray material shading; tiny near-black/trim harmonizations instead of collapsed gray ramps; Cell shares Piccolo greens, Recoome shares human skin ramp for readability. Combat unchanged.",
+  "status": "Native verified; lineup user visual approval pending; warm Goku face approved from v6.4",
+  "limits": [
+    "No new full-game or hardware test",
+    "Battle palettes are reference for intro adaptation, not exact same palette words for every material",
+    "Modified ASM study map remains tied to v6.2"
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "seed": 0,
+    "success": false,
+    "reason": "{'bodyBGUniqueTiles': 357, 'overlaySprites': 71, 'totalWithNativeLineSprites': 80, 'allocatedTiles': 699, 'maxLineSprites': 17, 'maxLinePixels': 280, 'colorWords': 41, 'paletteOptimizationScore': 17753}"
+  },
+  {
+    "seed": 1,
+    "success": true,
+    "stats": {
+      "bodyBGUniqueTiles": 357,
+      "overlaySprites": 65,
+      "totalWithNativeLineSprites": 74,
+      "allocatedTiles": 673,
+      "maxLineSprites": 17,
+      "maxLinePixels": 280,
+      "colorWords": 41,
+      "paletteOptimizationScore": 17677
+    }
+  }
+]

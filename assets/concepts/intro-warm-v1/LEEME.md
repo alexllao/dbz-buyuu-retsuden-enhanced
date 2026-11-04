@@ -9,3 +9,7 @@ Referencias: captura original de intro v6.3 para la piel cálida de Goku y captu
 **Elegida C: Contraste anime**, el 4 de noviembre de 2026. El usuario indica: «contraste anime me parece correcto». Se conserva piel cálida basada en el original, contorno negro y mayor contraste de pelo y sombras. A y B se guardan como variantes históricas.
 
 La elección corresponde al concepto visual. Su adaptación determinista a los gráficos originales y la validación mediante capturas reales siguen pendientes. La ROM actual sigue siendo v6.3 con presentación e intro originales.
+
+La adaptación nativa de C está disponible en v6.4, para intro y título. Véanse las [capturas reales](../../../docs/intro-anime-c-v6-4.md), pendientes de valoración visual.
+
+En v6.4 se aprueba únicamente la cara grande de Goku y se rechazan los personajes completos. La [revisión v6.5](../../../docs/intro-refined-v6-5.md) conserva esa cara y recupera las sombras del reparto; sigue pendiente de valoración visual.

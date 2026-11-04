@@ -1,0 +1,18 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "f52e85711cd70bb32d84af37f8bd9c00b30f13b34ec9020699749f9ed5fb5c20",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v6_5.bin",
+    "sha256": "e22161407017c636b34993ea456fedf30c88bd2ff8786f3db9f9a0b776eeff14",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v6-5/enhanced-v6-5.ips",
+    "sha256": "0d0c53a90d7526063198639b8a70e99f13d5b43fe285b128ec7f49840129f143"
+  },
+  "scope": "Restore intro lineup trouser/armor shading and readable Recoome skin. Keep user-approved warm-C Goku face and title, all combat changes. Native/user visual review pending.",
+  "inheritsGameplay": "patches/review-v3/manifest.json"
+}

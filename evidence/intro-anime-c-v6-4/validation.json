@@ -1,0 +1,37 @@
+{
+  "romSha256": "f52e85711cd70bb32d84af37f8bd9c00b30f13b34ec9020699749f9ed5fb5c20",
+  "checks": {
+    "battlePalettesUnchanged": true,
+    "stagePalettesUnchanged": true,
+    "controlsUnchanged": true,
+    "sideSwitchUnchanged": true,
+    "creditResourceUnchanged": true,
+    "titleBackgroundCopyUnchanged": true,
+    "titleBackgroundPointerUnchanged": true
+  },
+  "openingAndTitleVisiblePaletteWordsEqual": true,
+  "nativePaletteMatchesSpecificationAtFrames": [
+    960,
+    1800
+  ],
+  "nativeColdBootReachedBattleTransitionAtFrame": 2205,
+  "captures": [
+    {
+      "frame": 960,
+      "path": "assets/media/intro-anime-c-v6-4/Intro-contraste-anime.png",
+      "sha256": "eba6afc9c2efb396dc3976f64fc724a0b8111e9e13e77bfbca974214c0e9e25d"
+    },
+    {
+      "frame": 1800,
+      "path": "assets/media/intro-anime-c-v6-4/Titulo-BANDAI-ALEX-contraste-anime.png",
+      "sha256": "0b4b8f49a807e5f4e0d05d4d9cf55fa9e399d870c48747d0e732515e436d6134"
+    }
+  ],
+  "fixture": "Cold boot, no buttons, no RAM writes; stop before CPU battle",
+  "limits": [
+    "Adaptation of generated concept C, not pixel-perfect recreation of the AI image",
+    "Actual ROM palette adaptation pending user visual approval",
+    "Body reuses audited v6.2 secondary shade merges; no new full-game or hardware test",
+    "Modified ASM study map remains version-specific to v6.2"
+  ]
+}

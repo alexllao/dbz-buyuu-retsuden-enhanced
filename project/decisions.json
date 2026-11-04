@@ -2,12 +2,12 @@
   "updated": "2026-11-04",
   "preservePreviousVersions": true,
   "presentation": {
-    "selected": "Original",
-    "label": "Paletas originales de presentación e intro",
-    "image": "assets/media/intro-original-v6-3/Titulo-colores-originales.png",
+    "selected": "C anime cálido",
+    "label": "Adaptación del concepto C: Contraste anime",
+    "image": "assets/media/intro-refined-v6-5/Titulo-contraste-anime-conservado.png",
     "date": "2026-11-04",
-    "status": "v6.3: colores originales restaurados por petición del usuario; variantes anteriores conservadas",
-    "feedback": "La cara de Goku sigue pareciendo pálida; restaurar presentación e intro originales para revisar el conjunto",
+    "status": "v6.5: cara grande cálida de Goku aprobada desde v6.4 y conservada; personajes completos corregidos, pendientes de revisión visual",
+    "feedback": "Concepto C elegido; aplicar el mismo estilo también a la pantalla con BANDAI y ALEX LLAO",
     "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
     "paletteRecord": "research/palettes/title-shadows-v1.json",
     "modCredit": {
@@ -364,14 +364,28 @@
     "label": "Contraste anime",
     "feedback": "contraste anime me parece correcto",
     "image": "assets/concepts/intro-warm-v1/Variantes-A-B-C.png",
-    "status": "Concepto visual elegido; adaptación a ROM y revisión de capturas reales pendientes",
+    "status": "Concepto C elegido; cara grande de v6.4 aprobada; corrección de personajes v6.5 pendiente de revisión",
     "direction": "Piel cálida basada en el original, contornos negros y mayor contraste en pelo, sombras y reparto",
     "preservePreviousVariants": true,
-    "currentRom": "v6.3, presentación e intro con colores originales"
+    "currentRom": "v6.5: Goku cálido conservado y sombras de los personajes recuperadas"
   },
   "introV6_3": {
     "status": "Original intro and title colors restored; user review pending",
     "credits": "Bandai and ALEX LLAO retained",
     "preserveOtherModChanges": true
+  },
+  "introV6_4": {
+    "status": "Historical candidate: warm Goku face approved; lineup rejected for visible errors",
+    "scope": "Opening and title only; existing combat palettes retained",
+    "romSha256": "f52e85711cd70bb32d84af37f8bd9c00b30f13b34ec9020699749f9ed5fb5c20",
+    "evidence": "evidence/intro-anime-c-v6-4/validation.json",
+    "feedback": "el goku si lo veo perfecto pero los personajes no los veo bien hay errores"
+  },
+  "introV6_5": {
+    "status": "Native verified; user lineup visual approval pending",
+    "approvedScope": "Large warm-C Goku face from v6.4 only, retained byte/pixel exact",
+    "change": "Gray trouser and armor ramps restored; Recoome uses shared human skin ramp; Cell shares Piccolo green tones; minor near-black/trim shades harmonized instead",
+    "combatUnchanged": true,
+    "evidence": "evidence/intro-refined-v6-5/validation.json"
   }
 }

@@ -1,0 +1,89 @@
+{
+  "changes": [
+    {
+      "cid": "8",
+      "key": "2:10",
+      "before": 6,
+      "after": 0,
+      "reason": "Freezer near-black outline"
+    },
+    {
+      "cid": "9",
+      "key": "2:1",
+      "before": 36,
+      "after": 0,
+      "reason": "Recoome darkest outline"
+    },
+    {
+      "cid": "9",
+      "key": "2:9",
+      "before": 512,
+      "after": 0,
+      "reason": "Recoome blue-black outline"
+    },
+    {
+      "cid": "6",
+      "key": "2:13",
+      "before": 1636,
+      "after": 1638,
+      "reason": "A18 secondary neutral gray"
+    },
+    {
+      "cid": "9",
+      "key": "2:8",
+      "before": 584,
+      "after": 582,
+      "reason": "Recoome small warm trim"
+    },
+    {
+      "cid": "4",
+      "key": "2:1",
+      "before": 548,
+      "after": 582,
+      "reason": "Trunks small boot shadow"
+    },
+    {
+      "cid": "3",
+      "key": "3:13",
+      "before": 1128,
+      "after": 582,
+      "reason": "Vegeta small armor trim"
+    },
+    {
+      "cid": "9",
+      "key": "2:5",
+      "before": 1128,
+      "after": 582,
+      "reason": "Vegeta small armor trim"
+    },
+    {
+      "cid": "9",
+      "key": "2:3",
+      "before": 2220,
+      "after": 2798,
+      "reason": "Readable shared human three-tone skin ramp"
+    },
+    {
+      "cid": "9",
+      "key": "2:4",
+      "before": 1132,
+      "after": 2220,
+      "reason": "Readable shared human three-tone skin ramp"
+    },
+    {
+      "cid": "9",
+      "key": "2:5",
+      "before": 582,
+      "after": 1130,
+      "reason": "Readable shared human three-tone skin ramp"
+    }
+  ],
+  "restored": "Unmerged original material plan gray ramps, rather than v6.2 white/black collapses",
+  "pending": "Native verification complete; user lineup visual review pending",
+  "initialUniqueColors": 43,
+  "finalUniqueColors": 41,
+  "additionalGreenHarmonization": {
+    "0486": "0484",
+    "06CA": "06C6"
+  }
+}

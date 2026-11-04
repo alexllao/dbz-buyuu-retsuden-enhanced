@@ -9,6 +9,15 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const intro65 = await json('patches/review-v6-5/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, intro65.patch.path))), intro65.patch.sha256);
+const native65 = await json('evidence/intro-refined-v6-5/validation.json');
+assert.equal(native65.targetSha256, intro65.target.sha256);
+assert(Object.values(native65.checks).every(Boolean));
+assert(Object.values(native65.nativeBodyRGBErrorsPerCID).every(value => value === 0));
+assert(native65.satMax.count <= 80 && native65.satMax.lineSprites <= 20 && native65.satMax.linePixels <= 320);
+const intro64 = await json('patches/review-v6-4/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, intro64.patch.path))), intro64.patch.sha256);
 const intro63 = await json('patches/review-v6-3/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, intro63.patch.path))), intro63.patch.sha256);
 const restoration63 = await json('evidence/intro-original-v6-3/restoration.json');
@@ -39,7 +48,7 @@ for (const item of images) {
   assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256, item.path);
 }
 const decisions = await json('project/decisions.json');
-assert.equal(decisions.presentation.selected, 'Original');
+assert.equal(decisions.presentation.selected, 'C anime cálido');
 assert.equal(decisions.presentation.modCredit.text, '- 2026 ALEX LLAO');
 assert.equal(decisions.presentation.modCredit.usePseudonym, false);
 assert.equal(decisions.preservePreviousVersions, true);
@@ -210,4 +219,4 @@ catch { /* An exported source archive may have no .git metadata. */ }
 for (const path of tracked) {
   assert(!/\.(bin|smd|gen|zip|dll|exe|state|srm)$/i.test(path), `Archivo generado/base inesperado en Git: ${path}`);
 }
-console.log(`Verificado: ${images.length} imágenes, presentación original, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);
+console.log(`Verificado: ${images.length} imágenes, C cálida con reparto corregido, ${matrix.length} combinaciones históricas, parches, código y enlaces locales (${files.length} archivos).`);
