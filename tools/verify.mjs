@@ -9,6 +9,28 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const naturalCombo = await json('patches/combos-v4-natural/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, naturalCombo.patch.path))), naturalCombo.patch.sha256);
+for (const name of ['matrix', 'side-regression', 'finisher-validation']) {
+  const report = await json(`evidence/combos-v4-natural/${name}.json`);
+  assert(report.passed);
+  assert.equal(report.romSha256, naturalCombo.target.sha256);
+}
+const naturalTiming = await json('evidence/combos-v4-natural/timing-validation.json');
+assert(naturalTiming.passed && naturalTiming.cases.length === 22);
+assert.equal(naturalTiming.targetSha256, naturalCombo.target.sha256);
+const naturalStatic = await json('evidence/combos-v4-natural/static.json');
+assert.equal(naturalStatic.targetSha256, naturalCombo.target.sha256);
+assert.equal(naturalStatic.outsideAllowedChangedBytes, 0);
+assert(naturalStatic.queueDoesNotResetOwnProgramActionCursor && naturalStatic.noInstantFollowupStep);
+assert(Object.values(naturalStatic.preserved).every(Boolean));
+const naturalCode = Buffer.from((await readFile(resolve(root, 'src/gameplay/combos-v4-natural/combos.hex'), 'utf8')).trim(), 'hex');
+assert.equal(sha256(naturalCode), naturalStatic.codeSha256);
+assert.equal(naturalCode.length, naturalStatic.decodedBytes);
+const naturalVideo = await json('evidence/combos-v4-natural/video-validation.json');
+assert.equal(naturalVideo.romSha256, naturalCombo.target.sha256);
+assert(naturalVideo.nativeAudio && naturalVideo.durationSeconds >= 180 && naturalVideo.durationSeconds <= 300);
+assert.equal(sha256(await readFile(resolve(root, naturalVideo.videoPath))), naturalVideo.sha256);
 const genericCombo = await json('patches/combos-v3/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, genericCombo.patch.path))), genericCombo.patch.sha256);
 for (const name of ['matrix', 'side-regression', 'repeat-validation']) {

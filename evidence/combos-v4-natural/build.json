@@ -1,0 +1,17 @@
+{
+  "sourceSha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+  "targetSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+  "codeBytes": 1350,
+  "hook": "0x8DCC after native A/B matcher, before side switch/native dispatch",
+  "codeBase": "0x3D0000",
+  "scratch": "All 11 human actors,104..107; separate from controls108..10F and auras110..117; bounded static scan and dynamic audit",
+  "allowedChanges": [
+    "checksum 0x18E",
+    "hook 0x8DCC",
+    "new code 0x3D0000",
+    "contact checks 0x11E14/11FF8/11EF4/120D4",
+    "animation helper call inside controls block",
+    "native recovery restored by disabling cursor skip"
+  ],
+  "status": "Experimental internal candidate, tests pending"
+}

@@ -1,0 +1,6800 @@
+{
+  "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+  "jobs": 22,
+  "cases": 374,
+  "results": [
+    {
+      "cid": 0,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3075
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2112
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3075
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1025,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 1,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3086
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3086
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1037,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 2,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3095
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            2064
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3095
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1049,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1061
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1064
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1061
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1061,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 4,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3120
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2074
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3120
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1073,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 5,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1085
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2133
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1085
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1085,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            20,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            20,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            20,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            20,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 6,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3143
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1100
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3143
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1097,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 7,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3156
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1112
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3156
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1109,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 8,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3167
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            2095
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3167
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1121,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 9,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            3179
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            2131
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            3179
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1133,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 10,
+      "port": 1,
+      "turbo": false,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3190
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            2106
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3190
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1145,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 0,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3075
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2112
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3075
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1025,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            5,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 1,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3086
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3086
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1037,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            8,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 2,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3095
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            2064
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3095
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1049,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            11,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1061
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1064
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1061
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1061,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            14,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 4,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3120
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2074
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3120
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1073,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            17,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 5,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1085
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2133
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1085
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1085,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            19,
+            20,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            19,
+            20,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            19,
+            20,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            19,
+            20,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 6,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            3143
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1100
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            3143
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1097,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            23,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 7,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            323,
+            3156
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1112
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            323,
+            3156
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1109,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            26,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 8,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3167
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            2095
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3167
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1121,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            29,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 9,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            3179
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            2131
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            3179
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1133,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            31,
+            32,
+            2115
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 10,
+      "port": 2,
+      "turbo": true,
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "cases": [
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "C-only",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0
+          ]
+        },
+        {
+          "mode": "FB-C",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "FBF-A",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3190
+          ]
+        },
+        {
+          "mode": "FBF-B",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            51,
+            2106
+          ]
+        },
+        {
+          "mode": "FBF-AC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            1,
+            2,
+            323,
+            3190
+          ]
+        },
+        {
+          "mode": "far",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "simultaneous-FC",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "timeout",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "mode": "followup-punch",
+          "reverse": false,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "followupAttackRecognized": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            1145,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": false,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": false,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            1,
+            2,
+            2115
+          ]
+        },
+        {
+          "mode": "new",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        },
+        {
+          "mode": "held-C",
+          "reverse": true,
+          "air": true,
+          "checks": {
+            "activation": true,
+            "zeroDamage": true,
+            "crossed": true,
+            "returnedIdle": true,
+            "latchReleased": true,
+            "noAttack": true,
+            "noFlightWhileHolding": true
+          },
+          "passed": true,
+          "programs": [
+            0,
+            352,
+            2115
+          ]
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "scope": "Actual new command through native history and both controller ports; eleven CID P1 normal and P2 turbo; both directions, native jump, plain C and attack commands, long-held C, distance and timeout gates. No CPU autoplay."
+}

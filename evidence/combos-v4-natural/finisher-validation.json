@@ -1,0 +1,463 @@
+{
+  "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+  "passed": true,
+  "cases": 22,
+  "allElevenOneBasicAndNativeBConnect": true,
+  "jobs": [
+    {
+      "cid": 0,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            40
+          ],
+          "programs": [
+            0,
+            1024,
+            2049
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9
+          ],
+          "programs": [
+            0,
+            1024,
+            2112
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 1,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            40
+          ],
+          "programs": [
+            0,
+            1036,
+            2056
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            54
+          ],
+          "programs": [
+            0,
+            1036,
+            1040,
+            2115
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 2,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            48
+          ],
+          "programs": [
+            0,
+            1048,
+            2063
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            44,
+            75
+          ],
+          "programs": [
+            0,
+            51,
+            1048,
+            2064
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            40
+          ],
+          "programs": [
+            0,
+            1060,
+            2068
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            42
+          ],
+          "programs": [
+            0,
+            1060,
+            1063
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 4,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            41
+          ],
+          "programs": [
+            0,
+            1072,
+            2075
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            62,
+            86
+          ],
+          "programs": [
+            0,
+            1072,
+            2074
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 5,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            47
+          ],
+          "programs": [
+            0,
+            1084,
+            2080
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10
+          ],
+          "programs": [
+            0,
+            1084,
+            1085,
+            2133
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 6,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            43
+          ],
+          "programs": [
+            0,
+            1096,
+            2086
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9
+          ],
+          "programs": [
+            0,
+            1096,
+            1099
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 7,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            46
+          ],
+          "programs": [
+            0,
+            1108,
+            2091
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            9,
+            40
+          ],
+          "programs": [
+            0,
+            1108,
+            1111
+          ],
+          "committed": false,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 8,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10,
+            43
+          ],
+          "programs": [
+            0,
+            1120,
+            2096
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            10
+          ],
+          "programs": [
+            0,
+            51,
+            1120,
+            2095
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 9,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            47
+          ],
+          "programs": [
+            0,
+            1132,
+            2103
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11
+          ],
+          "programs": [
+            0,
+            1132,
+            2131,
+            2132
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    },
+    {
+      "cid": 10,
+      "cases": [
+        {
+          "mode": "downB",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            51
+          ],
+          "programs": [
+            0,
+            1144,
+            2107
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        },
+        {
+          "mode": "fbf",
+          "charged": false,
+          "startKi": 126,
+          "hits": [
+            11,
+            47
+          ],
+          "programs": [
+            0,
+            51,
+            1144,
+            2106
+          ],
+          "committed": true,
+          "minKi": 126,
+          "idleAtEnd": true,
+          "maxLinks": 0
+        }
+      ]
+    }
+  ],
+  "scope": "One confirmed A, completed animation, own native F-D+B or F-B-F+B; commands retain native requirements. Not all routes connect."
+}

@@ -1,0 +1,59 @@
+{
+  "targetSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+  "codeSha256": "f9082bb26119c14ebe65fcafc602d4ba28daf0e16bb087083be828e5b92b00f0",
+  "codeBytes": 1350,
+  "decodedBytes": 1350,
+  "changedBytes": 1371,
+  "outsideAllowedChangedBytes": 0,
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      36300,
+      6
+    ],
+    [
+      73236,
+      6
+    ],
+    [
+      73720,
+      6
+    ],
+    [
+      73460,
+      6
+    ],
+    [
+      73940,
+      6
+    ],
+    [
+      504212,
+      6
+    ],
+    [
+      504416,
+      4
+    ],
+    [
+      3997696,
+      1350
+    ]
+  ],
+  "nativeRecoverySkipDisabledAt": "0x7b260",
+  "preserved": {
+    "nativeDamage": true,
+    "auraCode": true,
+    "sideSwitch": true,
+    "battlePalettes": true,
+    "stagePalettes": true,
+    "introAndTitle": true,
+    "credits": true,
+    "nativeAnimationData": true
+  },
+  "queueDoesNotResetOwnProgramActionCursor": true,
+  "noInstantFollowupStep": true
+}

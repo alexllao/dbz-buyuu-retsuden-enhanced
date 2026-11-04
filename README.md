@@ -27,6 +27,14 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Prueba opcional actual: Combos v4 con ritmo natural
+
+**Cada ataque termina su animación antes del siguiente.** Se guardan las órdenes durante el contacto y se ejecutan al acabar el movimiento: se elimina el corte anticipado de v3, se restaura la recuperación final completa y se retira el paso instantáneo de seguimiento. No se acelera el vídeo ni el reloj de animación. La ampliación sigue siendo para humanos, en suelo y velocidad normal.
+
+[**Ver vídeo largo nuevo con sonido (4 min 45 s)**](assets/media/combos-v4-natural/Combos-v4-ritmo-natural-4min.mp4) · [Reglas, comparación con el original y límites](docs/combos-v4-natural.md). Son ocho combates o fragmentos reales con dos mandos automatizados, sin contador superpuesto.
+
+Al conservar duración, alcance y retroceso, algunas rutas de tres golpes de v3 dejan de conectar; se registran y quedan pendientes de ajustar jugando. Hay un máximo de tres básicos y una técnica asistida, sin asegurar que todo orden impacte. Se conservan v1/v2/v3 y la ROM principal v6.6. Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version combos-v4-natural`.
+
 ## Prueba opcional de combos v3: los once personajes
 
 Mezcla hasta **tres básicos A/B** al acertar y remata con una técnica propia o Meteor, introduciendo su comando original. Primera prueba común para los once personajes humanos en suelo y velocidad normal. El remate cierra las ayudas de la cadena; sólo se recupera el presupuesto tras seis actualizaciones con ambos luchadores libres. Pendiente de probar con mando.

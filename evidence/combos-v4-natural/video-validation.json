@@ -1,0 +1,118 @@
+{
+  "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+  "videoPath": "assets/media/combos-v4-natural/Combos-v4-ritmo-natural-4min.mp4",
+  "sha256": "655db8af1c41d708b0168cf4385d6a013912b26907c2c69ab33918f9461ae95d",
+  "bytes": 25274632,
+  "durationSeconds": 285.523243,
+  "nativeAudio": true,
+  "counterOverlay": false,
+  "playback": "Native core FPS, no speed filter, no discarded or duplicated gameplay frames; chapters join8 real excerpts",
+  "control": "Two automated human-controller inputs, not native CPU",
+  "chapters": [
+    {
+      "startSeconds": 0.0,
+      "endSeconds": 33.51,
+      "title": "Goku vs Vegeta",
+      "observedThreeBasicSequences": [
+        3,
+        1
+      ],
+      "koFrame": 1827
+    },
+    {
+      "startSeconds": 33.51,
+      "endSeconds": 69.506,
+      "title": "Gohan vs Cell",
+      "observedThreeBasicSequences": [
+        0,
+        0
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 69.506,
+      "endSeconds": 105.502,
+      "title": "Piccolo vs Freezer",
+      "observedThreeBasicSequences": [
+        0,
+        0
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 105.502,
+      "endSeconds": 141.498,
+      "title": "Trunks vs A18",
+      "observedThreeBasicSequences": [
+        0,
+        3
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 141.498,
+      "endSeconds": 177.494,
+      "title": "Krilin vs Recoome",
+      "observedThreeBasicSequences": [
+        0,
+        0
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 177.494,
+      "endSeconds": 213.49,
+      "title": "Ginyu vs Goku",
+      "observedThreeBasicSequences": [
+        2,
+        1
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 213.49,
+      "endSeconds": 249.486,
+      "title": "Vegeta vs Trunks",
+      "observedThreeBasicSequences": [
+        3,
+        0
+      ],
+      "koFrame": null
+    },
+    {
+      "startSeconds": 249.486,
+      "endSeconds": 285.482,
+      "title": "Cell vs Piccolo",
+      "observedThreeBasicSequences": [
+        1,
+        0
+      ],
+      "koFrame": null
+    }
+  ],
+  "streamProbe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "avg_frame_rate": "1299425140/21696269",
+        "duration": "285.432155"
+      },
+      {
+        "codec_type": "audio",
+        "avg_frame_rate": "0/0",
+        "duration": "285.523243"
+      },
+      {
+        "codec_type": "data",
+        "avg_frame_rate": "0/0",
+        "duration": "285.482000"
+      }
+    ],
+    "format": {
+      "duration": "285.523243"
+    }
+  },
+  "allElevenCharactersPresent": true
+}

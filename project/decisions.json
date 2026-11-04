@@ -462,5 +462,25 @@
     "defaultReview": "v6.6 retained",
     "romSha256": "bac2a49e95921dcdb95357ba2bf3fd4cbebcad6f9f60c81910437cead6bc59ef",
     "docs": "docs/combos-v3.md"
+  },
+  "combosExperimentalV4Natural": {
+    "status": "Implemented optional candidate; manual playtest and natural-feel approval pending",
+    "userPreference": "Do not accelerate movements; natural rhythm",
+    "changes": [
+      "Queue confirmed follow-up until native movement finishes",
+      "Disable inherited2-unit basic-recovery cursor advance",
+      "Remove instant8px following step"
+    ],
+    "unchanged": [
+      "Native attack animation tables and time unit",
+      "Global normal/turbo selection",
+      "Approved graphics/auras/title/credits",
+      "Previously approved floor-hold shortening and dash inertia"
+    ],
+    "scope": "Human ground normal only, all11 characters; max3 basics and1 own native finisher",
+    "limits": "Native range/knockback/knockdown break some old3-hit routes; tune per-character routes without accelerating, do not force hits",
+    "timingValidation": "22 original-vs-candidate A/B comparisons: same attack pose order and cursor sequence; frame-level durations include input/pauses and are recorded",
+    "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+    "docs": "docs/combos-v4-natural.md"
   }
 }
