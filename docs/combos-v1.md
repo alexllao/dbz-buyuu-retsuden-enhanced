@@ -16,6 +16,16 @@ Los dos puños sí enlazan antes de que el rival recupere el control en los caso
 
 Son grabaciones sin audio de Genesis Plus GX. En cada pareja se reproducen exactamente las mismas pulsaciones. Se fijan posición y orientación iniciales para repetir el ensayo; no se fuerzan HP, ki, programa, acción ni temporizadores. En estas grabaciones el prototipo registra dos daños con Goku y tres con Vegeta; el proyectil de Goku no añade daño en esa toma. Esto ilustra por qué la salida a proyectil no equivale a prometer tres impactos garantizados.
 
+## Vídeo del contador propuesto
+
+[Ver la demostración del contador](../assets/concepts/combo-counter-v1/Contador-combos-demostracion.mp4). **Es una previsualización superpuesta en edición sobre grabaciones reales; el contador todavía no está en la ROM.** La propia imagen del vídeo lo indica durante toda la reproducción.
+
+Se muestran Goku, Vegeta, un bloqueo real y un golpe al aire. El contador aparece desde el segundo impacto observado de una misma cadena, se conserva 36 fotogramas tras la recuperación del rival y se apaga en doce. En la toma de Vegeta, el daño posterior del proyectil ocurre después de la recuperación: abre otra cadena de un golpe y no suma3. Guardia y fallo mantienen el contador oculto. Todas las tomas acaban con el contador oculto.
+
+La lectura usa HP y acciones de daño11/12 de estas tomas de pie; no es un detector general ya validado para todo el juego. El estilo, tamaño y posición son una propuesta pendiente de valorar y de adaptar después a las paletas, tiles y sprites reales de Mega Drive.
+
+[Datos de eventos y validación](../evidence/combo-counter-preview-v1/validation.json).
+
 ## Implementación y comprobaciones
 
 El código de prueba se coloca en `0x3D0000`. Se ejecuta tras el reconocimiento nativo de combinaciones y antes de la llamada al cambio de lado. Sólo se habilita para Goku/Vegeta humanos a velocidad normal. Reserva cuatro bytes por actor, `104..107`, separados de los controles `108..10F` y las auras `110..117`.

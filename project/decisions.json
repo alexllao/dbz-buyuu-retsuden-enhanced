@@ -411,5 +411,19 @@
     "defaultReview": "v6.6 retained",
     "targetSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
     "docs": "docs/combos-v1.md"
+  },
+  "comboCounterPreview": {
+    "status": "Visual proposal only; not implemented in ROM; user review pending",
+    "video": "assets/concepts/combo-counter-v1/Contador-combos-demostracion.mp4",
+    "counts": "Observed unblocked damage within a standing hitstun sequence; starts display at2",
+    "end": "Keeps number briefly and fades after opponent recovers; independent new hit does not add to old combo",
+    "cases": [
+      "Goku two linked hits",
+      "Vegeta separate projectile after recovery",
+      "Guard",
+      "Whiff"
+    ],
+    "sourceRomSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+    "graphics": "Code-rendered pixel UI superposed in postproduction, not a native Mega Drive HUD asset"
   }
 }

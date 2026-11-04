@@ -33,6 +33,8 @@ Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura
 
 [Ver comparación real: v6.6 izquierda, prototipo derecha](assets/media/combos-v1/Comparacion-combos-Goku-Vegeta.mp4) · [Condiciones, pruebas y límites](docs/combos-v1.md). Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version combos-v1`. **La construcción predeterminada sigue siendo v6.6.** Turbo, CPU y los otros nueve personajes conservan su combate anterior. Pendiente de probar con mando y valorar el equilibrio.
 
+**[Vídeo del contador propuesto](assets/concepts/combo-counter-v1/Contador-combos-demostracion.mp4):** dos impactos, final de cadena, proyectil posterior, bloqueo y fallo. Es un contador superpuesto sobre grabaciones reales para revisar su aspecto; **todavía no está implementado en la ROM**.
+
 ## Revisión actual: ROM v6.6
 
 **Los personajes pequeños de la intro vuelven exactamente al original**, por petición del usuario. Se conserva el Goku grande cálido de C y la pantalla de BANDAI y ALEX LLAO de v6.4/v6.5. [Capturas reales y comprobaciones](docs/intro-original-lineup-v6-6.md).

@@ -9,6 +9,11 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const counterPreview = await json('evidence/combo-counter-preview-v1/validation.json');
+assert.equal(counterPreview.counterIsInRom, false);
+assert.equal(sha256(await readFile(resolve(root, counterPreview.videoPath))), counterPreview.videoSha256);
+assert.deepEqual(counterPreview.cases.map(item => [item.case, item.maxDisplayedCounter]), [['Goku', 2], ['Vegeta', 2], ['Bloqueo', 0], ['Fallo', 0]]);
+assert(counterPreview.cases.every(item => item.counterHiddenAtEnd));
 const combos = await json('patches/combos-v1/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, combos.patch.path))), combos.patch.sha256);
 const comboMatrix = await json('evidence/combos-v1/matrix.json');

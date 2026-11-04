@@ -1,0 +1,3325 @@
+{
+  "romSha256": "cac2ba0cd09fa1cba8936af1f07e7d887c73c40447090cbee8894e034e738345",
+  "cid": 0,
+  "tag": "guard",
+  "fps": 59.92274340431231,
+  "frames": 240,
+  "hits": [],
+  "trace": [
+    {
+      "f": 0,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 1,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 2,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 3,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 4,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 5,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 6,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 7,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 8,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 9,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 10,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 11,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 12,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 13,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 14,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 15,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 16,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 17,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 18,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 19,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 20,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 21,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 22,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 126,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 23,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 24,
+      "keys": [],
+      "keys2": [],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 25,
+      "keys": [
+        "A"
+      ],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 26,
+      "keys": [
+        "A"
+      ],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 27,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 28,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 29,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 30,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 31,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 32,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 33,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 34,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 35,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 36,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 37,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 9,
+      "comboState": 200
+    },
+    {
+      "f": 38,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 9,
+      "comboState": 200
+    },
+    {
+      "f": 39,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 40,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 41,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 42,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 43,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 44,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 45,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 46,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 47,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 1024,
+      "action": 32,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 48,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 49,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 50,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 51,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 52,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 53,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 54,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 55,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 56,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 57,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 58,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 59,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 60,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 61,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 62,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 63,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 64,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 127,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 65,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 66,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 10,
+      "comboState": 200
+    },
+    {
+      "f": 67,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 68,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 0,
+      "comboState": 200
+    },
+    {
+      "f": 69,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 70,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 71,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 72,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 73,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 74,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 75,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 76,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 77,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 78,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 79,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 80,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 81,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 82,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 83,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 84,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 85,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 86,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 87,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 88,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 89,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 90,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 91,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 92,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 93,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 94,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 95,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 96,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 97,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 98,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 99,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 100,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 101,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 102,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 103,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 128,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 104,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 105,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 106,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 107,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 108,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 109,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 110,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 111,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 112,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 113,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 114,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 115,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 116,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 117,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 118,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 119,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 120,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 121,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 122,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 123,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 124,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 125,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 126,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 127,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 128,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 129,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 130,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 131,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 132,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 133,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 134,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 135,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 136,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 137,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 138,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 139,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 140,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 141,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 142,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 129,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 143,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 144,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 145,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 146,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 147,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 148,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 149,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 150,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 151,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 152,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 153,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 154,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 155,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 156,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 157,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 158,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 159,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 160,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 161,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 162,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 163,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 164,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 165,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 166,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 167,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 168,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 169,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 170,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 171,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 172,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 173,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 174,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 175,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 176,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 177,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 178,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 179,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 180,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 130,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 181,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 182,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 183,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 184,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 185,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 186,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 187,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 188,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 189,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 190,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 191,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 192,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 193,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 194,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 195,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 196,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 197,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 198,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 199,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 200,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 201,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 202,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 203,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 204,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 205,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 206,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 207,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 208,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 209,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 210,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 211,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 212,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 213,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 214,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 215,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 216,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 217,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 131,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 218,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 219,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 220,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 221,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 222,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 223,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 224,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 225,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 226,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 227,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 228,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 229,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 230,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 231,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 232,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 233,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 234,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 235,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 236,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 237,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 238,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    },
+    {
+      "f": 239,
+      "keys": [],
+      "keys2": [
+        "RIGHT"
+      ],
+      "program": 0,
+      "action": 0,
+      "hp": 200,
+      "ki": 132,
+      "enemyHP": 200,
+      "enemyAction": 2,
+      "comboState": 200
+    }
+  ],
+  "fixture": "Native menus, actual human command inputs, fixed initial positions/facing only, no HP/ki/action/timer forcing; silent emulator capture"
+}
