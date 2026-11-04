@@ -1,0 +1,76 @@
+{
+  "status": "Native shared high-speed movement identified; exact user event remains unidentified",
+  "original_sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "input": "Forward, back, forward + B (default kick), directions relative to facing",
+  "characters": [
+    "Goku",
+    "Gohan",
+    "Cell"
+  ],
+  "native_evidence": {
+    "command_parser": "0x941A direction bytes 08 04 08 => command 0x13",
+    "character_table": "0x2216A, twelve-byte records",
+    "moves": [
+      {
+        "cid": 0,
+        "record": "0x22204",
+        "program": "0x0840"
+      },
+      {
+        "cid": 1,
+        "record": "0x2228A",
+        "program": "0x0843"
+      },
+      {
+        "cid": 5,
+        "record": "0x22496",
+        "program": "0x0855"
+      }
+    ],
+    "shared_program_handler": "0x1631C",
+    "shared_animation": "0x1FED5",
+    "dispatcher": "0x13020..0x1305C; relative signed word added to entry address",
+    "behavior": "Handler compares opponent x +/-56, updates movement and flips facing; visual flags actor+83..87 set. Other characters use different handlers or lack command 0x13."
+  },
+  "existing_trace_examples": [
+    {
+      "source": "work/cpu-soak/results/original/00/Informe.json",
+      "frames": [
+        1524,
+        1530
+      ],
+      "character": "Goku",
+      "program": "0x0840",
+      "description": "Crosses Gohan; native untouched ROM"
+    },
+    {
+      "source": "work/cpu-soak/results/enhanced/00/Informe.json",
+      "frames": [
+        2010,
+        2016
+      ],
+      "character": "Gohan",
+      "program": "0x0843",
+      "description": "x180 ->60 across Goku near63 in six sampled frames"
+    }
+  ],
+  "secondary_corroboration": [
+    {
+      "url": "https://www.spmoves.com/sp5/dragon_ball/buyuu.html",
+      "label": "Lists 高速移動 forward/back/forward+B for Goku, Gohan, Cell"
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/genesis/563322-dragon-ball-z-buyuu-retsuden/faqs/13699",
+      "label": "DTuong move list calls Goku/Gohan version Super Dash"
+    }
+  ],
+  "manual": {
+    "url": "https://drive.google.com/file/d/1Bb9r1jtVERSxiZ_oeHEjr6YIodFqU0Q8/view?usp=sharing",
+    "status": "Manufacturer manual scan linked by Notipix; content inaccessible, not used as evidence"
+  },
+  "uncertainty": [
+    "User supplied no exact input or video time. An advancing attack can also cross sides; Gohan program0x0415 does this in both versions and is a different move.",
+    "These native tables establish the shared high-speed movement, not a universal dodge available to all fighters.",
+    "No additional CPU autoplay performed. Existing bounded samples reused."
+  ]
+}

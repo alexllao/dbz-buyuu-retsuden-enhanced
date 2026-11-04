@@ -47,3 +47,7 @@ Los scripts previos están en [research/legacy](../research/legacy). Conservan c
 ## Corrección de contorno C2 v3
 
 pnpm build:auras:v3 --rom ruta/a/original.bin genera la prueba de contorno corregido. Conserva las variantes anteriores. Véase [C2 v3](auras-c2-v3.md). El escenario nevado sólo tiene bocetos de suelo y vuelo, sin integración en ROM.
+
+## Revisión combinada v5
+
+`pnpm build:review --rom ruta/a/original.bin` aplica el IPS completo sobre la base japonesa y verifica el hash de salida. Incluye controles v2, derribos terrestres ajustados, paletas de combate, ki v4 y presentación G con Bandai y ALEX LLAO. [Alcance y pruebas](gameplay-v2.md).

@@ -1,0 +1,92 @@
+{
+  "romSha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+  "cases": [
+    {
+      "case": "native-idle",
+      "actionTransitions": [],
+      "finalAction": 0
+    },
+    {
+      "case": "native-right-01-stop",
+      "actionTransitions": [],
+      "finalAction": 0
+    },
+    {
+      "case": "native-right-05-stop",
+      "actionTransitions": [
+        1,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-right-then-left",
+      "actionTransitions": [
+        1,
+        2
+      ],
+      "finalAction": 2
+    },
+    {
+      "case": "native-punch-tap",
+      "actionTransitions": [
+        33,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-kick-tap",
+      "actionTransitions": [
+        36,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-jump-tap",
+      "actionTransitions": [
+        4,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-charge-release",
+      "actionTransitions": [
+        15,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-punch-held",
+      "actionTransitions": [
+        33,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-punch-late-dynamic",
+      "actionTransitions": [
+        33,
+        0,
+        33,
+        0
+      ],
+      "finalAction": 0
+    },
+    {
+      "case": "native-kick-late-dynamic",
+      "actionTransitions": [
+        36,
+        0,
+        36,
+        0
+      ],
+      "finalAction": 0
+    }
+  ],
+  "notes": "Manual controlled input; single held A does not auto-repeat, late re-press queues and executes; native jump/charge return. Walking retains native inertia."
+}

@@ -1,0 +1,386 @@
+{
+  "status": "PASS: final A1+A4 candidate manually verified on Gohan/Piccolo/Cell/Recoome; all measured final floor holds30native ticks; native wake durations preserved",
+  "candidate_build": {
+    "source": "work\\auras\\colors-v4\\candidate.bin",
+    "source_sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+    "candidate": "work\\gameplay-review\\knockdown\\candidate.bin",
+    "sha256": "44832df25a829261ff304d981ab8fb2aa4cd73f7a933413e4e5a873d0831a9f1",
+    "patches": [
+      {
+        "offset": "0x1F3A0",
+        "before": "72",
+        "after": "66",
+        "role": "A1 sequence duration114->102"
+      },
+      {
+        "offset": "0x1F3A7",
+        "before": "07",
+        "after": "05",
+        "role": "A1 final lying pose weight7->5"
+      },
+      {
+        "offset": "0x1F3B1",
+        "before": "7E",
+        "after": "66",
+        "role": "A4 sequence duration126->102"
+      },
+      {
+        "offset": "0x1F3B9",
+        "before": "09",
+        "after": "05",
+        "role": "A4 final lying pose weight9->5"
+      },
+      {
+        "offset": "0x18E",
+        "before": "d9e0",
+        "after": "cdc2",
+        "role": "Genesis ROM header checksum"
+      }
+    ],
+    "preserved": "A1/A4 prior positive weights and6ticks/unit, airborne hold marker80, wake programsC0/C1/C2, hitstop, collision/invulnerability filtering and all other reaction sequence bytes untouched.",
+    "effect": "A1 final floor hold42->30 and A4 final floor hold54->30 native updates. Earlier return to control also ends state-based damage protection12/24updates earlier respectively; no independent invulnerability duration guarantee."
+  },
+  "actual_byte_differences": [
+    {
+      "offset": "0x18E",
+      "before": "D9",
+      "after": "CD"
+    },
+    {
+      "offset": "0x18F",
+      "before": "E0",
+      "after": "C2"
+    },
+    {
+      "offset": "0x1F3A0",
+      "before": "72",
+      "after": "66"
+    },
+    {
+      "offset": "0x1F3A7",
+      "before": "07",
+      "after": "05"
+    },
+    {
+      "offset": "0x1F3B1",
+      "before": "7E",
+      "after": "66"
+    },
+    {
+      "offset": "0x1F3B9",
+      "before": "09",
+      "after": "05"
+    }
+  ],
+  "cid_selector_evidence": {
+    "source_calls": [
+      "0x217E8 JSR132D6, inline32word table starts217EE",
+      "0x1D99E JSR132D6, duplicate table starts1D9A4"
+    ],
+    "helper": "132D6 uses plane row from20B6A, then row*16+actorCID to choose a word from inline data.",
+    "ground_row_CID0_to10": [
+      "A1",
+      "A1",
+      "A4",
+      "A1",
+      "A1",
+      "A5",
+      "A1",
+      "A1",
+      "A1",
+      "A1",
+      "A1"
+    ],
+    "other_plane_row": [
+      "A8",
+      "A8",
+      "A6",
+      "A8",
+      "A8",
+      "A7",
+      "A8",
+      "A8",
+      "A8",
+      "A8",
+      "A8"
+    ],
+    "meaning": "PiccoloCID2 specifically usesA4; CellCID5 usesA5; other9listedCIDs useA1 in this native ground-reaction selection. This does not mean every hit or airborne reaction uses one of these sequences."
+  },
+  "sequence_evidence": [
+    {
+      "program": "A1",
+      "address": "1F39F",
+      "header_before": 114,
+      "header_after": 102,
+      "weights_before": [
+        1,
+        4,
+        2,
+        128,
+        3,
+        2,
+        7
+      ],
+      "weights_after": [
+        1,
+        4,
+        2,
+        128,
+        3,
+        2,
+        5
+      ],
+      "final_floor_ticks": [
+        42,
+        30
+      ]
+    },
+    {
+      "program": "A4",
+      "address": "1F3B0",
+      "header_before": 126,
+      "header_after": 102,
+      "weights_before": [
+        1,
+        1,
+        4,
+        2,
+        128,
+        1,
+        3,
+        9
+      ],
+      "weights_after": [
+        1,
+        1,
+        4,
+        2,
+        128,
+        1,
+        3,
+        5
+      ],
+      "final_floor_ticks": [
+        54,
+        30
+      ]
+    },
+    {
+      "program": "A5",
+      "address": "1F3C3",
+      "header_unchanged": 114,
+      "weights_unchanged": [
+        1,
+        4,
+        2,
+        128,
+        3,
+        2,
+        2,
+        5
+      ],
+      "final_floor_ticks": [
+        30,
+        30
+      ]
+    }
+  ],
+  "timing_rule": "Native209DC..20AB8 chooses duration/header and divides by sum of positive weights. All affected sequences remain6ticks/unit. The negative80hold marker is unchanged; earlier fall/bounce segments therefore retain timing. A4pose43also occurs earlier in its bounce, so final-floor measurement uses only last continuous pose43segment before wake.",
+  "manual_fixture": "Native menus actually select Goku and each defender. BothBE0 before any combat core frame after helper return; no CPU autoplay. Only X/facing fixture writes. No HP, reaction, animation, timer, geometry or RNG forcing. DOWN20frames thenDOWN+B2frames, then empty pads;245recordedframes perclip.",
+  "runtime": [
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "before": {
+        "sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\before-1\\report.json",
+        "reaction": "0xa1",
+        "wake_program": "0xc2",
+        "damage": 6,
+        "hit_frame": 12,
+        "final_floor_start_frame": 110,
+        "wake_start_frame": 156,
+        "idle_frame": 190,
+        "floor_native_ticks": 42,
+        "floor_display_frames": 46,
+        "floor_seconds": 0.7676551070038231,
+        "wake_native_ticks": 30,
+        "hit_to_idle_native_ticks": 154,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\before-1\\Barrido.mp4"
+      },
+      "after": {
+        "sha256": "44832df25a829261ff304d981ab8fb2aa4cd73f7a933413e4e5a873d0831a9f1",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\after-1\\report.json",
+        "reaction": "0xa1",
+        "wake_program": "0xc2",
+        "damage": 6,
+        "hit_frame": 12,
+        "final_floor_start_frame": 110,
+        "wake_start_frame": 143,
+        "idle_frame": 178,
+        "floor_native_ticks": 30,
+        "floor_display_frames": 33,
+        "floor_seconds": 0.5507090985027426,
+        "wake_native_ticks": 30,
+        "hit_to_idle_native_ticks": 142,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\after-1\\Barrido.mp4"
+      },
+      "entire_trace_identical_through_final_floor_start": true,
+      "wake_duration_preserved": true,
+      "floor_ticks_saved": 12
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "before": {
+        "sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\before-2\\report.json",
+        "reaction": "0xa4",
+        "wake_program": "0xc0",
+        "damage": 8,
+        "hit_frame": 13,
+        "final_floor_start_frame": 116,
+        "wake_start_frame": 177,
+        "idle_frame": 210,
+        "floor_native_ticks": 54,
+        "floor_display_frames": 61,
+        "floor_seconds": 1.01797742450507,
+        "wake_native_ticks": 29,
+        "hit_to_idle_native_ticks": 165,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\before-2\\Barrido.mp4"
+      },
+      "after": {
+        "sha256": "44832df25a829261ff304d981ab8fb2aa4cd73f7a933413e4e5a873d0831a9f1",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\after-2\\report.json",
+        "reaction": "0xa4",
+        "wake_program": "0xc0",
+        "damage": 8,
+        "hit_frame": 13,
+        "final_floor_start_frame": 116,
+        "wake_start_frame": 149,
+        "idle_frame": 185,
+        "floor_native_ticks": 30,
+        "floor_display_frames": 33,
+        "floor_seconds": 0.5507090985027426,
+        "wake_native_ticks": 29,
+        "hit_to_idle_native_ticks": 141,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\after-2\\Barrido.mp4"
+      },
+      "entire_trace_identical_through_final_floor_start": true,
+      "wake_duration_preserved": true,
+      "floor_ticks_saved": 24
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "before": {
+        "sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\before-5\\report.json",
+        "reaction": "0xa5",
+        "wake_program": "0xc1",
+        "damage": 9,
+        "hit_frame": 13,
+        "final_floor_start_frame": 129,
+        "wake_start_frame": 161,
+        "idle_frame": 190,
+        "floor_native_ticks": 30,
+        "floor_display_frames": 32,
+        "floor_seconds": 0.5340209440026595,
+        "wake_native_ticks": 24,
+        "hit_to_idle_native_ticks": 148,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\before-5\\Barrido.mp4"
+      },
+      "after": {
+        "sha256": "44832df25a829261ff304d981ab8fb2aa4cd73f7a933413e4e5a873d0831a9f1",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\after-5\\report.json",
+        "reaction": "0xa5",
+        "wake_program": "0xc1",
+        "damage": 9,
+        "hit_frame": 13,
+        "final_floor_start_frame": 129,
+        "wake_start_frame": 161,
+        "idle_frame": 190,
+        "floor_native_ticks": 30,
+        "floor_display_frames": 32,
+        "floor_seconds": 0.5340209440026595,
+        "wake_native_ticks": 24,
+        "hit_to_idle_native_ticks": 148,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\after-5\\Barrido.mp4"
+      },
+      "entire_trace_identical_through_final_floor_start": true,
+      "wake_duration_preserved": true,
+      "floor_ticks_saved": 0
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "before": {
+        "sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\before-9\\report.json",
+        "reaction": "0xa1",
+        "wake_program": "0xc0",
+        "damage": 7,
+        "hit_frame": 13,
+        "final_floor_start_frame": 118,
+        "wake_start_frame": 166,
+        "idle_frame": 201,
+        "floor_native_ticks": 42,
+        "floor_display_frames": 48,
+        "floor_seconds": 0.8010314160039893,
+        "wake_native_ticks": 29,
+        "hit_to_idle_native_ticks": 153,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\before-9\\Barrido.mp4"
+      },
+      "after": {
+        "sha256": "44832df25a829261ff304d981ab8fb2aa4cd73f7a933413e4e5a873d0831a9f1",
+        "report": "work\\gameplay-review\\knockdown\\comparison\\after-9\\report.json",
+        "reaction": "0xa1",
+        "wake_program": "0xc0",
+        "damage": 7,
+        "hit_frame": 13,
+        "final_floor_start_frame": 118,
+        "wake_start_frame": 152,
+        "idle_frame": 188,
+        "floor_native_ticks": 30,
+        "floor_display_frames": 34,
+        "floor_seconds": 0.5673972530028257,
+        "wake_native_ticks": 29,
+        "hit_to_idle_native_ticks": 141,
+        "both_human": true,
+        "video": "work\\gameplay-review\\knockdown\\comparison\\after-9\\Barrido.mp4"
+      },
+      "entire_trace_identical_through_final_floor_start": true,
+      "wake_duration_preserved": true,
+      "floor_ticks_saved": 12
+    }
+  ],
+  "preserved": "Prior falling/bounce behavior verified frame-for-frame through finalfloor entry on all4pairs. Wake programsC0/C1/C2 retain original durations. All other reaction sequences, hitstopactor40, damage/flag/filter bytes unchanged. CellA5 serves unchanged control case.",
+  "protection_tradeoff": "Native melee filters11E28..11E4A and11EB6..11EE2 exclude stateaction19/reaction and21/wake. Returning earlier also ends this state-based protection12updates earlier forA1,24forA4. No independent invulnerability duration guarantee.",
+  "media": {
+    "left": "Before V4",
+    "right": "Final A1+A4 candidate",
+    "comparisons": [
+      "Comparacion-Gohan-antes-izquierda.mp4",
+      "Comparacion-Piccolo-antes-izquierda.mp4",
+      "Comparacion-Recoome-antes-izquierda.mp4",
+      "Comparacion-Cell-sin-cambio.mp4"
+    ],
+    "stills": [
+      "Gohan-antes-despues-F150.png",
+      "Piccolo-antes-despues-F160.png"
+    ],
+    "note": "Native RAM/prepared sprite data can lead framebuffer. Use recorded video for judging authored poses, not an isolated same-frame RAM pose. Natural knockback pushes defender partly outside right viewport in these identical-position fixtures."
+  },
+  "limits": [
+    "Validated one native ground sweep reaction per defender, not every knockdown cause or every character. GroundCIDtable explains coverage across A1/A4/A5 families.",
+    "Other-planeA6/A7/A8, air-specific impacts, KO, cinematics, repeated wake pressure and post-wake damage balance were not runtime-tested here.",
+    "Human feel still requires user review. No CPU autoplay, repository edits or parent ROM mutation. Candidate is separate from V4."
+  ]
+}

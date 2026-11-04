@@ -1,0 +1,40 @@
+{
+  "source": "work\\auras\\colors-v4\\candidate.bin",
+  "source_sha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+  "candidate": "work\\gameplay-review\\knockdown\\candidate.bin",
+  "sha256": "44832df25a829261ff304d981ab8fb2aa4cd73f7a933413e4e5a873d0831a9f1",
+  "patches": [
+    {
+      "offset": "0x1F3A0",
+      "before": "72",
+      "after": "66",
+      "role": "A1 sequence duration114->102"
+    },
+    {
+      "offset": "0x1F3A7",
+      "before": "07",
+      "after": "05",
+      "role": "A1 final lying pose weight7->5"
+    },
+    {
+      "offset": "0x1F3B1",
+      "before": "7E",
+      "after": "66",
+      "role": "A4 sequence duration126->102"
+    },
+    {
+      "offset": "0x1F3B9",
+      "before": "09",
+      "after": "05",
+      "role": "A4 final lying pose weight9->5"
+    },
+    {
+      "offset": "0x18E",
+      "before": "d9e0",
+      "after": "cdc2",
+      "role": "Genesis ROM header checksum"
+    }
+  ],
+  "preserved": "A1/A4 prior positive weights and6ticks/unit, airborne hold marker80, wake programsC0/C1/C2, hitstop, collision/invulnerability filtering and all other reaction sequence bytes untouched.",
+  "effect": "A1 final floor hold42->30 and A4 final floor hold54->30 native updates. Earlier return to control also ends state-based damage protection12/24updates earlier respectively; no independent invulnerability duration guarantee."
+}

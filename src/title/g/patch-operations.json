@@ -1,0 +1,74 @@
+{
+  "status": "Real emulator title captured and visually inspected; BANDAI preserved",
+  "text": "- 2026 ALEX LLAO",
+  "sourceSha256": "100b546f0555b014ac8cd01ddd7d12af97b8acf8011a006e2933afcc3a42983b",
+  "targetSha256": "ffac017e55c0e25e28c563fdec54d7447b7129fc825ff90f0576b4af7f1acadd",
+  "paletteSource": "work/rom/presentation-shadows-G.bin",
+  "paletteRange": "0x1ADE32..0x1ADE51",
+  "vramNewTiles": "0xD000..0xD2FF",
+  "originalCreditRow": "All original Japanese and BANDAI 1994 copyright sprites and graphics preserved; original two lines moved up16px; mod credit appended on separate third line",
+  "creditLineNativeY": {
+    "japanese": 168,
+    "bandai1994": 184,
+    "alexLlao": 200
+  },
+  "patchOperations": [
+    {
+      "address": 4128768,
+      "data": "ff02ff0000000000000000ff0000000000000000ff0000000000000000ff0000000055555550ff5111115055555550ff0000000000000000ff0000000000000000ff0000000000000000ff0000000000000000ff0000055500000511ff0000551100005155ff0000555000000005ff0000005500000051ff0000055100005515ff0000511100005555ff0000000000000000ff0000000000000000ff5505555515051115ff1555111551515551ff5151551151515511ff1551515155511551ff5051155155515551ff1155111555555555ff0000000000000000ff0000000000000000ff0555550005111500ff5511155551555155ff5550515150055151ff5055155150515551ff5551505155155551ff5111115555555555ff0000000000000000ff0000000000000000ff5555000051150000ff5115000015550000ff5500000055550000ff1115500055515000ff5051500055515000ff1115500055550000ff0000000000000000ff0000000000000000ff0005555500051115ff0055111500515551ff0051505100515551ff0051111100515551ff0051505100515051ff0051505100555055ff0000000000000000ff0000000000000000ff5550005551500051ff5150005151500051ff5150005151500051ff5150005151500051ff5150005151555551ff5111115155555555ff0000000000000000ff0000000000000000ff5555555011115150ff1111515055555155ff5000551555550515ff1115055155550515ff5000551555555155ff1111515055555550ff0000000000000000ff0000000000000000ff5550000051500000ff5150000051500000ff1550000015000000ff5500000015000000ff1550000051500000ff5150000055500000ff0000000000000000ff0000000000000000ff5550005551500051ff5150005151500051ff5150005151500051ff5150005151500051ff5150005151555551ff5111115155555555ff0000000000000000ff0000000000000000ff5000055550000511ff5000551150005155ff5000515050005155ff5000511150005155ff5000515055555150ff1111515055555550ff0000000000000000ff0000000000000000ff5505555515051115ff1555111551515551ff5151505151515051ff1151505151515051ff5151505151515551ff5155111555555555ff0000000000000000",
+      "label": "New outlined credit glyphs, native compressed resource"
+    },
+    {
+      "address": 4129792,
+      "data": "000ea680d0100f0da688f0100f0da6901010000da20c18000005a20a08000005a202e8000f0da2e0c8000f0da2de58f0f001a2d638f0f00da2ce18f0f00da2c6f8f0ff0da2bed8f0ff0da2b6b8f0ff0da2ae98f0ff0d",
+      "label": "Credit map: three new sprites plus all eleven original Japanese and BANDAI copyright sprites, original lines moved up16px"
+    },
+    {
+      "address": 4130048,
+      "data": "48e7fffe41f9003f0000327cd0004eb9000015d24cdf7fff31fc0050e9e64e75",
+      "label": "Title-only load helper at VRAM D000; native renderer SAT is DC00"
+    },
+    {
+      "address": 490448,
+      "data": "4eb9003f0500",
+      "label": "Title init hook"
+    },
+    {
+      "address": 491670,
+      "data": "003f0400",
+      "label": "Redirect copyright sprite map"
+    },
+    {
+      "address": 1760818,
+      "data": "000000020642024604ae068a042004a4028a0eee0cce086204ac02620aee0eee",
+      "label": "Approved presentation palette G, sixteen words only"
+    },
+    {
+      "address": 398,
+      "data": "ae9e",
+      "label": "Mega Drive checksum"
+    }
+  ],
+  "unchangedOutsideOperations": true,
+  "originalCopyrightVerification": {
+    "allElevenSpritesPreserved": true,
+    "onlyOriginalSpriteChange": "Y minus16; attr, tile, x, size and graphic resources unchanged",
+    "originalGraphicResourcesByteIdentical": true
+  },
+  "capture": {
+    "path": "work\\gameplay-review\\title-credits-preserve-bandai.png",
+    "sha256": "60720a56d2f5fec3adfcd1d4e219c4ec52dda9003348e649033580c023efe3b7",
+    "core": "Genesis Plus GX v1.7.4 f27655b",
+    "framesFromBoot": 1276,
+    "nativeSize": [
+      320,
+      224
+    ],
+    "scale": 2,
+    "visualInspection": "Japanese copyright line, original BANDAI1994 row, new -2026ALEXLLAO row all visible with separate baselines"
+  },
+  "limits": [
+    "No physical Mega Drive test.",
+    "Patch operations are based on V4; combine by address to preserve newer gameplay changes, then recalculate checksum."
+  ]
+}

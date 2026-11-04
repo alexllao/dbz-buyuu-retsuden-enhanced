@@ -6,13 +6,13 @@
     "label": "C con contraste marcado",
     "image": "assets/comparisons/title/G.png",
     "date": "2026-11-04",
-    "status": "Elegida; captura real de la paleta disponible, pendiente integrar en la siguiente ROM combinada",
+    "status": "Integrada en revisión v5, paleta G y crédito propio conservando Bandai y la línea japonesa",
     "feedback": "Más sombras y menos amarillo, tomando C como base. El usuario eligió G.",
     "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
     "paletteRecord": "research/palettes/title-shadows-v1.json",
     "modCredit": {
       "text": "- 2026 ALEX LLAO",
-      "status": "Solicitado; pendiente implementar en los gráficos de presentación",
+      "status": "Integrado en línea separada; © BANDAI 1994 conservado",
       "usePseudonym": false
     }
   },
@@ -323,5 +323,11 @@
     "status": "Completed bounded test; no freeze detected",
     "humanPlayabilityApproval": false,
     "naturalCinematicSpecialsCovered": false
+  },
+  "gameplayV2": {
+    "status": "Experimental, para prueba manual del usuario",
+    "movement": "Native double tap, hold to run, original release inertia",
+    "knockdown": "A1 42->30 ticks; A4 54->30 ticks; A5 unchanged30",
+    "deferred": "Universal close-range side switch without hit; not implemented"
   }
 }

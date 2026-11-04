@@ -36,3 +36,12 @@ El décimo escenario tiene una propuesta visual de montañas nevadas, en suelo y
 - [ ] Revisar visualmente la llama y la salida de C2 v3.
 - [x] Preparar bocetos de suelo y vuelo para montañas nevadas.
 - [ ] Auditar cajas reales y ventanas de colisión para valorar el parche de jugabilidad.
+
+## Revisión tras la prueba manual
+
+- [x] Recuperar carrera con doble toque y frenado con inercia nativa.
+- [x] Acortar el reposo final de derribos terrestres A1/A4.
+- [x] Integrar presentación G, conservar ©BANDAI1994 y añadir -2026 ALEX LLAO aparte.
+- [x] Añadir las 126 técnicas de los once personajes al README, con fuente y licencia de la adaptación.
+- [ ] Valorar esta revisión con mando y verificar hardware/especiales completos.
+- [ ] Más adelante: cambio de lado cercano para todos, sin golpe.

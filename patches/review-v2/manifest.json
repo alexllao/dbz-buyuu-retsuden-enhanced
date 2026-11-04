@@ -1,0 +1,32 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v5.bin",
+    "sha256": "3883a0518927805eeb349944bf2a6dd813377ed53b6a5fc379ad77602f34fd0f",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v2/enhanced-v5.ips",
+    "sha256": "6a8a0076373a505768da3845a4b363179cec23d86755d0b59063979b03bbe682"
+  },
+  "components": [
+    "gameplay v2: native locomotion with original inertia; v1 basic recovery/input queue retained",
+    "ground knockdown A1 42->30 ticks; A4 54->30 ticks; A5 unchanged30",
+    "approved title G and - 2026 ALEX LLAO",
+    "character/stage colors v1 and Ki v4 without lightning"
+  ],
+  "limits": [
+    "Manual feel remains for user review",
+    "No physical console validation",
+    "No new CPU autoplay; earlier comparison belongs to previous v4 build",
+    "HUD H4, selection portraits and stage10 still not integrated"
+  ],
+  "assembly": {
+    "path": "src/gameplay/v2/controls.hex",
+    "bytes": 722,
+    "sha256": "a86d2422fd69907e9aa0944b303d5f023145864024745edfc0086f64e9fdc3be"
+  }
+}

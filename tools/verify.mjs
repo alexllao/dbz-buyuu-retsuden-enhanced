@@ -133,6 +133,18 @@ for (let i = 0; i < 384; i++) {
   }
 }
 
+const reviewV2 = await json('patches/review-v2/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, reviewV2.patch.path))), reviewV2.patch.sha256);
+const reviewCode = await readHex(reviewV2.assembly.path);
+assert.equal(reviewCode.length, reviewV2.assembly.bytes);
+assert.equal(sha256(reviewCode), reviewV2.assembly.sha256);
+const reviewMatrix = await json('evidence/gameplay-v2/movement-matrix.json');
+assert.equal(reviewMatrix.length, 22);
+assert(reviewMatrix.every(item => item.passed && Object.values(item.checks).every(Boolean)));
+for (const name of ['final-p1', 'final-p2-turbo']) {
+  assert.equal((await json(`evidence/gameplay-v2/${name}.json`)).rom, reviewV2.target.sha256);
+}
+
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {

@@ -1,0 +1,354 @@
+[
+  {
+    "character": 0,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 0,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": false,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": false,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": false
+  },
+  {
+    "character": 1,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 1,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 2,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 2,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": false,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": false,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": false
+  },
+  {
+    "character": 3,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 3,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 4,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 4,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 5,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 5,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 6,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 6,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 7,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 7,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 8,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 8,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 9,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 9,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 10,
+    "turbo": false,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": true,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": true,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": true
+  },
+  {
+    "character": 10,
+    "turbo": true,
+    "romSha256": "1153590c8847b6e6f08598ceddf2c0815d49e02cfcfca8f5c704d71d33ce2558",
+    "checks": {
+      "LEFT-single-no-dash": true,
+      "LEFT-double-dash": false,
+      "LEFT-held-dash": true,
+      "LEFT-release-idle": true,
+      "RIGHT-single-no-dash": true,
+      "RIGHT-double-dash": false,
+      "RIGHT-held-dash": true,
+      "RIGHT-release-idle": true
+    },
+    "passed": false
+  }
+]

@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: jugabilidad v1 experimental · ki v4 aceptado; comparación CPU original/mod completada, prueba manual pendiente · escenario nevado en bocetos**
+**Estado: revisión v5 de prueba · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -16,18 +16,24 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 | Apartado | Estado |
 | --- | --- |
-| Controles v1 | Implementados y probados en emulador con los 11 personajes, en normal y turbo. |
+| Controles v2 | Doble toque, dirección mantenida y frenado con inercia; espera terrestre reducida. [Cambios y pruebas](docs/gameplay-v2.md). |
 | Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
 | Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
-| Presentación | **G — C con contraste marcado elegida**; pendiente de integrar en la próxima ROM. |
+| Presentación | **G integrada**, con **© BANDAI 1994** y **- 2026 ALEX LLAO** en líneas separadas. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
 | Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; paletas aceptadas visualmente. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Prueba CPU: original frente a nuestra ROM
+## Revisión actual: ROM v5
+
+Corrige la carrera que fallaba en v1: doble toque hacia delante o atrás y mantener; al soltar, salida con inercia original. Acorta la espera tumbado tras los derribos terrestres largos e integra la presentación G con los créditos originales y el del mod. **La valoración con mando sigue abierta.**
+
+[Ver cambios, captura y límites](docs/gameplay-v2.md). Genera esta versión con `pnpm build:review --rom "ruta/a/original.bin"`. Las versiones anteriores y sus comparaciones se conservan.
+
+## Prueba CPU anterior: original frente a v4
 
 **Seis enfrentamientos con los once personajes, unos 3 min 30 s por versión**, sin botones humanos durante el combate. Original japonés sin parches a la izquierda; Jugabilidad v1 + Colores v1 + Ki v4 a la derecha. No se detectaron bloqueos en estos ensayos. La jugabilidad con mando sigue pendiente de valoración del usuario.
 
@@ -105,9 +111,245 @@ Referencias aportadas: [Super Butōden 2 en The Spriters Resource](https://www.s
 
 El HTML funciona sin conexión y reconstruye 13 ensayos con gráficos nativos y cajas registradas del juego. No es una grabación. Las comparaciones de alcance no detectan cambios en los casos probados; las tablas y rutinas de colisión examinadas conservan sus bytes originales.
 
-## Las cuatro mejoras de jugabilidad
+## Controles y movimientos
 
-1. **Parada más rápida:** soltar la dirección interrumpe antes el desplazamiento terrestre; los toques breves conservan un mínimo avance.
+**Mando por defecto:** A = puño, B = patada, C = cambiar entre suelo y vuelo; A+B = cargar ki. Si reasignas los botones, usa su función equivalente.
+
+| Acción | Entrada |
+| --- | --- |
+| Caminar | Mantener adelante o atrás. |
+| Correr hacia delante | Adelante, soltar brevemente, adelante y mantener. |
+| Correr hacia atrás | Atrás, soltar brevemente, atrás y mantener. |
+| Frenar | Soltar la dirección; conservar una breve inercia como en el original es la conducta elegida para la revisión v2. |
+| Saltar / agacharse | Arriba / abajo. |
+| Defender | Mantener atrás frente al ataque. |
+| Cargar ki | Mantener A+B. |
+
+Las flechas de las tablas suponen que miras a la **derecha**: → = hacia el rival, ← = alejarse. Invierte las direcciones cuando mires a la izquierda. Haz las direcciones en secuencia y pulsa el botón junto a la última. «Mantener ↓» indica carga previa; «en el aire» exige estar saltando o volando. La distancia, el ki y el estado de ambos luchadores también pueden condicionar una técnica.
+
+**Guía del juego original:** combinaciones adaptadas de [StrategyWiki: Moves](https://strategywiki.org/wiki/Dragon_Ball_Z:_Buyuu_Retsuden/Moves), revisión [1096353](https://strategywiki.org/w/index.php?title=Dragon_Ball_Z:_Buyuu_Retsuden/Moves&oldid=1096353), aportada por el usuario. Se conservan sus nombres para facilitar la consulta. Las tablas describen los comandos originales, no una validación completa de todos los especiales en el parche.
+
+El **High Speed Move** de Goku, Gohan y Cell usa → ← → + B: es una técnica ofensiva que puede cruzar al otro lado, no una esquiva universal. La propuesta de añadir a todos un cambio de lado cercano **sin golpe** queda guardada para después; todavía no está implementada.
+
+<details>
+<summary>Goku: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Blast | ← → + A |
+| Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
+| Kiai Cannon | mantener ↓ ↓ ↘ → + A |
+| Solar Flare | → ← → + A |
+| Dash Elbow | ↓ ↙ ← + A |
+| Jump Knee Lift | ↙ ↗ + B |
+| Flurry Kick | ← ↙ ↓ ↘ → + B |
+| Kamehameha | → ↘ ↓ ↙ ← + A |
+| Super Kamehameha | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Slashdown Kick | en el aire: → ↘ ↓ + B |
+| High Speed Move | → ← → + B |
+| Super Meteor Smash | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Gohan: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Blast | ← → + A |
+| Kiai Cannon | mantener ↓ ↓ ↘ → + A |
+| Shock Wave | → ← → + A |
+| Bakuretsu Punch | ← ↙ ↓ ↘ → + A |
+| Super Straight Punch | ↓ ↘ → + A |
+| Bakuretsu Kick | ← ↙ ↓ ↘ → + B |
+| Flying Kick | en el aire: → ↘ ↓ + B |
+| Masenko | ← ↙ ↓ ↘ → ← + A |
+| Kamehameha | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| High Speed Move | → ← → + B |
+| Chou Bakuretsu Rush | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Piccolo: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Shot | ← → + A |
+| Energy Shock | ← ↙ ↓ + A |
+| Shock Wave | → ← → + A |
+| Dash Elbow | ↓ ↙ ← + A |
+| Knee Upper | ← ↙ ↓ + B |
+| Sonic Kick | → ← → + B |
+| Flying Kick | en el aire: → ↘ ↓ + B |
+| Special Beam Cannon | ↓ ↙ ← → + A |
+| Light Grenade | → ↘ ↓ ↙ ← + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Namekian Style: Moukou Retsuken | ← ↙ ↓ ↘ → ← + B |
+
+</details>
+
+<details>
+<summary>Vegeta: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Blast | ← → + A |
+| Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
+| Destructo Disc | mantener ↓ ↓ ↘ → + A |
+| Ground Flare | ↓ ↘ → + A |
+| Slash Arrow Kick | ↓ ↘ → + B |
+| Driving Elbow Attack | ↓ ↙ ← + A |
+| Super Crush | ← ↙ ↓ + A |
+| Big Bang Attack | ← ↙ ↓ ↘ → ← + A |
+| Final Flash | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Final Brid Attack | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Trunks: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Cannon | ← → + A |
+| Energy Slash | mantener ↓ ↓ ↙ ← + A |
+| Double Energy Blast | → ← → + A |
+| Ground Flare | ↓ ↘ → + A |
+| Slashdown Kick | en el aire: → ↘ ↓ + B |
+| Consecutive Kick | → ← → + B |
+| Bakuretsu Punch | ← ↙ ↓ ↘ → + A |
+| Burning Attack | ↓ ↙ ← → + A |
+| Finish Blaster | ← ↙ ↓ ↘ → ← + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Tornado Breaker | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Cell: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Shot | ← → + A |
+| Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
+| Kiai Cannon | mantener ↓ ↓ ↘ → + A |
+| Wave Shock | ← ↙ ↓ + A |
+| Ground Slider | ← ↙ ↓ + B |
+| Dash Headbutt | ↓ ↙ ← + A |
+| Ground Flare | en el aire: ← ↙ ↓ + A |
+| Special Beam Cannon | ↓ ↙ ← → + A |
+| Kamehameha | → ↘ ↓ ↙ ← + A |
+| Sliding Kick | → ↘ ↓ + B |
+| High Speed Move | → ← → + B |
+| Needle Rush | ← ↙ ↓ ↘ → ← + B |
+
+</details>
+
+<details>
+<summary>A18: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Flash Beam | ← → + A |
+| Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
+| Energy Slash | → ← → + A |
+| Critical Attack | ↓ ↘ → + A |
+| Slash Dance | en el aire: → ↘ ↓ + B |
+| Dash Elbow | ↓ ↙ ← + A |
+| Dash Attack | ← ↙ ↓ + A |
+| Super Energy Wave | ← ↙ ↓ ↘ → + A |
+| Energy Flame | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Bloody Drive | ← ↙ ↓ ↘ → ← + B |
+
+</details>
+
+<details>
+<summary>Krilin: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Blast | ← → + A |
+| Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
+| Destructo Disc | mantener ↓ ↓ ↘ → + A |
+| Solar Flare | → ← → + A |
+| Bakuretsu Kick | ← ↙ ↓ ↘ → + B |
+| Kamehame Attack | ↓ ↙ ← + A |
+| Kamehame Down Attack | en el aire: → ↘ ↓ + A |
+| Super Kiai Cannon | → ↘ ↓ ↙ ← + A |
+| Kamehameha | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Turtle School Style: Gekishuu Ranbu | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Freezer: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Frieza Beam | ← → + A |
+| Destructo Disc | mantener ↓ ↓ ↘ → + A |
+| Frieza Cutter | → ← → + A |
+| Ground Flare | ↓ ↘ → + A |
+| Tail Cut | → ← → + B |
+| Head Attack | ← ↙ ↓ + A |
+| Dash Elbow | ↓ ↙ ← + A |
+| Mega Buster | ↓ ↙ ← → + A |
+| Death Ball | ← ↙ ↓ ↘ → ← + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Frieza Tail Buster | ← ↙ ↓ ↘ → ← + B |
+| Frieza Psychokinesis | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Recoome: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Blast | ← → + A |
+| Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
+| Energy Defense | → ← → + A |
+| Mach Attack | ↓ ↘ → + A |
+| Power Bomb | ← ↙ ↓ + A |
+| Crush Down | ↓ ↘ → + B |
+| Recoome Kick | ← ↙ ↓ + B |
+| Fighting Bomber | → ↘ ↓ ↙ ← + A |
+| Eraser Gun | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Ultra Fighting Dance | → ← → + B |
+| Recoome Death Driver | → ↘ ↓ ↙ ← → + B |
+
+</details>
+
+<details>
+<summary>Ginyu: movimientos</summary>
+
+| Técnica | Combinación |
+| --- | --- |
+| Energy Blast | ← → + A |
+| Energy Cannon | mantener ↓ ↓ ↘ → + A |
+| Ground Explosion | → ← → + A |
+| Ground Flare | ↓ ↘ → + A |
+| Straight Kick | → ← → + B |
+| Dash Elbow | ↓ ↙ ← + A |
+| Dynamite Punch | ← ↙ ↓ ↘ → + A |
+| Terra Smash | ↓ ↙ ← → + A |
+| Sliding Kick | → ↘ ↓ + B |
+| Body Change | ← ↙ ↓ ↘ → ← + B |
+
+</details>
+
+Atribución: colaboradores de StrategyWiki, enlace y revisión indicados arriba. Esta adaptación de sus tablas se ofrece bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); se han convertido los iconos a texto, añadido la correspondencia A/B y notas del proyecto. Esa licencia se aplica a esta adaptación documental, no declara una licencia para la ROM ni para todo el repositorio.
+
+## Historial: las cuatro mejoras de jugabilidad v1
+
+1. **Parada más rápida (retirada en v2):** la cancelación añadida rompía el doble toque para correr. La revisión actual recupera el movimiento y la inercia nativos a petición del usuario.
 2. **Pulsación pendiente:** una nueva pulsación de puño o patada se conserva durante cinco actualizaciones posteriores de entrada. Si termina la recuperación a tiempo, se ejecuta; una entrada demasiado temprana caduca.
 3. **Recuperaciones ajustadas:** se recortan hasta dos ticks del tramo final de secuencias simples de golpes básicos, al llegar a su pose final.
 4. **Vuelta a guardia más suave:** se enlazan unas pocas poses existentes; empezar otra acción cancela la transición visual inmediatamente.
@@ -133,13 +375,16 @@ pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Controles nuevos y colores originales
+# Revisión actual v5: controles v2, colores, ki v4, presentación G y créditos
+pnpm build:review --rom "ruta/a/original.bin"
+
+# Historial: controles v1 y colores originales
 pnpm build --rom "ruta/a/original.bin"
 
 # Los mismos controles y las paletas Colores v1
 pnpm build:colors --rom "ruta/a/original.bin"
 
-# Prueba actual: controles, colores y auras C2 v2
+# Historial: controles v1, colores y auras C2 v2
 pnpm build:auras:v2 --rom "ruta/a/original.bin"
 ```
 
