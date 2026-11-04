@@ -1,0 +1,80 @@
+{
+  "sourceSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+  "targetSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "onlyAllowedRangesChanged": true,
+  "changedBytes": 1135,
+  "allowedRanges": [
+    [
+      "0x18e",
+      "0x190"
+    ],
+    [
+      "0x8dcc",
+      "0x8dd2"
+    ],
+    [
+      "0x8f58",
+      "0x8f60"
+    ],
+    [
+      "0x209dc",
+      "0x209e4"
+    ],
+    [
+      "0x20a46",
+      "0x20a4c"
+    ],
+    [
+      "0x7b000",
+      "0x7b400"
+    ],
+    [
+      "0x3e0000",
+      "0x3e021b"
+    ]
+  ],
+  "preserved": {
+    "nativeInputHistoryAndAttackParser": {
+      "start": "0x9170",
+      "endExclusive": "0x9491",
+      "sha256": "8ee7170012b750c23817a9db7d37ab4a41274facfd0f95b5df3170497b9f80a7",
+      "unchanged": true
+    },
+    "characterMoveTables": {
+      "start": "0x2216a",
+      "endExclusive": "0x22742",
+      "sha256": "0405c45ef536e142ffdaee26f5c2c42895c8bccca5a2c32899c0f74fa4b99390",
+      "unchanged": true
+    },
+    "nativeSideSwitchHandler": {
+      "start": "0x1631c",
+      "endExclusive": "0x164ee",
+      "sha256": "4740693dac643882c35b7087637c61d52262e8c421042888c562bdd60f753a5c",
+      "unchanged": true
+    },
+    "nativeSideSwitchAnimation": {
+      "start": "0x1fed5",
+      "endExclusive": "0x1fef0",
+      "sha256": "4dfc4dc18ac8857ca01884d05a5c7a04fdb478759575529ca324962fe9c0af7f",
+      "unchanged": true
+    },
+    "collisionTables": {
+      "start": "0x19e6ce",
+      "endExclusive": "0x1a8ea2",
+      "sha256": "ec914a409d13a0bc3621cfa807a171f1b8f852524bff731cb8446c7803ea8cb7",
+      "unchanged": true
+    },
+    "groundReactionA1A4A5": {
+      "start": "0x1f39f",
+      "endExclusive": "0x1f3cd",
+      "sha256": "bd629ab2eb5f0ddbb5964ab86fad04ca1e1b6c0b4f7cf5598ca80187ee075996",
+      "unchanged": true
+    },
+    "approvedTitleAndCreditResources": {
+      "start": "0x3f0000",
+      "endExclusive": "0x3f0800",
+      "sha256": "373309c948bb31418b32e6c22e087115815e487241e3f911f4d1f9cd98aaf93d",
+      "unchanged": true
+    }
+  }
+}

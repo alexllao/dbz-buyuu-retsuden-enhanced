@@ -1,0 +1,332 @@
+[
+  {
+    "cid": 0,
+    "pose": 2,
+    "width": 56,
+    "height": 88,
+    "sprites": 11,
+    "valid": true,
+    "graphics": "0x80d58",
+    "mapping": "0x94534"
+  },
+  {
+    "cid": 0,
+    "pose": 17,
+    "width": 48,
+    "height": 80,
+    "sprites": 8,
+    "valid": true,
+    "graphics": "0x84620",
+    "mapping": "0x9483a"
+  },
+  {
+    "cid": 0,
+    "pose": 18,
+    "width": 88,
+    "height": 72,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0x849d6",
+    "mapping": "0x9486c"
+  },
+  {
+    "cid": 1,
+    "pose": 2,
+    "width": 32,
+    "height": 64,
+    "sprites": 2,
+    "valid": true,
+    "graphics": "0x95e12",
+    "mapping": "0xa17e8"
+  },
+  {
+    "cid": 1,
+    "pose": 17,
+    "width": 40,
+    "height": 56,
+    "sprites": 4,
+    "valid": true,
+    "graphics": "0x97f6e",
+    "mapping": "0xa1932"
+  },
+  {
+    "cid": 1,
+    "pose": 18,
+    "width": 48,
+    "height": 56,
+    "sprites": 4,
+    "valid": true,
+    "graphics": "0x98160",
+    "mapping": "0xa194c"
+  },
+  {
+    "cid": 2,
+    "pose": 2,
+    "width": 72,
+    "height": 88,
+    "sprites": 13,
+    "valid": true,
+    "graphics": "0xc951a",
+    "mapping": "0xe50c6"
+  },
+  {
+    "cid": 2,
+    "pose": 17,
+    "width": 56,
+    "height": 88,
+    "sprites": 10,
+    "valid": true,
+    "graphics": "0xcdb1c",
+    "mapping": "0xe5534"
+  },
+  {
+    "cid": 2,
+    "pose": 18,
+    "width": 96,
+    "height": 72,
+    "sprites": 14,
+    "valid": true,
+    "graphics": "0xcdfb6",
+    "mapping": "0xe5572"
+  },
+  {
+    "cid": 3,
+    "pose": 2,
+    "width": 48,
+    "height": 80,
+    "sprites": 6,
+    "valid": true,
+    "graphics": "0xa28e2",
+    "mapping": "0xb5226"
+  },
+  {
+    "cid": 3,
+    "pose": 17,
+    "width": 40,
+    "height": 80,
+    "sprites": 6,
+    "valid": true,
+    "graphics": "0xa558e",
+    "mapping": "0xb544e"
+  },
+  {
+    "cid": 3,
+    "pose": 18,
+    "width": 72,
+    "height": 72,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0xa58f2",
+    "mapping": "0xb5474"
+  },
+  {
+    "cid": 4,
+    "pose": 2,
+    "width": 56,
+    "height": 80,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0xb6922",
+    "mapping": "0xc7a36"
+  },
+  {
+    "cid": 4,
+    "pose": 17,
+    "width": 40,
+    "height": 72,
+    "sprites": 7,
+    "valid": true,
+    "graphics": "0xb96c8",
+    "mapping": "0xc7c70"
+  },
+  {
+    "cid": 4,
+    "pose": 18,
+    "width": 80,
+    "height": 56,
+    "sprites": 7,
+    "valid": true,
+    "graphics": "0xb99ba",
+    "mapping": "0xc7c9c"
+  },
+  {
+    "cid": 5,
+    "pose": 2,
+    "width": 72,
+    "height": 104,
+    "sprites": 12,
+    "valid": true,
+    "graphics": "0xe7972",
+    "mapping": "0x1021e4"
+  },
+  {
+    "cid": 5,
+    "pose": 17,
+    "width": 80,
+    "height": 88,
+    "sprites": 10,
+    "valid": true,
+    "graphics": "0xec91a",
+    "mapping": "0x1025e0"
+  },
+  {
+    "cid": 5,
+    "pose": 18,
+    "width": 88,
+    "height": 88,
+    "sprites": 11,
+    "valid": true,
+    "graphics": "0xece36",
+    "mapping": "0x10261e"
+  },
+  {
+    "cid": 6,
+    "pose": 2,
+    "width": 40,
+    "height": 71,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0x103f40",
+    "mapping": "0x11163a"
+  },
+  {
+    "cid": 6,
+    "pose": 17,
+    "width": 32,
+    "height": 72,
+    "sprites": 7,
+    "valid": true,
+    "graphics": "0x106146",
+    "mapping": "0x111898"
+  },
+  {
+    "cid": 6,
+    "pose": 18,
+    "width": 64,
+    "height": 72,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0x1063c0",
+    "mapping": "0x1118c4"
+  },
+  {
+    "cid": 7,
+    "pose": 2,
+    "width": 48,
+    "height": 64,
+    "sprites": 6,
+    "valid": true,
+    "graphics": "0x112c48",
+    "mapping": "0x120c88"
+  },
+  {
+    "cid": 7,
+    "pose": 17,
+    "width": 40,
+    "height": 64,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0x114f32",
+    "mapping": "0x120ece"
+  },
+  {
+    "cid": 7,
+    "pose": 18,
+    "width": 56,
+    "height": 64,
+    "sprites": 7,
+    "valid": true,
+    "graphics": "0x1151a8",
+    "mapping": "0x120f06"
+  },
+  {
+    "cid": 8,
+    "pose": 2,
+    "width": 72,
+    "height": 72,
+    "sprites": 9,
+    "valid": true,
+    "graphics": "0x1223a0",
+    "mapping": "0x13333c"
+  },
+  {
+    "cid": 8,
+    "pose": 17,
+    "width": 88,
+    "height": 72,
+    "sprites": 8,
+    "valid": true,
+    "graphics": "0x124c3e",
+    "mapping": "0x133588"
+  },
+  {
+    "cid": 8,
+    "pose": 18,
+    "width": 104,
+    "height": 48,
+    "sprites": 6,
+    "valid": true,
+    "graphics": "0x124f84",
+    "mapping": "0x1335ba"
+  },
+  {
+    "cid": 9,
+    "pose": 2,
+    "width": 64,
+    "height": 96,
+    "sprites": 12,
+    "valid": true,
+    "graphics": "0x13548c",
+    "mapping": "0x1579c8"
+  },
+  {
+    "cid": 9,
+    "pose": 17,
+    "width": 64,
+    "height": 96,
+    "sprites": 10,
+    "valid": true,
+    "graphics": "0x13add8",
+    "mapping": "0x157ddc"
+  },
+  {
+    "cid": 9,
+    "pose": 18,
+    "width": 104,
+    "height": 96,
+    "sprites": 13,
+    "valid": true,
+    "graphics": "0x13b384",
+    "mapping": "0x157e1a"
+  },
+  {
+    "cid": 10,
+    "pose": 2,
+    "width": 64,
+    "height": 88,
+    "sprites": 8,
+    "valid": true,
+    "graphics": "0x15a05a",
+    "mapping": "0x175564"
+  },
+  {
+    "cid": 10,
+    "pose": 17,
+    "width": 64,
+    "height": 88,
+    "sprites": 11,
+    "valid": true,
+    "graphics": "0x15edb6",
+    "mapping": "0x175906"
+  },
+  {
+    "cid": 10,
+    "pose": 18,
+    "width": 96,
+    "height": 80,
+    "sprites": 10,
+    "valid": true,
+    "graphics": "0x15f330",
+    "mapping": "0x17594a"
+  }
+]

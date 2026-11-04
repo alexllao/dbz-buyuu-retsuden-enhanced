@@ -1,0 +1,20 @@
+{
+  "questions": {
+    "doesNativeMoveHit": "Answered: native and actual added command show no attack gate and no damage",
+    "allCharactersCanReusePoses": "Answered:33poseaudit plus122native/reuse probes",
+    "unusedCombination": "Answered: original A/B parsers/tables untouched, FBF+Cadded",
+    "releaseFlightAndAttackCoexistence": "Answered: prehistory C latch consumption, real command matrix374passes"
+  },
+  "evidence": [
+    "evidence/side-switch/native-summary.json",
+    "evidence/side-switch/matrix.json",
+    "evidence/side-switch/input-audit.json",
+    "evidence/side-switch/static-verification.json"
+  ],
+  "analysisRouting": "REA inventory on Windows limits native admission to PE/6502; rawm68k profile not available in this route. Reused existing local Ghidra M68K assembly project, Capstone byte disassembly and Genesis Plus GX runtime. No REA evidence IDs asserted for these local results. No new REA session opened.",
+  "unknowns": [
+    "All126specials not individually executed",
+    "Physicalhardware and user feel pending",
+    "CPU does not choose newhuman command"
+  ]
+}

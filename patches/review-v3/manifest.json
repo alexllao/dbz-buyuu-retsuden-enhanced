@@ -1,0 +1,33 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v6.bin",
+    "sha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v3/enhanced-v6.ips",
+    "sha256": "6bbd955d05e72b1febc3c11528cd12510359a8f5408f3886e6abd821bc0186e8"
+  },
+  "code": {
+    "controls": {
+      "path": "src/gameplay/v3/controls.hex",
+      "bytes": 752,
+      "sha256": "b94a27981fca4111ec2a852ba9d453154cc4821b9421ef8125d80d78e862e2e5",
+      "address": "0x7b000"
+    },
+    "side": {
+      "path": "src/gameplay/v3/side.hex",
+      "bytes": 539,
+      "sha256": "6e4d418ca8fe2c9086b6f187c993e8e09b2d9b91897deb18b83bd161602d1390",
+      "address": "0x3e0000"
+    }
+  },
+  "command": "Forward, Back, Forward + logical C/flight; no simultaneous A or B",
+  "scope": "Human only; action0..8; same plane; dx<=96 and dy<=32; no cinematic/KO/input gate",
+  "status": "Experimental review build, actual controller-command tests passed, user feel pending"
+}

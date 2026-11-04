@@ -145,6 +145,23 @@ for (const name of ['final-p1', 'final-p2-turbo']) {
   assert.equal((await json(`evidence/gameplay-v2/${name}.json`)).rom, reviewV2.target.sha256);
 }
 
+const reviewV3 = await json('patches/review-v3/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, reviewV3.patch.path))), reviewV3.patch.sha256);
+for (const entry of Object.values(reviewV3.code)) {
+  const bytes = await readHex(entry.path);
+  assert.equal(bytes.length, entry.bytes);
+  assert.equal(sha256(bytes), entry.sha256);
+}
+const sideMatrix = await json('evidence/side-switch/matrix.json');
+assert.equal(sideMatrix.romSha256, reviewV3.target.sha256);
+assert.equal(sideMatrix.jobs, 22);
+assert.equal(sideMatrix.cases, 374);
+assert(sideMatrix.passed && sideMatrix.failures.length === 0);
+assert(sideMatrix.results.every(job => job.cases.every(item => item.passed && Object.values(item.checks).every(Boolean))));
+const sideStatic = await json('evidence/side-switch/static-verification.json');
+assert.equal(sideStatic.targetSha256, reviewV3.target.sha256);
+assert(sideStatic.onlyAllowedRangesChanged && Object.values(sideStatic.preserved).every(item => item.unchanged));
+
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {

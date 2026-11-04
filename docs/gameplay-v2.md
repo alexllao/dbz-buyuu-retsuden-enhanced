@@ -37,7 +37,7 @@ La revisión combinada integra la paleta G y añade **- 2026 ALEX LLAO** junto a
 
 ## Maniobra propuesta para después
 
-Cambio de lado a corta distancia, sin golpe y para todos los personajes. Está anotado, sin implementar. El High Speed Move original de Goku/Gohan/Cell es una técnica ofensiva distinta y permanece con su comando original.
+La propuesta se aplazó durante v5. Posteriormente se comprobó que el High Speed Move nativo de Goku/Gohan/Cell no golpea. Ya se ha incorporado para todos con una entrada propia en [v6](side-switch.md), conservando los comandos originales.
 
 ## Revisión v5.2: menos reposo y créditos juntos
 

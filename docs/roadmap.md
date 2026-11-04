@@ -44,6 +44,10 @@ El décimo escenario tiene una propuesta visual de montañas nevadas, en suelo y
 - [x] Integrar presentación G, conservar ©BANDAI1994 y añadir -2026 ALEX LLAO junto a Bandai.
 - [x] Añadir las 126 técnicas de los once personajes al README, con fuente y licencia de la adaptación.
 - [ ] Valorar esta revisión con mando y verificar hardware/especiales completos.
-- [ ] Más adelante: cambio de lado cercano para todos, sin golpe.
+- [x] v6: cambio de lado cercano para todos, sin golpe, con adelante/atrás/adelante+C.
 
 - [x] v5.2: Bandai y ALEX LLAO en la misma fila; nueva reducción del reposo terrestre30→12ticks, comparada con v5 en cuatro personajes.
+
+- [x] Comprobar que la maniobra de Gohan no golpea y corregir la documentación.
+- [x] Añadir entrada independiente para los once personajes;374casos de comando real y vídeo de cada uno.
+- [ ] Valorar con mando el equilibrio del nuevo cambio de lado.

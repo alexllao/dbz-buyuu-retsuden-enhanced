@@ -328,6 +328,15 @@
     "status": "Experimental, para prueba manual del usuario",
     "movement": "Native double tap, hold to run, original release inertia",
     "knockdown": "Latest v5.2: A1/A4/A5 floor hold12ticks, previously30 in v5; falling and wake timing retained",
-    "deferred": "Universal close-range side switch without hit; not implemented"
+    "deferred": "Originally deferred; side switch now authorized and implemented in v6"
+  },
+  "sideSwitch": {
+    "status": "Implemented in experimental v6; user playtest pending",
+    "command": "Forward, Back, Forward + logical flight C; default C",
+    "scope": "All11characters, both human controllers, close range96px, sameplane/dy<=32",
+    "nativeCorrection": "Native high-speed movement does not hit; prior offensive description corrected",
+    "preserves": "All original A/B commands and C outside the new combination",
+    "tests": "374actual-command cases plus122native/reuse audits",
+    "video": "assets/media/side-switch/Todos-cambio-de-lado.mp4"
   }
 }

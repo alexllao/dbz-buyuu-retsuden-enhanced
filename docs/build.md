@@ -50,4 +50,8 @@ pnpm build:auras:v3 --rom ruta/a/original.bin genera la prueba de contorno corre
 
 ## Revisión combinada v5
 
-`pnpm build:review --rom ruta/a/original.bin` aplica el IPS completo sobre la base japonesa y verifica el hash de salida. Incluye controles v2, derribos terrestres ajustados, paletas de combate, ki v4 y presentación G con Bandai y ALEX LLAO. [Alcance y pruebas](gameplay-v2.md).
+`pnpm build:review --rom ruta/a/original.bin --version v5.2` aplica el IPS completo sobre la base japonesa y verifica el hash de salida. Incluye controles v2, derribos terrestres ajustados, paletas de combate, ki v4 y presentación G con Bandai y ALEX LLAO. [Alcance y pruebas](gameplay-v2.md).
+
+## Revisión v6: cambio de lado
+
+`pnpm build:review --rom ruta/a/original.bin` genera por defecto la v6, con el nuevo comando adelante/atrás/adelante+C. `--version v5.2` conserva la construcción de la revisión anterior. Los parches y manifiestos de ambas versiones se mantienen separados. [Comando y validación](side-switch.md).

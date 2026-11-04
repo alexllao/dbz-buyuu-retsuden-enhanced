@@ -1,0 +1,2855 @@
+{
+  "sourceSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+  "originalSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "status": "Manual native-command and synthetic same-handler tests; no ROM edits, no CPU autoplay",
+  "counts": {
+    "nativeCommandOriginalAndV5": 12,
+    "syntheticAllCharactersIdleGuard": 66,
+    "syntheticBothSidesGroundAirWithAttackFollowup": 44,
+    "total": 122
+  },
+  "allEntered843": true,
+  "allZeroDamage": true,
+  "allAttackGateInactive": true,
+  "allCrossedSide": true,
+  "allReturnedIdle": true,
+  "allFlagsCleared": true,
+  "allFollowupAttackRecognized": true,
+  "abi": {
+    "program": "0x0843",
+    "programHandler": "0x1631C",
+    "animation": "0x1FED5",
+    "actionByte5B": "0x38",
+    "byte7C": "0x3A (Gohan native); Goku and Cell native equivalent0x37, semantic use not fully mapped",
+    "wordE0": "0",
+    "entry": "Inline native20BA0 common reset, OR actor1E with0020 (native action>=20 path), set actor5B38,7C3A,E0=0,program843. Do not JSR20B7E directly: it skips caller return context.",
+    "poses": "2,17,18 validated33/33 original CID resources",
+    "newProgramSlotRequired": false,
+    "flags": "20BA0 clears8003 in actor1E and1400 in actor20; handler leavesattackgate inactive and return20CD6 clears action flags normally."
+  },
+  "limits": [
+    "Synthetic tests verify reuse of handler/poses, not the as-yet-unimplemented new input combination.",
+    "Air fixture begins with native UP12 (worldY about410 vsground448); movement activation itself is synthetic.",
+    "Defender back-held guard case can walk backwards. No attacking opponent/invulnerability or balance guarantee.",
+    "World clamp/edge guard native retained. Root plans new intentional range<=96 and verticaldifference<=32 for universal activation.",
+    "No physical hardware test."
+  ],
+  "cases": [
+    {
+      "source": "air-followup-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 410,
+      "moveY": [
+        410
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1025
+      ]
+    },
+    {
+      "source": "air-followup-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 410,
+      "moveY": [
+        410
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1025
+      ]
+    },
+    {
+      "source": "air-followup-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 411,
+      "moveY": [
+        411
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1037
+      ]
+    },
+    {
+      "source": "air-followup-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 411,
+      "moveY": [
+        411
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1037
+      ]
+    },
+    {
+      "source": "air-followup-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 429,
+      "moveY": [
+        429
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1049
+      ]
+    },
+    {
+      "source": "air-followup-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 419,
+      "moveY": [
+        419
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1049
+      ]
+    },
+    {
+      "source": "air-followup-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 410,
+      "moveY": [
+        410
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1061
+      ]
+    },
+    {
+      "source": "air-followup-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 410,
+      "moveY": [
+        410
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1061
+      ]
+    },
+    {
+      "source": "air-followup-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 408,
+      "moveY": [
+        408
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1073
+      ]
+    },
+    {
+      "source": "air-followup-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 408,
+      "moveY": [
+        408
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1073
+      ]
+    },
+    {
+      "source": "air-followup-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 391,
+      "moveY": [
+        391
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1085
+      ]
+    },
+    {
+      "source": "air-followup-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 391,
+      "moveY": [
+        391
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1085
+      ]
+    },
+    {
+      "source": "air-followup-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 411,
+      "moveY": [
+        411
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1097
+      ]
+    },
+    {
+      "source": "air-followup-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 411,
+      "moveY": [
+        411
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1097
+      ]
+    },
+    {
+      "source": "air-followup-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 411,
+      "moveY": [
+        411
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1109
+      ]
+    },
+    {
+      "source": "air-followup-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 411,
+      "moveY": [
+        411
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1109
+      ]
+    },
+    {
+      "source": "air-followup-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 410,
+      "moveY": [
+        410
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1121
+      ]
+    },
+    {
+      "source": "air-followup-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 410,
+      "moveY": [
+        410
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1121
+      ]
+    },
+    {
+      "source": "air-followup-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 428,
+      "moveY": [
+        428
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1133
+      ]
+    },
+    {
+      "source": "air-followup-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 16,
+      "crossedSide": true,
+      "initialY": 428,
+      "moveY": [
+        428
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1133
+      ]
+    },
+    {
+      "source": "air-followup-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 429,
+      "moveY": [
+        429
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1145
+      ]
+    },
+    {
+      "source": "air-followup-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": true,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 419,
+      "moveY": [
+        419
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1145
+      ]
+    },
+    {
+      "source": "forced-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 17,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 19,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 20,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 20,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 21,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 19,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 17,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 19,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 18,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 19,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 16,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 20,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 21,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 20,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "forced-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 21,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "ground-followup-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1025
+      ]
+    },
+    {
+      "source": "ground-followup-00-60427353.json",
+      "cid": 0,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1025
+      ]
+    },
+    {
+      "source": "ground-followup-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1037
+      ]
+    },
+    {
+      "source": "ground-followup-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1037
+      ]
+    },
+    {
+      "source": "ground-followup-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1049
+      ]
+    },
+    {
+      "source": "ground-followup-02-60427353.json",
+      "cid": 2,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1049
+      ]
+    },
+    {
+      "source": "ground-followup-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1061
+      ]
+    },
+    {
+      "source": "ground-followup-03-60427353.json",
+      "cid": 3,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1061
+      ]
+    },
+    {
+      "source": "ground-followup-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1073
+      ]
+    },
+    {
+      "source": "ground-followup-04-60427353.json",
+      "cid": 4,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1073
+      ]
+    },
+    {
+      "source": "ground-followup-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1085
+      ]
+    },
+    {
+      "source": "ground-followup-05-60427353.json",
+      "cid": 5,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1085
+      ]
+    },
+    {
+      "source": "ground-followup-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1097
+      ]
+    },
+    {
+      "source": "ground-followup-06-60427353.json",
+      "cid": 6,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1097
+      ]
+    },
+    {
+      "source": "ground-followup-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1109
+      ]
+    },
+    {
+      "source": "ground-followup-07-60427353.json",
+      "cid": 7,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1109
+      ]
+    },
+    {
+      "source": "ground-followup-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1121
+      ]
+    },
+    {
+      "source": "ground-followup-08-60427353.json",
+      "cid": 8,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1121
+      ]
+    },
+    {
+      "source": "ground-followup-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1133
+      ]
+    },
+    {
+      "source": "ground-followup-09-60427353.json",
+      "cid": 9,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1133
+      ]
+    },
+    {
+      "source": "ground-followup-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": -80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 14,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1145
+      ]
+    },
+    {
+      "source": "ground-followup-10-60427353.json",
+      "cid": 10,
+      "syntheticActivation": true,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": true,
+      "followupPrograms": [
+        0,
+        1145
+      ]
+    },
+    {
+      "source": "probe-01-217fc312.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 11,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-217fc312.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-217fc312.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-217fc312.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 15,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-217fc312.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 16,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-217fc312.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 17,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 40,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 12,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 40,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 80,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 13,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 80,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 16,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 160,
+      "guard": false,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 16,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    },
+    {
+      "source": "probe-01-60427353.json",
+      "cid": 1,
+      "syntheticActivation": false,
+      "distance": 160,
+      "guard": true,
+      "air": false,
+      "entered843": true,
+      "hpLoss": 0,
+      "opponentHpLoss": 0,
+      "activeAttackFrames": 0,
+      "movementFrames": 19,
+      "crossedSide": true,
+      "initialY": 448,
+      "moveY": [
+        448
+      ],
+      "returnedIdle": true,
+      "finalFlags1E": "0x0",
+      "followupAttackRecognized": null,
+      "followupPrograms": []
+    }
+  ]
+}

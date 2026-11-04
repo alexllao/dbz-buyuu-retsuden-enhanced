@@ -1,0 +1,14 @@
+entry=3e0000
+done=3e0042
+actor=3e004e
+positive_x=3e00ee
+positive_y=3e0104
+save_history=3e0112
+strip_flight_from_history=3e0126
+virtual_entry_ready=3e015e
+restore_history=3e017c
+consume=3e01ce
+return=3e01ea
+released=3e01ec
+pre_input=3e01f4
+sequence=3e0214

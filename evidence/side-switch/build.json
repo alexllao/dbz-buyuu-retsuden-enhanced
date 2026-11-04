@@ -1,0 +1,12 @@
+{
+  "sourceSha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+  "sha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "controlBytes": 752,
+  "sideBytes": 539,
+  "hook": "0x8DCC replaces JSR11C9C; wrapper tailcalls original",
+  "sideCodeBase": "0x3E0000",
+  "latch": "actor108 bit3: C7/CF; masked validation in all v3 control helper entries",
+  "nativeMatcher": "0x92B2, full actor94..BB snapshot/restoration before deciding",
+  "command": "Forward, Back, Forward + logical C/flight; no simultaneous A or B",
+  "gates": "Human only; action0..8; same plane; dx<=96 and dy<=32; no cinematic/KO/input gate"
+}

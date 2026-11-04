@@ -1,0 +1,96 @@
+{
+  "romSha256": "a6d472c58c2f9cf8b39ba3f8cad46ada784dac91f83cc7421b461fcfb537eccb",
+  "command": "Native original FBF+B in current ROM, original parser/table unchanged",
+  "cases": [
+    {
+      "cid": 0,
+      "port": 1,
+      "turbo": false,
+      "programs": [
+        0,
+        1,
+        2,
+        2112
+      ],
+      "checks": {
+        "zeroDamage": true,
+        "noAttackGate": true
+      }
+    },
+    {
+      "cid": 0,
+      "port": 2,
+      "turbo": true,
+      "programs": [
+        0,
+        1,
+        2,
+        2112
+      ],
+      "checks": {
+        "zeroDamage": true,
+        "noAttackGate": true
+      }
+    },
+    {
+      "cid": 1,
+      "port": 1,
+      "turbo": false,
+      "programs": [
+        0,
+        1,
+        2,
+        2115
+      ],
+      "checks": {
+        "zeroDamage": true,
+        "noAttackGate": true
+      }
+    },
+    {
+      "cid": 1,
+      "port": 2,
+      "turbo": true,
+      "programs": [
+        0,
+        1,
+        2,
+        2115
+      ],
+      "checks": {
+        "zeroDamage": true,
+        "noAttackGate": true
+      }
+    },
+    {
+      "cid": 5,
+      "port": 1,
+      "turbo": false,
+      "programs": [
+        0,
+        1,
+        2,
+        2133
+      ],
+      "checks": {
+        "zeroDamage": true,
+        "noAttackGate": true
+      }
+    },
+    {
+      "cid": 5,
+      "port": 2,
+      "turbo": true,
+      "programs": [
+        0,
+        1,
+        2,
+        2133
+      ],
+      "checks": {
+        "zeroDamage": true,
+        "noAttackGate": true
+      }
+    }
+  ]
+}

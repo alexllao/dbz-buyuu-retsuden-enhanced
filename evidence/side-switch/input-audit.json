@@ -1,0 +1,1421 @@
+{
+  "status": "Static native-input audit; recommendation only, no new implementation or CPU autoplay",
+  "source": "outputs\\revision-fluidez-v5-2\\Buyuu_Retsuden_Enhanced_v5_2.bin",
+  "source_sha256": "60427353f8538f44dedbec86811f27e33187f56b8e7c096885c11d67959e3ecc",
+  "recommendation": {
+    "input": "Forward,Back,Forward + logical flight button C",
+    "physical_default": "FBF+C on default mapping; honoractorBC when options remap physical buttons.",
+    "why": "Native special-motion recognition9258..92AE tests only logicalA/BA andB/BB; there is no logicalC/BC special command branch. SingleCpress at the final direction avoids A/Bchordpriority and nativechargeA+B.",
+    "not_automatically_free": "Cstillperformsnativeflight unlessconsumed.20EECtestsheldC,notjustpressed;holdmustremainmaskeduntilrelease. This newcommandmusthavefirstpriorityonlyafteritsowncompletevalidsequenceandeligibilitychecks."
+  },
+  "native_button_mapping": {
+    "BA": "logicalA/punch physicalbitindex",
+    "BB": "logicalB/kick physicalbitindex",
+    "BC": "logicalC/flight physicalbitindex",
+    "source": "C624..C65C copies configurable button indices to each actor andFE06..FE0B. Do not hard-code physicalA/B/C bits.",
+    "held": "actor1B low byte; actor1A stores extended highbyte",
+    "pressed": "actor1D low byte; actor1C extended highbyte",
+    "charge": "21052..2106E tests BOTH BA andBB in heldword1A, startsprogram5D/action0F.",
+    "flight": "20EEC..20EF4 testsBCinheldbyte1B.",
+    "A_B_specials": "926CtestsBAedge result937E,9298testsBB; Ahaspriorityifboth.939A/B5also supports native negative-edge input."
+  },
+  "history": {
+    "writer": "9170/917C calledforbothactors;922Anormalizesleft/rightusingfacing59.",
+    "buffer": "actor94..B3:16pairs of[inputmaskbyte,durationbyte]; B6=headnextwrite,B7=tail,indicesmod32; B8=consecutive neutral duration.",
+    "timing": "Same mask extendsduration saturatedFF; a newmask createsentry. B8neutralgap>=12clearsavailablehistory at9218..921E. Native ordinarymotionentriespermitduration<=12 at9314..931A; negative-tokenchargemotionsrequire>=30 at931E..9324.",
+    "button_changes": "Inputhistorycontainsbuttonbits too. PressingCwhilealreadyholdingFmaycreateadjacententrieswhose directionsbothF; a read-only directionmatcher should merge adjacent equal directionnibbles instead of assumingexactly3rawentries.",
+    "normalization": "Directions:U1,D2,B4,F8 afterfacingnormalization922A. FBFis[8,4,8] chronologicallyandnewestfirst.",
+    "proposed_readonly_match": "At post8F68hook currentinputhasnotyetenteredhistory. Requirecurrentnormalizeddirection8 andfreshBCedge, noheldBA/BB; scanbackwardfrom(B6-2)&31towardB7, skipping adjacent F8duplicates, requireB4thenF8; rejectotherdirections/expiredsegments. Boundeachmergedsegmentage<=12andB8<12. Requirevalidpendingnativecommandstate andallowedactorstate. No newmotion-historyRAM is necessary.",
+    "do_not_claim": "Exactmatch/toleranceandholdrelease behavior need controlled runtime validation after implementation; static audit doesnotprove usability."
+  },
+  "callable_native_matcher": {
+    "entry": "0x92B2",
+    "abi": "A0=actor,A1=custom sequence table. No buttonread at thisentry. Caller mustpreserveD0..D5,A1,A2 asneeded. CustomFBFtablebytes03 08 04 08 00 FE 00 couldyieldB9FE aftermatch.",
+    "side_effects": [
+      "92BE..92C6masksonehistorybytewith0F.",
+      "9372writesB9onmatch.",
+      "9376alwayssetsB7=B6 evenwhen nosequence matched."
+    ],
+    "recommendation": "Preferread-onlyringmatcherforcustompost8F68hook. Calling92B2blindlyonC wouldflushhistoryonfailedordinaryflight. Ifreusingit, accountforcurrentinputnotyetloggedandrestoreallmutatedhistoryfieldswhenfailure; do notoverwritependingnativeB9."
+  },
+  "order_and_consumption": {
+    "order": "8F68copiespads/nativeCPUinputs; enhancedinputhookthenruns. Later8DB6calls9170(history),9258(A/Bmotionparse),nativecollisionandactorupdate.20EECreadsactorheldCwithintheactorprogram.",
+    "success": "Onlyafterfullnewcommandaccepted,maskBCbitinactor1B/1D(and1A/1Cforconsistentextensionhandling),flushmotionhistoryonlyasnewcommandconsumption(B7=B6),clearpendingenhancedattackqueueifrequiredbynewactionpolicy,thenlaunchnewnativehandler. Preserveallotherbuttonbits.",
+    "hold": "ReadfreshrawactorheldCimmediatelyafter8F68,beforemasking. KeepBCmaskedonbothheld/presseduntilrawCisreleased; otherwiseheldCcanlaunchflightnexteligibleframe.",
+    "globals": "Nativeactorhistory/A/Bparser/flightreadactorfields,notE666..E669directly. Do notclearsharedrawglobalpadsmerelytoconsumeflight;theyarealsousedbyothernativeinputpaths.",
+    "priority": "IfBAorBBheldornewlypressed,orpendingnativeB9isvalid,leavenativeparseruntouchedanddonotlaunchcustommove. A/B+C chordswouldotherwiseinterferewithspecials/charge andshouldnotbechosenasfreecommands."
+  },
+  "latch_RAM": {
+    "no_new_gap_claim": "No new unused actorRAMbyte proven in this audit.108..10Fareexistingenhancedcontrols;110..115aura/native-state concerns;116isdirtyglobal.",
+    "possible_reuse": "10F=FFsentinel canencodeCconsumeuntilrelease ONLYifallsettleposewriter sitesareguardednottooverwriteFFand10Esettlecountisinvalidatedduringlatch.",
+    "overwrite_risk": "controls-v2actor_initialized/actiontransitionwrites10F=currentposewhenreturningidleafteraction20..27. IfuserkeepsCheldthroughanA/Battackwhilelatchactive,thiswritewoulderaseFFandCcouldrelaunchflight. Guardthiswriteroruseverifiedindependentstorage;notjusttheinitialsideswitchactivation.",
+    "resets": "Resetlatchonreleaseandcontrol/sceneinitializationwithoutgeneratingextraCedge; testdamage/KO/CPUtoggle asappropriate."
+  },
+  "native_motion_tables": {
+    "logical_A": [
+      {
+        "address": "0x93a8",
+        "minimum_history_entries": 6,
+        "directions_newest_first": [
+          4,
+          8,
+          10,
+          2,
+          6,
+          4
+        ],
+        "command_id": 7
+      },
+      {
+        "address": "0x93b1",
+        "minimum_history_entries": 5,
+        "directions_newest_first": [
+          8,
+          10,
+          2,
+          6,
+          4
+        ],
+        "command_id": 10
+      },
+      {
+        "address": "0x93b9",
+        "minimum_history_entries": 5,
+        "directions_newest_first": [
+          4,
+          6,
+          2,
+          10,
+          8
+        ],
+        "command_id": 5
+      },
+      {
+        "address": "0x93c1",
+        "minimum_history_entries": 5,
+        "directions_newest_first": [
+          4,
+          8,
+          10,
+          6,
+          4
+        ],
+        "command_id": 7
+      },
+      {
+        "address": "0x93c9",
+        "minimum_history_entries": 4,
+        "directions_newest_first": [
+          8,
+          10,
+          6,
+          4
+        ],
+        "command_id": 10
+      },
+      {
+        "address": "0x93d0",
+        "minimum_history_entries": 4,
+        "directions_newest_first": [
+          4,
+          6,
+          10,
+          8
+        ],
+        "command_id": 5
+      },
+      {
+        "address": "0x93d7",
+        "minimum_history_entries": 4,
+        "directions_newest_first": [
+          8,
+          4,
+          6,
+          2
+        ],
+        "command_id": 6
+      },
+      {
+        "address": "0x93de",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          2,
+          10,
+          4
+        ],
+        "command_id": 12
+      },
+      {
+        "address": "0x93e4",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          8,
+          10,
+          2
+        ],
+        "command_id": 11
+      },
+      {
+        "address": "0x93ea",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          2,
+          6,
+          4
+        ],
+        "command_id": 8
+      },
+      {
+        "address": "0x93f0",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          4,
+          6,
+          2
+        ],
+        "command_id": 4
+      },
+      {
+        "address": "0x93f6",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          8,
+          4,
+          8
+        ],
+        "command_id": 3
+      },
+      {
+        "address": "0x93fc",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          8,
+          10,
+          128,
+          2
+        ],
+        "command_id": 2
+      },
+      {
+        "address": "0x9403",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          4,
+          6,
+          128,
+          2
+        ],
+        "command_id": 1
+      },
+      {
+        "address": "0x940a",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          2,
+          8
+        ],
+        "command_id": 13
+      },
+      {
+        "address": "0x940f",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          2,
+          4
+        ],
+        "command_id": 9
+      },
+      {
+        "address": "0x9414",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          8,
+          4
+        ],
+        "command_id": 0
+      }
+    ],
+    "logical_B": [
+      {
+        "address": "0x941a",
+        "minimum_history_entries": 6,
+        "directions_newest_first": [
+          4,
+          8,
+          10,
+          2,
+          6,
+          4
+        ],
+        "command_id": 22
+      },
+      {
+        "address": "0x9423",
+        "minimum_history_entries": 6,
+        "directions_newest_first": [
+          8,
+          4,
+          6,
+          2,
+          10,
+          8
+        ],
+        "command_id": 25
+      },
+      {
+        "address": "0x942c",
+        "minimum_history_entries": 5,
+        "directions_newest_first": [
+          4,
+          8,
+          10,
+          6,
+          4
+        ],
+        "command_id": 22
+      },
+      {
+        "address": "0x9434",
+        "minimum_history_entries": 5,
+        "directions_newest_first": [
+          8,
+          10,
+          2,
+          6,
+          4
+        ],
+        "command_id": 18
+      },
+      {
+        "address": "0x943c",
+        "minimum_history_entries": 4,
+        "directions_newest_first": [
+          4,
+          8,
+          10,
+          2
+        ],
+        "command_id": 26
+      },
+      {
+        "address": "0x9443",
+        "minimum_history_entries": 4,
+        "directions_newest_first": [
+          8,
+          10,
+          6,
+          4
+        ],
+        "command_id": 18
+      },
+      {
+        "address": "0x944a",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          2,
+          10,
+          4
+        ],
+        "command_id": 24
+      },
+      {
+        "address": "0x9450",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          2,
+          6,
+          4
+        ],
+        "command_id": 23
+      },
+      {
+        "address": "0x9456",
+        "minimum_history_entries": 3,
+        "directions_newest_first": [
+          8,
+          4,
+          8
+        ],
+        "command_id": 19
+      },
+      {
+        "address": "0x945c",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          9,
+          6
+        ],
+        "command_id": 17
+      },
+      {
+        "address": "0x9461",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          8,
+          2
+        ],
+        "command_id": 21
+      },
+      {
+        "address": "0x9466",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          2,
+          8
+        ],
+        "command_id": 20
+      },
+      {
+        "address": "0x946b",
+        "minimum_history_entries": 2,
+        "directions_newest_first": [
+          2,
+          8
+        ],
+        "command_id": 16
+      }
+    ]
+  },
+  "all11_cid_technique_tables": [
+    {
+      "cid": 0,
+      "address": "0x22180",
+      "records": [
+        {
+          "address": "0x22180",
+          "command_id": 1,
+          "program": "0xc01",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2218c",
+          "command_id": 2,
+          "program": "0xc02",
+          "action": 57,
+          "parameter": 25,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22198",
+          "command_id": 3,
+          "program": "0xc03",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221a4",
+          "command_id": 5,
+          "program": "0xc04",
+          "action": 57,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221b0",
+          "command_id": 6,
+          "program": "0xc05",
+          "action": 57,
+          "parameter": 70,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221bc",
+          "command_id": 4,
+          "program": "0x800",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221c8",
+          "command_id": 16,
+          "program": "0x801",
+          "action": 56,
+          "parameter": 49,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221d4",
+          "command_id": 17,
+          "program": "0x802",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221e0",
+          "command_id": 18,
+          "program": "0x803",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x221ec",
+          "command_id": 20,
+          "program": "0x80a",
+          "action": 56,
+          "parameter": 56,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x221f8",
+          "command_id": 25,
+          "program": "0x83e",
+          "action": 64,
+          "parameter": 0,
+          "condition_bytes": "030407ffffff"
+        },
+        {
+          "address": "0x22204",
+          "command_id": 19,
+          "program": "0x840",
+          "action": 64,
+          "parameter": 1,
+          "condition_bytes": "03ffffffffff"
+        }
+      ]
+    },
+    {
+      "cid": 1,
+      "address": "0x22212",
+      "records": [
+        {
+          "address": "0x22212",
+          "command_id": 2,
+          "program": "0xc0d",
+          "action": 57,
+          "parameter": 25,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2221e",
+          "command_id": 3,
+          "program": "0xc0e",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "0307ffffffff"
+        },
+        {
+          "address": "0x2222a",
+          "command_id": 7,
+          "program": "0xc0f",
+          "action": 57,
+          "parameter": 40,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22236",
+          "command_id": 6,
+          "program": "0xc10",
+          "action": 57,
+          "parameter": 45,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22242",
+          "command_id": 10,
+          "program": "0x805",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2224e",
+          "command_id": 11,
+          "program": "0x807",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2225a",
+          "command_id": 16,
+          "program": "0x808",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22266",
+          "command_id": 18,
+          "program": "0x809",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22272",
+          "command_id": 20,
+          "program": "0x80b",
+          "action": 56,
+          "parameter": 55,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x2227e",
+          "command_id": 25,
+          "program": "0x841",
+          "action": 64,
+          "parameter": 2,
+          "condition_bytes": "030407ffffff"
+        },
+        {
+          "address": "0x2228a",
+          "command_id": 19,
+          "program": "0x843",
+          "action": 64,
+          "parameter": 3,
+          "condition_bytes": "03ffffffffff"
+        }
+      ]
+    },
+    {
+      "cid": 2,
+      "address": "0x22298",
+      "records": [
+        {
+          "address": "0x22298",
+          "command_id": 3,
+          "program": "0xc17",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "0307ffffffff"
+        },
+        {
+          "address": "0x222a4",
+          "command_id": 0,
+          "program": "0xc18",
+          "action": 57,
+          "parameter": 0,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222b0",
+          "command_id": 9,
+          "program": "0xc19",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222bc",
+          "command_id": 6,
+          "program": "0xc1a",
+          "action": 57,
+          "parameter": 65,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222c8",
+          "command_id": 5,
+          "program": "0xc1b",
+          "action": 57,
+          "parameter": 55,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222d4",
+          "command_id": 4,
+          "program": "0x80d",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222e0",
+          "command_id": 23,
+          "program": "0x80e",
+          "action": 56,
+          "parameter": 49,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222ec",
+          "command_id": 16,
+          "program": "0x80f",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x222f8",
+          "command_id": 19,
+          "program": "0x810",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22304",
+          "command_id": 20,
+          "program": "0x812",
+          "action": 56,
+          "parameter": 54,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x22310",
+          "command_id": 22,
+          "program": "0x844",
+          "action": 64,
+          "parameter": 4,
+          "condition_bytes": "030407ffffff"
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "address": "0x2231e",
+      "records": [
+        {
+          "address": "0x2231e",
+          "command_id": 1,
+          "program": "0xc23",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2232a",
+          "command_id": 2,
+          "program": "0xc24",
+          "action": 57,
+          "parameter": 27,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22336",
+          "command_id": 11,
+          "program": "0xc25",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "0305ffffffff"
+        },
+        {
+          "address": "0x22342",
+          "command_id": 7,
+          "program": "0xc26",
+          "action": 57,
+          "parameter": 55,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2234e",
+          "command_id": 6,
+          "program": "0xc27",
+          "action": 57,
+          "parameter": 75,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2235a",
+          "command_id": 16,
+          "program": "0x814",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22366",
+          "command_id": 21,
+          "program": "0x815",
+          "action": 56,
+          "parameter": 49,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22372",
+          "command_id": 4,
+          "program": "0x817",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2237e",
+          "command_id": 8,
+          "program": "0x818",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2238a",
+          "command_id": 25,
+          "program": "0x846",
+          "action": 64,
+          "parameter": 5,
+          "condition_bytes": "0304070e0fff"
+        }
+      ]
+    },
+    {
+      "cid": 4,
+      "address": "0x22398",
+      "records": [
+        {
+          "address": "0x22398",
+          "command_id": 0,
+          "program": "0xc2e",
+          "action": 57,
+          "parameter": 0,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x223a4",
+          "command_id": 11,
+          "program": "0xc7d",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x223b0",
+          "command_id": 1,
+          "program": "0xc2f",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "0307ffffffff"
+        },
+        {
+          "address": "0x223bc",
+          "command_id": 3,
+          "program": "0xc30",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x223c8",
+          "command_id": 6,
+          "program": "0xc31",
+          "action": 57,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x223d4",
+          "command_id": 7,
+          "program": "0xc32",
+          "action": 57,
+          "parameter": 65,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x223e0",
+          "command_id": 20,
+          "program": "0x819",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x223ec",
+          "command_id": 19,
+          "program": "0x81a",
+          "action": 56,
+          "parameter": 49,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x223f8",
+          "command_id": 16,
+          "program": "0x81b",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22404",
+          "command_id": 10,
+          "program": "0x81c",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22410",
+          "command_id": 25,
+          "program": "0x848",
+          "action": 64,
+          "parameter": 6,
+          "condition_bytes": "030407ffffff"
+        }
+      ]
+    },
+    {
+      "cid": 5,
+      "address": "0x2241e",
+      "records": [
+        {
+          "address": "0x2241e",
+          "command_id": 13,
+          "program": "0xc39",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x2242a",
+          "command_id": 1,
+          "program": "0xc3a",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22436",
+          "command_id": 2,
+          "program": "0xc3b",
+          "action": 57,
+          "parameter": 27,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22442",
+          "command_id": 0,
+          "program": "0xc3c",
+          "action": 57,
+          "parameter": 0,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2244e",
+          "command_id": 6,
+          "program": "0xc3d",
+          "action": 57,
+          "parameter": 60,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2245a",
+          "command_id": 5,
+          "program": "0xc3e",
+          "action": 57,
+          "parameter": 55,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22466",
+          "command_id": 23,
+          "program": "0x81e",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22472",
+          "command_id": 16,
+          "program": "0x820",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2247e",
+          "command_id": 4,
+          "program": "0x821",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2248a",
+          "command_id": 8,
+          "program": "0x822",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22496",
+          "command_id": 19,
+          "program": "0x855",
+          "action": 64,
+          "parameter": 7,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x224a2",
+          "command_id": 26,
+          "program": "0x84a",
+          "action": 64,
+          "parameter": 8,
+          "condition_bytes": "03040e0fffff"
+        }
+      ]
+    },
+    {
+      "cid": 6,
+      "address": "0x224b0",
+      "records": [
+        {
+          "address": "0x224b0",
+          "command_id": 0,
+          "program": "0xc45",
+          "action": 57,
+          "parameter": 0,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x224bc",
+          "command_id": 1,
+          "program": "0xc46",
+          "action": 57,
+          "parameter": 10,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x224c8",
+          "command_id": 3,
+          "program": "0xc47",
+          "action": 57,
+          "parameter": 7,
+          "condition_bytes": "0307ffffffff"
+        },
+        {
+          "address": "0x224d4",
+          "command_id": 11,
+          "program": "0xc48",
+          "action": 57,
+          "parameter": 13,
+          "condition_bytes": "0306ffffffff"
+        },
+        {
+          "address": "0x224e0",
+          "command_id": 10,
+          "program": "0xc49",
+          "action": 57,
+          "parameter": 35,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x224ec",
+          "command_id": 6,
+          "program": "0xc4a",
+          "action": 57,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x224f8",
+          "command_id": 20,
+          "program": "0x823",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x22504",
+          "command_id": 16,
+          "program": "0x826",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22510",
+          "command_id": 4,
+          "program": "0x827",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2251c",
+          "command_id": 8,
+          "program": "0x828",
+          "action": 56,
+          "parameter": 53,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22528",
+          "command_id": 22,
+          "program": "0x84b",
+          "action": 64,
+          "parameter": 9,
+          "condition_bytes": "03ffffffffff"
+        }
+      ]
+    },
+    {
+      "cid": 7,
+      "address": "0x22536",
+      "records": [
+        {
+          "address": "0x22536",
+          "command_id": 1,
+          "program": "0xc52",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22542",
+          "command_id": 2,
+          "program": "0xc53",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2254e",
+          "command_id": 3,
+          "program": "0xc54",
+          "action": 57,
+          "parameter": 10,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2255a",
+          "command_id": 5,
+          "program": "0xc55",
+          "action": 57,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22566",
+          "command_id": 6,
+          "program": "0xc56",
+          "action": 57,
+          "parameter": 65,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22572",
+          "command_id": 18,
+          "program": "0x829",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2257e",
+          "command_id": 16,
+          "program": "0x82b",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2258a",
+          "command_id": 4,
+          "program": "0x82c",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22596",
+          "command_id": 13,
+          "program": "0x82d",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "02ffffffffff"
+        },
+        {
+          "address": "0x225a2",
+          "command_id": 25,
+          "program": "0x84d",
+          "action": 64,
+          "parameter": 10,
+          "condition_bytes": "0304ffffffff"
+        }
+      ]
+    },
+    {
+      "cid": 8,
+      "address": "0x225b0",
+      "records": [
+        {
+          "address": "0x225b0",
+          "command_id": 0,
+          "program": "0xc5d",
+          "action": 57,
+          "parameter": 0,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x225bc",
+          "command_id": 2,
+          "program": "0xc5e",
+          "action": 57,
+          "parameter": 27,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x225c8",
+          "command_id": 3,
+          "program": "0xc5f",
+          "action": 57,
+          "parameter": 23,
+          "condition_bytes": "0307ffffffff"
+        },
+        {
+          "address": "0x225d4",
+          "command_id": 11,
+          "program": "0xc60",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "0305ffffffff"
+        },
+        {
+          "address": "0x225e0",
+          "command_id": 6,
+          "program": "0xc61",
+          "action": 57,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x225ec",
+          "command_id": 7,
+          "program": "0xc62",
+          "action": 57,
+          "parameter": 70,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x225f8",
+          "command_id": 19,
+          "program": "0x82f",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22604",
+          "command_id": 16,
+          "program": "0x830",
+          "action": 56,
+          "parameter": 49,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22610",
+          "command_id": 8,
+          "program": "0x831",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2261c",
+          "command_id": 4,
+          "program": "0x833",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22628",
+          "command_id": 22,
+          "program": "0x84f",
+          "action": 64,
+          "parameter": 11,
+          "condition_bytes": "030407ffffff"
+        },
+        {
+          "address": "0x22634",
+          "command_id": 25,
+          "program": "0x851",
+          "action": 64,
+          "parameter": 12,
+          "condition_bytes": "03040e0fffff"
+        }
+      ]
+    },
+    {
+      "cid": 9,
+      "address": "0x22642",
+      "records": [
+        {
+          "address": "0x22642",
+          "command_id": 1,
+          "program": "0xc6a",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2264e",
+          "command_id": 3,
+          "program": "0xc6b",
+          "action": 57,
+          "parameter": 0,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2265a",
+          "command_id": 5,
+          "program": "0xc6c",
+          "action": 57,
+          "parameter": 45,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22666",
+          "command_id": 6,
+          "program": "0xc6d",
+          "action": 57,
+          "parameter": 60,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22672",
+          "command_id": 11,
+          "program": "0x834",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2267e",
+          "command_id": 8,
+          "program": "0x836",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2268a",
+          "command_id": 16,
+          "program": "0x837",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22696",
+          "command_id": 21,
+          "program": "0x838",
+          "action": 56,
+          "parameter": 52,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x226a2",
+          "command_id": 23,
+          "program": "0x839",
+          "action": 56,
+          "parameter": 53,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x226ae",
+          "command_id": 19,
+          "program": "0x853",
+          "action": 64,
+          "parameter": 13,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x226ba",
+          "command_id": 25,
+          "program": "0x856",
+          "action": 56,
+          "parameter": 56,
+          "condition_bytes": "030407ffffff"
+        }
+      ]
+    },
+    {
+      "cid": 10,
+      "address": "0x226c8",
+      "records": [
+        {
+          "address": "0x226c8",
+          "command_id": 2,
+          "program": "0xc75",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x226d4",
+          "command_id": 3,
+          "program": "0xc76",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "0307ffffffff"
+        },
+        {
+          "address": "0x226e0",
+          "command_id": 11,
+          "program": "0xc77",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "0305ffffffff"
+        },
+        {
+          "address": "0x226ec",
+          "command_id": 6,
+          "program": "0xc78",
+          "action": 57,
+          "parameter": 65,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x226f8",
+          "command_id": 22,
+          "program": "0xc7c",
+          "action": 57,
+          "parameter": 20,
+          "condition_bytes": "0103050e0fff"
+        },
+        {
+          "address": "0x22704",
+          "command_id": 19,
+          "program": "0x83a",
+          "action": 56,
+          "parameter": 48,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22710",
+          "command_id": 16,
+          "program": "0x83b",
+          "action": 56,
+          "parameter": 49,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x2271c",
+          "command_id": 4,
+          "program": "0x83c",
+          "action": 56,
+          "parameter": 50,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22728",
+          "command_id": 10,
+          "program": "0x83d",
+          "action": 56,
+          "parameter": 51,
+          "condition_bytes": "03ffffffffff"
+        },
+        {
+          "address": "0x22734",
+          "command_id": 0,
+          "program": "0xc7e",
+          "action": 57,
+          "parameter": 15,
+          "condition_bytes": "0310ffffffff"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "This isstaticanalysisoflistedROM andnativecontrolresources; no candidatechangeorCPUautoplay.",
+    "AnewcommandchangesmeaningofFBF+Cfrommotion+flighttonewmovebydesign; ordinaryCmustremainflightwhenrecognizerfails.",
+    "NativeFBF+A/Bandothercommandsmustbe regression-testedwithdefaultandremappedcontrols,bothfacings,partialmotions,heldC,negative-edgeA/Band simultaneousbuttons.",
+    "No assertionthatallRAMgapsarefreeorallnativeinputsideeffectsareexhaustivelyenumerated."
+  ]
+}

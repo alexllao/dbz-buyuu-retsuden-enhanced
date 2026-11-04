@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: revisión v5.2 de prueba · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
+**Estado: revisión v6 de prueba · cambio de lado sin golpe para los once personajes · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -16,7 +16,7 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 | Apartado | Estado |
 | --- | --- |
-| Controles v2 | Doble toque, dirección mantenida y frenado con inercia; espera terrestre reducida. [Cambios y pruebas](docs/gameplay-v2.md). |
+| Controles v3 | Conserva carrera e inercia, reposo terrestre breve y añade **adelante, atrás, adelante + C** para cambiar de lado sin golpe con los once personajes. [Pruebas y vídeo](docs/side-switch.md). |
 | Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
 | Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
@@ -27,13 +27,17 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Revisión actual: ROM v5.2
+## Revisión actual: ROM v6
+
+**Cambio de lado sin golpe para todos: adelante, atrás, adelante + C**, cerca del rival. La última dirección y C pueden pulsarse juntos. Se conserva la función normal de C al soltarlo; las técnicas originales de A y B no se sustituyen. [Ver los once dentro del juego](assets/media/side-switch/Todos-cambio-de-lado.mp4) · [Controles, condiciones y pruebas](docs/side-switch.md).
+
+El movimiento original de Gohan tampoco golpea: se corrigió la descripción anterior tras comprobarlo en juego. Se reutiliza ese comportamiento y se añade una combinación propia.
 
 **Ajuste tras la prueba del usuario:** el reposo tumbado baja de 30 a **12 ticks** (unos 0,22–0,25 s en estos ensayos). Se conserva la caída y el levantamiento. Bandai y ALEX LLAO comparten ahora la misma línea. [Comparación Gohan: v5 izquierda / v5.2 derecha](assets/media/gameplay-v2/Gohan-v5-izquierda-v5-2-derecha.mp4).
 
 Corrige la carrera que fallaba en v1: doble toque hacia delante o atrás y mantener; al soltar, salida con inercia original. Acorta la espera tumbado tras los derribos terrestres largos e integra la presentación G con los créditos originales y el del mod. **La valoración con mando sigue abierta.**
 
-[Ver cambios, captura y límites](docs/gameplay-v2.md). Genera esta versión con `pnpm build:review --rom "ruta/a/original.bin"`. Las versiones anteriores y sus comparaciones se conservan.
+[Ver la revisión anterior de movimiento y derribos](docs/gameplay-v2.md) y [el cambio de lado actual](docs/side-switch.md). Genera esta versión con `pnpm build:review --rom "ruta/a/original.bin"`. Las versiones anteriores y sus comparaciones se conservan.
 
 ## Prueba CPU anterior: original frente a v4
 
@@ -126,12 +130,13 @@ El HTML funciona sin conexión y reconstruye 13 ensayos con gráficos nativos y 
 | Saltar / agacharse | Arriba / abajo. |
 | Defender | Mantener atrás frente al ataque. |
 | Cargar ki | Mantener A+B. |
+| Cambiar de lado sin golpear, v6 | Adelante, atrás, adelante + C; cerca del rival, sin A/B simultáneos. |
 
 Las flechas de las tablas suponen que miras a la **derecha**: → = hacia el rival, ← = alejarse. Invierte las direcciones cuando mires a la izquierda. Haz las direcciones en secuencia y pulsa el botón junto a la última. «Mantener ↓» indica carga previa; «en el aire» exige estar saltando o volando. La distancia, el ki y el estado de ambos luchadores también pueden condicionar una técnica.
 
 **Guía del juego original:** combinaciones adaptadas de [StrategyWiki: Moves](https://strategywiki.org/wiki/Dragon_Ball_Z:_Buyuu_Retsuden/Moves), revisión [1096353](https://strategywiki.org/w/index.php?title=Dragon_Ball_Z:_Buyuu_Retsuden/Moves&oldid=1096353), aportada por el usuario. Se conservan sus nombres para facilitar la consulta. Las tablas describen los comandos originales, no una validación completa de todos los especiales en el parche.
 
-El **High Speed Move** de Goku, Gohan y Cell usa → ← → + B: es una técnica ofensiva que puede cruzar al otro lado, no una esquiva universal. La propuesta de añadir a todos un cambio de lado cercano **sin golpe** queda guardada para después; todavía no está implementada.
+El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no golpea**. En la revisión v6, los once personajes pueden cambiar de lado cerca del rival con **→ ← → + C**, sin sustituir sus comandos A/B. Invierte las flechas cuando mires a la izquierda. [Grabaciones y límites](docs/side-switch.md).
 
 <details>
 <summary>Goku: movimientos</summary>
@@ -377,7 +382,7 @@ pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Revisión actual v5: controles v2, colores, ki v4, presentación G y créditos
+# Revisión actual v6: añade cambio de lado sin golpe a los once personajes
 pnpm build:review --rom "ruta/a/original.bin"
 
 # Historial: controles v1 y colores originales
