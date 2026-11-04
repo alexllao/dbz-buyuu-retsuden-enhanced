@@ -1,0 +1,324 @@
+{
+  "status": "PASS for tested final candidate; hardware and additional effects remain outside scope",
+  "rom": "work/rom/auras-c2-v2.bin",
+  "sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+  "core": "Genesis Plus GX v1.7.4 f27655b, native normal boot speed",
+  "reports": [
+    "work/auras/qa/v2-prototype/report.json",
+    "work/auras/qa/v2-scanline/report.json"
+  ],
+  "tested": {
+    "standard_scenarios": 11,
+    "natural_collisions": 6,
+    "natural_hit_results": "All six natural P2 kicks reduce P1HP200->188, set action12, and have zero aura sprites from the hit frame onward.",
+    "p2_charge_and_release": "Pass: sustain and fade to0; no late residual sprites.",
+    "consecutive_charges": "Pass: two independent sustain/fade cycles.",
+    "simultaneous_charges": "Pass: independent phases and completion.",
+    "residual_sprites_when_both_phases_zero": 0,
+    "last30frames_all_standard_scenarios": "Both phase0 and zero aura sprites.",
+    "native118_11f": "Remain zero in all tested standard scenarios, matching prior reference probes; no write to native118+ in hook instruction listing.",
+    "natural_hits": [
+      {
+        "case": "hit-during-charge-distance24",
+        "index": 84,
+        "hp": 188,
+        "max_aura_sprites_from_hit_onward": 0
+      },
+      {
+        "case": "hit-during-charge-distance40",
+        "index": 82,
+        "hp": 188,
+        "max_aura_sprites_from_hit_onward": 0
+      },
+      {
+        "case": "hit-during-charge-distance56",
+        "index": 82,
+        "hp": 188,
+        "max_aura_sprites_from_hit_onward": 0
+      },
+      {
+        "case": "hit-during-fade-distance24",
+        "index": 67,
+        "hp": 188,
+        "max_aura_sprites_from_hit_onward": 0
+      },
+      {
+        "case": "hit-during-fade-distance40",
+        "index": 68,
+        "hp": 188,
+        "max_aura_sprites_from_hit_onward": 0
+      },
+      {
+        "case": "hit-during-fade-distance56",
+        "index": 68,
+        "hp": 188,
+        "max_aura_sprites_from_hit_onward": 0
+      }
+    ]
+  },
+  "capacity": {
+    "limits": {
+      "sprites_per_frame_H40": 80,
+      "sprites_per_scanline_H40": 20,
+      "sprite_width_pixels_per_scanline_H40": 320
+    },
+    "tested_max_sprites_per_frame": 76,
+    "frames_at80": 0,
+    "tested_max_aura_sprites": 50,
+    "tested_plain_aura_max": 48,
+    "expected_full_plain": "46 flame plus2 dust =48",
+    "expected_full_lightning": "46 flame plus2 dust plus2 long bolts =50",
+    "tested_max_scanline_sprites": 18,
+    "tested_max_scanline_width_pixels": 232,
+    "frames_over20_sprites": 0,
+    "frames_over320_width_pixels": 0,
+    "method": "Read native SAT staging buffer E04E, E452 entry count. Parse sprite Y, width and height; count all sprite bounding boxes crossing each visible scanline0..223 and sum their widths. Width totals conservatively include horizontally offscreen widths. Per-line sprite counts include all entries as hardware evaluation does.",
+    "finding": "All tested sustained/fade maps fit the hardware budgets. The correction reduces full aura to46flame+2dust and uses fewer, non-collapsed flame entries during fade.",
+    "margin": "Tested maximum76/80 frame entries,18/20 sprites per scanline,232/320 width pixels. Additional effects beyond tested opponent kicks need their own budget check.",
+    "by_case": {
+      "p2-charge-release": {
+        "sprites": 76,
+        "scanline_sprites": 18,
+        "scanline_width_pixels": 232,
+        "aura_sprites": 50,
+        "dust_sprites": 2
+      },
+      "two-charges": {
+        "sprites": 68,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "simultaneous": {
+        "sprites": 70,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 184,
+        "aura_sprites": 50,
+        "dust_sprites": 2
+      },
+      "hit-during-charge-distance24": {
+        "sprites": 73,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "hit-during-charge-distance40": {
+        "sprites": 68,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "hit-during-charge-distance56": {
+        "sprites": 68,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "hit-during-fade-distance24": {
+        "sprites": 68,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "hit-during-fade-distance40": {
+        "sprites": 70,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "hit-during-fade-distance56": {
+        "sprites": 70,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "forced-HP-during-charge": {
+        "sprites": 68,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "forced-HP-during-fade": {
+        "sprites": 68,
+        "scanline_sprites": 17,
+        "scanline_width_pixels": 216,
+        "aura_sprites": 48,
+        "dust_sprites": 2
+      },
+      "forced-upper-plane": {
+        "sprites": 72,
+        "scanline_sprites": 14,
+        "scanline_width_pixels": 160,
+        "aura_sprites": 46,
+        "dust_sprites": 0
+      }
+    }
+  },
+  "airborne_dust": {
+    "fixture": "Synthetic: native charge established on ground, then worldY forcedA0 and plane bit4 set. HeldAB; tests map selection, not a claim that this input sequence flies naturally.",
+    "worldY_samples": [
+      160
+    ],
+    "all55samples_dust_max": 0,
+    "airborne_flame_sprite_count": 46,
+    "result": "Pass: all sampled airborne frames have zero dust."
+  },
+  "limits_of_validation": [
+    "Emulator tests only; no physical Mega Drive test.",
+    "Standard fixture GokuP1 and GohanP2, both control bytes forced human. Collision positions/facing forced to24/40/56 world pixels separation.",
+    "Two forcedHP scenarios are diagnostic only. HoldingA+B without an actual hit reaction may rearm charge after a forcedHP reduction; six natural hits correctly cancel.",
+    "Airborne fixture forces worldY and plane flag after native charge starts. It confirms no-dust table selection, not a natural flight input command.",
+    "The full11roster recordings and extra special-attack sprite loads are outside this focused QA pass.",
+    "No game or hook code modified during QA."
+  ],
+  "previous_failed_candidate": {
+    "status": "REQUIRES_FIX: runtime scenarios pass but contracted fade maps exceed hardware scanline limits",
+    "sha256": "37e39a75929a642807e47546ba9f289059b120c367246b85b24e9e2d41b84c0b",
+    "capacity": {
+      "limits": {
+        "sprites_per_frame_H40": 80,
+        "sprites_per_scanline_H40": 20,
+        "sprite_width_pixels_per_scanline_H40": 320
+      },
+      "tested_max_sprites_per_frame": 80,
+      "frames_at80": 10,
+      "tested_max_aura_sprites": 54,
+      "tested_plain_aura_max": 52,
+      "expected_full_plain": "48 flame plus4 dust =52",
+      "expected_full_lightning": "48 flame plus4 dust plus2 long bolts =54",
+      "sustain_only_max_scanline_sprites": 20,
+      "sustain_only_max_scanline_width_pixels": 248,
+      "fade_max_scanline_sprites": 42,
+      "fade_max_scanline_width_pixels": 376,
+      "frames_over20_sprites": 29,
+      "frames_over320_width_pixels": 12,
+      "offending_cases": [
+        "p2-charge-release",
+        "two-charges",
+        "simultaneous",
+        "forced-HP-during-charge"
+      ],
+      "method": "Read native SAT staging buffer E04E, E452 entry count. Parse sprite Y, width and height; count all sprite bounding boxes crossing each visible scanline0..223 and sum their widths. Width totals conservatively include horizontally offscreen widths. Per-line sprite counts include all entries as hardware evaluation does.",
+      "finding": "Full-size aura stays within tested limits but reaches80 frame sprites and20 on a line with P2/HUD. Fade contracts sprite positions while retaining all48 native-size flame sprites, stacking them on the same lines; this exceeds hardware limits and can clip.",
+      "required_fix": "Reduce or replace flame entries in75/50/25 maps so their native-size bounding boxes fit20 sprites and320 pixels per line including actors/HUD. Retest before calling v2 validated. More effects need margin under80 global entries as well."
+    }
+  },
+  "previous_passed_candidate": {
+    "status": "PASS for tested final candidate; hardware and additional effects remain outside scope",
+    "sha256": "f7e1e6e6cf79b1b8c82862b4639c3385f1e32441c26414fb3be9aee621c53376",
+    "capacity": {
+      "limits": {
+        "sprites_per_frame_H40": 80,
+        "sprites_per_scanline_H40": 20,
+        "sprite_width_pixels_per_scanline_H40": 320
+      },
+      "tested_max_sprites_per_frame": 76,
+      "frames_at80": 0,
+      "tested_max_aura_sprites": 50,
+      "tested_plain_aura_max": 48,
+      "expected_full_plain": "46 flame plus2 dust =48",
+      "expected_full_lightning": "46 flame plus2 dust plus2 long bolts =50",
+      "tested_max_scanline_sprites": 18,
+      "tested_max_scanline_width_pixels": 232,
+      "frames_over20_sprites": 0,
+      "frames_over320_width_pixels": 0,
+      "method": "Read native SAT staging buffer E04E, E452 entry count. Parse sprite Y, width and height; count all sprite bounding boxes crossing each visible scanline0..223 and sum their widths. Width totals conservatively include horizontally offscreen widths. Per-line sprite counts include all entries as hardware evaluation does.",
+      "finding": "All tested sustained/fade maps fit the hardware budgets. The correction reduces full aura to46flame+2dust and uses fewer, non-collapsed flame entries during fade.",
+      "margin": "Tested maximum76/80 frame entries,18/20 sprites per scanline,232/320 width pixels. Additional effects beyond tested opponent kicks need their own budget check.",
+      "by_case": {
+        "p2-charge-release": {
+          "sprites": 76,
+          "scanline_sprites": 18,
+          "scanline_width_pixels": 232,
+          "aura_sprites": 50,
+          "dust_sprites": 2
+        },
+        "two-charges": {
+          "sprites": 68,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "simultaneous": {
+          "sprites": 70,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 184,
+          "aura_sprites": 50,
+          "dust_sprites": 2
+        },
+        "hit-during-charge-distance24": {
+          "sprites": 73,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "hit-during-charge-distance40": {
+          "sprites": 68,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "hit-during-charge-distance56": {
+          "sprites": 68,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "hit-during-fade-distance24": {
+          "sprites": 68,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "hit-during-fade-distance40": {
+          "sprites": 70,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "hit-during-fade-distance56": {
+          "sprites": 70,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "forced-HP-during-charge": {
+          "sprites": 68,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "forced-HP-during-fade": {
+          "sprites": 68,
+          "scanline_sprites": 17,
+          "scanline_width_pixels": 216,
+          "aura_sprites": 48,
+          "dust_sprites": 2
+        },
+        "forced-upper-plane": {
+          "sprites": 72,
+          "scanline_sprites": 14,
+          "scanline_width_pixels": 160,
+          "aura_sprites": 46,
+          "dust_sprites": 0
+        }
+      }
+    }
+  }
+}

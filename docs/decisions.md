@@ -17,6 +17,7 @@ Registro estructurado: [project/decisions.json](../project/decisions.json).
 | 2026-11-04 | Escenarios | **Propuesta Colores v1 para los nueve escenarios**. | Elegidos; disponibles en Colores v1. |
 | 2026-11-04 | HUD | **H4**, al corresponder a la paleta de selección elegida; mantener H3. | Pendiente implementar. |
 | 2026-11-04 | Auras | **C2**; **Cell y Gohan SSJ2 con rayos**, resto sin rayos. | Prototipo real implementado y grabado; pendiente de revisión visual. |
+| 2026-11-04 | Revisión de auras C2 v2 | La primera prueba resulta pequeña; ampliar a **80 × 128**, rayos blancos largos y polvo animado en el suelo. | Implementada y probada en los casos registrados; pendiente de aprobación visual. C2 v1 conservada. |
 | 2026-11-04 | Repositorio | Rama `development`; pnpm para las herramientas del proyecto. | Estructura inicial. |
 
 Las alternativas no elegidas siguen en el catálogo. No convertir un boceto en una función implementada al actualizar la documentación.

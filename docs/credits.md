@@ -7,6 +7,7 @@
 - Los retratos y sprites de las comparaciones proceden del juego base. Las propuestas de HUD y auras son bocetos; las auras conceptuales se generaron con `image_gen` y pueden reinterpretar detalles de la escena.
 - Vídeo de jugabilidad v1: capturas reales del emulador con entradas reproducibles.
 - Vídeos de auras C2: grabaciones reales del prototipo dentro del juego. La adaptación nativa usa 45 tiles y conserva la paleta compartida; no reproduce de forma idéntica el concepto generado.
+- C2 v2 conserva la paleta y revisa la composición del aura, el tamaño de los rayos y el polvo. La primera prueba y sus vídeos se mantienen como historial.
 - Herramientas de investigación: Ghidra, Java, Capstone, Genesis Plus GX y FFmpeg. Sus binarios no se incluyen en el repositorio.
 
 Los conceptos gráficos no demuestran que sus recursos ya funcionen en Mega Drive. Se conserva el historial para que cada decisión pueda revisarse.

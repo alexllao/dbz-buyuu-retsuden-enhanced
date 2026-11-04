@@ -1,0 +1,676 @@
+{
+  "version": "c2-v2-experimental",
+  "source": {
+    "bytes": 2097152,
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557"
+  },
+  "patch": {
+    "path": "patches/auras-c2-v2/auras-c2.ips",
+    "sha256": "e9860d4942e740d83fa92c949d32bb60227e92944c292eb4f0fc1da9511150f4"
+  },
+  "target": {
+    "filename": "Jugabilidad_v1_Colores_v1_Auras_C2_v2_Prueba.bin",
+    "bytes": 2097152,
+    "sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724"
+  },
+  "code": {
+    "base": "0x7B400",
+    "bytes": 840,
+    "assemblyHex": "src/auras/c2-v2/aura.hex",
+    "assembled_sha256": "b51006d8fe44d27be602b4a510df97d834359a329733aad48a91057d6f71ab1e"
+  },
+  "maps": {
+    "hex": "src/auras/c2-v2/maps.hex",
+    "sha256": "38b61afd46ed95c2e980a04a6f772e0154bc3ce05ea346d77ff0792e81bd20e8",
+    "storage": [
+      {
+        "address": "0x7b800",
+        "offset": 0,
+        "bytes": 290
+      },
+      {
+        "address": "0x7b922",
+        "offset": 290,
+        "bytes": 194
+      },
+      {
+        "address": "0x7b9e4",
+        "offset": 484,
+        "bytes": 86
+      },
+      {
+        "address": "0x7ba3a",
+        "offset": 570,
+        "bytes": 38
+      },
+      {
+        "address": "0x7ba60",
+        "offset": 608,
+        "bytes": 302
+      },
+      {
+        "address": "0x7bb8e",
+        "offset": 910,
+        "bytes": 206
+      },
+      {
+        "address": "0x7bc5c",
+        "offset": 1116,
+        "bytes": 98
+      },
+      {
+        "address": "0x7bcbe",
+        "offset": 1214,
+        "bytes": 38
+      },
+      {
+        "address": "0x7bce4",
+        "offset": 1252,
+        "bytes": 290
+      },
+      {
+        "address": "0x7be06",
+        "offset": 1542,
+        "bytes": 194
+      },
+      {
+        "address": "0x7bec8",
+        "offset": 1736,
+        "bytes": 86
+      },
+      {
+        "address": "0x7bf1e",
+        "offset": 1822,
+        "bytes": 38
+      },
+      {
+        "address": "0x7bf44",
+        "offset": 1860,
+        "bytes": 302
+      },
+      {
+        "address": "0x7c072",
+        "offset": 2162,
+        "bytes": 206
+      },
+      {
+        "address": "0x7c140",
+        "offset": 2368,
+        "bytes": 98
+      },
+      {
+        "address": "0x7c1a2",
+        "offset": 2466,
+        "bytes": 38
+      },
+      {
+        "address": "0x7c1c8",
+        "offset": 2504,
+        "bytes": 290
+      },
+      {
+        "address": "0x7c2ea",
+        "offset": 2794,
+        "bytes": 194
+      },
+      {
+        "address": "0x7c3ac",
+        "offset": 2988,
+        "bytes": 86
+      },
+      {
+        "address": "0x7c402",
+        "offset": 3074,
+        "bytes": 38
+      },
+      {
+        "address": "0x7c428",
+        "offset": 3112,
+        "bytes": 290
+      },
+      {
+        "address": "0x7c54a",
+        "offset": 3402,
+        "bytes": 194
+      },
+      {
+        "address": "0x7c60c",
+        "offset": 3596,
+        "bytes": 86
+      },
+      {
+        "address": "0x7c662",
+        "offset": 3682,
+        "bytes": 38
+      },
+      {
+        "address": "0x7c688",
+        "offset": 3720,
+        "bytes": 290
+      },
+      {
+        "address": "0x7c7aa",
+        "offset": 4010,
+        "bytes": 194
+      },
+      {
+        "address": "0x7c86c",
+        "offset": 4204,
+        "bytes": 86
+      },
+      {
+        "address": "0x7c8c2",
+        "offset": 4290,
+        "bytes": 38
+      },
+      {
+        "address": "0x7c8e8",
+        "offset": 4328,
+        "bytes": 290
+      },
+      {
+        "address": "0x7ca0a",
+        "offset": 4618,
+        "bytes": 194
+      },
+      {
+        "address": "0x7cacc",
+        "offset": 4812,
+        "bytes": 86
+      },
+      {
+        "address": "0x7cb22",
+        "offset": 4898,
+        "bytes": 38
+      },
+      {
+        "address": "0x7cb48",
+        "offset": 4936,
+        "bytes": 290
+      },
+      {
+        "address": "0x7cc6a",
+        "offset": 5226,
+        "bytes": 194
+      },
+      {
+        "address": "0x7cd2c",
+        "offset": 5420,
+        "bytes": 86
+      },
+      {
+        "address": "0x7cd82",
+        "offset": 5506,
+        "bytes": 38
+      },
+      {
+        "address": "0x7cda8",
+        "offset": 5544,
+        "bytes": 302
+      },
+      {
+        "address": "0x7ced6",
+        "offset": 5846,
+        "bytes": 206
+      },
+      {
+        "address": "0x7cfa4",
+        "offset": 6052,
+        "bytes": 98
+      },
+      {
+        "address": "0x7d006",
+        "offset": 6150,
+        "bytes": 38
+      },
+      {
+        "address": "0x7d02c",
+        "offset": 6188,
+        "bytes": 290
+      },
+      {
+        "address": "0x7d14e",
+        "offset": 6478,
+        "bytes": 194
+      },
+      {
+        "address": "0x7d210",
+        "offset": 6672,
+        "bytes": 86
+      },
+      {
+        "address": "0x7d266",
+        "offset": 6758,
+        "bytes": 38
+      },
+      {
+        "address": "0x7d28c",
+        "offset": 6796,
+        "bytes": 302
+      },
+      {
+        "address": "0x7d3ba",
+        "offset": 7098,
+        "bytes": 206
+      },
+      {
+        "address": "0x7d488",
+        "offset": 7304,
+        "bytes": 98
+      },
+      {
+        "address": "0x7d4ea",
+        "offset": 7402,
+        "bytes": 38
+      },
+      {
+        "address": "0x7d510",
+        "offset": 7440,
+        "bytes": 290
+      },
+      {
+        "address": "0x7d632",
+        "offset": 7730,
+        "bytes": 194
+      },
+      {
+        "address": "0x7d6f4",
+        "offset": 7924,
+        "bytes": 86
+      },
+      {
+        "address": "0x7d74a",
+        "offset": 8010,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b7c40",
+        "offset": 8048,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b7d62",
+        "offset": 8338,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b7e24",
+        "offset": 8532,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b7e7a",
+        "offset": 8618,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b7ea0",
+        "offset": 8656,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b7fc2",
+        "offset": 8946,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b8084",
+        "offset": 9140,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b80da",
+        "offset": 9226,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b8100",
+        "offset": 9264,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b8222",
+        "offset": 9554,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b82e4",
+        "offset": 9748,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b833a",
+        "offset": 9834,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b8360",
+        "offset": 9872,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b8476",
+        "offset": 10150,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b852c",
+        "offset": 10332,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b8576",
+        "offset": 10406,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b859c",
+        "offset": 10444,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b86be",
+        "offset": 10734,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b8780",
+        "offset": 10928,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b87d6",
+        "offset": 11014,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b87fc",
+        "offset": 11052,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b8912",
+        "offset": 11330,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b89c8",
+        "offset": 11512,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b8a12",
+        "offset": 11586,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b8a38",
+        "offset": 11624,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b8b5a",
+        "offset": 11914,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b8c1c",
+        "offset": 12108,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b8c72",
+        "offset": 12194,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b8c98",
+        "offset": 12232,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b8dae",
+        "offset": 12510,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b8e64",
+        "offset": 12692,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b8eae",
+        "offset": 12766,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b8ed4",
+        "offset": 12804,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b8fea",
+        "offset": 13082,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b90a0",
+        "offset": 13264,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b90ea",
+        "offset": 13338,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b9110",
+        "offset": 13376,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b9226",
+        "offset": 13654,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b92dc",
+        "offset": 13836,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b9326",
+        "offset": 13910,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b934c",
+        "offset": 13948,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b9462",
+        "offset": 14226,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b9518",
+        "offset": 14408,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b9562",
+        "offset": 14482,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b9588",
+        "offset": 14520,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b969e",
+        "offset": 14798,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b9754",
+        "offset": 14980,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b979e",
+        "offset": 15054,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b97c4",
+        "offset": 15092,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b98e6",
+        "offset": 15382,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b99a8",
+        "offset": 15576,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b99fe",
+        "offset": 15662,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b9a24",
+        "offset": 15700,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b9b3a",
+        "offset": 15978,
+        "bytes": 182
+      },
+      {
+        "address": "0x1b9bf0",
+        "offset": 16160,
+        "bytes": 74
+      },
+      {
+        "address": "0x1b9c3a",
+        "offset": 16234,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b9c60",
+        "offset": 16272,
+        "bytes": 290
+      },
+      {
+        "address": "0x1b9d82",
+        "offset": 16562,
+        "bytes": 194
+      },
+      {
+        "address": "0x1b9e44",
+        "offset": 16756,
+        "bytes": 86
+      },
+      {
+        "address": "0x1b9e9a",
+        "offset": 16842,
+        "bytes": 38
+      },
+      {
+        "address": "0x1b9ec0",
+        "offset": 16880,
+        "bytes": 278
+      },
+      {
+        "address": "0x1b9fd6",
+        "offset": 17158,
+        "bytes": 182
+      },
+      {
+        "address": "0x1ba08c",
+        "offset": 17340,
+        "bytes": 74
+      },
+      {
+        "address": "0x1ba0d6",
+        "offset": 17414,
+        "bytes": 38
+      },
+      {
+        "address": "0x1ba0fc",
+        "offset": 17452,
+        "bytes": 278
+      },
+      {
+        "address": "0x1ba212",
+        "offset": 17730,
+        "bytes": 182
+      },
+      {
+        "address": "0x1ba2c8",
+        "offset": 17912,
+        "bytes": 74
+      },
+      {
+        "address": "0x1ba312",
+        "offset": 17986,
+        "bytes": 38
+      },
+      {
+        "address": "0x1ba338",
+        "offset": 18024,
+        "bytes": 278
+      },
+      {
+        "address": "0x1ba44e",
+        "offset": 18302,
+        "bytes": 182
+      },
+      {
+        "address": "0x1ba504",
+        "offset": 18484,
+        "bytes": 74
+      },
+      {
+        "address": "0x1ba54e",
+        "offset": 18558,
+        "bytes": 38
+      },
+      {
+        "address": "0x1ba574",
+        "offset": 18596,
+        "bytes": 278
+      },
+      {
+        "address": "0x1ba68a",
+        "offset": 18874,
+        "bytes": 182
+      },
+      {
+        "address": "0x1ba740",
+        "offset": 19056,
+        "bytes": 74
+      },
+      {
+        "address": "0x1ba78a",
+        "offset": 19130,
+        "bytes": 38
+      }
+    ]
+  },
+  "tiles": {
+    "hex": "src/auras/c2-v2/tiles.hex",
+    "bytes": 1440,
+    "sha256": "96b77b1df08f5056286e40f9e80c3d384c3b411c9bcca483f1ec2e8eacaed7e1",
+    "baseVram": "0xA260",
+    "endVram": "0xA800"
+  },
+  "status": "Experimental review; preserves C2v1"
+}

@@ -46,6 +46,6 @@ Nueve fondos: torneo, desierto, montañas rocosas, Sala del Tiempo, carretera, p
 
 ![Auras](../assets/comparisons/overview/06-Auras-Goku.png)
 
-**C2 ya tiene un prototipo implementado en la ROM, pendiente de revisión visual.** Goku lleva el aura sin rayos; Gohan SSJ2 (ID 1) y Cell (ID 5), con rayos. El resto del reparto no lleva rayos. C1 se mantiene sólo como historial.
+**C2 v2 es la revisión actual implementada en la ROM, pendiente de aprobación visual.** El aura pasa de 64 × 112 a **80 × 128 píxeles**. Cell y Gohan SSJ2 llevan rayos blancos de 32 píxeles; Goku y los demás siguen sin rayos. Se añade polvo animado en los pies sólo al cargar en el suelo. C1 y C2 v1 se mantienen como historial.
 
-La adaptación utiliza 64 × 112 píxeles y 45 tiles, mantiene la paleta compartida nativa y retira el aura durante doce ticks al soltar la carga. Su dibujo y colores no son idénticos al boceto generado. Hay [grabaciones reales de los once personajes y de la salida a cámara lenta](auras-c2-v1.md). El usuario debe revisar el aspecto y la suavidad del cierre antes de aprobarlos; la evidencia de pruebas está separada de esa aprobación visual.
+La paleta compartida nativa se conserva y la retirada dura doce ticks del juego. El dibujo sigue siendo una adaptación del boceto. Hay [grabaciones reales de los once personajes, comparación de los tres tamaños y salida a cámara lenta](auras-c2-v2.md). El usuario debe revisar el tamaño, los rayos, el polvo y la suavidad del cierre; la evidencia de pruebas está separada de esa aprobación visual.

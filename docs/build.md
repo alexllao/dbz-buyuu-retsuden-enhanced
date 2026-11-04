@@ -18,6 +18,16 @@ La variante `colors` aplica primero Colores v1 y después Jugabilidad v1; por ú
 
 El [prototipo C2](auras-c2-v1.md) se conserva como un parche experimental separado en [patches/auras-c2-v1](../patches/auras-c2-v1), con su propio manifiesto. Combina Jugabilidad v1, Colores v1 y Auras C2 desde la base original. Los comandos de arriba siguen generando las dos variantes v1 anteriores; no incorporan automáticamente ese prototipo. La presentación G, el crédito y el HUD tampoco están incluidos en la prueba C2.
 
+## Prueba actual de auras: C2 v2
+
+La [segunda revisión C2](auras-c2-v2.md) amplía el aura a 80 × 128 píxeles y añade rayos blancos largos y polvo. Se genera por separado, conservando las variantes anteriores:
+
+```sh
+pnpm build:auras:v2 --rom "ruta/a/original.bin"
+```
+
+El [parche C2 v2](../patches/auras-c2-v2/auras-c2.ips) y su [manifiesto](../patches/auras-c2-v2/manifest.json) corresponden a Jugabilidad v1 + Colores v1 + Auras C2 v2 desde la misma base japonesa original. La presentación G, el crédito, la selección recoloreada y el HUD siguen pendientes de integración. La prueba está pendiente de aprobación visual.
+
 ## Ensamblar la fuente del 68000
 
 La fuente vigente es [controls.asm](../src/gameplay/v1/controls.asm). El código verificado está en [controls.hex](../src/gameplay/v1/controls.hex); son 796 bytes alojados en el relleno original desde `0x7B000`.

@@ -71,6 +71,44 @@ const auraQa = await json('evidence/auras-c2-v1/runtime-qa.json');
 assert.equal(auraQa.prototype_sha256, aura.target.sha256);
 assert.equal(auraQa.frames_with_aura_when_both_phase_zero.length, 0);
 assert.equal(auraQa.native118_11f_match_all_frames, true);
+const aura2 = await json('patches/auras-c2-v2/manifest.json');
+assert.equal(aura2.source.sha256, manifest.source.sha256);
+assert.equal(sha256(await readFile(resolve(root, aura2.patch.path))), aura2.patch.sha256);
+assert.equal(sha256(await readHex(aura2.code.assemblyHex)), aura2.code.assembled_sha256);
+const tiles2 = await readHex(aura2.tiles.hex);
+assert.equal(tiles2.length, 45 * 32);
+assert.equal(sha256(tiles2), aura2.tiles.sha256);
+const maps2 = await readHex(aura2.maps.hex);
+assert.equal(sha256(maps2), aura2.maps.sha256);
+assert.equal(aura2.maps.storage.length, 128);
+for (const entry of aura2.maps.storage) {
+  const count = maps2.readUInt16BE(entry.offset);
+  assert(count > 0 && count <= 50);
+  assert.equal(entry.bytes, 2 + count * 6);
+  for (let i = 0; i < count; i++) {
+    const at = entry.offset + 2 + i * 6;
+    const tile = maps2.readUInt16BE(at) & 0x7ff, size = maps2[at + 5];
+    assert(tile >= 0x513 && tile + (((size >> 2) & 3) + 1) * ((size & 3) + 1) <= 0x540);
+  }
+}
+const validation2 = await json('evidence/auras-c2-v2/validation.json');
+assert.equal(validation2.target_sha256, aura2.target.sha256);
+assert.deepEqual(validation2.flame_sizes.c2_v2, [80, 128]);
+assert.equal(validation2.characters.length, 11);
+assert.deepEqual(validation2.characters.filter(item => item.lightning).map(item => item.character_id), [1, 5]);
+for (const item of validation2.characters) {
+  assert(item.exit_completed && item.movement_after_release && item.scratch_magic_stable);
+  assert.equal(sha256(await readFile(resolve(root, 'assets/media/auras-c2-v2', item.video))), item.sha256);
+}
+assert.equal(validation2.graphics_budgets.length, 11);
+assert(validation2.graphics_budgets.every(item => item.sprites <= 80 && item.scanline <= 20 && item.pixels <= 320));
+const qa2 = await json('evidence/auras-c2-v2/runtime-qa.json');
+assert.equal(qa2.sha256, aura2.target.sha256);
+assert.equal(qa2.tested.natural_collisions, 6);
+assert.equal(qa2.tested.residual_sprites_when_both_phases_zero, 0);
+assert(qa2.capacity.tested_max_sprites_per_frame <= 80);
+assert(qa2.capacity.tested_max_scanline_sprites <= 20);
+assert(qa2.capacity.tested_max_scanline_width_pixels <= 320);
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {

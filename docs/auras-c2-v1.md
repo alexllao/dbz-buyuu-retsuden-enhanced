@@ -1,5 +1,7 @@
 # Auras C2: prototipo real para revisión
 
+**Versión histórica.** La revisión actual es [C2 v2](auras-c2-v2.md), con más tamaño, rayos blancos largos y polvo. Esta primera prueba se conserva íntegra para comparar.
+
 C2 ya tiene una primera implementación en la ROM. Es una **prueba experimental**, pendiente de aprobación visual del usuario; no una versión gráfica final.
 
 [Vídeo de los once personajes, original frente a C2](../assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4) · [Salida de Goku a cámara lenta](../assets/media/auras-c2-v1/Salida-Goku-lenta.mp4).

@@ -1,0 +1,10 @@
+{
+  "tool": "Built-in image_gen",
+  "flameSource": "../auras-c2-v1/provenance.json",
+  "prompts": {
+    "bolt": "Production pixel-art VFX sprite for a Sega Mega Drive game. A SINGLE very long, slender white lightning arc on transparent background. Vertical aspect ratio 1:4, designed for final resolution 8 pixels wide and 32 pixels tall. A sharp irregular zigzag that snakes down vertically, intermittent short branches, mostly one-pixel-wide lines at native resolution. Pure white flat color only, no gold or yellow, no blue. Angular anime Dragon Ball SSJ2 electricity, not a geometric repeated Z symbol, irregular branching. Coarse crisp pixel art, enlarge nearest-neighbor look. White lightning fills the height with 2% transparent margins. No character, no lettering, no aura fire, no background, no glow, no grey shadow, no antialias. Exactly one isolated lightning arc.",
+    "dust": "Production pixel-art VFX tile sprite for a Sega Mega Drive anime fighting game. A SINGLE small irregular puff of sandy dust on transparent background, square composition designed for final resolution8x8 pixels. Cream-colored bulbous dust cluster with two small lobes curling sideways, jagged pixel silhouette, ochre underside and one pale highlight. Exactly flat colors cream #FFFFCC and golden ochre #CC8800 plus transparent background. 1990s 16-bit Dragon Ball charging aura ground dust, not smoke on fire. Crisp coarse pixel art, no antialiasing, no gradient, no blur, no character, no ground line, no letters. One isolated puff only."
+  },
+  "nativeConversion": "The thin bolt is traced and connected on the8x32 native grid, two pixels wide, using common palette index15. Dust uses native cream/ochre, three8x8 tile sizes and eight moving map phases. Flame tiles are unchanged fromv1; their map is widened/tallened to80x128 by reusing strips. All resources fit the original45-tile allocation.",
+  "videos": "Actual emulator captures of the integrated ROM; generated source art is not used as simulated gameplay."
+}

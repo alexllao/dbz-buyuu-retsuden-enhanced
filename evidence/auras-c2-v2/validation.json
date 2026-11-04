@@ -1,0 +1,299 @@
+{
+  "status": "Experimental in-game C2 adaptation for user visual review",
+  "source_sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+  "rom_filename": "Jugabilidad_v1_Colores_v1_Auras_C2_v2_Prueba.bin",
+  "patch_sha256": "e9860d4942e740d83fa92c949d32bb60227e92944c292eb4f0fc1da9511150f4",
+  "fps": 59.92274340431231,
+  "fixture": "Native boot. Both fighters human for controlled idle opponent. 30idle120charge50release30right30idle; no aura or animation flags forced.",
+  "characters": [
+    {
+      "character_id": 0,
+      "character": "Goku",
+      "lightning": false,
+      "video": "00-Goku.mp4",
+      "sha256": "8932e5c46c72a8c2caca8419dc3f64c7baaefd03ac90e6be0b4cd8291af34deb",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 171,
+      "after_final_x": 173,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 1,
+      "character": "Gohan-SSJ2",
+      "lightning": true,
+      "video": "01-Gohan-SSJ2.mp4",
+      "sha256": "3343a09a0a33d3be10bcd70c3981c0a5dc510f3d855fd835b82173e5feeebea3",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 169,
+      "after_final_x": 168,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 2,
+      "character": "Piccolo",
+      "lightning": false,
+      "video": "02-Piccolo.mp4",
+      "sha256": "6b815066b6ce8977070aab7b330917fd5ce7f5cb706dc8a24580cd89590d734f",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 171,
+      "after_final_x": 171,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 3,
+      "character": "Vegeta",
+      "lightning": false,
+      "video": "03-Vegeta.mp4",
+      "sha256": "66ef683cb77137c5b7baf0df2a647e45cee7538714b46615b2d2262d62941b24",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 169,
+      "after_final_x": 171,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 4,
+      "character": "Trunks",
+      "lightning": false,
+      "video": "04-Trunks.mp4",
+      "sha256": "9adfce4de9ec54c0548a98d89ada7e2f2bbc6a27964e67d68e9a72a24e4bd9e4",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 171,
+      "after_final_x": 171,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 5,
+      "character": "Cell",
+      "lightning": true,
+      "video": "05-Cell.mp4",
+      "sha256": "e2a6f613b6cd76fc7b355eed0935c5d21abbbaea188531f117374db4747c9b54",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 170,
+      "after_final_x": 170,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 6,
+      "character": "Android-18",
+      "lightning": false,
+      "video": "06-Android-18.mp4",
+      "sha256": "49f76e0dd1c805e6495e9c44bf13768db6696d622e6bfe513d5e76f8916219b2",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 173,
+      "after_final_x": 173,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 7,
+      "character": "Krillin",
+      "lightning": false,
+      "video": "07-Krillin.mp4",
+      "sha256": "711f607da6c2e98e9bb12b1708d747543ff44b260f705bf54f9b14f82356535c",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 169,
+      "after_final_x": 170,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 8,
+      "character": "Freezer",
+      "lightning": false,
+      "video": "08-Freezer.mp4",
+      "sha256": "26f42e80017ed6a8b31a6efa8e997fc5f1a601ce556160665b178ee83d8a3d86",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 171,
+      "after_final_x": 172,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 9,
+      "character": "Recoome",
+      "lightning": false,
+      "video": "09-Recoome.mp4",
+      "sha256": "d113372ac45f177a9ff6b0196aeb883c1f4da041e691f542a0abace4b3fde571",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 166,
+      "after_final_x": 166,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    },
+    {
+      "character_id": 10,
+      "character": "Ginyu",
+      "lightning": false,
+      "video": "10-Ginyu.mp4",
+      "sha256": "f3a4d136736ac9251830bcd58acdd5c7e074a65c3da00ad3ee33220a2b45f0f9",
+      "sustained_aura": true,
+      "exit_completed": true,
+      "movement_after_release": true,
+      "scratch_magic_stable": true,
+      "no_damage_during_recording": true,
+      "source_sha256": "6460ad414fda368526bfb13170e14ead6908b2e588b10d2605c993872c2b63e4",
+      "target_sha256": "619d7b4959e0d64826994d95a900370a51ff87a83d412624e5410b50a1b7d724",
+      "before_final_x": 171,
+      "after_final_x": 168,
+      "before_final_hp": 200,
+      "after_final_hp": 200
+    }
+  ],
+  "limitations": [
+    "Original engine alternates player aura rendering; native flicker retained.",
+    "12 game ticks fade approximates 12-16 display frames under slowdown.",
+    "Title G, mod title credit and HUD H4 are not integrated in this build.",
+    "Visual adaptation to 45 native tiles, not an exact reproduction of the concept image."
+  ],
+  "revision": "C2v2: native original width restored, taller flame, animated sand and longer white arcs",
+  "flame_sizes": {
+    "original": [
+      80,
+      112
+    ],
+    "c2_v1": [
+      64,
+      112
+    ],
+    "c2_v2": [
+      80,
+      128
+    ]
+  },
+  "graphics_budgets": [
+    {
+      "character_id": 0,
+      "sprites": 68,
+      "scanline": 17,
+      "pixels": 216
+    },
+    {
+      "character_id": 1,
+      "sprites": 67,
+      "scanline": 17,
+      "pixels": 208
+    },
+    {
+      "character_id": 2,
+      "sprites": 73,
+      "scanline": 18,
+      "pixels": 216
+    },
+    {
+      "character_id": 3,
+      "sprites": 66,
+      "scanline": 17,
+      "pixels": 216
+    },
+    {
+      "character_id": 4,
+      "sprites": 65,
+      "scanline": 17,
+      "pixels": 208
+    },
+    {
+      "character_id": 5,
+      "sprites": 72,
+      "scanline": 17,
+      "pixels": 216
+    },
+    {
+      "character_id": 6,
+      "sprites": 68,
+      "scanline": 18,
+      "pixels": 216
+    },
+    {
+      "character_id": 7,
+      "sprites": 65,
+      "scanline": 17,
+      "pixels": 224
+    },
+    {
+      "character_id": 8,
+      "sprites": 69,
+      "scanline": 18,
+      "pixels": 224
+    },
+    {
+      "character_id": 9,
+      "sprites": 73,
+      "scanline": 18,
+      "pixels": 232
+    },
+    {
+      "character_id": 10,
+      "sprites": 66,
+      "scanline": 17,
+      "pixels": 224
+    }
+  ],
+  "runtime_qa": "runtime-qa.json"
+}

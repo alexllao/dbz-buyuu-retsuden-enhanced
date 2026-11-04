@@ -2,13 +2,15 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: jugabilidad v1 experimental · auras C2 implementadas como prototipo para revisión**
+**Estado: jugabilidad v1 experimental · auras C2 v2 con más tamaño, rayos largos y polvo, para revisión**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
 **[Ver la comparación completa en vídeo](assets/media/gameplay-v1-comparison.mp4)** · [Galería de variantes](docs/graphics.md) · [Decisiones guardadas](docs/decisions.md) · [Hoja de ruta](docs/roadmap.md)
 
-**[Auras C2: vídeo real con los once personajes, antes y después](assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4)** · [Final del aura de Goku a cámara lenta](assets/media/auras-c2-v1/Salida-Goku-lenta.mp4)
+**[Auras C2 v2: vídeo real con los once personajes, antes y después](assets/media/auras-c2-v2/Todas-las-auras-antes-despues.mp4)** · [Comparar los tres tamaños con Goku](assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4) · [Final del aura a cámara lenta](assets/media/auras-c2-v2/Salida-Goku-lenta.mp4)
+
+La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4) se conservan como historial.
 
 ## Qué hay ahora
 
@@ -20,18 +22,20 @@ Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y 
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
 | Presentación | **G — C con contraste marcado elegida**; pendiente de integrar en la próxima ROM. |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
-| Auras | **C2 experimental implementada en la ROM de prueba**; vídeos reales de los once personajes. Pendiente de revisión visual del usuario. |
+| Auras | **C2 v2 experimental**: aura más grande, rayos blancos largos en Cell/Gohan SSJ2 y polvo animado en el suelo. Vídeos reales; pendiente de revisión visual. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
 ## Auras C2 en el juego
 
-El prototipo adapta C2 a un recurso de **64 × 112 píxeles y 45 tiles**, con la paleta compartida nativa conservada. Es una adaptación para Mega Drive del concepto elegido; el dibujo y los colores no reproducen de forma idéntica el boceto generado.
+La segunda prueba responde a la revisión de tamaño: el aura ocupa **80 × 128 píxeles**, frente a los 64 × 112 de C2 v1 y los 80 × 112 del original. Es un **25 % más ancha y un 14 % más alta que la primera prueba**. Conserva la paleta compartida nativa; el dibujo sigue siendo una adaptación para Mega Drive del concepto elegido.
 
-**Goku y el resto del reparto no llevan rayos; Gohan SSJ2 (ID 1) y Cell (ID 5), sí.** Al soltar la carga, la retirada visual dura doce ticks. Los vídeos muestran el aura original y la nueva dentro del juego, incluida la salida; falta que el usuario revise su aspecto y si el cierre resulta suave. La validación del prototipo se registra por separado en [evidencia C2](evidence/auras-c2-v1/validation.json).
+**Goku y el resto del reparto no llevan rayos; Gohan SSJ2 y Cell, sí.** Sus arcos blancos son intermitentes y alcanzan 32 píxeles, frente a los ocho del recurso anterior. Se añaden dos nubes de polvo animadas junto a los pies, sólo al cargar desde el suelo. Al soltar, la retirada visual sigue durando doce ticks del juego y reduce sus piezas para respetar los límites de dibujo de la consola.
 
-La ROM de prueba combina **Jugabilidad v1 + Colores v1 + Auras C2**. La presentación G, el crédito **- 2026 ALEX LLAO**, los retratos de selección y el HUD H4 todavía están pendientes de integración. [Detalles y vídeos individuales](docs/auras-c2-v1.md).
+Los vídeos son grabaciones reales de los once personajes. Las pruebas cubren golpes, cargas consecutivas, ambos jugadores y ausencia de polvo en el aire; **la aprobación visual del usuario sigue pendiente**. [Detalles, vídeos y evidencia C2 v2](docs/auras-c2-v2.md).
+
+La ROM de prueba combina **Jugabilidad v1 + Colores v1 + Auras C2 v2**. La presentación G, el crédito **- 2026 ALEX LLAO**, los retratos de selección y el HUD H4 todavía están pendientes de integración.
 
 ## Las cuatro mejoras de jugabilidad
 
@@ -66,6 +70,9 @@ pnpm build --rom "ruta/a/original.bin"
 
 # Los mismos controles y las paletas Colores v1
 pnpm build:colors --rom "ruta/a/original.bin"
+
+# Prueba actual: controles, colores y auras C2 v2
+pnpm build:auras:v2 --rom "ruta/a/original.bin"
 ```
 
 También puedes colocar la base en `roms/original.bin` y ejecutar `pnpm build`. El resultado aparece en `dist/`, con un registro de hashes. El archivo de entrada nunca se sobrescribe.
@@ -116,6 +123,6 @@ La rama de trabajo es **`development`**. Cada cambio debe conservar las variante
 
 ## Próximo paso
 
-Revisar los vídeos reales del prototipo C2, especialmente su retirada, y probar la jugabilidad v1 con mando. Después, integrar la presentación G, el crédito, los retratos elegidos y el HUD H4. Los ataques especiales siguen pendientes y las localizaciones nuevas permanecen en espera.
+Revisar el tamaño, los rayos, el polvo y la retirada de C2 v2 en los vídeos reales, y probar la jugabilidad v1 con mando. Después, integrar la presentación G, el crédito, los retratos elegidos y el HUD H4. Los ataques especiales siguen pendientes y las localizaciones nuevas permanecen en espera.
 
 Proyecto de modificación no oficial. Los personajes, el juego original y Hyper Dragon Ball Z se mencionan como obras y referencias de sus respectivos autores. [Créditos y procedencia](docs/credits.md).
