@@ -1,0 +1,14 @@
+{
+  "sourceV6_1Sha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "targetSha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57",
+  "checks": {
+    "approvedLargeFacePixelExactAt720": true,
+    "combinedBodyFrameExactToAuditedCandidateAt960": true,
+    "titleOutsideCreditPixelExactAt1800": true,
+    "gameplayCodeUnchanged": true
+  },
+  "changedTitleCreditPixels": 8264,
+  "introFramesUntilBattleState": 2206,
+  "sourceIntroFramesUntilBattleState": 2200,
+  "note": "About100ms of intro timing difference from resource/draw workload; no timer constant edited. Stopped before CPU fight. Full-body and font visual review pending."
+}

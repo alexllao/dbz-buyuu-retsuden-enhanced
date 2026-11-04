@@ -1,0 +1,828 @@
+{
+  "status": "Complete first-pass material targets for exact-packing review; not approved artwork, no ROM edits",
+  "source": "outputs\\intro-paleta-G-v6-1\\Buyuu_Retsuden_Enhanced_v6_1.bin",
+  "sha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "mapping_file": "work/intro-characters/target-mapping.json",
+  "mapping_schema": "targetMapping[strCID][sourceBank:sourceIndex] -> integer Genesis CRAM word; every nontransparent source index in exact owner units covered.",
+  "battle_palette_address": "0x80064+CID*32; actual V6.1 bytes, not CHAR_EDITS assumptions.",
+  "battle_palette_words": {
+    "0": [
+      66,
+      1130,
+      2220,
+      2798,
+      582,
+      108,
+      1198,
+      582,
+      1600,
+      1056,
+      554,
+      2146,
+      1196,
+      104,
+      0,
+      3276
+    ],
+    "1": [
+      0,
+      1130,
+      2220,
+      2798,
+      1538,
+      2086,
+      3176,
+      582,
+      586,
+      38,
+      2798,
+      650,
+      1196,
+      104,
+      2730,
+      3822
+    ],
+    "2": [
+      0,
+      576,
+      1156,
+      1734,
+      3176,
+      2086,
+      1538,
+      2114,
+      1056,
+      610,
+      2220,
+      1130,
+      582,
+      1092,
+      2730,
+      3276
+    ],
+    "3": [
+      34,
+      1130,
+      2220,
+      2798,
+      1056,
+      1600,
+      2146,
+      582,
+      2730,
+      1638,
+      1128,
+      102,
+      1196,
+      104,
+      3276,
+      3822
+    ],
+    "4": [
+      1636,
+      1130,
+      2220,
+      2798,
+      546,
+      2694,
+      2148,
+      582,
+      548,
+      582,
+      1092,
+      1602,
+      1196,
+      104,
+      1638,
+      3822
+    ],
+    "5": [
+      548,
+      1738,
+      1158,
+      610,
+      576,
+      3822,
+      3274,
+      1638,
+      1092,
+      546,
+      546,
+      2118,
+      1606,
+      1196,
+      104,
+      70
+    ],
+    "6": [
+      578,
+      1196,
+      3310,
+      104,
+      1130,
+      2220,
+      546,
+      1602,
+      2660,
+      3240,
+      104,
+      3822,
+      2766,
+      2694,
+      1636,
+      2730
+    ],
+    "7": [
+      0,
+      1130,
+      2220,
+      1092,
+      582,
+      108,
+      1198,
+      582,
+      1600,
+      1056,
+      552,
+      2146,
+      1638,
+      546,
+      0,
+      2766
+    ],
+    "8": [
+      544,
+      2150,
+      3276,
+      3822,
+      1570,
+      2086,
+      3210,
+      2190,
+      558,
+      6,
+      238,
+      108,
+      716,
+      170,
+      2696,
+      3822
+    ],
+    "9": [
+      34,
+      36,
+      72,
+      2220,
+      1132,
+      584,
+      2666,
+      1128,
+      2220,
+      512,
+      546,
+      618,
+      1092,
+      2184,
+      2730,
+      3822
+    ],
+    "10": [
+      66,
+      2664,
+      3244,
+      3244,
+      2664,
+      1572,
+      582,
+      2118,
+      1128,
+      2220,
+      2730,
+      2184,
+      1638,
+      546,
+      512,
+      3822
+    ]
+  },
+  "target_battle_indices": {
+    "1": {
+      "1:1": 5,
+      "1:2": 6,
+      "1:6": 1,
+      "1:7": 4,
+      "1:8": 9,
+      "1:9": 3,
+      "1:11": 2,
+      "1:12": 14,
+      "1:14": 0,
+      "1:15": 15,
+      "2:3": 10,
+      "2:4": 2,
+      "2:5": 1,
+      "2:6": 13,
+      "2:8": 12,
+      "2:10": 0
+    },
+    "2": {
+      "1:1": 5,
+      "1:2": 4,
+      "1:3": 3,
+      "1:4": 2,
+      "1:5": 1,
+      "1:6": 11,
+      "1:7": 6,
+      "1:8": 12,
+      "1:9": 10,
+      "1:12": 13,
+      "1:14": 0,
+      "1:15": 15
+    },
+    "3": {
+      "2:3": 3,
+      "2:4": 2,
+      "2:5": 1,
+      "2:6": 13,
+      "2:8": 12,
+      "2:10": 4,
+      "2:11": 4,
+      "2:7": 6,
+      "2:14": 14,
+      "2:15": 15,
+      "3:2": 6,
+      "3:6": 5,
+      "3:11": 4,
+      "3:5": 15,
+      "3:7": 14,
+      "3:8": 8,
+      "3:9": 9,
+      "3:14": 4,
+      "3:13": 10,
+      "3:15": 7
+    },
+    "4": {
+      "2:1": 8,
+      "2:3": 3,
+      "2:4": 2,
+      "2:5": 1,
+      "2:6": 13,
+      "2:8": 12,
+      "2:7": 5,
+      "2:11": 11,
+      "2:10": 4,
+      "2:12": 10,
+      "2:13": 14,
+      "2:15": 15
+    },
+    "5": {
+      "3:1": 1,
+      "3:3": 2,
+      "3:4": 4,
+      "3:13": 6,
+      "3:5": 5,
+      "3:14": 10,
+      "3:9": 10,
+      "3:8": 8,
+      "3:7": 7,
+      "3:10": 12,
+      "3:12": 11,
+      "3:15": 13
+    },
+    "6": {
+      "2:1": 3,
+      "2:3": 12,
+      "2:4": 5,
+      "2:5": 4,
+      "2:6": 3,
+      "2:8": 1,
+      "2:9": 7,
+      "2:11": 8,
+      "2:7": 9,
+      "2:10": 6,
+      "2:12": 15,
+      "2:13": 14,
+      "2:14": 11,
+      "2:15": 11
+    },
+    "7": {
+      "2:1": 4,
+      "2:2": 6,
+      "2:3": 15,
+      "2:4": 2,
+      "2:5": 1,
+      "2:6": 5,
+      "2:9": 9,
+      "2:12": 8,
+      "2:14": 11,
+      "2:15": 15,
+      "2:10": 14
+    },
+    "8": {
+      "2:13": 1,
+      "2:14": 2,
+      "2:15": 3,
+      "2:9": 4,
+      "2:11": 5,
+      "2:7": 6,
+      "2:12": 4,
+      "2:10": 9
+    },
+    "9": {
+      "2:1": 1,
+      "2:2": 11,
+      "2:3": 3,
+      "2:4": 4,
+      "2:5": 7,
+      "2:6": 2,
+      "2:8": 5,
+      "2:9": 9,
+      "2:10": 10,
+      "2:12": 12,
+      "2:13": 13,
+      "2:14": 14,
+      "2:15": 15
+    },
+    "10": {
+      "1:7": 7,
+      "1:1": 1,
+      "1:2": 2,
+      "1:6": 6,
+      "1:9": 9,
+      "1:10": 10,
+      "1:12": 12,
+      "1:14": 13,
+      "1:15": 15
+    }
+  },
+  "targetMapping": {
+    "1": {
+      "1:1": 2086,
+      "1:2": 3176,
+      "1:6": 1130,
+      "1:7": 1538,
+      "1:8": 38,
+      "1:9": 2798,
+      "1:11": 2220,
+      "1:12": 2730,
+      "1:14": 0,
+      "1:15": 3822,
+      "2:3": 2798,
+      "2:4": 2220,
+      "2:5": 1130,
+      "2:6": 104,
+      "2:8": 1196,
+      "2:10": 0
+    },
+    "2": {
+      "1:1": 2086,
+      "1:2": 3176,
+      "1:3": 1734,
+      "1:4": 1156,
+      "1:5": 576,
+      "1:6": 1130,
+      "1:7": 1538,
+      "1:8": 582,
+      "1:9": 2220,
+      "1:12": 1092,
+      "1:14": 0,
+      "1:15": 3276
+    },
+    "3": {
+      "2:3": 2798,
+      "2:4": 2220,
+      "2:5": 1130,
+      "2:6": 104,
+      "2:8": 1196,
+      "2:10": 1056,
+      "2:11": 1056,
+      "2:7": 2146,
+      "2:14": 3276,
+      "2:15": 3822,
+      "3:2": 2146,
+      "3:6": 1600,
+      "3:11": 1056,
+      "3:5": 3822,
+      "3:7": 3276,
+      "3:8": 2730,
+      "3:9": 1638,
+      "3:14": 1056,
+      "3:13": 1128,
+      "3:15": 582
+    },
+    "4": {
+      "2:1": 548,
+      "2:3": 2798,
+      "2:4": 2220,
+      "2:5": 1130,
+      "2:6": 104,
+      "2:8": 1196,
+      "2:7": 2694,
+      "2:11": 1602,
+      "2:10": 546,
+      "2:12": 1092,
+      "2:13": 1638,
+      "2:15": 3822
+    },
+    "5": {
+      "3:1": 1738,
+      "3:3": 1158,
+      "3:4": 576,
+      "3:13": 3274,
+      "3:5": 3822,
+      "3:14": 546,
+      "3:9": 546,
+      "3:8": 1092,
+      "3:7": 1638,
+      "3:10": 1606,
+      "3:12": 2118,
+      "3:15": 1196
+    },
+    "6": {
+      "2:1": 104,
+      "2:3": 2766,
+      "2:4": 2220,
+      "2:5": 1130,
+      "2:6": 104,
+      "2:8": 1196,
+      "2:9": 1602,
+      "2:11": 2660,
+      "2:7": 3240,
+      "2:10": 546,
+      "2:12": 2730,
+      "2:13": 1636,
+      "2:14": 3822,
+      "2:15": 3822
+    },
+    "7": {
+      "2:1": 582,
+      "2:2": 1198,
+      "2:3": 2766,
+      "2:4": 2220,
+      "2:5": 1130,
+      "2:6": 108,
+      "2:9": 1056,
+      "2:12": 1600,
+      "2:14": 2146,
+      "2:15": 2766,
+      "2:10": 0
+    },
+    "8": {
+      "2:13": 2150,
+      "2:14": 3276,
+      "2:15": 3822,
+      "2:9": 1570,
+      "2:11": 2086,
+      "2:7": 3210,
+      "2:12": 1570,
+      "2:10": 6
+    },
+    "9": {
+      "2:1": 36,
+      "2:2": 618,
+      "2:3": 2220,
+      "2:4": 1132,
+      "2:5": 1128,
+      "2:6": 72,
+      "2:8": 584,
+      "2:9": 512,
+      "2:10": 546,
+      "2:12": 1092,
+      "2:13": 2184,
+      "2:14": 2730,
+      "2:15": 3822
+    },
+    "10": {
+      "1:7": 2118,
+      "1:1": 2664,
+      "1:2": 3244,
+      "1:6": 582,
+      "1:9": 2220,
+      "1:10": 2730,
+      "1:12": 1638,
+      "1:14": 546,
+      "1:15": 3822
+    }
+  },
+  "protected_three_shade_material_ramps": [
+    {
+      "cid": 1,
+      "material": "violet uniform",
+      "source": [
+        "1:7",
+        "1:1",
+        "1:2"
+      ],
+      "battle_indices": [
+        4,
+        5,
+        6
+      ],
+      "target_words": [
+        1538,
+        2086,
+        3176
+      ]
+    },
+    {
+      "cid": 2,
+      "material": "violet gi",
+      "source": [
+        "1:7",
+        "1:1",
+        "1:2"
+      ],
+      "battle_indices": [
+        6,
+        5,
+        4
+      ],
+      "target_words": [
+        1538,
+        2086,
+        3176
+      ]
+    },
+    {
+      "cid": 2,
+      "material": "green skin",
+      "source": [
+        "1:5",
+        "1:4",
+        "1:3"
+      ],
+      "battle_indices": [
+        1,
+        2,
+        3
+      ],
+      "target_words": [
+        576,
+        1156,
+        1734
+      ]
+    },
+    {
+      "cid": 2,
+      "material": "pink arm patches",
+      "source": [
+        "1:8",
+        "1:6",
+        "1:9"
+      ],
+      "battle_indices": [
+        12,
+        11,
+        10
+      ],
+      "target_words": [
+        582,
+        1130,
+        2220
+      ]
+    },
+    {
+      "cid": 3,
+      "material": "petrol-blue suit",
+      "source": [
+        "3:11",
+        "3:6",
+        "3:2"
+      ],
+      "battle_indices": [
+        4,
+        5,
+        6
+      ],
+      "target_words": [
+        1056,
+        1600,
+        2146
+      ]
+    },
+    {
+      "cid": 5,
+      "material": "green shell",
+      "source": [
+        "3:4",
+        "3:3",
+        "3:1"
+      ],
+      "battle_indices": [
+        4,
+        2,
+        1
+      ],
+      "target_words": [
+        576,
+        1158,
+        1738
+      ]
+    },
+    {
+      "cid": 6,
+      "material": "denim blues",
+      "source": [
+        "2:9",
+        "2:11",
+        "2:7"
+      ],
+      "battle_indices": [
+        7,
+        8,
+        9
+      ],
+      "target_words": [
+        1602,
+        2660,
+        3240
+      ]
+    },
+    {
+      "cid": 7,
+      "material": "gold-orange gi",
+      "source": [
+        "2:1",
+        "2:6",
+        "2:2"
+      ],
+      "battle_indices": [
+        4,
+        5,
+        6
+      ],
+      "target_words": [
+        582,
+        108,
+        1198
+      ]
+    },
+    {
+      "cid": 8,
+      "material": "neutral white body",
+      "source": [
+        "2:13",
+        "2:14",
+        "2:15"
+      ],
+      "battle_indices": [
+        1,
+        2,
+        3
+      ],
+      "target_words": [
+        2150,
+        3276,
+        3822
+      ]
+    },
+    {
+      "cid": 8,
+      "material": "violet plates",
+      "source": [
+        "2:9",
+        "2:11",
+        "2:7"
+      ],
+      "battle_indices": [
+        4,
+        5,
+        6
+      ],
+      "target_words": [
+        1570,
+        2086,
+        3210
+      ]
+    },
+    {
+      "cid": 9,
+      "material": "skin",
+      "source": [
+        "2:5",
+        "2:4",
+        "2:3"
+      ],
+      "battle_indices": [
+        7,
+        4,
+        3
+      ],
+      "target_words": [
+        1128,
+        1132,
+        2220
+      ]
+    },
+    {
+      "cid": 9,
+      "material": "copper hair",
+      "source": [
+        "2:1",
+        "2:6",
+        "2:2"
+      ],
+      "battle_indices": [
+        1,
+        2,
+        11
+      ],
+      "target_words": [
+        36,
+        72,
+        618
+      ]
+    },
+    {
+      "cid": 10,
+      "material": "violet skin",
+      "source": [
+        "1:7",
+        "1:1",
+        "1:2"
+      ],
+      "battle_indices": [
+        7,
+        1,
+        2
+      ],
+      "target_words": [
+        2118,
+        2664,
+        3244
+      ]
+    }
+  ],
+  "face_palette0_fixed": [
+    0,
+    2,
+    1602,
+    582,
+    1198,
+    1674,
+    1056,
+    1188,
+    650,
+    3822,
+    3278,
+    2146,
+    1196,
+    610,
+    2798,
+    3822
+  ],
+  "packing_numbers": {
+    "all10full_battle_palettes_unique_including_index0": 72,
+    "first_pass_target_unique": 51,
+    "first_pass_target_outside_fixed_face_words": 43,
+    "three_free_banks_opaque_capacity": 45,
+    "global_unique_fit_is_not_per_unit_fit": true
+  },
+  "bank_affinity_recommendation": [
+    {
+      "group": "human/SSJ/gi",
+      "characters": [
+        "Gohan head",
+        "Vegeta head",
+        "Trunks head",
+        "Krillin"
+      ],
+      "materials": "shared human skin, goldhair, petrolblue and gold-orangegi; prioritize sharedskin/hair ramps across humanheadunits."
+    },
+    {
+      "group": "green/violet",
+      "characters": [
+        "Piccolo",
+        "Gohan uniform",
+        "Cell",
+        "Ginyu skin"
+      ],
+      "materials": "share exact violetcloth0602/0826/0C68 but keep Ginyuskin0846/0A68/0CAC separate. GreenPiccolo0240/0484/06C6 differsCell0240/0486/06CA."
+    },
+    {
+      "group": "denim/armor/alien",
+      "characters": [
+        "Trunks jacket",
+        "Android18",
+        "Freezer",
+        "Recoome",
+        "Ginyu armor"
+      ],
+      "materials": "white/gray share where exact, but denimTrunks0642/0A86 differsAndroid180642/0A64/0CA8. No promise one bankfits this entire group."
+    }
+  ],
+  "known_material_constraints": [
+    "Same source1:7/1:1/1:2 isclothforGohan/Piccolo butskinforGinyu: mustmapperCID, notglobaloldpaletteindex.",
+    "Sharedskin source1:6/11/9 and2:5/4/3 mustbeperCID: humanSaiyan046A/08AC/0AEE;A18highlight0ACE;Krillinhighlight0ACE;Recoome0468/046C/08AC.",
+    "Trunksintrohas two dominantbluejacketindices2:11/7; preservetwo as0642/0A86 ratherthan inventing third source shade.",
+    "Sharedsourcecolorindicescanserve multiplematerialswithinaCID; perCIDglobalindexmapping cannot independentlysplitthese. Tile/coordinate masks maybeneededfor refined boots/trim choices."
+  ],
+  "confidence_and_review": [
+    "Protected3shade ramps are semanticmaterialchoices from sourceimage hues and approvedbattlewords; no RGBnearest algorithm used.",
+    "Small trim/boot/outline assignments are first-pass and require renderedvisualreview; inparticular Cell3:10/12/15 andVegeta3:13/15 accessories, Freezer2:12 shadowplates, A18graybootshighlights.",
+    "Targetwordbelongs to sameCIDactual16wordbattlepalette for every mapping entry, verifiedbyconstruction. Thisalone doesnotprove original battle materialrole for everyminortrim pixel.",
+    "Threebanks exact feasibility mustbecomputedfrom BG8x8/spriteentry groupconstraints. Donot collapse protected3shades tonearestsamecolor toforcefit; reportinfeasible orproposeexplicitmaterialtradeoff.",
+    "No userapprovalofbodycolors yet. OnlylargeGfaceapproved; keepGpalette0unchanged."
+  ],
+  "secondary_merge_file": "work/intro-characters/merge-candidates.json",
+  "secondary_merge_status": "27 optional per-CID/source-key material shade merges authorized for packing search. All13protectedthree-shade triplet keys untouched. Counts and alternatives in merge file; selected subset and resulting visual quality not established by this ledger."
+}

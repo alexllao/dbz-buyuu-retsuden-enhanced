@@ -1,5 +1,7 @@
 # Paleta G desde la primera pantalla: v6.1
 
+**La cara grande de Goku queda aprobada. Los personajes completos no están aprobados:** el usuario pide que coincidan con las paletas de combate elegidas. La primera armonización de piel de v6.1 se conserva como historial y requiere revisión.
+
 La cara de Goku que aparece al arrancar seguía naranja, aunque la pantalla de título posterior ya tenía la paleta G elegida. El juego carga dos copias distintas de esa paleta: la apertura usa `0x1ADDB2` y el título posterior usa `0x1ADE32`. La revisión v6 sólo había actualizado la segunda.
 
 Ahora la primera cara utiliza exactamente los mismos quince colores visibles de G. Se conserva su entrada de fondo azul. También se adaptan seis entradas compartidas de piel de los personajes completos, usando las luces, medios tonos y sombras de esa misma cara. Los verdes, morados, blancos y negros propios de los personajes se conservan.
@@ -20,4 +22,4 @@ Las figuras de cuerpo completo comparten paletas; no disponen de una paleta inde
 
 [Cambios exactos](../src/palettes/intro-v1/changes.json) · [Rutas de carga originales](../evidence/intro-v1/static-source.json) · [Verificación del arranque y paletas](../evidence/intro-v1/validation.json).
 
-`pnpm build:review --rom ruta/a/original.bin` genera ahora v6.1. Las anteriores se conservan con `--version v6` o `--version v5.2`. Arranca sin cargar estados guardados de otra ROM.
+Esta revisión histórica se genera con `pnpm build:review --rom ruta/a/original.bin --version v6.1`. La versión predeterminada actual es [v6.2](intro-characters-v2.md). Las anteriores se conservan con `--version v6` o `--version v5.2`. Arranca sin cargar estados guardados de otra ROM.

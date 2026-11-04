@@ -16,11 +16,16 @@
       "usePseudonym": false
     },
     "openingConsistency": {
-      "status": "Implemented for user review",
+      "status": "Large Goku face approved; full-body character colors rejected and pending battle-palette alignment",
       "cause": "Opening0x1ADDB2 retained original palette while title0x1ADE32 already usedG",
       "face": "Entries1..15 exactly equal approvedG; distinct backdrop entry0 retained",
-      "fullBody": "6shared skin entries mapped to G light/mid/shadow",
-      "evidence": "evidence/intro-v1/validation.json"
+      "fullBody": "Needs per-character mapping to the battle palettes already selected; G skin-only harmonization rejected",
+      "evidence": "evidence/intro-v1/validation.json",
+      "approval": {
+        "date": "2026-11-04",
+        "feedback": "los colores del goku de fondo estan bien pero los personajes no, no son como los del juego que coloreamos",
+        "scope": "Large background Goku face only; full-body palette is not approved"
+      }
     }
   },
   "characters": {
@@ -345,5 +350,12 @@
     "preserves": "All original A/B commands and C outside the new combination",
     "tests": "374actual-command cases plus122native/reuse audits",
     "video": "assets/media/side-switch/Todos-cambio-de-lado.mp4"
+  },
+  "introV6_2": {
+    "status": "Implemented; body and font visual approval pending",
+    "approved": "Large background Goku face G only",
+    "body": "Selected battle palettes adapted into three body banks; 27 explicit secondary shade merges; 13 protected principal ramps",
+    "credit": "Original Bandai retained; ALEX LLAO 2026 in same-height bitmap style beside it",
+    "romSha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57"
   }
 }

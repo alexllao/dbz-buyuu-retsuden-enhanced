@@ -1,0 +1,603 @@
+{
+  "status": "Native preview verified; fullbody colors pending user visual approval",
+  "sourceSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "targetSha256": "0c44fdd1ad725246b9aabc537f0fd1660b557e43460fb4bb37a6690cda34aa1c",
+  "nativeQA": {
+    "sourceSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+    "targetSha256": "0c44fdd1ad725246b9aabc537f0fd1660b557e43460fb4bb37a6690cda34aa1c",
+    "frames": [
+      {
+        "frame": 720,
+        "fullFrameEqual": true,
+        "changedPixels": 0,
+        "outsideBodyOwnerMaskChangedPixels": 0
+      },
+      {
+        "frame": 840,
+        "fullFrameEqual": true,
+        "changedPixels": 0,
+        "outsideBodyOwnerMaskChangedPixels": 0
+      },
+      {
+        "frame": 960,
+        "fullFrameEqual": false,
+        "changedPixels": 57072,
+        "outsideBodyOwnerMaskChangedPixels": 0
+      },
+      {
+        "frame": 1080,
+        "fullFrameEqual": false,
+        "changedPixels": 57072,
+        "outsideBodyOwnerMaskChangedPixels": 0
+      },
+      {
+        "frame": 1200,
+        "fullFrameEqual": false,
+        "changedPixels": 57072,
+        "outsideBodyOwnerMaskChangedPixels": 0
+      },
+      {
+        "frame": 1800,
+        "fullFrameEqual": true,
+        "changedPixels": 0,
+        "outsideBodyOwnerMaskChangedPixels": 0
+      }
+    ],
+    "nativeBodyColorConversionLut": [
+      {
+        "0": 0,
+        "1": 32,
+        "4": 139,
+        "7": 238,
+        "5": 172,
+        "3": 98,
+        "2": 65,
+        "6": 205
+      },
+      {
+        "0": 0,
+        "1": 32,
+        "2": 68,
+        "4": 137,
+        "5": 170,
+        "6": 206,
+        "3": 101,
+        "7": 238
+      },
+      {
+        "0": 0,
+        "1": 32,
+        "2": 65,
+        "3": 98,
+        "6": 205,
+        "5": 172,
+        "7": 238,
+        "4": 139
+      }
+    ],
+    "nativeLutConflictPixels": 0,
+    "nativeFullbodyF960PerCIDPixels": {
+      "9": 2387,
+      "5": 2194,
+      "2": 2310,
+      "10": 1947,
+      "4": 1633,
+      "3": 1512,
+      "8": 1788,
+      "7": 1198,
+      "1": 1130,
+      "6": 1089
+    },
+    "nativeFullbodyF960PerCIDRGBErrors": {
+      "9": 0,
+      "5": 0,
+      "2": 0,
+      "10": 0,
+      "4": 0,
+      "3": 0,
+      "8": 0,
+      "7": 0,
+      "1": 0,
+      "6": 0
+    },
+    "protectedMaterialRampsPreserved": 13,
+    "satMax": {
+      "count": 68,
+      "lineSprites": 14,
+      "linePixels": 232
+    },
+    "method": "Cold boot2000displayframes, no buttons/RAM writes, before attractCPU. Pixel comparisons use sourceV6.1 for approvedG face, unchangedtitle, and body ownership; intro sourcebodypalette NOT approval reference. BodyexpectedRGB usesexplicitbattle-derived material targets after disclosedsecondaryadaptations.",
+    "limits": [
+      "No physical hardware test.",
+      "Secondary gray/trim shades simplified as listed in operations.json; final visual approval pending."
+    ]
+  },
+  "stats": {
+    "bodyBGUniqueTiles": 353,
+    "overlaySprites": 58,
+    "totalWithNativeLineSprites": 67,
+    "allocatedTiles": 611,
+    "maxLineSprites": 14,
+    "maxLinePixels": 232,
+    "colorWords": 43,
+    "paletteOptimizationScore": 14872
+  },
+  "targetWordMembershipInSameCIDBattlePalette": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true
+  },
+  "protectedMaterialRamps": 13,
+  "protectedRampsAllUnchanged": true,
+  "faceGBytesAndPixelsUnchanged": true,
+  "titleF1800FramePixelIdentical": true,
+  "bodySpriteConversion": "Original body source pixels composed in BG plus58native color-mask sprites. Masks usebanks1..3 only; native facebank0 and fade code untouched.",
+  "nativeRevealTimingSamples": [
+    {
+      "frame": 720,
+      "fields": {
+        "0xe6a4": [
+          56,
+          56
+        ],
+        "0xe6a6": [
+          3328,
+          3328
+        ],
+        "0xe754": [
+          1,
+          1
+        ],
+        "0xe9e4": [
+          646,
+          646
+        ],
+        "0xc038": [
+          320,
+          320
+        ]
+      },
+      "equal": true,
+      "timerDelta": 0
+    },
+    {
+      "frame": 840,
+      "fields": {
+        "0xe6a4": [
+          56,
+          56
+        ],
+        "0xe6a6": [
+          3328,
+          3328
+        ],
+        "0xe754": [
+          1,
+          1
+        ],
+        "0xe9e4": [
+          526,
+          526
+        ],
+        "0xc038": [
+          320,
+          320
+        ]
+      },
+      "equal": true,
+      "timerDelta": 0
+    },
+    {
+      "frame": 960,
+      "fields": {
+        "0xe6a4": [
+          56,
+          56
+        ],
+        "0xe6a6": [
+          3328,
+          3328
+        ],
+        "0xe754": [
+          1,
+          1
+        ],
+        "0xe9e4": [
+          406,
+          410
+        ],
+        "0xc038": [
+          0,
+          0
+        ]
+      },
+      "equal": false,
+      "timerDelta": 4
+    },
+    {
+      "frame": 1080,
+      "fields": {
+        "0xe6a4": [
+          56,
+          56
+        ],
+        "0xe6a6": [
+          3328,
+          3328
+        ],
+        "0xe754": [
+          1,
+          1
+        ],
+        "0xe9e4": [
+          286,
+          290
+        ],
+        "0xc038": [
+          0,
+          0
+        ]
+      },
+      "equal": false,
+      "timerDelta": 4
+    },
+    {
+      "frame": 1200,
+      "fields": {
+        "0xe6a4": [
+          56,
+          56
+        ],
+        "0xe6a6": [
+          3328,
+          3328
+        ],
+        "0xe754": [
+          1,
+          1
+        ],
+        "0xe9e4": [
+          166,
+          170
+        ],
+        "0xc038": [
+          0,
+          0
+        ]
+      },
+      "equal": false,
+      "timerDelta": 4
+    },
+    {
+      "frame": 1800,
+      "fields": {
+        "0xe6a4": [
+          56,
+          56
+        ],
+        "0xe6a6": [
+          3328,
+          3328
+        ],
+        "0xe754": [
+          3,
+          3
+        ],
+        "0xe9e4": [
+          384,
+          390
+        ],
+        "0xc038": [
+          0,
+          0
+        ]
+      },
+      "equal": false,
+      "timerDelta": 6
+    }
+  ],
+  "nativeRevealTimingSamplesEqual": false,
+  "shapeAndTransparencyExact": true,
+  "finalSecondaryAdaptations": [
+    {
+      "cid": 1,
+      "sourceKey": "1:12",
+      "fromWord": 2730,
+      "toWord": 2798,
+      "visiblePixels": 22
+    },
+    {
+      "cid": 1,
+      "sourceKey": "1:14",
+      "fromWord": 0,
+      "toWord": 38,
+      "visiblePixels": 139
+    },
+    {
+      "cid": 1,
+      "sourceKey": "1:15",
+      "fromWord": 3822,
+      "toWord": 2798,
+      "visiblePixels": 4
+    },
+    {
+      "cid": 1,
+      "sourceKey": "2:10",
+      "fromWord": 0,
+      "toWord": 38,
+      "visiblePixels": 48
+    },
+    {
+      "cid": 2,
+      "sourceKey": "1:12",
+      "fromWord": 1092,
+      "toWord": 2730,
+      "visiblePixels": 22
+    },
+    {
+      "cid": 2,
+      "sourceKey": "1:14",
+      "fromWord": 0,
+      "toWord": 1092,
+      "visiblePixels": 249
+    },
+    {
+      "cid": 2,
+      "sourceKey": "1:15",
+      "fromWord": 3276,
+      "toWord": 2730,
+      "visiblePixels": 5
+    },
+    {
+      "cid": 3,
+      "sourceKey": "3:7",
+      "fromWord": 3276,
+      "toWord": 3822,
+      "visiblePixels": 91
+    },
+    {
+      "cid": 3,
+      "sourceKey": "3:8",
+      "fromWord": 2730,
+      "toWord": 3822,
+      "visiblePixels": 32
+    },
+    {
+      "cid": 3,
+      "sourceKey": "3:9",
+      "fromWord": 1638,
+      "toWord": 2730,
+      "visiblePixels": 137
+    },
+    {
+      "cid": 3,
+      "sourceKey": "3:13",
+      "fromWord": 1128,
+      "toWord": 582,
+      "visiblePixels": 22
+    },
+    {
+      "cid": 4,
+      "sourceKey": "2:1",
+      "fromWord": 548,
+      "toWord": 582,
+      "visiblePixels": 119
+    },
+    {
+      "cid": 4,
+      "sourceKey": "2:12",
+      "fromWord": 1092,
+      "toWord": 546,
+      "visiblePixels": 246
+    },
+    {
+      "cid": 4,
+      "sourceKey": "2:13",
+      "fromWord": 1638,
+      "toWord": 546,
+      "visiblePixels": 211
+    },
+    {
+      "cid": 5,
+      "sourceKey": "3:7",
+      "fromWord": 1638,
+      "toWord": 1092,
+      "visiblePixels": 82
+    },
+    {
+      "cid": 5,
+      "sourceKey": "3:10",
+      "fromWord": 1606,
+      "toWord": 2118,
+      "visiblePixels": 380
+    },
+    {
+      "cid": 6,
+      "sourceKey": "2:12",
+      "fromWord": 2730,
+      "toWord": 3822,
+      "visiblePixels": 116
+    },
+    {
+      "cid": 6,
+      "sourceKey": "2:13",
+      "fromWord": 1636,
+      "toWord": 3822,
+      "visiblePixels": 60
+    },
+    {
+      "cid": 8,
+      "sourceKey": "2:12",
+      "fromWord": 1570,
+      "toWord": 2086,
+      "visiblePixels": 107
+    },
+    {
+      "cid": 8,
+      "sourceKey": "2:10",
+      "fromWord": 6,
+      "toWord": 1570,
+      "visiblePixels": 322
+    },
+    {
+      "cid": 9,
+      "sourceKey": "2:8",
+      "fromWord": 584,
+      "toWord": 618,
+      "visiblePixels": 84
+    },
+    {
+      "cid": 9,
+      "sourceKey": "2:9",
+      "fromWord": 512,
+      "toWord": 546,
+      "visiblePixels": 51
+    },
+    {
+      "cid": 9,
+      "sourceKey": "2:12",
+      "fromWord": 1092,
+      "toWord": 546,
+      "visiblePixels": 49
+    },
+    {
+      "cid": 9,
+      "sourceKey": "2:13",
+      "fromWord": 2184,
+      "toWord": 3822,
+      "visiblePixels": 216
+    },
+    {
+      "cid": 9,
+      "sourceKey": "2:14",
+      "fromWord": 2730,
+      "toWord": 3822,
+      "visiblePixels": 264
+    },
+    {
+      "cid": 10,
+      "sourceKey": "1:10",
+      "fromWord": 2730,
+      "toWord": 3822,
+      "visiblePixels": 113
+    },
+    {
+      "cid": 10,
+      "sourceKey": "1:12",
+      "fromWord": 1638,
+      "toWord": 3822,
+      "visiblePixels": 342
+    }
+  ],
+  "secondaryAdaptedVisiblePixelCount": 3533,
+  "resourceOperations": [
+    {
+      "start": "0x3c0000",
+      "endInclusive": "0x3c297b",
+      "bytes": 10620,
+      "label": "Body native atlas, rebuilt losslessly in shape with approved-palette targets"
+    },
+    {
+      "start": "0x3c7000",
+      "endInclusive": "0x3c74c3",
+      "bytes": 1220,
+      "label": "Body BG map including all10native characters and palette masks"
+    },
+    {
+      "start": "0x3c9000",
+      "endInclusive": "0x3c915d",
+      "bytes": 350,
+      "label": "Secondary-color body overlay sprites, native palette fade banks1..3 only"
+    },
+    {
+      "start": "0x3c9400",
+      "endInclusive": "0x3c9401",
+      "bytes": 2,
+      "label": "Second original body sprite map now empty; all masks in first map"
+    },
+    {
+      "start": "0x778be",
+      "endInclusive": "0x778c1",
+      "bytes": 4,
+      "label": "Intro-only resource pointer"
+    },
+    {
+      "start": "0x778ee",
+      "endInclusive": "0x778f1",
+      "bytes": 4,
+      "label": "Intro-only resource pointer"
+    },
+    {
+      "start": "0x77fd0",
+      "endInclusive": "0x77fd3",
+      "bytes": 4,
+      "label": "Intro-only resource pointer"
+    },
+    {
+      "start": "0x77fe8",
+      "endInclusive": "0x77feb",
+      "bytes": 4,
+      "label": "Intro-only resource pointer"
+    },
+    {
+      "start": "0x1addd2",
+      "endInclusive": "0x1addf1",
+      "bytes": 32,
+      "label": "Repacked body palette; bank0 approvedG unchanged"
+    },
+    {
+      "start": "0x1addf2",
+      "endInclusive": "0x1ade11",
+      "bytes": 32,
+      "label": "Repacked body palette; bank0 approvedG unchanged"
+    },
+    {
+      "start": "0x1ade12",
+      "endInclusive": "0x1ade31",
+      "bytes": 32,
+      "label": "Repacked body palette; bank0 approvedG unchanged"
+    },
+    {
+      "start": "0x18e",
+      "endInclusive": "0x18f",
+      "bytes": 2,
+      "label": "Checksum"
+    }
+  ],
+  "resourceRange": "0x3C0000..0x3C9401",
+  "preservedNativeLineTiles": "0x20A..0x20F copied byte-identical into rebuilt atlas",
+  "opsSchema": "operations.json -> operations [{address:int,data:hex,label:string}]; skip storedchecksum when combining then recalculate",
+  "limits": [
+    "Static material targets derived from actual same-CID battle palette words; material placement and secondary grayscale simplifications still need visual approval.",
+    "No physical hardware test, no CPU autoplay. Cold boot2000frames only.",
+    "Font change is separate and not integrated into this candidate.",
+    "Native code/timer constants unchanged. Compressed resource boot timing deltas are recorded per sample; no unsupported same-duration claim."
+  ],
+  "compression": [
+    {
+      "address": "0x3c0000",
+      "literalBytes": 27650,
+      "greedyBytes": 10620,
+      "decodedBytes": 24576,
+      "decodedSha256": "8c080b5e1996de37d44441bcb8c7993abbf6491a6d6ec1c06c29b0814d6921b4",
+      "byteExact": true
+    },
+    {
+      "address": "0x3c7000",
+      "literalBytes": 4610,
+      "greedyBytes": 1220,
+      "decodedBytes": 4096,
+      "decodedSha256": "a972228a859355156032549d031493821af24c1ce395afdf5648df2f981e5ffa",
+      "byteExact": true
+    }
+  ],
+  "bytesOutsideOperationsIdentical": true,
+  "operationsFontAndSideSwitchDisjoint": true
+}

@@ -1,0 +1,18 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_v6_2.bin",
+    "sha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/review-v6-2/enhanced-v6-2.ips",
+    "sha256": "1b042d40773062dd44068113412bbcc71a98e6640b05e927e5215699175aa409"
+  },
+  "scope": "Intro body resources and palettes adapted from selected battle colors; native-height credit bitmap and map. Approved background G face unchanged. Body and font visual approval pending.",
+  "inheritsGameplay": "patches/review-v3/manifest.json"
+}

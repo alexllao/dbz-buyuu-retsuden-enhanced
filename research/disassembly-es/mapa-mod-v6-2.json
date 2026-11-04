@@ -1,0 +1,128 @@
+{
+  "modifiedSource": "outputs/intro-personajes-v6-2/Buyuu_Retsuden_Enhanced_v6_2.bin",
+  "sha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57",
+  "bytes": 4194304,
+  "classifiedInstructions": 24716,
+  "classifiedInstructionBytes": 90844,
+  "unclassifiedBytes": 4103460,
+  "unclassifiedRegions": 371,
+  "originalInstructionsExcludedBecauseBytesChanged": 29,
+  "overlays": [
+    {
+      "source": "work/side-switch/controls-v3.listing.txt",
+      "start": 503808,
+      "endExclusive": 504560,
+      "instructionCount": 197
+    },
+    {
+      "source": "work/side-switch/side.listing.txt",
+      "start": 4063232,
+      "endExclusive": 4063771,
+      "instructionCount": 144
+    },
+    {
+      "source": "work/auras/colors-v4/aura.listing.txt",
+      "start": 504832,
+      "endExclusive": 508650,
+      "instructionCount": 194
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 36696,
+      "endExclusive": 36704,
+      "instructionCount": 2
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 36300,
+      "endExclusive": 36306,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 133596,
+      "endExclusive": 133604,
+      "instructionCount": 2
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 133702,
+      "endExclusive": 133708,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 35300,
+      "endExclusive": 35310,
+      "instructionCount": 3
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 66592,
+      "endExclusive": 66602,
+      "instructionCount": 3
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 71496,
+      "endExclusive": 71506,
+      "instructionCount": 3
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 39316,
+      "endExclusive": 39322,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 115420,
+      "endExclusive": 115426,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 165656,
+      "endExclusive": 165662,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 112940,
+      "endExclusive": 112946,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 167584,
+      "endExclusive": 167590,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 490448,
+      "endExclusive": 490454,
+      "instructionCount": 1
+    },
+    {
+      "source": "Gancho documentado de la revisión",
+      "start": 491668,
+      "endExclusive": 491674,
+      "instructionCount": 1
+    },
+    {
+      "source": "repository/src/title/g/patch-operations.json",
+      "start": 4130048,
+      "endExclusive": 4130080,
+      "instructionCount": 7
+    }
+  ],
+  "completeAddressCoverage": true,
+  "allGameCodeIdentified": false,
+  "recompilationValidated": false,
+  "limits": [
+    "Mapa de estudio ligado al hash indicado, no a futuras revisiones.",
+    "Los recursos nuevos permanecen como datos INCBIN.",
+    "No se ha demostrado la recompilación exacta del listado."
+  ]
+}

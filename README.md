@@ -2,7 +2,7 @@
 
 Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
 
-**Estado: revisión v6.1 de prueba · paleta G también en la apertura · cambio de lado sin golpe para los once personajes · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
+**Estado: revisión v6.2 de prueba · paleta G también en la apertura · cambio de lado sin golpe para los once personajes · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación G y créditos integrados · ki v4 aceptado**
 
 ![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
 
@@ -20,16 +20,18 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 | Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
 | Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
 | Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
-| Presentación | **G integrada en apertura y título**, piel de las figuras completas ajustada; **© BANDAI 1994** y **- 2026 ALEX LLAO** juntos. [Comparación](docs/intro-palettes.md). |
+| Presentación | **G integrada en apertura y título**, personajes completos adaptados a las paletas de combate; **© BANDAI 1994** y **- 2026 ALEX LLAO** juntos. [Comparación](docs/intro-palettes.md). |
 | HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
 | Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; paletas aceptadas visualmente. |
 | Ataques especiales | Revisión pendiente. |
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
-## Revisión actual: ROM v6.1
+## Revisión actual: ROM v6.2
 
-**Corregida la primera pantalla:** la cara inicial de Goku ya utiliza la misma paleta G del título, y la piel de los personajes completos sigue esa misma gama. [Comparar el arranque, antes y después](docs/intro-palettes.md). El código de jugabilidad y los demás recursos de v6 se conservan.
+**La cara grande G aprobada se conserva.** Los personajes completos ahora toman los colores de combate elegidos, con algunas sombras secundarias simplificadas para respetar las paletas de la consola. El crédito de ALEX LLAO comparte altura y trazo con BANDAI. **Estos dos ajustes quedan pendientes de tu revisión visual.** [Capturas reales y detalles de v6.2](docs/intro-characters-v2.md). La jugabilidad se conserva.
+
+También está disponible el [ASM de estudio comentado en castellano](docs/asm-en-castellano.md): incluye rutinas identificadas y fuentes de nuestros parches. No es el código fuente original; las zonas desconocidas quedan marcadas y no se ha validado recompilar el juego completo.
 
 **Cambio de lado sin golpe para todos: adelante, atrás, adelante + C**, cerca del rival. La última dirección y C pueden pulsarse juntos. Se conserva la función normal de C al soltarlo; las técnicas originales de A y B no se sustituyen. [Ver los once dentro del juego](assets/media/side-switch/Todos-cambio-de-lado.mp4) · [Controles, condiciones y pruebas](docs/side-switch.md).
 

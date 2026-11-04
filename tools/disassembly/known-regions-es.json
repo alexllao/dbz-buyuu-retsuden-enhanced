@@ -1,0 +1,27 @@
+{
+  "romSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "note": "Nombres didácticos. Los límites de extracción siguientes son tramos auditados, no una clasificación de toda la ROM.",
+  "regions": [
+    {"start":"0x8F58","endExclusive":"0x9066","name":"entrada_mandos","description":"Lee las entradas de ambos jugadores y distingue control humano/CPU; incluye la ruta que bloquea entradas.","source":"evidence/gameplay-v1 y research/gameplay-v2/gameplay_probe.py"},
+    {"start":"0x9170","endExclusive":"0x93A8","name":"historial_y_combinaciones","description":"Conserva direcciones, normaliza según orientación y resuelve combinaciones originales de A/B. El reconocedor nativo modifica B7 y B9, incluso al fallar.","source":"evidence/side-switch/input-audit.json"},
+    {"start":"0x1631C","endExclusive":"0x164EA","name":"cambio_lado_nativo","description":"Movimiento rápido original reutilizado por el parche. Los ensayos observan cruce sin daño ni activación de golpe; no confundirlo con un ataque que también cruce.","source":"evidence/side-switch/native-summary.json"},
+    {"start":"0x20B7A","endExclusive":"0x20BE8","name":"cambio_y_reinicio_estado","description":"Selecciona programa/acción y reinicia campos de animación y estado. La entrada 20B7E modifica el retorno en la pila: no es una función normal intercambiable con cualquier JSR.","source":"evidence/side-switch/native-summary.json y src/gameplay/v3/side.asm"}
+  ],
+  "labels": {
+    "0x206":{"name":"inicio_reset","description":"Entrada de arranque señalada por los vectores; inicialización del sistema. El nombre no procede del fuente original."},
+    "0x8F58":{"name":"leer_mandos_con_bloqueo","description":"Entrada nativa interceptada por el parche de controles."},
+    "0x8F68":{"name":"copiar_entradas_jugadores","description":"Copia entradas a los actores; usa la IA cuando el tipo de control no es humano."},
+    "0x9170":{"name":"actualizar_historial_ambos","description":"Actualiza el historial de direcciones para ambos actores."},
+    "0x917C":{"name":"actualizar_historial_actor","description":"Historial circular por actor; cabeza B6, cola B7 y contador B8."},
+    "0x922A":{"name":"normalizar_izquierda_derecha","description":"Intercambia izquierda/derecha según hacia dónde mira el actor."},
+    "0x9258":{"name":"resolver_tecnicas_ambos","description":"Entrada de las combinaciones originales de los dos jugadores."},
+    "0x92B2":{"name":"comparar_secuencia_nativa","description":"Compara el historial con una tabla; cambia cola/historial y deja el comando en B9 al reconocerlo."},
+    "0x11C9C":{"name":"preparar_contactos","description":"Preparación nativa de contactos; v6 la conserva detrás del nuevo gancho de cambio de lado."},
+    "0x124C0":{"name":"nucleo_colisiones","description":"Núcleo de pruebas de contacto identificado durante la revisión de cajas."},
+    "0x1631C":{"name":"ejecutar_cambio_lado","description":"Programa nativo de desplazamiento rápido, sin golpe en los casos registrados."},
+    "0x20BA0":{"name":"reiniciar_estado_actor","description":"Reinicio común de campos nativos. No borra libremente toda la estructura del jugador."},
+    "0x77844":{"name":"maquina_presentacion","description":"Secuencia de apertura; sus tablas y recursos no son instrucciones lineales."},
+    "0x77A4C":{"name":"cargar_paletas_apertura","description":"Ruta que usa las cuatro paletas de apertura desde 1ADDB2."},
+    "0x78094":{"name":"dibujar_creditos_titulo","description":"Dibuja el mapa de sprites de créditos del título."}
+  }
+}

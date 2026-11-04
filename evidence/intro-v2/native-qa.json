@@ -1,0 +1,110 @@
+{
+  "sourceSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "targetSha256": "0c44fdd1ad725246b9aabc537f0fd1660b557e43460fb4bb37a6690cda34aa1c",
+  "frames": [
+    {
+      "frame": 720,
+      "fullFrameEqual": true,
+      "changedPixels": 0,
+      "outsideBodyOwnerMaskChangedPixels": 0
+    },
+    {
+      "frame": 840,
+      "fullFrameEqual": true,
+      "changedPixels": 0,
+      "outsideBodyOwnerMaskChangedPixels": 0
+    },
+    {
+      "frame": 960,
+      "fullFrameEqual": false,
+      "changedPixels": 57072,
+      "outsideBodyOwnerMaskChangedPixels": 0
+    },
+    {
+      "frame": 1080,
+      "fullFrameEqual": false,
+      "changedPixels": 57072,
+      "outsideBodyOwnerMaskChangedPixels": 0
+    },
+    {
+      "frame": 1200,
+      "fullFrameEqual": false,
+      "changedPixels": 57072,
+      "outsideBodyOwnerMaskChangedPixels": 0
+    },
+    {
+      "frame": 1800,
+      "fullFrameEqual": true,
+      "changedPixels": 0,
+      "outsideBodyOwnerMaskChangedPixels": 0
+    }
+  ],
+  "nativeBodyColorConversionLut": [
+    {
+      "0": 0,
+      "1": 32,
+      "4": 139,
+      "7": 238,
+      "5": 172,
+      "3": 98,
+      "2": 65,
+      "6": 205
+    },
+    {
+      "0": 0,
+      "1": 32,
+      "2": 68,
+      "4": 137,
+      "5": 170,
+      "6": 206,
+      "3": 101,
+      "7": 238
+    },
+    {
+      "0": 0,
+      "1": 32,
+      "2": 65,
+      "3": 98,
+      "6": 205,
+      "5": 172,
+      "7": 238,
+      "4": 139
+    }
+  ],
+  "nativeLutConflictPixels": 0,
+  "nativeFullbodyF960PerCIDPixels": {
+    "9": 2387,
+    "5": 2194,
+    "2": 2310,
+    "10": 1947,
+    "4": 1633,
+    "3": 1512,
+    "8": 1788,
+    "7": 1198,
+    "1": 1130,
+    "6": 1089
+  },
+  "nativeFullbodyF960PerCIDRGBErrors": {
+    "9": 0,
+    "5": 0,
+    "2": 0,
+    "10": 0,
+    "4": 0,
+    "3": 0,
+    "8": 0,
+    "7": 0,
+    "1": 0,
+    "6": 0
+  },
+  "protectedMaterialRampsPreserved": 13,
+  "satMax": {
+    "count": 68,
+    "lineSprites": 14,
+    "linePixels": 232
+  },
+  "method": "Cold boot2000displayframes, no buttons/RAM writes, before attractCPU. Pixel comparisons use sourceV6.1 for approvedG face, unchangedtitle, and body ownership; intro sourcebodypalette NOT approval reference. BodyexpectedRGB usesexplicitbattle-derived material targets after disclosedsecondaryadaptations.",
+  "limits": [
+    "No physical hardware test.",
+    "Secondary gray/trim shades simplified as listed in operations.json; final visual approval pending."
+  ]
+}

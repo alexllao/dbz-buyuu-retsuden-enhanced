@@ -1,0 +1,51 @@
+{
+  "originalSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "romBytes": 2097152,
+  "ghidraInstructions": 24196,
+  "ghidraFunctions": 1032,
+  "studyInstructions": 24196,
+  "classifiedInstructionBytes": 88890,
+  "unclassifiedBytes": 2008262,
+  "unclassifiedRegions": 351,
+  "completeAddressCoverage": true,
+  "allGameCodeIdentified": false,
+  "recompilationValidated": false,
+  "newLinearDisassemblyOfOpaqueData": false,
+  "patchCopies": [
+    {
+      "source": "repository\\src\\gameplay\\v3\\controls.asm",
+      "output": "outputs\\codigo-asm-castellano\\parches_comentados\\controles_v3_comentados.asm",
+      "codeTokensPreserved": true
+    },
+    {
+      "source": "repository\\src\\gameplay\\v3\\side.asm",
+      "output": "outputs\\codigo-asm-castellano\\parches_comentados\\cambio_lado_comentado.asm",
+      "codeTokensPreserved": true
+    },
+    {
+      "source": "repository\\src\\auras\\c2-v4\\aura.asm",
+      "output": "outputs\\codigo-asm-castellano\\parches_comentados\\auras_v4_comentadas.asm",
+      "codeTokensPreserved": true
+    }
+  ],
+  "analysisFiles": [
+    {
+      "name": "seeds.tsv",
+      "sha256": "7c1be1241444ad80680d9439a6dd02e65fc22c682ace4feb023404280829f325"
+    },
+    {
+      "name": "relative-dispatch-tables.tsv",
+      "sha256": "762aa4c748cce960310019196c64e495e19ceb01b5a70e8c7e53b4c57b5df533"
+    }
+  ],
+  "tooling": "Ghidra12.1.4 instruction listing; optional Capstone5.0.6 for exactly delimited audited ranges; Python standard library for export",
+  "limits": [
+    "La cobertura completa se refiere a direcciones, no a que todo el código haya sido descubierto.",
+    "Una clasificación de Ghidra no prueba que cada instrucción se ejecute ni que no haya datos intercalados.",
+    "No se recuperan nombres, variables o comentarios originales del desarrollador.",
+    "Los comentarios automáticos de operación no sustituyen la interpretación manual del juego.",
+    "INCBIN mantiene opacos los bytes no clasificados; no se publica la ROM original.",
+    "Los bytes no clasificados pueden ser código o datos: su porcentaje de la ROM no mide el porcentaje de lógica recuperada.",
+    "El dialecto impreso mezcla una notación de estudio y directivas comunes: no se promete que un ensamblador concreto lo acepte o reproduzca el binario."
+  ]
+}

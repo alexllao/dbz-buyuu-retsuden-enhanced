@@ -9,6 +9,13 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const intro62 = await json('patches/review-v6-2/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, intro62.patch.path))), intro62.patch.sha256);
+const intro62Evidence = await json('evidence/intro-v2/combined-validation.json');
+assert.equal(intro62Evidence.targetSha256, intro62.target.sha256);
+assert(Object.values(intro62Evidence.checks).every(value => value === true));
+const asm62 = await json('research/disassembly-es/mapa-mod-v6-2.json');
+assert.equal(asm62.sha256, intro62.target.sha256);
 const manifest = await json('patches/gameplay-v1/manifest.json');
 for (const patch of Object.values(manifest.patches)) assert.equal(sha256(await readFile(resolve(root, patch.path))), patch.sha256, patch.path);
 const hex = (await readFile(resolve(root, 'src/gameplay/v1/controls.hex'), 'utf8')).replace(/\s/g, '');

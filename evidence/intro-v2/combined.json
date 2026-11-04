@@ -1,0 +1,67 @@
+{
+  "sourceSha256": "5dbd8871d8d5d75694e7d14ff6da2f2003f0b32e239c84e037d4d562fe9769ca",
+  "targetSha256": "141d1dd83453254b8f17fedb067499edd5f4f651c216658dac6db466c2370f57",
+  "target": "outputs\\intro-personajes-v6-2\\Buyuu_Retsuden_Enhanced_v6_2.bin",
+  "bodySourceSha256": "0c44fdd1ad725246b9aabc537f0fd1660b557e43460fb4bb37a6690cda34aa1c",
+  "fontSourceSha256": "160c18bba476b1351f1b2779b1ec22dfb15a09e980007c959c8d5072336dbaf6",
+  "operationRanges": [
+    [
+      "0x3c0000",
+      10620
+    ],
+    [
+      "0x3c7000",
+      1220
+    ],
+    [
+      "0x3c9000",
+      350
+    ],
+    [
+      "0x3c9400",
+      2
+    ],
+    [
+      "0x778be",
+      4
+    ],
+    [
+      "0x778ee",
+      4
+    ],
+    [
+      "0x77fd0",
+      4
+    ],
+    [
+      "0x77fe8",
+      4
+    ],
+    [
+      "0x1addd2",
+      32
+    ],
+    [
+      "0x1addf2",
+      32
+    ],
+    [
+      "0x1ade12",
+      32
+    ],
+    [
+      "0x3f0000",
+      1154
+    ],
+    [
+      "0x3f0800",
+      92
+    ],
+    [
+      "0x78096",
+      4
+    ]
+  ],
+  "gameplayCodeUnchanged": true,
+  "scope": "Intro resources/pointers, body palette packing and native-height credit bitmap/map; no gameplay changes; background face approved, full-body and font review pending"
+}
