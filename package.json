@@ -1,0 +1,18 @@
+{
+  "name": "dbz-buyuu-retsuden-enhanced",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Parches, herramientas y revisión gráfica de Buyuu Retsuden para Mega Drive",
+  "type": "module",
+  "packageManager": "pnpm@11.18.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "check": "node tools/verify.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build.mjs",
+    "build:colors": "node tools/build.mjs --variant colors",
+    "assemble": "pwsh -NoProfile -File tools/assembly/assemble.ps1"
+  }
+}

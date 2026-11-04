@@ -1,0 +1,772 @@
+[
+  {
+    "mode": "normal",
+    "character_id": 0,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        21,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        26,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 2,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        23,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 1,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 3,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        26,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 5,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        27,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        29,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 4,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        22,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        26,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 7,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        20,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 6,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        20,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 8,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        24,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 10,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        23,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        29,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "normal",
+    "character_id": 9,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        26,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        29,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 0,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 1,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        16,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        15,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 3,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        17,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        20,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 2,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 4,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        20,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 5,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        20,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        22,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 6,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        17,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 7,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        16,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        15,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 9,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        20,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        23,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 8,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "mode": "turbo",
+    "character_id": 10,
+    "checks": {
+      "idle_stable": true,
+      "scratch_magic_stable": true,
+      "stop_after_release": true,
+      "held_punch_not_autorepeated": true,
+      "late_punch_executed": true,
+      "late_kick_executed": true,
+      "jump_returns_to_idle": true,
+      "charge_returns_to_idle": true
+    },
+    "punch_events": [
+      [
+        1,
+        33
+      ],
+      [
+        19,
+        33
+      ]
+    ],
+    "kick_events": [
+      [
+        1,
+        36
+      ],
+      [
+        24,
+        36
+      ]
+    ],
+    "passed": true
+  }
+]

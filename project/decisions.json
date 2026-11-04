@@ -1,0 +1,33 @@
+{
+  "updated": "2026-11-04",
+  "preservePreviousVersions": true,
+  "presentation": {
+    "selected": "B",
+    "label": "HDBZ cálido",
+    "image": "assets/comparisons/title/B.png",
+    "status": "Elegida; pendiente integrar en la siguiente ROM"
+  },
+  "characters": {
+    "direction": "Goku HDBZ aceptado como referencia; revisión individual pendiente"
+  },
+  "stages": {
+    "direction": "Torneo aceptado como referencia; revisión individual pendiente"
+  },
+  "hud": {
+    "direction": "Retratos originales de selección recoloreados, marcos verdes/dorados, vida amarilla y KI cian",
+    "player2Portrait": "Reflejado horizontalmente hacia el centro",
+    "status": "Boceto; pendiente implementar"
+  },
+  "auras": {
+    "goku": "C2: llamas altas y polvo, sin rayos",
+    "image": "assets/comparisons/auras/C2-Goku-sin-rayos.png",
+    "lightningAllowedOnly": [
+      "Gohan",
+      "Cell"
+    ],
+    "status": "Concepto; pendiente implementar y validar el cierre dentro del juego",
+    "historical": "C1 y su vídeo muestran rayos y se conservan como historial, no como especificación vigente de Goku"
+  },
+  "specialAttacks": "Pendientes",
+  "additionalStages": "En espera por petición del usuario"
+}

@@ -1,0 +1,383 @@
+{
+  "revision": 2,
+  "imageCount": 67,
+  "categories": [
+    {
+      "id": "characters",
+      "title": "Personajes",
+      "items": [
+        {
+          "id": "P01-Goku-tres-versiones",
+          "path": "assets/comparisons/characters/P01-Goku-tres-versiones.png",
+          "sha256": "26afcdcdd52d4fdbf85b6ac9dbf1ef97670d5da39b1cb428c05d2db1df3d7ffb"
+        },
+        {
+          "id": "P01-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P01-normal-y-alternativa.png",
+          "sha256": "a3ccf4ff11155be37c5f9f603e223431e34b3372c8a1bb627a3e0fc040bc78b4"
+        },
+        {
+          "id": "P02-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P02-normal-y-alternativa.png",
+          "sha256": "9de373d66bcb654544a57e092e33fc86bc35ef568e2b0f60ac5be87b5f7aebeb"
+        },
+        {
+          "id": "P03-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P03-normal-y-alternativa.png",
+          "sha256": "f85d239a657469a3a1074460c006b1f0c7c32cb76d09647851b82b4deec6ae26"
+        },
+        {
+          "id": "P04-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P04-normal-y-alternativa.png",
+          "sha256": "902fa7babacc32412db42b7ea9d5f460e7f4cf635cf010c5400f0ddf7c40e048"
+        },
+        {
+          "id": "P05-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P05-normal-y-alternativa.png",
+          "sha256": "aff9fa144de35d7749621183dac4ff22c612ea7eba79092ee836e1745d8bb8b7"
+        },
+        {
+          "id": "P06-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P06-normal-y-alternativa.png",
+          "sha256": "efe2f7b595f39a08cccb99128473d6af7497a07fb518cf1ad2a6b7f6f99691b2"
+        },
+        {
+          "id": "P07-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P07-normal-y-alternativa.png",
+          "sha256": "ac5349c09407f69a3e40e0cb73700a118cebd7f2a0fe7d8c81a69ea260e09272"
+        },
+        {
+          "id": "P08-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P08-normal-y-alternativa.png",
+          "sha256": "92eea5938bb6bef53a929e45b8d77fafefd52d41fe794f8b87ff4200fcf0d9c6"
+        },
+        {
+          "id": "P09-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P09-normal-y-alternativa.png",
+          "sha256": "fa4c90012448dfed7050d6aa84104e0b19cb41a8bf01be41d57b76bc03cf6a23"
+        },
+        {
+          "id": "P10-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P10-normal-y-alternativa.png",
+          "sha256": "69df264b48a2bf9e52612e6f0fc5b1c87267b8dde8f7c0c680ce4aa844c34f11"
+        },
+        {
+          "id": "P11-normal-y-alternativa",
+          "path": "assets/comparisons/characters/P11-normal-y-alternativa.png",
+          "sha256": "de92bb3cd4c331adf203b00aaadc80d5c7b81e42504cdd77df4879e27c01bdb4"
+        }
+      ]
+    },
+    {
+      "id": "portraits",
+      "title": "Selección y retratos",
+      "items": [
+        {
+          "id": "R01-comparacion",
+          "path": "assets/comparisons/portraits/R01-comparacion.png",
+          "sha256": "f0c0ccc206f6db2985ef0be4fe72d8c8860247390db12dc50233842785276819"
+        },
+        {
+          "id": "R01-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R01-pantalla-ajustada.png",
+          "sha256": "ea192db68edcd1ba27d9dfe28d4e43c2bf0202c08e64a4558d9aa55c930e694c"
+        },
+        {
+          "id": "R02-comparacion",
+          "path": "assets/comparisons/portraits/R02-comparacion.png",
+          "sha256": "df55c18647a82b749aa8cc018896c63197b70ff614279db4a7bd275c77098951"
+        },
+        {
+          "id": "R02-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R02-pantalla-ajustada.png",
+          "sha256": "b42993a807058b4bd4d889a0366d980d9119e8de7b4946f58529a215575debbc"
+        },
+        {
+          "id": "R03-comparacion",
+          "path": "assets/comparisons/portraits/R03-comparacion.png",
+          "sha256": "7f89443031f8df6f48b736654646464af15a67f9e39f7cd0c0ce6fecf42bdfb9"
+        },
+        {
+          "id": "R03-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R03-pantalla-ajustada.png",
+          "sha256": "b5cf979da0caef47ce50f58ae7f2ad29e0d6fa2b5f321505f16c3a804c839fb0"
+        },
+        {
+          "id": "R04-comparacion",
+          "path": "assets/comparisons/portraits/R04-comparacion.png",
+          "sha256": "38d38bcea3a60055e3bbb870aae9fab5fff1d4f7d790fb9909a72c7c21a062aa"
+        },
+        {
+          "id": "R04-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R04-pantalla-ajustada.png",
+          "sha256": "e3958c2360cdd944798693f209e9ca70f7f3c244d6edc87ca4206f6d17e9c02c"
+        },
+        {
+          "id": "R05-comparacion",
+          "path": "assets/comparisons/portraits/R05-comparacion.png",
+          "sha256": "97e4aca515f257b4673f02a15b59aad0f29c704e3f0bff47ba1a76e1cc5b47b0"
+        },
+        {
+          "id": "R05-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R05-pantalla-ajustada.png",
+          "sha256": "d030138110b785640a69b3b82bc5360592837b0873d6200df5d009594e820ec6"
+        },
+        {
+          "id": "R06-comparacion",
+          "path": "assets/comparisons/portraits/R06-comparacion.png",
+          "sha256": "4fdd07046bb189767b73e2195b1d06f9274d3112cb9d6aab232bf09bc6f20b0e"
+        },
+        {
+          "id": "R06-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R06-pantalla-ajustada.png",
+          "sha256": "2787d619f79ec3d6fc96dfc26eb551d025627ab98fe2512cb1e06a2df6d7bb6d"
+        },
+        {
+          "id": "R07-comparacion",
+          "path": "assets/comparisons/portraits/R07-comparacion.png",
+          "sha256": "b687732075dc86f2d33cc4f8458645bbc01301f538139f35e3eb49ca81e8fa05"
+        },
+        {
+          "id": "R07-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R07-pantalla-ajustada.png",
+          "sha256": "36b97e38445e8f5ac2b2a9afa5b9fc7d8bd22188107248317326c7d2a35f6aba"
+        },
+        {
+          "id": "R08-comparacion",
+          "path": "assets/comparisons/portraits/R08-comparacion.png",
+          "sha256": "4efefe5a6fa63ea6358ae660d00df9b904ef873a4d4da8791793104e62db3bd4"
+        },
+        {
+          "id": "R08-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R08-pantalla-ajustada.png",
+          "sha256": "882ffa368a541508b34ee7a35ac661dbdcd8b7c4c62621ed731b5d4ef7ee5bcf"
+        },
+        {
+          "id": "R09-comparacion",
+          "path": "assets/comparisons/portraits/R09-comparacion.png",
+          "sha256": "12da0ef6feefcc43296ad10509e5d1657e4aec7de7729a0587feda43f11c908b"
+        },
+        {
+          "id": "R09-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R09-pantalla-ajustada.png",
+          "sha256": "d8c95b81b427877c30ae2d40a107849df1c908f1227f3c54fd113267643dbc35"
+        },
+        {
+          "id": "R10-comparacion",
+          "path": "assets/comparisons/portraits/R10-comparacion.png",
+          "sha256": "1ea8bb4654f9e1994cc2448e01142ffbd5d0416a3b6f4b2f10a3dca1f3a5d15c"
+        },
+        {
+          "id": "R10-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R10-pantalla-ajustada.png",
+          "sha256": "ff574db90cd62a74c7935f142b8f40a639e263791675216f3075a134c6f5caab"
+        },
+        {
+          "id": "R11-comparacion",
+          "path": "assets/comparisons/portraits/R11-comparacion.png",
+          "sha256": "87ce36c72291aad270820f85fb1ed0fb0c90b2df97e874edcea2d7867f1a9575"
+        },
+        {
+          "id": "R11-pantalla-ajustada",
+          "path": "assets/comparisons/portraits/R11-pantalla-ajustada.png",
+          "sha256": "290e62e8dc159a5a36ca85decb3b5ec7a5989f22773d267673262efe8e3e259d"
+        },
+        {
+          "id": "Seleccion-completa-antes-y-despues",
+          "path": "assets/comparisons/portraits/Seleccion-completa-antes-y-despues.png",
+          "sha256": "b2c3597c48ec93705f5529109a86dbcf938e2a7fc00f568a1eb0a0875e88b38a"
+        }
+      ]
+    },
+    {
+      "id": "stages",
+      "title": "Escenarios",
+      "items": [
+        {
+          "id": "E01-original-y-propuesta",
+          "path": "assets/comparisons/stages/E01-original-y-propuesta.png",
+          "sha256": "646542d53840532b53ddaa451313c0e6c206f9c234d3989a3e0d0893184e67bf"
+        },
+        {
+          "id": "E02-original-y-propuesta",
+          "path": "assets/comparisons/stages/E02-original-y-propuesta.png",
+          "sha256": "2d6216ab545818587aa855e3106fb5f4e8150cb7412f486e2e45e5b8b370897d"
+        },
+        {
+          "id": "E03-original-y-propuesta",
+          "path": "assets/comparisons/stages/E03-original-y-propuesta.png",
+          "sha256": "4fe4c51372a6b43d53f3367186371e13623201f0f35b9e24641477a92a5e0f53"
+        },
+        {
+          "id": "E04-original-y-propuesta",
+          "path": "assets/comparisons/stages/E04-original-y-propuesta.png",
+          "sha256": "00b3fd1a0a6621adb03662a4ec723c905fade1d4dab7ad063920bf334c38c895"
+        },
+        {
+          "id": "E05-original-y-propuesta",
+          "path": "assets/comparisons/stages/E05-original-y-propuesta.png",
+          "sha256": "2bb3b5b46566fba4e875576d7adaa05737434db54a7c7ae4d25879178d391ccc"
+        },
+        {
+          "id": "E06-original-y-propuesta",
+          "path": "assets/comparisons/stages/E06-original-y-propuesta.png",
+          "sha256": "cae0e4114786c923ab7b5be47f6a121bffec553ad669807c5bb6028f95b3de97"
+        },
+        {
+          "id": "E07-original-y-propuesta",
+          "path": "assets/comparisons/stages/E07-original-y-propuesta.png",
+          "sha256": "72c3d4d73b9ba8ce39c770e55088a3f4faca7c01873d89d9a0fd85cceb0b4238"
+        },
+        {
+          "id": "E08-original-y-propuesta",
+          "path": "assets/comparisons/stages/E08-original-y-propuesta.png",
+          "sha256": "8ae895c609b400db2e70e36202647b9bb992e3cf696a70c7aa8359a5506cc552"
+        },
+        {
+          "id": "E09-original-y-propuesta",
+          "path": "assets/comparisons/stages/E09-original-y-propuesta.png",
+          "sha256": "c0333099eccbd7719426ec3a4c62c5568d5ebcd8a4627f2be609e866699b2b26"
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "title": "Presentación",
+      "items": [
+        {
+          "id": "A-B-C-D-pantallas-completas",
+          "path": "assets/comparisons/title/A-B-C-D-pantallas-completas.png",
+          "sha256": "73a2ade109087fa1a70cdfad19ddb47f2ea67ba786f6a6d07445526e78c683ba"
+        },
+        {
+          "id": "A",
+          "path": "assets/comparisons/title/A.png",
+          "sha256": "8ceacbadc7028364025e4a13c9cf9963df7b71f3c264b2b8ae15fd0021237d69"
+        },
+        {
+          "id": "B",
+          "path": "assets/comparisons/title/B.png",
+          "sha256": "f8704affd76cf684e6e91386fdbfc0f55b8fe497785d6f7ca54ca2dd5ab7a750"
+        },
+        {
+          "id": "C",
+          "path": "assets/comparisons/title/C.png",
+          "sha256": "b01c0040227d400a2629eea7e0bc06a7650417a8fa41fd8c8e143a8131d01a0d"
+        },
+        {
+          "id": "D",
+          "path": "assets/comparisons/title/D.png",
+          "sha256": "f937cee9cb3aa0cc9f75ede270e33199fdceaa430c36e344c8d1a2a0d33ee387"
+        },
+        {
+          "id": "O-piel-original",
+          "path": "assets/comparisons/title/O-piel-original.png",
+          "sha256": "b3ddb40fe6ce6268d0a2ee3fce06f8fd10bebca1ac3c0c0fa3448900b081b021"
+        },
+        {
+          "id": "V1-primer-ajuste",
+          "path": "assets/comparisons/title/V1-primer-ajuste.png",
+          "sha256": "4743d7d50bc1769e1ede4b83662ae9cc6250e9abc3e7fdcbec073120ec5c1144"
+        },
+        {
+          "id": "V2-aclarada-igual-a-C",
+          "path": "assets/comparisons/title/V2-aclarada-igual-a-C.png",
+          "sha256": "b01c0040227d400a2629eea7e0bc06a7650417a8fa41fd8c8e143a8131d01a0d"
+        }
+      ]
+    },
+    {
+      "id": "hud",
+      "title": "HUD",
+      "items": [
+        {
+          "id": "H1-primer-boceto",
+          "path": "assets/comparisons/hud/H1-primer-boceto.png",
+          "sha256": "fdd31be74848156a0e41505f1a94328e32a1dbe8268e853569ac4a9e8f65d38f"
+        },
+        {
+          "id": "H2-caras-originales",
+          "path": "assets/comparisons/hud/H2-caras-originales.png",
+          "sha256": "37c0854cb45a56eca45c91b8a71d84c6f062a837522eaf9b84ea18a77e52245b"
+        },
+        {
+          "id": "H3-jugador2-reflejado",
+          "path": "assets/comparisons/hud/H3-jugador2-reflejado.png",
+          "sha256": "e666f93042bd64b71394fbeaf06deec3f538fe3f4dd2939bdf4164b9bcc54984"
+        },
+        {
+          "id": "H4-paletas-de-seleccion",
+          "path": "assets/comparisons/hud/H4-paletas-de-seleccion.png",
+          "sha256": "a813b43666cc3ee1a141f19fa5f1076b5565f9d77b26c3eea365ad8f335a3672"
+        }
+      ]
+    },
+    {
+      "id": "auras",
+      "title": "Auras",
+      "items": [
+        {
+          "id": "A-Sutil",
+          "path": "assets/comparisons/auras/A-Sutil.png",
+          "sha256": "5d2c268d8804e5515f7b6bc49d304c103f6d6dfa863a12b71bb90b461f07b585"
+        },
+        {
+          "id": "B-Vertical",
+          "path": "assets/comparisons/auras/B-Vertical.png",
+          "sha256": "115206fb3a64ce1515f5be27da6d6c41389b74696b3868ea7c3cfc1566d381f4"
+        },
+        {
+          "id": "C1-Historica-con-rayos",
+          "path": "assets/comparisons/auras/C1-Historica-con-rayos.png",
+          "sha256": "e55a53caaecd55920f707aea77c63d2d0d5c62d08dd916a79956413fca1ceda0"
+        },
+        {
+          "id": "C2-Goku-sin-rayos",
+          "path": "assets/comparisons/auras/C2-Goku-sin-rayos.png",
+          "sha256": "8c53483e696c55db23888126d377d2a9bd0b370c485048f4aac8c99422e69485"
+        },
+        {
+          "id": "O-Original",
+          "path": "assets/comparisons/auras/O-Original.png",
+          "sha256": "7a70f1aaaa79651d15c03d9b94c189d1823610adc113e01a54c7ee5370e6bc79"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Comparaciones generales",
+      "items": [
+        {
+          "id": "01-Personajes-todas",
+          "path": "assets/comparisons/overview/01-Personajes-todas.png",
+          "sha256": "35544ca69fcbcfdb78f948c1430a61850152e56b6cdcbac96724de407f7b4ae5"
+        },
+        {
+          "id": "02-Retratos",
+          "path": "assets/comparisons/overview/02-Retratos.png",
+          "sha256": "966cb21d5e83f7e6e3062a256c4e58ea84437cbe970aedd660757007ea2727c8"
+        },
+        {
+          "id": "03-Escenarios",
+          "path": "assets/comparisons/overview/03-Escenarios.png",
+          "sha256": "6264e199d0b81c33bd292a9e765f54c0aa70d820fd26ce6ef602a2f36fd3e29e"
+        },
+        {
+          "id": "04-Presentacion-todas",
+          "path": "assets/comparisons/overview/04-Presentacion-todas.png",
+          "sha256": "21f2c67ab5e8f84fb867bc3f056fa85604035bb350ee7c85494eda2d02a98ee5"
+        },
+        {
+          "id": "05-HUD-todas",
+          "path": "assets/comparisons/overview/05-HUD-todas.png",
+          "sha256": "eb78296b9c7a66ba1edd97d0eeac57a7a6350649d69fa4fb17742a98e0222609"
+        },
+        {
+          "id": "06-Auras-Goku",
+          "path": "assets/comparisons/overview/06-Auras-Goku.png",
+          "sha256": "a6dc53b20b7f8aeb762a72d4164ddd9039d2593190d51039898910ada0a57bd8"
+        }
+      ]
+    }
+  ]
+}

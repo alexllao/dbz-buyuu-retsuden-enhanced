@@ -1,0 +1,61 @@
+{
+  "variants": [
+    {
+      "id": "A",
+      "label": "Anime claro",
+      "note": "Crema claro y sombras melocoton; inspirado en la referencia de Toei.",
+      "skin": {
+        "3": 1676,
+        "5": 2222,
+        "9": 3822,
+        "10": 3310
+      },
+      "rom_sha256": "d346d286826cc4cd7076cd22f2f575800e996926fa8aa59b94e1878583b555be",
+      "checksum": "6A71"
+    },
+    {
+      "id": "B",
+      "label": "HDBZ calido",
+      "note": "Tono dorado calido y sombras mas marcadas, inspirado en la captura de HDBZ con aura.",
+      "skin": {
+        "3": 1130,
+        "5": 1708,
+        "9": 3310,
+        "10": 2254
+      },
+      "rom_sha256": "e4b3397ecdc3eff1a40dff5da26e8bd5a4946a5b71b096668e06ae2234659a31",
+      "checksum": "602D"
+    },
+    {
+      "id": "C",
+      "label": "Equilibrado",
+      "note": "La ultima version aclarada: contraste moderado y piel beige melocoton.",
+      "skin": {
+        "3": 1676,
+        "5": 2220,
+        "9": 3310,
+        "10": 2766
+      },
+      "rom_sha256": "d33df481947e2acda1992063c4f0b72e9e4f44f54072028ed6d03d0e4a15dca0",
+      "checksum": "664F"
+    },
+    {
+      "id": "D",
+      "label": "Melocoton suave",
+      "note": "Piel rosada clara, luces blancas y sombras suaves.",
+      "skin": {
+        "3": 1674,
+        "5": 2220,
+        "9": 3822,
+        "10": 3278
+      },
+      "rom_sha256": "d1545e7d19ace8b991d276116d7897b898af186d147f6ebf9c5289d18eee814c",
+      "checksum": "6A4D"
+    }
+  ],
+  "method": "Actual Genesis Plus GX captures; same input sequence/frame count, only four skin entries and checksum changed.",
+  "anime_reference": "https://www.toei-animation-usa.com/images/dragonBall/TV/dragonBallZ.jpg",
+  "hdbz_reference": "https://network.mugenguild.com/balthazar/hyperdbz/character-info.html?name=SSJ%20Goku",
+  "hdbz_image": "https://network.mugenguild.com/balthazar/hyperdbz/img/characters/ingame/ssjgoku3.png",
+  "note": "Artist interpretation, not official palette samples. References have different lighting. No variant chosen yet."
+}

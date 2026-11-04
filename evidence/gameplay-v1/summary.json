@@ -1,0 +1,463 @@
+{
+  "romSha256": "edd6f2353f538b46667b20978344c182817401e7d5ca022d3b092fce539db8cd",
+  "engine": "Genesis Plus GX v1.7.4 f27655b",
+  "characterModes": 22,
+  "characters": 11,
+  "modes": [
+    "normal",
+    "turbo"
+  ],
+  "combatSituations": 32,
+  "damageMatchesOriginal": true,
+  "queuedHitInterruptions": 15,
+  "noDelayedAttackAfterDamage": true,
+  "secondControllerChecked": true,
+  "cpuStressChecked": true,
+  "physicalHardwareTested": false,
+  "combatCases": [
+    {
+      "distance": 24,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        9
+      ],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 24,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 24,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        12
+      ],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 24,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 32,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        9
+      ],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 32,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 32,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        12
+      ],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 32,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 40,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        9
+      ],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 40,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 40,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        12
+      ],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 40,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 48,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        9
+      ],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 48,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 48,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 8,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        12
+      ],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 48,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 56,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 56,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        32
+      ]
+    },
+    {
+      "distance": 56,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 56,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        35
+      ]
+    },
+    {
+      "distance": 64,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 6,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        9
+      ],
+      "p1_actions": [
+        0,
+        33
+      ]
+    },
+    {
+      "distance": 64,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        33
+      ]
+    },
+    {
+      "distance": 64,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 5,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        12
+      ],
+      "p1_actions": [
+        0,
+        36
+      ]
+    },
+    {
+      "distance": 64,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        36
+      ]
+    },
+    {
+      "distance": 80,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        33
+      ]
+    },
+    {
+      "distance": 80,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        33
+      ]
+    },
+    {
+      "distance": 80,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 5,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [
+        12
+      ],
+      "p1_actions": [
+        0,
+        36
+      ]
+    },
+    {
+      "distance": 80,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        36
+      ]
+    },
+    {
+      "distance": 120,
+      "button": "A",
+      "block": false,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        33
+      ]
+    },
+    {
+      "distance": 120,
+      "button": "A",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        33
+      ]
+    },
+    {
+      "distance": 120,
+      "button": "B",
+      "block": false,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        36
+      ]
+    },
+    {
+      "distance": 120,
+      "button": "B",
+      "block": true,
+      "p1": 0,
+      "p2": 0,
+      "hit_frames_p1": [],
+      "hit_frames_p2": [],
+      "p1_actions": [
+        0,
+        36
+      ]
+    }
+  ],
+  "limitations": [
+    "Movimiento terrestre y golpes básicos",
+    "No valida todos los combos/enfrentamientos",
+    "Entradas muy breves dependen de la lectura nativa del mando",
+    "No incluye HUD ni aura C2"
+  ]
+}
