@@ -4,6 +4,12 @@ Esta prueba responde a la petición de no acelerar los movimientos. Cada ataque 
 
 [**Vídeo largo nuevo: 4 minutos y45 segundos, con sonido**](../assets/media/combos-v4-natural/Combos-v4-ritmo-natural-4min.mp4). Ocho combates o fragmentos con los once personajes, usando dos mandos automatizados. Se conservan los FPS y el audio nativos; no se acelera la reproducción. No es una partida humana ni la IA nativa, y no lleva contador superpuesto. No se fuerzan posición inicial, vida, energía, acciones ni temporizadores; sólo se fija control humano para ambos mandos.
 
+## Patadas rápidas y lanzamiento de Goku
+
+En el vídeo largo, hacia15,32s, el mando automatizado introduce expresamente el comando del Meteor de Goku después de los básicos. Ese especial nativo contiene una ráfaga rápida y lanza al rival. Se ha comparado con la ROM original: coinciden las fases de ataque y la altura máxima del lanzamiento; la duración observada del Meteor varía tres fotogramas. Ninguno activa el modo de vuelo. La otra ráfaga nativa de patadas conserva también sus fases y pequeño salto final originales.
+
+[Comparar Meteor original/mod](../assets/media/combos-v4-natural/Meteor-original-frente-a-mod.mp4) · [A-B-A sin ordenar Meteor](../assets/media/combos-v4-natural/Goku-A-B-A-sin-Meteor.mp4). La prueba A-B-A muestra tres impactos y ambos luchadores permanecen en tierra. Se separan las tomas para distinguir la cadena básica de una técnica nativa ordenada por el controlador. [Comprobaciones](../evidence/combos-v4-natural/goku-meteor-review.json). Esta revisión no modifica la ROM ni elimina los remates nativos.
+
 ## Qué cambia al jugar
 
 Se mantienen hasta tres básicos A/B y una técnica propia, con su combinación y requisitos originales. La ampliación sigue siendo para humanos, suelo y velocidad normal. Tras confirmar un impacto, suelta y pulsa el botón siguiente; la orden espera al final natural del ataque actual. La animación del remate también conserva sus datos nativos. Los límites de enlaces y cierre del remate siguen activos.
