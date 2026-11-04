@@ -5,6 +5,7 @@
   "description": "Parches, herramientas y revisión gráfica de Buyuu Retsuden para Mega Drive",
   "type": "module",
   "packageManager": "pnpm@11.18.0",
+  "author": "Àlex Llaó alexllao@me.com",
   "engines": {
     "node": ">=22.13"
   },
