@@ -31,7 +31,7 @@ Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura
 
 **Stun v2:** el primer impacto conectado termina el mareo y reinicia su acumulación. Sigue la reacción normal al daño. Se conservan las dos barras sin texto, sin acelerar movimientos. Fuera del mareo se mantiene la acumulación original. El contador global HITS continúa pendiente.
 
-[Vídeo real en Namek](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Cambio y pruebas](docs/stun-break-v2.md) · [Namek actual y propuestas según el anime](docs/namek-anime-v1.md).
+[Vídeo real en Namek](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Cambio y pruebas](docs/stun-break-v2.md) · [Nueva prueba de Namek según tus referencias](docs/namek-anime-v2.md).
 
 Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version stun-break-v2`. Las propuestas de Namek aún no se incluyen en esta ROM. Las versiones anteriores y la opción predeterminada v6.6 se conservan.
 

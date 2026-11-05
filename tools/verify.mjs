@@ -25,6 +25,10 @@ assert(breakProjectile.passed && breakProjectile.results.find(r => r.label === '
 const breakMedia = await json('evidence/stun-break-v2/media.json');
 assert.equal(breakMedia.romSha256, stunBreak.target.sha256);
 for (const item of breakMedia.files) assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256);
+const namekV2 = await json('research/palettes/namek-anime-v2.json');
+assert(namekV2.onlyStage6ColorsAndChecksumChanged && namekV2.stage === 6);
+assert.equal(namekV2.capture.romSha256, namekV2.targetSha256);
+assert.equal(sha256(await readFile(resolve(root, 'assets/media/namek-anime-v2', namekV2.capture.file))), namekV2.capture.captureSha256);
 const namekProposal = await json('evidence/stun-break-v2/namek-proposal-validation.json');
 assert(namekProposal.passed && namekProposal.pendingUserSelection && namekProposal.onlyRecordedPaletteColorsAndChecksumChanged);
 for (const capture of namekProposal.captures) assert.equal(sha256(await readFile(resolve(root, 'assets/media/namek-anime-v1', capture.file))), capture.captureSha256);

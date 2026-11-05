@@ -527,10 +527,19 @@
     "globalHitsCounter": "Pending"
   },
   "namekAnimeV1": {
-    "status": "Actual captures plus palette proposals, pending user choice",
+    "status": "Rejected by user; retained as history, not applied",
     "normal": "Green sky, blue terrain, pink rock",
     "destroyed": "Dark red sky, orange/yellow lava, blue surviving terrain; keep native palette phase timing",
     "record": "research/palettes/namek-anime-v1.json",
     "notInStunBreakRom": true
+  },
+  "namekAnimeV2": {
+    "status": "New references incorporated in visual proposal; pending user choice",
+    "stage": 6,
+    "direction": "Blue terrain and tree crowns, beige/ochre rocks, green sky with yellowish highlights; no pink rock",
+    "record": "research/palettes/namek-anime-v2.json",
+    "capture": "assets/media/namek-anime-v2/Namek-6-anime-v2-suelo.png",
+    "targetSha256": "850023d7ac7fa3ead8be17fb0a1d9ab9db9d88f45d9f9491141cdf6ce60ac45a",
+    "notInGameplayRom": true
   }
 }

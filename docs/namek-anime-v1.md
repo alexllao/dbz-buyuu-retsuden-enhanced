@@ -1,6 +1,6 @@
 # Namek: paletas según las referencias del anime
 
-El usuario aportó tres imágenes del anime: cielo verde, terreno azul y roca rosada para Namek; cielo rojo oscuro y lava naranja/amarilla para su destrucción. **Estas propuestas están pendientes de elección y no se incluyen en la ROM stun-break-v2.** Las versiones anteriores se conservan.
+El usuario aportó tres imágenes del anime: cielo verde, terreno azul y roca rosada para Namek; cielo rojo oscuro y lava naranja/amarilla para su destrucción. **El usuario descartó estas propuestas. Se conservan como historial y no se incluyen en la ROM stun-break-v2.** La [segunda propuesta de Namek normal](namek-anime-v2.md) utiliza las nuevas referencias. Las versiones anteriores se conservan.
 
 ## Namek
 
