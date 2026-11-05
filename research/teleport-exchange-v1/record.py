@@ -34,7 +34,7 @@ def cross(port,attack=False):
   if rw(actor)!=0x843:break
   run()
  after=[state(P1),state(P2)];rows=trace[start:];activated=any((r['p1'] if port==1 else r['p2'])['program']==0x843 for r in rows);crossed=(before[0]['x']-before[1]['x'])*(after[0]['x']-after[1]['x'])<0
- 
+
  if not activated or not crossed:
   (out/'failed.json').write_text(json.dumps(dict(port=port,start=start,before=before,after=after,trace=trace),indent=2))
  assert activated and crossed,(port,start,before,after)
