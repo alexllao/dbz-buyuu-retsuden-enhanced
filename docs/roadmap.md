@@ -1,6 +1,6 @@
 # Hoja de ruta
 
-Actualizada el 5 de noviembre de 2026. Última ROM entregada: [Stun v2](stun-break-v2.md).
+Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [Ventaja v1](side-advantage-v1.md), sobre Stun v2.
 
 ## Implementado
 
@@ -20,7 +20,9 @@ Actualizada el 5 de noviembre de 2026. Última ROM entregada: [Stun v2](stun-bre
 ## En revisión y próximos trabajos
 
 - [x] [Vídeo de respuestas alternadas P1/P2](teleport-exchange-v1.md) con dos mandos coordinados y el movimiento existente.
-- [ ] Valorar ventaja breve y ventana específica de contra tras ver el intercambio; no implementadas todavía.
+- [x] [Ventaja breve v1](side-advantage-v1.md) implementada para dos jugadores humanos; defensa y respuesta C conservadas.
+- [ ] Valorar con mando las seis actualizaciones, el descarte de A/B durante la ventana y las contras.
+- [ ] Extender y comprobar la ventaja frente a CPU; no incluida en esta prueba.
 - [ ] Validación con mando de jugabilidad, combos y equilibrio, sin acelerar movimientos ni garantizar infinitos.
 - [ ] Contador global HITS para cualquier ataque de varios impactos, incluido Meteor solo.
 - [ ] Integrar los retratos elegidos y HUD H4, con P2 reflejado.

@@ -1,0 +1,13 @@
+{
+  "sourceSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "targetSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "codeBytes": 872,
+  "relinkedControlCall": "0x7b050",
+  "preInput": "0x3e022e",
+  "windowInputUpdates": 6,
+  "newActorBytes": [
+    "117"
+  ],
+  "preservedAuraDirty": "P1+116 E874 untouched",
+  "behavior": "After new C side switch finishes successfully across opponent, delay opponent new A/B for six eligible input updates. Guard, movement and C counter remain. No guaranteed hit, animation speed or damage change."
+}

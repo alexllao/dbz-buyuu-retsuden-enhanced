@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "frames": 1606,
+  "fps": 59.92274340431231,
+  "crosses": 20,
+  "liveCounterCrosses": 8,
+  "extraWindowActuallyEnabled": true,
+  "gameplayTimeScaling": false,
+  "nativeAudio": true,
+  "coordinatedPads": true,
+  "allCrossesZeroDamage": true,
+  "auraDirtyAlwaysZeroInTheseTakes": true,
+  "fixedHudPatternsMatchPreviousRomInGokuVegetaSample": true,
+  "video": {
+    "path": "assets/media/side-advantage-v1/Cambios-de-lado-con-ventaja.mp4",
+    "sha256": "618b3324380de096e5b007d5d6a52f8f39d6f78114e62f9a3d80af7d4edd6cc7"
+  }
+}

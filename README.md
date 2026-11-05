@@ -2,13 +2,19 @@
 
 Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 5 de noviembre de 2026 · rama `development`.** La última ROM de prueba es **Stun v2 (`stun-break-v2`)**: conserva las mejoras gráficas y de control, las pruebas de combos con animación natural y las dos barras de aturdimiento sin texto. **El primer impacto conectado termina el mareo y reinicia su acumulación.**
+**Actualizado: 5 de noviembre de 2026 · rama `development`.** La última ROM de prueba es **Ventaja de cambio de lado v1 (`side-advantage-v1`)**, basada en Stun v2: conserva las mejoras gráficas y de control, las pruebas de combos con animación natural y las dos barras de aturdimiento sin texto. **El primer impacto conectado termina el mareo y reinicia su acumulación.**
 
-[Última ROM en Namek, 24 s con sonido](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Cambios y pruebas](docs/stun-break-v2.md) · [Decisiones vigentes](docs/decisions.md) · [Pendientes](docs/roadmap.md)
+[**Nuevo vídeo: ventana de ventaja activa**](assets/media/side-advantage-v1/Cambios-de-lado-con-ventaja.mp4) · [Reglas y pruebas](docs/side-advantage-v1.md) · [Decisiones vigentes](docs/decisions.md) · [Pendientes](docs/roadmap.md)
 
-La jugabilidad sigue en pruebas con mando. **El contador global HITS todavía no está integrado.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version stun-break-v2`.
+La jugabilidad sigue en pruebas con mando. **El contador global HITS todavía no está integrado.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version side-advantage-v1`.
 
-[**Nuevo vídeo: cambios de lado alternados P1/P2**](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
+[Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
+
+## Ventaja nueva: seis actualizaciones de entrada
+
+Al completar un cambio de lado con C, el rival no puede iniciar A/B durante una ventana breve. **Puede defenderse, moverse y responder con otro cambio de lado**; una respuesta aceptada elimina la restricción recibida. La prueba actual se aplica a dos jugadores humanos. No añade golpe automático, invulnerabilidad ni aceleración de animación.
+
+Los A/B pulsados durante la ventana se descartan; hace falta una pulsación nueva al terminar. **Falta probar con mando el valor de seis actualizaciones y el equilibrio de las contras.** [Reglas, implementación y pendientes](docs/side-advantage-v1.md).
 
 ## Lo elegido y su estado real
 
@@ -23,7 +29,7 @@ La jugabilidad sigue en pruebas con mando. **El contador global HITS todavía no
 | Auras | Contorno corregido **C2 v3**, colores individuales **ki v4**, polvo en el suelo y salida animada. | Implementado y aceptado visualmente para los once. **Todos sin rayos, incluidos Cell y Gohan.** |
 | Carrera | Doble toque hacia delante o atrás y mantener; al soltar, frenado con inercia original. | Implementado; se retiró el frenado que rompía la carrera. |
 | Derribos | Menos espera tumbado, conservando caída y levantamiento. | Reposo terrestre reducido de 30 a 12 ticks en las rutas ajustadas. |
-| Cambio de lado | **→ ← → + C**, cerca del rival, para los once; sin golpe ni gasto de ki. | Implementado. Conserva los comandos originales A/B. |
+| Cambio de lado | **→ ← → + C**, cerca del rival, para los once; sin golpe ni gasto de ki. | Implementado. Nueva ventaja P1/P2 de seis actualizaciones; permite defensa y contra C. Técnicas originales A/B conservadas. |
 | Combos | Mezclar básicos A/B y enlazar una técnica propia o Meteor con su comando original. **Sin acelerar movimientos.** | Experimental: máximo de tres básicos y un remate asistido; no todas las rutas conectan. Reacción al daño sin alargamiento artificial ni reinicio de su animación. |
 | Barras de aturdimiento | Dos barras pequeñas, una por jugador abajo, con estilo de las originales. **Sin texto «STUN».** | Integradas; se corrigieron las interferencias gráficas detectadas. |
 | Salida del aturdimiento | El primer golpe conectado elimina el mareo activo y reinicia su acumulación; sigue la reacción normal de daño. | Elegido e implementado en **Stun v2**. |
@@ -77,13 +83,13 @@ El contador solicitado deberá contar **impactos aceptados de todos los ataques*
 
 [Reacción de daño corregida, base de esta prueba](docs/combos-v5-native-stun.md) · [Cálculo nativo de aturdimiento y requisitos HITS](docs/hud-hits-stun.md)
 
-## Cambios de lado encadenados: P1 y P2
+## Historial de la prueba: primer intercambio P1/P2
 
 [**Ver el intercambio real: 28 segundos con sonido**](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4)
 
 Goku/Vegeta y Piccolo/Freezer alternan → ← → + C, con intentos de golpe y ataques posteriores. Son **dos mandos coordinados**, en la ROM Stun v2 actual, con las animaciones a velocidad normal. Veinte cruces comprobados, diez por jugador. [Condiciones y límites de la demostración](docs/teleport-exchange-v1.md).
 
-La ventaja adicional al reaparecer y una ventana específica para responder siguen pendientes de decidir. Este vídeo muestra el intercambio con el movimiento existente; no añade golpes automáticos ni imbloqueables.
+Ese vídeo es anterior a la ventaja extra. La [nueva ROM y grabación](docs/side-advantage-v1.md) ya aplican seis actualizaciones de prioridad ofensiva; el valor y la facilidad de contra siguen pendientes de valoración con mando.
 
 ## Controles y movimientos
 
@@ -355,14 +361,14 @@ pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Última prueba: combos con reacción natural, barras y salida del mareo al primer golpe
-pnpm build:review --rom "ruta/a/original.bin" --version stun-break-v2
+# Última prueba: ventaja tras el cambio de lado, sobre la base Stun v2
+pnpm build:review --rom "ruta/a/original.bin" --version side-advantage-v1
 
 # Base anterior conservada: gráficos, controles y cambio de lado, sin estas pruebas posteriores
 pnpm build:review --rom "ruta/a/original.bin" --version v6.6
 ```
 
-La última prueba genera `dist/Buyuu_Retsuden_Enhanced_Stun_Primer_Golpe_v2.bin`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
+La última prueba genera `dist/Buyuu_Retsuden_Enhanced_Ventaja_Cambio_Lado_v1.bin`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
 
 SHA-256 de la base admitida:
 
@@ -370,10 +376,11 @@ SHA-256 de la base admitida:
 217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557
 ```
 
-**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de Stun v2](patches/stun-break-v2/manifest.json)
+**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la última prueba](patches/side-advantage-v1/manifest.json)
 
 ## Qué se ha comprobado y qué falta
 
+- **Ventaja nueva:** 132 ramas de entrada con los once personajes; 374 casos del comando anterior. Contras dentro de la ventana comprobadas; manual y CPU pendientes.
 - **Stun v2:** 110 ensayos con las once víctimas, P2 normal y P1 turbo; 44 primeros puñetazos/patadas conectados limpian el mareo. Ensayo adicional de proyectil y un caso visible en el combate grabado.
 - **Barras:** 13.200 fotogramas con los once personajes; comparación gráfica del HUD superior y recursos del escenario en los casos registrados. No es cobertura de todos los especiales, escenarios o hardware.
 - **Cambio de lado:** 374 casos y grabaciones con los once personajes; las cajas nativas se conservan.

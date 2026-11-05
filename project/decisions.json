@@ -544,9 +544,9 @@
     "comparison": "assets/media/namek-anime-v2/Namek-v2-antes-despues.png"
   },
   "currentReview": {
-    "version": "stun-break-v2",
+    "version": "side-advantage-v1",
     "defaultBuild": "v6.6 retained",
-    "manifest": "patches/stun-break-v2/manifest.json",
+    "manifest": "patches/side-advantage-v1/manifest.json",
     "namekProposalApproved": false
   },
   "teleportExchangeDemoV1": {
@@ -554,11 +554,34 @@
     "video": "assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4",
     "docs": "docs/teleport-exchange-v1.md",
     "coordinatedHumanPads": true,
-    "additionalReactionAdvantage": "Discussed, not implemented",
+    "additionalReactionAdvantage": "Historical video has none; implemented later in sideAdvantageV1",
     "unblockableHit": "Not implemented",
     "examples": [
       "Goku/Vegeta",
       "Piccolo/Freezer"
     ]
+  },
+  "sideAdvantageV1": {
+    "status": "User requested implementation; experimental build and emulator validation complete, manual feel pending",
+    "source": "stun-break-v2",
+    "inputUpdates": 6,
+    "trigger": "Successful new C side switch completes and facing flips across opponent",
+    "effect": "Opponent new A/B discarded, movement/guard/C remain; fresh press after expiry",
+    "counter": "Accepted C side switch clears incoming window",
+    "unchanged": [
+      "native animation speed",
+      "damage",
+      "hitboxes",
+      "native B techniques",
+      "zero ki cost",
+      "running attacks not interrupted",
+      "Namek palettes"
+    ],
+    "tests": "evidence/side-advantage-v1/runtime-validation.json",
+    "manifest": "patches/side-advantage-v1/manifest.json",
+    "targetSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+    "limits": "No universal infinite or balance guarantee. Existing move range, state and space requirements remain. No new invulnerability or unblockable hit.",
+    "scope": "Two human-controlled fighters; CPU behavior unchanged, extension pending",
+    "blockedInput": "A/B during window discarded; fresh press after expiry; existing attacks continue"
   }
 }

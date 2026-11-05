@@ -1,8 +1,12 @@
 # Construcción
 
-## Última prueba entregada: Stun v2
+## Última prueba: ventaja de cambio de lado v1
 
-`pnpm build:review --rom "ruta/a/original.bin" --version stun-break-v2` genera la última ROM de prueba, con barras sin texto y salida del mareo al primer impacto. [Detalle](stun-break-v2.md). Sin `--version`, se conserva v6.6. Los comandos y prototipos siguientes son históricos y sólo generan la variante que indican.
+`pnpm build:review --rom "ruta/a/original.bin" --version side-advantage-v1` genera la nueva prueba de prioridad P1/P2, conservando Stun v2. [Reglas y límites](side-advantage-v1.md). La opción sin versión sigue siendo v6.6.
+
+## Versión anterior: Stun v2
+
+`pnpm build:review --rom "ruta/a/original.bin" --version stun-break-v2` genera la versión anterior, con barras sin texto y salida del mareo al primer impacto. [Detalle](stun-break-v2.md). Sin `--version`, se conserva v6.6. Los comandos y prototipos siguientes son históricos y sólo generan la variante que indican.
 
 ## Historial: variantes v1
 

@@ -1,0 +1,31 @@
+{
+  "sourceSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "targetSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      503888,
+      6
+    ],
+    [
+      4063232,
+      4096
+    ]
+  ],
+  "outsideAllowedChangedBytes": 0,
+  "changedBytes": 778,
+  "preserved": {
+    "graphicsAndPalettes": true,
+    "auraCodeAndResources": true,
+    "nativeAnimationAndDamage": true,
+    "stunAndHudCode": true,
+    "comboCode": true
+  },
+  "codeSha256": "597f828950bdd62b33a339d10e78de789e70282cd9a95f6884ab83da84ac804b",
+  "codeBytes": 872,
+  "newRam": "One byte per actor,117: flags and remaining0..6;116/E874 aura dirty untouched",
+  "nativeMoveAndCollisionUnchanged": true
+}
