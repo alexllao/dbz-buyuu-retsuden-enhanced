@@ -1,175 +1,89 @@
 # Dragon Ball Z: Buyuu Retsuden Enhanced
 
-Un mod de **Mega Drive / Genesis** para mejorar la respuesta de los controles y revisar los colores de *Dragon Ball Z: Buyuu Retsuden (Japan)*, tomando el anime y Hyper Dragon Ball Z como referencias visuales.
+Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Estado: revisión v6.6 de prueba · intro y título con contraste anime cálido · cambio de lado sin golpe para los once personajes · carrera nativa e inercia recuperadas · derribos terrestres más breves · presentación C cálida y créditos integrados · ki v4 aceptado**
+**Actualizado: 5 de noviembre de 2026 · rama `development`.** La última ROM de prueba es **Stun v2 (`stun-break-v2`)**: conserva las mejoras gráficas y de control, las pruebas de combos con animación natural y las dos barras de aturdimiento sin texto. **El primer impacto conectado termina el mareo y reinicia su acumulación.**
 
-![Comparación real de jugabilidad: original y mod](assets/media/gameplay-v1-preview.gif)
+[Última ROM en Namek, 24 s con sonido](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Cambios y pruebas](docs/stun-break-v2.md) · [Decisiones vigentes](docs/decisions.md) · [Pendientes](docs/roadmap.md)
 
-**[Ver la comparación completa en vídeo](assets/media/gameplay-v1-comparison.mp4)** · [Galería de variantes](docs/graphics.md) · [Decisiones guardadas](docs/decisions.md) · [Hoja de ruta](docs/roadmap.md)
+La jugabilidad sigue en pruebas con mando. **El contador global HITS todavía no está integrado.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version stun-break-v2`.
 
-**[Auras C2 v2: vídeo real con los once personajes, antes y después](assets/media/auras-c2-v2/Todas-las-auras-antes-despues.mp4)** · [Comparar los tres tamaños con Goku](assets/media/auras-c2-v2/Comparacion-tres-tamanos-Goku.mp4) · [Final del aura a cámara lenta](assets/media/auras-c2-v2/Salida-Goku-lenta.mp4)
+[**Nuevo vídeo: cambios de lado alternados P1/P2**](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
 
-La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/auras-c2-v1/Todas-las-auras-antes-despues.mp4) se conservan como historial.
+## Lo elegido y su estado real
 
-## Qué hay ahora
+| Apartado | Elección vigente | Estado |
+| --- | --- | --- |
+| Personajes en combate | Propuestas para los once; **Goku G2 HDBZ**. | Paletas integradas; se conservan en la última ROM. |
+| Escenarios existentes | Propuesta de colores de los nueve fondos. | Integrada. Namek está de nuevo en revisión, sin sustituir aún la paleta entregada. |
+| Intro y presentación | **Goku grande cálido con contraste anime y contornos negros; personajes pequeños con sus colores originales.** | Integrado desde v6.6 y conservado. Las propuestas de recolor de los personajes pequeños se descartaron. |
+| Créditos del título | Conservar **© BANDAI 1994** y añadir **- 2026 ALEX LLAO** al lado, con la misma tipografía. | Integrado. No se elimina BANDAI ni se usa pseudónimo. |
+| Retratos | Los once retratos de selección recoloreados elegidos. | Diseño aceptado; integración combinada pendiente. |
+| HUD de retratos | Dirección **H4**, H3 conservado como alternativa; cara de P2 reflejada hacia el centro. | Diseño elegido; no confundir con el HUD de barras ya integrado. |
+| Auras | Contorno corregido **C2 v3**, colores individuales **ki v4**, polvo en el suelo y salida animada. | Implementado y aceptado visualmente para los once. **Todos sin rayos, incluidos Cell y Gohan.** |
+| Carrera | Doble toque hacia delante o atrás y mantener; al soltar, frenado con inercia original. | Implementado; se retiró el frenado que rompía la carrera. |
+| Derribos | Menos espera tumbado, conservando caída y levantamiento. | Reposo terrestre reducido de 30 a 12 ticks en las rutas ajustadas. |
+| Cambio de lado | **→ ← → + C**, cerca del rival, para los once; sin golpe ni gasto de ki. | Implementado. Conserva los comandos originales A/B. |
+| Combos | Mezclar básicos A/B y enlazar una técnica propia o Meteor con su comando original. **Sin acelerar movimientos.** | Experimental: máximo de tres básicos y un remate asistido; no todas las rutas conectan. Reacción al daño sin alargamiento artificial ni reinicio de su animación. |
+| Barras de aturdimiento | Dos barras pequeñas, una por jugador abajo, con estilo de las originales. **Sin texto «STUN».** | Integradas; se corrigieron las interferencias gráficas detectadas. |
+| Salida del aturdimiento | El primer golpe conectado elimina el mareo activo y reinicia su acumulación; sigue la reacción normal de daño. | Elegido e implementado en **Stun v2**. |
+| Contador HITS | Contar todo ataque de varios impactos, incluido Meteor solo, ráfagas de Cell y patadas múltiples de Goku. | Pedido; **pendiente de integración real en la ROM**. |
+| Namek normal | Nueva propuesta: suelo y copas azules, roca ocre/beige, cielo verde con luces amarillentas. | Captura real preparada; **pendiente de elección**. La propuesta rosada anterior se descartó. |
+| Namek en destrucción | Revisar según las referencias del anime. | Primera propuesta descartada; nueva revisión pendiente. |
+| Décimo escenario | Montañas nevadas, con vista de suelo y vuelo. | Bocetos guardados; no integrado. |
+| Cajas de colisión | Respetar las diferencias de tamaño, especialmente Gohan. | Visor y auditoría disponibles; cajas sin modificar. |
+| Especiales y efectos | Revisar colores, impactos múltiples y convivencia con auras/HUD. | Revisión completa pendiente. |
 
-| Apartado | Estado |
+## Namek: antes y nueva propuesta
+
+**Izquierda: paleta de la ROM entregada. Derecha: nueva propuesta según las últimas referencias.** Son capturas del emulador con los mismos personajes y encuadre; no se han repintado sus píxeles. La comparación añade sólo la cabecera.
+
+![Namek antes y después: propuesta v2 pendiente de elección](assets/media/namek-anime-v2/Namek-v2-antes-despues.png)
+
+Se abandona la roca rosa: ahora es ocre/beige, con azules más definidos y cielo verde. **Mostrar esta comparación no significa que la propuesta esté aprobada ni aplicada a la ROM de jugabilidad.** [Captura y colores de esta prueba](docs/namek-anime-v2.md). Las [propuestas anteriores de Namek y su destrucción](docs/namek-anime-v1.md) se conservan como descartadas.
+
+## Intro y título conservados
+
+![Intro: Goku grande cálido y personajes pequeños originales](assets/media/intro-original-lineup-v6-6/Intro-personajes-originales-Goku-calido.png)
+
+![Título: Goku cálido, BANDAI y ALEX LLAO](assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png)
+
+Esta es la elección posterior a B, G y las demás pruebas de piel: **Goku grande cálido; reparto pequeño original**. No altera los colores elegidos para los personajes durante el combate. [Integración y comprobaciones](docs/intro-original-lineup-v6-6.md).
+
+## Auras y colores aprobados
+
+| Personajes | Aura vigente |
 | --- | --- |
-| Controles v3 | Conserva carrera e inercia, reposo terrestre breve y añade **adelante, atrás, adelante + C** para cambiar de lado sin golpe con los once personajes. [Pruebas y vídeo](docs/side-switch.md). |
-| Personajes | **Propuesta elegida para los 11; Goku G2 HDBZ**. Disponible en Colores v1. |
-| Escenarios | **Propuesta elegida para los 9**. Disponible en Colores v1. |
-| Retratos de selección | **Propuesta v1 elegida para los 11**; pendiente de integrar en el próximo BIN combinado. |
-| Presentación | **C cálida adaptada a apertura y título**, pendiente de revisión visual; **© BANDAI 1994** y **- 2026 ALEX LLAO** juntos. [Capturas actuales](docs/intro-original-lineup-v6-6.md). |
-| HUD | **H4**, coherente con los retratos de selección elegidos; conserva el diseño H3 y el jugador 2 reflejado. Pendiente implementar. |
-| Auras | **Ki v4 con colores individuales implementado y grabado para los once personajes.** Todos sin rayos; paletas aceptadas visualmente. |
-| Ataques especiales | Revisión pendiente. |
+| Goku, Gohan, Vegeta y Trunks Super Saiyan | Dorada. |
+| Cell | Dorada como los Super Saiyan. |
+| Ginyu | Lila con núcleo claro. |
+| Recoome | Blanca con borde violeta. |
+| Piccolo, Androide 18 y Freezer | Blanca con matiz azulado. |
+| Krilin | Blanca luminosa. |
 
-Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
+**Ninguno lleva rayos.** La petición de retirarlos sustituyó la aprobación anterior de rayos para Cell y Gohan. Se mantienen el contorno corregido, el tamaño elegido, el polvo sólo en el suelo y la salida animada.
 
-## Prueba actual: el primer golpe quita el aturdimiento
+[Grabación real de los once, antes y después](assets/media/ki-colores-v4/Ki-todos-antes-despues.mp4) · [Salidas a cámara lenta](assets/media/ki-colores-v4/Salida-ki-todos-lenta.mp4) · [Vídeos individuales y pruebas](docs/ki-colores-v4.md)
 
-**Stun v2:** el primer impacto conectado termina el mareo y reinicia su acumulación. Sigue la reacción normal al daño. Se conservan las dos barras sin texto, sin acelerar movimientos. Fuera del mareo se mantiene la acumulación original. El contador global HITS continúa pendiente.
+## Aturdimiento y combos: última prueba
 
-[Vídeo real en Namek](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Cambio y pruebas](docs/stun-break-v2.md) · [Nueva prueba de Namek según tus referencias](docs/namek-anime-v2.md).
+Las barras muestran acumulación en verde, aviso en naranja y recuperación del mareo en rojo. **En Stun v2, al conectar el primer golpe contra un rival mareado, desaparece el mareo y se reinicia la barra.** Fallar un golpe no lo libera. Los siguientes impactos usan la reacción normal y pueden volver a acumular puntos; no se añade inmunidad temporal.
 
-Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version stun-break-v2`. Las propuestas de Namek aún no se incluyen en esta ROM. Las versiones anteriores y la opción predeterminada v6.6 se conservan.
+[Ver Stun v2 dentro del juego](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Rutina, pruebas y límites](docs/stun-break-v2.md) · [Integración gráfica de las barras](docs/hud-stun-v1.md)
 
-## Barras de aturdimiento integradas: prueba HUD v1
+Los enlaces de combos conservan la animación completa de cada ataque y no duplican la reacción de daño ni reinician la animación del rival para obligar a que conecten. La asistencia se limita a humanos en suelo y velocidad normal. El máximo de tres básicos y un remate reduce los bucles, pero no demuestra que todo infinito sea imposible. Alcance y retroceso pueden romper una ruta: falta ajustar y valorar con mando.
 
-**Dos barras pequeñas, sin texto**, en las esquinas inferiores y con el borde de las originales. Verde: acumulación real; naranja: aviso; rojo: tiempo restante del aturdimiento, que se vacía al recuperarse. Ambas se dibujan dentro de la ROM, sin superponerlas al vídeo. La base conserva la reacción original de v5.
+El contador solicitado deberá contar **impactos aceptados de todos los ataques**, incluidos especiales multigolpe y Meteor sin básicos previos. No basta con contar las pulsaciones ni cada descuento de vida de una cinemática. **Sigue pendiente**; los contadores superpuestos de vídeos antiguos eran demostraciones, no un HUD de ROM.
 
-[Ver grabación real con sonido](assets/media/hud-stun-v1/Barras-aturdimiento-juego-real.mp4) · [Captura de acumulación](assets/media/hud-stun-v1/Barras-acumulacion.png) · [Captura de recuperación](assets/media/hud-stun-v1/Barras-recuperacion.png) · [Integración y pruebas](docs/hud-stun-v1.md).
+[Reacción de daño corregida, base de esta prueba](docs/combos-v5-native-stun.md) · [Cálculo nativo de aturdimiento y requisitos HITS](docs/hud-hits-stun.md)
 
-Se retiran las etiquetas solicitadas y se corrigen las interferencias de las primeras pruebas. El contador global HITS sigue pendiente. Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version hud-stun-v1`. v6.6 permanece como opción predeterminada.
+## Cambios de lado encadenados: P1 y P2
 
-## Corrección experimental actual: reacción original al recibir golpes
+[**Ver el intercambio real: 28 segundos con sonido**](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4)
 
-La prueba v5 retira las ayudas que prolongaban la reacción de daño y reiniciaban su animación en v4. Conserva el final completo de los ataques y deja actuar la reacción original del rival. Las rutas que dejan de conectar necesitan ajuste; no se fuerza el bloqueo para mantener un combo.
+Goku/Vegeta y Piccolo/Freezer alternan → ← → + C, con intentos de golpe y ataques posteriores. Son **dos mandos coordinados**, en la ROM Stun v2 actual, con las animaciones a velocidad normal. Veinte cruces comprobados, diez por jugador. [Condiciones y límites de la demostración](docs/teleport-exchange-v1.md).
 
-[Detalle y comprobaciones](docs/combos-v5-native-stun.md) · [Combate de36 segundos con sonido](assets/media/combos-v5-native-stun/Goku-Vegeta-reaccion-original.mp4) · [Aturdimiento nativo y requisitos del HUD](docs/hud-hits-stun.md). El contador global HITS sigue pendiente; las barras ya están integradas en la prueba opcional [HUD v1](docs/hud-stun-v1.md). Se conservan las versiones anteriores para revisar; sus vídeos no representan esta corrección.
-
-Construcción: `pnpm build:review --rom ruta/a/original.bin --version combos-v5-native-stun`. La versión predeterminada sigue siendo v6.6.
-
-## Prueba opcional actual: Combos v4 con ritmo natural
-
-**Cada ataque termina su animación antes del siguiente.** Se guardan las órdenes durante el contacto y se ejecutan al acabar el movimiento: se elimina el corte anticipado de v3, se restaura la recuperación final completa y se retira el paso instantáneo de seguimiento. No se acelera el vídeo ni el reloj de animación. La ampliación sigue siendo para humanos, en suelo y velocidad normal.
-
-[**Ver vídeo largo nuevo con sonido (4 min 45 s)**](assets/media/combos-v4-natural/Combos-v4-ritmo-natural-4min.mp4) · [Reglas, comparación con el original y límites](docs/combos-v4-natural.md). Son ocho combates o fragmentos reales con dos mandos automatizados, sin contador superpuesto.
-
-Al conservar duración, alcance y retroceso, algunas rutas de tres golpes de v3 dejan de conectar; se registran y quedan pendientes de ajustar jugando. Hay un máximo de tres básicos y una técnica asistida, sin asegurar que todo orden impacte. Se conservan v1/v2/v3 y la ROM principal v6.6. Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version combos-v4-natural`.
-
-## Prueba opcional de combos v3: los once personajes
-
-Mezcla hasta **tres básicos A/B** al acertar y remata con una técnica propia o Meteor, introduciendo su comando original. Primera prueba común para los once personajes humanos en suelo y velocidad normal. El remate cierra las ayudas de la cadena; sólo se recupera el presupuesto tras seis actualizaciones con ambos luchadores libres. Pendiente de probar con mando.
-
-[**Ver combates largos con sonido (4 min 41 s)**](assets/media/combos-v3/Combos-v3-combates-largos-con-sonido.mp4) · [Vídeo real de los once personajes](assets/media/combos-v3/Combos-v3-once-personajes.mp4) · [Goku A-B-A → Meteor](assets/media/combos-v3/Goku-ABA-Meteor.mp4) · [Goku A-B-A → ráfaga](assets/media/combos-v3/Goku-ABA-rafaga.mp4) · [Reglas, resultados y límites](docs/combos-v3.md). Los vídeos no llevan contador: todavía no está en la ROM.
-
-Construcción: `pnpm build:review --rom ruta/a/original.bin --version combos-v3`. **La opción por defecto sigue siendo v6.6** y se conservan v1/v2. Se mantienen alcance, cajas, condiciones y daño nativos del remate; algunas rutas fallan por distancia o pose. Las pruebas reducen riesgos de bucles, sin demostrar que todo infinito sea imposible.
-
-## Prueba opcional de combos v2: puños y patadas
-
-**A, A, B al conectar: dos puñetazos y remate de patadas.** En las tomas reales, Goku enlaza cinco impactos y Vegeta cuatro. Sólo velocidad normal y mandos humanos; se usa una ráfaga nativa distinta para cada personaje y se modera el daño de las patadas. Pendiente de valorar jugando.
-
-[Ver el vídeo real de los remates](assets/media/combos-v2/Combos-v2-punetazos-y-patadas.mp4) · [Condiciones, pruebas y límites](docs/combos-v2.md). El contador del vídeo está superpuesto; no está en la ROM. Hay [toma limpia de Goku](assets/media/combos-v2/Goku-combo-real-sin-contador.mp4) y [de Vegeta](assets/media/combos-v2/Vegeta-combo-real-sin-contador.mp4).
-
-Construir esta prueba: `pnpm build:review --rom ruta/a/original.bin --version combos-v2`. **La construcción predeterminada sigue siendo v6.6.** Se conserva la [prueba v1 de dos puños y proyectil](docs/combos-v1.md) y la [primera propuesta visual de contador](assets/concepts/combo-counter-v1/Contador-combos-demostracion.mp4).
-
-## Revisión actual: ROM v6.6
-
-**Los personajes pequeños de la intro vuelven exactamente al original**, por petición del usuario. Se conserva el Goku grande cálido de C y la pantalla de BANDAI y ALEX LLAO de v6.4/v6.5. [Capturas reales y comprobaciones](docs/intro-original-lineup-v6-6.md).
-
-Los colores de combate, escenarios, auras y jugabilidad se conservan. Las propuestas de recolor del reparto se guardan únicamente como historial.
-
-También está disponible el [ASM de estudio comentado en castellano](docs/asm-en-castellano.md): incluye rutinas identificadas y fuentes de nuestros parches. No es el código fuente original; las zonas desconocidas quedan marcadas y no se ha validado recompilar el juego completo.
-
-**Cambio de lado sin golpe para todos: adelante, atrás, adelante + C**, cerca del rival. La última dirección y C pueden pulsarse juntos. Se conserva la función normal de C al soltarlo; las técnicas originales de A y B no se sustituyen. [Ver los once dentro del juego](assets/media/side-switch/Todos-cambio-de-lado.mp4) · [Controles, condiciones y pruebas](docs/side-switch.md).
-
-El movimiento original de Gohan tampoco golpea: se corrigió la descripción anterior tras comprobarlo en juego. Se reutiliza ese comportamiento y se añade una combinación propia.
-
-**Ajuste tras la prueba del usuario:** el reposo tumbado baja de 30 a **12 ticks** (unos 0,22–0,25 s en estos ensayos). Se conserva la caída y el levantamiento. Bandai y ALEX LLAO comparten ahora la misma línea. [Comparación Gohan: v5 izquierda / v5.2 derecha](assets/media/gameplay-v2/Gohan-v5-izquierda-v5-2-derecha.mp4).
-
-Corrige la carrera que fallaba en v1: doble toque hacia delante o atrás y mantener; al soltar, salida con inercia original. Acorta la espera tumbado tras los derribos terrestres largos e integra la presentación G con los créditos originales y el del mod. **La valoración con mando sigue abierta.**
-
-[Ver la revisión anterior de movimiento y derribos](docs/gameplay-v2.md) y [el cambio de lado actual](docs/side-switch.md). Genera esta versión con `pnpm build:review --rom "ruta/a/original.bin"`. Las versiones anteriores y sus comparaciones se conservan.
-
-## Prueba CPU anterior: original frente a v4
-
-**Seis enfrentamientos con los once personajes, unos 3 min 30 s por versión**, sin botones humanos durante el combate. Original japonés sin parches a la izquierda; Jugabilidad v1 + Colores v1 + Ki v4 a la derecha. No se detectaron bloqueos en estos ensayos. La jugabilidad con mando sigue pendiente de valoración del usuario.
-
-[Ver la comparación completa](assets/media/cpu-comparison-v1/Comparacion-CPU-original-vs-mod.mp4) · [Vídeos por pareja, resultados y límites](docs/cpu-comparison-v1.md)
-
-Contando los sondeos previos, la IA se ejecutó 260,99 s en el original y 254,98 s en la nueva, dentro del máximo de cinco minutos por ROM. No se activaron escenas cinemáticas de especiales en esta tanda, por lo que su restauración natural sigue pendiente de revisar.
-
-## Ki actual: colores por personaje v4
-
-**Ya están implementadas y grabadas las once paletas para revisión. Todos los personajes van sin rayos.** Cell comparte dorado con los Super Saiyan; Ginyu usa lila, Recoome blanco/violeta, Piccolo/A18/Freezer blanco azulado y Krilin blanco. El contorno aprobado se mantiene.
-
-![Ginyu: ki lila dentro del juego](assets/media/ki-colores-v4/Capturas/10-Ginyu.png)
-
-[Ver los once, antes y después](assets/media/ki-colores-v4/Ki-todos-antes-despues.mp4) · [Revisar las salidas a cámara lenta](assets/media/ki-colores-v4/Salida-ki-todos-lenta.mp4) · [Vídeos individuales, pruebas y límites](docs/ki-colores-v4.md)
-
-La comparación muestra el ki nativo con Colores v1 a la izquierda y la nueva aura a la derecha. Son grabaciones reales. La ROM de prueba es de 4 MiB y las once paletas están aceptadas visualmente. La revisión de especiales completos y hardware sigue pendiente.
-
-La [variante anterior sin rayos y paleta común](docs/auras-c2-v3-no-rays.md) se conserva. Los vídeos con rayos de versiones antiguas que aparecen más abajo forman parte del historial.
-
-## Colores de aura: referencias
-
-[Imágenes del anime y decisiones de color](docs/aura-color-references.md). Cell dorado, Ginyu lila y A18 blanca como Freezer son elecciones expresas del usuario; ya están aplicadas en esta prueba v4.
-
-## Corrección del contorno: C2 v3
-
-Tras elegir el tamaño de C2 v2, el usuario señaló puntas cortadas y huecos. **C2 v3 ya corrige esas uniones dentro del juego**, con un contorno de 80 × 128 basado en la referencia SNES aportada. Mantiene el dorado para los superguerreros y el polvo; Cell y Gohan SSJ2 alternan tres formas de rayos blancos. El contorno fue aceptado posteriormente; los rayos de este vídeo se retiraron en la [revisión actual](docs/auras-c2-v3-no-rays.md).
-
-![Ginyu: contorno anterior y corregido, grabación real](assets/media/auras-c2-v3/Ginyu-contorno-antes-despues.gif)
-
-[Ver los once personajes](assets/media/auras-c2-v3/Todas-las-auras-antes-despues.mp4) · [Ver Cell y sus rayos](assets/media/auras-c2-v3/05-Cell.mp4) · [Revisar la salida a cámara lenta](assets/media/auras-c2-v3/Salida-Goku-lenta.mp4) · [Fuentes y pruebas de C2 v3](docs/auras-c2-v3.md)
-
-La salida conserva el contorno entero y lo apaga durante doce ticks; ya no contrae tiras por separado. La ROM de prueba combina Jugabilidad v1, Colores v1 y esta revisión del aura. Las versiones anteriores siguen disponibles.
-
-## Auras C2 v2: dirección elegida e historial
-
-**C2 v2 elegida el 4 de noviembre de 2026:** tamaño, aspecto del aura y polvo aceptados. También quedan aprobados los rayos blancos largos de Cell y Gohan SSJ2.
-
-La revisión posterior detectó extremos de llama rectos y huecos en el contorno, visibles en la captura de Ginyu. **La corrección de esas uniones está en curso**: se mantienen los 80 × 128 píxeles, el polvo y los rayos elegidos. El apartado visual sigue abierto hasta revisar el contorno corregido.
-
-![Comparación real: original, C2 v1 y C2 v2](assets/media/auras-c2-v2/Tres-tamanos-preview.gif)
-
-**Rayos de Cell y Gohan SSJ2, dentro del juego:**
-
-![Rayos blancos y polvo de Cell y Gohan SSJ2](assets/media/auras-c2-v2/Rayos-Cell-Gohan-preview.gif)
-
-[Ver Cell en vídeo](assets/media/auras-c2-v2/05-Cell.mp4) · [Ver Gohan SSJ2 en vídeo](assets/media/auras-c2-v2/01-Gohan-SSJ2.mp4)
-
-La segunda prueba responde a la revisión de tamaño: el aura ocupa **80 × 128 píxeles**, frente a los 64 × 112 de C2 v1 y los 80 × 112 del original. Es un **25 % más ancha y un 14 % más alta que la primera prueba**. Conserva la paleta compartida nativa; el dibujo sigue siendo una adaptación para Mega Drive del concepto elegido.
-
-**Goku y el resto del reparto no llevan rayos; Gohan SSJ2 y Cell, sí.** Sus arcos blancos son intermitentes y alcanzan 32 píxeles, frente a los ocho del recurso anterior. Se añaden dos nubes de polvo animadas junto a los pies, sólo al cargar desde el suelo. Al soltar, la retirada visual sigue durando doce ticks del juego y reduce sus piezas para respetar los límites de dibujo de la consola.
-
-Los vídeos son grabaciones reales de los once personajes. Las pruebas cubren golpes, cargas consecutivas, ambos jugadores y ausencia de polvo en el aire. **La dirección C2 v2 y sus rayos están aceptados; falta corregir y revisar el contorno.** [Detalles, vídeos y evidencia C2 v2](docs/auras-c2-v2.md).
-
-La ROM de prueba combina **Jugabilidad v1 + Colores v1 + Auras C2 v2**. La presentación G, el crédito **- 2026 ALEX LLAO**, los retratos de selección y el HUD H4 todavía están pendientes de integración.
-
-## Propuesta de décimo escenario: montañas nevadas
-
-El usuario ha elegido montañas nevadas para una primera propuesta visual, con vistas de suelo y vuelo. **Son bocetos; el décimo escenario todavía no está integrado en la ROM.**
-
-| En el suelo | Durante el vuelo |
-| --- | --- |
-| ![Boceto del escenario nevado en el suelo](assets/concepts/stage10-snow/Nieve-propuesta-v1.png) | ![Boceto de la vista aérea del escenario nevado](assets/concepts/stage10-snow/Nieve-vuelo-propuesta-v1.png) |
-
-[Ver ambas vistas y sus referencias](docs/stage10-snow.md). Las imágenes del escenario se han generado como conceptos visuales; los vídeos y GIF de las auras sí son grabaciones del mod en el emulador.
-
-Referencias aportadas: [Super Butōden 2 en The Spriters Resource](https://www.spriters-resource.com/snes/dragonballzsuperbutoden2/) y [archivos conservados con sus créditos](assets/references/super-butoden-2/references.json).
-
-## Revisión de colisiones
-
-**Se conservan las diferencias de tamaño entre personajes.** Que una patada alta no alcance a Gohan puede ser correcto. No hemos cambiado las cajas.
-
-![Visor de cajas nativas](assets/tools/collision-viewer/Visor-colisiones-vista.jpg)
-
-[Descargar y abrir el visor paso a paso](assets/tools/collision-viewer/visor-colisiones.html) · [Resultados y límites](docs/collision-review-v1.md) · [Visor Lua de solo lectura](tools/collision)
-
-El HTML funciona sin conexión y reconstruye 13 ensayos con gráficos nativos y cajas registradas del juego. No es una grabación. Las comparaciones de alcance no detectan cambios en los casos probados; las tablas y rutinas de colisión examinadas conservan sus bytes originales.
+La ventaja adicional al reaparecer y una ventana específica para responder siguen pendientes de decidir. Este vídeo muestra el intercambio con el movimiento existente; no añade golpes automáticos ni imbloqueables.
 
 ## Controles y movimientos
 
@@ -180,11 +94,11 @@ El HTML funciona sin conexión y reconstruye 13 ensayos con gráficos nativos y 
 | Caminar | Mantener adelante o atrás. |
 | Correr hacia delante | Adelante, soltar brevemente, adelante y mantener. |
 | Correr hacia atrás | Atrás, soltar brevemente, atrás y mantener. |
-| Frenar | Soltar la dirección; conservar una breve inercia como en el original es la conducta elegida para la revisión v2. |
+| Frenar | Soltar la dirección; conservar una breve inercia como en el original es la conducta elegida y conservada en la versión actual. |
 | Saltar / agacharse | Arriba / abajo. |
 | Defender | Mantener atrás frente al ataque. |
 | Cargar ki | Mantener A+B. |
-| Cambiar de lado sin golpear, v6 | Adelante, atrás, adelante + C; cerca del rival, sin A/B simultáneos. |
+| Cambiar de lado sin golpear | Adelante, atrás, adelante + C; cerca del rival, sin A/B simultáneos. |
 
 Las flechas de las tablas suponen que miras a la **derecha**: → = hacia el rival, ← = alejarse. Invierte las direcciones cuando mires a la izquierda. Haz las direcciones en secuencia y pulsa el botón junto a la última. «Mantener ↓» indica carga previa; «en el aire» exige estar saltando o volando. La distancia, el ki y el estado de ambos luchadores también pueden condicionar una técnica.
 
@@ -199,9 +113,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
-| **Dos puños + patadas (prueba opcional Combos v2, sólo normal)** | A, soltar, A al conectar, B tras el segundo impacto. [Condiciones](docs/combos-v2.md) |
-| **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -224,7 +136,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Kiai Cannon | mantener ↓ ↓ ↘ → + A |
@@ -246,7 +158,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Shot | ← → + A |
 | Energy Shock | ← ↙ ↓ + A |
@@ -267,9 +179,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
-| **Dos puños + patadas (prueba opcional Combos v2, sólo normal)** | A, soltar, A al conectar, B tras el segundo impacto. [Condiciones](docs/combos-v2.md) |
-| **Dos puños + proyectil (prueba opcional Combos v1, sólo normal)** | A, soltar, A al conectar; después ← → + A. [Condiciones](docs/combos-v1.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -290,7 +200,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Cannon | ← → + A |
 | Energy Slash | mantener ↓ ↓ ↙ ← + A |
@@ -311,7 +221,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Shot | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -333,7 +243,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Flash Beam | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -354,7 +264,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -375,7 +285,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Frieza Beam | ← → + A |
 | Destructo Disc | mantener ↓ ↓ ↘ → + A |
@@ -397,7 +307,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Consecutive Energy Blast | mantener ↓ ↓ ↙ ← + A |
@@ -419,7 +329,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 | Técnica | Combinación |
 | --- | --- |
-| **Cadena común (prueba opcional Combos v3, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y ejemplos](docs/combos-v3.md) |
+| **Cadena común (experimental actual, normal)** | Hasta tres básicos de pie A/B al acertar → comando nativo de una técnica propia. [Reglas y límites actuales](docs/combos-v5-native-stun.md) |
 | **Cambio de lado sin golpe (nuevo del mod)** | → ← → + C, cerca del rival y en el mismo plano |
 | Energy Blast | ← → + A |
 | Energy Cannon | mantener ↓ ↓ ↘ → + A |
@@ -436,95 +346,76 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 
 Atribución: colaboradores de StrategyWiki, enlace y revisión indicados arriba. Esta adaptación de sus tablas se ofrece bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); se han convertido los iconos a texto, añadido la correspondencia A/B y notas del proyecto. Esa licencia se aplica a esta adaptación documental, no declara una licencia para la ROM ni para todo el repositorio.
 
-## Historial: las cuatro mejoras de jugabilidad v1
+## Generar la ROM
 
-1. **Parada más rápida (retirada en v2):** la cancelación añadida rompía el doble toque para correr. La revisión actual recupera el movimiento y la inercia nativos a petición del usuario.
-2. **Pulsación pendiente:** una nueva pulsación de puño o patada se conserva durante cinco actualizaciones posteriores de entrada. Si termina la recuperación a tiempo, se ejecuta; una entrada demasiado temprana caduca.
-3. **Recuperaciones ajustadas:** se recortan hasta dos ticks del tramo final de secuencias simples de golpes básicos, al llegar a su pose final.
-4. **Vuelta a guardia más suave:** se enlazan unas pocas poses existentes; empezar otra acción cancela la transición visual inmediatamente.
-
-Estos ajustes se centran en **movimiento terrestre y golpes básicos**. Se conserva la velocidad general y el turbo nativo; salto, vuelo y especiales mantienen sus reglas originales. Mantener A no debe producir ataques repetidos automáticamente.
-
-### Qué se ha comprobado
-
-- 11 personajes × 2 velocidades: **22 combinaciones** de pruebas.
-- **32 situaciones** de alcance, golpes y defensa con el mismo daño que el original.
-- **15 interrupciones por daño** sin que salga un ataque pendiente después del golpe recibido.
-- Segundo mando y una secuencia prolongada contra CPU.
-- Checksum de Mega Drive, aplicación del IPS e integridad de los archivos.
-
-La evidencia histórica está en [evidence/gameplay-v1](evidence/gameplay-v1). Las pruebas se hicieron en **Genesis Plus GX v1.7.4 f27655b**; falta la prueba del usuario con mando y no se ha validado en consola física. No es una validación completa de todos los combos y enfrentamientos.
-
-## Generar tu ROM
-
-Necesitas **Node.js 22.13 o posterior**, **pnpm 11.18.0** y tu copia de la ROM japonesa original de 2 MB. Las herramientas de construcción usan sólo módulos incluidos en Node.
+Herramientas del proyecto: **Node.js ≥22.13 y pnpm 11.18.0**, según `package.json`. Hace falta una copia local de la ROM japonesa original de 2 MiB; no se incluye en el repositorio.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Revisión actual v6.1: incluye cambio de lado y paleta de apertura corregida
-pnpm build:review --rom "ruta/a/original.bin"
+# Última prueba: combos con reacción natural, barras y salida del mareo al primer golpe
+pnpm build:review --rom "ruta/a/original.bin" --version stun-break-v2
 
-# Historial: controles v1 y colores originales
-pnpm build --rom "ruta/a/original.bin"
-
-# Los mismos controles y las paletas Colores v1
-pnpm build:colors --rom "ruta/a/original.bin"
-
-# Historial: controles v1, colores y auras C2 v2
-pnpm build:auras:v2 --rom "ruta/a/original.bin"
+# Base anterior conservada: gráficos, controles y cambio de lado, sin estas pruebas posteriores
+pnpm build:review --rom "ruta/a/original.bin" --version v6.6
 ```
 
-También puedes colocar la base en `roms/original.bin` y ejecutar `pnpm build`. El resultado aparece en `dist/`, con un registro de hashes. El archivo de entrada nunca se sobrescribe.
+La última prueba genera `dist/Buyuu_Retsuden_Enhanced_Stun_Primer_Golpe_v2.bin`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
 
-**SHA-256 de la base admitida:**
+SHA-256 de la base admitida:
 
 ```text
 217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557
 ```
 
-Abre el BIN generado en tu emulador **desde el arranque**, sin estados guardados de otra ROM. El repositorio contiene fuentes, parches y comparaciones; las ROMs completas se generan localmente. [Construcción y ensamblado](docs/build.md).
+**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de Stun v2](patches/stun-break-v2/manifest.json)
 
-## Dirección gráfica
+## Qué se ha comprobado y qué falta
 
-### Presentación elegida: G — C con contraste marcado
+- **Stun v2:** 110 ensayos con las once víctimas, P2 normal y P1 turbo; 44 primeros puñetazos/patadas conectados limpian el mareo. Ensayo adicional de proyectil y un caso visible en el combate grabado.
+- **Barras:** 13.200 fotogramas con los once personajes; comparación gráfica del HUD superior y recursos del escenario en los casos registrados. No es cobertura de todos los especiales, escenarios o hardware.
+- **Cambio de lado:** 374 casos y grabaciones con los once personajes; las cajas nativas se conservan.
+- **Pruebas CPU históricas:** comparación acotada del original y una versión anterior. No sustituye la valoración humana de la última ROM.
+- **Pendiente:** sensaciones con mando, equilibrio de combos, contador HITS, HUD de retratos, integración de retratos elegidos, especiales completos, elección de Namek y consola original.
 
-![Presentación G, captura real de la paleta elegida](assets/comparisons/title/G.png)
+[Hoja de ruta actualizada](docs/roadmap.md) · [Visor de colisiones](docs/collision-review-v1.md) · [Comparación CPU histórica](docs/cpu-comparison-v1.md)
 
-La piel de G parte de C con sombras más marcadas y menos amarillo. El crédito solicitado es **- 2026 ALEX LLAO**, con el nombre real; su cambio gráfico está pendiente. Esta elección todavía no forma parte de la ROM de jugabilidad v1. **Las demás variantes se conservan** para poder volver atrás o retocar el tono de piel.
+## Historial y alternativas conservadas
 
-### Comparar el resto
+Las versiones de esta tabla son anteriores; sus vídeos no representan todas las decisiones actuales.
 
-| Personajes | Escenarios |
+| Prueba histórica | Consulta |
 | --- | --- |
-| [![Personajes](assets/comparisons/overview/01-Personajes-todas.png)](docs/graphics.md#personajes) | [![Escenarios](assets/comparisons/overview/03-Escenarios.png)](docs/graphics.md#escenarios) |
+| Combos v1/v2: dos puños y proyectil o patadas; contador superpuesto en algunas demos | [v1](docs/combos-v1.md) · [v2](docs/combos-v2.md) |
+| Combos v3: mezcla A/B con recortes que después se retiraron | [Reglas y grabaciones v3](docs/combos-v3.md) |
+| Combos v4: final completo de ataques; prolongaba la reacción de daño, corregida después | [Ritmo natural y vídeo largo de 4 min 45 s](docs/combos-v4-natural.md) |
+| Combos v5: retirada de reacción artificial, base de HUD v1 y Stun v2 | [Detalle](docs/combos-v5-native-stun.md) |
+| HUD v1: barras sin texto, antes del cambio de salida del mareo | [Detalle y vídeo](docs/hud-stun-v1.md) |
+| Primeras mejoras de control y carrera corregida | [Jugabilidad v2](docs/gameplay-v2.md) · [Cambio de lado](docs/side-switch.md) |
+| Primeras auras, con tamaños o rayos posteriormente descartados | [C2 v1](docs/auras-c2-v1.md) · [C2 v2](docs/auras-c2-v2.md) · [Contorno corregido](docs/auras-c2-v3.md) · [Retirada de rayos](docs/auras-c2-v3-no-rays.md) |
+| Presentaciones, retratos y paletas alternativas | [Galería gráfica](docs/graphics.md) |
+| Décimo escenario nevado, suelo y vuelo | [Bocetos; no integrado](docs/stage10-snow.md) |
+| Namek rosado y primera propuesta de destrucción | [Descartadas, conservadas como historial](docs/namek-anime-v1.md) |
 
-[Las 71 imágenes y todas las variantes →](docs/graphics.md)
+También se conserva el [ASM de estudio comentado en castellano](docs/asm-en-castellano.md), con rutinas identificadas y fuentes de los parches. **No es el código fuente original completo ni demuestra que se pueda recompilar todo el juego.**
 
-Reglas guardadas: retratos originales de selección para el HUD; jugador 2 mirando hacia el centro; **Goku C2 con llamas y polvo, sin rayos**. **Cell y Gohan SSJ2 deben llevar rayos; los demás, sin rayos**. Los conceptos anteriores con rayos se conservan como historial.
-
-## Estructura
+## Estructura y documentación
 
 ```text
-assets/          Comparaciones y vídeo de jugabilidad
-docs/            Construcción, estado, decisiones, pruebas y hoja de ruta
-evidence/        Resultados históricos de las comprobaciones en emulador
-patches/         IPS y manifiesto de hashes
-project/         Catálogo de imágenes y elecciones en formato legible
-research/        Datos de paletas y fuentes históricas de investigación
-src/gameplay/    Ensamblador 68000 del parche y código verificado en hexadecimal
-src/auras/       Fuente, tiles y mapas del prototipo C2
+assets/          Capturas, comparaciones, vídeos y conceptos
+src/             Fuentes ASM y recursos de los parches
+patches/         IPS y manifiestos de cada versión
+research/        Investigación, generadores y registros de paletas
+evidence/        Resultados y límites de las comprobaciones
+docs/            Decisiones, construcción, pruebas e historial
+project/         Elecciones y catálogo en formato estructurado
+tools/           Construcción, verificación y ensamblado
 tests/           Pruebas de las herramientas de parcheo
-tools/           Construcción, verificación y ensamblado local
 roms/            Base local, excluida de Git
 ```
 
-La rama de trabajo es **`development`**. Cada cambio debe conservar las variantes anteriores, actualizar su estado y distinguir entre **propuesto**, **elegido**, **implementado** y **probado**. Ver [CONTRIBUTING.md](CONTRIBUTING.md).
+Se trabaja en **`development`**, conservando las variantes anteriores y distinguiendo entre elegido, propuesto, implementado y probado. [Contribuir](CONTRIBUTING.md) · [Decisiones](docs/decisions.md) · [Créditos y procedencia](docs/credits.md)
 
-## Próximo paso
-
-Corregir las uniones, los cortes rectos y los huecos del contorno del aura, manteniendo el tamaño, el polvo y los rayos aceptados; volver a grabarlo y revisarlo. Después, integrar la presentación G, el crédito, los retratos elegidos y el HUD H4. La prueba con mando, los ataques especiales y la validación en consola siguen pendientes; las localizaciones nuevas permanecen en espera.
-
-Proyecto de modificación no oficial. Los personajes, el juego original y Hyper Dragon Ball Z se mencionan como obras y referencias de sus respectivos autores. [Créditos y procedencia](docs/credits.md).
+Proyecto no oficial. El juego, sus personajes y las referencias pertenecen a sus respectivos autores. Las ROM completas se generan localmente; el repositorio conserva fuentes, parches y material de revisión.

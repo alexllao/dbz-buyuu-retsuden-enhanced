@@ -1,6 +1,10 @@
 # Construcción
 
-## Generar las dos variantes verificadas
+## Última prueba entregada: Stun v2
+
+`pnpm build:review --rom "ruta/a/original.bin" --version stun-break-v2` genera la última ROM de prueba, con barras sin texto y salida del mareo al primer impacto. [Detalle](stun-break-v2.md). Sin `--version`, se conserva v6.6. Los comandos y prototipos siguientes son históricos y sólo generan la variante que indican.
+
+## Historial: variantes v1
 
 El flujo habitual aplica los IPS versionados. No necesita Java, Ghidra ni un emulador.
 
@@ -18,7 +22,7 @@ La variante `colors` aplica primero Colores v1 y después Jugabilidad v1; por ú
 
 El [prototipo C2](auras-c2-v1.md) se conserva como un parche experimental separado en [patches/auras-c2-v1](../patches/auras-c2-v1), con su propio manifiesto. Combina Jugabilidad v1, Colores v1 y Auras C2 desde la base original. Los comandos de arriba siguen generando las dos variantes v1 anteriores; no incorporan automáticamente ese prototipo. La presentación G, el crédito y el HUD tampoco están incluidos en la prueba C2.
 
-## Prueba actual de auras: C2 v2
+## Historial: auras C2 v2
 
 La [segunda revisión C2](auras-c2-v2.md) amplía el aura a 80 × 128 píxeles y añade rayos blancos largos y polvo. Se genera por separado, conservando las variantes anteriores:
 
@@ -30,7 +34,7 @@ El [parche C2 v2](../patches/auras-c2-v2/auras-c2.ips) y su [manifiesto](../patc
 
 ## Ensamblar la fuente del 68000
 
-La fuente vigente es [controls.asm](../src/gameplay/v1/controls.asm). El código verificado está en [controls.hex](../src/gameplay/v1/controls.hex); son 796 bytes alojados en el relleno original desde `0x7B000`.
+La fuente de controles v1 es [controls.asm](../src/gameplay/v1/controls.asm). El código verificado está en [controls.hex](../src/gameplay/v1/controls.hex); son 796 bytes alojados en el relleno original desde `0x7B000`.
 
 En Windows, con PowerShell 7, Ghidra 12.1.4 y Java 21 instalados:
 
@@ -58,4 +62,4 @@ pnpm build:auras:v3 --rom ruta/a/original.bin genera la prueba de contorno corre
 
 ## Revisión v6.1: coherencia de la introducción
 
-`pnpm build:review --rom ruta/a/original.bin` genera por defecto la v6.1. Iguala la primera cara de Goku con G y adapta seis tonos compartidos de piel del montaje posterior. El resto de v6 se conserva. [Capturas y verificación](intro-palettes.md).
+`pnpm build:review --rom ruta/a/original.bin --version v6.1` genera la revisión histórica v6.1. Iguala la primera cara de Goku con G y adapta seis tonos compartidos de piel del montaje posterior. El resto de v6 se conserva. [Capturas y verificación](intro-palettes.md).

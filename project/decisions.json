@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "preservePreviousVersions": true,
   "presentation": {
     "selected": "C anime cálido",
@@ -540,6 +540,25 @@
     "record": "research/palettes/namek-anime-v2.json",
     "capture": "assets/media/namek-anime-v2/Namek-6-anime-v2-suelo.png",
     "targetSha256": "850023d7ac7fa3ead8be17fb0a1d9ab9db9d88f45d9f9491141cdf6ce60ac45a",
-    "notInGameplayRom": true
+    "notInGameplayRom": true,
+    "comparison": "assets/media/namek-anime-v2/Namek-v2-antes-despues.png"
+  },
+  "currentReview": {
+    "version": "stun-break-v2",
+    "defaultBuild": "v6.6 retained",
+    "manifest": "patches/stun-break-v2/manifest.json",
+    "namekProposalApproved": false
+  },
+  "teleportExchangeDemoV1": {
+    "status": "User requested video; recorded using current move, no ROM changes",
+    "video": "assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4",
+    "docs": "docs/teleport-exchange-v1.md",
+    "coordinatedHumanPads": true,
+    "additionalReactionAdvantage": "Discussed, not implemented",
+    "unblockableHit": "Not implemented",
+    "examples": [
+      "Goku/Vegeta",
+      "Piccolo/Freezer"
+    ]
   }
 }

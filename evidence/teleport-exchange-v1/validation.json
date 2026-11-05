@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "romSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "romModified": false,
+  "additionalReactionAdvantageImplemented": false,
+  "pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      8
+    ]
+  ],
+  "frames": 1675,
+  "fps": 59.92274340431231,
+  "successfulCrosses": 20,
+  "crossesPerPort": {
+    "1": 10,
+    "2": 10
+  },
+  "attackAttemptsDuringCross": 8,
+  "allCrossesZeroDamage": true,
+  "nativeSound": true,
+  "speedScaling": false,
+  "postproductionTeleport": false,
+  "fixture": "Native Stun v2 ROM unchanged; two scripted human pads. Initial spacing/facing only; no position, action, HP, ki or timer writes during recording. Coordinated responses, not reactive CPU. No added advantage window or invulnerability.",
+  "video": {
+    "path": "assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4",
+    "sha256": "5adda7b5b2861abb15af9d83f69901026cfbf8f8e44bb65d406924c9c20a7b59"
+  },
+  "limits": [
+    "Two pairs only, coordinated commands rather than reactive CPU or human test.",
+    "No new reaction delay, unblockable advantage, command shortcut, automatic hit or combo cancel.",
+    "Other recording attempts needed command timing adjustment and are excluded; this is not a roster-wide rapid-repeat command validation."
+  ]
+}
