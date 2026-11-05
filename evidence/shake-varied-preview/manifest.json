@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "romModifiedForShake": false,
+  "postproductionShake": true,
+  "previewOnly": true,
+  "sourceNativeAudio": true,
+  "nativeTiming": true,
+  "hudKeptSteady": true,
+  "frameCountPreserved": true,
+  "frames": 3984,
+  "fps": 59.92274340431231,
+  "seconds": 66.48560752833112,
+  "policy": {
+    "normalNativePixels": 1,
+    "guardNativePixels": 1,
+    "intermediateMultihitNativePixels": 1,
+    "finisherNativePixels": 2,
+    "finisherMatchesEarlierVariant": "B",
+    "shakeOnWhiffOrSideSwitch": false
+  },
+  "clips": [
+    {
+      "route": "0-guardia-demo",
+      "sourceRom": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+      "sourceFrames": 459,
+      "sourceVideoSha256": "816623bab57fa88ebd3149a871888a057d3ccf310f02a8e905fa1a9423895448",
+      "sourceReportSha256": "cc8540038d7bc7cf9448443251086ecef50c84cd1a377abe512a6d9f8d741a43",
+      "events": [
+        {
+          "frame": 78,
+          "kind": "guard",
+          "nativePixels": 1
+        },
+        {
+          "frame": 191,
+          "kind": "guard",
+          "nativePixels": 1
+        },
+        {
+          "frame": 307,
+          "kind": "guard",
+          "nativePixels": 1
+        }
+      ],
+      "controlReturned": true
+    },
+    {
+      "route": "0-cambio-rafaga",
+      "sourceRom": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+      "sourceFrames": 346,
+      "sourceVideoSha256": "e491180bbb2468b3c2c02c80375e084a456d2bd60caf263a2471e46903c1d78f",
+      "sourceReportSha256": "5bf924c6eac75b73620012d0f414bd27e5e68f8c9359cb6a9c03c6c29909b0da",
+      "events": [
+        {
+          "frame": 109,
+          "kind": "multihit",
+          "nativePixels": 1
+        },
+        {
+          "frame": 160,
+          "kind": "multihit",
+          "nativePixels": 1
+        },
+        {
+          "frame": 190,
+          "kind": "finisher-B",
+          "nativePixels": 2
+        }
+      ],
+      "controlReturned": true
+    },
+    {
+      "route": "0-meteor-solo",
+      "sourceRom": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+      "sourceFrames": 520,
+      "sourceVideoSha256": "22e51856dda03812352c4bd575deda5d381c99532d56454a8a5465fdeafda0e0",
+      "sourceReportSha256": "dbf4645dac0426a6df337db304ff5d6c11999d278ecb61dfae112b0b996eaf0c",
+      "events": [
+        {
+          "frame": 91,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 129,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 243,
+          "kind": "meteor-finisher-B",
+          "nativePixels": 2
+        }
+      ],
+      "controlReturned": true
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "sourceRom": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+      "sourceFrames": 667,
+      "sourceVideoSha256": "d0f229d3d1996e1bb508009153ba95c31529b3ca65d6ce7cc7e89767b661efe5",
+      "sourceReportSha256": "3290f0d3e35dd728ac203556acd48b6f2091c74722adbd6a40cc6f34eb908dcb",
+      "events": [
+        {
+          "frame": 70,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 99,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 129,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 203,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 241,
+          "kind": "basic",
+          "nativePixels": 1
+        },
+        {
+          "frame": 361,
+          "kind": "meteor-finisher-B",
+          "nativePixels": 2
+        }
+      ],
+      "controlReturned": true
+    }
+  ],
+  "chapters": [
+    {
+      "route": "0-guardia-demo",
+      "variant": "actual",
+      "start": 0.0,
+      "frames": 459,
+      "label": "ACTUAL | BLOQUEOS"
+    },
+    {
+      "route": "0-guardia-demo",
+      "variant": "propuesta",
+      "start": 7.659862915538148,
+      "frames": 459,
+      "label": "PROPUESTA | BLOQUEOS SUAVES"
+    },
+    {
+      "route": "0-cambio-rafaga",
+      "variant": "actual",
+      "start": 15.319725831076296,
+      "frames": 346,
+      "label": "ACTUAL | ATAQUE MULTIGOLPE"
+    },
+    {
+      "route": "0-cambio-rafaga",
+      "variant": "propuesta",
+      "start": 21.093827288105054,
+      "frames": 346,
+      "label": "PROPUESTA | CONTACTOS SUAVES - REMATE B"
+    },
+    {
+      "route": "0-meteor-solo",
+      "variant": "actual",
+      "start": 26.86792874513381,
+      "frames": 520,
+      "label": "ACTUAL | METEOR DE GOKU"
+    },
+    {
+      "route": "0-meteor-solo",
+      "variant": "propuesta",
+      "start": 35.54576908517703,
+      "frames": 520,
+      "label": "PROPUESTA | DOS CONTACTOS SUAVES - FINAL B"
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "variant": "actual",
+      "start": 44.223609425220246,
+      "frames": 667,
+      "label": "ACTUAL | GOLPES - CRUCE - METEOR"
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "variant": "propuesta",
+      "start": 55.35460847677568,
+      "frames": 667,
+      "label": "PROPUESTA | BASICOS SUAVES - METEOR CON FINAL B"
+    }
+  ],
+  "video": {
+    "filename": "Impactos-variados-actual-y-propuesta.mp4",
+    "sha256": "183cc7c32e91b1e5689f28cb11f4138bb3cae3015b497b20854c1130b5b27531",
+    "path": "assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4"
+  },
+  "status": "Pending visual validation; no new shake in ROM"
+}

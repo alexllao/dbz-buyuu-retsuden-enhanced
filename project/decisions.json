@@ -670,5 +670,20 @@
       "C extra3 native pixels"
     ],
     "docs": "docs/guard-shake-preview.md"
+  },
+  "impactShakeVariedPreview": {
+    "status": "Varied visual test requested; pending user validation",
+    "preferredFinisherIntensity": "B",
+    "normalNativePixels": 1,
+    "guardNativePixels": 1,
+    "intermediateMultihitNativePixels": 1,
+    "finisherNativePixels": 2,
+    "hudSteady": true,
+    "romModified": false,
+    "postproductionEffect": true,
+    "gameplayTimeScaling": false,
+    "docs": "docs/guard-shake-preview.md",
+    "video": "assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4",
+    "seconds": 66.48560752833112
   }
 }

@@ -20,6 +20,10 @@ Tres golpes rápidos →cruce →Meteor siguen sumando **6 HITS**, y el Meteor d
 
 [Reglas y evidencia](docs/hud-hits-v3.md) · [Vibración al bloquear: propuesta visual A/B/C, pendiente de elegir e integrar](docs/guard-shake-preview.md).
 
+## Impacto: prueba variada con remates tipo B
+
+[**Ver 1:06 de actual →propuesta**](assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4): bloqueos, multigolpe, Meteor solo y combo con cruce. Sacudidas suaves en contactos pequeños y B en los remates, con HUD quieto y velocidad natural. **Previsualización sobre grabaciones, aún sin integrar en la ROM.** [Distribución y capítulos](docs/guard-shake-preview.md).
+
 ## Nueva prueba: básicos, cruce, Meteor y respuesta de P2
 
 [**Ver 1 min 37 s de juego real con sonido**](assets/media/combo-side-tests-v1/Combos-cambio-de-lado-y-remates.mp4)
