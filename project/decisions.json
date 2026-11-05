@@ -746,5 +746,19 @@
     "parallaxFactor": 1.15,
     "sourceRom": "hud-hits-v3",
     "docs": "docs/namek-foreground.md"
+  },
+  "namekSpaceshipRequest": {
+    "status": "Requested reference search; exact Frieza asset unconfirmed, visual identification pending",
+    "requestedShip": "Frieza spaceship remembered from HDBZ",
+    "confirmedNormalNamekShip": "Capsule Corp, author Daeron, sprite3,0 in official stages50 hdbz_namek",
+    "checkedOfficialPackages": [
+      "namek",
+      "namek porunga",
+      "namek dying",
+      "space"
+    ],
+    "download": "https://network.mugenguild.com/balthazar/HDBZ/stages50/hdbz_namek.rar",
+    "placementProposal": "Behind fighters, world-anchored background; tree is separate foreground",
+    "romIntegrated": false
   }
 }

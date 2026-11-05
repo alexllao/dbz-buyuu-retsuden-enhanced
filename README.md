@@ -145,6 +145,8 @@ Se abandona la roca rosa: ahora es ocre/beige, con azules más definidos y cielo
 
 **Propuesta visual generada a partir de una captura; pendiente de validar y comprobar su integración en Mega Drive.** No añade todavía un objeto a la ROM ni cambia la elección pendiente de la paleta de Namek. El vídeo simula un desplazamiento a distinta velocidad para probar profundidad; ese plano y el movimiento de copa todavía no están implementados en el juego. [Condiciones y límites de la maqueta](docs/namek-foreground.md). [Prompt y procedencia](research/namek-foreground/concept-v1.json).
 
+**Otra idea para Namek: nave de Freezer al fondo.** Se ha solicitado localizar la referencia de HDBZ. En el paquete oficial de Namek revisado, la nave confirmada es la de **Capsule Corp**, no la de Freezer; se ha extraído como referencia y queda pendiente confirmar el gráfico concreto recordado. La posible nave se situaría detrás de los luchadores, anclada al escenario; el árbol seguiría en primer plano. No se ha integrado ninguna nave en la ROM.
+
 ## Auras y colores aprobados
 
 | Personajes | Aura vigente |
