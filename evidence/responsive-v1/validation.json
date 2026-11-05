@@ -1,0 +1,110 @@
+{
+  "romSha256": "065f87ddd8ba76e64fde764d381463d1fb6da710fdd788f3364ddd02270549f9",
+  "passed": true,
+  "characters": [
+    {
+      "cid": 0,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 1,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 2
+    },
+    {
+      "cid": 2,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 1,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 3,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 1,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 4,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 1,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 5,
+      "auraFirstFrame": 2,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 6,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 2
+    },
+    {
+      "cid": 7,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 1,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 8,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 9,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 3
+    },
+    {
+      "cid": 10,
+      "auraFirstFrame": 1,
+      "movementAfterRelease": 0,
+      "fullBarStops": true,
+      "comboContacts": 3
+    }
+  ],
+  "expectedGokuPrograms": {
+    "kame": 3076,
+    "super": 3077,
+    "energy": 3072,
+    "barrage": 3073,
+    "kiai": 3074,
+    "elbow": 2048,
+    "solar": 3075,
+    "flurry": 2051,
+    "knee": 2050,
+    "slide": 2049,
+    "meteor": 2110,
+    "teleport": 2112
+  },
+  "extra": [
+    "p2-charge",
+    "p2-mirrored-buffer",
+    "expired-buffer",
+    "whiff",
+    "guard"
+  ],
+  "limits": [
+    "Normal-speed human training fixtures; no exhaustive hardware/turbo/balance validation.",
+    "Standing hit-confirm cancels only, maximum three basics and one native finisher; original hurt reactions retained.",
+    "HITS and stun known user-reported discrepancies deliberately left unchanged.",
+    "Buffers use separate F700..F70F state, not native actor118..11F. Static direct-address scan plus 11-character runtime; indexed/bulk RAM accesses not exhaustively proved absent."
+  ]
+}

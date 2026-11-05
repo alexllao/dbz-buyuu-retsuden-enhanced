@@ -775,11 +775,30 @@
     "bytes": 4194304,
     "sha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
     "engineChangedForThisDelivery": false,
-    "manualReview": "Delivered; user testing pending",
+    "manualReview": "User found charge/control/buffer issues and counter discrepancies; superseded for gameplay delivery by responsive-v1; counter fixes deferred.",
     "newShakeIntegrated": false,
     "namekTreeIntegrated": false,
     "namekShipIntegrated": false,
     "recordedChecks": "Existing HITSv3 emulator evidence plus fresh rebuild/hash verification",
     "guide": "docs/prueba-manual-jugabilidad.md"
+  },
+  "responsiveV1": {
+    "date": "2026-11-05",
+    "version": "responsive-v1",
+    "romSha256": "065f87ddd8ba76e64fde764d381463d1fb6da710fdd788f3364ddd02270549f9",
+    "status": "Experimental ROM delivered for manual normal-speed review",
+    "rules": [
+      "Only confirmed standing basic punches/kicks may cancel their recovery; specials/Meteor complete their native execution.",
+      "Charge starts visibly sooner, releases control promptly and stops at full ki.",
+      "Short expiring command buffer during charge; never store indefinitely.",
+      "Recovered thrower regains control before the victim lands.",
+      "Goku human commands use SF-style motions; other characters and CPU retain originals."
+    ],
+    "knownPending": [
+      "User-reported HITS and stun discrepancies, deliberately unchanged.",
+      "Human balance, turbo and original hardware verification."
+    ],
+    "guide": "docs/respuesta-v1.md",
+    "video": "assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4"
   }
 }

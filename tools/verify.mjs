@@ -10,6 +10,14 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const responsiveManifest = await json('patches/responsive-v1/manifest.json');
+const responsiveValidation = await json('evidence/responsive-v1/validation.json');
+assert(responsiveValidation.passed && responsiveValidation.characters.length === 11);
+assert(responsiveValidation.romSha256 === responsiveManifest.target.sha256);
+assert(sha256(await readFile(resolve(root, responsiveManifest.patch.path))) === responsiveManifest.patch.sha256);
+const responsiveBuild = await json('evidence/responsive-v1/build.json');
+assert(Object.values(responsiveBuild.preserved).every(Boolean));
+assert(Buffer.from((await readFile(resolve(root, 'src/gameplay/responsive-v1/responsive.hex'), 'utf8')).trim(), 'hex').length === responsiveBuild.codeBytes);
 const comboSideTests = await json('evidence/combo-side-tests-v1/validation.json');
 assert(comboSideTests.passed && !comboSideTests.romChanged && comboSideTests.videoTakes === 10 && comboSideTests.probeCases === 52);
 assert(comboSideTests.allControlReturned && comboSideTests.allRequestedFinishersStarted && !comboSideTests.gameplayTimeScaling && !comboSideTests.hitsHudAdded);

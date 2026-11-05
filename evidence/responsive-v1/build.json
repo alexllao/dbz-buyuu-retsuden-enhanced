@@ -1,0 +1,59 @@
+{
+  "sourceSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "targetSha256": "065f87ddd8ba76e64fde764d381463d1fb6da710fdd788f3364ddd02270549f9",
+  "preserved": {
+    "hits-stun": true,
+    "aura-before-routing": true,
+    "aura-after-routing": true,
+    "side": true,
+    "damage": true,
+    "stun-break": true
+  },
+  "codeBytes": 1058,
+  "status": "Experimental normal-speed manual review candidate; project build/hash and runtime checks passed",
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      503826,
+      6
+    ],
+    [
+      504994,
+      6
+    ],
+    [
+      37418,
+      6
+    ],
+    [
+      37476,
+      8
+    ],
+    [
+      127725,
+      1
+    ],
+    [
+      135306,
+      6
+    ],
+    [
+      3997696,
+      6
+    ],
+    [
+      3998506,
+      6
+    ],
+    [
+      4005888,
+      1058
+    ]
+  ],
+  "outsideAllowedChangedBytes": 0,
+  "stateReservation": "Two separate eight-byte slots F700..F70F; actor118..11F untouched",
+  "knownPending": "HITS/stun discrepancies intentionally not fixed"
+}

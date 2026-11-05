@@ -2,25 +2,29 @@
 
 Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 5 de noviembre de 2026 · rama `development`.** La última ROM de prueba es **HUD HITS v3 (`hud-hits-v3`)**, sobre Ventaja v1 y Stun v2: conserva las mejoras gráficas y de control, las pruebas de combos con animación natural y las dos barras de aturdimiento sin texto. **El primer impacto conectado termina el mareo y reinicia su acumulación.**
+**Actualizado: 5 de noviembre de 2026 · rama `development`.** La ROM de prueba actual es **Respuesta v1 (`responsive-v1`)**. Incluye carga más rápida, salida al soltar o llenar la barra, buffer corto durante carga, cancels de básicos que aciertan, control tras lanzar al rival y comandos de Goku de estilo Street Fighter.
 
-[**Corregido: antes/después de los golpes separados**](assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4) · [Reglas y pruebas actuales](docs/hud-hits-v3.md) · [Decisiones vigentes](docs/decisions.md) · [Pendientes](docs/roadmap.md)
+[**Ver 1:28 de juego real con sonido: antes/después y todos los especiales de Goku**](assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4) · [**Comandos nuevos y guía de prueba**](docs/respuesta-v1.md) · [Manifiesto](patches/responsive-v1/manifest.json)
 
-La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece desde 2 impactos; el golpe suelto queda oculto.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version hud-hits-v3`.
+[![Abrir la prueba real de Respuesta v1](assets/media/responsive-v1/captura.png)](assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4)
 
-[**Vídeos de combos y HITS**](#vídeos-combos-hits-y-jugabilidad) · [**Presentación elegida**](#pantalla-de-presentación-elegida) · [**Jugabilidad acordada**](#jugabilidad-acuerdos-vigentes) · [Controles y movimientos](#controles-y-movimientos) · [Decisiones y pendientes](docs/decisions.md)
+**Cancels:** se corta la recuperación de puños y patadas de pie al acertar para enlazar básicos o un especial; los especiales y Meteor completan su ejecución. No se acelera la animación ni se prolonga la reacción del rival. Se conserva el límite experimental de tres básicos y un remate.
 
-[Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
+**Buffer:** mientras cargas con Goku, introduce ↓ ↘ →, suelta A+B y pulsa A enseguida para lanzar Kamehameha. El comando caduca si esperas. Los nuevos comandos de Goku sólo cambian su control humano; los otros personajes y la CPU conservan los suyos.
 
-**Prueba manual preparada:** la ROM de jugabilidad vigente es `hud-hits-v3`. [Guía de controles y pruebas de combos, HITS, cruce y aturdimiento](docs/prueba-manual-jugabilidad.md). Las sacudidas nuevas, el árbol y la nave siguen pendientes de integrar.
+**HITS y stun siguen en revisión:** el usuario ha detectado discrepancias en velocidad normal. Se dejan expresamente pendientes; esta ROM conserva sus rutinas de HUD HITS v3 y no afirma haber corregido esos fallos. Los vídeos de HITS siguientes documentan versiones anteriores.
+
+Se mantienen la presentación de Goku cálido, el reparto pequeño original, las paletas de combate y las auras elegidas sin rayos. Las propuestas de Namek, el árbol, la nave y las nuevas sacudidas siguen sin integrar. Arranca la nueva ROM desde cero, a velocidad normal y sin estados guardados anteriores.
+
+Construcción de esta prueba: `pnpm build:review --rom ruta/a/original.bin --version responsive-v1`. El comando sin versión sigue conservando v6.6. [Reglas y comprobaciones de Respuesta v1](docs/respuesta-v1.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
 
 ## Vídeos: combos, HITS y jugabilidad
 
-**Esta es la documentación vigente de HUD HITS v3.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
+**Historial de HUD HITS v3: la prueba actual es Respuesta v1, descrita arriba.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
 
 | Qué quieres ver | Vídeo | Estado |
 | --- | --- | --- |
-| **Combos y contador HITS dentro del juego** | [**Ver un minuto de juego real**](assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4) | ROM actual: Meteor de Goku con 3 contactos; tres básicos →cruce →Meteor con 6 HITS; mareo, caducidad y guardia. |
+| **Combos y contador HITS dentro del juego** | [**Ver un minuto de juego real**](assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4) | ROM anterior HUD HITS v3: Meteor de Goku con 3 contactos; tres básicos →cruce →Meteor con 6 HITS; mareo, caducidad y guardia. |
 | **Corrección de los puñetazos separados** | [**Antes y después, comparados a la vez**](assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4) | Izquierda anterior, derecha v3: los golpes aislados ya no suman combo. |
 | **Golpes, bloqueos y Meteor con la vibración elegida** | [**Actual y propuesta, 1:06**](assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4) | Aprobación visual: contactos suaves y remates B. **Todavía es una previsualización; no está integrada en la ROM.** |
 | **Árbol en primer plano en Namek** | [**Prueba en movimiento: actual y propuesta, 23 s**](assets/media/namek-foreground/Namek-arbol-prueba-en-movimiento-v1.mp4) | Maqueta visual sobre gameplay real; árbol y scroll adicional **aún sin integrar en ROM**. |
@@ -62,7 +66,7 @@ La ROM actual es **HUD HITS v3**. La siguiente tabla reúne las decisiones actua
 | Derribos | Acortar la espera tumbado, conservando caída y levantamiento. Reposo final de **12 ticks nativos** en A1/A4/A5, incluido Cell. | Implementado en las rutas terrestres ajustadas; no recorta KO, cinemáticas ni todas las reacciones aéreas. |
 | Cambio de lado universal | **Adelante → atrás → adelante + C**, cerca del rival, en el mismo plano y con espacio al otro lado. Para los once personajes y ambos jugadores humanos; sin golpe ni gasto de ki. | Implementado. No cancela un ataque, daño o derribo en curso; conserva los comandos A/B originales. |
 | Ventaja tras el cruce | Tras un cruce C completado, **seis actualizaciones elegibles** sin iniciar nuevos A/B para el rival. Mantiene movimiento, defensa y respuesta C; una contra C aceptada elimina la restricción recibida. | Experimental para **dos mandos humanos**. A/B pulsados en la ventana se descartan; hay que pulsar otra vez. No es un golpe imbloqueable; extensión frente a CPU pendiente. |
-| Combos y remates | Mezclar básicos A/B —puños y patadas— y enlazar una técnica propia o Meteor con su comando nativo. Las animaciones terminan completas. | Asistencia experimental: hasta **tres básicos y un remate**; no todas las rutas conectan. Limitada a humanos, en suelo y velocidad normal. |
+| Combos y remates | Mezclar básicos A/B —puños y patadas— y enlazar una técnica propia o Meteor con su comando nativo. Los básicos que aciertan permiten cancelar su recuperación en Respuesta v1; especiales y Meteor se completan. | Asistencia experimental: hasta **tres básicos y un remate**; no todas las rutas conectan. Limitada a humanos, en suelo y velocidad normal. |
 | Evitar abusos | Acotar las ayudas de combo y conservar el alcance, retroceso y defensa. Se retiraron la prolongación artificial de reacción y los reinicios de animación del rival. | Implementado en la asistencia actual; falta comprobar todos los emparejamientos, esquinas y posibles infinitos con defensa humana. |
 | HITS: qué se cuenta | Impactos aceptados: básicos, proyectiles, ataques multigolpe y Meteor aunque se ejecute solo. **Goku Meteor = 3 contactos.** Guardia, fallo, partículas y cambio de lado no suman. | Integrado. Desde **2 HITS** en el lado del atacante; un golpe suelto queda oculto. Un impacto del rival termina la cadena anterior. |
 | HITS: cuándo se enlaza | **30 actualizaciones elegibles para enlazar** y **90 para leer el resultado**. El número puede seguir visible con la cadena ya cerrada. Ataques, cruce y mareo activo pausan los plazos. | Integrado en v3. Los puñetazos separados del antiguo 0:24 ya no se agrupan; cada uno vuelve a 1. |
@@ -122,7 +126,7 @@ Los A/B pulsados durante la ventana se descartan; hace falta una pulsación nuev
 | Carrera | Doble toque hacia delante o atrás y mantener; al soltar, frenado con inercia original. | Implementado; se retiró el frenado que rompía la carrera. |
 | Derribos | Menos espera tumbado, conservando caída y levantamiento. | Reposo terrestre reducido de 30 a 12 ticks en las rutas ajustadas. |
 | Cambio de lado | **→ ← → + C**, cerca del rival, para los once; sin golpe ni gasto de ki. | Implementado. Nueva ventaja P1/P2 de seis actualizaciones; permite defensa y contra C. Técnicas originales A/B conservadas. |
-| Combos | Mezclar básicos A/B y enlazar una técnica propia o Meteor con su comando original. **Sin acelerar movimientos.** | Experimental: máximo de tres básicos y un remate asistido; no todas las rutas conectan. Reacción al daño sin alargamiento artificial ni reinicio de su animación. |
+| Combos | Mezclar básicos A/B y enlazar una técnica propia o Meteor. **Sin acelerar movimientos; Respuesta v1 añade cancels de básicos que aciertan y nuevos comandos sólo para Goku.** | Experimental: máximo de tres básicos y un remate asistido; no todas las rutas conectan. Reacción al daño sin alargamiento artificial ni reinicio de su animación. |
 | Barras de aturdimiento | Dos barras pequeñas, una por jugador abajo, con estilo de las originales. **Sin texto «STUN».** | Integradas; se corrigieron las interferencias gráficas detectadas. |
 | Salida del aturdimiento | El primer golpe conectado elimina el mareo activo y reinicia su acumulación; sigue la reacción normal de daño. | Elegido e implementado en **Stun v2**. |
 | Contador HITS | Contar todo ataque de varios impactos, incluido Meteor solo, ráfagas de Cell y patadas múltiples de Goku. | **Integrado desde 2 impactos** en HUD HITS v3; 1 queda oculto. Casos de guardia/fallo, multigolpes, Meteor y P2 verificados; revisión exhaustiva de todos los especiales pendiente. |
@@ -208,7 +212,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 **Cambio de lado nuevo:** realiza las direcciones rápidamente y pulsa C con la última. C corresponde a vuelo con el mando por defecto; si reasignas botones, usa esa función. No pulses A ni B a la vez. Funciona cerca del rival, en el mismo plano y desde un estado de movimiento; no cancela ataques, daño ni derribos y puede abortar si no hay espacio al otro lado. La combinación es la misma para los once personajes y ambos jugadores humanos.
 
 <details>
-<summary>Goku: movimientos</summary>
+<summary>Goku: comandos originales (Respuesta v1 usa la nueva tabla enlazada)</summary>
 
 | Técnica | Combinación |
 | --- | --- |

@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**5/11/2026 — Respuesta v1:** carga/salida/buffer, cancels sólo de básicos confirmados, control tras lanzamiento y comandos SF para Goku. [Reglas, comandos, vídeo y límites](respuesta-v1.md). HITS y stun: discrepancias del usuario pendientes, sin cambios en esta revisión.
+
 Actualizado el 5 de noviembre de 2026. [Registro estructurado](../project/decisions.json). Las pruebas anteriores se conservan; una elección posterior sustituye a la anterior.
 
 | Apartado | Elección vigente | Estado |
