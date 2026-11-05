@@ -1,0 +1,285 @@
+{
+  "sourceSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "targetSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "changedBytes": 9601,
+  "outsideAllowedChangedBytes": 0,
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      28344,
+      6
+    ],
+    [
+      28456,
+      6
+    ],
+    [
+      28700,
+      6
+    ],
+    [
+      28782,
+      10
+    ],
+    [
+      29684,
+      6
+    ],
+    [
+      137742,
+      6
+    ],
+    [
+      3866624,
+      1178
+    ],
+    [
+      3891200,
+      9600
+    ],
+    [
+      4063232,
+      6
+    ],
+    [
+      82004,
+      6
+    ],
+    [
+      82060,
+      6
+    ],
+    [
+      83942,
+      6
+    ],
+    [
+      84040,
+      6
+    ],
+    [
+      85832,
+      6
+    ],
+    [
+      85902,
+      6
+    ],
+    [
+      86342,
+      6
+    ],
+    [
+      87144,
+      6
+    ],
+    [
+      87606,
+      6
+    ],
+    [
+      88082,
+      6
+    ],
+    [
+      88508,
+      6
+    ],
+    [
+      88888,
+      6
+    ],
+    [
+      90348,
+      6
+    ],
+    [
+      90374,
+      6
+    ],
+    [
+      91700,
+      6
+    ],
+    [
+      91728,
+      6
+    ],
+    [
+      92680,
+      6
+    ],
+    [
+      92706,
+      6
+    ],
+    [
+      93180,
+      6
+    ],
+    [
+      93206,
+      6
+    ],
+    [
+      94068,
+      6
+    ],
+    [
+      94100,
+      6
+    ],
+    [
+      94824,
+      6
+    ],
+    [
+      95424,
+      6
+    ],
+    [
+      95444,
+      6
+    ],
+    [
+      96106,
+      6
+    ],
+    [
+      96132,
+      6
+    ],
+    [
+      96822,
+      6
+    ],
+    [
+      96848,
+      6
+    ],
+    [
+      97318,
+      6
+    ],
+    [
+      97426,
+      6
+    ],
+    [
+      97646,
+      6
+    ],
+    [
+      97930,
+      6
+    ],
+    [
+      97956,
+      6
+    ],
+    [
+      102122,
+      6
+    ],
+    [
+      103706,
+      6
+    ],
+    [
+      109874,
+      6
+    ],
+    [
+      112736,
+      6
+    ],
+    [
+      112784,
+      6
+    ],
+    [
+      112888,
+      6
+    ],
+    [
+      112914,
+      6
+    ],
+    [
+      112954,
+      6
+    ],
+    [
+      121386,
+      6
+    ]
+  ],
+  "preserved": {
+    "nativeProgramEntries20B7Aand20B7E": true,
+    "unsafeVBlank6EE8": true,
+    "nativeAnimationTiming": true,
+    "animationTables": true,
+    "auraAndControlCode": true,
+    "sideAdvantageBody": true,
+    "comboCode": true,
+    "existingBarGraphics": true,
+    "allBattleStageTitleGraphics": true
+  },
+  "codeSha256": "e4c3b75942b93186f54e1c94500ad3046d413d07562f4509865e2582b63a27f3",
+  "fontSha256": "dfc415c9044f233e2b018f4d17c3825cb876b58b96673d86a8f0d6bf4a1c7dbe",
+  "codeBytes": 1178,
+  "fontBytes": 9600,
+  "minimumVisibleHits": 2,
+  "cinematicCallSites": [
+    "0x14054",
+    "0x1408c",
+    "0x147e6",
+    "0x14848",
+    "0x14f48",
+    "0x14f8e",
+    "0x15146",
+    "0x15468",
+    "0x15636",
+    "0x15812",
+    "0x159bc",
+    "0x15b38",
+    "0x160ec",
+    "0x16106",
+    "0x16634",
+    "0x16650",
+    "0x16a08",
+    "0x16a22",
+    "0x16bfc",
+    "0x16c16",
+    "0x16f74",
+    "0x16f94",
+    "0x17268",
+    "0x174c0",
+    "0x174d4",
+    "0x1776a",
+    "0x17784",
+    "0x17a36",
+    "0x17a50",
+    "0x17c26",
+    "0x17c92",
+    "0x17d6e",
+    "0x17e8a",
+    "0x17ea4",
+    "0x18eea",
+    "0x1951a",
+    "0x1ad32",
+    "0x1b860",
+    "0x1b890",
+    "0x1b8f8",
+    "0x1b912",
+    "0x1b93a",
+    "0x1da2a"
+  ],
+  "newActorState": "120..125 only, preserved native126; aura116 and advantage117 untouched",
+  "vram": "AFA0..B000 three patterns, no window-table reuse",
+  "newSpriteCountMaximum": 1,
+  "stunActivityChange": "Reset native32 on accepted unblocked impact; preserve normal native600-unit inactivity cleanup"
+}

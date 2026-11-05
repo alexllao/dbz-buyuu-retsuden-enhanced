@@ -1,0 +1,89 @@
+{
+  "originalVideo": "Combos-cambio-de-lado-y-remates.mp4",
+  "oldRomSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "newRomSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "oldEvents": [
+    {
+      "videoSeconds": 73.0273640923637,
+      "frame": 69,
+      "hp": [
+        200,
+        189
+      ],
+      "stun": [
+        0,
+        4
+      ],
+      "dizzyTimer": 0,
+      "periodicBefore": 500,
+      "periodicAfter": 501,
+      "program": "0x43c"
+    },
+    {
+      "videoSeconds": 73.56138503636636,
+      "frame": 101,
+      "hp": [
+        189,
+        178
+      ],
+      "stun": [
+        4,
+        8
+      ],
+      "dizzyTimer": 0,
+      "periodicBefore": 524,
+      "periodicAfter": 525,
+      "program": "0x43c"
+    },
+    {
+      "videoSeconds": 74.12878228936918,
+      "frame": 135,
+      "hp": [
+        178,
+        169
+      ],
+      "stun": [
+        8,
+        11
+      ],
+      "dizzyTimer": 0,
+      "periodicBefore": 548,
+      "periodicAfter": 549,
+      "program": "0x43d"
+    },
+    {
+      "videoSeconds": 75.33032941337517,
+      "frame": 207,
+      "hp": [
+        169,
+        156
+      ],
+      "stun": [
+        11,
+        14
+      ],
+      "dizzyTimer": 0,
+      "periodicBefore": 595,
+      "periodicAfter": 596,
+      "program": "0x820"
+    },
+    {
+      "videoSeconds": 75.44714649487575,
+      "frame": 214,
+      "hp": [
+        156,
+        156
+      ],
+      "stun": [
+        14,
+        0
+      ],
+      "dizzyTimer": 0,
+      "periodicBefore": 600,
+      "periodicAfter": 0,
+      "program": "0x820"
+    }
+  ],
+  "diagnosis": "Native periodic600 cleanup reset14 to0 at75.45sec with unchanged HP and no active dizzy timer; cross itself caused no reset.",
+  "fix": "Native32 resets on accepted unblocked impact;14 retained in new recorded case until normal inactivity cleanup."
+}

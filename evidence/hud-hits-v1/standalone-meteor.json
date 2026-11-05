@@ -1,0 +1,36 @@
+{
+  "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "mode": "Standalone Goku Meteor without preceding basic chain",
+  "summary": {
+    "label": "meteor",
+    "frames": 424,
+    "hits": [
+      {
+        "frame": 207,
+        "phase": "final-y-recuperacion",
+        "delta": 35,
+        "defenderAction": 18,
+        "defenderWasFree": false
+      }
+    ],
+    "damage": 35,
+    "crosses": [],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110,
+      2111
+    ],
+    "cinematic": false,
+    "final": [
+      0,
+      0
+    ],
+    "startKi": 232,
+    "minimumKi": 232
+  },
+  "maxInternalHits": 2,
+  "source": "Native prepared branch in prepare.py, actual motion and B input"
+}

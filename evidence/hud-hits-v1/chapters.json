@@ -1,0 +1,49 @@
+{
+  "frames": 3587,
+  "fps": 59.92274340431231,
+  "seconds": 59.86041019179812,
+  "parts": [
+    {
+      "cid": 0,
+      "label": "comboAAA-cambio-meteor",
+      "startFrame": 0,
+      "frames": 667,
+      "file": "work\\hits-hud\\video\\0-comboAAA-cambio-meteor\\route.mp4"
+    },
+    {
+      "cid": 0,
+      "label": "cambio-rafaga",
+      "startFrame": 667,
+      "frames": 346,
+      "file": "work\\hits-hud\\video\\0-cambio-rafaga\\route.mp4"
+    },
+    {
+      "cid": 0,
+      "label": "cambio-meteor-guardia",
+      "startFrame": 1013,
+      "frames": 346,
+      "file": "work\\hits-hud\\video\\0-cambio-meteor-guardia\\route.mp4"
+    },
+    {
+      "cid": 5,
+      "label": "comboAAA-cambio-especial",
+      "startFrame": 1359,
+      "frames": 462,
+      "file": "work\\hits-hud\\video\\5-comboAAA-cambio-especial\\route.mp4"
+    },
+    {
+      "cid": 5,
+      "label": "comboAAA-cambio-meteor-cerca",
+      "startFrame": 1821,
+      "frames": 1078,
+      "file": "work\\hits-hud\\video\\5-comboAAA-cambio-meteor-cerca\\route.mp4"
+    },
+    {
+      "cid": 3,
+      "label": "contra-P2",
+      "startFrame": 2899,
+      "frames": 688,
+      "file": "work\\hits-hud\\video\\3-contra-P2\\route.mp4"
+    }
+  ]
+}

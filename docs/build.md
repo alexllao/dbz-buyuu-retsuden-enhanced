@@ -1,6 +1,10 @@
 # Construcción
 
-## Última prueba: ventaja de cambio de lado v1
+## Última prueba: HUD HITS v1
+
+`pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v1` incluye HITS desde2 impactos y la corrección del borrado periódico de stun. [Detalle](hud-hits-v1.md). Se conserva v6.6 sin versión explícita.
+
+## Versión anterior: ventaja de cambio de lado v1
 
 `pnpm build:review --rom "ruta/a/original.bin" --version side-advantage-v1` genera la nueva prueba de prioridad P1/P2, conservando Stun v2. [Reglas y límites](side-advantage-v1.md). La opción sin versión sigue siendo v6.6.
 

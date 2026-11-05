@@ -3,6 +3,7 @@ import { dirname, resolve, relative, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import assert from 'node:assert/strict';
+import { gunzipSync } from 'node:zlib';
 import { sha256 } from './lib/rom.mjs';
 import { verifyAuraV3 } from './lib/verify-aura-v3.mjs';
 import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
@@ -21,6 +22,34 @@ for (let i = 0; i < 10; i++) {
   assert(clip.controlReturned && clip.expectedFinisherStarted !== false);
   assert.equal(sha256(await readFile(resolve(root, clip.trace.path))), clip.trace.sha256);
 }
+const hitsManifest = await json('patches/hud-hits-v1/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, hitsManifest.patch.path))), hitsManifest.patch.sha256);
+const hitsValidation = await json('evidence/hud-hits-v1/validation.json');
+assert(hitsValidation.passed && hitsValidation.nativeHud && !hitsValidation.postproductionCounter && !hitsValidation.gameplayTimeScaling);
+assert.equal(hitsValidation.romSha256, hitsManifest.target.sha256);
+assert.equal(hitsValidation.minimumVisibleHits, 2);
+assert(hitsValidation.singleHitsInternalOnly && hitsValidation.rosterRuntimeCases === 88 && hitsValidation.sideRegressionCases === 374);
+assert.deepEqual(hitsValidation.examples, {gokuFlurry: 3, cellNeedleRush: 13, p2Meteor: 2, blockedMeteor: 0});
+assert(hitsValidation.stunAccumulationFix.preservedThroughCellCrossAndSpecial && hitsValidation.stunAccumulationFix.normalInactivityResetValidated);
+for (const record of hitsValidation.records) {
+  const compressed = await readFile(resolve(root, record.path));
+  assert.equal(sha256(compressed), record.sha256);
+  const report = JSON.parse(gunzipSync(compressed).toString('utf8'));
+  assert(report.passed);
+  assert.equal(report.romSha256, hitsManifest.target.sha256);
+}
+for (const item of hitsValidation.media) assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256);
+const hitsStatic = await json('evidence/hud-hits-v1/static-validation.json');
+assert.equal(hitsStatic.targetSha256, hitsManifest.target.sha256);
+assert.equal(hitsStatic.outsideAllowedChangedBytes, 0);
+assert(Object.values(hitsStatic.preserved).every(Boolean));
+assert.equal(hitsStatic.minimumVisibleHits, 2);
+for (const [file, expected] of [['hud.hex', hitsStatic.codeSha256], ['font.hex', hitsStatic.fontSha256]]) {
+  assert.equal(sha256(Buffer.from((await readFile(resolve(root, 'src/hud/hits-v1', file), 'utf8')).trim(), 'hex')), expected);
+}
+const hitsDizzy = await json('evidence/hud-hits-v1/dizzy-exit-validation.json');
+assert(hitsDizzy.passed && hitsDizzy.reports.every(r => r.passed));
+assert.equal(hitsDizzy.romSha256, hitsManifest.target.sha256);
 const sideAdvantage = await json('patches/side-advantage-v1/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, sideAdvantage.patch.path))), sideAdvantage.patch.sha256);
 const advantageRuntime = await json('evidence/side-advantage-v1/runtime-validation.json');

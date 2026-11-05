@@ -1,0 +1,234 @@
+{
+  "passed": true,
+  "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "reports": [
+    {
+      "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+      "victimCid": 0,
+      "victimPort": 1,
+      "turbo": false,
+      "nativeDizzy": {
+        "hp": 190,
+        "stun": 25,
+        "threshold": 22,
+        "timer": 360,
+        "other": 0,
+        "action": 13,
+        "program": 50,
+        "cursor": 0
+      },
+      "fixture": "Native menus. Human control, diagnostic spacing and threshold-1 set before a real native hit triggers dizzy. Follow-up uses actual A/B input; timer, pose and HP not forced in first-hit trials.",
+      "passed": true,
+      "results": [
+        {
+          "label": "first-punch",
+          "before": {
+            "hp": 190,
+            "stun": 25,
+            "threshold": 22,
+            "timer": 360,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": {
+            "hp": 178,
+            "stun": 0,
+            "threshold": 22,
+            "timer": 0,
+            "other": 0,
+            "action": 12,
+            "program": 47,
+            "cursor": 1,
+            "f": 10
+          },
+          "passed": true
+        },
+        {
+          "label": "first-kick",
+          "before": {
+            "hp": 190,
+            "stun": 25,
+            "threshold": 22,
+            "timer": 360,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": {
+            "hp": 178,
+            "stun": 0,
+            "threshold": 22,
+            "timer": 0,
+            "other": 0,
+            "action": 12,
+            "program": 47,
+            "cursor": 1,
+            "f": 13
+          },
+          "passed": true
+        },
+        {
+          "label": "no-hit",
+          "before": {
+            "hp": 190,
+            "stun": 25,
+            "threshold": 22,
+            "timer": 360,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": null,
+          "passed": true
+        },
+        {
+          "label": "miss",
+          "before": {
+            "hp": 190,
+            "stun": 25,
+            "threshold": 22,
+            "timer": 360,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": null,
+          "passed": true
+        },
+        {
+          "label": "ordinary-hit-accumulates",
+          "firstHit": {
+            "hp": 180,
+            "stun": 4,
+            "threshold": 22,
+            "timer": 0,
+            "other": 0,
+            "action": 12,
+            "program": 47,
+            "cursor": 1
+          },
+          "passed": true
+        }
+      ]
+    },
+    {
+      "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+      "victimCid": 3,
+      "victimPort": 2,
+      "turbo": true,
+      "nativeDizzy": {
+        "hp": 188,
+        "stun": 24,
+        "threshold": 21,
+        "timer": 286,
+        "other": 0,
+        "action": 13,
+        "program": 50,
+        "cursor": 0
+      },
+      "fixture": "Native menus. Human control, diagnostic spacing and threshold-1 set before a real native hit triggers dizzy. Follow-up uses actual A/B input; timer, pose and HP not forced in first-hit trials.",
+      "passed": true,
+      "results": [
+        {
+          "label": "first-punch",
+          "before": {
+            "hp": 188,
+            "stun": 24,
+            "threshold": 21,
+            "timer": 286,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": {
+            "hp": 174,
+            "stun": 0,
+            "threshold": 21,
+            "timer": 0,
+            "other": 0,
+            "action": 12,
+            "program": 47,
+            "cursor": 1,
+            "f": 11
+          },
+          "passed": true
+        },
+        {
+          "label": "first-kick",
+          "before": {
+            "hp": 188,
+            "stun": 24,
+            "threshold": 21,
+            "timer": 286,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": {
+            "hp": 174,
+            "stun": 0,
+            "threshold": 21,
+            "timer": 0,
+            "other": 0,
+            "action": 12,
+            "program": 47,
+            "cursor": 1,
+            "f": 13
+          },
+          "passed": true
+        },
+        {
+          "label": "no-hit",
+          "before": {
+            "hp": 188,
+            "stun": 24,
+            "threshold": 21,
+            "timer": 286,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": null,
+          "passed": true
+        },
+        {
+          "label": "miss",
+          "before": {
+            "hp": 188,
+            "stun": 24,
+            "threshold": 21,
+            "timer": 286,
+            "other": 0,
+            "action": 13,
+            "program": 50,
+            "cursor": 0
+          },
+          "firstHit": null,
+          "passed": true
+        },
+        {
+          "label": "ordinary-hit-accumulates",
+          "firstHit": {
+            "hp": 176,
+            "stun": 4,
+            "threshold": 21,
+            "timer": 0,
+            "other": 0,
+            "action": 12,
+            "program": 47,
+            "cursor": 1
+          },
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

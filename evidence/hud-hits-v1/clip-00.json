@@ -1,0 +1,59 @@
+{
+  "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "comboAAA-cambio-meteor",
+  "frames": 667,
+  "fps": 59.92274340431231,
+  "title": "GOKU | BASICOS - CAMBIO DE LADO - METEOR",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 71,
+  "damageEvents": [
+    {
+      "frame": 70,
+      "phase": "basicos-AAA",
+      "delta": 12
+    },
+    {
+      "frame": 99,
+      "phase": "basicos-AAA",
+      "delta": 12
+    },
+    {
+      "frame": 129,
+      "phase": "basicos-AAA",
+      "delta": 12
+    },
+    {
+      "frame": 358,
+      "phase": "final-y-recuperacion",
+      "delta": 35
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1024,
+    2110,
+    2111,
+    2115
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "traceFile": {
+    "path": "evidence/hud-hits-v1/clip-00.trace.json.gz",
+    "sha256": "580c66aa932c0b0e536556274c557b5454a1c8a9cfbb2837e022a9fd3c2582c1"
+  },
+  "startSeconds": 0.0,
+  "maxCounterP1": 3,
+  "maxCounterP2": 0,
+  "maxVisibleP1": 3,
+  "maxVisibleP2": 0
+}

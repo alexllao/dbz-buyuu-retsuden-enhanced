@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "minimumVisibleHits": 2,
+  "singleHitsInternalOnly": true,
+  "rosterRuntimeCases": 88,
+  "rosterCharacters": 11,
+  "sideRegressionCases": 374,
+  "records": [
+    {
+      "path": "evidence/hud-hits-v1/runtime-validation.json.gz",
+      "sha256": "027b153a9237c32176f9ab09e63a455160fb4f864fe68e86a912896a99eea67a",
+      "passed": true,
+      "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+      "cases": 88,
+      "jobs": 22
+    },
+    {
+      "path": "evidence/hud-hits-v1/side-regression.json.gz",
+      "sha256": "537d938695b7732db68e14205840083b3ddb9c4d83e18864be94dc0737c1e368",
+      "passed": true,
+      "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+      "cases": 374,
+      "jobs": 22
+    },
+    {
+      "path": "evidence/hud-hits-v1/inactivity-validation.json.gz",
+      "sha256": "c3f465f9808ed043b6f1f0f2308491e093d516693310029a5c3a95d1e30bda3b",
+      "passed": true,
+      "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+      "cases": null,
+      "jobs": null
+    }
+  ],
+  "videoFrames": 3587,
+  "videoSeconds": 59.86041019179812,
+  "nativeHud": true,
+  "postproductionCounter": false,
+  "nativeAudio": true,
+  "gameplayTimeScaling": false,
+  "examples": {
+    "gokuFlurry": 3,
+    "cellNeedleRush": 13,
+    "p2Meteor": 2,
+    "blockedMeteor": 0
+  },
+  "stunAccumulationFix": {
+    "valueAfterHit": 14,
+    "preservedThroughCellCrossAndSpecial": true,
+    "normalInactivityResetValidated": true,
+    "diagnosticClearAfterDisplayFrames": 703,
+    "nativeCounterBeforeClear": 600
+  },
+  "media": [
+    {
+      "path": "assets/media/hud-hits-v1/HUD-HITS-y-stun-corregido.mp4",
+      "sha256": "8c6e9038905f4fb1f45a4b95fff8b11712cf21ff45d8cfcb476b9f7ba8770402"
+    },
+    {
+      "path": "assets/media/hud-hits-v1/HUD-13-HITS-Cell.png",
+      "sha256": "1a03947990fb4a228e009b821a1b2bc9f2bc6c6558cf242bfd2dbe5a1bf0989e"
+    },
+    {
+      "path": "assets/media/hud-hits-v1/HUD-2-HITS-P2.png",
+      "sha256": "274d6342a0e383889040edec102eebeae1ef2f56bfdabadddf755a82f4e4aefa"
+    },
+    {
+      "path": "assets/media/hud-hits-v1/Stun-acumulacion-conservada.png",
+      "sha256": "19e9b8a6d5f8c2dbec794078680c48a76a8a3cb8fd70cd8d869e861cf019d94d"
+    }
+  ],
+  "limits": "All11 basic/guard/whiff both ports normal/turbo; selected multihit and cinematic examples, not exhaustive every cinematic/121 pairing/hardware validation. Current attacker panel displayed; a counterattack ends prior attacker display. Historical advantage still human-vs-human."
+}

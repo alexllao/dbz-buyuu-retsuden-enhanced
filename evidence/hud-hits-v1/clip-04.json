@@ -1,0 +1,119 @@
+{
+  "romSha256": "e457ebe7bded91b1deccf40a2fe2d313076300b200791b909e97e2e7ffdf1238",
+  "cid": 5,
+  "enemyCid": 3,
+  "stage": 7,
+  "label": "comboAAA-cambio-meteor-cerca",
+  "frames": 1078,
+  "fps": 59.92274340431231,
+  "title": "CELL | BASICOS - CRUCE - ACERCAMIENTO - REMATE",
+  "startHP": 45,
+  "startKi": 232,
+  "damage": 135,
+  "damageEvents": [
+    {
+      "frame": 69,
+      "phase": "basicos-AAA",
+      "delta": 11
+    },
+    {
+      "frame": 102,
+      "phase": "basicos-AAA",
+      "delta": 11
+    },
+    {
+      "frame": 135,
+      "phase": "basicos-AAA",
+      "delta": 9
+    },
+    {
+      "frame": 394,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 421,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 464,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 492,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 533,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 568,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 602,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 631,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 677,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 716,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 754,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 794,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    },
+    {
+      "frame": 825,
+      "phase": "final-y-recuperacion",
+      "delta": 8
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1084,
+    1085,
+    2115,
+    2122
+  ],
+  "expectedFinisher": "0x84a",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "traceFile": {
+    "path": "evidence/hud-hits-v1/clip-04.trace.json.gz",
+    "sha256": "691e94289b639b682cb9a282b23017435d5ac40e343051433f8b53958c74a92d"
+  },
+  "startSeconds": 30.389129344651344,
+  "maxCounterP1": 13,
+  "maxCounterP2": 1,
+  "maxVisibleP1": 13,
+  "maxVisibleP2": 0
+}
