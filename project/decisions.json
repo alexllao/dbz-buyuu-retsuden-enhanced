@@ -496,8 +496,8 @@
     "docs": "docs/combos-v5-native-stun.md"
   },
   "globalHudRequested": {
-    "status": "HITS and stun bars implemented in HUD HITS v1; exhaustive special/hardware review pending",
-    "hits": "Native accepted-impact counter, visible from2 by latest user request; one hit counted internally but hidden. Blocks/whiffs/particles excluded. Cinematic confirmed starts plus accepted damaging contacts; Cell projectile phases excluded from extra cinematic increments.",
+    "status": "HITS v2 and stun bars implemented; linked chain window pauses during attacks/cross/dizzy; exhaustive special/hardware review pending",
+    "hits": "Visible from2, preserve count within90 eligible updates. Pause during attack execution, side switch and defender dizzy. Goku Meteor has3 confirmed contacts; first follow-up exits dizzy and adds to same total. Counterhit ends prior chain; blocks, whiffs and particles do not add hits.",
     "stunBars": "Two lower-corner32x4 native sprites, white border, no text. Green accumulation, orange warning, red remaining native dizzy recovery. No actor writes.",
     "limits": "No fake impact increments from repeated poses/particles; no extra gameplay stun added to sustain display; separate cinematic authored impact events from deferred HP application; distinguish single dizzy episode interrupted by hits from a new trigger"
   },
@@ -515,7 +515,7 @@
     ],
     "recovery": "Native remaining timer depletes red meter; original periodic accumulator clear reflected directly, no invented gradual decay",
     "graphicsFix": "No window-table reuse, no VRAM writes in unsafe6EE8 path; original upper HUD fixed pixels and native stage/commonHUD assets compare equal across36sec audit",
-    "counterHits": "Pending separate integration",
+    "counterHits": "Historical: separate HITS integration completed later in hud-hits-v2",
     "docs": "docs/hud-stun-v1.md"
   },
   "stunBreakV2": {
@@ -543,12 +543,7 @@
     "notInGameplayRom": true,
     "comparison": "assets/media/namek-anime-v2/Namek-v2-antes-despues.png"
   },
-  "currentReview": {
-    "version": "hud-hits-v1",
-    "defaultBuild": "v6.6 retained",
-    "manifest": "patches/hud-hits-v1/manifest.json",
-    "namekProposalApproved": false
-  },
+  "currentReview": "hud-hits-v2",
   "teleportExchangeDemoV1": {
     "status": "User requested video; recorded using current move, no ROM changes",
     "video": "assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4",
@@ -602,10 +597,10 @@
     "rules": "Keep complete native animations. C waits for own attack recovery. Followups allow defense gaps. Meteor can be blocked.",
     "nativeRequirements": "Vegeta/Cell ki>205 and life<quarter; prepared via actual punches and charging",
     "cellNeedleRush": "Verified DOWN,DOWN+FORWARD,FORWARD,BACK+B token1A/program84A; README corrected",
-    "pending": "Human feel, balance, gap tuning, active defense and roster-wide verification; HITS counter still not integrated"
+    "pending": "Historical demo without HITS; current HUD integration is hud-hits-v2. Human feel, balance, gap tuning, active defense and roster-wide verification remain pending."
   },
   "hitsHudV1": {
-    "status": "Implemented and emulator-tested; visual/manual approval pending",
+    "status": "Historical; superseded by hud-hits-v2 for continuity and Goku Meteor contact count",
     "minimumVisibleHits": 2,
     "cap": 99,
     "examples": {
@@ -625,5 +620,27 @@
     "actualReset": "At1:15.45 native periodic counter reached600; accumulated14 became0, HP unchanged and no active dizzy",
     "change": "Reset native32 after each accepted unblocked impact; accumulation clears after native inactivity limit. Cross alone does not reset. Keep first-impact exit from actual dizzy.",
     "evidence": "evidence/hud-hits-v1/stun-reported-timestamp.json"
+  },
+  "hitsHudV2": {
+    "status": "Implemented and emulator-tested; manual review pending",
+    "manifest": "patches/hud-hits-v2/manifest.json",
+    "source": "src/hud/hits-v2/hud.asm",
+    "minimumVisibleHits": 2,
+    "windowEligibleUpdates": 90,
+    "pauseDuring": [
+      "native attack execution",
+      "side switch",
+      "defender active dizzy"
+    ],
+    "counterHitEndsPreviousChain": true,
+    "examples": {
+      "gokuMeteor": 3,
+      "threeBasicsCrossMeteor": 6,
+      "dizzyFollowupMeteor": 10,
+      "cellThreeBasicsCrossNeedleRush": 16,
+      "p2GokuMeteor": 3,
+      "blockedMeteor": 0
+    },
+    "noAnimationSpeedOrStunDurationChanges": true
   }
 }

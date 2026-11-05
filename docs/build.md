@@ -1,8 +1,8 @@
 # Construcción
 
-## Última prueba: HUD HITS v1
+## Última prueba: HUD HITS v2
 
-`pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v1` incluye HITS desde2 impactos y la corrección del borrado periódico de stun. [Detalle](hud-hits-v1.md). Se conserva v6.6 sin versión explícita.
+`pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v2` incluye HITS desde 2 impactos, continuidad durante ataques y mareo, los tres contactos del Meteor de Goku y la corrección del borrado periódico de stun. [Detalle](hud-hits-v2.md). Se conserva v6.6 sin versión explícita.
 
 ## Versión anterior: ventaja de cambio de lado v1
 

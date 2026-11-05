@@ -1,0 +1,74 @@
+{
+  "romSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "combo-mareo-meteor",
+  "frames": 1387,
+  "fps": 59.92274340431231,
+  "title": "GOKU | GOLPES - MAREO - GOLPE Y METEOR",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 121,
+  "damageEvents": [
+    {
+      "frame": 72,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 175,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 279,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 379,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 483,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 585,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 885,
+      "phase": "golpe-tras-mareo",
+      "delta": 14
+    },
+    {
+      "frame": 1108,
+      "phase": "final-y-recuperacion",
+      "delta": 35
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1024,
+    2110,
+    2111
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "trace": {
+    "path": "evidence/hud-hits-v2/clip-02.trace.json.gz",
+    "sha256": "ddb4938f3bb749724e494b116efbf32ea41d0ae4c783d315bd05324d0e2a4b38"
+  },
+  "activeMaximum": 10
+}

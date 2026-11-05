@@ -1,6 +1,6 @@
 # Hoja de ruta
 
-Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [HUD HITS v1](hud-hits-v1.md), sobre Ventaja v1.
+Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [HUD HITS v2](hud-hits-v2.md), sobre Ventaja v1.
 
 ## Implementado
 
@@ -36,3 +36,5 @@ Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [HUD HITS v1](hud-
 - [ ] Integrar, si se decide continuar, el décimo escenario nevado; sólo hay bocetos de suelo y vuelo.
 
 Las versiones anteriores, fuentes, paletas y vídeos se conservan. Una prueba en emulador no equivale a aprobación visual o de jugabilidad del usuario. [Decisiones vigentes](decisions.md).
+
+- [x] [HITS v2](hud-hits-v2.md): pausa durante ataques/cruce y mareo; Meteor de Goku con tres contactos, cadenas de6/10 y Cell16 verificados.

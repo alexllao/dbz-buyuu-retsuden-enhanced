@@ -1,0 +1,69 @@
+{
+  "frames": 5362,
+  "seconds": 89.48188442944564,
+  "chapters": [
+    {
+      "route": "0-meteor-solo",
+      "start": 0.0,
+      "duration": 8.677840340043218,
+      "frames": 520,
+      "activeMaximum": 3,
+      "damage": 35,
+      "player1Damage": 0
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "start": 8.677840340043218,
+      "duration": 11.130999051555435,
+      "frames": 667,
+      "activeMaximum": 6,
+      "damage": 71,
+      "player1Damage": 0
+    },
+    {
+      "route": "0-combo-mareo-meteor",
+      "start": 19.808839391598653,
+      "duration": 23.146470291615277,
+      "frames": 1387,
+      "activeMaximum": 10,
+      "damage": 121,
+      "player1Damage": 0
+    },
+    {
+      "route": "5-comboAAA-cambio-meteor",
+      "start": 42.955309683213926,
+      "duration": 15.920499393079288,
+      "frames": 954,
+      "activeMaximum": 16,
+      "damage": 135,
+      "player1Damage": 0
+    },
+    {
+      "route": "3-contra-P2",
+      "start": 58.875809076293216,
+      "duration": 11.564891068557596,
+      "frames": 693,
+      "activeMaximum": 3,
+      "damage": 16,
+      "player1Damage": 35
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "start": 70.44070014485081,
+      "duration": 5.774101457028756,
+      "frames": 346,
+      "activeMaximum": 0,
+      "damage": 3,
+      "player1Damage": 0
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "start": 76.21480160187957,
+      "duration": 13.267082827566073,
+      "frames": 795,
+      "activeMaximum": 3,
+      "damage": 71,
+      "player1Damage": 0
+    }
+  ]
+}

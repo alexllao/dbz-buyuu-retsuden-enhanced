@@ -1,0 +1,38 @@
+{
+  "romSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "meteor-solo",
+  "frames": 520,
+  "fps": 59.92274340431231,
+  "title": "GOKU | METEOR SOLO - TRES CONTACTOS",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 35,
+  "damageEvents": [
+    {
+      "frame": 243,
+      "phase": "final-y-recuperacion",
+      "delta": 35
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    2110,
+    2111
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "trace": {
+    "path": "evidence/hud-hits-v2/clip-00.trace.json.gz",
+    "sha256": "49e03b585474818c63d2a504a2588cf1b2bc9e89421a3eaed620f0571c852752"
+  },
+  "activeMaximum": 3
+}

@@ -1,0 +1,46 @@
+{
+  "romSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "cid": 3,
+  "enemyCid": 0,
+  "stage": 0,
+  "label": "contra-P2",
+  "frames": 693,
+  "fps": 59.92274340431231,
+  "title": "VEGETA | P1 COMBO Y CRUCE - P2 CONTRA Y METEOR",
+  "startHP": 42,
+  "startKi": 233,
+  "damage": 16,
+  "damageEvents": [
+    {
+      "frame": 68,
+      "phase": "basicos-AAA",
+      "delta": 8
+    },
+    {
+      "frame": 99,
+      "phase": "basicos-AAA",
+      "delta": 8
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    46,
+    51,
+    2110,
+    2111,
+    2115
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 35,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "trace": {
+    "path": "evidence/hud-hits-v2/clip-04.trace.json.gz",
+    "sha256": "3059e26fc416f55313acd8fedb67645a668dbc39c71cda4df1cdb71fd1f5e5a4"
+  },
+  "activeMaximum": 3
+}

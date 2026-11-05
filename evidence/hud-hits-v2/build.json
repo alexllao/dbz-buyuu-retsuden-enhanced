@@ -1,0 +1,9 @@
+{
+  "sourceSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "targetSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "codeBytes": 1246,
+  "fontBytes": 9600,
+  "hud": "Native counter, one latest attacking side visible, three unused pattern tiles AFA0..B000; original stun bar graphics unchanged",
+  "state": "Actor120..125, preserving native126 and aura116/advantage117",
+  "stunFix": "Native accumulation inactivity counter32 resets on accepted unblocked hit; no periodic clear in middle of recent hits"
+}

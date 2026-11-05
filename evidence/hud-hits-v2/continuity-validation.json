@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "romSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "minimumVisibleHits": 2,
+  "windowEligibleUpdates": 90,
+  "freezeDuringAttackAndDizzy": true,
+  "crossAddsHits": false,
+  "gokuMeteorContacts": 3,
+  "examples": [
+    {
+      "route": "0-meteor-solo",
+      "passed": true,
+      "activeMaximum": 3,
+      "frames": 520,
+      "damage": 35,
+      "controlReturned": true
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "passed": true,
+      "activeMaximum": 6,
+      "frames": 667,
+      "damage": 71,
+      "controlReturned": true
+    },
+    {
+      "route": "0-combo-mareo-meteor",
+      "passed": true,
+      "activeMaximum": 10,
+      "frames": 1387,
+      "damage": 121,
+      "controlReturned": true
+    },
+    {
+      "route": "5-comboAAA-cambio-meteor",
+      "passed": true,
+      "activeMaximum": 16,
+      "frames": 954,
+      "damage": 135,
+      "controlReturned": true
+    },
+    {
+      "route": "3-contra-P2",
+      "passed": true,
+      "activeMaximum": 3,
+      "frames": 693,
+      "damage": 16,
+      "controlReturned": true
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "passed": true,
+      "activeMaximum": 0,
+      "frames": 346,
+      "damage": 3,
+      "controlReturned": true
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "passed": true,
+      "activeMaximum": 3,
+      "frames": 795,
+      "damage": 71,
+      "controlReturned": true
+    }
+  ],
+  "fixture": "Cold prepared candidate ROM. Actual pads and native hits; initial spacing/facing only. Native stun reached with six real punches in recorded test. No timing/HP/ki/stun writes during capture; no accelerated animation."
+}

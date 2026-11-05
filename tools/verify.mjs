@@ -22,6 +22,40 @@ for (let i = 0; i < 10; i++) {
   assert(clip.controlReturned && clip.expectedFinisherStarted !== false);
   assert.equal(sha256(await readFile(resolve(root, clip.trace.path))), clip.trace.sha256);
 }
+const hitsV2Manifest = await json('patches/hud-hits-v2/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, hitsV2Manifest.patch.path))), hitsV2Manifest.patch.sha256);
+const hitsV2 = await json('evidence/hud-hits-v2/validation.json');
+assert(hitsV2.passed && hitsV2.nativeHud && !hitsV2.postproductionCounter && !hitsV2.gameplayTimeScaling);
+assert.equal(hitsV2.romSha256, hitsV2Manifest.target.sha256);
+assert.equal(hitsV2.minimumVisibleHits, 2);
+assert.equal(hitsV2.windowEligibleUpdates, 90);
+assert(hitsV2.freezeDuringAttackAndDizzy && !hitsV2.crossAddsHits);
+assert.equal(hitsV2.gokuMeteorContacts, 3);
+assert.deepEqual(hitsV2.examples.map(e => e.activeMaximum), [3, 6, 10, 16, 3, 0, 3]);
+for (const record of hitsV2.records) {
+  const compressed = await readFile(resolve(root, record.path));
+  assert.equal(sha256(compressed), record.sha256);
+  const report = JSON.parse(gunzipSync(compressed).toString('utf8'));
+  assert(report.passed);
+  assert.equal(report.romSha256, hitsV2Manifest.target.sha256);
+}
+for (const item of hitsV2.media) assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256);
+for (let i = 0; i < 7; i++) {
+  const clip = await json(`evidence/hud-hits-v2/clip-${String(i).padStart(2, '0')}.json`);
+  assert.equal(clip.romSha256, hitsV2Manifest.target.sha256);
+  assert(clip.controlReturned);
+  const bytes = await readFile(resolve(root, clip.trace.path));
+  assert.equal(sha256(bytes), clip.trace.sha256);
+  assert.equal(JSON.parse(gunzipSync(bytes).toString('utf8')).length, clip.frames);
+}
+const hitsV2Static = await json('evidence/hud-hits-v2/static-validation.json');
+assert.equal(hitsV2Static.targetSha256, hitsV2Manifest.target.sha256);
+assert.equal(hitsV2Static.outsideAllowedChangedBytes, 0);
+assert(Object.values(hitsV2Static.preserved).every(Boolean));
+assert.equal(sha256(Buffer.from((await readFile(resolve(root, 'src/hud/hits-v2/hud.hex'), 'utf8')).trim(), 'hex')), hitsV2Static.codeSha256);
+const hitsV2Dizzy = await json('evidence/hud-hits-v2/dizzy-exit-validation.json');
+assert(hitsV2Dizzy.passed && hitsV2Dizzy.reports.every(r => r.passed));
+assert.equal(hitsV2Dizzy.romSha256, hitsV2Manifest.target.sha256);
 const hitsManifest = await json('patches/hud-hits-v1/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, hitsManifest.patch.path))), hitsManifest.patch.sha256);
 const hitsValidation = await json('evidence/hud-hits-v1/validation.json');

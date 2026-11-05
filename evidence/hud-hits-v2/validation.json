@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "romSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "minimumVisibleHits": 2,
+  "windowEligibleUpdates": 90,
+  "freezeDuringAttackAndDizzy": true,
+  "crossAddsHits": false,
+  "gokuMeteorContacts": 3,
+  "examples": [
+    {
+      "route": "0-meteor-solo",
+      "passed": true,
+      "activeMaximum": 3,
+      "frames": 520,
+      "damage": 35,
+      "controlReturned": true
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "passed": true,
+      "activeMaximum": 6,
+      "frames": 667,
+      "damage": 71,
+      "controlReturned": true
+    },
+    {
+      "route": "0-combo-mareo-meteor",
+      "passed": true,
+      "activeMaximum": 10,
+      "frames": 1387,
+      "damage": 121,
+      "controlReturned": true
+    },
+    {
+      "route": "5-comboAAA-cambio-meteor",
+      "passed": true,
+      "activeMaximum": 16,
+      "frames": 954,
+      "damage": 135,
+      "controlReturned": true
+    },
+    {
+      "route": "3-contra-P2",
+      "passed": true,
+      "activeMaximum": 3,
+      "frames": 693,
+      "damage": 16,
+      "controlReturned": true
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "passed": true,
+      "activeMaximum": 0,
+      "frames": 346,
+      "damage": 3,
+      "controlReturned": true
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "passed": true,
+      "activeMaximum": 3,
+      "frames": 795,
+      "damage": 71,
+      "controlReturned": true
+    }
+  ],
+  "fixture": "Cold prepared candidate ROM. Actual pads and native hits; initial spacing/facing only. Native stun reached with six real punches in recorded test. No timing/HP/ki/stun writes during capture; no accelerated animation.",
+  "records": [
+    {
+      "path": "evidence/hud-hits-v2/runtime-validation.json.gz",
+      "sha256": "acb766e19a0b0c736332a72a9213bd7dfee31f14fe879ab41df7baf333d6f033",
+      "passed": true,
+      "cases": 88
+    },
+    {
+      "path": "evidence/hud-hits-v2/side-regression.json.gz",
+      "sha256": "a2be2285d8f3e4b56b7c40ee9aa2640bb187f3dbc9684b65b3f48876a72d9195",
+      "passed": true,
+      "cases": 374
+    },
+    {
+      "path": "evidence/hud-hits-v2/inactivity-validation.json.gz",
+      "sha256": "9616856b964bdcb2cb72eeac24db6af45306920e84133d6f98c9f9745cfe65c6",
+      "passed": true,
+      "cases": null
+    },
+    {
+      "path": "evidence/hud-hits-v2/dizzy-exit-validation.json.gz",
+      "sha256": "3b282785d8af98ae3585b3f35de193bde7ce178bf0676a6f2b37aa59dfd7ed28",
+      "passed": true,
+      "cases": 10
+    }
+  ],
+  "media": [
+    {
+      "path": "assets/media/hud-hits-v2/Cell-combo-y-remate-16-HITS.png",
+      "sha256": "3e694d9252d2572b28683d9f1fdf9d44eace5b9bfde00033de49f00ce7db95f7"
+    },
+    {
+      "path": "assets/media/hud-hits-v2/Goku-combo-cruce-Meteor-6-HITS.png",
+      "sha256": "a11eac4fef040dac6be331e30f0f0342888361cd6c2498992101d81df2c42ad9"
+    },
+    {
+      "path": "assets/media/hud-hits-v2/Goku-mareo-y-Meteor-10-HITS.png",
+      "sha256": "016cef3ec35c96a3a0002901c5b14008be3a4cb56a5e94525eefb26c759724bd"
+    },
+    {
+      "path": "assets/media/hud-hits-v2/Goku-Meteor-3-HITS.png",
+      "sha256": "7be2e800ad61bfa00c7f5ba5bc0e16cc474ac5019e25052206e511a1e95cd2c8"
+    },
+    {
+      "path": "assets/media/hud-hits-v2/HITS-v2-combos-Meteor-y-mareo.mp4",
+      "sha256": "e7f65ee54700d06b4eb6e5d58d8405e3602a7520c3557d3214e1de3ab739a019"
+    }
+  ],
+  "videoFrames": 5362,
+  "videoSeconds": 89.48188442944564,
+  "nativeHud": true,
+  "postproductionCounter": false,
+  "gameplayTimeScaling": false,
+  "rosterRuntimeCases": 88,
+  "sideRegressionCases": 374
+}

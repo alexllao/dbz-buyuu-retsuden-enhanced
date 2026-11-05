@@ -1,5 +1,7 @@
 # HUD HITS real y corrección de acumulación de aturdimiento
 
+**Historial:** la revisión actual es [HITS v2](hud-hits-v2.md), que conserva cadenas durante ataques y mareo y cuenta tres contactos en el Meteor de Goku.
+
 **El contador ya está integrado en la ROM.** Por la última indicación del usuario, **un golpe suelto no se muestra**: se cuenta por dentro y el panel aparece desde **2 impactos**, hasta 99. No es una superposición del vídeo.
 
 ![13 HITS de Cell dentro del juego](../assets/media/hud-hits-v1/HUD-13-HITS-Cell.png)

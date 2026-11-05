@@ -1,0 +1,38 @@
+{
+  "romSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "cambio-meteor-guardia",
+  "frames": 346,
+  "fps": 59.92274340431231,
+  "title": "GOKU | CAMBIO DE LADO - METEOR CONTRA GUARDIA",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 3,
+  "damageEvents": [
+    {
+      "frame": 110,
+      "phase": "final-y-recuperacion",
+      "delta": 3
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    2110,
+    2115
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "trace": {
+    "path": "evidence/hud-hits-v2/clip-05.trace.json.gz",
+    "sha256": "33d20392c0c31f490dfccfbf9afb6a9f48ed2c880fcec2986d3fafe4ebdf6e1a"
+  },
+  "activeMaximum": 0
+}

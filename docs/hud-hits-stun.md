@@ -2,7 +2,7 @@
 
 Cambio posterior elegido por el usuario: [Stun v2](stun-break-v2.md) termina el mareo al primer impacto aceptado y reinicia su acumulación. El análisis nativo de este documento describe el original y las versiones anteriores a ese cambio.
 
-Estado: las dos barras sin texto están integradas en la prueba opcional [HUD v1](hud-stun-v1.md). El contador global ya está integrado en [HUD HITS v1](hud-hits-v1.md), visible desde2; esta página conserva los requisitos y el estudio nativo previo. No presentar una superposición de vídeo como HUD implementado. El Meteor comparado entre el original y v4 conserva el mismo movimiento; aquella comparación era una comprobación de conservación, no una mejora del ataque.
+Estado: las dos barras sin texto están integradas en la prueba opcional [HUD v1](hud-stun-v1.md). El contador global ya está integrado en [HUD HITS v2](hud-hits-v2.md), visible desde2; esta página conserva los requisitos y el estudio nativo previo. No presentar una superposición de vídeo como HUD implementado. El Meteor comparado entre el original y v4 conserva el mismo movimiento; aquella comparación era una comprobación de conservación, no una mejora del ataque.
 
 ## Contador de impactos
 
