@@ -1,0 +1,19 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "b2ed489251e80986d69f61c0c0427b77e4579eae4c2d251f6a9cad1342657903",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_HUD_Hits_v3.bin",
+    "sha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/hud-hits-v3/hud-hits-v3.ips",
+    "sha256": "20cebd5aa2abfa813f8264853b8dc2365b3b4c6c0ed8ff887ba1bad113d909ff"
+  },
+  "experimental": true,
+  "defaultBuildUnchanged": "v6.6",
+  "scope": "Separate link window30 from display90. Isolated punches start again even while old result visible. Preserve pause during attacks/cross/dizzy, Goku Meteor3 and quick basics/cross/Meteor6. Native guard effects unchanged."
+}

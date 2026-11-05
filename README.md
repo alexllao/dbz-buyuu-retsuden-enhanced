@@ -2,25 +2,23 @@
 
 Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 5 de noviembre de 2026 · rama `development`.** La última ROM de prueba es **HUD HITS v2 (`hud-hits-v2`)**, sobre Ventaja v1 y Stun v2: conserva las mejoras gráficas y de control, las pruebas de combos con animación natural y las dos barras de aturdimiento sin texto. **El primer impacto conectado termina el mareo y reinicia su acumulación.**
+**Actualizado: 5 de noviembre de 2026 · rama `development`.** La última ROM de prueba es **HUD HITS v3 (`hud-hits-v3`)**, sobre Ventaja v1 y Stun v2: conserva las mejoras gráficas y de control, las pruebas de combos con animación natural y las dos barras de aturdimiento sin texto. **El primer impacto conectado termina el mareo y reinicia su acumulación.**
 
-[**Nuevo vídeo: combos, Meteor y mareo con cuenta continua (1:29)**](assets/media/hud-hits-v2/HITS-v2-combos-Meteor-y-mareo.mp4) · [Reglas y pruebas](docs/hud-hits-v2.md) · [Decisiones vigentes](docs/decisions.md) · [Pendientes](docs/roadmap.md)
+[**Corregido: antes/después de los golpes separados**](assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4) · [Reglas y pruebas actuales](docs/hud-hits-v3.md) · [Decisiones vigentes](docs/decisions.md) · [Pendientes](docs/roadmap.md)
 
-La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece desde 2 impactos; el golpe suelto queda oculto.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version hud-hits-v2`.
+La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece desde 2 impactos; el golpe suelto queda oculto.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version hud-hits-v3`.
 
 [Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
 
-## HITS: enlazar golpes, cambio de lado, Meteor y mareo
+## HITS: separar el plazo para enlazar del tiempo para leer
 
-![Tres básicos, cruce y Meteor de Goku: 6 HITS](assets/media/hud-hits-v2/Goku-combo-cruce-Meteor-6-HITS.png)
+**Los puñetazos separados del 0:24 ya no forman un combo.** Cada uno empieza otra cuenta y queda oculto como golpe suelto. Se separan **30 actualizaciones elegibles para enlazar** de **90 para leer el resultado**: que el número continúe visible no significa que la cadena siga abierta.
 
-**El Meteor de Goku solo suma 3 HITS. Tres básicos → cambio de lado → Meteor suman 6.** La ventana de enlace se pausa mientras se ejecuta el ataque o cruce; el cambio de lado no añade golpes. También se conserva mientras el rival está mareado: seis golpes → mareo → golpe → Meteor llegan a **10 HITS**. El primer golpe sigue terminando el mareo.
+[**Comparación: izquierda anterior, derecha corregida**](assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4) · [Un minuto de pruebas](assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4).
 
-Se muestra desde **2 impactos**, ocultando el golpe suelto. Al agotarse el plazo para enlazar, comienza otra cuenta; un impacto del rival termina la anterior. Cell alcanza **16 HITS** al sumar tres básicos y sus trece proyectiles. El vídeo incluye P2, bloqueo y caducidad, con velocidad natural y sin modificar el daño ni la duración del stun.
+Tres golpes rápidos →cruce →Meteor siguen sumando **6 HITS**, y el Meteor de Goku solo cuenta **3**. El mareo conserva únicamente la cuenta vigente; no une los puñetazos aislados anteriores. Ataques y cruce pausan el plazo, el cruce no añade impactos, y el primer golpe sigue terminando el mareo. La limpieza de acumulación por inactividad se conserva.
 
-[**Ver 1 min 29 s con el HUD integrado**](assets/media/hud-hits-v2/HITS-v2-combos-Meteor-y-mareo.mp4) · [Reglas y pruebas](docs/hud-hits-v2.md) · [Primera integración, guardada como historial](docs/hud-hits-v1.md).
-
-La corrección del vaciado de acumulación sigue vigente: la limpieza cuenta desde el último impacto no bloqueado. Cambiar de lado no vacía la barra.
+[Reglas y evidencia](docs/hud-hits-v3.md) · [Vibración al bloquear: propuesta visual A/B/C, pendiente de elegir e integrar](docs/guard-shake-preview.md).
 
 ## Nueva prueba: básicos, cruce, Meteor y respuesta de P2
 
@@ -53,7 +51,7 @@ Los A/B pulsados durante la ventana se descartan; hace falta una pulsación nuev
 | Combos | Mezclar básicos A/B y enlazar una técnica propia o Meteor con su comando original. **Sin acelerar movimientos.** | Experimental: máximo de tres básicos y un remate asistido; no todas las rutas conectan. Reacción al daño sin alargamiento artificial ni reinicio de su animación. |
 | Barras de aturdimiento | Dos barras pequeñas, una por jugador abajo, con estilo de las originales. **Sin texto «STUN».** | Integradas; se corrigieron las interferencias gráficas detectadas. |
 | Salida del aturdimiento | El primer golpe conectado elimina el mareo activo y reinicia su acumulación; sigue la reacción normal de daño. | Elegido e implementado en **Stun v2**. |
-| Contador HITS | Contar todo ataque de varios impactos, incluido Meteor solo, ráfagas de Cell y patadas múltiples de Goku. | **Integrado desde 2 impactos** en HUD HITS v2; 1 queda oculto. Casos de guardia/fallo, multigolpes, Meteor y P2 verificados; revisión exhaustiva de todos los especiales pendiente. |
+| Contador HITS | Contar todo ataque de varios impactos, incluido Meteor solo, ráfagas de Cell y patadas múltiples de Goku. | **Integrado desde 2 impactos** en HUD HITS v3; 1 queda oculto. Casos de guardia/fallo, multigolpes, Meteor y P2 verificados; revisión exhaustiva de todos los especiales pendiente. |
 | Namek normal | Nueva propuesta: suelo y copas azules, roca ocre/beige, cielo verde con luces amarillentas. | Captura real preparada; **pendiente de elección**. La propuesta rosada anterior se descartó. |
 | Namek en destrucción | Revisar según las referencias del anime. | Primera propuesta descartada; nueva revisión pendiente. |
 | Décimo escenario | Montañas nevadas, con vista de suelo y vuelo. | Bocetos guardados; no integrado. |
@@ -99,7 +97,7 @@ Las barras muestran acumulación en verde, aviso en naranja y recuperación del 
 
 Los enlaces de combos conservan la animación completa de cada ataque y no duplican la reacción de daño ni reinician la animación del rival para obligar a que conecten. La asistencia se limita a humanos en suelo y velocidad normal. El máximo de tres básicos y un remate reduce los bucles, pero no demuestra que todo infinito sea imposible. Alcance y retroceso pueden romper una ruta: falta ajustar y valorar con mando.
 
-El contador registra **impactos aceptados de todos los ataques**, incluidos especiales multigolpe y Meteor sin básicos previos. No basta con contar las pulsaciones ni cada descuento de vida de una cinemática. **Ya está integrado en HUD HITS v2, visible desde 2 impactos y conservando el total durante ataques y mareo.** Los contadores superpuestos de vídeos antiguos eran demostraciones; la nueva grabación sí usa el HUD de la ROM.
+El contador registra **impactos aceptados de todos los ataques**, incluidos especiales multigolpe y Meteor sin básicos previos. No basta con contar las pulsaciones ni cada descuento de vida de una cinemática. **Ya está integrado en HUD HITS v3, visible desde 2 impactos y conservando el total durante ataques y mareo.** Los contadores superpuestos de vídeos antiguos eran demostraciones; la nueva grabación sí usa el HUD de la ROM.
 
 [Reacción de daño corregida, base de esta prueba](docs/combos-v5-native-stun.md) · [Cálculo nativo de aturdimiento y requisitos HITS](docs/hud-hits-stun.md)
 
@@ -382,13 +380,13 @@ pnpm check
 pnpm test
 
 # Última prueba: HITS desde 2, stun por inactividad y ventaja de cambio de lado
-pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v2
+pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v3
 
 # Base anterior conservada: gráficos, controles y cambio de lado, sin estas pruebas posteriores
 pnpm build:review --rom "ruta/a/original.bin" --version v6.6
 ```
 
-La última prueba genera `dist/Buyuu_Retsuden_Enhanced_HUD_Hits_v2.bin`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
+La última prueba genera `dist/Buyuu_Retsuden_Enhanced_HUD_Hits_v3.bin`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
 
 SHA-256 de la base admitida:
 
@@ -396,7 +394,7 @@ SHA-256 de la base admitida:
 217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557
 ```
 
-**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la última prueba](patches/hud-hits-v2/manifest.json)
+**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la última prueba](patches/hud-hits-v3/manifest.json)
 
 ## Qué se ha comprobado y qué falta
 

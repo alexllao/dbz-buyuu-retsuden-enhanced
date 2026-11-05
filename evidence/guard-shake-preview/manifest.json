@@ -1,0 +1,25 @@
+{
+  "sourceRom": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "guardEvents": [
+    78,
+    191,
+    307
+  ],
+  "sourceFrames": 459,
+  "fps": 59.92274340431231,
+  "variants": {
+    "A": "Current motion with common crop",
+    "B": "Visual preview: extra2 native-pixel horizontal displacement",
+    "C": "Visual preview: extra3 native-pixel horizontal displacement"
+  },
+  "nativeTiming": true,
+  "sourceNativeAudio": true,
+  "romModifiedForShake": false,
+  "postproductionShake": true,
+  "hudKeptSteady": true,
+  "approval": "Pending user selection",
+  "video": {
+    "path": "assets/media/guard-shake-preview/Bloqueos-vibracion-A-B-C.mp4",
+    "sha256": "8fac16c5fa566f3c982695424396cfa10b4b1ec112f092355eb06630b6a9f78c"
+  }
+}

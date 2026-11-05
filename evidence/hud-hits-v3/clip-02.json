@@ -1,0 +1,38 @@
+{
+  "romSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "meteor-solo",
+  "frames": 520,
+  "fps": 59.92274340431231,
+  "title": "GOKU | METEOR SOLO - TRES CONTACTOS",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 35,
+  "damageEvents": [
+    {
+      "frame": 243,
+      "phase": "final-y-recuperacion",
+      "delta": 35
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    2110,
+    2111
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Cold-prepared HITS v3 candidate; two human pads, native charging and initial spacing/facing only. Actual controls during capture, no HP/ki/action/timer forcing; native audio and speed.",
+  "trace": {
+    "path": "evidence/hud-hits-v3/clip-02.trace.json.gz",
+    "sha256": "c7a65c129f05dc29909ea3043061a1e1e9269a0b7ca817112681c6a0127260a2"
+  },
+  "activeMaximum": 3
+}

@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "romSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "linkEligibleUpdates": 30,
+  "displayEligibleUpdates": 90,
+  "isolatedPunchHitCounts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "quickComboCrossMeteor": 6,
+  "gokuMeteor": 3,
+  "isolatedDizzyThenFollowupMeteor": 5,
+  "expiredLinkWhileResultVisible": true,
+  "blockedMeteor": 0,
+  "videoFrames": 3588,
+  "videoSeconds": 59.877098346298204,
+  "nativeHud": true,
+  "postproductionCounter": false,
+  "gameplayTimeScaling": false,
+  "chapters": [
+    {
+      "route": "0-combo-mareo-meteor",
+      "start": 0.0,
+      "frames": 1387,
+      "activeMaximum": 5
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "start": 23.146470291615277,
+      "frames": 667,
+      "activeMaximum": 6
+    },
+    {
+      "route": "0-meteor-solo",
+      "start": 34.27746934317071,
+      "frames": 520,
+      "activeMaximum": 3
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "start": 42.955309683213926,
+      "frames": 668,
+      "activeMaximum": 3
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "start": 54.10299688926945,
+      "frames": 346,
+      "activeMaximum": 0
+    }
+  ],
+  "examples": [
+    {
+      "route": "0-combo-mareo-meteor",
+      "activeMaximum": 5,
+      "passed": true,
+      "frames": 1387
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "activeMaximum": 6,
+      "passed": true,
+      "frames": 667
+    },
+    {
+      "route": "0-meteor-solo",
+      "activeMaximum": 3,
+      "passed": true,
+      "frames": 520
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "activeMaximum": 3,
+      "passed": true,
+      "frames": 668
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "activeMaximum": 0,
+      "passed": true,
+      "frames": 346
+    }
+  ],
+  "records": [
+    {
+      "path": "evidence/hud-hits-v3/runtime-validation.json.gz",
+      "sha256": "db5e29cc79fb194426f00c7ef32c3b78fabc04ece12e333fd53d800a1597290d",
+      "passed": true,
+      "cases": 88
+    },
+    {
+      "path": "evidence/hud-hits-v3/side-regression.json.gz",
+      "sha256": "7ea92572f254deac511f3c0684290d11f699155bf34ee331b1ebb822300da962",
+      "passed": true,
+      "cases": 374
+    },
+    {
+      "path": "evidence/hud-hits-v3/inactivity-validation.json.gz",
+      "sha256": "fc7a76d48d489751402d0ffb38f9642fa412f047c6ff619daf3f1f76b5024419",
+      "passed": true,
+      "cases": null
+    },
+    {
+      "path": "evidence/hud-hits-v3/dizzy-exit-validation.json.gz",
+      "sha256": "9f3f46962b5417bb08bd2c18c0648e905bcb89514e8cca52cdf449be7731b91a",
+      "passed": true,
+      "cases": 10
+    }
+  ],
+  "media": [
+    {
+      "path": "assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4",
+      "sha256": "bbdea1b8889fb5e70b3c4d3c718a9808b103526c844f6c2efa7a2035fb9bd5cf"
+    },
+    {
+      "path": "assets/media/hud-hits-v3/Combo-rapido-cruce-Meteor-6-HITS.png",
+      "sha256": "2b574dd34c192dcca5fbb53cd9d221f0172584341ece3c23d346adf5f84668af"
+    },
+    {
+      "path": "assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4",
+      "sha256": "9219fdb2a6e3fbbf9a3be95369c1fb026c76886c059b4b753508c5aaf060ea19"
+    },
+    {
+      "path": "assets/media/hud-hits-v3/Punetazos-separados-sin-combo.png",
+      "sha256": "b7838980996079bf1bd05ba3afb38b0433404d48cb5b38f304ab46436935bc4c"
+    }
+  ],
+  "rosterRuntimeCases": 88,
+  "sideRegressionCases": 374
+}

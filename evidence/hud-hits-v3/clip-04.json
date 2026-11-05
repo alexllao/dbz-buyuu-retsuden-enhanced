@@ -1,0 +1,38 @@
+{
+  "romSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "cambio-meteor-guardia",
+  "frames": 346,
+  "fps": 59.92274340431231,
+  "title": "GOKU | CAMBIO DE LADO - METEOR CONTRA GUARDIA",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 3,
+  "damageEvents": [
+    {
+      "frame": 110,
+      "phase": "final-y-recuperacion",
+      "delta": 3
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    2110,
+    2115
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Cold-prepared HITS v3 candidate; two human pads, native charging and initial spacing/facing only. Actual controls during capture, no HP/ki/action/timer forcing; native audio and speed.",
+  "trace": {
+    "path": "evidence/hud-hits-v3/clip-04.trace.json.gz",
+    "sha256": "56784c1f4cff202df65d5931eb652ec17da28ddcd9512b357d35c0d870a1a385"
+  },
+  "activeMaximum": 0
+}

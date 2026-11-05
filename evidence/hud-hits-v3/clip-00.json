@@ -1,0 +1,74 @@
+{
+  "romSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "combo-mareo-meteor",
+  "frames": 1387,
+  "fps": 59.92274340431231,
+  "title": "GOKU | GOLPES SEPARADOS - MAREO - GOLPE Y METEOR",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 121,
+  "damageEvents": [
+    {
+      "frame": 72,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 175,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 279,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 379,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 483,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 585,
+      "phase": "acercamiento",
+      "delta": 12
+    },
+    {
+      "frame": 885,
+      "phase": "golpe-tras-mareo",
+      "delta": 14
+    },
+    {
+      "frame": 1108,
+      "phase": "final-y-recuperacion",
+      "delta": 35
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1024,
+    2110,
+    2111
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": true,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Cold-prepared HITS v3 candidate; two human pads, native charging and initial spacing/facing only. Actual controls during capture, no HP/ki/action/timer forcing; native audio and speed.",
+  "trace": {
+    "path": "evidence/hud-hits-v3/clip-00.trace.json.gz",
+    "sha256": "9fd4cf01ec419aaeae6956fc1395dda08b5bf23a1f149b44ac503c4c4982a70e"
+  },
+  "activeMaximum": 5
+}

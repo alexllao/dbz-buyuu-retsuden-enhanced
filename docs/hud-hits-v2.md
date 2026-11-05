@@ -1,5 +1,7 @@
 # HITS v2: continuidad, Meteor y mareo
 
+**Historial:** [v3](hud-hits-v3.md) corrige la suma de golpes demasiado separados; el ejemplo anterior de10 HITS ya no representa una cadena vigente.
+
 El contador conserva la cadena si enlazas dentro de la ventana: **golpes → cambio de lado → Meteor**. El cruce no añade impactos. **El Meteor de Goku suma tres contactos**, incluso ejecutado solo, y el tiempo de enlace se pausa durante su ejecución.
 
 ![Tres golpes y Meteor:6 HITS](../assets/media/hud-hits-v2/Goku-combo-cruce-Meteor-6-HITS.png)

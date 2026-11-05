@@ -496,8 +496,8 @@
     "docs": "docs/combos-v5-native-stun.md"
   },
   "globalHudRequested": {
-    "status": "HITS v2 and stun bars implemented; linked chain window pauses during attacks/cross/dizzy; exhaustive special/hardware review pending",
-    "hits": "Visible from2, preserve count within90 eligible updates. Pause during attack execution, side switch and defender dizzy. Goku Meteor has3 confirmed contacts; first follow-up exits dizzy and adds to same total. Counterhit ends prior chain; blocks, whiffs and particles do not add hits.",
+    "status": "HITS v3 separates link30 from display90; spaced punches no longer group; exhaustive specials/hardware review pending",
+    "hits": "Visible from2. Link30, display90; paused during attacks/cross/active dizzy. Dizzy preserves current chain only. Six isolated punches each reset to1. Quick3+cross+Meteor6; Goku Meteor3. First follow-up ends dizzy.",
     "stunBars": "Two lower-corner32x4 native sprites, white border, no text. Green accumulation, orange warning, red remaining native dizzy recovery. No actor writes.",
     "limits": "No fake impact increments from repeated poses/particles; no extra gameplay stun added to sustain display; separate cinematic authored impact events from deferred HP application; distinguish single dizzy episode interrupted by hits from a new trigger"
   },
@@ -543,7 +543,7 @@
     "notInGameplayRom": true,
     "comparison": "assets/media/namek-anime-v2/Namek-v2-antes-despues.png"
   },
-  "currentReview": "hud-hits-v2",
+  "currentReview": "hud-hits-v3",
   "teleportExchangeDemoV1": {
     "status": "User requested video; recorded using current move, no ROM changes",
     "video": "assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4",
@@ -622,7 +622,7 @@
     "evidence": "evidence/hud-hits-v1/stun-reported-timestamp.json"
   },
   "hitsHudV2": {
-    "status": "Implemented and emulator-tested; manual review pending",
+    "status": "Historical; superseded by v3 because isolated spaced punches were incorrectly grouped",
     "manifest": "patches/hud-hits-v2/manifest.json",
     "source": "src/hud/hits-v2/hud.asm",
     "minimumVisibleHits": 2,
@@ -642,5 +642,33 @@
       "blockedMeteor": 0
     },
     "noAnimationSpeedOrStunDurationChanges": true
+  },
+  "hitsHudV3": {
+    "status": "Implemented and emulator-tested; manual review pending",
+    "linkEligibleUpdates": 30,
+    "displayEligibleUpdates": 90,
+    "isolatedPunches": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quickBasicsCrossMeteor": 6,
+    "gokuMeteor": 3,
+    "source": "src/hud/hits-v3/hud.asm",
+    "manifest": "patches/hud-hits-v3/manifest.json"
+  },
+  "guardShakePreview": {
+    "status": "Visual preview only, user selection pending",
+    "romModified": false,
+    "postproductionEffect": true,
+    "variants": [
+      "A current",
+      "B extra2 native pixels",
+      "C extra3 native pixels"
+    ],
+    "docs": "docs/guard-shake-preview.md"
   }
 }

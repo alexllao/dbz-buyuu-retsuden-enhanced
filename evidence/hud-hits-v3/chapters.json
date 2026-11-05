@@ -1,0 +1,36 @@
+{
+  "frames": 3588,
+  "seconds": 59.877098346298204,
+  "chapters": [
+    {
+      "route": "0-combo-mareo-meteor",
+      "start": 0.0,
+      "frames": 1387,
+      "activeMaximum": 5
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "start": 23.146470291615277,
+      "frames": 667,
+      "activeMaximum": 6
+    },
+    {
+      "route": "0-meteor-solo",
+      "start": 34.27746934317071,
+      "frames": 520,
+      "activeMaximum": 3
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "start": 42.955309683213926,
+      "frames": 668,
+      "activeMaximum": 3
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "start": 54.10299688926945,
+      "frames": 346,
+      "activeMaximum": 0
+    }
+  ]
+}

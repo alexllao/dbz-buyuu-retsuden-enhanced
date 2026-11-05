@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "romSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "linkEligibleUpdates": 30,
+  "displayEligibleUpdates": 90,
+  "isolatedPunchHitCounts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "quickComboCrossMeteor": 6,
+  "gokuMeteor": 3,
+  "isolatedDizzyThenFollowupMeteor": 5,
+  "expiredLinkWhileResultVisible": true,
+  "blockedMeteor": 0,
+  "videoFrames": 3588,
+  "videoSeconds": 59.877098346298204,
+  "nativeHud": true,
+  "postproductionCounter": false,
+  "gameplayTimeScaling": false,
+  "chapters": [
+    {
+      "route": "0-combo-mareo-meteor",
+      "start": 0.0,
+      "frames": 1387,
+      "activeMaximum": 5
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "start": 23.146470291615277,
+      "frames": 667,
+      "activeMaximum": 6
+    },
+    {
+      "route": "0-meteor-solo",
+      "start": 34.27746934317071,
+      "frames": 520,
+      "activeMaximum": 3
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "start": 42.955309683213926,
+      "frames": 668,
+      "activeMaximum": 3
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "start": 54.10299688926945,
+      "frames": 346,
+      "activeMaximum": 0
+    }
+  ],
+  "examples": [
+    {
+      "route": "0-combo-mareo-meteor",
+      "activeMaximum": 5,
+      "passed": true,
+      "frames": 1387
+    },
+    {
+      "route": "0-comboAAA-cambio-meteor",
+      "activeMaximum": 6,
+      "passed": true,
+      "frames": 667
+    },
+    {
+      "route": "0-meteor-solo",
+      "activeMaximum": 3,
+      "passed": true,
+      "frames": 520
+    },
+    {
+      "route": "0-combo-espera-meteor",
+      "activeMaximum": 3,
+      "passed": true,
+      "frames": 668
+    },
+    {
+      "route": "0-cambio-meteor-guardia",
+      "activeMaximum": 0,
+      "passed": true,
+      "frames": 346
+    }
+  ]
+}
