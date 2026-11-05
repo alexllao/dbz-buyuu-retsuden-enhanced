@@ -6,7 +6,7 @@
     "label": "Adaptación del concepto C: Contraste anime",
     "image": "assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png",
     "date": "2026-11-04",
-    "status": "v6.6: Goku grande cálido y título conservados; personajes pequeños de intro restaurados al original por petición del usuario",
+    "status": "Integrated since v6.6 and retained in current HUD HITS v3: warm anime-contrast Goku; small intro cast uses original palettes; both credits retained",
     "feedback": "Concepto C elegido; aplicar el mismo estilo también a la pantalla con BANDAI y ALEX LLAO",
     "history": "B fue la primera elección; se conservan O, V1, A, B, C/V2, D, E y F.",
     "paletteRecord": "research/palettes/title-shadows-v1.json",
@@ -26,6 +26,17 @@
         "feedback": "los colores del goku de fondo estan bien pero los personajes no, no son como los del juego que coloreamos",
         "scope": "Historical G face approval withdrawn by latest request; original colors restored"
       }
+    },
+    "finalSelection": {
+      "readme": "README.md#pantalla-de-presentación-elegida",
+      "titleImage": "assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png",
+      "introImage": "assets/media/intro-original-lineup-v6-6/Intro-personajes-originales-Goku-calido.png",
+      "largeGoku": "Warm C anime contrast, black outlines and pronounced shadows",
+      "smallIntroCast": "Original palettes, later recolors rejected",
+      "credits": "BANDAI1994 and -2026 ALEX LLAO together, same font",
+      "implemented": true,
+      "inheritedByCurrentReview": "hud-hits-v3",
+      "historicalAlternatives": "B, G and other previews retained as history, not current choice"
     }
   },
   "characters": {

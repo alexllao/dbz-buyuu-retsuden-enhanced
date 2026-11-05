@@ -8,7 +8,27 @@ Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas
 
 La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece desde 2 impactos; el golpe suelto queda oculto.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version hud-hits-v3`.
 
+[**Presentación elegida**](#pantalla-de-presentación-elegida) · [**Jugabilidad acordada**](#jugabilidad-acuerdos-vigentes) · [Controles y movimientos](#controles-y-movimientos) · [Decisiones y pendientes](docs/decisions.md)
+
 [Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
+
+## Pantalla de presentación elegida
+
+**Elección final: Goku cálido con contraste anime (C), contornos negros y sombras marcadas.** Se conserva el dibujo original. Esta es la presentación integrada desde **v6.6** y mantenida en la ROM actual **HUD HITS v3**.
+
+### Pantalla de título: BANDAI y ALEX LLAO
+
+![Pantalla de título elegida: Goku cálido, BANDAI y ALEX LLAO](assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png)
+
+Se conserva **© BANDAI 1994** y se añade **- 2026 ALEX LLAO** al lado, en la misma línea y con la misma tipografía. No se sustituye BANDAI ni se usa pseudónimo.
+
+### Intro: Goku grande y personajes pequeños
+
+![Intro elegida: Goku cálido y personajes pequeños con sus colores originales](assets/media/intro-original-lineup-v6-6/Intro-personajes-originales-Goku-calido.png)
+
+El **Goku grande mantiene el mismo tratamiento cálido**. Los **personajes pequeños conservan sus paletas originales**, tal como se pidió después de revisar los errores de los recolores. Esto no modifica las paletas elegidas para los personajes durante el combate.
+
+**Estas son capturas reales de la versión integrada, no bocetos pendientes.** B, G y los demás ensayos se guardan como alternativas históricas; no sustituyen esta elección final. [Integración y comprobaciones](docs/intro-original-lineup-v6-6.md) · [Galería e historial](docs/graphics.md).
 
 ## Jugabilidad: acuerdos vigentes
 
@@ -101,14 +121,6 @@ Los A/B pulsados durante la ventana se descartan; hace falta una pulsación nuev
 ![Namek antes y después: propuesta v2 pendiente de elección](assets/media/namek-anime-v2/Namek-v2-antes-despues.png)
 
 Se abandona la roca rosa: ahora es ocre/beige, con azules más definidos y cielo verde. **Mostrar esta comparación no significa que la propuesta esté aprobada ni aplicada a la ROM de jugabilidad.** [Captura y colores de esta prueba](docs/namek-anime-v2.md). Las [propuestas anteriores de Namek y su destrucción](docs/namek-anime-v1.md) se conservan como descartadas.
-
-## Intro y título conservados
-
-![Intro: Goku grande cálido y personajes pequeños originales](assets/media/intro-original-lineup-v6-6/Intro-personajes-originales-Goku-calido.png)
-
-![Título: Goku cálido, BANDAI y ALEX LLAO](assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png)
-
-Esta es la elección posterior a B, G y las demás pruebas de piel: **Goku grande cálido; reparto pequeño original**. No altera los colores elegidos para los personajes durante el combate. [Integración y comprobaciones](docs/intro-original-lineup-v6-6.md).
 
 ## Auras y colores aprobados
 

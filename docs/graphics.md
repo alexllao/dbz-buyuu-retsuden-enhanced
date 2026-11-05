@@ -2,19 +2,29 @@
 
 Se conservan **71 imágenes**. El catálogo con rutas y hashes está en [project/graphics.json](../project/graphics.json). Las subcarpetas de [assets/comparisons](../assets/comparisons) contienen imágenes individuales a mayor tamaño.
 
-## Presentación
+## Presentación elegida y versiones anteriores
 
-**Elegida: G — C con contraste marcado**, el 4 de noviembre de 2026. Parte de C, con más sombras y menos amarillo. La captura es real y conserva el dibujo original; falta integrarla en la próxima ROM combinada. B fue la elección anterior y se conserva.
+**Elección final vigente: Goku cálido con contraste anime (C), contornos negros y sombras marcadas; personajes pequeños de la intro con sus colores originales.** Integrada desde v6.6 y conservada en HUD HITS v3. [Presentación destacada en el README](../README.md#pantalla-de-presentación-elegida) · [Integración comprobada](intro-original-lineup-v6-6.md).
 
-![Todas las presentaciones](../assets/comparisons/overview/04-Presentacion-todas.png)
+![Título elegido: Goku cálido, BANDAI y ALEX LLAO](../assets/media/intro-original-lineup-v6-6/Titulo-Goku-calido-BANDAI-ALEX.png)
 
-O: original; V1: primer ajuste; A: anime claro; B: HDBZ cálido; C: equilibrado/V2 aclarada; D: melocotón suave. C y V2 son la misma versión.
+Se mantienen **© BANDAI 1994** y **- 2026 ALEX LLAO**, juntos y con la misma tipografía. El crédito ya está integrado.
 
-![Comparación C, E, F y G](../assets/comparisons/title/Comparacion-C-E-F-G.png)
+![Intro elegida: Goku cálido y personajes pequeños originales](../assets/media/intro-original-lineup-v6-6/Intro-personajes-originales-Goku-calido.png)
 
-E: C con sombra suave; F: C con sombra anime; **G: C con contraste marcado, elegida**. Los cuatro colores y los hashes de las ROMs de previsualización están guardados en [title-shadows-v1.json](../research/palettes/title-shadows-v1.json).
+Los recolores de los personajes pequeños se descartaron; sus colores originales no cambian las paletas elegidas para el combate.
 
-Crédito del mod solicitado: **- 2026 ALEX LLAO**, sin pseudónimo. Pendiente implementarlo en los gráficos de presentación.
+### Historial conservado: B, G y otras pruebas
+
+B fue la primera elección y después se eligió G; ambas quedaron sustituidas por los ajustes posteriores que terminaron en la presentación cálida y el reparto original de v6.6. Las siguientes láminas muestran **alternativas históricas**, no la elección actual.
+
+![Todas las presentaciones históricas](../assets/comparisons/overview/04-Presentacion-todas.png)
+
+O: original; V1: primer ajuste; A: anime claro; B: HDBZ cálido; C: equilibrado/V2 aclarada; D: melocotón suave. C y V2 son la misma versión de aquella comparación.
+
+![Comparación histórica C, E, F y G](../assets/comparisons/title/Comparacion-C-E-F-G.png)
+
+E: C con sombra suave; F: C con sombra anime; G: C con contraste marcado. Se conservan los colores y hashes de estas ROMs de previsualización en [title-shadows-v1.json](../research/palettes/title-shadows-v1.json).
 
 ## Personajes
 
