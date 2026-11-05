@@ -1,0 +1,61 @@
+{
+  "author": "Daeron",
+  "stage": "HDBZ Namek",
+  "officialStagePage": "https://network.mugenguild.com/balthazar/hyperdbz/stage-info.html?name=namek",
+  "officialIndex": "https://facundocameto.github.io/HyperDBZ/json/stages.json",
+  "download": "https://network.mugenguild.com/balthazar/HDBZ/stages50/hdbz_namek.rar",
+  "archiveSha256": "d8f5fa3807afbad6e3b05a23449892515e943c27928572279506ae193baf84bd",
+  "archiveBytes": 61743,
+  "sffVersion": "1.01",
+  "extraction": "Lossless SFFv1 embedded PCX decoded to PNG and exported as RGBA; no repaint or AI",
+  "stageLayer": {
+    "layerno": 0,
+    "delta": [
+      0.6,
+      0.6
+    ],
+    "mask": 1
+  },
+  "items": [
+    {
+      "sprite": [
+        3,
+        0
+      ],
+      "width": 133,
+      "height": 151,
+      "png": "Nave-Capsule-Corp-HDBZ-original.png",
+      "pngSha256": "933a2467d9910133606d6b9dde93471e3fc9cbf17f985a95f8750043cd8872f4",
+      "pcxSha256": "157930c90da28a8ac9d5de96227ef3d7f08f2ba2a9784a81c11fadfcafd7f0a2",
+      "transparency": "MUGEN mask1 palette index0; PNG exported as RGBA for reliable preview",
+      "pcx": "Nave-Capsule-Corp-HDBZ-original.pcx"
+    },
+    {
+      "sprite": [
+        3,
+        1
+      ],
+      "width": 255,
+      "height": 83,
+      "png": "Suelo-nave-Capsule-Corp-HDBZ-original.png",
+      "pngSha256": "add8c149c62bd732610e39c1cf1a52918c85b715af8d07f60ad24395247ac02d",
+      "pcxSha256": "fbd9ad4de104ea35857446b245a61f113e50b6239ad663c58a48a6133e4751a3",
+      "transparency": "MUGEN mask1 palette index0; PNG exported as RGBA for reliable preview",
+      "pcx": "Suelo-nave-Capsule-Corp-HDBZ-original.pcx"
+    }
+  ],
+  "romIntegrated": false,
+  "reuseLicense": "No reuse permission inferred from public availability; reference/source credit preserved",
+  "identifiedShip": "Capsule Corp ship, NOT Frieza ship",
+  "friezaShipFound": false,
+  "scopeChecked": "Official stages50: Namek normal, Porunga, Dying Namek and Space; does not establish absence from later releases or community editions",
+  "stageNormalShipSprite": [
+    3,
+    0
+  ],
+  "clarification": "User accepted the shown Capsule Corp ship as a reference on2026-11-05: si, eso por ejemplo",
+  "referenceAccepted": true,
+  "referenceAcceptanceDate": "2026-11-05",
+  "adaptationApproved": false,
+  "placement": "Behind fighters in the scenery, anchored to a world position; foreground tree remains in front; HUD on top"
+}

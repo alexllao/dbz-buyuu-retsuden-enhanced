@@ -748,7 +748,7 @@
     "docs": "docs/namek-foreground.md"
   },
   "namekSpaceshipRequest": {
-    "status": "Requested reference search; exact Frieza asset unconfirmed, visual identification pending",
+    "status": "User accepted shown Capsule Corp ship as reference; native adaptation/integration pending",
     "requestedShip": "Frieza spaceship remembered from HDBZ",
     "confirmedNormalNamekShip": "Capsule Corp, author Daeron, sprite3,0 in official stages50 hdbz_namek",
     "checkedOfficialPackages": [
@@ -759,6 +759,14 @@
     ],
     "download": "https://network.mugenguild.com/balthazar/HDBZ/stages50/hdbz_namek.rar",
     "placementProposal": "Behind fighters, world-anchored background; tree is separate foreground",
-    "romIntegrated": false
+    "romIntegrated": false,
+    "acceptedReference": "Capsule Corp ship from official HDBZ Namek by Daeron",
+    "visualReferenceApproval": {
+      "date": "2026-11-05",
+      "feedback": "si, eso por ejemplo",
+      "scope": "Reference example, not final placement or native integration"
+    },
+    "sourceRecord": "research/hdbz-namek-ship/source.json",
+    "image": "assets/references/hdbz-namek-ship/Nave-Capsule-Corp-HDBZ-original.png"
   }
 }

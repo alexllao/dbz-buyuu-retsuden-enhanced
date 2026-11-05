@@ -11,3 +11,13 @@ El usuario quiere un detalle cercano a la cámara, como la palmera de Street Fig
 El HUD permanece despejado. La prueba es de suelo: no valida vuelo, movimiento de copa, sombras, colisiones nuevas ni funcionamiento en consola original. La selección de paletas de Namek continúa pendiente y no se cambia con esta prueba.
 
 [Comparación estática anterior](../assets/concepts/namek-foreground/Namek-arbol-antes-despues-v1.png) · [Prompt del árbol](../research/namek-foreground/prompt-arbol-transparente-v1.txt) · [Registro del montaje](../evidence/namek-foreground/manifest.json).
+
+## Nave de Capsule Corp como referencia aceptada
+
+El usuario acepta como ejemplo la nave mostrada, extraída del escenario oficial de Namek de HDBZ, de Daeron. Es **Capsule Corp**, no la nave de Freezer que se mencionó inicialmente. Se guardan sus gráficos originales y su isla/suelo.
+
+![Nave original de Capsule Corp de HDBZ](../assets/references/hdbz-namek-ship/Nave-Capsule-Corp-HDBZ-original.png)
+
+La propuesta de capas es: paisaje y nave **detrás de los personajes**; árbol **delante**, pudiendo ocultar parcialmente un luchador al cruzar el tronco; HUD por encima de todo. Ambos objetos deben quedar anclados al mundo: al volver al mismo punto reaparecen en el mismo sitio, y su desplazamiento responde a la profundidad elegida. El vídeo del árbol sólo aproxima ese scroll; aún no valida el anclaje nativo, el vuelo o la incorporación de la nave.
+
+**Se acepta como referencia, no como integración terminada.** Pendientes escala, paleta, colocación y recursos de Mega Drive. [Procedencia y hashes](../research/hdbz-namek-ship/source.json).
