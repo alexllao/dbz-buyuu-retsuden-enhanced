@@ -23,10 +23,12 @@ Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [HUD HITS v3](hud-
 
 - [x] [Vídeo de respuestas alternadas P1/P2](teleport-exchange-v1.md) con dos mandos coordinados y el movimiento existente.
 - [x] [Ventaja breve v1](side-advantage-v1.md) implementada para dos jugadores humanos; defensa y respuesta C conservadas.
+- [x] Validación visual del impacto: contactos suaves y remates tipo B, HUD quieto y velocidad natural.
+- [ ] Integrar esa vibración en la ROM y grabar la prueba real; el vídeo aprobado es una previsualización.
 - [ ] Valorar con mando las seis actualizaciones, el descarte de A/B durante la ventana y las contras.
 - [ ] Extender y comprobar la ventaja frente a CPU; no incluida en esta prueba.
 - [ ] Validación con mando de jugabilidad, combos y equilibrio, sin acelerar movimientos ni garantizar infinitos.
-- [x] Contador HITS integrado desde2 impactos; multigolpes, Meteor solo, guardia/fallo y P2 comprobados.
+- [x] Contador HITS integrado desde 2 impactos; multigolpes, Meteor solo, guardia/fallo y P2 comprobados.
 - [x] Corrección del borrado periódico de acumulación: limpieza tras inactividad desde el último impacto no bloqueado.
 - [ ] Auditoría exhaustiva de todos los remates/cinemáticas y revisión humana de la lectura del HUD.
 - [ ] Integrar los retratos elegidos y HUD H4, con P2 reflejado.

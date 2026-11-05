@@ -661,7 +661,7 @@
     "manifest": "patches/hud-hits-v3/manifest.json"
   },
   "guardShakePreview": {
-    "status": "Visual preview only, user selection pending",
+    "status": "Historical A/B/C comparison; current choice is visually approved varied soft/B distribution, native integration pending",
     "romModified": false,
     "postproductionEffect": true,
     "variants": [
@@ -672,7 +672,7 @@
     "docs": "docs/guard-shake-preview.md"
   },
   "impactShakeVariedPreview": {
-    "status": "Varied visual test requested; pending user validation",
+    "status": "Visually approved by user; native ROM integration and in-game recording pending",
     "preferredFinisherIntensity": "B",
     "normalNativePixels": 1,
     "guardNativePixels": 1,
@@ -684,6 +684,34 @@
     "gameplayTimeScaling": false,
     "docs": "docs/guard-shake-preview.md",
     "video": "assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4",
-    "seconds": 66.48560752833112
+    "seconds": 66.48560752833112,
+    "visualApproval": {
+      "approved": true,
+      "date": "2026-11-05",
+      "feedback": "me parece bastante bien, gastante guapo"
+    },
+    "romIntegrationPending": true
+  },
+  "gameplayDecisionSummary": {
+    "updated": "2026-11-05",
+    "readme": "README.md#jugabilidad-acuerdos-vigentes",
+    "currentRom": "hud-hits-v3",
+    "principles": [
+      "Natural animation speed; no global speed increase",
+      "Double tap and hold to run both directions; release with native inertia",
+      "Ground floor hold12ticks on adjusted A1/A4/A5 paths",
+      "Universal non-damaging zero-ki F,B,F+C cross with human-vs-human six-update advantage",
+      "Standing human normal-speed combo assistance: up to3 basics and1 native finisher; no artificial victim reaction extension",
+      "HITS link30 separate from display90; isolated punches reset; Goku Meteor3",
+      "Active dizzy ends on first accepted hit; keep only currently valid hit chain",
+      "Stun accumulation clears after inactivity since last accepted unblocked hit",
+      "Small stun bars without STUN labels; native hitbox size differences kept",
+      "Visually approved soft normal/guard/intermediate shake with B finishers and fixed HUD; not yet in ROM"
+    ],
+    "nextGameplayWork": [
+      "Integrate approved shake and record actual modified ROM",
+      "User controller testing of responsiveness, cross advantage, defense, combos and balance",
+      "Extend cross advantage to CPU and audit all specials/pairings and original hardware"
+    ]
   }
 }

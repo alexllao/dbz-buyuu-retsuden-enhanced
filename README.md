@@ -10,6 +10,37 @@ La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece d
 
 [Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
 
+## Jugabilidad: acuerdos vigentes
+
+**Objetivo:** combates más fluidos y controles más naturales, tomando SF2CE como referencia de sensación, sin acelerar globalmente el juego ni las animaciones para forzar combos. La sensación y el equilibrio final los prueba el usuario con mando; los vídeos de CPU o mandos coordinados son comprobaciones parciales.
+
+La ROM actual es **HUD HITS v3**. La siguiente tabla reúne las decisiones actuales; los vídeos y variantes anteriores se conservan como historial.
+
+| Apartado | Regla acordada | Estado actual |
+| --- | --- | --- |
+| Respuesta del control | Conservar la pulsación pendiente y los ajustes de recuperación/transición ya implementados, sin romper el movimiento nativo. Normal y turbo conservan su velocidad global. | Implementado; valoración final con mando pendiente. |
+| Carrera y frenado | Doble toque hacia delante **o atrás**, mantener la dirección para seguir corriendo y soltar para frenar **con algo de inercia original**. | Implementado. Retirado el frenado anticipado que impedía la carrera. |
+| Derribos | Acortar la espera tumbado, conservando caída y levantamiento. Reposo final de **12 ticks nativos** en A1/A4/A5, incluido Cell. | Implementado en las rutas terrestres ajustadas; no recorta KO, cinemáticas ni todas las reacciones aéreas. |
+| Cambio de lado universal | **Adelante → atrás → adelante + C**, cerca del rival, en el mismo plano y con espacio al otro lado. Para los once personajes y ambos jugadores humanos; sin golpe ni gasto de ki. | Implementado. No cancela un ataque, daño o derribo en curso; conserva los comandos A/B originales. |
+| Ventaja tras el cruce | Tras un cruce C completado, **seis actualizaciones elegibles** sin iniciar nuevos A/B para el rival. Mantiene movimiento, defensa y respuesta C; una contra C aceptada elimina la restricción recibida. | Experimental para **dos mandos humanos**. A/B pulsados en la ventana se descartan; hay que pulsar otra vez. No es un golpe imbloqueable; extensión frente a CPU pendiente. |
+| Combos y remates | Mezclar básicos A/B —puños y patadas— y enlazar una técnica propia o Meteor con su comando nativo. Las animaciones terminan completas. | Asistencia experimental: hasta **tres básicos y un remate**; no todas las rutas conectan. Limitada a humanos, en suelo y velocidad normal. |
+| Evitar abusos | Acotar las ayudas de combo y conservar el alcance, retroceso y defensa. Se retiraron la prolongación artificial de reacción y los reinicios de animación del rival. | Implementado en la asistencia actual; falta comprobar todos los emparejamientos, esquinas y posibles infinitos con defensa humana. |
+| HITS: qué se cuenta | Impactos aceptados: básicos, proyectiles, ataques multigolpe y Meteor aunque se ejecute solo. **Goku Meteor = 3 contactos.** Guardia, fallo, partículas y cambio de lado no suman. | Integrado. Desde **2 HITS** en el lado del atacante; un golpe suelto queda oculto. Un impacto del rival termina la cadena anterior. |
+| HITS: cuándo se enlaza | **30 actualizaciones elegibles para enlazar** y **90 para leer el resultado**. El número puede seguir visible con la cadena ya cerrada. Ataques, cruce y mareo activo pausan los plazos. | Integrado en v3. Los puñetazos separados del antiguo 0:24 ya no se agrupan; cada uno vuelve a 1. |
+| Mareo y cadena | El mareo conserva **sólo la cadena vigente**; no reúne golpes aislados anteriores. El siguiente impacto conectado termina el mareo y se añade a esa cadena si seguía vigente. | Integrado. No se alarga el mareo ni la reacción al daño para sostener el contador. |
+| Barras de aturdimiento | Una barra pequeña por jugador debajo, con estilo de las originales y **sin texto STUN**: verde acumulación, naranja aviso y rojo recuperación del mareo. | Integradas; corregidas las interferencias gráficas detectadas. |
+| Acumulación de aturdimiento | Un impacto no bloqueado reinicia el plazo de limpieza por inactividad. El cambio de lado solo no vacía la barra. El primer impacto sobre un rival ya mareado termina el mareo y reinicia su acumulación. | Integrado; corregido el borrado periódico observado en Cell/Vegeta. Sin inmunidad temporal nueva tras salir del mareo. |
+| Sensación de impacto | **Suave en golpes normales, bloqueos e impactos intermedios; intensidad B en remates**, incluido el último contacto del Meteor. HUD quieto; sin sacudida por fallos o por el cruce solo. | **Aprobado visualmente por el usuario el 5/11/2026; todavía pendiente de integrar en la ROM.** Referencia del ensayo: 1 píxel nativo adicional suave y 2 para B. |
+| Colisiones y tamaño | Revisar con el visor, respetando las diferencias naturales: Gohan pequeño no es un error por sí mismo. | Cajas originales conservadas; no hay un reajuste de geometría aprobado. |
+
+**Ejemplos vigentes de HITS:** Meteor de Goku solo = **3**; tres golpes rápidos → cruce → Meteor = **6**. Los seis puñetazos separados del vídeo antiguo no forman un combo. Si el último golpe aislado provoca mareo, sólo se conserva ese 1: golpe posterior + Meteor terminan en **5**, no recuperan los cinco puñetazos anteriores.
+
+Los plazos anteriores se expresan en **actualizaciones elegibles del motor, no en fotogramas de vídeo**. El contador de HITS, la acumulación que lleva al mareo y el tiempo de mareo activo son cosas distintas; mostrar más HITS no aumenta por sí mismo el aturdimiento ni garantiza que todos los enlaces sean imposibles de defender.
+
+**Siguiente trabajo de jugabilidad:** integrar en la ROM la distribución de sacudidas ya aprobada y grabar el resultado real; después, prueba con mando de respuesta, ventaja del cruce, combos, defensa y equilibrio. También siguen pendientes la ventaja frente a CPU y la auditoría completa de especiales, emparejamientos y consola original.
+
+[Carrera y derribos](docs/gameplay-v2.md) · [Ventaja y contras del cruce](docs/side-advantage-v1.md) · [Combos con reacción natural](docs/combos-v5-native-stun.md) · [HITS actuales](docs/hud-hits-v3.md) · [Vibración aprobada y vídeo](docs/guard-shake-preview.md) · [Controles de los once personajes](#controles-y-movimientos).
+
 ## HITS: separar el plazo para enlazar del tiempo para leer
 
 **Los puñetazos separados del 0:24 ya no forman un combo.** Cada uno empieza otra cuenta y queda oculto como golpe suelto. Se separan **30 actualizaciones elegibles para enlazar** de **90 para leer el resultado**: que el número continúe visible no significa que la cadena siga abierta.
@@ -18,13 +49,13 @@ La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece d
 
 Tres golpes rápidos →cruce →Meteor siguen sumando **6 HITS**, y el Meteor de Goku solo cuenta **3**. El mareo conserva únicamente la cuenta vigente; no une los puñetazos aislados anteriores. Ataques y cruce pausan el plazo, el cruce no añade impactos, y el primer golpe sigue terminando el mareo. La limpieza de acumulación por inactividad se conserva.
 
-[Reglas y evidencia](docs/hud-hits-v3.md) · [Vibración al bloquear: propuesta visual A/B/C, pendiente de elegir e integrar](docs/guard-shake-preview.md).
+[Reglas y evidencia](docs/hud-hits-v3.md) · [Vibración: distribución suave/B aprobada, pendiente de integrar](docs/guard-shake-preview.md).
 
-## Impacto: prueba variada con remates tipo B
+## Impacto aprobado: contactos suaves y remates tipo B
 
-[**Ver 1:06 de actual →propuesta**](assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4): bloqueos, multigolpe, Meteor solo y combo con cruce. Sacudidas suaves en contactos pequeños y B en los remates, con HUD quieto y velocidad natural. **Previsualización sobre grabaciones, aún sin integrar en la ROM.** [Distribución y capítulos](docs/guard-shake-preview.md).
+[**Ver 1:06 de actual →propuesta**](assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4): bloqueos, multigolpe, Meteor solo y combo con cruce. Sacudidas suaves en contactos pequeños y B en los remates, con HUD quieto y velocidad natural. **Distribución aprobada visualmente el 5/11/2026; previsualización sobre grabaciones, aún sin integrar en la ROM.** [Distribución y capítulos](docs/guard-shake-preview.md).
 
-## Nueva prueba: básicos, cruce, Meteor y respuesta de P2
+## Historial: básicos, cruce, Meteor y respuesta de P2
 
 [**Ver 1 min 37 s de juego real con sonido**](assets/media/combo-side-tests-v1/Combos-cambio-de-lado-y-remates.mp4)
 
@@ -32,7 +63,7 @@ Diez tomas de Goku, Vegeta, Piccolo y Cell: básicos → cambio de lado → espe
 
 **Son secuencias de presión con huecos de defensa; no un combo cerrado garantizado.** Se conservaron 52 sondeos y las condiciones originales de vida/ki de los remates. [Resultados, capítulos y límites](docs/combo-side-tests-v1.md).
 
-## Ventaja nueva: seis actualizaciones de entrada
+## Ventaja del cruce: seis actualizaciones de entrada
 
 Al completar un cambio de lado con C, el rival no puede iniciar A/B durante una ventana breve. **Puede defenderse, moverse y responder con otro cambio de lado**; una respuesta aceptada elimina la restricción recibida. La prueba actual se aplica a dos jugadores humanos. No añade golpe automático, invulnerabilidad ni aceleración de animación.
 
@@ -56,6 +87,7 @@ Los A/B pulsados durante la ventana se descartan; hace falta una pulsación nuev
 | Barras de aturdimiento | Dos barras pequeñas, una por jugador abajo, con estilo de las originales. **Sin texto «STUN».** | Integradas; se corrigieron las interferencias gráficas detectadas. |
 | Salida del aturdimiento | El primer golpe conectado elimina el mareo activo y reinicia su acumulación; sigue la reacción normal de daño. | Elegido e implementado en **Stun v2**. |
 | Contador HITS | Contar todo ataque de varios impactos, incluido Meteor solo, ráfagas de Cell y patadas múltiples de Goku. | **Integrado desde 2 impactos** en HUD HITS v3; 1 queda oculto. Casos de guardia/fallo, multigolpes, Meteor y P2 verificados; revisión exhaustiva de todos los especiales pendiente. |
+| Impacto y vibración | Contactos normales, bloqueos e intermedios suaves; remates tipo B; HUD quieto. | **Aprobado visualmente; integración en la ROM pendiente.** El vídeo de 1:06 es una previsualización sobre grabaciones. |
 | Namek normal | Nueva propuesta: suelo y copas azules, roca ocre/beige, cielo verde con luces amarillentas. | Captura real preparada; **pendiente de elección**. La propuesta rosada anterior se descartó. |
 | Namek en destrucción | Revisar según las referencias del anime. | Primera propuesta descartada; nueva revisión pendiente. |
 | Décimo escenario | Montañas nevadas, con vista de suelo y vuelo. | Bocetos guardados; no integrado. |
@@ -109,7 +141,7 @@ El contador registra **impactos aceptados de todos los ataques**, incluidos espe
 
 [**Ver el intercambio real: 28 segundos con sonido**](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4)
 
-Goku/Vegeta y Piccolo/Freezer alternan → ← → + C, con intentos de golpe y ataques posteriores. Son **dos mandos coordinados**, en la ROM Stun v2 actual, con las animaciones a velocidad normal. Veinte cruces comprobados, diez por jugador. [Condiciones y límites de la demostración](docs/teleport-exchange-v1.md).
+Goku/Vegeta y Piccolo/Freezer alternan → ← → + C, con intentos de golpe y ataques posteriores. Son **dos mandos coordinados**, en la ROM Stun v2 de aquella prueba, con las animaciones a velocidad normal. Veinte cruces comprobados, diez por jugador. [Condiciones y límites de la demostración](docs/teleport-exchange-v1.md).
 
 Ese vídeo es anterior a la ventaja extra. La [nueva ROM y grabación](docs/side-advantage-v1.md) ya aplican seis actualizaciones de prioridad ofensiva; el valor y la facilidad de contra siguen pendientes de valoración con mando.
 
@@ -407,7 +439,8 @@ SHA-256 de la base admitida:
 - **Barras:** 13.200 fotogramas con los once personajes; comparación gráfica del HUD superior y recursos del escenario en los casos registrados. No es cobertura de todos los especiales, escenarios o hardware.
 - **Cambio de lado:** 374 casos y grabaciones con los once personajes; las cajas nativas se conservan.
 - **Pruebas CPU históricas:** comparación acotada del original y una versión anterior. No sustituye la valoración humana de la última ROM.
-- **Pendiente:** sensaciones con mando, equilibrio de combos, auditoría completa de HITS/especiales, HUD de retratos, integración de retratos elegidos, especiales completos, elección de Namek y consola original.
+- **Vibración:** distribución suave/B aprobada visualmente; el ensayo de 1:06 es un montaje, todavía no una implementación en la ROM.
+- **Pendiente:** integrar la vibración aprobada, sensaciones con mando, equilibrio de combos, auditoría completa de HITS/especiales, HUD de retratos, integración de retratos elegidos, especiales completos, elección de Namek y consola original.
 
 [Hoja de ruta actualizada](docs/roadmap.md) · [Visor de colisiones](docs/collision-review-v1.md) · [Comparación CPU histórica](docs/cpu-comparison-v1.md)
 
