@@ -1,0 +1,7 @@
+{
+  "sourceSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "targetSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "hook": "21A0E JMP3B01DE",
+  "bytesAdded": 32,
+  "behavior": "Unblocked accepted hit with active native timer36: native20914 clears accumulation and recovery; continue native reaction at21A64. Other hits preserve native path."
+}

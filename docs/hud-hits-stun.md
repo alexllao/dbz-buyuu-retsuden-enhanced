@@ -1,5 +1,7 @@
 # HUD global: impactos y dos barras de aturdimiento
 
+Cambio posterior elegido por el usuario: [Stun v2](stun-break-v2.md) termina el mareo al primer impacto aceptado y reinicia su acumulación. El análisis nativo de este documento describe el original y las versiones anteriores a ese cambio.
+
 Estado: las dos barras sin texto están integradas en la prueba opcional [HUD v1](hud-stun-v1.md). El contador global de impactos sigue pendiente de integración real en la ROM. No presentar una superposición de vídeo como HUD implementado. El Meteor comparado entre el original y v4 conserva el mismo movimiento; aquella comparación era una comprobación de conservación, no una mejora del ataque.
 
 ## Contador de impactos

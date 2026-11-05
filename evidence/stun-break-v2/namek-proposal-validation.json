@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "sourceSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "proposalSha256": "754350cf37f5997d2a695b8a808ba7d584bcae2d6006a74a021ce51c3a4c2cf0",
+  "onlyRecordedPaletteColorsAndChecksumChanged": true,
+  "pendingUserSelection": true,
+  "captures": [
+    {
+      "romSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+      "stage": 6,
+      "requestedStage": 6,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-6-actual-suelo.png",
+      "captureSha256": "966357919872e306c05f6ef78beb1e2ee1db173685a64c01a2c1e2bd94e9e31c",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    },
+    {
+      "romSha256": "754350cf37f5997d2a695b8a808ba7d584bcae2d6006a74a021ce51c3a4c2cf0",
+      "stage": 6,
+      "requestedStage": 6,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-6-propuesta-suelo.png",
+      "captureSha256": "ee03229cf784b0004dcf109739c13e38aef458918630adf9204ac174ff515290",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    },
+    {
+      "romSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+      "stage": 7,
+      "requestedStage": 7,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-7-actual-suelo.png",
+      "captureSha256": "3fc0d01eb331fc053170c27ee4a49b07f7b8a11bb319a77767035d568042e970",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    },
+    {
+      "romSha256": "754350cf37f5997d2a695b8a808ba7d584bcae2d6006a74a021ce51c3a4c2cf0",
+      "stage": 7,
+      "requestedStage": 7,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-7-propuesta-suelo.png",
+      "captureSha256": "3a7c6865298743bb90d0d5d4c8c09c0e18b7a74adc53c1a23aa08600d5ac8873",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    }
+  ]
+}

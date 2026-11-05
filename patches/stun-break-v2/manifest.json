@@ -1,0 +1,19 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_Stun_Primer_Golpe_v2.bin",
+    "sha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/stun-break-v2/stun-break-v2.ips",
+    "sha256": "179a661412a3fbcbb87c3da494153af453d5affc1f5394de075343ff67f2cc82"
+  },
+  "experimental": true,
+  "defaultBuildUnchanged": "v6.6",
+  "scope": "Native HUD v1 plus exit active dizzy on first accepted unblocked impact; clear native accumulation and recovery, then retain native hit reaction. Namek palettes unchanged; proposals kept separately. HITS counter pending."
+}

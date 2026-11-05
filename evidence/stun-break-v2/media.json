@@ -1,0 +1,37 @@
+{
+  "romSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "nativeGameplay": true,
+  "gameplayFrames": 1438,
+  "nativeAudio": true,
+  "postproductionHud": false,
+  "files": [
+    {
+      "path": "assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4",
+      "sha256": "2427a652fceabd4805faf88c6fff38c53097403a309a4f8f2326143546bcd599"
+    },
+    {
+      "path": "assets/media/namek-anime-v1/Namek-6-actual-suelo.png",
+      "sha256": "966357919872e306c05f6ef78beb1e2ee1db173685a64c01a2c1e2bd94e9e31c"
+    },
+    {
+      "path": "assets/media/namek-anime-v1/Namek-6-propuesta-suelo.png",
+      "sha256": "ee03229cf784b0004dcf109739c13e38aef458918630adf9204ac174ff515290"
+    },
+    {
+      "path": "assets/media/namek-anime-v1/Namek-7-actual-suelo.png",
+      "sha256": "3fc0d01eb331fc053170c27ee4a49b07f7b8a11bb319a77767035d568042e970"
+    },
+    {
+      "path": "assets/media/namek-anime-v1/Namek-7-propuesta-suelo.png",
+      "sha256": "3a7c6865298743bb90d0d5d4c8c09c0e18b7a74adc53c1a23aa08600d5ac8873"
+    },
+    {
+      "path": "assets/media/namek-anime-v1/Namek-comparacion.png",
+      "sha256": "ea43cc7cf49d3f5197023a8da67b3d9b24125d77c6914d5c76acf5b0abdf715c"
+    },
+    {
+      "path": "assets/media/namek-anime-v1/Namek-destruido-comparacion.png",
+      "sha256": "3e1c63044c5eb72b1e0fecf6d63a93f59fcafa9fd0f5aca06de72e3b6b70ab5c"
+    }
+  ]
+}

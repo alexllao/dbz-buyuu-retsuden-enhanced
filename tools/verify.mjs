@@ -9,6 +9,25 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const stunBreak = await json('patches/stun-break-v2/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, stunBreak.patch.path))), stunBreak.patch.sha256);
+const breakRuntime = await json('evidence/stun-break-v2/runtime-validation.json');
+assert(breakRuntime.passed && breakRuntime.cases === 110 && breakRuntime.victimCharacters === 11);
+assert.equal(breakRuntime.romSha256, stunBreak.target.sha256);
+assert(breakRuntime.reports.every(r => r.passed && r.results.every(t => t.passed)));
+const breakStatic = await json('evidence/stun-break-v2/static-validation.json');
+assert.equal(breakStatic.targetSha256, stunBreak.target.sha256);
+assert.equal(breakStatic.outsideAllowedChangedBytes, 0);
+assert(Object.values(breakStatic.preserved).every(Boolean));
+assert.equal(sha256(Buffer.from((await readFile(resolve(root, 'src/gameplay/stun-break-v2/on-hit.hex'), 'utf8')).trim(), 'hex')), breakStatic.codeSha256);
+const breakProjectile = await json('evidence/stun-break-v2/projectile-validation.json');
+assert(breakProjectile.passed && breakProjectile.results.find(r => r.label === 'energy-blast').firstHit.timer === 0);
+const breakMedia = await json('evidence/stun-break-v2/media.json');
+assert.equal(breakMedia.romSha256, stunBreak.target.sha256);
+for (const item of breakMedia.files) assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256);
+const namekProposal = await json('evidence/stun-break-v2/namek-proposal-validation.json');
+assert(namekProposal.passed && namekProposal.pendingUserSelection && namekProposal.onlyRecordedPaletteColorsAndChecksumChanged);
+for (const capture of namekProposal.captures) assert.equal(sha256(await readFile(resolve(root, 'assets/media/namek-anime-v1', capture.file))), capture.captureSha256);
 const stunHud = await json('patches/hud-stun-v1/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, stunHud.patch.path))), stunHud.patch.sha256);
 for (const name of ['runtime-validation', 'side-regression']) {

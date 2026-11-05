@@ -27,6 +27,14 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Prueba actual: el primer golpe quita el aturdimiento
+
+**Stun v2:** el primer impacto conectado termina el mareo y reinicia su acumulación. Sigue la reacción normal al daño. Se conservan las dos barras sin texto, sin acelerar movimientos. Fuera del mareo se mantiene la acumulación original. El contador global HITS continúa pendiente.
+
+[Vídeo real en Namek](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) · [Cambio y pruebas](docs/stun-break-v2.md) · [Namek actual y propuestas según el anime](docs/namek-anime-v1.md).
+
+Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version stun-break-v2`. Las propuestas de Namek aún no se incluyen en esta ROM. Las versiones anteriores y la opción predeterminada v6.6 se conservan.
+
 ## Barras de aturdimiento integradas: prueba HUD v1
 
 **Dos barras pequeñas, sin texto**, en las esquinas inferiores y con el borde de las originales. Verde: acumulación real; naranja: aviso; rojo: tiempo restante del aturdimiento, que se vacía al recuperarse. Ambas se dibujan dentro de la ROM, sin superponerlas al vídeo. La base conserva la reacción original de v5.

@@ -1,0 +1,739 @@
+{
+  "status": "Visual proposal, pending user selection",
+  "sourceSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+  "targetSha256": "754350cf37f5997d2a695b8a808ba7d584bcae2d6006a74a021ce51c3a4c2cf0",
+  "reference": "Three user-supplied anime screenshots: green sky, blue terrain and pink rock; red-black destruction sky and warm lava",
+  "changes": [
+    {
+      "stage": 6,
+      "offset": "0x19e63e",
+      "before": [
+        "0000",
+        "0420",
+        "0642",
+        "0864",
+        "0A86",
+        "0CA8",
+        "08AA",
+        "0688",
+        "0666",
+        "0444",
+        "0222",
+        "06A6",
+        "08CA",
+        "0AEC",
+        "0420",
+        "0EEE",
+        "0444",
+        "06A6",
+        "08CA",
+        "0AEC",
+        "0EEE",
+        "00E0"
+      ],
+      "after": [
+        "0000",
+        "0620",
+        "0840",
+        "0A62",
+        "0C84",
+        "0EA6",
+        "0CAE",
+        "0A8C",
+        "086A",
+        "0648",
+        "0426",
+        "0264",
+        "04A6",
+        "08EA",
+        "0640",
+        "0EEE",
+        "0444",
+        "0264",
+        "04A6",
+        "08EA",
+        "0EEE",
+        "00E0"
+      ]
+    },
+    {
+      "stage": 7,
+      "offset": "0x19e66e",
+      "before": [
+        "0000",
+        "08CE",
+        "0642",
+        "0864",
+        "0A86",
+        "0CA8",
+        "08AA",
+        "0688",
+        "0666",
+        "0444",
+        "0222",
+        "0026",
+        "024A",
+        "046C",
+        "068E",
+        "0ACE",
+        "0444",
+        "08CE",
+        "06AE",
+        "046C",
+        "0248",
+        "0026"
+      ],
+      "after": [
+        "0000",
+        "0004",
+        "0640",
+        "0862",
+        "0A84",
+        "0CA6",
+        "068A",
+        "0468",
+        "0246",
+        "0024",
+        "0002",
+        "0002",
+        "006E",
+        "0028",
+        "00AE",
+        "0004",
+        "0000",
+        "0002",
+        "0006",
+        "0028",
+        "004A",
+        "006C"
+      ]
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9b9a",
+      "paletteIndex": 1,
+      "before": "06CE",
+      "after": "0004"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9b9d",
+      "paletteIndex": 2,
+      "before": "0842",
+      "after": "0640"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9ba0",
+      "paletteIndex": 3,
+      "before": "0A62",
+      "after": "0862"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9ba3",
+      "paletteIndex": 4,
+      "before": "0C84",
+      "after": "0A84"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9ba6",
+      "paletteIndex": 5,
+      "before": "0CA6",
+      "after": "0CA6"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9ba9",
+      "paletteIndex": 6,
+      "before": "08AA",
+      "after": "068A"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bac",
+      "paletteIndex": 7,
+      "before": "0688",
+      "after": "0468"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9baf",
+      "paletteIndex": 8,
+      "before": "0666",
+      "after": "0246"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bb2",
+      "paletteIndex": 9,
+      "before": "0444",
+      "after": "0024"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bb5",
+      "paletteIndex": 10,
+      "before": "0222",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bb8",
+      "paletteIndex": 13,
+      "before": "066C",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bbb",
+      "paletteIndex": 17,
+      "before": "06CE",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bbe",
+      "paletteIndex": 18,
+      "before": "04AE",
+      "after": "0006"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bc1",
+      "paletteIndex": 19,
+      "before": "026C",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bc4",
+      "paletteIndex": 20,
+      "before": "024A",
+      "after": "004A"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b88",
+      "offset": "0x9bc7",
+      "paletteIndex": 21,
+      "before": "002A",
+      "after": "006C"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bcc",
+      "paletteIndex": 1,
+      "before": "028A",
+      "after": "0024"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bcf",
+      "paletteIndex": 2,
+      "before": "0842",
+      "after": "0640"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bd2",
+      "paletteIndex": 3,
+      "before": "0A62",
+      "after": "0862"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bd5",
+      "paletteIndex": 4,
+      "before": "0C84",
+      "after": "0A84"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bd8",
+      "paletteIndex": 5,
+      "before": "0CA6",
+      "after": "0CA6"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bdb",
+      "paletteIndex": 6,
+      "before": "08AA",
+      "after": "068A"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bde",
+      "paletteIndex": 7,
+      "before": "0688",
+      "after": "0468"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9be1",
+      "paletteIndex": 8,
+      "before": "0666",
+      "after": "0246"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9be4",
+      "paletteIndex": 9,
+      "before": "0444",
+      "after": "0024"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9be7",
+      "paletteIndex": 10,
+      "before": "0222",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bea",
+      "paletteIndex": 13,
+      "before": "088E",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bed",
+      "paletteIndex": 17,
+      "before": "028A",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bf0",
+      "paletteIndex": 18,
+      "before": "028C",
+      "after": "0006"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bf3",
+      "paletteIndex": 19,
+      "before": "0028",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bf6",
+      "paletteIndex": 20,
+      "before": "0024",
+      "after": "004A"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b88",
+      "offset": "0x9bf9",
+      "paletteIndex": 21,
+      "before": "0006",
+      "after": "006C"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9bfe",
+      "paletteIndex": 1,
+      "before": "028A",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c01",
+      "paletteIndex": 2,
+      "before": "0642",
+      "after": "0420"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c04",
+      "paletteIndex": 3,
+      "before": "0640",
+      "after": "0640"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c07",
+      "paletteIndex": 4,
+      "before": "0862",
+      "after": "0862"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c0a",
+      "paletteIndex": 5,
+      "before": "0884",
+      "after": "0A84"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c0d",
+      "paletteIndex": 6,
+      "before": "0488",
+      "after": "0468"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c10",
+      "paletteIndex": 7,
+      "before": "0266",
+      "after": "0246"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c13",
+      "paletteIndex": 8,
+      "before": "0244",
+      "after": "0024"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c16",
+      "paletteIndex": 9,
+      "before": "0222",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c19",
+      "paletteIndex": 10,
+      "before": "0000",
+      "after": "0000"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c1c",
+      "paletteIndex": 13,
+      "before": "088E",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c1f",
+      "paletteIndex": 17,
+      "before": "028A",
+      "after": "0000"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c22",
+      "paletteIndex": 18,
+      "before": "028C",
+      "after": "0004"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c25",
+      "paletteIndex": 19,
+      "before": "0028",
+      "after": "0006"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c28",
+      "paletteIndex": 20,
+      "before": "0024",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 2,
+      "table": "0x9b88",
+      "offset": "0x9c2b",
+      "paletteIndex": 21,
+      "before": "0006",
+      "after": "004A"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c30",
+      "paletteIndex": 1,
+      "before": "0068",
+      "after": "0000"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c33",
+      "paletteIndex": 2,
+      "before": "0642",
+      "after": "0420"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c36",
+      "paletteIndex": 3,
+      "before": "0640",
+      "after": "0640"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c39",
+      "paletteIndex": 4,
+      "before": "0862",
+      "after": "0862"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c3c",
+      "paletteIndex": 5,
+      "before": "0884",
+      "after": "0A84"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c3f",
+      "paletteIndex": 6,
+      "before": "0488",
+      "after": "0468"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c42",
+      "paletteIndex": 7,
+      "before": "0266",
+      "after": "0246"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c45",
+      "paletteIndex": 8,
+      "before": "0244",
+      "after": "0024"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c48",
+      "paletteIndex": 9,
+      "before": "0222",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c4b",
+      "paletteIndex": 10,
+      "before": "0000",
+      "after": "0000"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c4e",
+      "paletteIndex": 13,
+      "before": "0EEE",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c51",
+      "paletteIndex": 17,
+      "before": "0068",
+      "after": "0000"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c54",
+      "paletteIndex": 18,
+      "before": "0246",
+      "after": "0004"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c57",
+      "paletteIndex": 19,
+      "before": "0004",
+      "after": "0006"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c5a",
+      "paletteIndex": 20,
+      "before": "0002",
+      "after": "0028"
+    },
+    {
+      "dynamicPhase": 3,
+      "table": "0x9b88",
+      "offset": "0x9c5d",
+      "paletteIndex": 21,
+      "before": "0000",
+      "after": "004A"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b92",
+      "offset": "0x9c62",
+      "paletteIndex": 11,
+      "before": "0226",
+      "after": "0002"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b92",
+      "offset": "0x9c65",
+      "paletteIndex": 12,
+      "before": "044A",
+      "after": "006E"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b92",
+      "offset": "0x9c68",
+      "paletteIndex": 14,
+      "before": "088E",
+      "after": "00AE"
+    },
+    {
+      "dynamicPhase": 0,
+      "table": "0x9b92",
+      "offset": "0x9c6b",
+      "paletteIndex": 15,
+      "before": "08EE",
+      "after": "0004"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b92",
+      "offset": "0x9c70",
+      "paletteIndex": 11,
+      "before": "0228",
+      "after": "0024"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b92",
+      "offset": "0x9c73",
+      "paletteIndex": 12,
+      "before": "064A",
+      "after": "008E"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b92",
+      "offset": "0x9c76",
+      "paletteIndex": 14,
+      "before": "0AAE",
+      "after": "02CE"
+    },
+    {
+      "dynamicPhase": 1,
+      "table": "0x9b92",
+      "offset": "0x9c79",
+      "paletteIndex": 15,
+      "before": "06CC",
+      "after": "0006"
+    }
+  ],
+  "captures": [
+    {
+      "romSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+      "stage": 6,
+      "requestedStage": 6,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-6-actual-suelo.png",
+      "captureSha256": "966357919872e306c05f6ef78beb1e2ee1db173685a64c01a2c1e2bd94e9e31c",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    },
+    {
+      "romSha256": "754350cf37f5997d2a695b8a808ba7d584bcae2d6006a74a021ce51c3a4c2cf0",
+      "stage": 6,
+      "requestedStage": 6,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-6-propuesta-suelo.png",
+      "captureSha256": "ee03229cf784b0004dcf109739c13e38aef458918630adf9204ac174ff515290",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    },
+    {
+      "romSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+      "stage": 7,
+      "requestedStage": 7,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-7-actual-suelo.png",
+      "captureSha256": "3fc0d01eb331fc053170c27ee4a49b07f7b8a11bb319a77767035d568042e970",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    },
+    {
+      "romSha256": "754350cf37f5997d2a695b8a808ba7d584bcae2d6006a74a021ce51c3a4c2cf0",
+      "stage": 7,
+      "requestedStage": 7,
+      "characters": [
+        0,
+        8
+      ],
+      "file": "Namek-7-propuesta-suelo.png",
+      "captureSha256": "3a7c6865298743bb90d0d5d4c8c09c0e18b7a74adc53c1a23aa08600d5ac8873",
+      "fixture": "Native loader, stage index set before fight loading; both actors human; actual emulator capture, no pixel retouching"
+    }
+  ],
+  "proposalNotMergedIntoGameplayRom": true
+}

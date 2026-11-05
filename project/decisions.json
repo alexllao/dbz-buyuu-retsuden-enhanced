@@ -517,5 +517,20 @@
     "graphicsFix": "No window-table reuse, no VRAM writes in unsafe6EE8 path; original upper HUD fixed pixels and native stage/commonHUD assets compare equal across36sec audit",
     "counterHits": "Pending separate integration",
     "docs": "docs/hud-stun-v1.md"
+  },
+  "stunBreakV2": {
+    "status": "User requested; implemented and emulator-verified",
+    "behavior": "First accepted unblocked hit exits active native dizzy and resets accumulator; native damage reaction continues. Misses and idle keep dizzy running. Ordinary hits outside dizzy keep accumulating.",
+    "targetSha256": "c62d48cff3a76a1f2edcbde3e1bbf99e3bf856f824686467db8c07eb5989a46c",
+    "manifest": "patches/stun-break-v2/manifest.json",
+    "tests": "evidence/stun-break-v2/runtime-validation.json",
+    "globalHitsCounter": "Pending"
+  },
+  "namekAnimeV1": {
+    "status": "Actual captures plus palette proposals, pending user choice",
+    "normal": "Green sky, blue terrain, pink rock",
+    "destroyed": "Dark red sky, orange/yellow lava, blue surviving terrain; keep native palette phase timing",
+    "record": "research/palettes/namek-anime-v1.json",
+    "notInStunBreakRom": true
   }
 }
