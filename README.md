@@ -8,9 +8,25 @@ Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas
 
 La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece desde 2 impactos; el golpe suelto queda oculto.** Las nuevas paletas de Namek siguen siendo propuestas, sin aplicar a esta ROM. El comando sin `--version` conserva v6.6 como base anterior; para construir la última prueba hay que indicar `--version hud-hits-v3`.
 
-[**Presentación elegida**](#pantalla-de-presentación-elegida) · [**Jugabilidad acordada**](#jugabilidad-acuerdos-vigentes) · [Controles y movimientos](#controles-y-movimientos) · [Decisiones y pendientes](docs/decisions.md)
+[**Vídeos de combos y HITS**](#vídeos-combos-hits-y-jugabilidad) · [**Presentación elegida**](#pantalla-de-presentación-elegida) · [**Jugabilidad acordada**](#jugabilidad-acuerdos-vigentes) · [Controles y movimientos](#controles-y-movimientos) · [Decisiones y pendientes](docs/decisions.md)
 
 [Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
+
+## Vídeos: combos, HITS y jugabilidad
+
+**Esta es la documentación vigente de HUD HITS v3.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
+
+| Qué quieres ver | Vídeo | Estado |
+| --- | --- | --- |
+| **Combos y contador HITS dentro del juego** | [**Ver un minuto de juego real**](assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4) | ROM actual: Meteor de Goku con 3 contactos; tres básicos →cruce →Meteor con 6 HITS; mareo, caducidad y guardia. |
+| **Corrección de los puñetazos separados** | [**Antes y después, comparados a la vez**](assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4) | Izquierda anterior, derecha v3: los golpes aislados ya no suman combo. |
+| **Golpes, bloqueos y Meteor con la vibración elegida** | [**Actual y propuesta, 1:06**](assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4) | Aprobación visual: contactos suaves y remates B. **Todavía es una previsualización; no está integrada en la ROM.** |
+| **Cambio de lado y respuesta entre jugadores** | [**Cruces con ventaja y contras P1/P2**](assets/media/side-advantage-v1/Cambios-de-lado-con-ventaja.mp4) | Prueba real de la ventaja que conserva la ROM actual; dos mandos coordinados. |
+| **Salida del mareo al primer impacto** | [**Ver la regla de Stun v2 en juego**](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) | Vídeo de la base de aturdimiento; la regla sigue vigente en HITS v3. |
+
+[![Abrir vídeo de combos y HITS: tres básicos, cruce y Meteor de Goku, 6 HITS](assets/media/hud-hits-v3/Combo-rapido-cruce-Meteor-6-HITS.png)](assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4)
+
+**Pulsa la captura para abrir el vídeo de combos y HITS.** La presentación final elegida aparece justo debajo.
 
 ## Pantalla de presentación elegida
 
