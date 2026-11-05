@@ -138,6 +138,12 @@ Los A/B pulsados durante la ventana se descartan; hace falta una pulsación nuev
 
 Se abandona la roca rosa: ahora es ocre/beige, con azules más definidos y cielo verde. **Mostrar esta comparación no significa que la propuesta esté aprobada ni aplicada a la ROM de jugabilidad.** [Captura y colores de esta prueba](docs/namek-anime-v2.md). Las [propuestas anteriores de Namek y su destrucción](docs/namek-anime-v1.md) se conservan como descartadas.
 
+### Namek: árbol decorativo en primer plano
+
+[**Ver boceto antes/después**](assets/concepts/namek-foreground/Namek-arbol-antes-despues-v1.png). Árbol namekiano lateral con copa azul, inspirado en la función de la palmera de Street Fighter: enmarcar la pelea y dar profundidad, dejando libre la zona de combate y el HUD.
+
+**Propuesta visual generada a partir de una captura; pendiente de validar y comprobar su integración en Mega Drive.** No añade todavía un objeto a la ROM ni cambia la elección pendiente de la paleta de Namek. Movimiento de copa y desplazamiento a distinta velocidad son posibilidades posteriores, no funciones implementadas. [Prompt y procedencia](research/namek-foreground/concept-v1.json).
+
 ## Auras y colores aprobados
 
 | Personajes | Aura vigente |
