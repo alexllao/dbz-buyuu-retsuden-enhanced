@@ -1,0 +1,59 @@
+{
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "cid": 2,
+  "enemyCid": 3,
+  "stage": 2,
+  "label": "comboAAA-cambio-meteor-cerca",
+  "frames": 783,
+  "fps": 59.92274340431231,
+  "title": "PICCOLO | BASICOS - CRUCE - ACERCAMIENTO - REMATE",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 74,
+  "damageEvents": [
+    {
+      "frame": 72,
+      "phase": "basicos-AAA",
+      "delta": 11
+    },
+    {
+      "frame": 105,
+      "phase": "basicos-AAA",
+      "delta": 9
+    },
+    {
+      "frame": 138,
+      "phase": "basicos-AAA",
+      "delta": 9
+    },
+    {
+      "frame": 476,
+      "phase": "final-y-recuperacion",
+      "delta": 45
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1048,
+    1049,
+    2115,
+    2116,
+    2117
+  ],
+  "expectedFinisher": "0x844",
+  "expectedFinisherStarted": true,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "basicDamageEvents": 3,
+  "defenderHadFreeOrGuardStateBeforeFollowup": true,
+  "chapterStartSeconds": 58.809056458292886,
+  "trace": {
+    "path": "evidence/combo-side-tests-v1/clip-07.trace.json.gz",
+    "sha256": "fd9617f0823a1133d7273ff9326b56220c98eeb01dba7677cf2cc25bfdbd4453",
+    "frames": 783,
+    "format": "gzip-compressed JSON array of actual input and native actor state samples"
+  }
+}

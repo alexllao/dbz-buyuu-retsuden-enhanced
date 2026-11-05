@@ -1,0 +1,59 @@
+{
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "cid": 5,
+  "enemyCid": 3,
+  "stage": 7,
+  "label": "comboAAA-cambio-especial",
+  "frames": 461,
+  "fps": 59.92274340431231,
+  "title": "CELL | BASICOS - CAMBIO DE LADO - ESPECIAL",
+  "startHP": 38,
+  "startKi": 232,
+  "damage": 44,
+  "damageEvents": [
+    {
+      "frame": 69,
+      "phase": "basicos-AAA",
+      "delta": 11
+    },
+    {
+      "frame": 101,
+      "phase": "basicos-AAA",
+      "delta": 11
+    },
+    {
+      "frame": 135,
+      "phase": "basicos-AAA",
+      "delta": 9
+    },
+    {
+      "frame": 207,
+      "phase": "final-y-recuperacion",
+      "delta": 13
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1084,
+    1085,
+    2080,
+    2115
+  ],
+  "expectedFinisher": "0x84a",
+  "expectedFinisherStarted": null,
+  "player1Damage": 0,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "basicDamageEvents": 3,
+  "defenderHadFreeOrGuardStateBeforeFollowup": true,
+  "chapterStartSeconds": 71.87588143185796,
+  "trace": {
+    "path": "evidence/combo-side-tests-v1/clip-08.trace.json.gz",
+    "sha256": "14bafc7666c321f0835a416fb2ea923b3214e5c8f13e3ee4d1e5e257c8c95794",
+    "frames": 461,
+    "format": "gzip-compressed JSON array of actual input and native actor state samples"
+  }
+}

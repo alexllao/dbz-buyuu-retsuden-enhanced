@@ -1,0 +1,51 @@
+{
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "cid": 0,
+  "enemyCid": 3,
+  "stage": 6,
+  "label": "cambio-rafaga",
+  "frames": 346,
+  "fps": 59.92274340431231,
+  "title": "GOKU | CAMBIO DE LADO - RAFAGA NATIVA",
+  "startHP": 200,
+  "startKi": 232,
+  "damage": 90,
+  "damageEvents": [
+    {
+      "frame": 109,
+      "phase": "final-y-recuperacion",
+      "delta": 30
+    },
+    {
+      "frame": 160,
+      "phase": "final-y-recuperacion",
+      "delta": 30
+    },
+    {
+      "frame": 190,
+      "phase": "final-y-recuperacion",
+      "delta": 30
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    2051,
+    2115
+  ],
+  "expectedFinisher": "0x83e",
+  "expectedFinisherStarted": null,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "basicDamageEvents": 0,
+  "defenderHadFreeOrGuardStateBeforeFollowup": true,
+  "chapterStartSeconds": 18.27352917759101,
+  "trace": {
+    "path": "evidence/combo-side-tests-v1/clip-02.trace.json.gz",
+    "sha256": "1363125904961171dd66db0334324d5eec4572b945d1c71d37c0a619a7932f3d",
+    "frames": 346,
+    "format": "gzip-compressed JSON array of actual input and native actor state samples"
+  }
+}

@@ -17,6 +17,8 @@ Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [Ventaja v1](side-
 - [x] Visor y auditoría de cajas, conservando tamaños y geometría originales.
 - [x] Comparación real antes/después de la nueva propuesta de Namek; anteriores descartadas guardadas.
 
+- [x] [Diez tomas de básicos, cambio de lado y remates](combo-side-tests-v1.md), 52 sondeos; huecos y defensa documentados.
+
 ## En revisión y próximos trabajos
 
 - [x] [Vídeo de respuestas alternadas P1/P2](teleport-exchange-v1.md) con dos mandos coordinados y el movimiento existente.

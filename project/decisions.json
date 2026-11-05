@@ -583,5 +583,25 @@
     "limits": "No universal infinite or balance guarantee. Existing move range, state and space requirements remain. No new invulnerability or unblockable hit.",
     "scope": "Two human-controlled fighters; CPU behavior unchanged, extension pending",
     "blockedInput": "A/B during window discarded; fresh press after expiry; existing attacks continue"
+  },
+  "comboSideTestsV1": {
+    "status": "Requested tests recorded; no new ROM modification or closed-combo approval",
+    "rom": "side-advantage-v1",
+    "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+    "video": "assets/media/combo-side-tests-v1/Combos-cambio-de-lado-y-remates.mp4",
+    "docs": "docs/combo-side-tests-v1.md",
+    "seconds": 97.09168288148354,
+    "takes": 10,
+    "probeCases": 52,
+    "characters": [
+      "Goku",
+      "Vegeta",
+      "Piccolo",
+      "Cell"
+    ],
+    "rules": "Keep complete native animations. C waits for own attack recovery. Followups allow defense gaps. Meteor can be blocked.",
+    "nativeRequirements": "Vegeta/Cell ki>205 and life<quarter; prepared via actual punches and charging",
+    "cellNeedleRush": "Verified DOWN,DOWN+FORWARD,FORWARD,BACK+B token1A/program84A; README corrected",
+    "pending": "Human feel, balance, gap tuning, active defense and roster-wide verification; HITS counter still not integrated"
   }
 }

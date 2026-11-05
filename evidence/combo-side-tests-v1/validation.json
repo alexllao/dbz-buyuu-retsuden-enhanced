@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "romChanged": false,
+  "characters": [
+    0,
+    3,
+    2,
+    5
+  ],
+  "probeCases": 52,
+  "videoTakes": 10,
+  "frames": 5818,
+  "fps": 59.92274340431231,
+  "seconds": 97.09168288148354,
+  "allControlReturned": true,
+  "allRequestedFinishersStarted": true,
+  "gokuGuardedMeteor": {
+    "damage": 3,
+    "defenderGuardObserved": true
+  },
+  "counterP2": {
+    "player1Damage": 35,
+    "finisherStarted": true
+  },
+  "nativeAudio": true,
+  "gameplayTimeScaling": false,
+  "hitsHudAdded": false,
+  "independentTakes": true,
+  "preparedKiAndLifeViaNativeInputs": true,
+  "limits": "Coordinated human pads, passive/guard scripted defenders; not CPU AI, human balance test, guaranteed closed combo, roster-wide verification or proof against infinites.",
+  "video": {
+    "path": "assets/media/combo-side-tests-v1/Combos-cambio-de-lado-y-remates.mp4",
+    "sha256": "7c8e7f5846e268404e701b7e0a286d73ed30fbd61b28920ae425767476a088f8"
+  }
+}

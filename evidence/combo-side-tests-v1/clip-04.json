@@ -1,0 +1,84 @@
+{
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "cid": 3,
+  "enemyCid": 0,
+  "stage": 0,
+  "label": "comboAAA-cambio-meteor",
+  "frames": 599,
+  "fps": 59.92274340431231,
+  "title": "VEGETA | BASICOS - CAMBIO DE LADO - METEOR",
+  "startHP": 42,
+  "startKi": 233,
+  "damage": 65,
+  "damageEvents": [
+    {
+      "frame": 69,
+      "phase": "basicos-AAA",
+      "delta": 8
+    },
+    {
+      "frame": 102,
+      "phase": "basicos-AAA",
+      "delta": 8
+    },
+    {
+      "frame": 232,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    },
+    {
+      "frame": 257,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    },
+    {
+      "frame": 298,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    },
+    {
+      "frame": 328,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    },
+    {
+      "frame": 356,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    },
+    {
+      "frame": 390,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    },
+    {
+      "frame": 412,
+      "phase": "final-y-recuperacion",
+      "delta": 7
+    }
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    51,
+    1060,
+    2115,
+    2118,
+    2119
+  ],
+  "expectedFinisher": "0x846",
+  "expectedFinisherStarted": true,
+  "controlReturned": true,
+  "fixture": "Existing advantage ROM unchanged; two human pads. Snapshot prepared with real charging and, for Vegeta/Cell, real received punches. Only initial spacing/facing set. No HP/ki/action/timer writes during capture. Native audio and animation speed; independent route takes.",
+  "basicDamageEvents": 2,
+  "defenderHadFreeOrGuardStateBeforeFollowup": true,
+  "chapterStartSeconds": 29.82173209164852,
+  "trace": {
+    "path": "evidence/combo-side-tests-v1/clip-04.trace.json.gz",
+    "sha256": "a957ac0754a8a61f16e845bebf7b8b18ca02d6fca6fde02799c12b63cd66af31",
+    "frames": 599,
+    "format": "gzip-compressed JSON array of actual input and native actor state samples"
+  }
+}

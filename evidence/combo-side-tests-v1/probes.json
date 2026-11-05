@@ -1,0 +1,1945 @@
+{
+  "romSha256": "438817bb5c5e01f7b6eeb5b2aa3e51b554fd2d3ef29d17a3d9eae6557ff5152f",
+  "cases": 52,
+  "results": [
+    {
+      "cid": 0,
+      "enemyCid": 3,
+      "stage": 6,
+      "chargeFrames": 1110,
+      "initial": [
+        {
+          "label": "meteor",
+          "frames": 422,
+          "hits": [
+            {
+              "frame": 204,
+              "phase": "final-y-recuperacion",
+              "delta": 35,
+              "defenderAction": 18,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 35,
+          "crosses": [],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2110,
+            2111
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-meteor",
+          "frames": 466,
+          "hits": [
+            {
+              "frame": 220,
+              "phase": "final-y-recuperacion",
+              "delta": 35,
+              "defenderAction": 18,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 35,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2110,
+            2111,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-meteor-guardia",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 71,
+              "phase": "final-y-recuperacion",
+              "delta": 3,
+              "defenderAction": 10,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 3,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2110,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "combo-cambio-meteor",
+          "frames": 578,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-ABA",
+              "delta": 12,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-ABA",
+              "delta": 12,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            },
+            {
+              "frame": 328,
+              "phase": "final-y-recuperacion",
+              "delta": 35,
+              "defenderAction": 18,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 59,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1024,
+            1027,
+            2110,
+            2111,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "combo-cambio-especial",
+          "frames": 350,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-ABA",
+              "delta": 12,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-ABA",
+              "delta": 12,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            },
+            {
+              "frame": 162,
+              "phase": "final-y-recuperacion",
+              "delta": 13,
+              "defenderAction": 19,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 37,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1024,
+            1027,
+            2049,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-basicos",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 84,
+              "phase": "basicos-BAB",
+              "delta": 12,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 119,
+              "phase": "basicos-BAB",
+              "delta": 12,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 24,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1024,
+            1027,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-rafaga",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 68,
+              "phase": "final-y-recuperacion",
+              "delta": 30,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 121,
+              "phase": "final-y-recuperacion",
+              "delta": 30,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 150,
+              "phase": "final-y-recuperacion",
+              "delta": 30,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 90,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2051,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        }
+      ],
+      "extra": [
+        {
+          "label": "AAA",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 36,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 59,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 89,
+              "phase": "basicos-AAA",
+              "delta": 12
+            }
+          ],
+          "programs": [
+            0,
+            1024
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "ABB",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 24,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-ABB",
+              "delta": 12
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-ABB",
+              "delta": 12
+            }
+          ],
+          "programs": [
+            0,
+            1024,
+            1027
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "BAB",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 24,
+          "hits": [
+            {
+              "frame": 33,
+              "phase": "basicos-BAB",
+              "delta": 12
+            },
+            {
+              "frame": 68,
+              "phase": "basicos-BAB",
+              "delta": 12
+            }
+          ],
+          "programs": [
+            0,
+            1024,
+            1027
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "cambio-meteor-cerca",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 12,
+          "hits": [
+            {
+              "frame": 109,
+              "phase": "recuperacion",
+              "delta": 12
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1027,
+            2115
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-meteor-cerca",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 48,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 59,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 89,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 206,
+              "phase": "recuperacion",
+              "delta": 12
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1024,
+            1027,
+            2115
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-especial",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 49,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 59,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 89,
+              "phase": "basicos-AAA",
+              "delta": 12
+            },
+            {
+              "frame": 151,
+              "phase": "recuperacion",
+              "delta": 13
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1024,
+            2049,
+            2115
+          ],
+          "frames": 343,
+          "final": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 3,
+      "enemyCid": 0,
+      "stage": 0,
+      "chargeFrames": 1112,
+      "initial": [
+        {
+          "label": "meteor",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 55,
+              "phase": "final-y-recuperacion",
+              "delta": 9,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 9,
+          "crosses": [],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1063
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        },
+        {
+          "label": "cambio-meteor",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1064,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        },
+        {
+          "label": "cambio-meteor-guardia",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1064,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        },
+        {
+          "label": "combo-cambio-meteor",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-ABA",
+              "delta": 8,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 64,
+              "phase": "basicos-ABA",
+              "delta": 9,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 17,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1063,
+            1064,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        },
+        {
+          "label": "combo-cambio-especial",
+          "frames": 351,
+          "hits": [
+            {
+              "frame": 30,
+              "phase": "basicos-ABA",
+              "delta": 8,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 64,
+              "phase": "basicos-ABA",
+              "delta": 9,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 161,
+              "phase": "final-y-recuperacion",
+              "delta": 12,
+              "defenderAction": 19,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 29,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            1063,
+            2068,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        },
+        {
+          "label": "cambio-basicos",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 90,
+              "phase": "basicos-BAB",
+              "delta": 9,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 121,
+              "phase": "basicos-BAB",
+              "delta": 8,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 17,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1060,
+            1063,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        },
+        {
+          "label": "cambio-rafaga",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1064,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 233,
+          "minimumKi": 233
+        }
+      ],
+      "extra": [
+        {
+          "label": "AAA",
+          "startHP": 42,
+          "startKi": 233,
+          "damage": 16,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-AAA",
+              "delta": 8
+            },
+            {
+              "frame": 60,
+              "phase": "basicos-AAA",
+              "delta": 8
+            }
+          ],
+          "programs": [
+            0,
+            1060
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "ABB",
+          "startHP": 42,
+          "startKi": 233,
+          "damage": 17,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-ABB",
+              "delta": 8
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-ABB",
+              "delta": 9
+            }
+          ],
+          "programs": [
+            0,
+            1060,
+            1063
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "BAB",
+          "startHP": 42,
+          "startKi": 233,
+          "damage": 17,
+          "hits": [
+            {
+              "frame": 31,
+              "phase": "basicos-BAB",
+              "delta": 9
+            },
+            {
+              "frame": 61,
+              "phase": "basicos-BAB",
+              "delta": 8
+            }
+          ],
+          "programs": [
+            0,
+            1060,
+            1063
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "cambio-meteor-cerca",
+          "startHP": 42,
+          "startKi": 233,
+          "damage": 31,
+          "hits": [
+            {
+              "frame": 111,
+              "phase": "recuperacion",
+              "delta": 15
+            },
+            {
+              "frame": 157,
+              "phase": "recuperacion",
+              "delta": 16
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            51,
+            2069,
+            2115
+          ],
+          "frames": 353,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-meteor-cerca",
+          "startHP": 42,
+          "startKi": 233,
+          "damage": 47,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-AAA",
+              "delta": 8
+            },
+            {
+              "frame": 60,
+              "phase": "basicos-AAA",
+              "delta": 8
+            },
+            {
+              "frame": 211,
+              "phase": "recuperacion",
+              "delta": 15
+            },
+            {
+              "frame": 257,
+              "phase": "recuperacion",
+              "delta": 16
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            51,
+            1060,
+            2069,
+            2115
+          ],
+          "frames": 455,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-especial",
+          "startHP": 42,
+          "startKi": 233,
+          "damage": 28,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-AAA",
+              "delta": 8
+            },
+            {
+              "frame": 60,
+              "phase": "basicos-AAA",
+              "delta": 8
+            },
+            {
+              "frame": 160,
+              "phase": "recuperacion",
+              "delta": 12
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1060,
+            2068,
+            2115
+          ],
+          "frames": 348,
+          "final": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 2,
+      "enemyCid": 3,
+      "stage": 2,
+      "chargeFrames": 859,
+      "initial": [
+        {
+          "label": "meteor",
+          "frames": 419,
+          "hits": [
+            {
+              "frame": 203,
+              "phase": "final-y-recuperacion",
+              "delta": 45,
+              "defenderAction": 18,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 45,
+          "crosses": [],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2116,
+            2117
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-meteor",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2115,
+            2116
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-meteor-guardia",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2115,
+            2116
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "combo-cambio-meteor",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-ABA",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 11,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1048,
+            1052,
+            2115,
+            2116
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "combo-cambio-especial",
+          "frames": 364,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-ABA",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 166,
+              "phase": "final-y-recuperacion",
+              "delta": 11,
+              "defenderAction": 19,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 22,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1048,
+            1052,
+            2063,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-basicos",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 152,
+              "phase": "basicos-BAB",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 188,
+              "phase": "basicos-BAB",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 22,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1048,
+            1051,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-rafaga",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1052,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        }
+      ],
+      "extra": [
+        {
+          "label": "AAA",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 29,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 94,
+              "phase": "basicos-AAA",
+              "delta": 9
+            }
+          ],
+          "programs": [
+            0,
+            1048,
+            1049
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "ABB",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 11,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-ABB",
+              "delta": 11
+            }
+          ],
+          "programs": [
+            0,
+            1048,
+            1052
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "BAB",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 22,
+          "hits": [
+            {
+              "frame": 32,
+              "phase": "basicos-BAB",
+              "delta": 11
+            },
+            {
+              "frame": 67,
+              "phase": "basicos-BAB",
+              "delta": 11
+            }
+          ],
+          "programs": [
+            0,
+            1048,
+            1051
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "cambio-meteor-cerca",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 45,
+          "hits": [
+            {
+              "frame": 328,
+              "phase": "recuperacion",
+              "delta": 45
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2115,
+            2116,
+            2117
+          ],
+          "frames": 576,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-meteor-cerca",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 74,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 94,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 427,
+              "phase": "recuperacion",
+              "delta": 45
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1048,
+            1049,
+            2115,
+            2116,
+            2117
+          ],
+          "frames": 678,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-especial",
+          "startHP": 200,
+          "startKi": 232,
+          "damage": 40,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 94,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 161,
+              "phase": "recuperacion",
+              "delta": 11
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1048,
+            1049,
+            2063,
+            2115
+          ],
+          "frames": 355,
+          "final": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 5,
+      "enemyCid": 3,
+      "stage": 7,
+      "chargeFrames": 880,
+      "initial": [
+        {
+          "label": "meteor",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 65,
+              "phase": "final-y-recuperacion",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 11,
+          "crosses": [],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1087
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-meteor",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 80,
+              "phase": "final-y-recuperacion",
+              "delta": 10,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 10,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1088,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-meteor-guardia",
+          "frames": 311,
+          "hits": [],
+          "damage": 0,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1088,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            2
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "combo-cambio-meteor",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-ABA",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 71,
+              "phase": "basicos-ABA",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            },
+            {
+              "frame": 179,
+              "phase": "final-y-recuperacion",
+              "delta": 10,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 32,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1087,
+            1088,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "combo-cambio-especial",
+          "frames": 362,
+          "hits": [
+            {
+              "frame": 29,
+              "phase": "basicos-ABA",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 71,
+              "phase": "basicos-ABA",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            },
+            {
+              "frame": 166,
+              "phase": "final-y-recuperacion",
+              "delta": 13,
+              "defenderAction": 19,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 35,
+          "crosses": [
+            130
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1087,
+            2080,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-basicos",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 164,
+              "phase": "basicos-BAB",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": true
+            },
+            {
+              "frame": 202,
+              "phase": "basicos-BAB",
+              "delta": 11,
+              "defenderAction": 12,
+              "defenderWasFree": false
+            }
+          ],
+          "damage": 22,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            1084,
+            1087,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        },
+        {
+          "label": "cambio-rafaga",
+          "frames": 311,
+          "hits": [
+            {
+              "frame": 79,
+              "phase": "final-y-recuperacion",
+              "delta": 10,
+              "defenderAction": 11,
+              "defenderWasFree": true
+            }
+          ],
+          "damage": 10,
+          "crosses": [
+            28
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1088,
+            2115
+          ],
+          "cinematic": false,
+          "final": [
+            0,
+            0
+          ],
+          "startKi": 232,
+          "minimumKi": 232
+        }
+      ],
+      "extra": [
+        {
+          "label": "AAA",
+          "startHP": 38,
+          "startKi": 232,
+          "damage": 31,
+          "hits": [
+            {
+              "frame": 31,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 93,
+              "phase": "basicos-AAA",
+              "delta": 9
+            }
+          ],
+          "programs": [
+            0,
+            1084,
+            1085
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "ABB",
+          "startHP": 38,
+          "startKi": 232,
+          "damage": 22,
+          "hits": [
+            {
+              "frame": 31,
+              "phase": "basicos-ABB",
+              "delta": 11
+            },
+            {
+              "frame": 73,
+              "phase": "basicos-ABB",
+              "delta": 11
+            }
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "BAB",
+          "startHP": 38,
+          "startKi": 232,
+          "damage": 22,
+          "hits": [
+            {
+              "frame": 42,
+              "phase": "basicos-BAB",
+              "delta": 11
+            },
+            {
+              "frame": 80,
+              "phase": "basicos-BAB",
+              "delta": 11
+            }
+          ],
+          "programs": [
+            0,
+            1084,
+            1087
+          ],
+          "frames": 341,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "cambio-meteor-cerca",
+          "startHP": 38,
+          "startKi": 232,
+          "damage": 104,
+          "hits": [
+            {
+              "frame": 249,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 276,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 317,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 345,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 386,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 419,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 452,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 478,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 527,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 569,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 605,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 641,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 672,
+              "phase": "recuperacion",
+              "delta": 8
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            2115,
+            2122
+          ],
+          "frames": 867,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-meteor-cerca",
+          "startHP": 38,
+          "startKi": 232,
+          "damage": 135,
+          "hits": [
+            {
+              "frame": 31,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 93,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 342,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 369,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 407,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 434,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 473,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 505,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 538,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 565,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 612,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 652,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 691,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 729,
+              "phase": "recuperacion",
+              "delta": 8
+            },
+            {
+              "frame": 759,
+              "phase": "recuperacion",
+              "delta": 8
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1085,
+            2115,
+            2122
+          ],
+          "frames": 950,
+          "final": [
+            0,
+            0
+          ]
+        },
+        {
+          "label": "comboAAA-cambio-especial",
+          "startHP": 38,
+          "startKi": 232,
+          "damage": 44,
+          "hits": [
+            {
+              "frame": 31,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 62,
+              "phase": "basicos-AAA",
+              "delta": 11
+            },
+            {
+              "frame": 93,
+              "phase": "basicos-AAA",
+              "delta": 9
+            },
+            {
+              "frame": 163,
+              "phase": "recuperacion",
+              "delta": 13
+            }
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1085,
+            2080,
+            2115
+          ],
+          "frames": 359,
+          "final": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "preparation": {
+    "vegeta": {
+      "hp": 42,
+      "ki": 232,
+      "nativePunchAttempts": 13
+    },
+    "cell": {
+      "hp": 38,
+      "ki": 232,
+      "nativePunchAttempts": 18
+    },
+    "method": "Opponent real A punches until below quarter life, then real A+B charge; waits for recovery. No direct HP/ki assignments."
+  }
+}

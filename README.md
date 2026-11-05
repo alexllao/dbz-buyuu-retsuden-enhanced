@@ -10,6 +10,14 @@ La jugabilidad sigue en pruebas con mando. **El contador global HITS todavía no
 
 [Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
 
+## Nueva prueba: básicos, cruce, Meteor y respuesta de P2
+
+[**Ver 1 min 37 s de juego real con sonido**](assets/media/combo-side-tests-v1/Combos-cambio-de-lado-y-remates.mp4)
+
+Diez tomas de Goku, Vegeta, Piccolo y Cell: básicos → cambio de lado → especial/remate, ráfaga de Goku, Meteor bloqueado y contra de P2 terminada en Meteor. Misma ROM Ventaja v1, sin acelerar movimientos ni forzar impactos. Cada toma muestra el final y la devolución del control.
+
+**Son secuencias de presión con huecos de defensa; no un combo cerrado garantizado.** Se conservaron 52 sondeos y las condiciones originales de vida/ki de los remates. [Resultados, capítulos y límites](docs/combo-side-tests-v1.md).
+
 ## Ventaja nueva: seis actualizaciones de entrada
 
 Al completar un cambio de lado con C, el rival no puede iniciar A/B durante una ventana breve. **Puede defenderse, moverse y responder con otro cambio de lado**; una respuesta aceptada elimina la restricción recibida. La prueba actual se aplica a dos jugadores humanos. No añade golpe automático, invulnerabilidad ni aceleración de animación.
@@ -240,7 +248,7 @@ El **High Speed Move** original de Goku, Gohan y Cell usa → ← → + B y **no
 | Kamehameha | → ↘ ↓ ↙ ← + A |
 | Sliding Kick | → ↘ ↓ + B |
 | High Speed Move | → ← → + B |
-| Needle Rush | ← ↙ ↓ ↘ → ← + B |
+| Needle Rush, comando verificado en la prueba actual | ↓ ↘ → ← + B |
 
 </details>
 

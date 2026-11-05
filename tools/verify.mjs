@@ -9,6 +9,18 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const comboSideTests = await json('evidence/combo-side-tests-v1/validation.json');
+assert(comboSideTests.passed && !comboSideTests.romChanged && comboSideTests.videoTakes === 10 && comboSideTests.probeCases === 52);
+assert(comboSideTests.allControlReturned && comboSideTests.allRequestedFinishersStarted && !comboSideTests.gameplayTimeScaling && !comboSideTests.hitsHudAdded);
+assert.equal(comboSideTests.counterP2.player1Damage, 35);
+assert.equal(comboSideTests.gokuGuardedMeteor.damage, 3);
+assert.equal(sha256(await readFile(resolve(root, comboSideTests.video.path))), comboSideTests.video.sha256);
+for (let i = 0; i < 10; i++) {
+  const clip = await json(`evidence/combo-side-tests-v1/clip-${String(i).padStart(2, '0')}.json`);
+  assert.equal(clip.romSha256, comboSideTests.romSha256);
+  assert(clip.controlReturned && clip.expectedFinisherStarted !== false);
+  assert.equal(sha256(await readFile(resolve(root, clip.trace.path))), clip.trace.sha256);
+}
 const sideAdvantage = await json('patches/side-advantage-v1/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, sideAdvantage.patch.path))), sideAdvantage.patch.sha256);
 const advantageRuntime = await json('evidence/side-advantage-v1/runtime-validation.json');
