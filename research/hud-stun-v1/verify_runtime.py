@@ -35,7 +35,7 @@ try:
   elif 820<=f<824:k=['RIGHT','B'];other=[]
   else:k=[];other=[]
   expected=wanted();clockBefore=rw(0xe6a8);tick(k,other);clockAdvanced=rw(0xe6a8)!=clockBefore
-  
+
   s=snap();v=s[0x12425:0x22425];v=bytes(x for i in range(0,len(v),2) for x in [v[i+1],v[i]])
   observed=v[0xaf20:0xafa0];head=v[0xac00:0xac08];n=rb(0xe452);collisions=[i for i in range(min(n,80)) if 0x579<=(rw(0xe04e+i*8+4)&0x7ff)<0x580]
   checks={'barsMatchNativeReadout':(observed in [expected,wanted(),previous] if clockAdvanced else previousObserved is None or observed==previousObserved),'nativePatternsDoNotUseHudTiles':not collisions,'nativeSatHasRoom':n<=78,'hudHeadVisible':head[:2]==bytes.fromhex('015c')}

@@ -38,4 +38,3 @@ Las pruebas de ejecución corresponden al escenario 0 y al núcleo local Genesis
 v6.6 sigue siendo la construcción predeterminada. **Arrancar desde cero, sin cargar estados guardados de pruebas anteriores.** Esos estados pueden conservar patrones y mapas de una integración anterior.
 
 [ASM](../src/hud/stun-v1/bars.asm) · [Recursos](../src/hud/stun-v1/resources.json) · [Manifiesto](../patches/hud-stun-v1/manifest.json) · [Pruebas de ejecución](../evidence/hud-stun-v1/runtime-validation.json) · [Barras visibles](../evidence/hud-stun-v1/visible-bars-validation.json) · [Comparación gráfica](../evidence/hud-stun-v1/graphics-validation.json) · [Comprobación estática](../evidence/hud-stun-v1/static-validation.json) · [Medios](../evidence/hud-stun-v1/media-validation.json) · [Mecanismo nativo y contador pendiente](hud-hits-stun.md).
-
