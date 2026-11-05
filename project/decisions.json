@@ -726,7 +726,7 @@
     ]
   },
   "namekForegroundConcept": {
-    "status": "Generated visual concept; pending user validation and native feasibility/integration",
+    "status": "Static concept and moving video mockup; pending user validation and native integration",
     "date": "2026-11-05",
     "stage": "Namek",
     "intent": "Foreground framing inspired by Street Fighter palm; native Namek tree with blue rounded crown at edge",
@@ -739,6 +739,12 @@
     "romModified": false,
     "animationImplemented": false,
     "paletteSelectionUnchanged": true,
-    "limitations": "Generative mockup is not a byte/pixel-identical comparison or verified Mega Drive asset. Tile, palette, scroll priority and runtime feasibility remain unverified."
+    "limitations": "Generative mockup is not a byte/pixel-identical comparison or verified Mega Drive asset. Tile, palette, scroll priority and runtime feasibility remain unverified.",
+    "video": "assets/media/namek-foreground/Namek-arbol-prueba-en-movimiento-v1.mp4",
+    "videoPreviewOnly": true,
+    "parallaxSimulated": true,
+    "parallaxFactor": 1.15,
+    "sourceRom": "hud-hits-v3",
+    "docs": "docs/namek-foreground.md"
   }
 }

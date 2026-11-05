@@ -1,0 +1,42 @@
+{
+  "status": "Video mockup pending user validation; no native integration",
+  "romSha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+  "sourceFrames": 684,
+  "fps": 59.92274340431231,
+  "frames": 1368,
+  "seconds": 22.829395356113697,
+  "romModifiedForTree": false,
+  "postproductionTree": true,
+  "assetMethod": "Built-in image_gen generated transparent tree; FFmpeg composited the video",
+  "treeNativeCompatibilityVerified": false,
+  "backgroundMotionMethod": "Grayscale background template matching every4 source frames, continuous shift unwrapping",
+  "backgroundDisplacementRange": [
+    -67,
+    76
+  ],
+  "parallaxFactor": 1.15,
+  "hudUntouched": true,
+  "treeSwayImplemented": false,
+  "sourceNativeAudio": true,
+  "gameplayTimeScaling": false,
+  "video": {
+    "file": "Namek-arbol-prueba-en-movimiento-v1.mp4",
+    "sha256": "1ce093443d2a11695375737ce57d08ea31a765153975553e1c03fcc8e60b2064",
+    "path": "assets/media/namek-foreground/Namek-arbol-prueba-en-movimiento-v1.mp4"
+  },
+  "tree": {
+    "file": "Arbol-namekiano-transparente-v1.png",
+    "sha256": "1f8dff6326a1366c419cad48ffac78f289a043934017eb467cf5b9f9426a1b75",
+    "path": "assets/concepts/namek-foreground/Arbol-namekiano-transparente-v1.png"
+  },
+  "records": [
+    {
+      "path": "evidence/namek-foreground/report.json.gz",
+      "sha256": "32a79f1fe4bad85a46210d5b07b4b36a5fef804cef77a36207fa54cec5737852"
+    },
+    {
+      "path": "evidence/namek-foreground/background-motion.json.gz",
+      "sha256": "6a7c8e3d47478c8d817705596294ef724808a3fc17a98587df2ec6e9f76957ed"
+    }
+  ]
+}

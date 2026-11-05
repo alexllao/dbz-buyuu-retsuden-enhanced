@@ -21,6 +21,7 @@ La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece d
 | **Combos y contador HITS dentro del juego** | [**Ver un minuto de juego real**](assets/media/hud-hits-v3/HITS-v3-enlaces-y-golpes-separados.mp4) | ROM actual: Meteor de Goku con 3 contactos; tres básicos →cruce →Meteor con 6 HITS; mareo, caducidad y guardia. |
 | **Corrección de los puñetazos separados** | [**Antes y después, comparados a la vez**](assets/media/hud-hits-v3/Antes-y-despues-golpes-separados.mp4) | Izquierda anterior, derecha v3: los golpes aislados ya no suman combo. |
 | **Golpes, bloqueos y Meteor con la vibración elegida** | [**Actual y propuesta, 1:06**](assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4) | Aprobación visual: contactos suaves y remates B. **Todavía es una previsualización; no está integrada en la ROM.** |
+| **Árbol en primer plano en Namek** | [**Prueba en movimiento: actual y propuesta, 23 s**](assets/media/namek-foreground/Namek-arbol-prueba-en-movimiento-v1.mp4) | Maqueta visual sobre gameplay real; árbol y scroll adicional **aún sin integrar en ROM**. |
 | **Cambio de lado y respuesta entre jugadores** | [**Cruces con ventaja y contras P1/P2**](assets/media/side-advantage-v1/Cambios-de-lado-con-ventaja.mp4) | Prueba real de la ventaja que conserva la ROM actual; dos mandos coordinados. |
 | **Salida del mareo al primer impacto** | [**Ver la regla de Stun v2 en juego**](assets/media/stun-break-v2/Namek-stun-primer-golpe.mp4) | Vídeo de la base de aturdimiento; la regla sigue vigente en HITS v3. |
 
@@ -140,9 +141,9 @@ Se abandona la roca rosa: ahora es ocre/beige, con azules más definidos y cielo
 
 ### Namek: árbol decorativo en primer plano
 
-[**Ver boceto antes/después**](assets/concepts/namek-foreground/Namek-arbol-antes-despues-v1.png). Árbol namekiano lateral con copa azul, inspirado en la función de la palmera de Street Fighter: enmarcar la pelea y dar profundidad, dejando libre la zona de combate y el HUD.
+[**Ver prueba en movimiento: actual y propuesta, 23 segundos**](assets/media/namek-foreground/Namek-arbol-prueba-en-movimiento-v1.mp4) · [Boceto estático antes/después](assets/concepts/namek-foreground/Namek-arbol-antes-despues-v1.png). Árbol namekiano lateral con copa azul, inspirado en la función de la palmera de Street Fighter: enmarcar la pelea y dar profundidad, dejando libre la zona de combate y el HUD.
 
-**Propuesta visual generada a partir de una captura; pendiente de validar y comprobar su integración en Mega Drive.** No añade todavía un objeto a la ROM ni cambia la elección pendiente de la paleta de Namek. Movimiento de copa y desplazamiento a distinta velocidad son posibilidades posteriores, no funciones implementadas. [Prompt y procedencia](research/namek-foreground/concept-v1.json).
+**Propuesta visual generada a partir de una captura; pendiente de validar y comprobar su integración en Mega Drive.** No añade todavía un objeto a la ROM ni cambia la elección pendiente de la paleta de Namek. El vídeo simula un desplazamiento a distinta velocidad para probar profundidad; ese plano y el movimiento de copa todavía no están implementados en el juego. [Condiciones y límites de la maqueta](docs/namek-foreground.md). [Prompt y procedencia](research/namek-foreground/concept-v1.json).
 
 ## Auras y colores aprobados
 
