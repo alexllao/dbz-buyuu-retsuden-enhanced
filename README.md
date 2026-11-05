@@ -27,11 +27,19 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Barras de aturdimiento integradas: prueba HUD v1
+
+**Dos barras pequeñas, sin texto**, en las esquinas inferiores y con el borde de las originales. Verde: acumulación real; naranja: aviso; rojo: tiempo restante del aturdimiento, que se vacía al recuperarse. Ambas se dibujan dentro de la ROM, sin superponerlas al vídeo. La base conserva la reacción original de v5.
+
+[Ver grabación real con sonido](assets/media/hud-stun-v1/Barras-aturdimiento-juego-real.mp4) · [Captura de acumulación](assets/media/hud-stun-v1/Barras-acumulacion.png) · [Captura de recuperación](assets/media/hud-stun-v1/Barras-recuperacion.png) · [Integración y pruebas](docs/hud-stun-v1.md).
+
+Se retiran las etiquetas solicitadas y se corrigen las interferencias de las primeras pruebas. El contador global HITS sigue pendiente. Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version hud-stun-v1`. v6.6 permanece como opción predeterminada.
+
 ## Corrección experimental actual: reacción original al recibir golpes
 
 La prueba v5 retira las ayudas que prolongaban la reacción de daño y reiniciaban su animación en v4. Conserva el final completo de los ataques y deja actuar la reacción original del rival. Las rutas que dejan de conectar necesitan ajuste; no se fuerza el bloqueo para mantener un combo.
 
-[Detalle y comprobaciones](docs/combos-v5-native-stun.md) · [Combate de36 segundos con sonido](assets/media/combos-v5-native-stun/Goku-Vegeta-reaccion-original.mp4) · [Aturdimiento nativo y requisitos del HUD](docs/hud-hits-stun.md). El contador global y las dos barras de aturdimiento **siguen pendientes de integración en la ROM**. Se conservan las versiones anteriores para revisar; sus vídeos no representan esta corrección.
+[Detalle y comprobaciones](docs/combos-v5-native-stun.md) · [Combate de36 segundos con sonido](assets/media/combos-v5-native-stun/Goku-Vegeta-reaccion-original.mp4) · [Aturdimiento nativo y requisitos del HUD](docs/hud-hits-stun.md). El contador global HITS sigue pendiente; las barras ya están integradas en la prueba opcional [HUD v1](docs/hud-stun-v1.md). Se conservan las versiones anteriores para revisar; sus vídeos no representan esta corrección.
 
 Construcción: `pnpm build:review --rom ruta/a/original.bin --version combos-v5-native-stun`. La versión predeterminada sigue siendo v6.6.
 

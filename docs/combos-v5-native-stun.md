@@ -16,7 +16,7 @@ Los dos combates usan la misma estrategia automatizada, pero los botones posteri
 
 Pasan22 comparaciones de ataques independientes con el original,396 casos de cola/límites y374 del cambio de lado. La verificación estática comprueba que la llamada nativa de animación vuelve a estar activa, que no quedan escrituras de reinicio del cursor del rival en el parche y que se conserva el cálculo nativo de aturdimiento/daño y recuperación. Los ataques y su duración no se aceleran para forzar enlaces.
 
-**El contador global y las dos barras de aturdimiento todavía no están integrados en la ROM.** Quedan registrados en [los requisitos del HUD y la explicación del aturdimiento](hud-hits-stun.md). Los vídeos anteriores de contadores superpuestos no equivalen a esa implementación.
+Esta ROMv5no incluye HUD nuevo. Las dos barras sin texto ya están integradas en la prueba posterior [HUD v1](hud-stun-v1.md); el contador global de impactos sigue pendiente. Quedan registrados en [los requisitos del HUD y la explicación del aturdimiento](hud-hits-stun.md). Los vídeos anteriores de contadores superpuestos no equivalen a esa implementación.
 
 Construcción opcional: `pnpm build:review --rom ruta/a/original.bin --version combos-v5-native-stun`. v6.6 permanece como construcción predeterminada. Las versiones anteriores se conservan para comparar; sus vídeos no representan esta corrección. Arrancar sin estados guardados de otra versión.
 

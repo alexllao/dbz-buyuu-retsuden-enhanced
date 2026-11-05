@@ -1,0 +1,57 @@
+{
+  "targetSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "codeSha256": "ed91bd96b257ff11fbe34d9237bf60e434a28039e1289156bbe5b1b5b4128e1a",
+  "resourcesSha256": "11d1d7cde76cd315a2b91f02f44fb97ceef1f8c80da6976a146e241040574952",
+  "codeAndMapBytes": 478,
+  "decodedInstructionBytes": 462,
+  "mapBytes": 16,
+  "outsideAllowedChangedBytes": 0,
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      28344,
+      6
+    ],
+    [
+      28456,
+      6
+    ],
+    [
+      28700,
+      6
+    ],
+    [
+      28782,
+      10
+    ],
+    [
+      3866624,
+      478
+    ],
+    [
+      3883008,
+      5952
+    ]
+  ],
+  "preserved": {
+    "unsafeVBlankPath": true,
+    "nativeStunAndDamage": true,
+    "nativeAnimationTiming": true,
+    "nativeAnimationTables": true,
+    "comboCode": true,
+    "controlsAndAura": true,
+    "nativePalettes": true,
+    "titleAndIntro": true
+  },
+  "vramRange": [
+    "0xAF20",
+    "0xAFA0"
+  ],
+  "newRamAllocationBytes": 0,
+  "newSprites": 2,
+  "spriteCapacityGate": 78,
+  "labels": false
+}

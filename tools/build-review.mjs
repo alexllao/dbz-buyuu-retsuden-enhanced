@@ -8,11 +8,11 @@ async function main() {
   const args = process.argv.slice(2).filter(x => x !== '--');
   let input, version = 'v6.6';
   for (let i = 0; i < args.length; i += 2) {
-    if (!args[i + 1] || !['--rom', '--version'].includes(args[i])) throw new Error('Usa pnpm build:review --rom ruta/a/original.bin [--version combos-v5-native-stun|combos-v4-natural|combos-v3|combos-v2|combos-v1|v6.6|v6.5|v6.4|v6.3|v6.2|v6.1|v6|v5.2]');
+    if (!args[i + 1] || !['--rom', '--version'].includes(args[i])) throw new Error('Usa pnpm build:review --rom ruta/a/original.bin [--version hud-stun-v1|combos-v5-native-stun|combos-v4-natural|combos-v3|combos-v2|combos-v1|v6.6|v6.5|v6.4|v6.3|v6.2|v6.1|v6|v5.2]');
     if (args[i] === '--rom') input = args[i + 1]; else version = args[i + 1];
   }
-  const versions = { 'combos-v5-native-stun': 'combos-v5-native-stun', 'combos-v4-natural': 'combos-v4-natural', 'combos-v3': 'combos-v3', 'combos-v2': 'combos-v2', 'combos-v1': 'combos-v1', 'v6.6': 'review-v6-6', 'v6.5': 'review-v6-5', 'v6.4': 'review-v6-4', 'v6.3': 'review-v6-3', 'v6.2': 'review-v6-2', 'v6.1': 'review-v6-1', 'v6': 'review-v3', 'v5.2': 'review-v2' };
-  if (!input || !Object.hasOwn(versions, version)) throw new Error('Indica --rom y una versión admitida: v6.6, v6.5, v6.4, v6.3, v6.2, v6.1, v6, v5.2, combos-v1, combos-v2, combos-v3, combos-v4-natural o combos-v5-native-stun.');
+  const versions = { 'hud-stun-v1': 'hud-stun-v1', 'combos-v5-native-stun': 'combos-v5-native-stun', 'combos-v4-natural': 'combos-v4-natural', 'combos-v3': 'combos-v3', 'combos-v2': 'combos-v2', 'combos-v1': 'combos-v1', 'v6.6': 'review-v6-6', 'v6.5': 'review-v6-5', 'v6.4': 'review-v6-4', 'v6.3': 'review-v6-3', 'v6.2': 'review-v6-2', 'v6.1': 'review-v6-1', 'v6': 'review-v3', 'v5.2': 'review-v2' };
+  if (!input || !Object.hasOwn(versions, version)) throw new Error('Indica --rom y una versión admitida: v6.6, v6.5, v6.4, v6.3, v6.2, v6.1, v6, v5.2, combos-v1, combos-v2, combos-v3, combos-v4-natural, combos-v5-native-stun o hud-stun-v1.');
   const folder = versions[version];
   const manifest = JSON.parse(await readFile(resolve(root, `patches/${folder}/manifest.json`), 'utf8'));
   const source = await readFile(resolve(input));

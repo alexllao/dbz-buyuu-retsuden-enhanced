@@ -1,0 +1,7 @@
+from pathlib import Path
+import subprocess,sys,json,hashlib,concurrent.futures
+P=Path('work/stun-hud');rom=str(P/'candidate.bin');sha=hashlib.sha256(Path(rom).read_bytes()).hexdigest()
+def run(c):
+ r=subprocess.run([sys.executable,str(P/'verify_runtime.py'),rom,str(c),'main'],capture_output=True,text=True);d=json.loads((P/f'verification/main-{c}/report.json').read_text());print(c,r.returncode,d['passed'],flush=True);return {'cid':c,'passed':r.returncode==0 and d['passed'],'samples':d['samples']}
+with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:jobs=list(pool.map(run,range(11)))
+report={'romSha256':sha,'passed':all(j['passed'] for j in jobs),'characters':11,'frames':13200,'samples':sum(len(j['samples']) for j in jobs),'jobs':jobs,'scope':'Native menu selection, both human actors. Simultaneous charge/auras, release, jumping and actual attack commands; no HP,stun,timer,action forcing. Native VRAM samples verify bar pixels against current/prior stun state and actual recovery timer; SAT/label checks.','limits':['Both actors on stage0; all palette-common bar colors are unchanged common indices','If native list exceeds76 entries, HUD is skipped to respect80-sprite hardware capacity; not observed in these cases','Global HIT counter remains separate and not implemented']};(P/'runtime-validation.json').write_text(json.dumps(report,indent=2),encoding='utf8');print('RUNTIME_MATRIX',report['passed']);assert report['passed']

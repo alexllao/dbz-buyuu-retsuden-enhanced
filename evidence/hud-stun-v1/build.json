@@ -1,0 +1,8 @@
+{
+  "sourceSha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+  "targetSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "codeBytes": 478,
+  "resourcesBytes": 5952,
+  "vram": "AF20..AFA0: four pattern tiles, no labels",
+  "sat": "Two sprites prepended during native transfer, native head clear/attribute preserved afterwards; no persistent game RAM reserved"
+}

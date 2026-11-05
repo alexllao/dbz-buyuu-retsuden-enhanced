@@ -9,6 +9,35 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const stunHud = await json('patches/hud-stun-v1/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, stunHud.patch.path))), stunHud.patch.sha256);
+for (const name of ['runtime-validation', 'side-regression']) {
+  const report = await json(`evidence/hud-stun-v1/${name}.json`);
+  assert(report.passed);
+  assert.equal(report.romSha256, stunHud.target.sha256);
+}
+const stunHudTiming = await json('evidence/hud-stun-v1/timing-validation.json');
+assert(stunHudTiming.passed && stunHudTiming.cases.length === 22);
+assert.equal(stunHudTiming.targetSha256, stunHud.target.sha256);
+const stunHudGraphics = await json('evidence/hud-stun-v1/graphics-validation.json');
+assert(stunHudGraphics.passed && stunHudGraphics.fixedNativeHudIdenticalFrames === stunHudGraphics.frames);
+assert.equal(stunHudGraphics.targetSha256, stunHud.target.sha256);
+const visibleStunHud = await json('evidence/hud-stun-v1/visible-bars-validation.json');
+assert(visibleStunHud.passed && visibleStunHud.samples.length === 16);
+assert.equal(visibleStunHud.romSha256, stunHud.target.sha256);
+const stunHudStatic = await json('evidence/hud-stun-v1/static-validation.json');
+assert.equal(stunHudStatic.targetSha256, stunHud.target.sha256);
+assert.equal(stunHudStatic.outsideAllowedChangedBytes, 0);
+assert(!stunHudStatic.labels && stunHudStatic.newSprites === 2 && stunHudStatic.newRamAllocationBytes === 0);
+assert(Object.values(stunHudStatic.preserved).every(Boolean));
+const stunHudCode = Buffer.from((await readFile(resolve(root, 'src/hud/stun-v1/bars.hex'), 'utf8')).trim(), 'hex');
+const stunHudResources = Buffer.from((await readFile(resolve(root, 'src/hud/stun-v1/resources.hex'), 'utf8')).trim(), 'hex');
+assert.equal(sha256(stunHudCode), stunHudStatic.codeSha256);
+assert.equal(sha256(stunHudResources), stunHudStatic.resourcesSha256);
+const stunHudMedia = await json('evidence/hud-stun-v1/media-validation.json');
+assert.equal(stunHudMedia.romSha256, stunHud.target.sha256);
+assert(stunHudMedia.nativeHudIntegrated && !stunHudMedia.postproductionHud && !stunHudMedia.labels);
+for (const item of stunHudMedia.files) assert.equal(sha256(await readFile(resolve(root, item.path))), item.sha256);
 const nativeStunCombo = await json('patches/combos-v5-native-stun/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, nativeStunCombo.patch.path))), nativeStunCombo.patch.sha256);
 for (const name of ['matrix', 'side-regression']) {

@@ -1,0 +1,50 @@
+{
+  "graphicsBase": "0x3B4000",
+  "vramBase": "0xAF20",
+  "physicalTiles": [
+    "0x579",
+    "0x57A",
+    "0x57B",
+    "0x57C"
+  ],
+  "halfResourceBytes": 64,
+  "levels": 31,
+  "modes": [
+    {
+      "index": 0,
+      "colorIndex": 12,
+      "meaning": "green accumulated stun"
+    },
+    {
+      "index": 1,
+      "colorIndex": 8,
+      "meaning": "orange warning around3/4 threshold"
+    },
+    {
+      "index": 2,
+      "colorIndex": 10,
+      "meaning": "red remaining native dizzy timer"
+    }
+  ],
+  "borderColor": 15,
+  "emptyColor": 14,
+  "sizePixels": [
+    32,
+    4
+  ],
+  "positions": {
+    "p1": [
+      10,
+      220
+    ],
+    "p2": [
+      278,
+      220
+    ]
+  },
+  "label": null,
+  "palette": 3,
+  "recoveryDenominator": "360 * native inverse speed E758 >>8",
+  "accumulationDenominator": "actor+54",
+  "snapshotFormat": "Per-level four half-tiles16bytes; at upload combine P1 upper rows and P2 reversed lower rows, then flip P2 sprite"
+}

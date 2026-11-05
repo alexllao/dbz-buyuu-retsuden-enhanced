@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+  "targetSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "frames": 2157,
+  "fixedNativeHudIdenticalFrames": 2157,
+  "differentFrames": [],
+  "nativeAssetHashesMatch": {
+    "stage": true,
+    "nativeCommonHud": true
+  },
+  "samplesPerVariant": 18,
+  "scope": "Raw native upper26-pixel display, excluding changing health/ki fill interiors and markers. Stage graphics0..5C00 and commonHUD graphicsA000..A260 compared across full fight; gameplay state adapts to timing, no cycle exact claim.",
+  "passed": true
+}

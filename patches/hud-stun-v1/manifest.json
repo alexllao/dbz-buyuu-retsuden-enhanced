@@ -1,0 +1,19 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_HUD_Barras_v1.bin",
+    "sha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/hud-stun-v1/hud-stun-v1.ips",
+    "sha256": "552bad05f4d7d65054f1110220463bc2a85be0647fa8a60246afd26b526a8bc5"
+  },
+  "experimental": true,
+  "defaultBuildUnchanged": "v6.6",
+  "scope": "Two native32x4 lower-corner stun meters without text; green accumulation, orange warning, red remaining native dizzy recovery. No actor writes or gameplay timing changes. Global HITS counter not included."
+}

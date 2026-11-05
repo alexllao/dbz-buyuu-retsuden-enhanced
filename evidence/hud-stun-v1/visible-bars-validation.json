@@ -1,0 +1,167 @@
+{
+  "romSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "passed": true,
+  "samples": [
+    {
+      "frame": 120,
+      "player": 1,
+      "nativeStun": 0,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 120,
+      "player": 2,
+      "nativeStun": 0,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 300,
+      "player": 1,
+      "nativeStun": 4,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 5,
+      "visibleFillPixels": 5,
+      "passed": true
+    },
+    {
+      "frame": 300,
+      "player": 2,
+      "nativeStun": 7,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 10,
+      "visibleFillPixels": 10,
+      "passed": true
+    },
+    {
+      "frame": 610,
+      "player": 1,
+      "nativeStun": 11,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 15,
+      "visibleFillPixels": 15,
+      "passed": true
+    },
+    {
+      "frame": 610,
+      "player": 2,
+      "nativeStun": 18,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 25,
+      "visibleFillPixels": 25,
+      "passed": true
+    },
+    {
+      "frame": 780,
+      "player": 1,
+      "nativeStun": 0,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 780,
+      "player": 2,
+      "nativeStun": 21,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 331,
+      "expectedFillPixels": 27,
+      "visibleFillPixels": 27,
+      "passed": true
+    },
+    {
+      "frame": 1000,
+      "player": 1,
+      "nativeStun": 0,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 1000,
+      "player": 2,
+      "nativeStun": 21,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 166,
+      "expectedFillPixels": 13,
+      "visibleFillPixels": 13,
+      "passed": true
+    },
+    {
+      "frame": 1350,
+      "player": 1,
+      "nativeStun": 0,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 1350,
+      "player": 2,
+      "nativeStun": 0,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 1800,
+      "player": 1,
+      "nativeStun": 18,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 24,
+      "visibleFillPixels": 24,
+      "passed": true
+    },
+    {
+      "frame": 1800,
+      "player": 2,
+      "nativeStun": 14,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 20,
+      "visibleFillPixels": 20,
+      "passed": true
+    },
+    {
+      "frame": 2100,
+      "player": 1,
+      "nativeStun": 0,
+      "nativeThreshold": 22,
+      "nativeRemainingTimer": 0,
+      "expectedFillPixels": 0,
+      "visibleFillPixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 2100,
+      "player": 2,
+      "nativeStun": 21,
+      "nativeThreshold": 21,
+      "nativeRemainingTimer": 250,
+      "expectedFillPixels": 20,
+      "visibleFillPixels": 20,
+      "passed": true
+    }
+  ],
+  "scope": "Actual clean PNG framebuffer pixels of both lower bars at8 moments including native dizzy recovery; compare visible colored interior pixels with native state, allow1pixel for display sampling latency"
+}

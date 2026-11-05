@@ -496,9 +496,26 @@
     "docs": "docs/combos-v5-native-stun.md"
   },
   "globalHudRequested": {
-    "status": "Requirements confirmed, not integrated in ROM yet",
+    "status": "Stun bars implemented in optional HUD v1; global HITS counter still pending",
     "hits": "Per-player counter for any accepted hit, including multihit normals/specials/projectiles and standalone Meteor; do not restrict to new basic chain or infer only from HP subtraction",
-    "stunBars": "Two bottom meters, one left and one right, reading native accumulator51/threshold54; active-state indicator from actual timer36, not visual action alone",
+    "stunBars": "Two lower-corner32x4 native sprites, white border, no text. Green accumulation, orange warning, red remaining native dizzy recovery. No actor writes.",
     "limits": "No fake impact increments from repeated poses/particles; no extra gameplay stun added to sustain display; separate cinematic authored impact events from deferred HP application; distinguish single dizzy episode interrupted by hits from a new trigger"
+  },
+  "stunBarsV1": {
+    "status": "Implemented and emulator-verified; user visual/manual validation pending",
+    "base": "Combos v5 native reaction",
+    "romSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+    "textLabels": false,
+    "spriteSlots": 2,
+    "memory": "No persistent RAM; four unused graphics tilesAF20..AFA0 only",
+    "nativeValues": [
+      "actor+51 accumulator",
+      "actor+54 threshold",
+      "actor+36 actual dizzy timer"
+    ],
+    "recovery": "Native remaining timer depletes red meter; original periodic accumulator clear reflected directly, no invented gradual decay",
+    "graphicsFix": "No window-table reuse, no VRAM writes in unsafe6EE8 path; original upper HUD fixed pixels and native stage/commonHUD assets compare equal across36sec audit",
+    "counterHits": "Pending separate integration",
+    "docs": "docs/hud-stun-v1.md"
   }
 }

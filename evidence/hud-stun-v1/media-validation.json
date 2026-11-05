@@ -1,0 +1,25 @@
+{
+  "romSha256": "77a96c84885905d7d0792c1612260a30fd1a7b49192051a47f4be3d4381bb18c",
+  "nativeHudIntegrated": true,
+  "postproductionHud": false,
+  "labels": false,
+  "counterHitsIncluded": false,
+  "frames": 2157,
+  "fps": 59.92274340431231,
+  "nativeAudio": true,
+  "crop": "Only removed48pixel external title strip; no game pixels or time scaling altered",
+  "files": [
+    {
+      "path": "assets/media/hud-stun-v1/Barras-aturdimiento-juego-real.mp4",
+      "sha256": "b5dcf98c4d91631273096fbc83e9529e1d6e2666575fa74147aadacd28722159"
+    },
+    {
+      "path": "assets/media/hud-stun-v1/Barras-acumulacion.png",
+      "sha256": "b0f01671ef24fdc7a5eca2ff043173d77105ecc975c993da7e05080ba4331dfe"
+    },
+    {
+      "path": "assets/media/hud-stun-v1/Barras-recuperacion.png",
+      "sha256": "ebddc0a556b9df1565f03f6502613bf20991a405767b56c73cfb1caaf69c2c0c"
+    }
+  ]
+}
