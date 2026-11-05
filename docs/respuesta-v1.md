@@ -1,5 +1,7 @@
 # Respuesta v1: carga, buffer, cancels y comandos de Goku
 
+**Actualización 5/11/2026:** la prueba actual es [Respuesta v2: entradas, frenada, saltos y tercera bola](respuesta-v2.md). Incluye los comandos de Goku elegidos y la separación de la memoria del parche; esta sección anterior se conserva como historial.
+
 ROM experimental de mando, 5 de noviembre de 2026. Parte de HUD HITS v3 y conserva sus gráficos. **HITS y stun tienen discrepancias comunicadas por el usuario y quedan pendientes: esta revisión no cambia sus rutinas.**
 
 [Vídeo real con sonido: antes/después y todos los especiales de Goku](../assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4). Duración aproximada: 1:28. Son mandos automatizados a velocidad normal; sin acelerar las animaciones. Cada técnica parte de un estado preparado y se deja terminar; no es un combate continuo.

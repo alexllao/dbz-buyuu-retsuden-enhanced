@@ -1,5 +1,7 @@
 # ROM de pruebas de jugabilidad — HUD HITS v3
 
+**Actualización 5/11/2026:** la prueba actual es [Respuesta v2: entradas, frenada, saltos y tercera bola](respuesta-v2.md). Incluye los comandos de Goku elegidos y la separación de la memoria del parche; esta sección anterior se conserva como historial.
+
 Esta es la última ROM de jugabilidad implementada. Se entrega para la prueba manual del usuario; no es una versión nueva del motor respecto a HUD HITS v3.
 
 ## Cómo empezar

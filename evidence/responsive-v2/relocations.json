@@ -1,0 +1,1352 @@
+{
+  "delta": 3072,
+  "p1": "F462..F483",
+  "p2": "F58A..F5AB",
+  "count": 168,
+  "entries": [
+    {
+      "address": 503894,
+      "bytes": 4,
+      "original": "1c280108",
+      "patched": "1c280d08",
+      "instruction": "move.b $108(a0), d6",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503910,
+      "bytes": 4,
+      "original": "42a80108",
+      "patched": "42a80d08",
+      "instruction": "clr.l $108(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503914,
+      "bytes": 4,
+      "original": "42a8010c",
+      "patched": "42a80d0c",
+      "instruction": "clr.l $10c(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503918,
+      "bytes": 6,
+      "original": "117c00c70108",
+      "patched": "117c00c70d08",
+      "instruction": "move.b #$c7, $108(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503932,
+      "bytes": 4,
+      "original": "1228010b",
+      "patched": "12280d0b",
+      "instruction": "move.b $10b(a0), d1",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503942,
+      "bytes": 4,
+      "original": "4228010c",
+      "patched": "42280d0c",
+      "instruction": "clr.b $10c(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503946,
+      "bytes": 4,
+      "original": "1140010b",
+      "patched": "11400d0b",
+      "instruction": "move.b d0, $10b(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503982,
+      "bytes": 6,
+      "original": "11680004010f",
+      "patched": "116800040d0f",
+      "instruction": "move.b $4(a0), $10f(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503988,
+      "bytes": 6,
+      "original": "117c0002010e",
+      "patched": "117c00020d0e",
+      "instruction": "move.b #$2, $10e(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 503998,
+      "bytes": 4,
+      "original": "4228010e",
+      "patched": "42280d0e",
+      "instruction": "clr.b $10e(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504018,
+      "bytes": 4,
+      "original": "42280109",
+      "patched": "42280d09",
+      "instruction": "clr.b $109(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504022,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504026,
+      "bytes": 4,
+      "original": "4a280109",
+      "patched": "4a280d09",
+      "instruction": "tst.b $109(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504034,
+      "bytes": 4,
+      "original": "53280109",
+      "patched": "53280d09",
+      "instruction": "subq.b #$1, $109(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504042,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504052,
+      "bytes": 4,
+      "original": "4a280109",
+      "patched": "4a280d09",
+      "instruction": "tst.b $109(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504060,
+      "bytes": 4,
+      "original": "1228010a",
+      "patched": "12280d0a",
+      "instruction": "move.b $10a(a0), d1",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504080,
+      "bytes": 4,
+      "original": "42280109",
+      "patched": "42280d09",
+      "instruction": "clr.b $109(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504084,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504168,
+      "bytes": 4,
+      "original": "1142010a",
+      "patched": "11420d0a",
+      "instruction": "move.b d2, $10a(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504172,
+      "bytes": 6,
+      "original": "117c00060109",
+      "patched": "117c00060d09",
+      "instruction": "move.b #$6, $109(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504180,
+      "bytes": 4,
+      "original": "1c280108",
+      "patched": "1c280d08",
+      "instruction": "move.b $108(a0), d6",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504196,
+      "bytes": 4,
+      "original": "42a80108",
+      "patched": "42a80d08",
+      "instruction": "clr.l $108(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504200,
+      "bytes": 4,
+      "original": "42a8010c",
+      "patched": "42a80d0c",
+      "instruction": "clr.l $10c(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504262,
+      "bytes": 4,
+      "original": "1c280108",
+      "patched": "1c280d08",
+      "instruction": "move.b $108(a0), d6",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504338,
+      "bytes": 4,
+      "original": "1141010d",
+      "patched": "11410d0d",
+      "instruction": "move.b d1, $10d(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504350,
+      "bytes": 4,
+      "original": "4a28010c",
+      "patched": "4a280d0c",
+      "instruction": "tst.b $10c(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504420,
+      "bytes": 6,
+      "original": "117c0001010c",
+      "patched": "117c00010d0c",
+      "instruction": "move.b #$1, $10c(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504426,
+      "bytes": 6,
+      "original": "117c0001010d",
+      "patched": "117c00010d0d",
+      "instruction": "move.b #$1, $10d(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504434,
+      "bytes": 4,
+      "original": "4228010d",
+      "patched": "42280d0d",
+      "instruction": "clr.b $10d(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504484,
+      "bytes": 4,
+      "original": "1c280108",
+      "patched": "1c280d08",
+      "instruction": "move.b $108(a0), d6",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504526,
+      "bytes": 4,
+      "original": "4a28010e",
+      "patched": "4a280d0e",
+      "instruction": "tst.b $10e(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504534,
+      "bytes": 4,
+      "original": "5328010e",
+      "patched": "53280d0e",
+      "instruction": "subq.b #$1, $10e(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504544,
+      "bytes": 4,
+      "original": "1a28010f",
+      "patched": "1a280d0f",
+      "instruction": "move.b $10f(a0), d5",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504554,
+      "bytes": 4,
+      "original": "4228010e",
+      "patched": "42280d0e",
+      "instruction": "clr.b $10e(a0)",
+      "source": "work/side-switch/controls-v3.listing.txt"
+    },
+    {
+      "address": 504832,
+      "bytes": 4,
+      "original": "4a38e874",
+      "patched": "4a38f474",
+      "instruction": "tst.b $e874.w",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504862,
+      "bytes": 6,
+      "original": "0c2800c20110",
+      "patched": "0c2800c20d10",
+      "instruction": "cmpi.b #$c2, $110(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504872,
+      "bytes": 6,
+      "original": "117c00c20110",
+      "patched": "117c00c20d10",
+      "instruction": "move.b #$c2, $110(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504878,
+      "bytes": 4,
+      "original": "42280111",
+      "patched": "42280d11",
+      "instruction": "clr.b $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504882,
+      "bytes": 6,
+      "original": "3178e6a80112",
+      "patched": "3178e6a80d12",
+      "instruction": "move.w $e6a8.w, $112(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504888,
+      "bytes": 6,
+      "original": "316800240114",
+      "patched": "316800240d14",
+      "instruction": "move.w $24(a0), $114(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504898,
+      "bytes": 4,
+      "original": "b0680114",
+      "patched": "b0680d14",
+      "instruction": "cmp.w $114(a0), d0",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504906,
+      "bytes": 4,
+      "original": "31400114",
+      "patched": "31400d14",
+      "instruction": "move.w d0, $114(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504916,
+      "bytes": 4,
+      "original": "98680112",
+      "patched": "98680d12",
+      "instruction": "sub.w $112(a0), d4",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504920,
+      "bytes": 4,
+      "original": "31420112",
+      "patched": "31420d12",
+      "instruction": "move.w d2, $112(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504932,
+      "bytes": 4,
+      "original": "42280111",
+      "patched": "42280d11",
+      "instruction": "clr.b $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 504982,
+      "bytes": 6,
+      "original": "117c00800111",
+      "patched": "117c00800d11",
+      "instruction": "move.b #$80, $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505010,
+      "bytes": 6,
+      "original": "0c2800800111",
+      "patched": "0c2800800d11",
+      "instruction": "cmpi.b #$80, $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505020,
+      "bytes": 6,
+      "original": "117c000c0111",
+      "patched": "117c000c0d11",
+      "instruction": "move.b #$c, $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505034,
+      "bytes": 4,
+      "original": "10280111",
+      "patched": "10280d11",
+      "instruction": "move.b $111(a0), d0",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505048,
+      "bytes": 4,
+      "original": "11400111",
+      "patched": "11400d11",
+      "instruction": "move.b d0, $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505294,
+      "bytes": 4,
+      "original": "31400114",
+      "patched": "31400d14",
+      "instruction": "move.w d0, $114(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505298,
+      "bytes": 4,
+      "original": "42280111",
+      "patched": "42280d11",
+      "instruction": "clr.b $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505308,
+      "bytes": 4,
+      "original": "42280111",
+      "patched": "42280d11",
+      "instruction": "clr.b $111(a0)",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505500,
+      "bytes": 4,
+      "original": "4238e874",
+      "patched": "4238f474",
+      "instruction": "clr.b $e874.w",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505508,
+      "bytes": 6,
+      "original": "11fc0001e874",
+      "patched": "11fc0001f474",
+      "instruction": "move.b #$1, $e874.w",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 505526,
+      "bytes": 6,
+      "original": "11fc0001e874",
+      "patched": "11fc0001f474",
+      "instruction": "move.b #$1, $e874.w",
+      "source": "work/auras/colors-v4/aura.listing.txt"
+    },
+    {
+      "address": 3997798,
+      "bytes": 4,
+      "original": "14280106",
+      "patched": "14280d06",
+      "instruction": "move.b $106(a0), d2",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997814,
+      "bytes": 4,
+      "original": "42a80104",
+      "patched": "42a80d04",
+      "instruction": "clr.l $104(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997818,
+      "bytes": 6,
+      "original": "117c00880106",
+      "patched": "117c00880d06",
+      "instruction": "move.b #$88, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997824,
+      "bytes": 6,
+      "original": "316900240104",
+      "patched": "316900240d04",
+      "instruction": "move.w $24(a1), $104(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997830,
+      "bytes": 4,
+      "original": "30280104",
+      "patched": "30280d04",
+      "instruction": "move.w $104(a0), d0",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997838,
+      "bytes": 4,
+      "original": "31410104",
+      "patched": "31410d04",
+      "instruction": "move.w d1, $104(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997888,
+      "bytes": 6,
+      "original": "082800060106",
+      "patched": "082800060d06",
+      "instruction": "btst.b #$6, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997918,
+      "bytes": 4,
+      "original": "14280106",
+      "patched": "14280d06",
+      "instruction": "move.b $106(a0), d2",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997934,
+      "bytes": 6,
+      "original": "082800020106",
+      "patched": "082800020d06",
+      "instruction": "btst.b #$2, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997944,
+      "bytes": 6,
+      "original": "082800070107",
+      "patched": "082800070d07",
+      "instruction": "btst.b #$7, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997964,
+      "bytes": 6,
+      "original": "08a800070107",
+      "patched": "08a800070d07",
+      "instruction": "bclr.b #$7, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997982,
+      "bytes": 6,
+      "original": "082800050106",
+      "patched": "082800050d06",
+      "instruction": "btst.b #$5, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3997992,
+      "bytes": 4,
+      "original": "1c280107",
+      "patched": "1c280d07",
+      "instruction": "move.b $107(a0), d6",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998020,
+      "bytes": 4,
+      "original": "14280107",
+      "patched": "14280d07",
+      "instruction": "move.b $107(a0), d2",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998054,
+      "bytes": 6,
+      "original": "08a800020106",
+      "patched": "08a800020d06",
+      "instruction": "bclr.b #$2, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998060,
+      "bytes": 4,
+      "original": "42280107",
+      "patched": "42280d07",
+      "instruction": "clr.b $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998064,
+      "bytes": 6,
+      "original": "082800050106",
+      "patched": "082800050d06",
+      "instruction": "btst.b #$5, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998074,
+      "bytes": 4,
+      "original": "4a280107",
+      "patched": "4a280d07",
+      "instruction": "tst.b $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998082,
+      "bytes": 4,
+      "original": "53280107",
+      "patched": "53280d07",
+      "instruction": "subq.b #$1, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998146,
+      "bytes": 6,
+      "original": "08e800040106",
+      "patched": "08e800040d06",
+      "instruction": "bset.b #$4, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998152,
+      "bytes": 6,
+      "original": "117c00240107",
+      "patched": "117c00240d07",
+      "instruction": "move.b #$24, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998158,
+      "bytes": 4,
+      "original": "14280106",
+      "patched": "14280d06",
+      "instruction": "move.b $106(a0), d2",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998184,
+      "bytes": 6,
+      "original": "082800040106",
+      "patched": "082800040d06",
+      "instruction": "btst.b #$4, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998194,
+      "bytes": 4,
+      "original": "4a280107",
+      "patched": "4a280d07",
+      "instruction": "tst.b $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998272,
+      "bytes": 4,
+      "original": "4a280109",
+      "patched": "4a280d09",
+      "instruction": "tst.b $109(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998280,
+      "bytes": 4,
+      "original": "1428010a",
+      "patched": "14280d0a",
+      "instruction": "move.b $10a(a0), d2",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998334,
+      "bytes": 4,
+      "original": "16280106",
+      "patched": "16280d06",
+      "instruction": "move.b $106(a0), d3",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998350,
+      "bytes": 4,
+      "original": "52280106",
+      "patched": "52280d06",
+      "instruction": "addq.b #$1, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998354,
+      "bytes": 6,
+      "original": "08a800040106",
+      "patched": "08a800040d06",
+      "instruction": "bclr.b #$4, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998360,
+      "bytes": 6,
+      "original": "08e800020106",
+      "patched": "08e800020d06",
+      "instruction": "bset.b #$2, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998366,
+      "bytes": 4,
+      "original": "11420107",
+      "patched": "11420d07",
+      "instruction": "move.b d2, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998472,
+      "bytes": 6,
+      "original": "08e800050106",
+      "patched": "08e800050d06",
+      "instruction": "bset.b #$5, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998478,
+      "bytes": 6,
+      "original": "08e800020106",
+      "patched": "08e800020d06",
+      "instruction": "bset.b #$2, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998484,
+      "bytes": 6,
+      "original": "08a800040106",
+      "patched": "08a800040d06",
+      "instruction": "bclr.b #$4, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998490,
+      "bytes": 4,
+      "original": "11460107",
+      "patched": "11460d07",
+      "instruction": "move.b d6, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998512,
+      "bytes": 4,
+      "original": "42280109",
+      "patched": "42280d09",
+      "instruction": "clr.b $109(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998516,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998538,
+      "bytes": 6,
+      "original": "08e800060106",
+      "patched": "08e800060d06",
+      "instruction": "bset.b #$6, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998544,
+      "bytes": 6,
+      "original": "08a800020106",
+      "patched": "08a800020d06",
+      "instruction": "bclr.b #$2, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998550,
+      "bytes": 4,
+      "original": "42280107",
+      "patched": "42280d07",
+      "instruction": "clr.b $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998574,
+      "bytes": 4,
+      "original": "52280107",
+      "patched": "52280d07",
+      "instruction": "addq.b #$1, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998578,
+      "bytes": 6,
+      "original": "0c2800060107",
+      "patched": "0c2800060d07",
+      "instruction": "cmpi.b #$6, $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998588,
+      "bytes": 6,
+      "original": "117c00880106",
+      "patched": "117c00880d06",
+      "instruction": "move.b #$88, $106(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998594,
+      "bytes": 4,
+      "original": "42280107",
+      "patched": "42280d07",
+      "instruction": "clr.b $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998600,
+      "bytes": 4,
+      "original": "42280107",
+      "patched": "42280d07",
+      "instruction": "clr.b $107(a0)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998756,
+      "bytes": 4,
+      "original": "162b0106",
+      "patched": "162b0d06",
+      "instruction": "move.b $106(a3), d3",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998772,
+      "bytes": 6,
+      "original": "082b00020106",
+      "patched": "082b00020d06",
+      "instruction": "btst.b #$2, $106(a3)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998782,
+      "bytes": 6,
+      "original": "082b00050106",
+      "patched": "082b00050d06",
+      "instruction": "btst.b #$5, $106(a3)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998792,
+      "bytes": 6,
+      "original": "082b00040106",
+      "patched": "082b00040d06",
+      "instruction": "btst.b #$4, $106(a3)",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 3998802,
+      "bytes": 4,
+      "original": "162b0106",
+      "patched": "162b0d06",
+      "instruction": "move.b $106(a3), d3",
+      "source": "work/native-stun-fix/combos-v5.listing.txt"
+    },
+    {
+      "address": 4063358,
+      "bytes": 4,
+      "original": "10280108",
+      "patched": "10280d08",
+      "instruction": "move.b $108(a0), d0",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063374,
+      "bytes": 6,
+      "original": "082800030108",
+      "patched": "082800030d08",
+      "instruction": "btst.b #$3, $108(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063682,
+      "bytes": 4,
+      "original": "11400117",
+      "patched": "11400d17",
+      "instruction": "move.b d0, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063734,
+      "bytes": 4,
+      "original": "42280109",
+      "patched": "42280d09",
+      "instruction": "clr.b $109(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063738,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063742,
+      "bytes": 4,
+      "original": "4228010e",
+      "patched": "42280d0e",
+      "instruction": "clr.b $10e(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063746,
+      "bytes": 6,
+      "original": "08e800030108",
+      "patched": "08e800030d08",
+      "instruction": "bset.b #$3, $108(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063782,
+      "bytes": 6,
+      "original": "08a800030108",
+      "patched": "08a800030d08",
+      "instruction": "bclr.b #$3, $108(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063796,
+      "bytes": 6,
+      "original": "0c2800cf0108",
+      "patched": "0c2800cf0d08",
+      "instruction": "cmpi.b #$cf, $108(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063844,
+      "bytes": 6,
+      "original": "082800070117",
+      "patched": "082800070d17",
+      "instruction": "btst.b #$7, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063854,
+      "bytes": 6,
+      "original": "117c00800117",
+      "patched": "117c00800d17",
+      "instruction": "move.b #$80, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063860,
+      "bytes": 6,
+      "original": "082800060117",
+      "patched": "082800060d17",
+      "instruction": "btst.b #$6, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063878,
+      "bytes": 4,
+      "original": "14280117",
+      "patched": "14280d17",
+      "instruction": "move.b $117(a0), d2",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063882,
+      "bytes": 6,
+      "original": "022800870117",
+      "patched": "022800870d17",
+      "instruction": "andi.b #$87, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063962,
+      "bytes": 6,
+      "original": "022900f80117",
+      "patched": "022900f80d17",
+      "instruction": "andi.b #$f8, $117(a1)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063968,
+      "bytes": 6,
+      "original": "002900860117",
+      "patched": "002900860d17",
+      "instruction": "ori.b #$86, $117(a1)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4063984,
+      "bytes": 4,
+      "original": "10280117",
+      "patched": "10280d17",
+      "instruction": "move.b $117(a0), d0",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4064004,
+      "bytes": 6,
+      "original": "022800f80117",
+      "patched": "022800f80d17",
+      "instruction": "andi.b #$f8, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4064018,
+      "bytes": 4,
+      "original": "53280117",
+      "patched": "53280d17",
+      "instruction": "subq.b #$1, $117(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4064032,
+      "bytes": 4,
+      "original": "10280117",
+      "patched": "10280d17",
+      "instruction": "move.b $117(a0), d0",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4064094,
+      "bytes": 4,
+      "original": "42280109",
+      "patched": "42280d09",
+      "instruction": "clr.b $109(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 4064098,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/teleport-advantage/side.listing.txt"
+    },
+    {
+      "address": 3867006,
+      "bytes": 4,
+      "original": "1238e87e",
+      "patched": "1238f47e",
+      "instruction": "move.b $e87e.w, d1",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867022,
+      "bytes": 4,
+      "original": "1238e9a6",
+      "patched": "1238f5a6",
+      "instruction": "move.b $e9a6.w, d1",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867036,
+      "bytes": 4,
+      "original": "b238e881",
+      "patched": "b238f481",
+      "instruction": "cmp.b $e881.w, d1",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867044,
+      "bytes": 4,
+      "original": "11c1e881",
+      "patched": "11c1f481",
+      "instruction": "move.b d1, $e881.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867354,
+      "bytes": 6,
+      "original": "082800070120",
+      "patched": "082800070d20",
+      "instruction": "btst.b #$7, $120(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867364,
+      "bytes": 4,
+      "original": "42a80120",
+      "patched": "42a80d20",
+      "instruction": "clr.l $120(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867368,
+      "bytes": 4,
+      "original": "42680124",
+      "patched": "42680d24",
+      "instruction": "clr.w $124(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867372,
+      "bytes": 6,
+      "original": "117c00800120",
+      "patched": "117c00800d20",
+      "instruction": "move.b #$80, $120(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867386,
+      "bytes": 4,
+      "original": "4a280121",
+      "patched": "4a280d21",
+      "instruction": "tst.b $121(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867442,
+      "bytes": 4,
+      "original": "53280121",
+      "patched": "53280d21",
+      "instruction": "subq.b #$1, $121(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867450,
+      "bytes": 4,
+      "original": "4a280124",
+      "patched": "4a280d24",
+      "instruction": "tst.b $124(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867458,
+      "bytes": 4,
+      "original": "53280124",
+      "patched": "53280d24",
+      "instruction": "subq.b #$1, $124(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867466,
+      "bytes": 4,
+      "original": "42280122",
+      "patched": "42280d22",
+      "instruction": "clr.b $122(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867474,
+      "bytes": 4,
+      "original": "42280122",
+      "patched": "42280d22",
+      "instruction": "clr.b $122(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867478,
+      "bytes": 4,
+      "original": "42680124",
+      "patched": "42680d24",
+      "instruction": "clr.w $124(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867542,
+      "bytes": 4,
+      "original": "4a290121",
+      "patched": "4a290d21",
+      "instruction": "tst.b $121(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867550,
+      "bytes": 4,
+      "original": "4a290122",
+      "patched": "4a290d22",
+      "instruction": "tst.b $122(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867558,
+      "bytes": 4,
+      "original": "10290120",
+      "patched": "10290d20",
+      "instruction": "move.b $120(a1), d0",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867584,
+      "bytes": 4,
+      "original": "13400120",
+      "patched": "13400d20",
+      "instruction": "move.b d0, $120(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867588,
+      "bytes": 6,
+      "original": "137c005a0121",
+      "patched": "137c005a0d21",
+      "instruction": "move.b #$5a, $121(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867594,
+      "bytes": 6,
+      "original": "137c00010122",
+      "patched": "137c00010d22",
+      "instruction": "move.b #$1, $122(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867600,
+      "bytes": 6,
+      "original": "337c1e000124",
+      "patched": "337c1e000d24",
+      "instruction": "move.w #$1e00, $124(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867606,
+      "bytes": 4,
+      "original": "42280121",
+      "patched": "42280d21",
+      "instruction": "clr.b $121(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867610,
+      "bytes": 4,
+      "original": "42280122",
+      "patched": "42280d22",
+      "instruction": "clr.b $122(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867712,
+      "bytes": 4,
+      "original": "4a38e87f",
+      "patched": "4a38f47f",
+      "instruction": "tst.b $e87f.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867720,
+      "bytes": 4,
+      "original": "1238e87e",
+      "patched": "1238f47e",
+      "instruction": "move.b $e87e.w, d1",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867740,
+      "bytes": 4,
+      "original": "4a38e9a7",
+      "patched": "4a38f5a7",
+      "instruction": "tst.b $e9a7.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867748,
+      "bytes": 4,
+      "original": "1238e9a6",
+      "patched": "1238f5a6",
+      "instruction": "move.b $e9a6.w, d1",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867784,
+      "bytes": 4,
+      "original": "42b8e87e",
+      "patched": "42b8f47e",
+      "instruction": "clr.l $e87e.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867788,
+      "bytes": 4,
+      "original": "4278e882",
+      "patched": "4278f482",
+      "instruction": "clr.w $e882.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867792,
+      "bytes": 4,
+      "original": "42b8e9a6",
+      "patched": "42b8f5a6",
+      "instruction": "clr.l $e9a6.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867796,
+      "bytes": 4,
+      "original": "4278e9aa",
+      "patched": "4278f5aa",
+      "instruction": "clr.w $e9aa.w",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867830,
+      "bytes": 6,
+      "original": "082800010122",
+      "patched": "082800010d22",
+      "instruction": "btst.b #$1, $122(a0)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 3867868,
+      "bytes": 6,
+      "original": "08e900010122",
+      "patched": "08e900010d22",
+      "instruction": "bset.b #$1, $122(a1)",
+      "source": "work/hits-hud-v3/hud.listing.txt"
+    },
+    {
+      "address": 4006422,
+      "bytes": 4,
+      "original": "42280109",
+      "patched": "42280d09",
+      "instruction": "clr.b $109(a0)",
+      "source": "work/responsive-cancels-v1/responsive.listing.txt"
+    },
+    {
+      "address": 4006426,
+      "bytes": 4,
+      "original": "4228010a",
+      "patched": "42280d0a",
+      "instruction": "clr.b $10a(a0)",
+      "source": "work/responsive-cancels-v1/responsive.listing.txt"
+    },
+    {
+      "address": 4006430,
+      "bytes": 4,
+      "original": "4228010c",
+      "patched": "42280d0c",
+      "instruction": "clr.b $10c(a0)",
+      "source": "work/responsive-cancels-v1/responsive.listing.txt"
+    },
+    {
+      "address": 4006434,
+      "bytes": 4,
+      "original": "4228010e",
+      "patched": "42280d0e",
+      "instruction": "clr.b $10e(a0)",
+      "source": "work/responsive-cancels-v1/responsive.listing.txt"
+    },
+    {
+      "address": 4006446,
+      "bytes": 6,
+      "original": "08e800070107",
+      "patched": "08e800070d07",
+      "instruction": "bset.b #$7, $107(a0)",
+      "source": "work/responsive-cancels-v1/responsive.listing.txt"
+    }
+  ]
+}

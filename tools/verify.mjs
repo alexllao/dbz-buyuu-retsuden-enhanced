@@ -10,6 +10,13 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const responsiveV2 = await json('patches/responsive-v2/manifest.json');
+const responsiveV2Validation = await json('evidence/responsive-v2/validation.json');
+assert(responsiveV2Validation.passed && responsiveV2Validation.inputPassed === 200);
+assert(responsiveV2Validation.scriptedFrames === 88200 && responsiveV2Validation.stateRelocations === 168);
+assert(responsiveV2Validation.romSha256 === responsiveV2.target.sha256);
+assert(!responsiveV2Validation.counterRuleChanges && !responsiveV2Validation.nativeCollisionChanges);
+assert(sha256(await readFile(resolve(root, responsiveV2.patch.path))) === responsiveV2.patch.sha256);
 const responsiveManifest = await json('patches/responsive-v1/manifest.json');
 const responsiveValidation = await json('evidence/responsive-v1/validation.json');
 assert(responsiveValidation.passed && responsiveValidation.characters.length === 11);

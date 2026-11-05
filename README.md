@@ -2,25 +2,34 @@
 
 Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 5 de noviembre de 2026 · rama `development`.** La ROM de prueba actual es **Respuesta v1 (`responsive-v1`)**. Incluye carga más rápida, salida al soltar o llenar la barra, buffer corto durante carga, cancels de básicos que aciertan, control tras lanzar al rival y comandos de Goku de estilo Street Fighter.
+**Actualizado: 5 de noviembre de 2026 · rama `development`.** La ROM de prueba actual es **Respuesta v2 (`responsive-v2`)**: reconocimiento de entradas de Goku, frenada corta al caminar, salto normal más bajo y breve y corrección de la tercera bola. Mantiene las mejoras de carga, buffer y cancels de Respuesta v1.
 
-[**Ver 1:28 de juego real con sonido: antes/después y todos los especiales de Goku**](assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4) · [**Comandos nuevos y guía de prueba**](docs/respuesta-v1.md) · [Manifiesto](patches/responsive-v1/manifest.json)
+[**Ver 1:18 de juego real con sonido: antes/después y comandos nuevos**](assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4) · [**Comandos y guía actual**](docs/respuesta-v2.md) · [Manifiesto](patches/responsive-v2/manifest.json)
 
-[![Abrir la prueba real de Respuesta v1](assets/media/responsive-v1/captura.png)](assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4)
+[![Abrir prueba de controles y saltos de Respuesta v2](assets/media/responsive-v2/captura.png)](assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4)
 
-**Cancels:** se corta la recuperación de puños y patadas de pie al acertar para enlazar básicos o un especial; los especiales y Meteor completan su ejecución. No se acelera la animación ni se prolonga la reacción del rival. Se conserva el límite experimental de tres básicos y un remate.
+| Goku mirando a la derecha | Comando actual |
+| --- | --- |
+| **Kamehameha** | **← ↙ ↓ ↘ → + A** |
+| **Super Kamehameha** | **← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A** |
+| **Meteor** | **← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A+B** |
+| Ráfaga de tres bolas | ↓ ↘ → + A |
 
-**Buffer:** mientras cargas con Goku, introduce ↓ ↘ →, suelta A+B y pulsa A enseguida para lanzar Kamehameha. El comando caduca si esperas. Los nuevos comandos de Goku sólo cambian su control humano; los otros personajes y la CPU conservan los suyos.
+A+B sin el movimiento completo sigue cargando ki. El cambio de lado del mod conserva → ← → + C. [Tabla completa de Goku y uso del buffer](docs/respuesta-v2.md). Los otros personajes y la CPU mantienen sus comandos.
 
-**HITS y stun siguen en revisión:** el usuario ha detectado discrepancias en velocidad normal. Se dejan expresamente pendientes; esta ROM conserva sus rutinas de HUD HITS v3 y no afirma haber corregido esos fallos. Los vídeos de HITS siguientes documentan versiones anteriores.
+**Cambios medidos:** en Goku, el toque corto deja 2 píxeles de inercia frente a 33 de la prueba anterior; salto de 87 frente a 116 píxeles y 35 frente a 48 fotogramas en el aire. El reconocedor pasa **200 variantes de entrada** en ambos sentidos y diez pruebas de Meteor entre los dos mandos. Las secuencias largas suman **24,5 minutos acumulados**, con once personajes y nueve escenarios; son puertos automatizados y estados restaurados entre tandas, no una sesión humana continua ni una garantía de control perfecto.
 
-Se mantienen la presentación de Goku cálido, el reparto pequeño original, las paletas de combate y las auras elegidas sin rayos. Las propuestas de Namek, el árbol, la nave y las nuevas sacudidas siguen sin integrar. Arranca la nueva ROM desde cero, a velocidad normal y sin estados guardados anteriores.
+**Corregida una causa de corrupción:** controles, aura y HUD usaban memoria que pertenece al tercer proyectil nativo. Se ha separado su estado. La ráfaga da tres impactos reales en las cuatro distancias probadas, sin fabricar daño ni cambiar las colisiones. **Las reglas de HITS y stun no se han retocado y su revisión sigue pendiente.** [Detalles y evidencia](docs/respuesta-v2.md).
 
-Construcción de esta prueba: `pnpm build:review --rom ruta/a/original.bin --version responsive-v1`. El comando sin versión sigue conservando v6.6. [Reglas y comprobaciones de Respuesta v1](docs/respuesta-v1.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
+Los cancels siguen afectando a básicos que aciertan; especiales y Meteor completan su ejecución. El botón anticipado puede reconducir el arranque de un básico aún inactivo cuando se completa un especial. El salto normal tiene su propio ajuste de altura y tiempo; la velocidad general del juego no se acelera. La sensación con mando y el equilibrio siguen en pruebas.
+
+Se conservan la presentación de Goku cálido, el reparto pequeño original, las paletas de combate y las auras sin rayos. Árbol, nave y nuevas sacudidas siguen sin integrar. **Arranca desde cero a velocidad normal, sin estados guardados anteriores**, por el traslado de memoria.
+
+Construcción actual: `pnpm build:review --rom ruta/a/original.bin --version responsive-v2`. La opción sin versión mantiene v6.6. [Historial Respuesta v1 y su vídeo](docs/respuesta-v1.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
 
 ## Vídeos: combos, HITS y jugabilidad
 
-**Historial de HUD HITS v3: la prueba actual es Respuesta v1, descrita arriba.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
+**Historial de HUD HITS v3: la prueba actual es Respuesta v2, descrita arriba.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
 
 | Qué quieres ver | Vídeo | Estado |
 | --- | --- | --- |

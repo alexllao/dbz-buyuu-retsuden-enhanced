@@ -1,0 +1,396 @@
+{
+  "romSha256": "17c1d2789c095cba7d3e66ec7c16af24503899f195b3ca4e9be4fc26889aff74",
+  "passed": true,
+  "inputCases": 200,
+  "inputPassed": 200,
+  "meteorChords": [
+    {
+      "port": 0,
+      "chordFrames": -2,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 0,
+      "chordFrames": -1,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 0,
+      "chordFrames": 0,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 0,
+      "chordFrames": 1,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 0,
+      "chordFrames": 2,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 1,
+      "chordFrames": -2,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 1,
+      "chordFrames": -1,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 1,
+      "chordFrames": 0,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 1,
+      "chordFrames": 1,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    },
+    {
+      "port": 1,
+      "chordFrames": 2,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2110
+      ],
+      "meteor": true
+    }
+  ],
+  "extraChecks": [
+    "p2-charge",
+    "p2-mirrored-buffer",
+    "expired-buffer",
+    "whiff",
+    "guard"
+  ],
+  "chargeCommandChoice": [
+    {
+      "buttons": [
+        "A"
+      ],
+      "programs": [
+        0,
+        93,
+        3077
+      ]
+    },
+    {
+      "buttons": [
+        "A",
+        "B"
+      ],
+      "programs": [
+        0,
+        93,
+        2110
+      ]
+    }
+  ],
+  "scriptedFrames": 88200,
+  "scriptedMinutes": 24.531587115122175,
+  "humanCharacters": 11,
+  "stages": 9,
+  "walking": [
+    {
+      "heldFrames": 2,
+      "oldCoast": 33,
+      "newCoast": 2
+    },
+    {
+      "heldFrames": 5,
+      "oldCoast": 31,
+      "newCoast": 2
+    },
+    {
+      "heldFrames": 15,
+      "oldCoast": 23,
+      "newCoast": 2
+    },
+    {
+      "heldFrames": 30,
+      "oldCoast": 10,
+      "newCoast": 2
+    },
+    {
+      "heldFrames": 60,
+      "oldCoast": 17,
+      "newCoast": 2
+    }
+  ],
+  "jumpBefore": [
+    {
+      "label": "vertical",
+      "takeoff": 5,
+      "landing": 53,
+      "airFrames": 48,
+      "height": 116
+    },
+    {
+      "label": "forward",
+      "takeoff": 5,
+      "landing": 53,
+      "airFrames": 48,
+      "height": 116
+    },
+    {
+      "label": "backward",
+      "takeoff": 5,
+      "landing": 53,
+      "airFrames": 48,
+      "height": 116
+    }
+  ],
+  "jumpAfter": [
+    {
+      "label": "vertical",
+      "takeoff": 4,
+      "landing": 39,
+      "airFrames": 35,
+      "height": 87
+    },
+    {
+      "label": "forward",
+      "takeoff": 4,
+      "landing": 39,
+      "airFrames": 35,
+      "height": 87
+    },
+    {
+      "label": "backward",
+      "takeoff": 4,
+      "landing": 39,
+      "airFrames": 35,
+      "height": 87
+    }
+  ],
+  "barrage": [
+    {
+      "distance": 32,
+      "contacts": [
+        {
+          "frame": 29,
+          "hp": 190
+        },
+        {
+          "frame": 78,
+          "hp": 180
+        },
+        {
+          "frame": 126,
+          "hp": 170
+        }
+      ]
+    },
+    {
+      "distance": 64,
+      "contacts": [
+        {
+          "frame": 29,
+          "hp": 190
+        },
+        {
+          "frame": 78,
+          "hp": 180
+        },
+        {
+          "frame": 127,
+          "hp": 170
+        }
+      ]
+    },
+    {
+      "distance": 120,
+      "contacts": [
+        {
+          "frame": 36,
+          "hp": 190
+        },
+        {
+          "frame": 85,
+          "hp": 180
+        },
+        {
+          "frame": 134,
+          "hp": 170
+        }
+      ]
+    },
+    {
+      "distance": 180,
+      "contacts": [
+        {
+          "frame": 45,
+          "hp": 190
+        },
+        {
+          "frame": 93,
+          "hp": 180
+        },
+        {
+          "frame": 143,
+          "hp": 170
+        }
+      ]
+    }
+  ],
+  "stateRelocations": 168,
+  "negativeChecks": [
+    {
+      "label": "A-half",
+      "expected": 3076,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3076
+      ],
+      "passed": true
+    },
+    {
+      "label": "A-double",
+      "expected": 3077,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3077
+      ],
+      "passed": true
+    },
+    {
+      "label": "B-double",
+      "expected": 2049,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2049
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-half",
+      "expected": null,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        93
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-quarter",
+      "expected": null,
+      "programs": [
+        0,
+        1,
+        3,
+        93
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-neutral",
+      "expected": null,
+      "programs": [
+        0,
+        93
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-invalid",
+      "expected": null,
+      "programs": [
+        0,
+        2,
+        4,
+        5,
+        1032
+      ],
+      "passed": true
+    }
+  ],
+  "counterRuleChanges": false,
+  "nativeCollisionChanges": false,
+  "limitations": [
+    "Normal-speed scripted ports with initial charged snapshots; reset after KO or every1800frames. Accumulated runtime, not a continuous human session.",
+    "Does not guarantee every physical-controller gesture or establish perfect human feel.",
+    "Diagonal components accepted; anticipatory special may redirect a simple attack before it becomes active, not cancel active techniques.",
+    "HITS/stun state relocated to avoid native projectile overlap; their counting/stun rules and native damage/reaction formulas remain pending manual review."
+  ]
+}

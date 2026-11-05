@@ -800,5 +800,26 @@
     ],
     "guide": "docs/respuesta-v1.md",
     "video": "assets/media/responsive-v1/Respuesta-v1-antes-despues-y-Goku.mp4"
+  },
+  "responsiveV2": {
+    "date": "2026-11-05",
+    "version": "responsive-v2",
+    "romSha256": "17c1d2789c095cba7d3e66ec7c16af24503899f195b3ca4e9be4fc26889aff74",
+    "status": "Experimental normal-speed candidate for human review",
+    "gokuCommands": {
+      "kamehameha": "HCF+A",
+      "superKamehameha": "HCF,HCF+A",
+      "meteor": "HCF,HCF+A+B",
+      "barrage": "QCF+A"
+    },
+    "inputValidation": "200/200 scripted variants, both orientations;10 Meteor chord tests across both ports",
+    "scriptedMinutes": 24.531587115122175,
+    "walking": "Goku tap2frame coast33->2px; brief inertia retained",
+    "jump": "Normal jump first proposal: height116->87px and air48->35frames for Goku",
+    "projectileFix": "Move168 mod-state references out of native third projectile; no collision/damage hacks",
+    "counterScope": "Relocate HITS/stun-related mod state; counting and stun rules unchanged, review pending",
+    "guide": "docs/respuesta-v2.md",
+    "video": "assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4",
+    "chargeChoice": "Preserve double-HCF through charge release; A chooses Super, A+B Meteor. Brief chord grace avoids choosing a single-button move early."
   }
 }

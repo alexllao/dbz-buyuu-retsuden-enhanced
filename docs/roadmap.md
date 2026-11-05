@@ -1,5 +1,7 @@
 # Hoja de ruta
 
+**Actualización 5/11/2026:** la prueba actual es [Respuesta v2: entradas, frenada, saltos y tercera bola](respuesta-v2.md). Incluye los comandos de Goku elegidos y la separación de la memoria del parche; esta sección anterior se conserva como historial.
+
 **5/11/2026 — Respuesta v1:** carga/salida/buffer, cancels sólo de básicos confirmados, control tras lanzamiento y comandos SF para Goku. [Reglas, comandos, vídeo y límites](respuesta-v1.md). HITS y stun: discrepancias del usuario pendientes, sin cambios en esta revisión.
 
 Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [HUD HITS v3](hud-hits-v3.md), sobre Ventaja v1.
