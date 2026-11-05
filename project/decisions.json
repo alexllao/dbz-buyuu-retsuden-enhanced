@@ -768,5 +768,18 @@
     },
     "sourceRecord": "research/hdbz-namek-ship/source.json",
     "image": "assets/references/hdbz-namek-ship/Nave-Capsule-Corp-HDBZ-original.png"
+  },
+  "manualGameplayTestDelivery": {
+    "version": "hud-hits-v3",
+    "filename": "Buyuu_Retsuden_Enhanced_HUD_Hits_v3.bin",
+    "bytes": 4194304,
+    "sha256": "2907df9f27139b6bfa8c646aca7a92f61ee2aa9f38b6924b6238b4f8548cf748",
+    "engineChangedForThisDelivery": false,
+    "manualReview": "Delivered; user testing pending",
+    "newShakeIntegrated": false,
+    "namekTreeIntegrated": false,
+    "namekShipIntegrated": false,
+    "recordedChecks": "Existing HITSv3 emulator evidence plus fresh rebuild/hash verification",
+    "guide": "docs/prueba-manual-jugabilidad.md"
   }
 }

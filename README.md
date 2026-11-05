@@ -12,6 +12,8 @@ La jugabilidad sigue en pruebas con mando. **HITS ya está integrado y aparece d
 
 [Demostración anterior sin ventana extra: P1/P2](assets/media/teleport-exchange-v1/Teletransportes-P1-P2-juego-real.mp4) · [**Namek: antes y nueva propuesta**](#namek-antes-y-nueva-propuesta)
 
+**Prueba manual preparada:** la ROM de jugabilidad vigente es `hud-hits-v3`. [Guía de controles y pruebas de combos, HITS, cruce y aturdimiento](docs/prueba-manual-jugabilidad.md). Las sacudidas nuevas, el árbol y la nave siguen pendientes de integrar.
+
 ## Vídeos: combos, HITS y jugabilidad
 
 **Esta es la documentación vigente de HUD HITS v3.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
