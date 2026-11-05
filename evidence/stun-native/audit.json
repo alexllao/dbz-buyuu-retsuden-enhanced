@@ -1,0 +1,113 @@
+{
+  "sourceSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "thresholds": [
+    {
+      "cid": 0,
+      "name": "Goku",
+      "threshold": 22
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "threshold": 24
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "threshold": 21
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "threshold": 21
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "threshold": 19
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "threshold": 23
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "threshold": 22
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "threshold": 25
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "threshold": 23
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "threshold": 24
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "threshold": 24
+    }
+  ],
+  "nativeFields": {
+    "accumulator": "actor+0x51 byte",
+    "threshold": "actor+0x54 byte",
+    "dizzyTimer": "actor+0x36 word",
+    "periodicClearCounter": "actor+0x32 word"
+  },
+  "formula": "For eligible unblocked damage, lookup attacker CID/kind record through0x2277E and add record byte2 to accumulator51; compare against defender threshold54 in216EE. Trigger path is conditional, notably attackerCB bit7 skips trigger check. HUD fraction clamps accumulator/threshold but does not assert every threshold crossing triggers immediately.",
+  "evidence": {
+    "add": "0x21A20..21A32",
+    "threshold": "0x2174E..2176E",
+    "characterStatLoad": "0x20926..20982 from220BE+CID*10",
+    "attackRecordLookup": "0x22030..22054, fourbytes per attack kind",
+    "dizzyDuration": "360 scaled by inverse native speed at0x21766",
+    "recovery": "0x1A52C..1A576: decrement1 per actor update; accepted direction edge subtracts extra12 at normal speed; finish calls20914",
+    "beingHitWhileDizzy": "0x21A38..21A60 subtract60 from active36/38 timers, clamp1; does not add a new360 timer there",
+    "periodicClear": "0x12FBA..12FDC: if36 iszero, advance32; clear51/32/34/36 via20914 after600 scaled updates",
+    "briefHitReaction": "0x209DC..20AB8, animation2E nominal12 and2F nominal30 units at normal; different from dizzy timer"
+  },
+  "runtime": {
+    "singleCloseGokuPunchStunAfter300Frames": 4,
+    "threshold": 22,
+    "actualDizzyStart": {
+      "program": 50,
+      "action": 13,
+      "hp": 50,
+      "ki": 129,
+      "stun": 24,
+      "threshold": 22,
+      "timer36": 360,
+      "timer38": 0,
+      "cursor": 0,
+      "x": 488,
+      "kind": 48
+    },
+    "recoveries": [
+      {
+        "alternatingDirectionInputs": false,
+        "framesUntilClear": 393
+      },
+      {
+        "alternatingDirectionInputs": true,
+        "framesUntilClear": 53
+      }
+    ],
+    "fps": 59.92274340431231,
+    "fixture": "Original ROM, native inputs and timers; initial positions/facing fixed only, both control flags human. No HP/ki/stun/timer forcing."
+  },
+  "limitations": [
+    "Native paths have state/energy/special flags; not every contact adds stun or triggers dizzy identically",
+    "600counter is a periodic native clear, not established as an inactivity timer restarted per hit",
+    "Frame timings include pauses/update gates; nominal units are not universally identical to video frames",
+    "Latest v4 first-match audit does not identify every earlier video the user may mean"
+  ]
+}

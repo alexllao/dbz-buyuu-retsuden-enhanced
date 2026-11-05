@@ -9,6 +9,24 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const nativeStunCombo = await json('patches/combos-v5-native-stun/manifest.json');
+assert.equal(sha256(await readFile(resolve(root, nativeStunCombo.patch.path))), nativeStunCombo.patch.sha256);
+for (const name of ['matrix', 'side-regression']) {
+  const report = await json(`evidence/combos-v5-native-stun/${name}.json`);
+  assert(report.passed);
+  assert.equal(report.romSha256, nativeStunCombo.target.sha256);
+}
+const nativeStunTiming = await json('evidence/combos-v5-native-stun/timing-validation.json');
+assert(nativeStunTiming.passed && nativeStunTiming.cases.length === 22);
+assert.equal(nativeStunTiming.targetSha256, nativeStunCombo.target.sha256);
+const nativeStunStatic = await json('evidence/combos-v5-native-stun/static.json');
+assert.equal(nativeStunStatic.targetSha256, nativeStunCombo.target.sha256);
+assert.equal(nativeStunStatic.outsideAllowedChangedBytes, 0);
+assert(nativeStunStatic.noVictimCursorReset && nativeStunStatic.noReactionDurationHook);
+assert(Object.values(nativeStunStatic.preserved).every(Boolean));
+const nativeStunCode = Buffer.from((await readFile(resolve(root, 'src/gameplay/combos-v5-native-stun/combos.hex'), 'utf8')).trim(), 'hex');
+assert.equal(sha256(nativeStunCode), nativeStunStatic.codeSha256);
+assert.equal(nativeStunCode.length, nativeStunStatic.decodedBytes);
 const naturalCombo = await json('patches/combos-v4-natural/manifest.json');
 assert.equal(sha256(await readFile(resolve(root, naturalCombo.patch.path))), naturalCombo.patch.sha256);
 for (const name of ['matrix', 'side-regression', 'finisher-validation']) {

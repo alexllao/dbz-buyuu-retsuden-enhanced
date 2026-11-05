@@ -1,0 +1,54 @@
+{
+  "targetSha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+  "codeSha256": "f61df462fcc7ca0b4c0aecac7440838795751c97ca9f82e6e82b96491e64f9c5",
+  "codeBytes": 1222,
+  "decodedBytes": 1222,
+  "outsideAllowedChangedBytes": 0,
+  "allowedRanges": [
+    [
+      398,
+      2
+    ],
+    [
+      36300,
+      6
+    ],
+    [
+      73236,
+      6
+    ],
+    [
+      73720,
+      6
+    ],
+    [
+      73460,
+      6
+    ],
+    [
+      73940,
+      6
+    ],
+    [
+      504416,
+      4
+    ],
+    [
+      3997696,
+      1222
+    ]
+  ],
+  "preserved": {
+    "nativeHurtAnimationHelper": true,
+    "nativeDizzyAndDamage": true,
+    "nativeStunResetTimer": true,
+    "nativeRecoveryMash": true,
+    "nativeAnimationTables": true,
+    "auraCode": true,
+    "sideSwitch": true,
+    "palettes": true
+  },
+  "nativeAnimationCallRestored": "0x7b194",
+  "noVictimCursorReset": true,
+  "noReactionDurationHook": true
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "Latest v4 long-video first fight recreated, HP matches saved trace; v5 uses same automated strategy but is a different fight, not identical button replay. Other prior video versions not identified by user.",
+  "observations": [
+    {
+      "variant": "previousV4",
+      "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
+      "seconds": 33.50981423616689,
+      "actualDizzyStarts": [],
+      "dizzyActionEntries": [],
+      "finalHP": [
+        130,
+        0
+      ]
+    },
+    {
+      "variant": "nativeReactionV5",
+      "romSha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+      "seconds": 35.996349256679274,
+      "actualDizzyStarts": [
+        {
+          "frame": 608,
+          "seconds": 10.146397936050532
+        },
+        {
+          "frame": 1867,
+          "seconds": 31.15678445165517
+        }
+      ],
+      "dizzyActionEntries": [
+        {
+          "frame": 758,
+          "seconds": 12.649621111062999,
+          "remainingDizzy": 360,
+          "program": "0x32"
+        },
+        {
+          "frame": 1041,
+          "seconds": 17.37236883458652,
+          "remainingDizzy": 164,
+          "program": "0x32"
+        },
+        {
+          "frame": 1342,
+          "seconds": 22.395503339111535,
+          "remainingDizzy": 1,
+          "program": "0x32"
+        },
+        {
+          "frame": 2015,
+          "seconds": 33.62663131766747,
+          "remainingDizzy": 360,
+          "program": "0x32"
+        }
+      ],
+      "finalHP": [
+        133,
+        14
+      ]
+    }
+  ],
+  "finding": "A single native dizzy timer can produce multiple returns to dizzy action after intervening damage. Animation entries must not be counted as new dizzy triggers."
+}

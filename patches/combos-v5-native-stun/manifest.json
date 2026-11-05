@@ -1,0 +1,19 @@
+{
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "1aeb7b12999f5eaaad7a8e5c79077ed07606154b00ae1e347b02c2aacbad68ee",
+  "target": {
+    "filename": "Buyuu_Retsuden_Enhanced_Combos_v5_Reaccion_Original.bin",
+    "sha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/combos-v5-native-stun/experimental.ips",
+    "sha256": "0a70574265bbaede4b28e31a7d4061be253dee3e04476f66adf4947cf5937718"
+  },
+  "experimental": true,
+  "defaultBuildUnchanged": "v6.6",
+  "scope": "Restore original standing-hit reaction duration and native cursor behavior; remove v4 extension/reset, keep natural attack completion, input queue and bounds. Native dizzy accumulation and recovery unchanged. Counters/stun bars not implemented."
+}

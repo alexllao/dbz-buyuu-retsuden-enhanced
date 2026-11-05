@@ -482,5 +482,23 @@
     "timingValidation": "22 original-vs-candidate A/B comparisons: same attack pose order and cursor sequence; frame-level durations include input/pauses and are recorded",
     "romSha256": "df7c585c1d61e82e21453ffcbefd379b98042de61bd4dbe6d9ac8e06fb48f46d",
     "docs": "docs/combos-v4-natural.md"
+  },
+  "combosNativeReactionV5": {
+    "status": "Experimental correction, manual balance pending",
+    "request": "Avoid long repeated stuns/forced lock from combo assistance",
+    "changes": [
+      "Remove doubled standing-hit reaction duration",
+      "Remove victim animation-cursor refresh on connected follow-ups",
+      "Keep full native attack completion and no instant position jump"
+    ],
+    "nativeDizzy": "Accumulation, thresholds, periodic reset,360-unit recovery and directional mash remain original",
+    "romSha256": "410279bb5a3bbd09eb427267b58fed5e9b4a1d770c3225b81e23c1c2baeb4530",
+    "docs": "docs/combos-v5-native-stun.md"
+  },
+  "globalHudRequested": {
+    "status": "Requirements confirmed, not integrated in ROM yet",
+    "hits": "Per-player counter for any accepted hit, including multihit normals/specials/projectiles and standalone Meteor; do not restrict to new basic chain or infer only from HP subtraction",
+    "stunBars": "Two bottom meters, one left and one right, reading native accumulator51/threshold54; active-state indicator from actual timer36, not visual action alone",
+    "limits": "No fake impact increments from repeated poses/particles; no extra gameplay stun added to sustain display; separate cinematic authored impact events from deferred HP application; distinguish single dizzy episode interrupted by hits from a new trigger"
   }
 }

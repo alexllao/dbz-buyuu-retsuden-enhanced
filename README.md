@@ -27,6 +27,14 @@ La [primera prueba C2 v1](docs/auras-c2-v1.md) y [sus vídeos](assets/media/aura
 
 Las capturas comparativas de paletas, los bocetos de HUD y los conceptos de aura están identificados por separado. **El vídeo superior sí es una grabación real del juego original frente a la ROM de jugabilidad v1.**
 
+## Corrección experimental actual: reacción original al recibir golpes
+
+La prueba v5 retira las ayudas que prolongaban la reacción de daño y reiniciaban su animación en v4. Conserva el final completo de los ataques y deja actuar la reacción original del rival. Las rutas que dejan de conectar necesitan ajuste; no se fuerza el bloqueo para mantener un combo.
+
+[Detalle y comprobaciones](docs/combos-v5-native-stun.md) · [Combate de36 segundos con sonido](assets/media/combos-v5-native-stun/Goku-Vegeta-reaccion-original.mp4) · [Aturdimiento nativo y requisitos del HUD](docs/hud-hits-stun.md). El contador global y las dos barras de aturdimiento **siguen pendientes de integración en la ROM**. Se conservan las versiones anteriores para revisar; sus vídeos no representan esta corrección.
+
+Construcción: `pnpm build:review --rom ruta/a/original.bin --version combos-v5-native-stun`. La versión predeterminada sigue siendo v6.6.
+
 ## Prueba opcional actual: Combos v4 con ritmo natural
 
 **Cada ataque termina su animación antes del siguiente.** Se guardan las órdenes durante el contacto y se ejecutan al acabar el movimiento: se elimina el corte anticipado de v3, se restaura la recuperación final completa y se retira el paso instantáneo de seguimiento. No se acelera el vídeo ni el reloj de animación. La ampliación sigue siendo para humanos, en suelo y velocidad normal.
