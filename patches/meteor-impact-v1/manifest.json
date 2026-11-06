@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "variant": "Meteor impact v1 - prueba",
+  "buildId": "20261106-172551",
+  "headerTitle": "DBZ BUYUU V1.0 IMPACT 2026-11-06 16:25Z",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_Impact_build_20261106-172551.bin",
+    "sha256": "f2a326c2a263470ce15f324512c44066a83b452e8df4283645d878bdd1ba52da",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/meteor-impact-v1/DBZ-Enhanced-v1.0-Impact-build-20261106-172551.ips",
+    "sha256": "06851401d0886eef2207fdc87f5954355e510337bbc0ba9563d643ba988fd681"
+  },
+  "experimental": true
+}

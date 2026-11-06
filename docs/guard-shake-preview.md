@@ -1,5 +1,7 @@
 # Impacto y vibración: pruebas visuales
 
+**6/11/2026:** [nueva prueba de Meteor con sacudidas dentro de la ROM](meteor-impact-v1.md). Las propuestas generales de básicos/bloqueos de esta página siguen como previsualizaciones históricas.
+
 ## Prueba variada: contactos suaves y remates tipo B
 
 [Ver 1:06 alternando actual y propuesta](../assets/media/shake-varied-preview/Impactos-variados-actual-y-propuesta.mp4).

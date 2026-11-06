@@ -1,0 +1,291 @@
+{
+  "samples": [
+    {
+      "frame": 38,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 39,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 40,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 41,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 42,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 43,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 44,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 45,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 66,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 67,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 68,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 69,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 70,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 87,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 88,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 89,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 90,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 91,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 109,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 110,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 111,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 112,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 113,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 114,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 131,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 132,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 133,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 134,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 135,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 154,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 155,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 156,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 157,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 158,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 175,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 176,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 177,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 178,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 179,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 180,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 181,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 196,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 197,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 198,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 200,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 201,
+      "dx": 65535,
+      "hudExact": true
+    },
+    {
+      "frame": 205,
+      "dx": 4,
+      "hudExact": true
+    },
+    {
+      "frame": 207,
+      "dx": 4,
+      "hudExact": true
+    },
+    {
+      "frame": 208,
+      "dx": 65532,
+      "hudExact": true
+    },
+    {
+      "frame": 209,
+      "dx": 65532,
+      "hudExact": true
+    },
+    {
+      "frame": 210,
+      "dx": 65532,
+      "hudExact": true
+    },
+    {
+      "frame": 212,
+      "dx": 3,
+      "hudExact": true
+    },
+    {
+      "frame": 213,
+      "dx": 65533,
+      "hudExact": true
+    },
+    {
+      "frame": 214,
+      "dx": 2,
+      "hudExact": true
+    },
+    {
+      "frame": 215,
+      "dx": 65534,
+      "hudExact": true
+    },
+    {
+      "frame": 216,
+      "dx": 1,
+      "hudExact": true
+    },
+    {
+      "frame": 217,
+      "dx": 65535,
+      "hudExact": true
+    }
+  ],
+  "matched": 57,
+  "allExact": true
+}

@@ -1,0 +1,1572 @@
+{
+  "passed": true,
+  "romSha256": "f2a326c2a263470ce15f324512c44066a83b452e8df4283645d878bdd1ba52da",
+  "baseSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "nativeRomShake": true,
+  "postproductionShake": false,
+  "gameplayTimeScaling": false,
+  "cases": [
+    {
+      "cid": 0,
+      "facing": 0,
+      "mode": "hit",
+      "events": 4,
+      "damage": 35,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 0,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 3,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 0,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "mode": "hit",
+      "events": 4,
+      "damage": 35,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 3,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "mode": "hit",
+      "events": 5,
+      "damage": 34,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "mode": "hit",
+      "events": 5,
+      "damage": 34,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 2,
+      "facing": 0,
+      "mode": "hit",
+      "events": 9,
+      "damage": 43,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 2,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 2,
+      "facing": 1,
+      "mode": "hit",
+      "events": 9,
+      "damage": 43,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 2,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 3,
+      "facing": 0,
+      "mode": "hit",
+      "events": 8,
+      "damage": 49,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 3,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 3,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 3,
+      "facing": 1,
+      "mode": "hit",
+      "events": 8,
+      "damage": 49,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 3,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 3,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 4,
+      "facing": 0,
+      "mode": "hit",
+      "events": 3,
+      "damage": 40,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 4,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 4,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 4,
+      "facing": 1,
+      "mode": "hit",
+      "events": 3,
+      "damage": 40,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 4,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 4,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 5,
+      "facing": 0,
+      "mode": "hit",
+      "events": 13,
+      "damage": 78,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 5,
+      "facing": 0,
+      "mode": "guard",
+      "events": 13,
+      "damage": 78,
+      "hit": true,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 5,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 13,
+      "damage": 78,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 5,
+      "facing": 1,
+      "mode": "hit",
+      "events": 13,
+      "damage": 78,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 5,
+      "facing": 1,
+      "mode": "guard",
+      "events": 13,
+      "damage": 78,
+      "hit": true,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 5,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 13,
+      "damage": 78,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 6,
+      "facing": 0,
+      "mode": "hit",
+      "events": 3,
+      "damage": 33,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 6,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 6,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 6,
+      "facing": 1,
+      "mode": "hit",
+      "events": 3,
+      "damage": 33,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 6,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 6,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 7,
+      "facing": 0,
+      "mode": "hit",
+      "events": 8,
+      "damage": 32,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 7,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 7,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 7,
+      "facing": 1,
+      "mode": "hit",
+      "events": 8,
+      "damage": 32,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 7,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 7,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 8,
+      "facing": 0,
+      "mode": "hit",
+      "events": 4,
+      "damage": 32,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 8,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 8,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 8,
+      "facing": 1,
+      "mode": "hit",
+      "events": 4,
+      "damage": 32,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 8,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 8,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 9,
+      "facing": 0,
+      "mode": "hit",
+      "events": 2,
+      "damage": 36,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 9,
+      "facing": 0,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 9,
+      "facing": 0,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 9,
+      "facing": 1,
+      "mode": "hit",
+      "events": 2,
+      "damage": 36,
+      "hit": true,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 9,
+      "facing": 1,
+      "mode": "guard",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        2
+      ],
+      "dxEnd": 0
+    },
+    {
+      "cid": 9,
+      "facing": 1,
+      "mode": "whiff",
+      "events": 0,
+      "damage": 0,
+      "hit": false,
+      "end": [
+        0,
+        0
+      ],
+      "dxEnd": 0
+    }
+  ],
+  "player2": [
+    {
+      "events": 5,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        72,
+        93,
+        122
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 5,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        72,
+        93,
+        122
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 9,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        68,
+        88,
+        109,
+        129,
+        150,
+        171,
+        194
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 9,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        68,
+        88,
+        109,
+        129,
+        150,
+        171,
+        194
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "events": 0,
+      "dxEnd": 0,
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    }
+  ],
+  "hud": {
+    "samples": [
+      {
+        "frame": 38,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 39,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 40,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 41,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 42,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 43,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 44,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 45,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 66,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 67,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 68,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 69,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 70,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 87,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 88,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 89,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 90,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 91,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 109,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 110,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 111,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 112,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 113,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 114,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 131,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 132,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 133,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 134,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 135,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 154,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 155,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 156,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 157,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 158,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 175,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 176,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 177,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 178,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 179,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 180,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 181,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 196,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 197,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 198,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 200,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 201,
+        "dx": 65535,
+        "hudExact": true
+      },
+      {
+        "frame": 205,
+        "dx": 4,
+        "hudExact": true
+      },
+      {
+        "frame": 207,
+        "dx": 4,
+        "hudExact": true
+      },
+      {
+        "frame": 208,
+        "dx": 65532,
+        "hudExact": true
+      },
+      {
+        "frame": 209,
+        "dx": 65532,
+        "hudExact": true
+      },
+      {
+        "frame": 210,
+        "dx": 65532,
+        "hudExact": true
+      },
+      {
+        "frame": 212,
+        "dx": 3,
+        "hudExact": true
+      },
+      {
+        "frame": 213,
+        "dx": 65533,
+        "hudExact": true
+      },
+      {
+        "frame": 214,
+        "dx": 2,
+        "hudExact": true
+      },
+      {
+        "frame": 215,
+        "dx": 65534,
+        "hudExact": true
+      },
+      {
+        "frame": 216,
+        "dx": 1,
+        "hudExact": true
+      },
+      {
+        "frame": 217,
+        "dx": 65535,
+        "hudExact": true
+      }
+    ],
+    "matched": 57,
+    "allExact": true
+  },
+  "comparison": [
+    {
+      "name": "Goku",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 3,
+          "damage": 35,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 209
+        },
+        {
+          "side": "after",
+          "hits": 3,
+          "damage": 35,
+          "pulses": 4,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 212
+        }
+      ]
+    },
+    {
+      "name": "Gohan",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 5,
+          "damage": 34,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 380
+        },
+        {
+          "side": "after",
+          "hits": 5,
+          "damage": 34,
+          "pulses": 5,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 383
+        }
+      ]
+    },
+    {
+      "name": "Piccolo",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 9,
+          "damage": 43,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 213
+        },
+        {
+          "side": "after",
+          "hits": 9,
+          "damage": 43,
+          "pulses": 9,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 214
+        }
+      ]
+    },
+    {
+      "name": "Vegeta",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 8,
+          "damage": 49,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 285
+        },
+        {
+          "side": "after",
+          "hits": 8,
+          "damage": 49,
+          "pulses": 8,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 291
+        }
+      ]
+    },
+    {
+      "name": "Trunks",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 2,
+          "damage": 40,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 241
+        },
+        {
+          "side": "after",
+          "hits": 2,
+          "damage": 40,
+          "pulses": 3,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 243
+        }
+      ]
+    },
+    {
+      "name": "Cell",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 13,
+          "damage": 78,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 555
+        },
+        {
+          "side": "after",
+          "hits": 13,
+          "damage": 78,
+          "pulses": 13,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 561
+        }
+      ]
+    },
+    {
+      "name": "A18",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 2,
+          "damage": 33,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 286
+        },
+        {
+          "side": "after",
+          "hits": 2,
+          "damage": 33,
+          "pulses": 3,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 288
+        }
+      ]
+    },
+    {
+      "name": "Krilin",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 2,
+          "damage": 32,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 304
+        },
+        {
+          "side": "after",
+          "hits": 2,
+          "damage": 32,
+          "pulses": 8,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 304
+        }
+      ]
+    },
+    {
+      "name": "Freezer",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 2,
+          "damage": 32,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 340
+        },
+        {
+          "side": "after",
+          "hits": 2,
+          "damage": 32,
+          "pulses": 4,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 344
+        }
+      ]
+    },
+    {
+      "name": "Recoome",
+      "pair": [
+        {
+          "side": "before",
+          "hits": 2,
+          "damage": 36,
+          "pulses": 0,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 203
+        },
+        {
+          "side": "after",
+          "hits": 2,
+          "damage": 36,
+          "pulses": 2,
+          "end": [
+            0,
+            0
+          ],
+          "meteorFrames": 203
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "name": "Piccolo",
+      "start": 0,
+      "seconds": 7.225970898535987,
+      "frames": 433
+    },
+    {
+      "name": "Goku",
+      "start": 7.225970898535987,
+      "seconds": 7.24265905303607,
+      "frames": 434
+    },
+    {
+      "name": "Gohan",
+      "start": 14.468629951572058,
+      "seconds": 7.392852443536818,
+      "frames": 443
+    },
+    {
+      "name": "Vegeta",
+      "start": 21.861482395108876,
+      "seconds": 5.991047465529837,
+      "frames": 359
+    },
+    {
+      "name": "Trunks",
+      "start": 27.85252986063871,
+      "seconds": 5.6572843755281745,
+      "frames": 339
+    },
+    {
+      "name": "Cell",
+      "start": 33.50981423616689,
+      "seconds": 12.699685574563247,
+      "frames": 761
+    },
+    {
+      "name": "A18",
+      "start": 46.20949981073014,
+      "seconds": 5.8074777660289225,
+      "frames": 348
+    },
+    {
+      "name": "Krilin",
+      "start": 52.01697757675906,
+      "seconds": 6.074488238030253,
+      "frames": 364
+    },
+    {
+      "name": "Freezer",
+      "start": 58.091465814789316,
+      "seconds": 6.742014418033577,
+      "frames": 404
+    },
+    {
+      "name": "Recoome",
+      "start": 64.8334802328229,
+      "seconds": 5.306833131026429,
+      "frames": 318
+    }
+  ],
+  "video": {
+    "path": "assets/media/meteor-impact-v1/comparacion.mp4",
+    "sha256": "e97673d1640e48c1b16e6b5fb967f884dff980d28700141ec32a12b9f33e16a3"
+  },
+  "limitations": [
+    "Normal-speed emulator; original hardware and turbo pending.",
+    "Captured timing varies by0..6 frames from rendering/engine scheduling; no timing tables changed.",
+    "Common meter HITS and stun remain unchanged, including undercounts in Trunks/A18/Krilin/Freezer.",
+    "Ginyu Body Change is not a striking Meteor and receives no artificial shake.",
+    "General basic/guard shake remains a separate unintegrated proposal."
+  ]
+}

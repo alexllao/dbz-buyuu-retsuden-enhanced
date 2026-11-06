@@ -2,7 +2,7 @@
 
 G1 no convenció al usuario: no percibía diferencias en el vídeo. La revisión confirmó que el salto vertical de Goku conservaba sus 35 fotogramas en el aire, aunque su altura cambiaba de 87 a 70 píxeles. En el Meteor de Piccolo se conservaba la gran altura y el tiempo apenas cambiaba. Esos datos no bastaban para afirmar una mejora perceptible de fluidez.
 
-G2 es otra prueba, **solo para Goku**, pendiente de valoración. No reemplaza la ROM principal 124607 ni extiende esta gravedad al resto del plantel.
+G2 es otra prueba, **solo para Goku**. Tampoco convenció al usuario: no percibía el cambio y cuestionó que fuera una gravedad real. No se considera aceptada; queda pendiente replantear el modelo. No reemplaza la ROM principal 124607 ni extiende esta gravedad al resto del plantel.
 
 [Vídeo simultáneo de 19 segundos](../assets/media/gravity-g2/comparacion.mp4) · [Manifiesto](../patches/gravity-g2/manifest.json) · [Pruebas](../evidence/gravity-g2/validation.json)
 
