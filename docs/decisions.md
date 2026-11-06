@@ -22,7 +22,7 @@ Actualizado el 5 de noviembre de 2026. [Registro estructurado](../project/decisi
 | Escenario 10 | Montañas nevadas, suelo y vuelo. | Bocetos, no integrado. |
 | Colisiones | Respetar tamaños, incluido Gohan. | Visor/auditoría disponibles; cajas sin cambios. |
 
-Última ROM de prueba: [v1.0, build 20261106-100534](version-1-0.md), con ventaja, salida del mareo y corrección del borrado periódico de acumulación. El comando sin versión conserva v6.6; no confundir esa opción con la prueba más reciente.
+Última ROM de prueba: [v1.0, build 20261106-105411](piccolo-hits-v1.md), con ventaja, salida del mareo y corrección del borrado periódico de acumulación. El comando sin versión conserva v6.6; no confundir esa opción con la prueba más reciente.
 
 [Namek antes y después](namek-anime-v2.md) · [Intro elegida](intro-original-lineup-v6-6.md) · [Ki aceptado](ki-colores-v4.md) · [Historial gráfico](graphics.md) · [Hoja de ruta](roadmap.md).
 
@@ -40,3 +40,8 @@ Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducci
 ## Build 20261106-105411 · Piccolo y cruces rápidos
 
 [Corrección del Meteor de Piccolo: 2 a 9 HITS, con 43 de daño conservado; doce casos. Cruces ejecutados con los mandos en intervalos de 15–18 fotogramas, sin acelerar la ROM](piccolo-hits-v1.md). Nuevo anuncio y comparación real; builds anteriores conservados.
+
+
+## Presentación completa · 6 de noviembre de 2026
+
+[Vídeo de 2:14, 26 tomas y once personajes](presentacion-completa-v1.md), con copia ligera para correo, lista de mejoras y borrador para un canal retro. Misma ROM/build; las tomas se coordinan sin acelerar el juego y los diseños pendientes no se incorporan en edición.

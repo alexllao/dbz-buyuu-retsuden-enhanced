@@ -10,9 +10,16 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const fullPresentation = await json('evidence/presentation-full/validation.json');
+assert(fullPresentation.passed && fullPresentation.takes === 26 && fullPresentation.roster.length === 11 && fullPresentation.stages === 9);
+assert(!fullPresentation.romChanged && !fullPresentation.gameplayTimeScaling && fullPresentation.nativeAudio && fullPresentation.nativeHitsHud);
+assert(fullPresentation.comboTakes === 8 && fullPresentation.meteorAndFinisherTakes === 9);
+for (const media of fullPresentation.media) assert.equal(sha256(await readFile(resolve(root, media.path))), media.sha256);
+assert(fullPresentation.media[1].bytes < 20 * 1024 * 1024);
 const piccoloHitsRelease = await json('patches/release-v1-0-build-20261106-105411/manifest.json');
 const piccoloHitsValidation = await json('evidence/release-v1-0-build-20261106-105411/validation.json');
 assert.equal(piccoloHitsRelease.version, '1.0');
+assert.equal(fullPresentation.romSha256, piccoloHitsRelease.target.sha256);
 assert.equal(piccoloHitsValidation.romSha256, piccoloHitsRelease.target.sha256);
 assert(piccoloHitsValidation.passed && piccoloHitsValidation.piccoloCases.length === 12);
 assert.deepEqual(piccoloHitsValidation.comparison.map(x => x.maxHits), [2, 9]);

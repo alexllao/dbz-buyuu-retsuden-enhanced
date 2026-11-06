@@ -4,9 +4,13 @@ Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball
 
 **Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-105411` (10:54:11, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
-[**VER ANUNCIO — 1:26 de juego real con sonido**](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4) · [**Cambios del build actual**](docs/piccolo-hits-v1.md) · [Resumen completo de la base v1.0](docs/version-1-0.md) · [**Build y huella de la ROM**](patches/release-v1-0-build-20261106-105411/manifest.json)
+[**VER PRESENTACIÓN COMPLETA — 2:14, once personajes**](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4) · [**Copia ligera para correo**](assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4) · [**Lista completa de mejoras**](docs/mejoras-frente-original.md) · [**Borrador de correo**](docs/correo-presentacion.md)
 
-[![Abrir anuncio v1.0: combos, cruces, Meteor, lanzamientos y especiales](assets/media/release-v1-0-build-20261106-105411/captura.png)](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4)
+**26 tomas, ocho cadenas y nueve Meteor/remates**, con especiales de todo el plantel, cruces rápidos entre dos jugadores y lanzamientos seguidos de técnicas. Grabaciones reales, sonido original y velocidad normal. Misma ROM v1.0/build 20261106-105411; este trabajo amplía el vídeo. [Capítulos y condiciones de grabación](docs/presentacion-completa-v1.md). [Anuncio corto anterior conservado](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4).
+
+[**Cambios del build actual**](docs/piccolo-hits-v1.md) · [Resumen de la base v1.0](docs/version-1-0.md) · [Manifiesto de la ROM](patches/release-v1-0-build-20261106-105411/manifest.json)
+
+[![Abrir presentación completa de Buyuu Retsuden Enhanced](assets/media/presentation-full/captura.png)](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4)
 
 El vídeo abre con BANDAI y ALEX LLAO. Muestra básicos → cruce → Meteor de Goku con **6 HITS**, tres bolas con **3 impactos**, Meteor de Vegeta y Piccolo (ahora con sus 9 HITS), lanzamientos seguidos de **Masenko, Final Flash y Kamehameha**, los **13 impactos de Cell** y **tres cruces rápidos P1/P2/P1 rematados con un Meteor de Goku**. Juego a velocidad normal, audio original y contador nativo; tomas coordinadas para demostración, sin acelerar ataques. Los enlaces mostrados no se anuncian como inevitables: el rival puede defenderse según la situación.
 
@@ -473,7 +477,7 @@ pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Entrega actual: v1.0 / build 20261106-103002
+# Entrega actual: v1.0 / build 20261106-105411
 pnpm build:review --rom "ruta/a/original.bin" --version v1.0
 
 # Base anterior conservada: gráficos, controles y cambio de lado, sin estas pruebas posteriores

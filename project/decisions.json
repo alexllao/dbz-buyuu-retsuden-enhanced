@@ -875,5 +875,30 @@
     "damage": 43,
     "validationCases": 12,
     "fastCrosses": "Faster coordinated inputs, 15/18 frame gaps; native cross animation unchanged"
+  },
+  "fullPresentation": {
+    "date": "2026-11-06",
+    "guide": "docs/presentacion-completa-v1.md",
+    "seconds": 134.32295557116893,
+    "takes": 26,
+    "characters": 11,
+    "stages": 9,
+    "romChanged": false,
+    "romSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+    "master": {
+      "path": "assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4",
+      "sha256": "b2e1c5ef104b095c2c718aaa164c43a7302b384de9912030e93a337b11b18bf4",
+      "bytes": 35159792
+    },
+    "compact": {
+      "path": "assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4",
+      "bytes": 17224530,
+      "sha256": "efe07929716f77cc922664f827885a90c96302bf1016da040c7061041c38468c",
+      "width": 854,
+      "height": 480,
+      "gameplayTimeScaling": false
+    },
+    "emailDraft": "docs/correo-presentacion.md",
+    "improvementList": "docs/mejoras-frente-original.md"
   }
 }
