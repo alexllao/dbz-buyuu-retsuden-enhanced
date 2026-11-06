@@ -1,0 +1,1334 @@
+[
+  {
+    "style": "stand",
+    "guardFrames": 0,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 120,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 147,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 188,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 218,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 258,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 293,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 492,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 536,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 567,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 90,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 492,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 536,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 567,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 120,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 150,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 180,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 210,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 240,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 300,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "stand",
+    "guardFrames": 390,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 126,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 152,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 191,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 220,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 294,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 493,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 533,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 564,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 0,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 120,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 147,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 188,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 218,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 258,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 293,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 328,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 355,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 408,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 450,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 492,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 536,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 567,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 90,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 120,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 150,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 180,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 260,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 210,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 261,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 240,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 261,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 300,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 261,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  },
+  {
+    "style": "crouch",
+    "guardFrames": 390,
+    "maxHits": 13,
+    "realContacts": 13,
+    "blockedChip": 0,
+    "drops": [
+      {
+        "frame": 112,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 142,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 187,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 215,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 261,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 297,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 333,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 362,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 413,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 6,
+        "hits": 11
+      },
+      {
+        "frame": 540,
+        "damage": 6,
+        "hits": 12
+      },
+      {
+        "frame": 574,
+        "damage": 6,
+        "hits": 13
+      }
+    ]
+  }
+]

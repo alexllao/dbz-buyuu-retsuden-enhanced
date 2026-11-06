@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**6/11/2026 — build174207:** revisión de HITS de los diez Meteor; correcciones en Krilin, Freezer, A18 y Trunks. Cell validado a13 contactos y a11 con KO previo. Sacudidas añadidas retiradas por petición explícita. G1/G2 de gravedad no aceptadas; modelo pendiente. [Estado, vídeo y120 pruebas](meteor-hits-v2.md).
+
 **Actualización 5/11/2026:** la prueba actual es [Respuesta v2: entradas, frenada, saltos y tercera bola](respuesta-v2.md). Incluye los comandos de Goku elegidos y la separación de la memoria del parche; esta sección anterior se conserva como historial.
 
 **5/11/2026 — Respuesta v1:** carga/salida/buffer, cancels sólo de básicos confirmados, control tras lanzamiento y comandos SF para Goku. [Reglas, comandos, vídeo y límites](respuesta-v1.md). HITS y stun: discrepancias del usuario pendientes, sin cambios en esta revisión.

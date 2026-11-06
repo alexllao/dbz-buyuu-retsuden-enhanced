@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "buildId": "20261106-174207",
+  "buildDate": "2026-11-06",
+  "buildTimestamp": "2026-11-06T17:42:07+01:00",
+  "timezone": "Europe/Madrid",
+  "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 16:42Z",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-174207.bin",
+    "sha256": "854f444abd4bd99f167be3d5711205e30185d0fd6480ae581ae6c131255df797",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/release-v1-0-build-20261106-174207/DBZ-Enhanced-v1.0-build-20261106-174207.ips",
+    "sha256": "e207f860559e10fa4b7e2a489dd8f3109f3ea6de87f58dbf24438bfab1a212bd"
+  },
+  "experimental": true,
+  "addedMeteorShake": false,
+  "gravityG1G2": false
+}

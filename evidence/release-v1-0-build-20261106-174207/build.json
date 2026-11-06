@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "buildId": "20261106-174207",
+  "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 16:42Z",
+  "sourceSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "targetSha256": "854f444abd4bd99f167be3d5711205e30185d0fd6480ae581ae6c131255df797",
+  "allowed": [
+    [
+      4038656,
+      194
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      95726,
+      8
+    ],
+    [
+      97258,
+      8
+    ],
+    [
+      102910,
+      8
+    ],
+    [
+      101712,
+      8
+    ]
+  ],
+  "addedMeteorShake": false,
+  "gravityG1G2": false
+}

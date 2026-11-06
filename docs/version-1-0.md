@@ -1,6 +1,6 @@
 # Versión 1.0 · build 20261106-100534
 
-**Build conservado como historial. La entrega actual añade preparación de ki más breve y tres cruces con Meteor: [build 20261106-103002](ki-startup-v1.md).**
+**Build conservado como historial. La entrega actual es [v1.0 build20261106-174207: revisión de Meteor y retirada de sacudidas añadidas](meteor-hits-v2.md).**
 
 Build fechado el **6 de noviembre de 2026, 10:05:34, Europe/Madrid**. La fecha identifica esta compilación; la validación y el empaquetado se completan después. Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin`.
 

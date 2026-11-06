@@ -1,5 +1,7 @@
 # Impacto de los Meteor dentro de la ROM
 
+**DESCARTADA por petición del usuario el 6/11/2026.** No percibía la sacudida y pidió quitarla. La [ROM actual 174207](meteor-hits-v2.md) conserva solo la vibración original; este documento y vídeo quedan como historial.
+
 Prueba solicitada el 6 de noviembre de 2026: una sacudida en cada contacto del Meteor, para todos los personajes que tienen ese remate. **Variante experimental, pendiente de validación visual.** No sustituye el build principal 124607.
 
 [Vídeo real antes/después — 1:10](../assets/media/meteor-impact-v1/comparacion.mp4) · [Manifiesto y versión](../patches/meteor-impact-v1/manifest.json) · [Pruebas](../evidence/meteor-impact-v1/validation.json)

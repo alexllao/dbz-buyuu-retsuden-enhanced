@@ -1,0 +1,7 @@
+a18=3da000
+freezer=3da02a
+actor_contact=3da04e
+krilin=3da05a
+trunks=3da080
+done=3da0a2
+count_only=3da0b2

@@ -1,0 +1,65 @@
+[
+  {
+    "style": "natural-KO",
+    "maxHits": 11,
+    "contacts": 11,
+    "drops": [
+      {
+        "frame": 113,
+        "damage": 6,
+        "hits": 1
+      },
+      {
+        "frame": 143,
+        "damage": 6,
+        "hits": 2
+      },
+      {
+        "frame": 185,
+        "damage": 6,
+        "hits": 3
+      },
+      {
+        "frame": 214,
+        "damage": 6,
+        "hits": 4
+      },
+      {
+        "frame": 256,
+        "damage": 6,
+        "hits": 5
+      },
+      {
+        "frame": 292,
+        "damage": 6,
+        "hits": 6
+      },
+      {
+        "frame": 329,
+        "damage": 6,
+        "hits": 7
+      },
+      {
+        "frame": 359,
+        "damage": 6,
+        "hits": 8
+      },
+      {
+        "frame": 411,
+        "damage": 6,
+        "hits": 9
+      },
+      {
+        "frame": 456,
+        "damage": 6,
+        "hits": 10
+      },
+      {
+        "frame": 499,
+        "damage": 3,
+        "hits": 11
+      }
+    ],
+    "finalHP": 0
+  }
+]

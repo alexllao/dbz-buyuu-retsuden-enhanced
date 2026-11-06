@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "preservePreviousVersions": true,
   "presentation": {
     "selected": "C anime cálido",
@@ -1004,5 +1004,30 @@
       "sha256": "ec12a72f497c92e003b4a94941ce088c7e47b13f20cae5c13a45688707e76047",
       "bytes": 17725900
     }
+  },
+  "latestBuild": {
+    "version": "1.0",
+    "buildId": "20261106-174207",
+    "manifest": "patches/release-v1-0-build-20261106-174207/manifest.json"
+  },
+  "meteorHitReview": {
+    "date": "2026-11-06",
+    "status": "Corrected four missing contact paths;120 emulator cases normal speed",
+    "completeFixtureCounts": {
+      "Goku": 3,
+      "Gohan": 5,
+      "Piccolo": 9,
+      "Vegeta": 8,
+      "Trunks": 3,
+      "Cell": 13,
+      "A18": 3,
+      "Krilin": 8,
+      "Freezer": 3,
+      "Recoome": 2
+    },
+    "cell": "Dynamic confirmed hits; example13 at200HP,11 when KO at63HP. Earlier user case unknown.",
+    "addedShake": "Removed at explicit user request; Impact experiment archived",
+    "gravity": "G1/G2 not accepted, model remains pending",
+    "documentation": "docs/meteor-hits-v2.md"
   }
 }
