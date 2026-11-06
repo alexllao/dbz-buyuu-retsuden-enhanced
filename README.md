@@ -4,7 +4,7 @@ Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball
 
 **Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-105411` (10:54:11, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
-[**VER PRESENTACIÓN COMPLETA — 2:14, once personajes**](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4) · [**Copia ligera para correo**](assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4) · [**Lista completa de mejoras**](docs/mejoras-frente-original.md) · [**Borrador de correo**](docs/correo-presentacion.md)
+[**VER PRESENTACIÓN COMPLETA — 2:14, once personajes**](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4) · [**Copia ligera para correo**](assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4) · [**Lista completa de mejoras**](docs/mejoras-frente-original.md) · [**Borrador de correo**](docs/correo-presentacion.md) · [**Portada para YouTube**](assets/media/presentation-full/Portada-YouTube-2026-Alex-Llao.png)
 
 **26 tomas, ocho cadenas y nueve Meteor/remates**, con especiales de todo el plantel, cruces rápidos entre dos jugadores y lanzamientos seguidos de técnicas. Grabaciones reales, sonido original y velocidad normal. Misma ROM v1.0/build 20261106-105411; este trabajo amplía el vídeo. [Capítulos y condiciones de grabación](docs/presentacion-completa-v1.md). [Anuncio corto anterior conservado](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4).
 
