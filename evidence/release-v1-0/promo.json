@@ -1,0 +1,99 @@
+{
+  "romSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "fps": 59.92274340431231,
+  "chapters": [
+    {
+      "label": "01 titulo",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\01 titulo.mp4",
+      "frames": 360,
+      "seconds": 6.00773562002992,
+      "startSeconds": 0
+    },
+    {
+      "label": "02 combo cruce meteor",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\02 combo cruce meteor.mp4",
+      "frames": 449,
+      "seconds": 7.492981370537317,
+      "startSeconds": 6.00773562002992
+    },
+    {
+      "label": "03 rafaga tres impactos",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\03 rafaga tres impactos.mp4",
+      "frames": 271,
+      "seconds": 4.5224898695225235,
+      "startSeconds": 13.500716990567238
+    },
+    {
+      "label": "04 super kamehameha",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\04 super kamehameha.mp4",
+      "frames": 397,
+      "seconds": 6.625197336532995,
+      "startSeconds": 18.02320686008976
+    },
+    {
+      "label": "05 vegeta meteor",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\05 vegeta meteor.mp4",
+      "frames": 406,
+      "seconds": 6.775390727033743,
+      "startSeconds": 24.648404196622757
+    },
+    {
+      "label": "06 piccolo meteor",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\06 piccolo meteor.mp4",
+      "frames": 406,
+      "seconds": 6.775390727033743,
+      "startSeconds": 31.4237949236565
+    },
+    {
+      "label": "07 lanzamiento masenko",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\07 lanzamiento masenko.mp4",
+      "frames": 504,
+      "seconds": 8.410829868041889,
+      "startSeconds": 38.19918565069025
+    },
+    {
+      "label": "08 lanzamiento final flash",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\08 lanzamiento final flash.mp4",
+      "frames": 498,
+      "seconds": 8.31070094104139,
+      "startSeconds": 46.61001551873213
+    },
+    {
+      "label": "09 lanzamiento kamehameha",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\09 lanzamiento kamehameha.mp4",
+      "frames": 504,
+      "seconds": 8.410829868041889,
+      "startSeconds": 54.92071645977352
+    },
+    {
+      "label": "10 cell trece impactos",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\10 cell trece impactos.mp4",
+      "frames": 738,
+      "seconds": 12.315858021061336,
+      "startSeconds": 63.33154632781541
+    },
+    {
+      "label": "11 cruces y ataque",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\11 cruces y ataque.mp4",
+      "frames": 402,
+      "seconds": 6.70863810903341,
+      "startSeconds": 75.64740434887675
+    },
+    {
+      "label": "12 cierre",
+      "path": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\work\\responsive-v3\\video\\12 cierre.mp4",
+      "frames": 180,
+      "seconds": 3.00386781001496,
+      "startSeconds": 82.35604245791016
+    }
+  ],
+  "seconds": 85.35991026792513,
+  "gameplayTimeScaling": false,
+  "nativeAudio": true,
+  "nativeHitsHud": true,
+  "staging": "Scripted human ports; native-charged seeds. Positions set before each take; critical HP earned via real damage before capture. No HP/timer/counter writes during takes.",
+  "video": {
+    "path": "assets/media/release-v1-0/DBZ-Enhanced-v1.0-build-20261106-100534-Anuncio.mp4",
+    "sha256": "981f09ea14faa9bf0dd64543bc149c9d39ecaedf541c98c3b2d4931b7c472a76"
+  }
+}

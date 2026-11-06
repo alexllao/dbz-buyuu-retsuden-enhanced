@@ -46,3 +46,7 @@ Actualizada el 5 de noviembre de 2026. Última ROM de prueba: [HUD HITS v3](hud-
 Las versiones anteriores, fuentes, paletas y vídeos se conservan. Una prueba en emulador no equivale a aprobación visual o de jugabilidad del usuario. [Decisiones vigentes](decisions.md).
 
 - [x] [HITS v3](hud-hits-v3.md): pausa durante ataques/cruce y mareo; Meteor de Goku con tres contactos, enlace corto separado de lectura; los golpes aislados no se suman.
+
+
+- [x] [v1.0 / build 20261106-100534](version-1-0.md): identificar ROM, corregir lecturas tras impactos y lanzamiento, conservar HITS durante ki y grabar anuncio real de 1:25.
+- [ ] Revisión humana de v1.0 con mando y auditoría exhaustiva de técnicas; el recorrido automatizado no sustituye esa validación.

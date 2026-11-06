@@ -1,6 +1,12 @@
 # Construcción
 
-## Última prueba: HUD HITS v3
+## Entrega actual: v1.0 / build 20261106-100534
+
+`pnpm build:review --rom "ruta/a/original.bin" --version v1.0` genera `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin`, con versión y fecha también en las dos cabeceras de título de la ROM. El manifiesto fija su huella exacta. [Guía, pruebas y anuncio](version-1-0.md). El alias técnico `responsive-v3` genera el mismo archivo. Las siguientes variantes se conservan como historial; la construcción sin versión sigue siendo v6.6.
+
+Cada compilación nueva debe tener un build distinto en nombre, cabecera y manifiesto. La versión pública de esta entrega es 1.0; los números de módulos históricos no son versiones públicas del conjunto.
+
+## Historial: HUD HITS v3
 
 `pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v3` incluye HITS desde 2 impactos, enlace de 30 separado de lectura de 90, pausa durante ataques y mareo, los tres contactos del Meteor de Goku y la corrección del borrado periódico de stun. [Detalle](hud-hits-v3.md). Se conserva v6.6 sin versión explícita.
 

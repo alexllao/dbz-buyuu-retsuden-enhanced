@@ -1,0 +1,64 @@
+{
+  "romSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "passed": true,
+  "singleFrameSamples": [
+    {
+      "port": 1,
+      "delay": 0,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 1,
+      "delay": 1,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 1,
+      "delay": 2,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 1,
+      "delay": 3,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 2,
+      "delay": 0,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 2,
+      "delay": 1,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 2,
+      "delay": 2,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    },
+    {
+      "port": 2,
+      "delay": 3,
+      "nativeTimer": 255,
+      "rawPad": 32,
+      "passed": true
+    }
+  ],
+  "postThrowCharge": true,
+  "chargeReleaseMovement": true
+}

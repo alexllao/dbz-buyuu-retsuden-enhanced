@@ -22,6 +22,11 @@ Actualizado el 5 de noviembre de 2026. [Registro estructurado](../project/decisi
 | Escenario 10 | Montañas nevadas, suelo y vuelo. | Bocetos, no integrado. |
 | Colisiones | Respetar tamaños, incluido Gohan. | Visor/auditoría disponibles; cajas sin cambios. |
 
-Última ROM de prueba: [HUD HITS v3](hud-hits-v3.md), con ventaja, salida del mareo y corrección del borrado periódico de acumulación. El comando sin versión conserva v6.6; no confundir esa opción con la prueba más reciente.
+Última ROM de prueba: [v1.0, build 20261106-100534](version-1-0.md), con ventaja, salida del mareo y corrección del borrado periódico de acumulación. El comando sin versión conserva v6.6; no confundir esa opción con la prueba más reciente.
 
 [Namek antes y después](namek-anime-v2.md) · [Intro elegida](intro-original-lineup-v6-6.md) · [Ki aceptado](ki-colores-v4.md) · [Historial gráfico](graphics.md) · [Hoja de ruta](roadmap.md).
+
+
+## Versión 1.0 · 6 de noviembre de 2026
+
+Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducción de lecturas después de golpes y la pérdida de historial tras agarres; 120 técnicas tras lanzar reconocidas en las muestras. El contador pausa durante ki ofensivo; tres bolas de Goku, Meteor y trece impactos de Cell comprobados. Sin cambios de daño, colisiones ni fórmula de mareo respecto a Respuesta v2. Se mantienen los ajustes de carga, buffer, cancels, movimiento y gráficos. [Guía, anuncio real de 1:25 y límites de las pruebas](version-1-0.md).

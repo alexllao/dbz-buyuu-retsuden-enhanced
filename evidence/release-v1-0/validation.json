@@ -1,0 +1,308 @@
+{
+  "version": {
+    "version": "1.0",
+    "buildId": "20261106-100534",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T10:05:34+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:05Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin"
+  },
+  "romSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "passed": true,
+  "inputCases": 200,
+  "postThrowKiPassed": 120,
+  "characters": 11,
+  "ports": 2,
+  "singleFramePollTests": 8,
+  "negativeCases": 7,
+  "meteorChordCases": 10,
+  "scriptedFrames": 88200,
+  "scriptedMinutes": 24.531587115122175,
+  "stages": 9,
+  "nativeCollisionChanges": false,
+  "nativeDamageChanges": false,
+  "stunFormulaChanges": false,
+  "kiCounterPause": true,
+  "clips": [
+    {
+      "label": "01 titulo",
+      "frames": 360,
+      "maxHits": 0,
+      "damageEvents": []
+    },
+    {
+      "label": "02 combo cruce meteor",
+      "frames": 449,
+      "maxHits": 6,
+      "damageEvents": [
+        {
+          "frame": 29,
+          "damage": 12,
+          "hits": 1
+        },
+        {
+          "frame": 50,
+          "damage": 12,
+          "hits": 2
+        },
+        {
+          "frame": 66,
+          "damage": 12,
+          "hits": 3
+        },
+        {
+          "frame": 305,
+          "damage": 35,
+          "hits": 6
+        }
+      ]
+    },
+    {
+      "label": "03 rafaga tres impactos",
+      "frames": 271,
+      "maxHits": 3,
+      "damageEvents": [
+        {
+          "frame": 43,
+          "damage": 10,
+          "hits": 1
+        },
+        {
+          "frame": 89,
+          "damage": 10,
+          "hits": 2
+        },
+        {
+          "frame": 140,
+          "damage": 10,
+          "hits": 3
+        }
+      ]
+    },
+    {
+      "label": "04 super kamehameha",
+      "frames": 397,
+      "maxHits": 1,
+      "damageEvents": [
+        {
+          "frame": 189,
+          "damage": 85,
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "label": "05 vegeta meteor",
+      "frames": 406,
+      "maxHits": 8,
+      "damageEvents": [
+        {
+          "frame": 68,
+          "damage": 7,
+          "hits": 2
+        },
+        {
+          "frame": 92,
+          "damage": 7,
+          "hits": 3
+        },
+        {
+          "frame": 132,
+          "damage": 7,
+          "hits": 4
+        },
+        {
+          "frame": 163,
+          "damage": 7,
+          "hits": 5
+        },
+        {
+          "frame": 194,
+          "damage": 7,
+          "hits": 6
+        },
+        {
+          "frame": 233,
+          "damage": 7,
+          "hits": 7
+        },
+        {
+          "frame": 256,
+          "damage": 7,
+          "hits": 8
+        }
+      ]
+    },
+    {
+      "label": "06 piccolo meteor",
+      "frames": 406,
+      "maxHits": 2,
+      "damageEvents": [
+        {
+          "frame": 226,
+          "damage": 43,
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "label": "07 lanzamiento masenko",
+      "frames": 504,
+      "maxHits": 2,
+      "damageEvents": [
+        {
+          "frame": 139,
+          "damage": 9,
+          "hits": 1
+        },
+        {
+          "frame": 261,
+          "damage": 43,
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "label": "08 lanzamiento final flash",
+      "frames": 498,
+      "maxHits": 2,
+      "damageEvents": [
+        {
+          "frame": 144,
+          "damage": 9,
+          "hits": 1
+        },
+        {
+          "frame": 241,
+          "damage": 63,
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "label": "09 lanzamiento kamehameha",
+      "frames": 504,
+      "maxHits": 2,
+      "damageEvents": [
+        {
+          "frame": 147,
+          "damage": 12,
+          "hits": 1
+        },
+        {
+          "frame": 243,
+          "damage": 60,
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "label": "10 cell trece impactos",
+      "frames": 738,
+      "maxHits": 13,
+      "damageEvents": [
+        {
+          "frame": 132,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 158,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 197,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 226,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 266,
+          "damage": 6,
+          "hits": 5
+        },
+        {
+          "frame": 299,
+          "damage": 6,
+          "hits": 6
+        },
+        {
+          "frame": 332,
+          "damage": 6,
+          "hits": 7
+        },
+        {
+          "frame": 361,
+          "damage": 6,
+          "hits": 8
+        },
+        {
+          "frame": 415,
+          "damage": 6,
+          "hits": 9
+        },
+        {
+          "frame": 456,
+          "damage": 6,
+          "hits": 10
+        },
+        {
+          "frame": 496,
+          "damage": 6,
+          "hits": 11
+        },
+        {
+          "frame": 538,
+          "damage": 6,
+          "hits": 12
+        },
+        {
+          "frame": 570,
+          "damage": 6,
+          "hits": 13
+        }
+      ]
+    },
+    {
+      "label": "11 cruces y ataque",
+      "frames": 402,
+      "maxHits": 3,
+      "damageEvents": [
+        {
+          "frame": 230,
+          "damage": 10,
+          "hits": 1
+        },
+        {
+          "frame": 251,
+          "damage": 9,
+          "hits": 2
+        },
+        {
+          "frame": 271,
+          "damage": 10,
+          "hits": 3
+        }
+      ]
+    },
+    {
+      "label": "12 cierre",
+      "frames": 180,
+      "maxHits": 0,
+      "damageEvents": []
+    }
+  ],
+  "limitations": [
+    "Scripted emulator input at normal speed, not a physical controller or original hardware certification.",
+    "Accumulated runtime with restored seeds between bouts; not one continuous match.",
+    "Native impact/cinematic pauses remain. Polling every eligible combat update is not a promise that every single video-frame press during a pause is buffered.",
+    "HITS tracks the documented chain window; a counted throw-to-beam sequence can still be defended and is not proof of an unavoidable combo.",
+    "Exhaustive special-move/HITS/stun audit and human balance testing remain pending."
+  ]
+}

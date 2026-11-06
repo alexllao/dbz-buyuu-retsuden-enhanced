@@ -1,37 +1,37 @@
 # Dragon Ball Z: Buyuu Retsuden Enhanced
 
-Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
+Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 6 de noviembre de 2026 · rama `development`.** La ROM de prueba actual es **Respuesta v2 (`responsive-v2`)**: reconocimiento de entradas de Goku, frenada corta al caminar, salto normal más bajo y breve y corrección de la tercera bola. Mantiene las mejoras de carga, buffer y cancels de Respuesta v1.
+**Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-100534` (10:05:34, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
-**Prueba nueva — lanzamiento → Kamehameha:** [ver 25 segundos de juego real](assets/media/throw-kame-v2/Lanzamiento-y-Kamehameha-en-juego-v2.mp4). Puede prepararse mientras el rival cae; el intento temprano falla y el defensor puede cubrirse en el que conecta. **Se han detectado entradas inconsistentes al salir del lanzamiento**, pendientes de corregir; las pruebas desde neutral no cubrían esa transición. [Resultados y límites](docs/lanzamiento-kamehameha-v2.md). Misma ROM Respuesta v2, sin cambios.
+[**VER ANUNCIO — 1:25 de juego real con sonido**](assets/media/release-v1-0/DBZ-Enhanced-v1.0-build-20261106-100534-Anuncio.mp4) · [**Guía y resumen completo de v1.0**](docs/version-1-0.md) · [**Build y huella de la ROM**](patches/release-v1-0/manifest.json)
 
-[**Ver 1:18 de juego real con sonido: antes/después y comandos nuevos**](assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4) · [**Comandos y guía actual**](docs/respuesta-v2.md) · [Manifiesto](patches/responsive-v2/manifest.json)
+[![Abrir anuncio v1.0: combos, cruces, Meteor, lanzamientos y especiales](assets/media/release-v1-0/captura.png)](assets/media/release-v1-0/DBZ-Enhanced-v1.0-build-20261106-100534-Anuncio.mp4)
 
-[![Abrir prueba de controles y saltos de Respuesta v2](assets/media/responsive-v2/captura.png)](assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4)
+El vídeo abre con BANDAI y ALEX LLAO. Muestra básicos → cruce → Meteor de Goku con **6 HITS**, tres bolas con **3 impactos**, Meteor de Vegeta y Piccolo, lanzamientos seguidos de **Masenko, Final Flash y Kamehameha**, los **13 impactos de Cell** y respuestas entre dos mandos. Juego a velocidad normal, audio original y contador nativo; tomas coordinadas para demostración, sin acelerar ataques. Los enlaces mostrados no se anuncian como inevitables: el rival puede defenderse según la situación.
+
+**Lectura del mando corregida:** se evita que el temporizador posterior a golpes salte lecturas durante actualizaciones elegibles de combate, y que se borre el historial tras finalizar el agarre mientras el rival cae. Comprobadas **110/110 técnicas tras lanzar** entre los once personajes, más **10/10 con Goku en P2**. Se mantienen las pausas y cinematografías nativas. El contador también conserva su ventana durante técnicas ofensivas de ki: la ráfaga de Goku ya suma sus tres contactos.
+
+Se repiten 200 variantes de comandos, diez acordes de Meteor, ocho muestras de lectura de un fotograma entre los dos puertos y siete casos negativos. Las pruebas largas suman **24,5 minutos acumulados**, once personajes y nueve escenarios; son entradas automatizadas con restauraciones entre tandas. La sensación con mando, el equilibrio, la auditoría exhaustiva de HITS y la consola original siguen pendientes. No se modifica la fórmula nativa de daño, colisiones o mareo respecto a Respuesta v2. [Pruebas y límites](docs/version-1-0.md).
+
+Se conservan las once paletas de combate, Goku G2 HDBZ, Goku grande cálido en título/intro con reparto pequeño original, créditos BANDAI y ALEX LLAO, nueve fondos entregados, auras C2 de color individual **sin rayos**, barras de mareo y HITS. También carrera mantenida, inercia breve, salto normal más bajo, carga con salida rápida, buffer y cancels de básicos, cruces y agarres con control recuperado antes. **Los retratos/HUD H4, vibración nueva, árbol/nave de Namek y décimo escenario nevado siguen sin integrar.** [Resumen por área](docs/version-1-0.md#mejoras-que-conserva-esta-versión).
 
 | Goku mirando a la derecha | Comando actual |
 | --- | --- |
-| **Kamehameha** | **← ↙ ↓ ↘ → + A** |
-| **Super Kamehameha** | **← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A** |
-| **Meteor** | **← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A+B** |
-| Ráfaga de tres bolas | ↓ ↘ → + A |
+| Kamehameha | ← ↙ ↓ ↘ → + A |
+| Super Kamehameha | ← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A |
+| Meteor | ← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A+B |
+| Tres bolas | ↓ ↘ → + A |
 
-A+B sin el movimiento completo sigue cargando ki. El cambio de lado del mod conserva → ← → + C. [Tabla completa de Goku y uso del buffer](docs/respuesta-v2.md). Los otros personajes y la CPU mantienen sus comandos.
+A+B sin el movimiento completo carga ki. Cambio de lado: → ← → + C, cerca del rival. Los demás personajes y la CPU conservan sus comandos. [Tabla completa de Goku](docs/respuesta-v2.md).
 
-**Cambios medidos:** en Goku, el toque corto deja 2 píxeles de inercia frente a 33 de la prueba anterior; salto de 87 frente a 116 píxeles y 35 frente a 48 fotogramas en el aire. El reconocedor pasa **200 variantes de entrada** en ambos sentidos y diez pruebas de Meteor entre los dos mandos. Las secuencias largas suman **24,5 minutos acumulados**, con once personajes y nueve escenarios; son puertos automatizados y estados restaurados entre tandas, no una sesión humana continua ni una garantía de control perfecto.
+Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin`. Arranca desde cero, a velocidad normal, sin estados anteriores. Construcción: `pnpm build:review --rom ruta/a/original.bin --version v1.0`. La opción sin versión conserva v6.6.
 
-**Corregida una causa de corrupción:** controles, aura y HUD usaban memoria que pertenece al tercer proyectil nativo. Se ha separado su estado. La ráfaga da tres impactos reales en las cuatro distancias probadas, sin fabricar daño ni cambiar las colisiones. **Las reglas de HITS y stun no se han retocado y su revisión sigue pendiente.** [Detalles y evidencia](docs/respuesta-v2.md).
-
-Los cancels siguen afectando a básicos que aciertan; especiales y Meteor completan su ejecución. El botón anticipado puede reconducir el arranque de un básico aún inactivo cuando se completa un especial. El salto normal tiene su propio ajuste de altura y tiempo; la velocidad general del juego no se acelera. La sensación con mando y el equilibrio siguen en pruebas.
-
-Se conservan la presentación de Goku cálido, el reparto pequeño original, las paletas de combate y las auras sin rayos. Árbol, nave y nuevas sacudidas siguen sin integrar. **Arranca desde cero a velocidad normal, sin estados guardados anteriores**, por el traslado de memoria.
-
-Construcción actual: `pnpm build:review --rom ruta/a/original.bin --version responsive-v2`. La opción sin versión mantiene v6.6. [Historial Respuesta v1 y su vídeo](docs/respuesta-v1.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
+[Historial Respuesta v2 y vídeo de controles](docs/respuesta-v2.md) · [Prueba anterior de lanzamiento/Kamehameha: documenta el fallo corregido en v1.0](docs/lanzamiento-kamehameha-v2.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
 
 ## Vídeos: combos, HITS y jugabilidad
 
-**Historial de HUD HITS v3: la prueba actual es Respuesta v2, descrita arriba.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
+**Historial de HUD HITS v3: la prueba actual es v1.0, descrita arriba.** Los README incluidos en paquetes de ROM anteriores son fotografías de aquellas versiones; no representan las decisiones actuales.
 
 | Qué quieres ver | Vídeo | Estado |
 | --- | --- | --- |
@@ -48,7 +48,7 @@ Construcción actual: `pnpm build:review --rom ruta/a/original.bin --version res
 
 ## Pantalla de presentación elegida
 
-**Elección final: Goku cálido con contraste anime (C), contornos negros y sombras marcadas.** Se conserva el dibujo original. Esta es la presentación integrada desde **v6.6** y mantenida en la ROM actual **HUD HITS v3**.
+**Elección final: Goku cálido con contraste anime (C), contornos negros y sombras marcadas.** Se conserva el dibujo original. Esta es la presentación integrada desde **v6.6** y mantenida en la ROM actual **v1.0**.
 
 ### Pantalla de título: BANDAI y ALEX LLAO
 
@@ -469,14 +469,14 @@ pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Última prueba: HITS desde 2, stun por inactividad y ventaja de cambio de lado
-pnpm build:review --rom "ruta/a/original.bin" --version hud-hits-v3
+# Entrega actual: v1.0 / build 20261106-100534
+pnpm build:review --rom "ruta/a/original.bin" --version v1.0
 
 # Base anterior conservada: gráficos, controles y cambio de lado, sin estas pruebas posteriores
 pnpm build:review --rom "ruta/a/original.bin" --version v6.6
 ```
 
-La última prueba genera `dist/Buyuu_Retsuden_Enhanced_HUD_Hits_v3.bin`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
+La entrega actual genera `dist/DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin` mediante `--version v1.0`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
 
 SHA-256 de la base admitida:
 
@@ -484,7 +484,7 @@ SHA-256 de la base admitida:
 217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557
 ```
 
-**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la última prueba](patches/hud-hits-v3/manifest.json)
+**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la entrega actual](patches/release-v1-0/manifest.json)
 
 ## Qué se ha comprobado y qué falta
 

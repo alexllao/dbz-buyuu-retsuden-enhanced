@@ -1,0 +1,13 @@
+input_p1=3d4000
+p1_allowed=3d4018
+input_p2=3d401e
+p2_allowed=3d4036
+released_thrower=3d403c
+not_allowed=3d40b4
+poll_gate=3d40ba
+poll_original=3d40fc
+poll_cinematic=3d4102
+poll_now=3d4108
+counter_tick=3d410e
+counter_victim=3d4152
+counter_return=3d4158

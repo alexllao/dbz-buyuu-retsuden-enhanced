@@ -1,0 +1,49 @@
+{
+  "sourceSha256": "17c1d2789c095cba7d3e66ec7c16af24503899f195b3ca4e9be4fc26889aff74",
+  "targetSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "codeBytes": 346,
+  "allowed": [
+    [
+      4014080,
+      346
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      288,
+      48
+    ],
+    [
+      336,
+      48
+    ],
+    [
+      36712,
+      8
+    ],
+    [
+      36828,
+      8
+    ],
+    [
+      36106,
+      6
+    ],
+    [
+      3867380,
+      6
+    ]
+  ],
+  "status": "Release candidate",
+  "version": {
+    "version": "1.0",
+    "buildId": "20261106-100534",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T10:05:34+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:05Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin"
+  }
+}

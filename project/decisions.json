@@ -830,5 +830,22 @@
     "guide": "docs/lanzamiento-kamehameha-v2.md",
     "result": "Can prepare before landing. Early attempt misses; descent timing hits after landing; holding back reduces beam damage60->30.",
     "inputIssue": "Four of ten sampled post-throw command timings did not start Kamehameha; cause unresolved. Extend input-buffer review to throw-recovery transitions."
+  },
+  "releaseV1": {
+    "version": "1.0",
+    "buildId": "20261106-100534",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T10:05:34+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:05Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin",
+    "romSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+    "guide": "docs/version-1-0.md",
+    "status": "Experimental build for human playtesting",
+    "controllerFix": "Native poll each eligible combat update; preserve history after own throw recovery",
+    "postThrowTests": 120,
+    "kiCounterPause": true,
+    "stunFormulaUnchanged": true,
+    "video": "assets/media/release-v1-0/DBZ-Enhanced-v1.0-build-20261106-100534-Anuncio.mp4"
   }
 }
