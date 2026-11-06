@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "buildId": "20261106-105411",
+  "buildDate": "2026-11-06",
+  "buildTimestamp": "2026-11-06T10:54:11+01:00",
+  "timezone": "Europe/Madrid",
+  "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:54Z",
+  "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin",
+    "sha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411.ips",
+    "sha256": "756a2b6a57b5e2fad78af33601678457bbed351b520531982db64d37e0192197"
+  },
+  "experimental": true,
+  "scope": "Count seven native confirmed Piccolo Meteor contacts; preserve sound, damage, physics and prior ki startup adjustment. Faster crossovers are coordinated pad execution, not ROM animation changes."
+}

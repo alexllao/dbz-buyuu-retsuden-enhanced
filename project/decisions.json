@@ -850,12 +850,12 @@
   },
   "currentReleaseBuild": {
     "version": "1.0",
-    "buildId": "20261106-103002",
+    "buildId": "20261106-105411",
     "buildDate": "2026-11-06",
-    "buildTimestamp": "2026-11-06T10:30:02+01:00",
+    "buildTimestamp": "2026-11-06T10:54:11+01:00",
     "timezone": "Europe/Madrid",
-    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:30Z",
-    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin"
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:54Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin"
   },
   "kiStartupV1": {
     "version": "1.0",
@@ -865,5 +865,15 @@
     "scope": "Normal non-split Kamehameha and Masenko preparation only",
     "crossoversIntoMeteor": "P1/P2/P1 then Goku Meteor3hits; real coordinated-input recording",
     "status": "First timing proposal for human playtesting"
+  },
+  "piccoloHitsV1": {
+    "buildId": "20261106-105411",
+    "romSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+    "guide": "docs/piccolo-hits-v1.md",
+    "beforeHits": 2,
+    "afterHits": 9,
+    "damage": 43,
+    "validationCases": 12,
+    "fastCrosses": "Faster coordinated inputs, 15/18 frame gaps; native cross animation unchanged"
   }
 }

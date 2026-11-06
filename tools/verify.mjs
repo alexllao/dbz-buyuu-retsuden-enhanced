@@ -10,6 +10,18 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const piccoloHitsRelease = await json('patches/release-v1-0-build-20261106-105411/manifest.json');
+const piccoloHitsValidation = await json('evidence/release-v1-0-build-20261106-105411/validation.json');
+assert.equal(piccoloHitsRelease.version, '1.0');
+assert.equal(piccoloHitsValidation.romSha256, piccoloHitsRelease.target.sha256);
+assert(piccoloHitsValidation.passed && piccoloHitsValidation.piccoloCases.length === 12);
+assert.deepEqual(piccoloHitsValidation.comparison.map(x => x.maxHits), [2, 9]);
+assert(piccoloHitsValidation.comparison.every(x => x.damage === 43));
+assert.deepEqual(piccoloHitsValidation.crossGaps, [15, 18]);
+assert(!piccoloHitsValidation.romCrossAnimationChanged && !piccoloHitsValidation.gameplayTimeScaling);
+assert(piccoloHitsValidation.kiStartupTablesUnchanged && piccoloHitsValidation.damageUnchanged);
+assert.equal(sha256(await readFile(resolve(root, piccoloHitsRelease.patch.path))), piccoloHitsRelease.patch.sha256);
+for (const media of piccoloHitsValidation.media) assert.equal(sha256(await readFile(resolve(root, media.path))), media.sha256);
 const kiStartupRelease = await json('patches/release-v1-0-build-20261106-103002/manifest.json');
 const kiStartupValidation = await json('evidence/release-v1-0-build-20261106-103002/validation.json');
 assert.equal(kiStartupRelease.version, '1.0');

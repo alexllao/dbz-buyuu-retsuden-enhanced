@@ -1,5 +1,7 @@
 # v1.0 · build 20261106-103002 · preparación de ki y cruces con Meteor
 
+**Build conservado. La entrega actual corrige Piccolo e incluye cruces ejecutados más seguidos: [20261106-105411](piccolo-hits-v1.md).**
+
 Build del **6 de noviembre de 2026, 10:30:02 de Madrid**. Sustituye para las pruebas al build 20261106-100534, que se conserva. Sigue siendo versión **1.0**, con un identificador de compilación nuevo en el archivo, las dos cabeceras internas de título y el manifiesto.
 
 [**Anuncio actualizado, 1:27**](../assets/media/release-v1-0-build-20261106-103002/DBZ-Enhanced-v1.0-build-20261106-103002-Anuncio.mp4) · [**Tres cruces y Meteor, toma completa**](../assets/media/release-v1-0-build-20261106-103002/Tres-cruces-y-Meteor-v1.0-build-20261106-103002.mp4) · [**Kamehameha y Masenko antes/después, simultáneos**](../assets/media/release-v1-0-build-20261106-103002/Kamehameha-Masenko-antes-despues-v1.0-build-20261106-103002.mp4).
@@ -37,6 +39,6 @@ Se conservan todas las decisiones gráficas y los cambios de controles de la [pr
 
 `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin`
 
-`pnpm build:review --rom ruta/a/original.bin --version v1.0` genera este build. El anterior queda fijado mediante `--version v1.0-build-20261106-100534`. [Manifiesto actual](../patches/release-v1-0-build-20261106-103002/manifest.json) · [Evidencia](../evidence/release-v1-0-build-20261106-103002/validation.json).
+`pnpm build:review --rom ruta/a/original.bin --version v1.0-build-20261106-103002` genera este build. El anterior queda fijado mediante `--version v1.0-build-20261106-100534`. [Manifiesto actual](../patches/release-v1-0-build-20261106-103002/manifest.json) · [Evidencia](../evidence/release-v1-0-build-20261106-103002/validation.json).
 
 Arranca desde cero, en velocidad normal, sin cargar estados de la compilación anterior. Es una primera propuesta de rapidez de salida para probar con mando, no una aprobación de equilibrio.

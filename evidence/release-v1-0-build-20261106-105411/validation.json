@@ -1,0 +1,266 @@
+{
+  "passed": true,
+  "romSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+  "baseRomSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+  "build": {
+    "version": "1.0",
+    "buildId": "20261106-105411",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T10:54:11+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:54Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin"
+  },
+  "piccoloCases": [
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        69,
+        91,
+        113,
+        135,
+        157,
+        180,
+        201
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        69,
+        91,
+        113,
+        135,
+        157,
+        180,
+        201
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        71,
+        93,
+        114,
+        133,
+        156,
+        177,
+        198
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        71,
+        93,
+        114,
+        133,
+        156,
+        177,
+        198
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    }
+  ],
+  "comparison": [
+    {
+      "build": "before",
+      "maxHits": 2,
+      "damage": 43
+    },
+    {
+      "build": "after",
+      "maxHits": 9,
+      "damage": 43
+    }
+  ],
+  "clips": [
+    {
+      "label": "01 titulo",
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "label": "02 combo cruce meteor",
+      "maxHits": 6,
+      "damage": 71
+    },
+    {
+      "label": "03 rafaga tres impactos",
+      "maxHits": 3,
+      "damage": 30
+    },
+    {
+      "label": "04 super kamehameha",
+      "maxHits": 1,
+      "damage": 85
+    },
+    {
+      "label": "05 vegeta meteor",
+      "maxHits": 8,
+      "damage": 49
+    },
+    {
+      "label": "06 piccolo meteor",
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "label": "07 lanzamiento masenko",
+      "maxHits": 2,
+      "damage": 52
+    },
+    {
+      "label": "08 lanzamiento final flash",
+      "maxHits": 2,
+      "damage": 72
+    },
+    {
+      "label": "09 lanzamiento kamehameha",
+      "maxHits": 1,
+      "damage": 12
+    },
+    {
+      "label": "10 cell trece impactos",
+      "maxHits": 13,
+      "damage": 78
+    },
+    {
+      "label": "11 cruces y meteor",
+      "maxHits": 3,
+      "damage": 35
+    },
+    {
+      "label": "12 cierre",
+      "maxHits": 0,
+      "damage": 0
+    }
+  ],
+  "crossStarts": [
+    {
+      "frame": 22,
+      "player": "p"
+    },
+    {
+      "frame": 37,
+      "player": "e"
+    },
+    {
+      "frame": 55,
+      "player": "p"
+    }
+  ],
+  "crossGaps": [
+    15,
+    18
+  ],
+  "previousCrossGaps": [
+    40,
+    40
+  ],
+  "romCrossAnimationChanged": false,
+  "gameplayTimeScaling": false,
+  "damageUnchanged": true,
+  "collisionDataChanged": false,
+  "stunFormulaChanged": false,
+  "kiStartupTablesUnchanged": true,
+  "promoSeconds": 85.8772430574277,
+  "media": [
+    {
+      "path": "assets/media/release-v1-0-build-20261106-105411/Cruces-rapidos-y-Meteor-v1.0-build-20261106-105411.mp4",
+      "sha256": "d0ac57db7d345ec535cecfddefbf8fafc87cd44c73cd3a9ae66ecc13f3416868"
+    },
+    {
+      "path": "assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4",
+      "sha256": "e8361f5021c48497802c5cd753946daba2c48c6b296d9ec1e7245e6fa6db98a0"
+    },
+    {
+      "path": "assets/media/release-v1-0-build-20261106-105411/Piccolo-Meteor-HITS-antes-despues-v1.0-build-20261106-105411.mp4",
+      "sha256": "9d4f18f5fb01a2b87fd146fd405921dc0c887c0f706351e43310f93de9de6e31"
+    }
+  ],
+  "limitations": [
+    "Scripted emulator inputs at normal speed; physical-controller feel and original hardware not certified.",
+    "Focused Piccolo Meteor coverage, not an audit of every special.",
+    "Counter contact handler retains its existing combo-window/inactivity updates; damage and stun accumulation formulas unchanged."
+  ]
+}

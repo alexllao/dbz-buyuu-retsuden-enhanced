@@ -35,3 +35,8 @@ Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducci
 ## Build 20261106-103002 · 6 de noviembre de 2026
 
 [Preparación de Kamehameha/Masenko más breve y tres cruces alternados con Meteor](ki-startup-v1.md), integrados en la nueva prueba v1.0. La velocidad del proyectil, daño, débito de ki, Super y rutas de pantalla partida se conservan. Nuevo anuncio de 1:27 y comparación simultánea antes/después. Falta probar la sensación y equilibrio con mando.
+
+
+## Build 20261106-105411 · Piccolo y cruces rápidos
+
+[Corrección del Meteor de Piccolo: 2 a 9 HITS, con 43 de daño conservado; doce casos. Cruces ejecutados con los mandos en intervalos de 15–18 fotogramas, sin acelerar la ROM](piccolo-hits-v1.md). Nuevo anuncio y comparación real; builds anteriores conservados.

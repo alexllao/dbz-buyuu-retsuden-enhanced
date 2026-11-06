@@ -2,19 +2,21 @@
 
 Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-103002` (10:30:02, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
+**Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-105411` (10:54:11, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
-[**VER ANUNCIO — 1:27 de juego real con sonido**](assets/media/release-v1-0-build-20261106-103002/DBZ-Enhanced-v1.0-build-20261106-103002-Anuncio.mp4) · [**Cambios del build actual**](docs/ki-startup-v1.md) · [Resumen completo de la base v1.0](docs/version-1-0.md) · [**Build y huella de la ROM**](patches/release-v1-0-build-20261106-103002/manifest.json)
+[**VER ANUNCIO — 1:26 de juego real con sonido**](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4) · [**Cambios del build actual**](docs/piccolo-hits-v1.md) · [Resumen completo de la base v1.0](docs/version-1-0.md) · [**Build y huella de la ROM**](patches/release-v1-0-build-20261106-105411/manifest.json)
 
-[![Abrir anuncio v1.0: combos, cruces, Meteor, lanzamientos y especiales](assets/media/release-v1-0-build-20261106-103002/captura.png)](assets/media/release-v1-0-build-20261106-103002/DBZ-Enhanced-v1.0-build-20261106-103002-Anuncio.mp4)
+[![Abrir anuncio v1.0: combos, cruces, Meteor, lanzamientos y especiales](assets/media/release-v1-0-build-20261106-105411/captura.png)](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4)
 
-El vídeo abre con BANDAI y ALEX LLAO. Muestra básicos → cruce → Meteor de Goku con **6 HITS**, tres bolas con **3 impactos**, Meteor de Vegeta y Piccolo, lanzamientos seguidos de **Masenko, Final Flash y Kamehameha**, los **13 impactos de Cell** y **tres cruces alternados P1/P2/P1 rematados con un Meteor de Goku**. Juego a velocidad normal, audio original y contador nativo; tomas coordinadas para demostración, sin acelerar ataques. Los enlaces mostrados no se anuncian como inevitables: el rival puede defenderse según la situación.
+El vídeo abre con BANDAI y ALEX LLAO. Muestra básicos → cruce → Meteor de Goku con **6 HITS**, tres bolas con **3 impactos**, Meteor de Vegeta y Piccolo (ahora con sus 9 HITS), lanzamientos seguidos de **Masenko, Final Flash y Kamehameha**, los **13 impactos de Cell** y **tres cruces rápidos P1/P2/P1 rematados con un Meteor de Goku**. Juego a velocidad normal, audio original y contador nativo; tomas coordinadas para demostración, sin acelerar ataques. Los enlaces mostrados no se anuncian como inevitables: el rival puede defenderse según la situación.
 
-**Nuevo en este build:** preparación del Kamehameha normal de unos **1,24 a 0,43 s** y Masenko de **1,55 a 0,68 s**, sin pantalla partida. Se recorta la espera; se conservan la fase de lanzamiento, daño, débito de ki y datos de velocidad del proyectil. Super y rutas de pantalla partida siguen iguales. [**Comparación simultánea antes/después**](assets/media/release-v1-0-build-20261106-103002/Kamehameha-Masenko-antes-despues-v1.0-build-20261106-103002.mp4) · [**Tres cruces y Meteor, toma aislada**](assets/media/release-v1-0-build-20261106-103002/Tres-cruces-y-Meteor-v1.0-build-20261106-103002.mp4) · [Pruebas y límites](docs/ki-startup-v1.md).
+**Nuevo en este build:** corregidos los siete contactos omitidos del Meteor de Piccolo: **2 → 9 HITS**, con **43 de daño antes y después**. Doce casos en ambos mandos/sentidos, acierto, guardia y fallo. Los cruces del vídeo se ejecutan más seguidos con los mandos: intervalos de **15–18 fotogramas**, frente a 40; **la ROM no acelera el movimiento**. [**Piccolo antes/después**](assets/media/release-v1-0-build-20261106-105411/Piccolo-Meteor-HITS-antes-despues-v1.0-build-20261106-105411.mp4) · [**Cruces rápidos y Meteor**](assets/media/release-v1-0-build-20261106-105411/Cruces-rapidos-y-Meteor-v1.0-build-20261106-105411.mp4) · [Pruebas y límites](docs/piccolo-hits-v1.md).
 
-**Lectura del mando corregida:** se evita que el temporizador posterior a golpes salte lecturas durante actualizaciones elegibles de combate, y que se borre el historial tras finalizar el agarre mientras el rival cae. El build anterior comprobó **110/110 técnicas tras lanzar** entre los once personajes y **10/10 con Goku en P2**. Este build repite 30 casos de las técnicas ajustadas y segundo puerto. Se mantienen las pausas y cinematografías nativas. El contador también conserva su ventana durante técnicas ofensivas de ki: la ráfaga de Goku ya suma sus tres contactos.
+**Ajuste de ki conservado del build anterior:** preparación del Kamehameha normal de unos **1,24 a 0,43 s** y Masenko de **1,55 a 0,68 s**, sin pantalla partida. Se recorta la espera; se conservan la fase de lanzamiento, daño, débito de ki y datos de velocidad del proyectil. Super y rutas de pantalla partida siguen iguales. [**Comparación simultánea antes/después**](assets/media/release-v1-0-build-20261106-103002/Kamehameha-Masenko-antes-despues-v1.0-build-20261106-103002.mp4) · [**Tres cruces y Meteor, toma aislada**](assets/media/release-v1-0-build-20261106-103002/Tres-cruces-y-Meteor-v1.0-build-20261106-103002.mp4) · [Pruebas y límites](docs/ki-startup-v1.md).
 
-Se repiten 200 variantes de comandos, diez acordes de Meteor y siete casos negativos. Las ocho muestras de lectura de un fotograma entre los dos puertos se conservan como evidencia de la base. El build anterior acumula **24,5 minutos de pruebas largas**, once personajes y nueve escenarios; son entradas automatizadas con restauraciones entre tandas. La sensación con mando, el equilibrio, la auditoría exhaustiva de HITS y la consola original siguen pendientes. No se modifica la fórmula nativa de daño, colisiones o mareo respecto a Respuesta v2. [Pruebas y límites](docs/version-1-0.md).
+**Lectura del mando corregida:** se evita que el temporizador posterior a golpes salte lecturas durante actualizaciones elegibles de combate, y que se borre el historial tras finalizar el agarre mientras el rival cae. El build 20261106-100534 comprobó **110/110 técnicas tras lanzar** entre los once personajes y **10/10 con Goku en P2**. El build 20261106-103002 repitió 30 casos de las técnicas ajustadas y segundo puerto. Se mantienen las pausas y cinematografías nativas. El contador también conserva su ventana durante técnicas ofensivas de ki: la ráfaga de Goku ya suma sus tres contactos.
+
+El build 20261106-103002 pasó 200 variantes de comandos, diez acordes de Meteor y siete casos negativos. La revisión actual añade las doce pruebas específicas de Piccolo y vuelve a grabar los ejemplos del anuncio. Las ocho muestras de lectura de un fotograma entre los dos puertos se conservan como evidencia de la base. El primer build v1.0 (20261106-100534) acumula **24,5 minutos de pruebas largas**, once personajes y nueve escenarios; son entradas automatizadas con restauraciones entre tandas. La sensación con mando, el equilibrio, la auditoría exhaustiva de HITS y la consola original siguen pendientes. No se modifica la fórmula nativa de daño, colisiones o mareo respecto a Respuesta v2. [Pruebas y límites](docs/version-1-0.md).
 
 Se conservan las once paletas de combate, Goku G2 HDBZ, Goku grande cálido en título/intro con reparto pequeño original, créditos BANDAI y ALEX LLAO, nueve fondos entregados, auras C2 de color individual **sin rayos**, barras de mareo y HITS. También carrera mantenida, inercia breve, salto normal más bajo, carga con salida rápida, buffer y cancels de básicos, cruces y agarres con control recuperado antes. **Los retratos/HUD H4, vibración nueva, árbol/nave de Namek y décimo escenario nevado siguen sin integrar.** [Resumen por área](docs/version-1-0.md#mejoras-que-conserva-esta-versión).
 
@@ -27,7 +29,7 @@ Se conservan las once paletas de combate, Goku G2 HDBZ, Goku grande cálido en t
 
 A+B sin el movimiento completo carga ki. Cambio de lado: → ← → + C, cerca del rival. Los demás personajes y la CPU conservan sus comandos. [Tabla completa de Goku](docs/respuesta-v2.md).
 
-Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin`. Arranca desde cero, a velocidad normal, sin estados anteriores. Construcción: `pnpm build:review --rom ruta/a/original.bin --version v1.0`. La opción sin versión conserva v6.6.
+Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin`. Arranca desde cero, a velocidad normal, sin estados anteriores. Construcción: `pnpm build:review --rom ruta/a/original.bin --version v1.0`. La opción sin versión conserva v6.6.
 
 [Historial Respuesta v2 y vídeo de controles](docs/respuesta-v2.md) · [Prueba anterior de lanzamiento/Kamehameha: documenta el fallo corregido en v1.0](docs/lanzamiento-kamehameha-v2.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
 
@@ -478,7 +480,7 @@ pnpm build:review --rom "ruta/a/original.bin" --version v1.0
 pnpm build:review --rom "ruta/a/original.bin" --version v6.6
 ```
 
-La entrega actual genera `dist/DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin` mediante `--version v1.0`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
+La entrega actual genera `dist/DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin` mediante `--version v1.0`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
 
 SHA-256 de la base admitida:
 
@@ -486,7 +488,7 @@ SHA-256 de la base admitida:
 217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557
 ```
 
-**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la entrega actual](patches/release-v1-0-build-20261106-103002/manifest.json)
+**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la entrega actual](patches/release-v1-0-build-20261106-105411/manifest.json)
 
 ## Qué se ha comprobado y qué falta
 

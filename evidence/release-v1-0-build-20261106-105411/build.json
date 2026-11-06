@@ -1,0 +1,23 @@
+{
+  "sourceSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+  "targetSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+  "codeBytes": 52,
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      92980,
+      8
+    ],
+    [
+      4018176,
+      52
+    ]
+  ]
+}
