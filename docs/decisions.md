@@ -30,3 +30,8 @@ Actualizado el 5 de noviembre de 2026. [Registro estructurado](../project/decisi
 ## Versión 1.0 · 6 de noviembre de 2026
 
 Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducción de lecturas después de golpes y la pérdida de historial tras agarres; 120 técnicas tras lanzar reconocidas en las muestras. El contador pausa durante ki ofensivo; tres bolas de Goku, Meteor y trece impactos de Cell comprobados. Sin cambios de daño, colisiones ni fórmula de mareo respecto a Respuesta v2. Se mantienen los ajustes de carga, buffer, cancels, movimiento y gráficos. [Guía, anuncio real de 1:25 y límites de las pruebas](version-1-0.md).
+
+
+## Build 20261106-103002 · 6 de noviembre de 2026
+
+[Preparación de Kamehameha/Masenko más breve y tres cruces alternados con Meteor](ki-startup-v1.md), integrados en la nueva prueba v1.0. La velocidad del proyectil, daño, débito de ki, Super y rutas de pantalla partida se conservan. Nuevo anuncio de 1:27 y comparación simultánea antes/después. Falta probar la sensación y equilibrio con mando.

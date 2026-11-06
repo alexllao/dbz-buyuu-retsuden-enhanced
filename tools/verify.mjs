@@ -10,6 +10,17 @@ import { verifyAuraV4 } from './lib/verify-aura-v4.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const json = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
+const kiStartupRelease = await json('patches/release-v1-0-build-20261106-103002/manifest.json');
+const kiStartupValidation = await json('evidence/release-v1-0-build-20261106-103002/validation.json');
+assert.equal(kiStartupRelease.version, '1.0');
+assert.equal(kiStartupRelease.buildId, '20261106-103002');
+assert.equal(kiStartupValidation.romSha256, kiStartupRelease.target.sha256);
+assert(kiStartupValidation.passed && kiStartupValidation.techniqueCases === 16 && kiStartupValidation.postthrowPassed === 30);
+assert(kiStartupValidation.damageAndDebitPreserved && kiStartupValidation.releaseAnimationUnitPreserved && !kiStartupValidation.projectileSpeedDataChanged);
+assert.deepEqual(kiStartupValidation.crossovers, [2, 1]);
+assert.equal(kiStartupValidation.crossMeteorHits, 3);
+assert.equal(sha256(await readFile(resolve(root, kiStartupRelease.patch.path))), kiStartupRelease.patch.sha256);
+for (const media of kiStartupValidation.media) assert.equal(sha256(await readFile(resolve(root, media.path))), media.sha256);
 const releaseV1 = await json('patches/release-v1-0/manifest.json');
 const releaseV1Validation = await json('evidence/release-v1-0/validation.json');
 const releaseV1Promo = await json('evidence/release-v1-0/promo.json');

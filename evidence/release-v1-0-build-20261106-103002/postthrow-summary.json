@@ -1,0 +1,416 @@
+[
+  {
+    "cid": 0,
+    "token": 5,
+    "expected": 3076,
+    "romSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+    "cases": [
+      {
+        "delay": 0,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 8,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 16,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 24,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 32,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 48,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 64,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 80,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 2,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 96,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 120,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      }
+    ]
+  },
+  {
+    "cid": 1,
+    "token": 7,
+    "expected": 3087,
+    "romSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+    "cases": [
+      {
+        "delay": 0,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 8,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 16,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 24,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 32,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 48,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 2,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 64,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 2,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 80,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 2,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 96,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      },
+      {
+        "delay": 120,
+        "expected": 3087,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3087
+        ]
+      }
+    ]
+  },
+  {
+    "cid": 0,
+    "token": 5,
+    "expected": 3076,
+    "romSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+    "cases": [
+      {
+        "delay": 0,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 8,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 16,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 24,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 32,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 48,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 64,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 80,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 2,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 96,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      },
+      {
+        "delay": 120,
+        "expected": 3076,
+        "started": true,
+        "maxHits": 1,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          3076
+        ]
+      }
+    ]
+  }
+]

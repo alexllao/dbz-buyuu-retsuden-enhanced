@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "buildId": "20261106-103002",
+  "buildDate": "2026-11-06",
+  "buildTimestamp": "2026-11-06T10:30:02+01:00",
+  "timezone": "Europe/Madrid",
+  "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:30Z",
+  "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin",
+    "sha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/release-v1-0-build-20261106-103002/DBZ-Enhanced-v1.0-build-20261106-103002.ips",
+    "sha256": "77021aa1c4fcffef8bb54dbfaeed119f06b848e9c4926f3d5d8bc6968e034f25"
+  },
+  "experimental": true,
+  "scope": "Shorten only preparation holds of normal non-split Kamehameha and Masenko. Preserve release timing unit, split-route tables, damage/cost/collision/speed data. Three alternating crossovers into native Goku Meteor recorded."
+}

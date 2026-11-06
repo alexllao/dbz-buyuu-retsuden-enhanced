@@ -1,5 +1,7 @@
 # Versión 1.0 · build 20261106-100534
 
+**Build conservado como historial. La entrega actual añade preparación de ki más breve y tres cruces con Meteor: [build 20261106-103002](ki-startup-v1.md).**
+
 Build fechado el **6 de noviembre de 2026, 10:05:34, Europe/Madrid**. La fecha identifica esta compilación; la validación y el empaquetado se completan después. Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-100534.bin`.
 
 La versión y la fecha figuran también en los dos títulos internos de la cabecera de Mega Drive: `DBZ BUYUU ENHANCED V1.0 2026-11-06 09:05Z`. Esa hora es UTC, equivalente a las 10:05 de Madrid. El crédito gráfico conserva BANDAI y ALEX LLAO. La cabecera identifica la ROM en herramientas compatibles; no añade un rótulo nuevo a la pantalla de título del juego.
@@ -57,7 +59,7 @@ Mirando a la derecha: Kamehameha **← ↙ ↓ ↘ → + A**; Super **← ↙ �
 
 ## Construcción y prueba
 
-`pnpm build:review --rom ruta/a/original.bin --version v1.0` aplica el parche sobre la base japonesa verificada y comprueba el resultado. La construcción sin versión sigue siendo la histórica v6.6. La ROM completa se entrega localmente; el repositorio contiene el parche, código, evidencia y vídeo.
+`pnpm build:review --rom ruta/a/original.bin --version v1.0-build-20261106-100534` aplica el parche sobre la base japonesa verificada y comprueba el resultado. La construcción sin versión sigue siendo la histórica v6.6. La ROM completa se entrega localmente; el repositorio contiene el parche, código, evidencia y vídeo.
 
 Arranca desde cero, a velocidad normal y sin cargar estados de versiones anteriores. Identifica cualquier incidencia con **v1.0 / build 20261106-100534**, personaje, rival, comando y situación. La revisión con mando del usuario y el equilibrio de jugabilidad siguen pendientes.
 

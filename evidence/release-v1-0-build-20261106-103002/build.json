@@ -1,0 +1,46 @@
+{
+  "sourceSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "targetSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+  "edits": [
+    {
+      "program": 3076,
+      "table": 131968,
+      "beforeHeader": 132,
+      "afterHeader": 88,
+      "beforePreparationWeight": 3,
+      "afterPreparationWeight": 1,
+      "releaseWeight": 3,
+      "animationUnit": 22,
+      "releaseUnitUnchanged": true
+    },
+    {
+      "program": 3087,
+      "table": 132068,
+      "beforeHeader": 132,
+      "afterHeader": 84,
+      "beforePreparationWeight": 7,
+      "afterPreparationWeight": 3,
+      "releaseWeight": 4,
+      "animationUnit": 12,
+      "releaseUnitUnchanged": true
+    }
+  ],
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      131968,
+      3
+    ],
+    [
+      132068,
+      3
+    ]
+  ]
+}

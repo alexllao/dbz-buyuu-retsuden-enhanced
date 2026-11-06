@@ -847,5 +847,23 @@
     "kiCounterPause": true,
     "stunFormulaUnchanged": true,
     "video": "assets/media/release-v1-0/DBZ-Enhanced-v1.0-build-20261106-100534-Anuncio.mp4"
+  },
+  "currentReleaseBuild": {
+    "version": "1.0",
+    "buildId": "20261106-103002",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T10:30:02+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:30Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin"
+  },
+  "kiStartupV1": {
+    "version": "1.0",
+    "buildId": "20261106-103002",
+    "romSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+    "guide": "docs/ki-startup-v1.md",
+    "scope": "Normal non-split Kamehameha and Masenko preparation only",
+    "crossoversIntoMeteor": "P1/P2/P1 then Goku Meteor3hits; real coordinated-input recording",
+    "status": "First timing proposal for human playtesting"
   }
 }

@@ -50,3 +50,8 @@ Las versiones anteriores, fuentes, paletas y vídeos se conservan. Una prueba en
 
 - [x] [v1.0 / build 20261106-100534](version-1-0.md): identificar ROM, corregir lecturas tras impactos y lanzamiento, conservar HITS durante ki y grabar anuncio real de 1:25.
 - [ ] Revisión humana de v1.0 con mando y auditoría exhaustiva de técnicas; el recorrido automatizado no sustituye esa validación.
+
+
+## Build 20261106-103002 · 6 de noviembre de 2026
+
+[Preparación de Kamehameha/Masenko más breve y tres cruces alternados con Meteor](ki-startup-v1.md), integrados en la nueva prueba v1.0. La velocidad del proyectil, daño, débito de ki, Super y rutas de pantalla partida se conservan. Nuevo anuncio de 1:27 y comparación simultánea antes/después. Falta probar la sensación y equilibrio con mando.

@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "romSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+  "cases": [
+    {
+      "cid": 0,
+      "facing": 0,
+      "distance": 64,
+      "guard": false,
+      "emissionFrames": 26,
+      "damage": 60,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 0,
+      "distance": 64,
+      "guard": true,
+      "emissionFrames": 27,
+      "damage": 30,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 0,
+      "distance": 280,
+      "guard": false,
+      "emissionFrames": 25,
+      "damage": 60,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 0,
+      "distance": 280,
+      "guard": true,
+      "emissionFrames": 29,
+      "damage": 30,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "distance": 64,
+      "guard": false,
+      "emissionFrames": 28,
+      "damage": 60,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "distance": 64,
+      "guard": true,
+      "emissionFrames": 27,
+      "damage": 30,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "distance": 280,
+      "guard": false,
+      "emissionFrames": 25,
+      "damage": 60,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 0,
+      "facing": 1,
+      "distance": 280,
+      "guard": true,
+      "emissionFrames": 27,
+      "damage": 30,
+      "netKiDrop": 49,
+      "techniqueDebit": 50,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "distance": 64,
+      "guard": false,
+      "emissionFrames": 41,
+      "damage": 43,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "distance": 64,
+      "guard": true,
+      "emissionFrames": 42,
+      "damage": 21,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "distance": 280,
+      "guard": false,
+      "emissionFrames": 41,
+      "damage": 0,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 0,
+      "distance": 280,
+      "guard": true,
+      "emissionFrames": 42,
+      "damage": 21,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "distance": 64,
+      "guard": false,
+      "emissionFrames": 41,
+      "damage": 43,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "distance": 64,
+      "guard": true,
+      "emissionFrames": 42,
+      "damage": 21,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "distance": 280,
+      "guard": false,
+      "emissionFrames": 41,
+      "damage": 43,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    },
+    {
+      "cid": 1,
+      "facing": 1,
+      "distance": 280,
+      "guard": true,
+      "emissionFrames": 42,
+      "damage": 21,
+      "netKiDrop": 38,
+      "techniqueDebit": 40,
+      "finalProgram": 0
+    }
+  ]
+}

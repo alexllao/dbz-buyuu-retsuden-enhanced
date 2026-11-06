@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "romSha256": "4e6e2c7422b54e1bfaa9e2a94ba8632d8d7a4bc4a0c50c0a3bda591754b29bb0",
+  "baseRomSha256": "357aecc091e358ec4742e214a056e9dfc6ceb13ad76ebd7fee5eebf46b83a861",
+  "build": {
+    "version": "1.0",
+    "buildId": "20261106-103002",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T10:30:02+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 09:30Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-103002.bin"
+  },
+  "techniqueCases": 16,
+  "baseTechniqueCases": 16,
+  "inputCases": 200,
+  "postthrowPassed": 30,
+  "meteorChords": 10,
+  "negativeCases": 7,
+  "splitRouteChecks": [
+    {
+      "cid": 0,
+      "distance": 400,
+      "unchanged": true
+    },
+    {
+      "cid": 1,
+      "distance": 400,
+      "unchanged": true
+    }
+  ],
+  "damageAndDebitPreserved": true,
+  "releaseAnimationUnitPreserved": true,
+  "projectileSpeedDataChanged": false,
+  "crossovers": [
+    2,
+    1
+  ],
+  "crossMeteorHits": 3,
+  "crossMeteorDamage": 35,
+  "promoSeconds": 87.02872571793344,
+  "media": [
+    {
+      "path": "assets/media/release-v1-0-build-20261106-103002/DBZ-Enhanced-v1.0-build-20261106-103002-Anuncio.mp4",
+      "sha256": "57e44acaa4b996abc9f77e5ccdba39aba1ca1ad2ab580aa53c2fa3a2ea6dda6b"
+    },
+    {
+      "path": "assets/media/release-v1-0-build-20261106-103002/Kamehameha-Masenko-antes-despues-v1.0-build-20261106-103002.mp4",
+      "sha256": "4de4d64ee72ddc9c534d2c6587c3dda1dbfeac4962fbb315731e63789df75251"
+    },
+    {
+      "path": "assets/media/release-v1-0-build-20261106-103002/Tres-cruces-y-Meteor-v1.0-build-20261106-103002.mp4",
+      "sha256": "611493684f77e5c0cf0354c73d8b41cd141d0d40de1579d6974dd9ae09a4385b"
+    }
+  ],
+  "limitations": [
+    "Normal-speed scripted emulator tests, not hardware certification or human balance approval.",
+    "Only normal non-split Kamehameha and Masenko startup adjusted. Super/split routes unchanged.",
+    "At distance280 one original Masenko setup also misses before and after; this is not a projectile-range fix.",
+    "Prior build accumulated24.5min; this build uses focused differential checks, not a repeat of that full soak."
+  ]
+}
