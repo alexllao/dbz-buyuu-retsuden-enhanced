@@ -1,0 +1,1551 @@
+{
+  "passed": true,
+  "romSha256": "0ad7f6ae68b04a837fefd3d7902a7909145a1ee5a55058415c6836fad4b2f0b0",
+  "baselineSha256": "564ba904ea1d1ddaffad8ffe9ee27ba793c65b18e75c1e3397f0cfe4dea5e449",
+  "motionCases": [
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 0,
+      "actorCid": 0
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 0,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 12,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 1,
+      "actorCid": 1
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 1,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 2,
+      "actorCid": 2
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 2,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 3,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 10,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 10,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 10,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 4,
+      "actorCid": 4
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 4,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 5,
+      "actorCid": 5
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 5,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 12,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 6,
+      "actorCid": 6
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 6,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 12,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 7,
+      "actorCid": 7
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 7,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 8,
+      "actorCid": 8
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 8,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 10,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 10,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 10,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 9,
+      "actorCid": 9
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 9,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe75e",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 10,
+      "actorCid": 10
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-A",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 10,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "air-B",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 10,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "vertical",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 9,
+      "seedCid": 10,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "run",
+      "landed": true,
+      "ran": true,
+      "maxYStep": 13,
+      "seedCid": 10,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "single",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 10,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "opposite",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 10,
+      "actorCid": 3
+    },
+    {
+      "actor": "0xe886",
+      "mode": "expired",
+      "landed": true,
+      "ran": false,
+      "maxYStep": 0,
+      "seedCid": 10,
+      "actorCid": 3
+    }
+  ],
+  "meteorCases": [
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        71,
+        94,
+        116,
+        138,
+        160,
+        183,
+        203
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        72,
+        94,
+        116,
+        138,
+        160,
+        183,
+        203
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        70,
+        91,
+        112,
+        131,
+        153,
+        173,
+        195
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        70,
+        91,
+        111,
+        131,
+        153,
+        173,
+        195
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    }
+  ],
+  "meteorComparison": [
+    {
+      "side": "before",
+      "maxHits": 9,
+      "damage": 43,
+      "height": 360,
+      "capturedFrames": 194
+    },
+    {
+      "side": "after",
+      "maxHits": 9,
+      "damage": 43,
+      "height": 360,
+      "capturedFrames": 197
+    }
+  ],
+  "video": {
+    "path": "assets/media/gravity-g1/Saltos-y-Meteor-antes-despues-G1.mp4",
+    "sha256": "011a6a38ae5812eeb8c33826474041f9194fbc02df32fadc97af73bc13d0ec65",
+    "seconds": 48.597347
+  },
+  "limitations": [
+    "Prototipo pendiente de valorar por el usuario; no sustituye v1.0 actual.",
+    "Velocidad normal en emulador; no auditado en turbo ni consola real.",
+    "Comparacion parte de estados deterministas anteriores compatibles; la carrera esta corregida en ambos lados.",
+    "Piccolo mantiene tablas de poses, 360px y 9 HITS/43 dano; el tiempo real del tramo observado cambia de194 a197frames por la sincronizacion del motor.",
+    "No es una simulacion continua: se actualiza con la cadencia nativa del juego."
+  ]
+}

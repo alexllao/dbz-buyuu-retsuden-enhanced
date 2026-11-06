@@ -1,0 +1,38 @@
+from pathlib import Path
+import sys,json
+root=Path('work/gravity-probe');which=sys.argv[1] if len(sys.argv)>1 else 'after';cid=int(sys.argv[2]) if len(sys.argv)>2 else 0
+rompath='work/gohan-hits/candidate.bin' if which=='after' else 'work/gohan-hits/candidate.bin'
+sys.argv=['prepare',str(cid)]
+header=Path('work/hits-hud-v3/prepare.py').read_text().split('try:\n for j,entry in enumerate(steps[:-1]):')[0].replace("romfile=BASE/'work/hits-hud-v3/candidate.bin'",f"romfile=BASE/'{rompath}'")
+for old in [0x104,0x106,0x117,0x120,0x121,0x122,0x124]:header=header.replace('b+'+hex(old)+')','b+'+hex(old+0xc00)+')')
+exec(compile(header,'responsive-test-header','exec'),globals())
+def row():return dict(p=st(P1),e=st(P2),aura=rb(P1+0xbd),fade=rb(P1+0xd11),token=rb(P1+0xb9),ttl=rb(0xf701),stored=rb(0xf702),latch=rb(0xf703),magic=rb(0xf700),held=rw(P1+0x1a),rawpad=rb(0xe666),history=[rb(P1+0x94+i) for i in range(32)],histpos=rb(P1+0xb6),histstart=rb(P1+0xb7),lastbutton=rb(P1+0xb5))
+results={};clips={}
+def collect(label,schedule):
+ rows=[]
+ for keys in schedule:tick(keys);rows.append(dict(keys=keys,**row()))
+ results[label]=rows
+ return rows
+try:
+ for j,entry in enumerate(steps[:-1]):
+  if j in [9,11]:
+   selected=cid if j==9 else 3
+   for direction,count in [('DOWN',selected//3),('RIGHT',selected%3)]:
+    for _ in range(count):
+     for _ in range(4):tick([direction])
+     for _ in range(16):tick()
+  for _ in range(entry.get('frames',1)):tick([] if j==11 else entry.get('buttons',[]))
+ wb(P1+0xbe,0);wb(P2+0xbe,0)
+ for _ in range(300):tick()
+ baseline=snap();(root/f'seed-{cid}.state').write_bytes(baseline)
+
+
+ report=[]
+ for label,seq in [('vertical',[['UP']]*3+[[]]*200),('forward',[['UP','RIGHT']]*3+[[]]*200),('backward',[['UP','LEFT']]*3+[[]]*200)]:
+  restore(baseline);r=[]
+  for i,k in enumerate(seq):
+   tick(k);r.append(dict(f=i,x=rw(P1+0xa),y=rw(P1+0x10),v=rw(P1+0x14),program=rw(P1),action=rb(P1+0x5b),cursor=rw(P1+6)))
+  first=next(i for i,t in enumerate(r) if t['y']<448);land=next(i for i,t in enumerate(r[first+1:],first+1) if t['y']==448);summary=dict(label=label,takeoff=first,landing=land,airFrames=land-first,height=448-min(t['y'] for t in r));report.append(summary);print('JUMP',summary,flush=True)
+  (root/(f'jump-{cid}-'+label+'.json')).write_text(json.dumps(r,indent=2))
+ (root/f'jump-{cid}-summary.json').write_text(json.dumps(report,indent=2))
+finally:core.retro_unload_game();core.retro_deinit()

@@ -1,0 +1,66 @@
+[
+  {
+    "label": "vertical",
+    "height": 70,
+    "airFrames": 35,
+    "run": false,
+    "flags": [
+      0
+    ],
+    "programs": [
+      0,
+      28
+    ],
+    "range": 0
+  },
+  {
+    "label": "forward",
+    "height": 70,
+    "airFrames": 35,
+    "run": false,
+    "flags": [
+      0
+    ],
+    "programs": [
+      0,
+      28,
+      29
+    ],
+    "range": 173
+  },
+  {
+    "label": "running",
+    "height": 124,
+    "airFrames": 49,
+    "run": true,
+    "flags": [
+      32768
+    ],
+    "programs": [
+      0,
+      1,
+      28,
+      29,
+      40,
+      51
+    ],
+    "range": 276
+  },
+  {
+    "label": "backrun",
+    "height": 124,
+    "airFrames": 45,
+    "run": true,
+    "flags": [
+      32768
+    ],
+    "programs": [
+      0,
+      2,
+      28,
+      30,
+      41
+    ],
+    "range": 120
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "sourceSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "targetSha256": "0ad7f6ae68b04a837fefd3d7902a7909145a1ee5a55058415c6836fad4b2f0b0",
+  "version": "1.0",
+  "buildId": "20261106-150944",
+  "variant": "gravity-g1",
+  "header": "DBZ BUYUU V1.0 GRAV G1 2026-11-06 14:09Z",
+  "codeBytes": 598,
+  "allowed": [
+    [
+      4022272,
+      598
+    ],
+    [
+      4009984,
+      6
+    ],
+    [
+      4011146,
+      2
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      133776,
+      6
+    ],
+    [
+      78096,
+      6
+    ],
+    [
+      92929,
+      24
+    ],
+    [
+      101104,
+      24
+    ]
+  ],
+  "changes": {
+    "normalHeightScale": "4/5",
+    "runningHeightScale": "(4/5)*(16/9)",
+    "normalTimeUnit": 3,
+    "runningTimeUnit": 4,
+    "meteorVerticalPerUnit": [
+      0,
+      -60,
+      -55,
+      -49,
+      -44,
+      -38,
+      -33,
+      -27,
+      -22,
+      -16,
+      -11,
+      -5,
+      0,
+      5,
+      11,
+      16,
+      22,
+      27,
+      33,
+      38,
+      44,
+      49,
+      55,
+      60
+    ],
+    "meteorHeight": 360,
+    "meteorTimingUnchanged": true
+  }
+}

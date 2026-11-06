@@ -1,0 +1,32 @@
+{
+  "sourceSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "targetSha256": "564ba904ea1d1ddaffad8ffe9ee27ba793c65b18e75c1e3397f0cfe4dea5e449",
+  "version": "1.0",
+  "buildId": "20261106-150944",
+  "variant": "dash-fix",
+  "header": "DBZ BUYUU V1.0 DASH FIX 2026-11-06 14:09Z",
+  "codeBytes": 598,
+  "allowed": [
+    [
+      4022272,
+      598
+    ],
+    [
+      4009984,
+      6
+    ],
+    [
+      4011146,
+      2
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ]
+  ],
+  "changes": []
+}

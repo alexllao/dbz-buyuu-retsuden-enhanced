@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "variant": "G1 - prueba de gravedad",
+  "buildId": "20261106-150944",
+  "buildTimestamp": "2026-11-06T15:09:44+01:00",
+  "headerTitle": "DBZ BUYUU V1.0 GRAV G1 2026-11-06 14:09Z",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_G1_build_20261106-150944.bin",
+    "sha256": "0ad7f6ae68b04a837fefd3d7902a7909145a1ee5a55058415c6836fad4b2f0b0",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/gravity-g1/DBZ-Enhanced-v1.0-G1-build-20261106-150944.ips",
+    "sha256": "e91419c8a995a1cf15983617a056cfd876ef527d7d77722fbc65aa5216d49358"
+  },
+  "experimental": true
+}

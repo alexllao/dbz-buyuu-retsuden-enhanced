@@ -1,0 +1,23 @@
+[
+  {
+    "label": "vertical",
+    "takeoff": 6,
+    "landing": 54,
+    "airFrames": 48,
+    "height": 87
+  },
+  {
+    "label": "forward",
+    "takeoff": 6,
+    "landing": 54,
+    "airFrames": 48,
+    "height": 87
+  },
+  {
+    "label": "backward",
+    "takeoff": 6,
+    "landing": 53,
+    "airFrames": 47,
+    "height": 87
+  }
+]
