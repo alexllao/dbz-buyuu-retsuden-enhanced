@@ -1,0 +1,85 @@
+{
+  "romSha256": "17c1d2789c095cba7d3e66ec7c16af24503899f195b3ca4e9be4fc26889aff74",
+  "fps": 59.92274340431231,
+  "results": [
+    {
+      "label": "1 - Preparacion temprana",
+      "delay": 8,
+      "guard": false,
+      "controlFree": 55,
+      "kameFrame": 78,
+      "enemyYAtKame": 298,
+      "firstLanding": 128,
+      "hits": [
+        {
+          "frame": 128,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        }
+      ],
+      "kameDamage": 0,
+      "finalActions": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "2 - Esperar el descenso",
+      "delay": 48,
+      "guard": false,
+      "controlFree": 55,
+      "kameFrame": 119,
+      "enemyYAtKame": 403,
+      "firstLanding": 130,
+      "hits": [
+        {
+          "frame": 130,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 217,
+          "damage": 60,
+          "y": 448,
+          "action": 19
+        }
+      ],
+      "kameDamage": 60,
+      "finalActions": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "3 - Rival intentando cubrirse",
+      "delay": 48,
+      "guard": true,
+      "controlFree": 55,
+      "kameFrame": 119,
+      "enemyYAtKame": 403,
+      "firstLanding": 130,
+      "hits": [
+        {
+          "frame": 130,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 224,
+          "damage": 30,
+          "y": 448,
+          "action": 10
+        }
+      ],
+      "kameDamage": 30,
+      "finalActions": [
+        0,
+        2
+      ]
+    }
+  ],
+  "fixture": "Native menus; ki charged using A+B. Only initial spacing/facing set before each take. Two human ports; opponent idle in first two, holds back after launch in third. No ROM,HP,damage,timer or animation edits."
+}

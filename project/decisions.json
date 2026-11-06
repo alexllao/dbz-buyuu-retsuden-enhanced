@@ -821,5 +821,14 @@
     "guide": "docs/respuesta-v2.md",
     "video": "assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4",
     "chargeChoice": "Preserve double-HCF through charge release; A chooses Super, A+B Meteor. Brief chord grace avoids choosing a single-button move early."
+  },
+  "throwKamehamehaV2Test": {
+    "date": "2026-11-06",
+    "romVersion": "responsive-v2",
+    "romChanged": false,
+    "video": "assets/media/throw-kame-v2/Lanzamiento-y-Kamehameha-en-juego-v2.mp4",
+    "guide": "docs/lanzamiento-kamehameha-v2.md",
+    "result": "Can prepare before landing. Early attempt misses; descent timing hits after landing; holding back reduces beam damage60->30.",
+    "inputIssue": "Four of ten sampled post-throw command timings did not start Kamehameha; cause unresolved. Extend input-buffer review to throw-recovery transitions."
   }
 }

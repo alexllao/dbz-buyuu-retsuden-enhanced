@@ -1,5 +1,7 @@
 # Hoja de ruta
 
+**6/11/2026 — incidencia nueva:** revisar el reconocimiento de comandos al salir de un lanzamiento: cuatro de diez demoras probadas no iniciaron Kamehameha. [Vídeo y resultados](lanzamiento-kamehameha-v2.md). Sin cambio de ROM en este ensayo.
+
 **Actualización 5/11/2026:** la prueba actual es [Respuesta v2: entradas, frenada, saltos y tercera bola](respuesta-v2.md). Incluye los comandos de Goku elegidos y la separación de la memoria del parche; esta sección anterior se conserva como historial.
 
 **5/11/2026 — Respuesta v1:** carga/salida/buffer, cancels sólo de básicos confirmados, control tras lanzamiento y comandos SF para Goku. [Reglas, comandos, vídeo y límites](respuesta-v1.md). HITS y stun: discrepancias del usuario pendientes, sin cambios en esta revisión.

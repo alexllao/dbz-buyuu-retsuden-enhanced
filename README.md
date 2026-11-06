@@ -2,7 +2,9 @@
 
 Mod de **Mega Drive / Genesis** para mejorar los controles y revisar las paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 5 de noviembre de 2026 · rama `development`.** La ROM de prueba actual es **Respuesta v2 (`responsive-v2`)**: reconocimiento de entradas de Goku, frenada corta al caminar, salto normal más bajo y breve y corrección de la tercera bola. Mantiene las mejoras de carga, buffer y cancels de Respuesta v1.
+**Actualizado: 6 de noviembre de 2026 · rama `development`.** La ROM de prueba actual es **Respuesta v2 (`responsive-v2`)**: reconocimiento de entradas de Goku, frenada corta al caminar, salto normal más bajo y breve y corrección de la tercera bola. Mantiene las mejoras de carga, buffer y cancels de Respuesta v1.
+
+**Prueba nueva — lanzamiento → Kamehameha:** [ver 25 segundos de juego real](assets/media/throw-kame-v2/Lanzamiento-y-Kamehameha-en-juego-v2.mp4). Puede prepararse mientras el rival cae; el intento temprano falla y el defensor puede cubrirse en el que conecta. **Se han detectado entradas inconsistentes al salir del lanzamiento**, pendientes de corregir; las pruebas desde neutral no cubrían esa transición. [Resultados y límites](docs/lanzamiento-kamehameha-v2.md). Misma ROM Respuesta v2, sin cambios.
 
 [**Ver 1:18 de juego real con sonido: antes/después y comandos nuevos**](assets/media/responsive-v2/Respuesta-v2-controles-saltos-y-tres-bolas.mp4) · [**Comandos y guía actual**](docs/respuesta-v2.md) · [Manifiesto](patches/responsive-v2/manifest.json)
 

@@ -1,0 +1,296 @@
+{
+  "romSha256": "17c1d2789c095cba7d3e66ec7c16af24503899f195b3ca4e9be4fc26889aff74",
+  "fps": 59.92274340431231,
+  "cases": [
+    {
+      "delay": 0,
+      "controlFree": 55,
+      "commandStart": 55,
+      "kameFrame": null,
+      "enemyYAtKame": null,
+      "enemyXAtKame": null,
+      "firstLanding": 132,
+      "startedWhileAirborne": false,
+      "hits": [
+        {
+          "frame": 132,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        }
+      ],
+      "kameDamage": 0,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": null,
+      "beamReactionY": null,
+      "throwDamage": 12
+    },
+    {
+      "delay": 8,
+      "controlFree": 55,
+      "commandStart": 63,
+      "kameFrame": 78,
+      "enemyYAtKame": 298,
+      "enemyXAtKame": 28,
+      "firstLanding": 128,
+      "startedWhileAirborne": true,
+      "hits": [
+        {
+          "frame": 128,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        }
+      ],
+      "kameDamage": 0,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": null,
+      "beamReactionY": null,
+      "throwDamage": 12
+    },
+    {
+      "delay": 16,
+      "controlFree": 55,
+      "commandStart": 71,
+      "kameFrame": null,
+      "enemyYAtKame": null,
+      "enemyXAtKame": null,
+      "firstLanding": 131,
+      "startedWhileAirborne": false,
+      "hits": [
+        {
+          "frame": 131,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        }
+      ],
+      "kameDamage": 0,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": null,
+      "beamReactionY": null,
+      "throwDamage": 12
+    },
+    {
+      "delay": 24,
+      "controlFree": 55,
+      "commandStart": 79,
+      "kameFrame": null,
+      "enemyYAtKame": null,
+      "enemyXAtKame": null,
+      "firstLanding": 133,
+      "startedWhileAirborne": false,
+      "hits": [
+        {
+          "frame": 133,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        }
+      ],
+      "kameDamage": 0,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": null,
+      "beamReactionY": null,
+      "throwDamage": 12
+    },
+    {
+      "delay": 32,
+      "controlFree": 55,
+      "commandStart": 87,
+      "kameFrame": null,
+      "enemyYAtKame": null,
+      "enemyXAtKame": null,
+      "firstLanding": 133,
+      "startedWhileAirborne": false,
+      "hits": [
+        {
+          "frame": 133,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        }
+      ],
+      "kameDamage": 0,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": null,
+      "beamReactionY": null,
+      "throwDamage": 12
+    },
+    {
+      "delay": 48,
+      "controlFree": 55,
+      "commandStart": 103,
+      "kameFrame": 119,
+      "enemyYAtKame": 403,
+      "enemyXAtKame": 24,
+      "firstLanding": 130,
+      "startedWhileAirborne": true,
+      "hits": [
+        {
+          "frame": 130,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 217,
+          "damage": 60,
+          "y": 448,
+          "action": 19
+        }
+      ],
+      "kameDamage": 60,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": 217,
+      "beamReactionY": 448,
+      "throwDamage": 12
+    },
+    {
+      "delay": 64,
+      "controlFree": 55,
+      "commandStart": 119,
+      "kameFrame": 135,
+      "enemyYAtKame": 432,
+      "enemyXAtKame": 24,
+      "firstLanding": 130,
+      "startedWhileAirborne": true,
+      "hits": [
+        {
+          "frame": 130,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 232,
+          "damage": 60,
+          "y": 448,
+          "action": 19
+        }
+      ],
+      "kameDamage": 60,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": 232,
+      "beamReactionY": 448,
+      "throwDamage": 12
+    },
+    {
+      "delay": 80,
+      "controlFree": 55,
+      "commandStart": 135,
+      "kameFrame": 150,
+      "enemyYAtKame": 426,
+      "enemyXAtKame": 24,
+      "firstLanding": 127,
+      "startedWhileAirborne": true,
+      "hits": [
+        {
+          "frame": 127,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 247,
+          "damage": 60,
+          "y": 448,
+          "action": 19
+        }
+      ],
+      "kameDamage": 60,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": 247,
+      "beamReactionY": 448,
+      "throwDamage": 12
+    },
+    {
+      "delay": 96,
+      "controlFree": 55,
+      "commandStart": 151,
+      "kameFrame": 167,
+      "enemyYAtKame": 445,
+      "enemyXAtKame": 24,
+      "firstLanding": 127,
+      "startedWhileAirborne": true,
+      "hits": [
+        {
+          "frame": 127,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 262,
+          "damage": 60,
+          "y": 448,
+          "action": 19
+        }
+      ],
+      "kameDamage": 60,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": 262,
+      "beamReactionY": 448,
+      "throwDamage": 12
+    },
+    {
+      "delay": 120,
+      "controlFree": 55,
+      "commandStart": 175,
+      "kameFrame": 191,
+      "enemyYAtKame": 448,
+      "enemyXAtKame": 24,
+      "firstLanding": 127,
+      "startedWhileAirborne": false,
+      "hits": [
+        {
+          "frame": 127,
+          "damage": 12,
+          "y": 448,
+          "action": 23
+        },
+        {
+          "frame": 285,
+          "damage": 60,
+          "y": 448,
+          "action": 19
+        }
+      ],
+      "kameDamage": 60,
+      "lastActions": [
+        0,
+        0
+      ],
+      "beamReactionFrame": 285,
+      "beamReactionY": 448,
+      "throwDamage": 12
+    }
+  ]
+}
