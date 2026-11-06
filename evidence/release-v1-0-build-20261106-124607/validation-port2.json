@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "romSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "cases": [
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        74,
+        96,
+        125
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        74,
+        96,
+        125
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    }
+  ]
+}

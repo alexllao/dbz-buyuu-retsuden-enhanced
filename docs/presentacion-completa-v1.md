@@ -1,5 +1,7 @@
 # Presentación completa · v1.0
 
+**Grabación del build 105411. La revisión posterior [124607](gohan-hits-v1.md) corrige Gohan; el vídeo largo conserva su contador anterior. El [Short vertical](youtube-short-v1.md) no muestra ese Meteor.**
+
 [**Vídeo completo, 2:14**](../assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4) · [**Copia ligera para correo, unos 17 MB**](../assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4) · [**Lista completa de mejoras respecto al original**](mejoras-frente-original.md) · [**Borrador de correo para un canal retro**](correo-presentacion.md).
 
 La presentación utiliza la **ROM v1.0, build 20261106-105411**, sin modificarla. Se conserva el anuncio corto anterior. Son 26 tomas editadas con los once personajes y escenarios de los nueve fondos existentes; todo procede del juego real en emulador, a velocidad normal, con sonido y HUD nativos.

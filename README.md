@@ -2,19 +2,23 @@
 
 Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-105411` (10:54:11, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
+**Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-124607` (12:46:07, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
 [**VER PRESENTACIÓN COMPLETA — 2:14, once personajes**](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4) · [**Copia ligera para correo**](assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4) · [**Lista completa de mejoras**](docs/mejoras-frente-original.md) · [**Borrador de correo**](docs/correo-presentacion.md) · [**Portada para YouTube**](assets/media/presentation-full/Portada-YouTube-2026-Alex-Llao.png)
 
-**26 tomas, ocho cadenas y nueve Meteor/remates**, con especiales de todo el plantel, cruces rápidos entre dos jugadores y lanzamientos seguidos de técnicas. Grabaciones reales, sonido original y velocidad normal. Misma ROM v1.0/build 20261106-105411; este trabajo amplía el vídeo. [Capítulos y condiciones de grabación](docs/presentacion-completa-v1.md). [Anuncio corto anterior conservado](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4).
+**26 tomas, ocho cadenas y nueve Meteor/remates**, con especiales de todo el plantel, cruces rápidos entre dos jugadores y lanzamientos seguidos de técnicas. Grabaciones reales, sonido original y velocidad normal. Presentación grabada con el build 20261106-105411; la ROM actual 124607 añade después la corrección del contador de Gohan. [Capítulos y condiciones de grabación](docs/presentacion-completa-v1.md). [Anuncio corto anterior conservado](assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4).
 
-[**Cambios del build actual**](docs/piccolo-hits-v1.md) · [Resumen de la base v1.0](docs/version-1-0.md) · [Manifiesto de la ROM](patches/release-v1-0-build-20261106-105411/manifest.json)
+[**Cambios del build actual**](docs/gohan-hits-v1.md) · [Resumen de la base v1.0](docs/version-1-0.md) · [Manifiesto de la ROM](patches/release-v1-0-build-20261106-124607/manifest.json)
 
 [![Abrir presentación completa de Buyuu Retsuden Enhanced](assets/media/presentation-full/captura.png)](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4)
 
 El vídeo abre con BANDAI y ALEX LLAO. Muestra básicos → cruce → Meteor de Goku con **6 HITS**, tres bolas con **3 impactos**, Meteor de Vegeta y Piccolo (ahora con sus 9 HITS), lanzamientos seguidos de **Masenko, Final Flash y Kamehameha**, los **13 impactos de Cell** y **tres cruces rápidos P1/P2/P1 rematados con un Meteor de Goku**. Juego a velocidad normal, audio original y contador nativo; tomas coordinadas para demostración, sin acelerar ataques. Los enlaces mostrados no se anuncian como inevitables: el rival puede defenderse según la situación.
 
-**Nuevo en este build:** corregidos los siete contactos omitidos del Meteor de Piccolo: **2 → 9 HITS**, con **43 de daño antes y después**. Doce casos en ambos mandos/sentidos, acierto, guardia y fallo. Los cruces del vídeo se ejecutan más seguidos con los mandos: intervalos de **15–18 fotogramas**, frente a 40; **la ROM no acelera el movimiento**. [**Piccolo antes/después**](assets/media/release-v1-0-build-20261106-105411/Piccolo-Meteor-HITS-antes-despues-v1.0-build-20261106-105411.mp4) · [**Cruces rápidos y Meteor**](assets/media/release-v1-0-build-20261106-105411/Cruces-rapidos-y-Meteor-v1.0-build-20261106-105411.mp4) · [Pruebas y límites](docs/piccolo-hits-v1.md).
+**YouTube Short listo: 28 segundos, vertical 9:16, 1080×1920.** [**Ver Short**](assets/media/youtube-short/DBZ-Buyuu-Retsuden-Enhanced-YouTube-Short-v1.0.mp4) · [Portada vertical](assets/media/youtube-short/Portada-Short-v1.0.png) · [Procedencia y formato](docs/youtube-short-v1.md). Cortes rápidos, imagen completa del juego y sonido original; sin acelerar movimientos. No incluye el Meteor de Gohan.
+
+**Nuevo en el build 124607:** Meteor de Gohan **2 → 5 HITS**, con 34 de daño conservado en la comparación. Tres contactos intermedios añadidos y remate sin duplicar. Doce casos de Gohan y doce de regresión de Piccolo. [**Comparación real antes/después**](assets/media/release-v1-0-build-20261106-124607/Gohan-Meteor-HITS-antes-despues-v1.0-build-20261106-124607.mp4) · [Reglas y pruebas](docs/gohan-hits-v1.md). La presentación larga anterior conserva la cuenta antigua de Gohan.
+
+**Corrección anterior conservada:** corregidos los siete contactos omitidos del Meteor de Piccolo: **2 → 9 HITS**, con **43 de daño antes y después**. Doce casos en ambos mandos/sentidos, acierto, guardia y fallo. Los cruces del vídeo se ejecutan más seguidos con los mandos: intervalos de **15–18 fotogramas**, frente a 40; **la ROM no acelera el movimiento**. [**Piccolo antes/después**](assets/media/release-v1-0-build-20261106-105411/Piccolo-Meteor-HITS-antes-despues-v1.0-build-20261106-105411.mp4) · [**Cruces rápidos y Meteor**](assets/media/release-v1-0-build-20261106-105411/Cruces-rapidos-y-Meteor-v1.0-build-20261106-105411.mp4) · [Pruebas y límites](docs/piccolo-hits-v1.md).
 
 **Ajuste de ki conservado del build anterior:** preparación del Kamehameha normal de unos **1,24 a 0,43 s** y Masenko de **1,55 a 0,68 s**, sin pantalla partida. Se recorta la espera; se conservan la fase de lanzamiento, daño, débito de ki y datos de velocidad del proyectil. Super y rutas de pantalla partida siguen iguales. [**Comparación simultánea antes/después**](assets/media/release-v1-0-build-20261106-103002/Kamehameha-Masenko-antes-despues-v1.0-build-20261106-103002.mp4) · [**Tres cruces y Meteor, toma aislada**](assets/media/release-v1-0-build-20261106-103002/Tres-cruces-y-Meteor-v1.0-build-20261106-103002.mp4) · [Pruebas y límites](docs/ki-startup-v1.md).
 
@@ -33,7 +37,7 @@ Se conservan las once paletas de combate, Goku G2 HDBZ, Goku grande cálido en t
 
 A+B sin el movimiento completo carga ki. Cambio de lado: → ← → + C, cerca del rival. Los demás personajes y la CPU conservan sus comandos. [Tabla completa de Goku](docs/respuesta-v2.md).
 
-Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin`. Arranca desde cero, a velocidad normal, sin estados anteriores. Construcción: `pnpm build:review --rom ruta/a/original.bin --version v1.0`. La opción sin versión conserva v6.6.
+Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-124607.bin`. Arranca desde cero, a velocidad normal, sin estados anteriores. Construcción: `pnpm build:review --rom ruta/a/original.bin --version v1.0`. La opción sin versión conserva v6.6.
 
 [Historial Respuesta v2 y vídeo de controles](docs/respuesta-v2.md) · [Prueba anterior de lanzamiento/Kamehameha: documenta el fallo corregido en v1.0](docs/lanzamiento-kamehameha-v2.md) · [Presentación elegida](#pantalla-de-presentación-elegida) · [Decisiones](docs/decisions.md).
 
@@ -477,14 +481,14 @@ pnpm install --frozen-lockfile
 pnpm check
 pnpm test
 
-# Entrega actual: v1.0 / build 20261106-105411
+# Entrega actual: v1.0 / build 20261106-124607
 pnpm build:review --rom "ruta/a/original.bin" --version v1.0
 
 # Base anterior conservada: gráficos, controles y cambio de lado, sin estas pruebas posteriores
 pnpm build:review --rom "ruta/a/original.bin" --version v6.6
 ```
 
-La entrega actual genera `dist/DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin` mediante `--version v1.0`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
+La entrega actual genera `dist/DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-124607.bin` mediante `--version v1.0`. La opción sin `--version` sigue generando v6.6; `pnpm build` genera el parche histórico v1. El archivo de entrada nunca se sobrescribe. Las propuestas de Namek no se aplican con estos comandos.
 
 SHA-256 de la base admitida:
 
@@ -492,7 +496,7 @@ SHA-256 de la base admitida:
 217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557
 ```
 
-**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la entrega actual](patches/release-v1-0-build-20261106-105411/manifest.json)
+**Arrancar desde cero, sin estados guardados de otra versión.** [Construcción y ensamblado](docs/build.md) · [Manifiesto de la entrega actual](patches/release-v1-0-build-20261106-124607/manifest.json)
 
 ## Qué se ha comprobado y qué falta
 

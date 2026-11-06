@@ -1,0 +1,281 @@
+{
+  "passed": true,
+  "romSha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+  "baseRomSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+  "version": {
+    "version": "1.0",
+    "buildId": "20261106-124607",
+    "buildDate": "2026-11-06",
+    "buildTimestamp": "2026-11-06T12:46:07+01:00",
+    "timezone": "Europe/Madrid",
+    "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 11:46Z",
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-124607.bin"
+  },
+  "gohanCases": [
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        71,
+        91,
+        121
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        71,
+        91,
+        121
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        74,
+        96,
+        125
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        74,
+        96,
+        125
+      ],
+      "maxHits": 5,
+      "damage": 34
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    }
+  ],
+  "piccoloRegression": [
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        69,
+        91,
+        113,
+        135,
+        157,
+        180,
+        201
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        69,
+        91,
+        113,
+        135,
+        157,
+        180,
+        201
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "hit",
+      "contacts": [
+        71,
+        93,
+        114,
+        133,
+        156,
+        177,
+        198
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "hit",
+      "contacts": [
+        71,
+        93,
+        114,
+        133,
+        156,
+        177,
+        198
+      ],
+      "maxHits": 9,
+      "damage": 43
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "guard",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "whiff",
+      "contacts": [],
+      "maxHits": 0,
+      "damage": 0
+    }
+  ],
+  "comparison": [
+    {
+      "build": "before",
+      "maxHits": 2,
+      "damage": 34
+    },
+    {
+      "build": "after",
+      "maxHits": 5,
+      "damage": 34
+    }
+  ],
+  "damageChanged": false,
+  "animationChanged": false,
+  "controlsChanged": false,
+  "video": {
+    "path": "assets/media/release-v1-0-build-20261106-124607/Gohan-Meteor-HITS-antes-despues-v1.0-build-20261106-124607.mp4",
+    "sha256": "e55486d43688171302b157a8e670e0c4b2fb592b80e6ac4df2379c5e4aba2255"
+  },
+  "limitations": [
+    "Normal-speed emulator cases in both ports and orientations; not an exhaustive audit of all special moves or original hardware.",
+    "Earlier full presentation shows Gohan before this fix. Short contains no Gohan Meteor and keeps its source build105411."
+  ]
+}

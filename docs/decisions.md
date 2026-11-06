@@ -22,7 +22,7 @@ Actualizado el 5 de noviembre de 2026. [Registro estructurado](../project/decisi
 | Escenario 10 | Montañas nevadas, suelo y vuelo. | Bocetos, no integrado. |
 | Colisiones | Respetar tamaños, incluido Gohan. | Visor/auditoría disponibles; cajas sin cambios. |
 
-Última ROM de prueba: [v1.0, build 20261106-105411](piccolo-hits-v1.md), con ventaja, salida del mareo y corrección del borrado periódico de acumulación. El comando sin versión conserva v6.6; no confundir esa opción con la prueba más reciente.
+Última ROM de prueba: [v1.0, build 20261106-124607](gohan-hits-v1.md), con ventaja, salida del mareo y corrección del borrado periódico de acumulación. El comando sin versión conserva v6.6; no confundir esa opción con la prueba más reciente.
 
 [Namek antes y después](namek-anime-v2.md) · [Intro elegida](intro-original-lineup-v6-6.md) · [Ki aceptado](ki-colores-v4.md) · [Historial gráfico](graphics.md) · [Hoja de ruta](roadmap.md).
 
@@ -45,3 +45,8 @@ Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducci
 ## Presentación completa · 6 de noviembre de 2026
 
 [Vídeo de 2:14, 26 tomas y once personajes](presentacion-completa-v1.md), con copia ligera para correo, lista de mejoras y borrador para un canal retro. Misma ROM/build; las tomas se coordinan sin acelerar el juego y los diseños pendientes no se incorporan en edición.
+
+
+## Gohan HITS y YouTube Short · 6 de noviembre de 2026
+
+[Build 124607: Gohan de dos a cinco HITS, mismo daño, doce casos y doce de regresión de Piccolo](gohan-hits-v1.md). [Short vertical de 28 segundos](youtube-short-v1.md), sin acelerar y sin ese Meteor; mantiene su procedencia 105411. La presentación larga anterior permanece archivada.

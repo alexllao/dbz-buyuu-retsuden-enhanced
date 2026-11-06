@@ -1,5 +1,7 @@
 # Piccolo: contactos del Meteor y cruces ejecutados más seguidos
 
+**Build conservado. La entrega actual añade la corrección de Gohan: [124607](gohan-hits-v1.md).**
+
 **v1.0 · build 20261106-105411 · 6 de noviembre de 2026, 10:54:11 de Madrid.** Se conserva la compilación anterior y se identifica la nueva en el archivo, las dos cabeceras internas de título y el manifiesto.
 
 [**Cruces rápidos P1/P2/P1 y Meteor, juego real**](../assets/media/release-v1-0-build-20261106-105411/Cruces-rapidos-y-Meteor-v1.0-build-20261106-105411.mp4) · [**Piccolo: HITS antes/después simultáneos**](../assets/media/release-v1-0-build-20261106-105411/Piccolo-Meteor-HITS-antes-despues-v1.0-build-20261106-105411.mp4) · [**Anuncio completo actualizado**](../assets/media/release-v1-0-build-20261106-105411/DBZ-Enhanced-v1.0-build-20261106-105411-Anuncio.mp4).
@@ -32,6 +34,6 @@ La sensación y el equilibrio con mando siguen pendientes de revisión humana. N
 
 Archivo: `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin`.
 
-`pnpm build:review --rom ruta/a/original.bin --version v1.0` genera este build. [Manifiesto](../patches/release-v1-0-build-20261106-105411/manifest.json) · [Validación](../evidence/release-v1-0-build-20261106-105411/validation.json).
+`pnpm build:review --rom ruta/a/original.bin --version v1.0-build-20261106-105411` genera este build. [Manifiesto](../patches/release-v1-0-build-20261106-105411/manifest.json) · [Validación](../evidence/release-v1-0-build-20261106-105411/validation.json).
 
 Arranca desde cero, a velocidad normal y sin estados de la compilación anterior. Los builds `20261106-100534` y `20261106-103002` se conservan como historial.

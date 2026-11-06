@@ -1,6 +1,6 @@
 # Mejoras respecto al juego original
 
-Estado de la ROM **v1.0 · build 20261106-105411**. La presentación completa se ha grabado con esa compilación; crear el vídeo no modifica la ROM.
+Estado de la ROM **v1.0 · build 20261106-124607**. La presentación completa y el Short conservan la procedencia del build 105411; la corrección posterior de Gohan se muestra en su comparación.
 
 ## Gráficos
 
@@ -30,7 +30,7 @@ Estado de la ROM **v1.0 · build 20261106-105411**. La presentación completa se
 - **Cambio de lado cercano para los once personajes**, mediante adelante, atrás, adelante+C, sin golpe ni gasto de ki. Conserva una ventaja breve y la posibilidad de responder entre jugadores humanos con otro cruce.
 - **Preparación de Kamehameha normal y Masenko más breve sin pantalla partida**: muestras de aproximadamente 1,24 → 0,43 s y 1,55 → 0,68 s. Se mantienen el lanzamiento, daño, débito de ki y datos de velocidad del proyectil. Super y rutas con pantalla partida conservan sus tiempos.
 - **Contador HITS integrado en la ROM**, visible desde dos contactos, para cadenas y ataques multigolpe. Se conserva durante las fases ofensivas, técnicas de ki, cruces y mareo según la ventana implementada. Un golpe aislado permanece oculto y los golpes separados no se unen automáticamente.
-- **Contactos de Meteor contabilizados dentro de la secuencia**, además del daño agrupado al final: ejemplos comprobados de Goku, Vegeta y Piccolo; el Meteor de Piccolo suma nueve en la prueba corregida. Las ráfagas de Cell también incrementan el contador por contacto.
+- **Contactos de Meteor contabilizados dentro de la secuencia**, además del daño agrupado al final: ejemplos comprobados de Goku, Gohan, Vegeta y Piccolo; el Meteor de Gohan suma cinco y el de Piccolo nueve en las pruebas corregidas. Las ráfagas de Cell también incrementan el contador por contacto.
 - **Dos barras pequeñas de mareo**, una por jugador, con el estilo de las barras originales y sin rótulo STUN.
 - **Salida del mareo al primer impacto conectado**, reinicio de su acumulación en esa salida y limpieza por inactividad desde el último contacto, evitando el borrado periódico durante ataques recientes. Se mantienen las fórmulas nativas de daño y acumulación base.
 

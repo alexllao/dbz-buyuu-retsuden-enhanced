@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "buildId": "20261106-124607",
+  "buildDate": "2026-11-06",
+  "buildTimestamp": "2026-11-06T12:46:07+01:00",
+  "timezone": "Europe/Madrid",
+  "headerTitle": "DBZ BUYUU ENHANCED V1.0 2026-11-06 11:46Z",
+  "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-124607.bin",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "baseReviewSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-124607.bin",
+    "sha256": "f3c1bf1690bbdbf35b018ce729fcdfc72c5faa49936a36b75c06c3aa6eb57484",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/release-v1-0-build-20261106-124607/DBZ-Enhanced-v1.0-build-20261106-124607.ips",
+    "sha256": "b0374b44bea503dee871c6e52bf3a582b04ee8e173f9f98d8acaebb7924f9dd1"
+  },
+  "experimental": true,
+  "scope": "Count Gohan Meteor contact cues only while victim is in885; exclude final cue after damage/reaction transition. Preserve damage, animation, previous Piccolo fix and controls."
+}

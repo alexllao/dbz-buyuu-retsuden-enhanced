@@ -60,3 +60,8 @@ Las versiones anteriores, fuentes, paletas y vídeos se conservan. Una prueba en
 ## Build 20261106-105411 · Piccolo y cruces rápidos
 
 [Corrección del Meteor de Piccolo: 2 a 9 HITS, con 43 de daño conservado; doce casos. Cruces ejecutados con los mandos en intervalos de 15–18 fotogramas, sin acelerar la ROM](piccolo-hits-v1.md). Nuevo anuncio y comparación real; builds anteriores conservados.
+
+
+## Gohan HITS y YouTube Short · 6 de noviembre de 2026
+
+[Build 124607: Gohan de dos a cinco HITS, mismo daño, doce casos y doce de regresión de Piccolo](gohan-hits-v1.md). [Short vertical de 28 segundos](youtube-short-v1.md), sin acelerar y sin ese Meteor; mantiene su procedencia 105411. La presentación larga anterior permanece archivada.

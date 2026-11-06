@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "buildId": "20261106-105411",
+  "romSha256": "d3ea94bb78553b545b1db56da8e67a87b69ca8fa67621b6597a31b5ec75e813a",
+  "romChanged": false,
+  "seconds": 27.83584170613863,
+  "width": 1080,
+  "height": 1920,
+  "aspect": "9:16",
+  "nativeAudio": true,
+  "nativeHitsHud": true,
+  "gameplayTimeScaling": false,
+  "fullGameImagePreserved": true,
+  "background": "Enlarged, blurred and darkened copy behind the untouched full game frame",
+  "chapters": [
+    {
+      "source": "work\\piccolo-hits\\video\\11 cruces y meteor.mp4",
+      "sourceSha256": "9952da51e0223f5c78672a5d98d9eb5a037161c96961d28cfb904fefec6c9ef8",
+      "sourceFrameStart": 12,
+      "sourceFrameEnd": 288,
+      "startSeconds": 0,
+      "seconds": 4.605930642022939,
+      "headline": "CRUCES RÁPIDOS"
+    },
+    {
+      "source": "work\\presentation-full\\video\\combo-0-AAB-flurry.mp4",
+      "sourceSha256": "e93315ce4fadaa7fcdfa7387e7ba42f791daec1b24056273d357e3c472be06f8",
+      "sourceFrameStart": 6,
+      "sourceFrameEnd": 219,
+      "startSeconds": 4.605930642022939,
+      "seconds": 3.554576908517703,
+      "headline": "COMBOS ENCADENADOS"
+    },
+    {
+      "source": "work\\presentation-full\\video\\combo-3-ABA-meteor.mp4",
+      "sourceSha256": "8df827a2e428db34da46fd3c4ee70e4d40d4c09797b796d3c4f113025c576cb9",
+      "sourceFrameStart": 114,
+      "sourceFrameEnd": 366,
+      "startSeconds": 8.160507550540641,
+      "seconds": 4.205414934020944,
+      "headline": "VEGETA"
+    },
+    {
+      "source": "work\\piccolo-hits\\video\\06 piccolo meteor.mp4",
+      "sourceSha256": "60f6cc4c6f625af95a84b8625a9d814e4ee162f771354fe74eedc136bdf3614d",
+      "sourceFrameStart": 54,
+      "sourceFrameEnd": 255,
+      "startSeconds": 12.365922484561587,
+      "seconds": 3.354319054516705,
+      "headline": "PICCOLO"
+    },
+    {
+      "source": "work\\presentation-full\\video\\combo-0-ABB-super.mp4",
+      "sourceSha256": "2953c65897baa4af9c1a49d9598aa371ddac060f6feae556f529d2fc8355fbb4",
+      "sourceFrameStart": 186,
+      "sourceFrameEnd": 294,
+      "startSeconds": 15.720241539078291,
+      "seconds": 1.802320686008976,
+      "headline": "SUPER KAMEHAMEHA"
+    },
+    {
+      "source": "work\\piccolo-hits\\video\\08 lanzamiento final flash.mp4",
+      "sourceSha256": "6ee3588e28aea85a41e4ae7e17e371a8759110d761478e0df5836d7ffbf3fcae",
+      "sourceFrameStart": 159,
+      "sourceFrameEnd": 297,
+      "startSeconds": 17.522562225087267,
+      "seconds": 2.3029653210114693,
+      "headline": "FINAL FLASH"
+    },
+    {
+      "source": "work\\presentation-full\\video\\combo-5-ABA-meteor.mp4",
+      "sourceSha256": "e79e38b2dd55bfb761f4010667922383e33c0c8cf4ca1acda6f58593c655cb48",
+      "sourceFrameStart": 392,
+      "sourceFrameEnd": 728,
+      "startSeconds": 19.825527546098737,
+      "seconds": 5.607219912027926,
+      "headline": "CELL"
+    },
+    {
+      "source": "work\\piccolo-hits\\video\\01 titulo.mp4",
+      "sourceSha256": "31e736a3e57ad0ff5d93820ffd411e785295c8a1bf89a7c03fe6d8b31cf02a11",
+      "sourceFrameStart": 60,
+      "sourceFrameEnd": 204,
+      "startSeconds": 25.432747458126663,
+      "seconds": 2.403094248011968,
+      "headline": "V1.0 EN DESARROLLO"
+    }
+  ],
+  "video": {
+    "path": "assets/media/youtube-short/DBZ-Buyuu-Retsuden-Enhanced-YouTube-Short-v1.0.mp4",
+    "sha256": "ec12a72f497c92e003b4a94941ce088c7e47b13f20cae5c13a45688707e76047",
+    "bytes": 17725900
+  },
+  "passed": true
+}

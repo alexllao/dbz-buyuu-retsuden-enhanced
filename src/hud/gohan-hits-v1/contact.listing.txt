@@ -1,0 +1,13 @@
+003d5100: 48e7fffe                                 .hex 48e7fffe
+003d5104: 40e7                                     .hex 40e7
+003d5106: 0c500842                                 cmpi.w #0x0842,(A0)
+003d510a: 66000018                                 bne.w 0x3d5124
+003d510e: 4eb90001335c                             jsr 0x0001335c.l
+003d5114: 0c510885                                 cmpi.w #0x0885,(A1)
+003d5118: 6600000a                                 bne.w 0x3d5124
+003d511c: 2049                                     movea.l A1,A0
+003d511e: 4eb9003b035c                             jsr 0x003b035c.l
+003d5124: 46df                                     .hex 46df
+003d5126: 4cdf7fff                                 .hex 4cdf7fff
+003d512a: 13fc0047ffff5000                         move.b #0x47,(0xffff5000).l
+003d5132: 4e75                                     rts

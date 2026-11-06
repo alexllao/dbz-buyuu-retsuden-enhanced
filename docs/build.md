@@ -1,8 +1,8 @@
 # Construcción
 
-## Entrega actual: v1.0 / build 20261106-105411
+## Entrega actual: v1.0 / build 20261106-124607
 
-`pnpm build:review --rom "ruta/a/original.bin" --version v1.0` genera `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-105411.bin`, con versión y fecha también en las dos cabeceras de título de la ROM. El manifiesto fija su huella exacta. [Guía, pruebas y anuncio](piccolo-hits-v1.md). El alias `piccolo-hits-v1` genera el mismo archivo. Los builds anteriores quedan fijados por fecha, incluyendo `v1.0-build-20261106-103002` y `ki-startup-v1`. El build anterior se conserva con `v1.0-build-20261106-100534` o `responsive-v3`. Las siguientes variantes se conservan como historial; la construcción sin versión sigue siendo v6.6.
+`pnpm build:review --rom "ruta/a/original.bin" --version v1.0` genera `DBZ_Buyuu_Retsuden_Enhanced_v1.0_build_20261106-124607.bin`, con versión y fecha también en las dos cabeceras de título de la ROM. El manifiesto fija su huella exacta. [Guía y pruebas](gohan-hits-v1.md). El alias `gohan-hits-v1` genera el mismo archivo. La revisión de Piccolo queda fijada en `v1.0-build-20261106-105411` o `piccolo-hits-v1`. Los builds anteriores quedan fijados por fecha, incluyendo `v1.0-build-20261106-103002` y `ki-startup-v1`. El build anterior se conserva con `v1.0-build-20261106-100534` o `responsive-v3`. Las siguientes variantes se conservan como historial; la construcción sin versión sigue siendo v6.6.
 
 Cada compilación nueva debe tener un build distinto en nombre, cabecera y manifiesto. La versión pública de esta entrega es 1.0; los números de módulos históricos no son versiones públicas del conjunto.
 

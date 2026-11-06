@@ -4,7 +4,9 @@
 
 Hola,
 
-En mis ratos libres estoy intentando mejorar la ROM de *Dragon Ball Z: Buyuu Retsuden* de Mega Drive / Genesis. Es un proyecto personal para darle más fluidez al combate y retocar su aspecto, tomando el anime y Hyper Dragon Ball Z como referencias de color.
+En mis ratos libres estoy intentando mejorar la ROM de Dragon Ball Z: Buyuu Retsuden de Mega Drive / Genesis, ayudándome de herramientas de inteligencia artificial para analizar el juego, desarrollar cambios y hacer pruebas.
+
+Es un proyecto personal para darle más fluidez al combate y retocar su aspecto, tomando el anime como referencia de color.
 
 Te paso un vídeo de presentación para que veas cómo está quedando. Son grabaciones reales en emulador, con sonido del juego y a velocidad normal.
 
