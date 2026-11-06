@@ -1,0 +1,92 @@
+[
+  {
+    "port": 1,
+    "facing": 0,
+    "mode": "normal",
+    "height": 61,
+    "airFrames": 25,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 0,
+    "mode": "diagonal",
+    "height": 61,
+    "airFrames": 25,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 0,
+    "mode": "run",
+    "height": 138,
+    "airFrames": 36,
+    "landed": true,
+    "maxYStep": 18
+  },
+  {
+    "port": 1,
+    "facing": 0,
+    "mode": "airA",
+    "height": 61,
+    "airFrames": 27,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 0,
+    "mode": "airB",
+    "height": 61,
+    "airFrames": 27,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 1,
+    "mode": "normal",
+    "height": 61,
+    "airFrames": 24,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 1,
+    "mode": "diagonal",
+    "height": 61,
+    "airFrames": 26,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 1,
+    "mode": "run",
+    "height": 138,
+    "airFrames": 35,
+    "landed": true,
+    "maxYStep": 18
+  },
+  {
+    "port": 1,
+    "facing": 1,
+    "mode": "airA",
+    "height": 61,
+    "airFrames": 26,
+    "landed": true,
+    "maxYStep": 12
+  },
+  {
+    "port": 1,
+    "facing": 1,
+    "mode": "airB",
+    "height": 61,
+    "airFrames": 27,
+    "landed": true,
+    "maxYStep": 12
+  }
+]

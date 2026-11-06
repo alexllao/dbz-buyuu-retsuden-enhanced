@@ -1,6 +1,6 @@
 # Prueba G1: dos saltos y trayectoria del Meteor de Piccolo
 
-Prueba solicitada el 6 de noviembre de 2026. **Pendiente de validación visual del usuario**: no sustituye el build principal 20261106-124607.
+Prueba solicitada el 6 de noviembre de 2026. **No convenció al usuario por falta de diferencia perceptible; ver [prueba G2 solo Goku](gravity-g2.md)**: no sustituye el build principal 20261106-124607.
 
 [Vídeo simultáneo antes/después, 49 segundos](../assets/media/gravity-g1/Saltos-y-Meteor-antes-despues-G1.mp4) · [Manifiesto G1](../patches/gravity-g1/manifest.json) · [Verificaciones](../evidence/gravity-g1/validation.json)
 

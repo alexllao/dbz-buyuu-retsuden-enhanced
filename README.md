@@ -4,7 +4,7 @@ Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball
 
 **Actualizado: 6 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-124607` (12:46:07, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
-**Nueva prueba de saltos G1 — pendiente de elegir:** salto normal más bajo y salto desde carrera más alto/largo, para los once personajes. Meteor de Piccolo conserva la gran altura con nueva subida y caída. Incluye reparación del doble toque de carrera. [**Ver comparación simultánea de 49 s**](assets/media/gravity-g1/Saltos-y-Meteor-antes-despues-G1.mp4) · [Detalles y límites](docs/gravity-g1.md). La versión principal sigue siendo 124607.
+**Prueba de saltos G2 — solo Goku, pendiente de elegir:** normal más bajo y con aterrizaje antes; desde carrera más alto, conservando recorrido y duración. [**Comparación simultánea de 19 s**](assets/media/gravity-g2/comparacion.mp4) · [Datos y límites](docs/gravity-g2.md). G1 no convenció por falta de cambio perceptible; se conserva como histórico. La versión principal sigue siendo 124607.
 
 [**VER PRESENTACIÓN COMPLETA — 2:14, once personajes**](assets/media/presentation-full/DBZ-Buyuu-Retsuden-Enhanced-Presentacion-completa-v1.0.mp4) · [**Copia ligera para correo**](assets/media/presentation-full/DBZ-Enhanced-v1.0-Presentacion-para-correo.mp4) · [**Lista completa de mejoras**](docs/mejoras-frente-original.md) · [**Borrador de correo**](docs/correo-presentacion.md) · [**Portada para YouTube**](assets/media/presentation-full/Portada-YouTube-2026-Alex-Llao.png)
 

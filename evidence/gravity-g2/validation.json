@@ -1,0 +1,327 @@
+{
+  "passed": true,
+  "sha256": "2234feb33f5c6763458954b128c04e9c1b1ace8a338d0d85310b7b50ffe1be95",
+  "scope": "Goku only",
+  "cases": [
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "normal",
+      "height": 61,
+      "airFrames": 25,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "diagonal",
+      "height": 61,
+      "airFrames": 25,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "run",
+      "height": 138,
+      "airFrames": 36,
+      "landed": true,
+      "maxYStep": 18
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "airA",
+      "height": 61,
+      "airFrames": 27,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "mode": "airB",
+      "height": 61,
+      "airFrames": 27,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "normal",
+      "height": 61,
+      "airFrames": 24,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "diagonal",
+      "height": 61,
+      "airFrames": 26,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "run",
+      "height": 138,
+      "airFrames": 35,
+      "landed": true,
+      "maxYStep": 18
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "airA",
+      "height": 61,
+      "airFrames": 26,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "mode": "airB",
+      "height": 61,
+      "airFrames": 27,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "normal",
+      "height": 61,
+      "airFrames": 25,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "diagonal",
+      "height": 61,
+      "airFrames": 25,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "run",
+      "height": 138,
+      "airFrames": 35,
+      "landed": true,
+      "maxYStep": 18
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "airA",
+      "height": 61,
+      "airFrames": 26,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "mode": "airB",
+      "height": 61,
+      "airFrames": 26,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "normal",
+      "height": 61,
+      "airFrames": 24,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "diagonal",
+      "height": 61,
+      "airFrames": 26,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "run",
+      "height": 138,
+      "airFrames": 36,
+      "landed": true,
+      "maxYStep": 18
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "airA",
+      "height": 61,
+      "airFrames": 25,
+      "landed": true,
+      "maxYStep": 12
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "mode": "airB",
+      "height": 61,
+      "airFrames": 25,
+      "landed": true,
+      "maxYStep": 12
+    }
+  ],
+  "baseline": [
+    {
+      "label": "vertical",
+      "height": 87,
+      "airFrames": 35,
+      "run": false,
+      "flags": [
+        0
+      ],
+      "programs": [
+        0,
+        4
+      ],
+      "range": 0
+    },
+    {
+      "label": "forward",
+      "height": 87,
+      "airFrames": 36,
+      "run": false,
+      "flags": [
+        0
+      ],
+      "programs": [
+        0,
+        4,
+        5
+      ],
+      "range": 164
+    },
+    {
+      "label": "running",
+      "height": 87,
+      "airFrames": 35,
+      "run": true,
+      "flags": [
+        32768
+      ],
+      "programs": [
+        0,
+        1,
+        4,
+        5,
+        40
+      ],
+      "range": 218
+    },
+    {
+      "label": "backrun",
+      "height": 87,
+      "airFrames": 33,
+      "run": true,
+      "flags": [
+        32768
+      ],
+      "programs": [
+        0,
+        2,
+        4,
+        6,
+        41
+      ],
+      "range": 120
+    }
+  ],
+  "trial": [
+    {
+      "label": "vertical",
+      "height": 61,
+      "airFrames": 24,
+      "run": false,
+      "flags": [
+        0
+      ],
+      "programs": [
+        0,
+        4
+      ],
+      "range": 0
+    },
+    {
+      "label": "forward",
+      "height": 61,
+      "airFrames": 25,
+      "run": false,
+      "flags": [
+        0
+      ],
+      "programs": [
+        0,
+        4,
+        5
+      ],
+      "range": 109
+    },
+    {
+      "label": "running",
+      "height": 138,
+      "airFrames": 35,
+      "run": true,
+      "flags": [
+        32768
+      ],
+      "programs": [
+        0,
+        1,
+        4,
+        5,
+        40
+      ],
+      "range": 218
+    },
+    {
+      "label": "backrun",
+      "height": 138,
+      "airFrames": 33,
+      "run": true,
+      "flags": [
+        32768
+      ],
+      "programs": [
+        0,
+        2,
+        4,
+        6,
+        41
+      ],
+      "range": 120
+    }
+  ],
+  "video": {
+    "path": "assets/media/gravity-g2/comparacion.mp4",
+    "sha256": "e481092cc06d26efef06d6453cc334b69c6f50205ffd6c14e8c61cb19162d9c2"
+  },
+  "limitations": [
+    "Normal speed in emulator, not turbo or hardware.",
+    "Comparison begins from compatible deterministic snapshots; validation20cases uses fresh boot in each player port.",
+    "Piccolo Meteor unchanged from124607; G1 trial did not convince user.",
+    "Shared dash fix retained in both sides. No default ROM changed."
+  ]
+}
