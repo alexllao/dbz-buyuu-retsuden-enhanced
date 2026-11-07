@@ -1038,6 +1038,11 @@
     "scope": "Ground reactions A1/A4/A5, getup BF/C0/C1/C2",
     "video": "assets/media/knockdown-k1/comparacion.mp4",
     "validation": "evidence/knockdown-k1/validation.json",
-    "limitations": "Normal-speed sweep only; earlier end of native state protection; extended wake pressure pending"
+    "limitations": "Normal-speed sweep only; earlier end of native state protection; extended wake pressure pending",
+    "feedbackK1": "Incorporation a little too fast",
+    "latestTrial": "K2",
+    "latestTrialBuild": "20261107-100046",
+    "latestDocumentation": "docs/knockdown-k2.md",
+    "latestStatus": "Pending visual validation; only getup duration extended versus K1"
   }
 }

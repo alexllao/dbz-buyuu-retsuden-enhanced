@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "K2 intermediate getup trial",
+  "buildId": "20261107-100046",
+  "headerTitle": "DBZ BUYUU V1.0 K2 2026-11-07 09:00Z",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_K2_build_20261107-100046.bin",
+    "sha256": "be78b50ddd73ff00b68da8e593c1fa847a2be36a4144c1b56e1094f88590a959",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/knockdown-k2/DBZ-Enhanced-v1.0-K2-build-20261107-100046.ips",
+    "sha256": "7dc6f10d173d6e3ad245d4c569384732e540eeb1bc5fd8a9ac567841c13fe77f"
+  },
+  "experimental": true,
+  "mainRomUnchanged": true
+}

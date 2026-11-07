@@ -4,7 +4,7 @@ Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball
 
 **Actualizado: 7 de noviembre de 2026 · rama `development`. Versión actual: 1.0 · build `20261106-174207` (6 de noviembre, 17:42:07, Madrid).** Versión y fecha identifican el archivo, los títulos internos de la ROM y su manifiesto. El módulo de desarrollo se llama `responsive-v3`; la entrega pública es **v1.0**.
 
-**Nueva prueba K1: derribos y recuperación más breves.** [**Vídeo simultáneo antes/después — 19 s**](assets/media/knockdown-k1/comparacion.mp4) · [Qué cambia y límites](docs/knockdown-k1.md). En las tomas: Goku 2,65→1,72s y Cell 2,85→1,74s del golpe a caminar. Incluye Trunks, Piccolo y Recoome. Pendiente de validar visualmente; la ROM principal sigue siendo 174207.
+**Prueba K2: incorporación algo más pausada.** K1 resultó demasiado rápida al levantarse. K2 mantiene la caída y la espera corta, y alarga solo la incorporación. [**K1 frente a K2 — vídeo de 19 s**](assets/media/knockdown-k2/comparacion.mp4) · [Tiempos y alcance](docs/knockdown-k2.md). Pendiente de validar; la ROM principal sigue siendo 174207. [Comparación anterior: principal frente a K1](docs/knockdown-k1.md).
 
 **Actualizado: contador de todos los Meteor revisado.** Krilin **2 → 8**, Freezer **2 → 3**, A18 **2 → 3** y Trunks **2 → 3** en las secuencias completas. El resto conserva sus contactos. **Sacudidas añadidas retiradas por petición del usuario**; solo vibración original. [**Vídeo de 44 s: correcciones y Cell a 11/13**](assets/media/release-v1-0-build-20261106-174207/Meteor-HITS-corregidos-y-Cell-11-13.mp4) · [Reglas, pruebas y límites](docs/meteor-hits-v2.md). 120 casos en ambos mandos. Cell suma contactos reales: 13 contra un rival con vida suficiente; 11 en el ejemplo de KO a 63 HP.
 

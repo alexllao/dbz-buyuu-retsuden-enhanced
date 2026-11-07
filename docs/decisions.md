@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**7/11/2026 — prueba K2:** el usuario nota que K1 se incorpora demasiado rápido. Mantener su espera corta y probar una incorporación intermedia. [Comparación K1/K2](knockdown-k2.md). K2 pendiente de validar, principal 174207 sin cambios.
+
 **7/11/2026 — prueba K1:** el usuario pide acortar bastante los derribos y ver antes/después. Recuperación breve en una variante separada, pendiente de validar. [Vídeo, tiempos y alcance](knockdown-k1.md). La ROM principal 174207 se conserva.
 
 **6/11/2026 — build174207:** revisión de HITS de los diez Meteor; correcciones en Krilin, Freezer, A18 y Trunks. Cell validado a13 contactos y a11 con KO previo. Sacudidas añadidas retiradas por petición explícita. G1/G2 de gravedad no aceptadas; modelo pendiente. [Estado, vídeo y120 pruebas](meteor-hits-v2.md).

@@ -1,5 +1,7 @@
 # Derribos K1: caída y recuperación más breves
 
+**Comentario del usuario:** la incorporación parece un poco demasiado rápida. Se conserva K1 como referencia; [K2 alarga únicamente la incorporación](knockdown-k2.md), pendiente de validar.
+
 Prueba del 7 de noviembre de 2026, pendiente de validación visual del usuario. **La ROM principal 174207 no cambia.** Se pidió recortar bastante el tiempo sin control después de un derribo y mostrar vídeos antes/después.
 
 [Comparación simultánea real — 19 segundos](../assets/media/knockdown-k1/comparacion.mp4) · [Manifiesto K1](../patches/knockdown-k1/manifest.json) · [Pruebas y tiempos](../evidence/knockdown-k1/validation.json)
