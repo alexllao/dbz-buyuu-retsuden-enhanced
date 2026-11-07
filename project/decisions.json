@@ -1043,8 +1043,10 @@
     "latestTrial": "K4",
     "latestTrialBuild": "20261107-102624",
     "latestDocumentation": "docs/knockdown-k4.md",
-    "latestStatus": "Pending visual validation; longer floor wait, K3 getup data unchanged",
+    "latestStatus": "K4 visually approved by user on 2026-11-07; separate K4 package, main174207 unchanged",
     "feedbackK2": "User still sees no difference",
-    "feedbackK3": "Still looks fast; user clarifies they want longer wait lying down before rising"
+    "feedbackK3": "Still looks fast; user clarifies they want longer wait lying down before rising",
+    "userApproval": "k4 perfecto",
+    "originalComparisonVideo": "assets/media/knockdown-k4/original-vs-K4.mp4"
   }
 }

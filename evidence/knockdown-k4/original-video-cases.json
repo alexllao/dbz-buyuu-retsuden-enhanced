@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "Goku",
+      "metrics": [
+        {
+          "variant": "Original",
+          "hit": 11,
+          "wake": 154,
+          "move": 191,
+          "settled": 91,
+          "lyingSeconds": 1.051353733505236,
+          "totalSeconds": 3.00386781001496
+        },
+        {
+          "variant": "K4",
+          "hit": 13,
+          "wake": 111,
+          "move": 149,
+          "settled": 79,
+          "lyingSeconds": 0.5340209440026595,
+          "totalSeconds": 2.269589012011303
+        }
+      ],
+      "sourceTrimFrames": [
+        1,
+        3
+      ],
+      "alignedOn": "First HP loss",
+      "sameControlSequence": true
+    },
+    {
+      "name": "Cell",
+      "metrics": [
+        {
+          "variant": "Original",
+          "hit": 13,
+          "wake": 161,
+          "move": 193,
+          "settled": 96,
+          "lyingSeconds": 1.0847300425054023,
+          "totalSeconds": 3.00386781001496
+        },
+        {
+          "variant": "K4",
+          "hit": 13,
+          "wake": 114,
+          "move": 148,
+          "settled": 83,
+          "lyingSeconds": 0.5173327895025764,
+          "totalSeconds": 2.25290085751122
+        }
+      ],
+      "sourceTrimFrames": [
+        3,
+        3
+      ],
+      "alignedOn": "First HP loss",
+      "sameControlSequence": true
+    }
+  ],
+  "nativeFps": 59.92274340431231,
+  "gameplaySpeedScaling": false,
+  "eachCaseRepeated": 2,
+  "audio": "K4",
+  "originalRomSha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+  "k4RomSha256": "f1ca06179d138f2780afc327726e70830b7409bc40653645d5fd8e4a64249dbd"
+}

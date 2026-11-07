@@ -583,7 +583,11 @@
   "limits": [
     "Normal-speed ground sweep only; A4 not triggered by this sweep.",
     "State-based reaction protection lasts longer with longer floor wait.",
-    "Turbo, hardware and extended wake pressure not validated.",
-    "Pending user visual validation."
-  ]
+    "Turbo, hardware and extended wake pressure not validated."
+  ],
+  "userVisualApproval": {
+    "approved": true,
+    "date": "2026-11-07",
+    "quote": "k4 perfecto"
+  }
 }

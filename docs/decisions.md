@@ -1,6 +1,6 @@
 # Decisiones vigentes
 
-**7/11/2026 — prueba K4:** alargar la espera tumbado, no el gesto de levantarse. Goku 0,22 → 0,53 s; Cell 0,20 → 0,52 s. [Comparación y estado pendiente](knockdown-k4.md).
+**7/11/2026 — K4 aprobada:** alargar la espera tumbado, no el gesto de levantarse. Goku 0,22 → 0,53 s; Cell 0,20 → 0,52 s. El usuario confirma «k4 perfecto». [Comparaciones K3/K4 y original/K4](knockdown-k4.md).
 
 **7/11/2026 — prueba K3:** K2 no resultó perceptible al usuario. Recuperar duraciones originales de incorporación; mantener caída/espera de K1. Mostrar K1/K2/K3 ampliadas a velocidad normal. [Vídeo y estado pendiente](knockdown-k3.md).
 

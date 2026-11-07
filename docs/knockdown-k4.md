@@ -17,6 +17,17 @@ En once personajes con el barrido de Goku a velocidad normal, la espera aumenta 
 
 Cambio de datos: último peso de A1/A4/A5 +4; cabecera de duración +16 para conservar la unidad nativa de 4. Marcador aéreo, pesos anteriores y poses sin cambios. Cabecera identificada como **v1.0 K4 build 20261107-102624**. El código de daño, hitstop y filtros de colisión permanece igual. Como la protección nativa depende del estado de reacción, alargar la espera también prolonga ese estado: no se garantiza una protección independiente idéntica.
 
-**Pendiente de validación del usuario. La ROM principal 20261106-174207 sigue igual.** Se conserva K3 como historial. No se ha probado turbo, consola real, presión prolongada ni otros derribos; A4 se modifica por la estructura de sus datos pero el barrido usado no activa esa rama.
+**Aprobada visualmente por el usuario el 7/11/2026: «k4 perfecto». Se conserva en el paquete K4; la ROM principal 20261106-174207 sigue igual.** Se conserva K3 como historial. No se ha probado turbo, consola real, presión prolongada ni otros derribos; A4 se modifica por la estructura de sus datos pero el barrido usado no activa esa rama.
 
 Construcción: `pnpm build:review --rom ruta/a/original.bin --version knockdown-k4`. El repositorio distribuye el parche IPS y evidencia, sin ROM completa.
+
+## Comparación con la ROM original japonesa
+
+[Vídeo original frente a K4](../assets/media/knockdown-k4/original-vs-K4.mp4). Dos casos, cada uno repetido dos veces. Original a la izquierda; K4 a la derecha. Ambos ejecutan DOWN durante 20 frames, DOWN+B durante 2 y LEFT del defensor desde el frame 20. Posiciones y sentido iniciales iguales. Arranque nativo independiente en original y estado nativo compatible en K4; no se carga un estado modificado en la ROM original. Solo se recortan 1–3 frames iniciales para sincronizar el primer impacto; no se cambia la velocidad. Audio de K4.
+
+| Del golpe a caminar | Original japonesa | K4 |
+|---|---:|---:|
+| Goku |3,00 s|2,27 s|
+| Cell |3,00 s|2,25 s|
+
+La espera definitiva tumbado es 1,05/1,08 s en original y 0,53/0,52 s en K4 (Goku/Cell). La original japonesa es distinta del build modificado 174207 usado en mediciones anteriores. Estos tiempos no deben mezclarse con los de esa base. K4 incluye también los demás cambios del mod, visibles en las paletas y el HUD. [Trazas y condiciones](../evidence/knockdown-k4/original-video-cases.json).
