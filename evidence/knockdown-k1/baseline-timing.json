@@ -1,0 +1,1016 @@
+{
+  "build": "20261106-174207",
+  "romSha256": "854f444abd4bd99f167be3d5711205e30185d0fd6480ae581ae6c131255df797",
+  "date": "2026-11-07",
+  "speed": "normal",
+  "attack": "Goku crouching sweep",
+  "method": "Native menu boot, human ports, no timing/HP/stun writes; three input phases per defender; separate empty-pad trace and movement-toward-centre verification.",
+  "limits": [
+    "One ground knockdown attack, not every Meteor, throw, air hit or KO.",
+    "RAM grounded condition; visible sprite may lag by one frame.",
+    "Emulator timing, not a hardware/mando latency measurement."
+  ],
+  "characters": [
+    {
+      "name": "Goku",
+      "lyingSeconds": [
+        0.517,
+        0.551
+      ],
+      "standingUpSeconds": [
+        0.584,
+        0.601
+      ],
+      "settledThroughMovementSeconds": [
+        1.185,
+        1.202
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.502,
+        1.519
+      ],
+      "impactThroughMovementSeconds": [
+        2.653,
+        2.737
+      ],
+      "runs": [
+        {
+          "settledOnGround": 101,
+          "lyingFrames": 31,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 71,
+          "delay": 0,
+          "hit": 13,
+          "firstGroundTouch": 82,
+          "finalLyingStart": 118,
+          "wakeStart": 132,
+          "idle": 168,
+          "firstMovement": 172,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 14,
+          "wakeFrames": 36,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 155,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 100,
+          "lyingFrames": 31,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 71,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 81,
+          "finalLyingStart": 117,
+          "wakeStart": 131,
+          "idle": 167,
+          "firstMovement": 171,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 14,
+          "wakeFrames": 36,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 155,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 104,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 72,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 122,
+          "wakeStart": 137,
+          "idle": 172,
+          "firstMovement": 176,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 160,
+          "firstTouchThroughIdleFrames": 87,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Gohan",
+      "lyingSeconds": [
+        0.551,
+        0.551
+      ],
+      "standingUpSeconds": [
+        0.584,
+        0.584
+      ],
+      "settledThroughMovementSeconds": [
+        1.185,
+        1.185
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.485,
+        1.485
+      ],
+      "impactThroughMovementSeconds": [
+        2.553,
+        2.57
+      ],
+      "runs": [
+        {
+          "settledOnGround": 95,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 71,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 163,
+          "firstMovement": 166,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 151,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 94,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 71,
+          "delay": 1,
+          "hit": 11,
+          "firstGroundTouch": 76,
+          "finalLyingStart": 112,
+          "wakeStart": 127,
+          "idle": 162,
+          "firstMovement": 165,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 151,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 93,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 71,
+          "delay": 2,
+          "hit": 11,
+          "firstGroundTouch": 75,
+          "finalLyingStart": 111,
+          "wakeStart": 126,
+          "idle": 161,
+          "firstMovement": 164,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 150,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Piccolo",
+      "lyingSeconds": [
+        0.417,
+        0.417
+      ],
+      "standingUpSeconds": [
+        0.617,
+        0.634
+      ],
+      "settledThroughMovementSeconds": [
+        1.068,
+        1.068
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.435,
+        1.435
+      ],
+      "impactThroughMovementSeconds": [
+        2.754,
+        2.787
+      ],
+      "runs": [
+        {
+          "settledOnGround": 116,
+          "lyingFrames": 25,
+          "settledThroughIdleFrames": 63,
+          "settledThroughMovementFrames": 64,
+          "delay": 0,
+          "hit": 15,
+          "firstGroundTouch": 94,
+          "finalLyingStart": 125,
+          "wakeStart": 141,
+          "idle": 179,
+          "firstMovement": 180,
+          "reaction": "0xa4",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 16,
+          "wakeFrames": 38,
+          "groundThroughIdleFrames": 54,
+          "hitThroughIdleFrames": 164,
+          "firstTouchThroughIdleFrames": 85,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 115,
+          "lyingFrames": 25,
+          "settledThroughIdleFrames": 63,
+          "settledThroughMovementFrames": 64,
+          "delay": 1,
+          "hit": 14,
+          "firstGroundTouch": 93,
+          "finalLyingStart": 124,
+          "wakeStart": 140,
+          "idle": 178,
+          "firstMovement": 179,
+          "reaction": "0xa4",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 16,
+          "wakeFrames": 38,
+          "groundThroughIdleFrames": 54,
+          "hitThroughIdleFrames": 164,
+          "firstTouchThroughIdleFrames": 85,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 117,
+          "lyingFrames": 25,
+          "settledThroughIdleFrames": 62,
+          "settledThroughMovementFrames": 64,
+          "delay": 2,
+          "hit": 14,
+          "firstGroundTouch": 95,
+          "finalLyingStart": 126,
+          "wakeStart": 142,
+          "idle": 179,
+          "firstMovement": 181,
+          "reaction": "0xa4",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 16,
+          "wakeFrames": 37,
+          "groundThroughIdleFrames": 53,
+          "hitThroughIdleFrames": 165,
+          "firstTouchThroughIdleFrames": 84,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Vegeta",
+      "lyingSeconds": [
+        0.534,
+        0.534
+      ],
+      "standingUpSeconds": [
+        0.584,
+        0.584
+      ],
+      "settledThroughMovementSeconds": [
+        1.135,
+        1.135
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.452,
+        1.452
+      ],
+      "impactThroughMovementSeconds": [
+        2.537,
+        2.553
+      ],
+      "runs": [
+        {
+          "settledOnGround": 97,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 68,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 78,
+          "finalLyingStart": 114,
+          "wakeStart": 129,
+          "idle": 164,
+          "firstMovement": 165,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 96,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 68,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 163,
+          "firstMovement": 164,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 151,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 97,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 68,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 78,
+          "finalLyingStart": 115,
+          "wakeStart": 129,
+          "idle": 164,
+          "firstMovement": 165,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 14,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 49,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Trunks",
+      "lyingSeconds": [
+        0.534,
+        0.551
+      ],
+      "standingUpSeconds": [
+        0.401,
+        0.401
+      ],
+      "settledThroughMovementSeconds": [
+        0.985,
+        1.001
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.302,
+        1.302
+      ],
+      "impactThroughMovementSeconds": [
+        2.37,
+        2.386
+      ],
+      "runs": [
+        {
+          "settledOnGround": 95,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 57,
+          "settledThroughMovementFrames": 60,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 152,
+          "firstMovement": 155,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xbf",
+          "floorFrames": 15,
+          "wakeFrames": 24,
+          "groundThroughIdleFrames": 39,
+          "hitThroughIdleFrames": 140,
+          "firstTouchThroughIdleFrames": 75,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 96,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 56,
+          "settledThroughMovementFrames": 59,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 152,
+          "firstMovement": 155,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xbf",
+          "floorFrames": 15,
+          "wakeFrames": 24,
+          "groundThroughIdleFrames": 39,
+          "hitThroughIdleFrames": 140,
+          "firstTouchThroughIdleFrames": 75,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 95,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 56,
+          "settledThroughMovementFrames": 59,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 76,
+          "finalLyingStart": 112,
+          "wakeStart": 127,
+          "idle": 151,
+          "firstMovement": 154,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xbf",
+          "floorFrames": 15,
+          "wakeFrames": 24,
+          "groundThroughIdleFrames": 39,
+          "hitThroughIdleFrames": 139,
+          "firstTouchThroughIdleFrames": 75,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Cell",
+      "lyingSeconds": [
+        0.768,
+        0.784
+      ],
+      "standingUpSeconds": [
+        0.484,
+        0.517
+      ],
+      "settledThroughMovementSeconds": [
+        1.318,
+        1.368
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.619,
+        1.686
+      ],
+      "impactThroughMovementSeconds": [
+        2.804,
+        2.904
+      ],
+      "runs": [
+        {
+          "settledOnGround": 104,
+          "lyingFrames": 46,
+          "settledThroughIdleFrames": 76,
+          "settledThroughMovementFrames": 80,
+          "delay": 0,
+          "hit": 13,
+          "firstGroundTouch": 86,
+          "finalLyingStart": 137,
+          "wakeStart": 150,
+          "idle": 180,
+          "firstMovement": 184,
+          "reaction": "0xa5",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc1",
+          "floorFrames": 13,
+          "wakeFrames": 30,
+          "groundThroughIdleFrames": 43,
+          "hitThroughIdleFrames": 167,
+          "firstTouchThroughIdleFrames": 94,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 101,
+          "lyingFrames": 46,
+          "settledThroughIdleFrames": 75,
+          "settledThroughMovementFrames": 79,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 83,
+          "finalLyingStart": 134,
+          "wakeStart": 147,
+          "idle": 176,
+          "firstMovement": 180,
+          "reaction": "0xa5",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc1",
+          "floorFrames": 13,
+          "wakeFrames": 29,
+          "groundThroughIdleFrames": 42,
+          "hitThroughIdleFrames": 164,
+          "firstTouchThroughIdleFrames": 93,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 104,
+          "lyingFrames": 47,
+          "settledThroughIdleFrames": 78,
+          "settledThroughMovementFrames": 82,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 138,
+          "wakeStart": 151,
+          "idle": 182,
+          "firstMovement": 186,
+          "reaction": "0xa5",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc1",
+          "floorFrames": 13,
+          "wakeFrames": 31,
+          "groundThroughIdleFrames": 44,
+          "hitThroughIdleFrames": 170,
+          "firstTouchThroughIdleFrames": 97,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "A18",
+      "lyingSeconds": [
+        0.534,
+        0.551
+      ],
+      "standingUpSeconds": [
+        0.601,
+        0.601
+      ],
+      "settledThroughMovementSeconds": [
+        1.185,
+        1.202
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.502,
+        1.502
+      ],
+      "impactThroughMovementSeconds": [
+        2.57,
+        2.587
+      ],
+      "runs": [
+        {
+          "settledOnGround": 95,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 69,
+          "settledThroughMovementFrames": 72,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 164,
+          "firstMovement": 167,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 36,
+          "groundThroughIdleFrames": 51,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 87,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 96,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 71,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 164,
+          "firstMovement": 167,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 36,
+          "groundThroughIdleFrames": 51,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 87,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 95,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 71,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 76,
+          "finalLyingStart": 112,
+          "wakeStart": 127,
+          "idle": 163,
+          "firstMovement": 166,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc2",
+          "floorFrames": 15,
+          "wakeFrames": 36,
+          "groundThroughIdleFrames": 51,
+          "hitThroughIdleFrames": 151,
+          "firstTouchThroughIdleFrames": 87,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Krilin",
+      "lyingSeconds": [
+        0.534,
+        0.534
+      ],
+      "standingUpSeconds": [
+        0.584,
+        0.601
+      ],
+      "settledThroughMovementSeconds": [
+        1.135,
+        1.151
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.452,
+        1.469
+      ],
+      "impactThroughMovementSeconds": [
+        2.537,
+        2.57
+      ],
+      "runs": [
+        {
+          "settledOnGround": 97,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 68,
+          "settledThroughMovementFrames": 69,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 78,
+          "finalLyingStart": 114,
+          "wakeStart": 129,
+          "idle": 165,
+          "firstMovement": 166,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 15,
+          "wakeFrames": 36,
+          "groundThroughIdleFrames": 51,
+          "hitThroughIdleFrames": 153,
+          "firstTouchThroughIdleFrames": 87,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 97,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 68,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 78,
+          "finalLyingStart": 114,
+          "wakeStart": 129,
+          "idle": 164,
+          "firstMovement": 165,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 96,
+          "lyingFrames": 32,
+          "settledThroughIdleFrames": 67,
+          "settledThroughMovementFrames": 68,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 77,
+          "finalLyingStart": 113,
+          "wakeStart": 128,
+          "idle": 163,
+          "firstMovement": 164,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 15,
+          "wakeFrames": 35,
+          "groundThroughIdleFrames": 50,
+          "hitThroughIdleFrames": 151,
+          "firstTouchThroughIdleFrames": 86,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Freezer",
+      "lyingSeconds": [
+        0.517,
+        0.551
+      ],
+      "standingUpSeconds": [
+        0.484,
+        0.501
+      ],
+      "settledThroughMovementSeconds": [
+        1.068,
+        1.085
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.385,
+        1.402
+      ],
+      "impactThroughMovementSeconds": [
+        2.503,
+        2.537
+      ],
+      "runs": [
+        {
+          "settledOnGround": 99,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 62,
+          "settledThroughMovementFrames": 65,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 80,
+          "finalLyingStart": 117,
+          "wakeStart": 132,
+          "idle": 161,
+          "firstMovement": 164,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc1",
+          "floorFrames": 15,
+          "wakeFrames": 29,
+          "groundThroughIdleFrames": 44,
+          "hitThroughIdleFrames": 149,
+          "firstTouchThroughIdleFrames": 81,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 100,
+          "lyingFrames": 31,
+          "settledThroughIdleFrames": 61,
+          "settledThroughMovementFrames": 64,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 81,
+          "finalLyingStart": 117,
+          "wakeStart": 131,
+          "idle": 161,
+          "firstMovement": 164,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc1",
+          "floorFrames": 14,
+          "wakeFrames": 30,
+          "groundThroughIdleFrames": 44,
+          "hitThroughIdleFrames": 149,
+          "firstTouchThroughIdleFrames": 80,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 97,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 62,
+          "settledThroughMovementFrames": 65,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 78,
+          "finalLyingStart": 115,
+          "wakeStart": 130,
+          "idle": 159,
+          "firstMovement": 162,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc1",
+          "floorFrames": 15,
+          "wakeFrames": 29,
+          "groundThroughIdleFrames": 44,
+          "hitThroughIdleFrames": 147,
+          "firstTouchThroughIdleFrames": 81,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Recoome",
+      "lyingSeconds": [
+        0.584,
+        0.601
+      ],
+      "standingUpSeconds": [
+        0.617,
+        0.634
+      ],
+      "settledThroughMovementSeconds": [
+        1.235,
+        1.235
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.552,
+        1.569
+      ],
+      "impactThroughMovementSeconds": [
+        2.77,
+        2.787
+      ],
+      "runs": [
+        {
+          "settledOnGround": 106,
+          "lyingFrames": 35,
+          "settledThroughIdleFrames": 73,
+          "settledThroughMovementFrames": 74,
+          "delay": 0,
+          "hit": 13,
+          "firstGroundTouch": 86,
+          "finalLyingStart": 125,
+          "wakeStart": 141,
+          "idle": 179,
+          "firstMovement": 180,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 16,
+          "wakeFrames": 38,
+          "groundThroughIdleFrames": 54,
+          "hitThroughIdleFrames": 166,
+          "firstTouchThroughIdleFrames": 93,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 105,
+          "lyingFrames": 35,
+          "settledThroughIdleFrames": 73,
+          "settledThroughMovementFrames": 74,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 124,
+          "wakeStart": 140,
+          "idle": 178,
+          "firstMovement": 179,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 16,
+          "wakeFrames": 38,
+          "groundThroughIdleFrames": 54,
+          "hitThroughIdleFrames": 166,
+          "firstTouchThroughIdleFrames": 93,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 104,
+          "lyingFrames": 36,
+          "settledThroughIdleFrames": 73,
+          "settledThroughMovementFrames": 74,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 123,
+          "wakeStart": 140,
+          "idle": 177,
+          "firstMovement": 178,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xc0",
+          "floorFrames": 17,
+          "wakeFrames": 37,
+          "groundThroughIdleFrames": 54,
+          "hitThroughIdleFrames": 165,
+          "firstTouchThroughIdleFrames": 92,
+          "fps": 59.92274340431231
+        }
+      ]
+    },
+    {
+      "name": "Ginyu",
+      "lyingSeconds": [
+        0.551,
+        0.567
+      ],
+      "standingUpSeconds": [
+        0.417,
+        0.434
+      ],
+      "settledThroughMovementSeconds": [
+        1.051,
+        1.101
+      ],
+      "firstGroundTouchThroughMovementSeconds": [
+        1.368,
+        1.435
+      ],
+      "impactThroughMovementSeconds": [
+        2.587,
+        2.653
+      ],
+      "runs": [
+        {
+          "settledOnGround": 104,
+          "lyingFrames": 33,
+          "settledThroughIdleFrames": 59,
+          "settledThroughMovementFrames": 63,
+          "delay": 0,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 122,
+          "wakeStart": 137,
+          "idle": 163,
+          "firstMovement": 167,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xbf",
+          "floorFrames": 15,
+          "wakeFrames": 26,
+          "groundThroughIdleFrames": 41,
+          "hitThroughIdleFrames": 151,
+          "firstTouchThroughIdleFrames": 78,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 105,
+          "lyingFrames": 34,
+          "settledThroughIdleFrames": 59,
+          "settledThroughMovementFrames": 66,
+          "delay": 1,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 124,
+          "wakeStart": 139,
+          "idle": 164,
+          "firstMovement": 171,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xbf",
+          "floorFrames": 15,
+          "wakeFrames": 25,
+          "groundThroughIdleFrames": 40,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 79,
+          "fps": 59.92274340431231
+        },
+        {
+          "settledOnGround": 104,
+          "lyingFrames": 34,
+          "settledThroughIdleFrames": 60,
+          "settledThroughMovementFrames": 64,
+          "delay": 2,
+          "hit": 12,
+          "firstGroundTouch": 85,
+          "finalLyingStart": 123,
+          "wakeStart": 138,
+          "idle": 164,
+          "firstMovement": 168,
+          "reaction": "0xa1",
+          "floorPose": "0x43",
+          "wakeProgram": "0xbf",
+          "floorFrames": 15,
+          "wakeFrames": 26,
+          "groundThroughIdleFrames": 41,
+          "hitThroughIdleFrames": 152,
+          "firstTouchThroughIdleFrames": 79,
+          "fps": 59.92274340431231
+        }
+      ]
+    }
+  ]
+}

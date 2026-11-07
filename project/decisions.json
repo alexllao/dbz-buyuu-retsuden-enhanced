@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "preservePreviousVersions": true,
   "presentation": {
     "selected": "C anime cálido",
@@ -1029,5 +1029,15 @@
     "addedShake": "Removed at explicit user request; Impact experiment archived",
     "gravity": "G1/G2 not accepted, model remains pending",
     "documentation": "docs/meteor-hits-v2.md"
+  },
+  "knockdownTrial": {
+    "variant": "K1",
+    "buildId": "20261107-094832",
+    "status": "Pending user visual validation",
+    "mainBuildUnchanged": "20261106-174207",
+    "scope": "Ground reactions A1/A4/A5, getup BF/C0/C1/C2",
+    "video": "assets/media/knockdown-k1/comparacion.mp4",
+    "validation": "evidence/knockdown-k1/validation.json",
+    "limitations": "Normal-speed sweep only; earlier end of native state protection; extended wake pressure pending"
   }
 }

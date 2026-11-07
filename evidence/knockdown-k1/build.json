@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "variant": "K1 trial",
+  "buildId": "20261107-094832",
+  "headerTitle": "DBZ BUYUU V1.0 K1 2026-11-07 08:48Z",
+  "sourceSha256": "854f444abd4bd99f167be3d5711205e30185d0fd6480ae581ae6c131255df797",
+  "targetSha256": "64b316aebd7a68595ebc17a341c720d7f256cd880e43bfc7eaec14fb0bd63e8f",
+  "experimental": true,
+  "mainRomUnchanged": true,
+  "edits": [
+    {
+      "program": "0xa1",
+      "address": 127903,
+      "bytes": 9,
+      "beforeDuration": 84,
+      "afterDuration": 48,
+      "beforeWeights": [
+        1,
+        4,
+        2,
+        128,
+        3,
+        2,
+        2
+      ],
+      "afterWeights": [
+        1,
+        4,
+        2,
+        128,
+        3,
+        1,
+        1
+      ],
+      "timeUnit": 4
+    },
+    {
+      "program": "0xa4",
+      "address": 127920,
+      "bytes": 10,
+      "beforeDuration": 84,
+      "afterDuration": 52,
+      "beforeWeights": [
+        1,
+        1,
+        4,
+        2,
+        128,
+        1,
+        3,
+        2
+      ],
+      "afterWeights": [
+        1,
+        1,
+        4,
+        2,
+        128,
+        1,
+        3,
+        1
+      ],
+      "timeUnit": 4
+    },
+    {
+      "program": "0xa5",
+      "address": 127939,
+      "bytes": 10,
+      "beforeDuration": 96,
+      "afterDuration": 48,
+      "beforeWeights": [
+        1,
+        4,
+        2,
+        128,
+        3,
+        2,
+        2,
+        2
+      ],
+      "afterWeights": [
+        1,
+        4,
+        2,
+        128,
+        2,
+        1,
+        1,
+        1
+      ],
+      "timeUnit": 4
+    },
+    {
+      "program": "0xbf",
+      "address": 128179,
+      "bytes": 5,
+      "beforeDuration": 24,
+      "afterDuration": 15,
+      "beforeWeights": [
+        2,
+        1,
+        2
+      ],
+      "afterWeights": [
+        2,
+        1,
+        2
+      ],
+      "timeUnit": 3
+    },
+    {
+      "program": "0xc0",
+      "address": 128188,
+      "bytes": 5,
+      "beforeDuration": 30,
+      "afterDuration": 15,
+      "beforeWeights": [
+        1,
+        2,
+        2
+      ],
+      "afterWeights": [
+        1,
+        2,
+        2
+      ],
+      "timeUnit": 3
+    },
+    {
+      "program": "0xc1",
+      "address": 128197,
+      "bytes": 5,
+      "beforeDuration": 24,
+      "afterDuration": 12,
+      "beforeWeights": [
+        2,
+        1,
+        1
+      ],
+      "afterWeights": [
+        2,
+        1,
+        1
+      ],
+      "timeUnit": 3
+    },
+    {
+      "program": "0xc2",
+      "address": 128206,
+      "bytes": 5,
+      "beforeDuration": 30,
+      "afterDuration": 15,
+      "beforeWeights": [
+        1,
+        2,
+        2
+      ],
+      "afterWeights": [
+        1,
+        2,
+        2
+      ],
+      "timeUnit": 3
+    }
+  ],
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      127903,
+      9
+    ],
+    [
+      127920,
+      10
+    ],
+    [
+      127939,
+      10
+    ],
+    [
+      128179,
+      5
+    ],
+    [
+      128188,
+      5
+    ],
+    [
+      128197,
+      5
+    ],
+    [
+      128206,
+      5
+    ]
+  ]
+}
