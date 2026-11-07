@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "K4 longer lying wait trial",
+  "buildId": "20261107-102624",
+  "headerTitle": "DBZ BUYUU V1.0 K4 2026-11-07 09:26Z",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_K4_build_20261107-102624.bin",
+    "sha256": "f1ca06179d138f2780afc327726e70830b7409bc40653645d5fd8e4a64249dbd",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/knockdown-k4/DBZ-Enhanced-v1.0-K4-build-20261107-102624.ips",
+    "sha256": "b959216b1443bfc9fe2db204a7063bd009e262fad9ded95817d3b1c060927cfd"
+  },
+  "experimental": true,
+  "mainRomUnchanged": true
+}

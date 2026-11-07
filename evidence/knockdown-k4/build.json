@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "variant": "K4",
+  "buildId": "20261107-102624",
+  "headerTitle": "DBZ BUYUU V1.0 K4 2026-11-07 09:26Z",
+  "sourceSha256": "3ecc29b13741b5081b09de663b7ebf3beba41da88f1cf8949ae860d420563f5a",
+  "targetSha256": "f1ca06179d138f2780afc327726e70830b7409bc40653645d5fd8e4a64249dbd",
+  "experimental": true,
+  "mainRomUnchanged": true,
+  "edits": [
+    {
+      "program": "0xa1",
+      "address": 127903,
+      "bytes": 9,
+      "oldLastWeight": 1,
+      "newLastWeight": 5,
+      "timeUnit": 4,
+      "extraNativeUpdates": 16
+    },
+    {
+      "program": "0xa4",
+      "address": 127920,
+      "bytes": 10,
+      "oldLastWeight": 1,
+      "newLastWeight": 5,
+      "timeUnit": 4,
+      "extraNativeUpdates": 16
+    },
+    {
+      "program": "0xa5",
+      "address": 127939,
+      "bytes": 10,
+      "oldLastWeight": 1,
+      "newLastWeight": 5,
+      "timeUnit": 4,
+      "extraNativeUpdates": 16
+    }
+  ],
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      127903,
+      9
+    ],
+    [
+      127920,
+      10
+    ],
+    [
+      127939,
+      10
+    ]
+  ]
+}

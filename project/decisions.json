@@ -1040,10 +1040,11 @@
     "validation": "evidence/knockdown-k1/validation.json",
     "limitations": "Normal-speed sweep only; earlier end of native state protection; extended wake pressure pending",
     "feedbackK1": "Incorporation a little too fast",
-    "latestTrial": "K3",
-    "latestTrialBuild": "20261107-101421",
-    "latestDocumentation": "docs/knockdown-k3.md",
-    "latestStatus": "Pending visual validation; original BF/C0/C1/C2 timing, K1 ground reactions retained; magnified three-way loop",
-    "feedbackK2": "User still sees no difference"
+    "latestTrial": "K4",
+    "latestTrialBuild": "20261107-102624",
+    "latestDocumentation": "docs/knockdown-k4.md",
+    "latestStatus": "Pending visual validation; longer floor wait, K3 getup data unchanged",
+    "feedbackK2": "User still sees no difference",
+    "feedbackK3": "Still looks fast; user clarifies they want longer wait lying down before rising"
   }
 }
