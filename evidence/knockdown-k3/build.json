@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "variant": "K3",
+  "buildId": "20261107-101421",
+  "headerTitle": "DBZ BUYUU V1.0 K3 2026-11-07 09:14Z",
+  "sourceSha256": "64b316aebd7a68595ebc17a341c720d7f256cd880e43bfc7eaec14fb0bd63e8f",
+  "targetSha256": "3ecc29b13741b5081b09de663b7ebf3beba41da88f1cf8949ae860d420563f5a",
+  "mainRomUnchanged": true,
+  "experimental": true,
+  "originalGetupTiming": true,
+  "edits": [
+    {
+      "program": "0xbf",
+      "address": 128179,
+      "bytes": 2,
+      "beforeDuration": 15,
+      "afterDuration": 24
+    },
+    {
+      "program": "0xc0",
+      "address": 128188,
+      "bytes": 2,
+      "beforeDuration": 15,
+      "afterDuration": 30
+    },
+    {
+      "program": "0xc1",
+      "address": 128197,
+      "bytes": 2,
+      "beforeDuration": 12,
+      "afterDuration": 24
+    },
+    {
+      "program": "0xc2",
+      "address": 128206,
+      "bytes": 2,
+      "beforeDuration": 15,
+      "afterDuration": 30
+    }
+  ],
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      128179,
+      2
+    ],
+    [
+      128188,
+      2
+    ],
+    [
+      128197,
+      2
+    ],
+    [
+      128206,
+      2
+    ]
+  ]
+}

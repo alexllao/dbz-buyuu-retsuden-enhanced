@@ -1,5 +1,7 @@
 # K2: incorporación intermedia
 
+**Comentario posterior:** el usuario sigue viendo lo mismo. [K3 recupera las duraciones originales de incorporación y ofrece un detalle ampliado de las tres variantes](knockdown-k3.md). K2 se conserva como historial.
+
 El usuario considera que en K1 se levantan un poco demasiado rápido. K2 conserva la caída, el rebote y la espera corta de K1, y alarga únicamente la animación de incorporarse. **Pendiente de validación visual. La ROM principal 174207 no cambia.**
 
 [Vídeo K1 a la izquierda / K2 a la derecha — 19 s](../assets/media/knockdown-k2/comparacion.mp4) · [Manifiesto](../patches/knockdown-k2/manifest.json) · [Verificaciones](../evidence/knockdown-k2/validation.json)

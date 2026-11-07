@@ -1040,9 +1040,10 @@
     "validation": "evidence/knockdown-k1/validation.json",
     "limitations": "Normal-speed sweep only; earlier end of native state protection; extended wake pressure pending",
     "feedbackK1": "Incorporation a little too fast",
-    "latestTrial": "K2",
-    "latestTrialBuild": "20261107-100046",
-    "latestDocumentation": "docs/knockdown-k2.md",
-    "latestStatus": "Pending visual validation; only getup duration extended versus K1"
+    "latestTrial": "K3",
+    "latestTrialBuild": "20261107-101421",
+    "latestDocumentation": "docs/knockdown-k3.md",
+    "latestStatus": "Pending visual validation; original BF/C0/C1/C2 timing, K1 ground reactions retained; magnified three-way loop",
+    "feedbackK2": "User still sees no difference"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "K3 original getup timing trial",
+  "buildId": "20261107-101421",
+  "headerTitle": "DBZ BUYUU V1.0 K3 2026-11-07 09:14Z",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Buyuu_Retsuden_Enhanced_v1.0_K3_build_20261107-101421.bin",
+    "sha256": "3ecc29b13741b5081b09de663b7ebf3beba41da88f1cf8949ae860d420563f5a",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/knockdown-k3/DBZ-Enhanced-v1.0-K3-build-20261107-101421.ips",
+    "sha256": "9937678d94605fcdc947afae875a91c6e07d3c65b5b1e5730b3c9747f18f6366"
+  },
+  "experimental": true,
+  "mainRomUnchanged": true
+}
