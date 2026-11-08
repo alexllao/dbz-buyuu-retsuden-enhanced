@@ -1,0 +1,25 @@
+[
+  {
+    "side": "before",
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028
+    ],
+    "damage": 36,
+    "hits": 3
+  },
+  {
+    "side": "after",
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "damage": 96,
+    "hits": 4
+  }
+]

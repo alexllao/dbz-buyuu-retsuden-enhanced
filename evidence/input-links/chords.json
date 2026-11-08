@@ -1,0 +1,122 @@
+[
+  {
+    "port": 0,
+    "chordFrames": -2,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 0,
+    "chordFrames": -1,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 0,
+    "chordFrames": 0,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 0,
+    "chordFrames": 1,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 0,
+    "chordFrames": 2,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 1,
+    "chordFrames": -2,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 1,
+    "chordFrames": -1,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 1,
+    "chordFrames": 0,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 1,
+    "chordFrames": 1,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  },
+  {
+    "port": 1,
+    "chordFrames": 2,
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      2110
+    ],
+    "meteor": true
+  }
+]

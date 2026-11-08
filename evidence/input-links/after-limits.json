@@ -1,0 +1,298 @@
+{
+  "passed": true,
+  "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "cases": [
+    {
+      "mode": "held-A",
+      "contacts": [
+        9
+      ],
+      "damage": 12,
+      "maxHits": 1,
+      "starts": [
+        {
+          "f": 0,
+          "program": 1024,
+          "chain": 136
+        }
+      ],
+      "assistedStarts": []
+    },
+    {
+      "mode": "fourth-A",
+      "contacts": [
+        9,
+        29,
+        49
+      ],
+      "damage": 36,
+      "maxHits": 3,
+      "starts": [
+        {
+          "f": 0,
+          "program": 1024,
+          "chain": 136
+        },
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 37,
+          "program": 1028,
+          "chain": 142
+        }
+      ],
+      "assistedStarts": [
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 37,
+          "program": 1028,
+          "chain": 142
+        }
+      ]
+    },
+    {
+      "mode": "fourth-B",
+      "contacts": [
+        9,
+        29,
+        49
+      ],
+      "damage": 36,
+      "maxHits": 3,
+      "starts": [
+        {
+          "f": 0,
+          "program": 1024,
+          "chain": 136
+        },
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 37,
+          "program": 1028,
+          "chain": 142
+        }
+      ],
+      "assistedStarts": [
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 37,
+          "program": 1028,
+          "chain": 142
+        }
+      ]
+    },
+    {
+      "mode": "guard-after-third",
+      "contacts": [
+        9,
+        29,
+        49
+      ],
+      "damage": 36,
+      "maxHits": 3,
+      "starts": [
+        {
+          "f": 0,
+          "program": 1024,
+          "chain": 136
+        },
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 37,
+          "program": 1028,
+          "chain": 142
+        }
+      ],
+      "assistedStarts": [
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 37,
+          "program": 1028,
+          "chain": 142
+        }
+      ]
+    },
+    {
+      "mode": "spam-A",
+      "contacts": [
+        9,
+        29,
+        50,
+        85,
+        120
+      ],
+      "damage": 56,
+      "maxHits": 5,
+      "starts": [
+        {
+          "f": 0,
+          "program": 1024,
+          "chain": 136
+        },
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 39,
+          "program": 1024,
+          "chain": 142
+        },
+        {
+          "f": 73,
+          "program": 1025,
+          "chain": 154
+        },
+        {
+          "f": 109,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 145,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 171,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 195,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 220,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 249,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 277,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 304,
+          "program": 1025,
+          "chain": 218
+        },
+        {
+          "f": 330,
+          "program": 1025,
+          "chain": 218
+        }
+      ],
+      "assistedStarts": [
+        {
+          "f": 18,
+          "program": 1025,
+          "chain": 141
+        },
+        {
+          "f": 39,
+          "program": 1024,
+          "chain": 142
+        }
+      ]
+    },
+    {
+      "mode": "low-ki",
+      "contacts": [
+        9
+      ],
+      "damage": 12,
+      "maxHits": 1,
+      "starts": [
+        {
+          "f": 0,
+          "program": 1024,
+          "chain": 136
+        }
+      ],
+      "assistedStarts": []
+    }
+  ],
+  "otherCharacters": [
+    {
+      "cid": 1,
+      "damage": 28,
+      "maxHits": 3
+    },
+    {
+      "cid": 2,
+      "damage": 9,
+      "maxHits": 1
+    },
+    {
+      "cid": 3,
+      "damage": 25,
+      "maxHits": 3
+    },
+    {
+      "cid": 4,
+      "damage": 26,
+      "maxHits": 3
+    },
+    {
+      "cid": 5,
+      "damage": 25,
+      "maxHits": 3
+    },
+    {
+      "cid": 6,
+      "damage": 21,
+      "maxHits": 2
+    },
+    {
+      "cid": 7,
+      "damage": 28,
+      "maxHits": 3
+    },
+    {
+      "cid": 8,
+      "damage": 9,
+      "maxHits": 1
+    },
+    {
+      "cid": 9,
+      "damage": 28,
+      "maxHits": 3
+    },
+    {
+      "cid": 10,
+      "damage": 17,
+      "maxHits": 2
+    }
+  ]
+}

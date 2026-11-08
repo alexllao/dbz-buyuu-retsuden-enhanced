@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "buildId": "20261108-175044",
+  "variant": "Goku recognized-special recovery buffer; 6 recognizer updates",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_Buffer_enlaces_build_20261108-175044.bin",
+    "sha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/input-links/Buffer-enlaces-build-20261108-175044.ips",
+    "sha256": "95769fa2ca867abd4ced8b61a32a1aacff05415e370a712e488af539ac79a6ec"
+  },
+  "experimental": true,
+  "userApprovalPending": true
+}

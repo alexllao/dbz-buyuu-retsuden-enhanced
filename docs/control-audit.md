@@ -1,5 +1,7 @@
 # Afinar controles antes de añadir mecánicas
 
+**Seguimiento:** [build175044: buffer para una orden perdida al terminar el básico](input-links.md). Esta auditoría se conserva como referencia del build171303.
+
 8/11/2026. El usuario acepta priorizar controles fiables, cadenas naturales y recuperación coherente. Se revisa el build de prueba **20261108-171303**, sin cambiar su ROM ni dar por aprobadas las variantes pendientes.
 
 ## Comprobaciones sobre la ROM actual

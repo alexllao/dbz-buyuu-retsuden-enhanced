@@ -1,0 +1,18 @@
+[
+  {
+    "label": "guard",
+    "specialStarted": false,
+    "queueSeen": true,
+    "queueExpired": true,
+    "damage": 0,
+    "hits": 0
+  },
+  {
+    "label": "whiff",
+    "specialStarted": false,
+    "queueSeen": true,
+    "queueExpired": true,
+    "damage": 0,
+    "hits": 0
+  }
+]

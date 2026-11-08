@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "buildId": "20261108-175044",
+  "sourceSha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+  "targetSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "codeBytes": 1390,
+  "allowed": [
+    [
+      4055040,
+      1390
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      3997696,
+      6
+    ],
+    [
+      37476,
+      6
+    ],
+    [
+      37418,
+      6
+    ],
+    [
+      29684,
+      6
+    ]
+  ],
+  "queueState": "F72D/E and F73D/E, unused bytes in existing recognizer state"
+}

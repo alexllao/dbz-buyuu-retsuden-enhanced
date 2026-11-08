@@ -1207,5 +1207,20 @@
     "romChanged": false,
     "documentation": "docs/control-audit.md",
     "evidence": "evidence/control-audit/validation.json"
+  },
+  "recognizedSpecialRecoveryBuffer": {
+    "date": "2026-11-08",
+    "build": "20261108-175044",
+    "status": "pending-user-gamepad-review",
+    "scope": "Goku human normal speed",
+    "queueUpdates": 6,
+    "finisherStartsBefore": 160,
+    "finisherStartsAfter": 180,
+    "finisherCasesEach": 180,
+    "regressionsInMatrix": 0,
+    "doesNotExtendVictimHitstun": true,
+    "documentation": "docs/input-links.md",
+    "evidence": "evidence/input-links/validation.json",
+    "remaining": "Other rhythms/matchups still need investigation; no hardware certification."
   }
 }

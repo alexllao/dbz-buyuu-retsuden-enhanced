@@ -1,0 +1,57 @@
+{
+  "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "buildId": "20261108-175044",
+  "finisherStarts": {
+    "before": 160,
+    "after": 180,
+    "casesEach": 180,
+    "regressions": 0,
+    "matchup": "Goku vs Goku, normal speed, high ki, neutral rival, 2 ports x 2 facing x 5 rhythms x 3 delays x 3 techniques"
+  },
+  "inputCasesPassed": 200,
+  "meteorChordsPassed": 10,
+  "negativeSelectionPassed": 7,
+  "chargeChoices": 2,
+  "extraChecks": 5,
+  "basicsPassed": 96,
+  "limitsPreserved": true,
+  "otherTenCharactersDamageHitsPreserved": true,
+  "guardAfterThird": [
+    {
+      "speed": 2,
+      "started": true,
+      "damage": 66,
+      "maxHits": 3
+    },
+    {
+      "speed": 3,
+      "started": true,
+      "damage": 66,
+      "maxHits": 3
+    },
+    {
+      "speed": 4,
+      "started": true,
+      "damage": 66,
+      "maxHits": 3
+    },
+    {
+      "speed": 5,
+      "started": true,
+      "damage": 66,
+      "maxHits": 3
+    },
+    {
+      "speed": 6,
+      "started": true,
+      "damage": 66,
+      "maxHits": 3
+    }
+  ],
+  "protectedTablesPreserved": true,
+  "remaining": [
+    "Kamehameha at5frames/direction afterAAB vsVegeta still fails in the separate trace. Not all transitions are fixed.",
+    "No hardware/turbo/full matchup certification; no universal no-infinites claim.",
+    "A started finisher is not necessarily an unavoidable combo."
+  ]
+}

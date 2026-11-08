@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — continuar afinando jugabilidad:** el usuario pide seguir mejorando. Se reproduce un comando reconocido que se pierde al acabar un básico y se prepara un buffer de seis actualizaciones, sin ampliar hitstun ni el asistente. Build20261108-175044, pendiente de prueba con mando. [Vídeo, 180 enlaces por versión y límites](input-links.md).
+
 **8/11/2026 — priorizar la base jugable:** el usuario acepta afinar controles, cadenas y recuperación antes de añadir mecánicas. Se audita el build 171303; no se altera la ROM ni se aprueban automáticamente ensayos pendientes. [Resultados, límites y prioridad](control-audit.md).
 
 **8/11/2026 — cadenas de Goku y Short variado:** el usuario acepta probar el primer punto y solicita un Short espectacular con diferentes personajes y ataques, título y texto. Segundo puño y tercera patada de Goku usan variantes nativas; A-A-B ya daba tres impactos en la base. Se conserva el límite del asistente de tres básicos y un remate, sin ampliar la reacción del rival. Vídeo vertical de 27 s con siete personajes, sonido nativo y velocidad normal. [Comparación, pruebas y límites](basic-chains.md). Build 20261108-171303 pendiente de valoración.

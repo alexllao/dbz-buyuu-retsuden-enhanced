@@ -1,0 +1,85 @@
+{
+  "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "cases": [
+    {
+      "label": "A-half",
+      "expected": 3076,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3076
+      ],
+      "passed": true
+    },
+    {
+      "label": "A-double",
+      "expected": 3077,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3077
+      ],
+      "passed": true
+    },
+    {
+      "label": "B-double",
+      "expected": 2049,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        2049
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-half",
+      "expected": null,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        93
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-quarter",
+      "expected": null,
+      "programs": [
+        0,
+        1,
+        3,
+        93
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-neutral",
+      "expected": null,
+      "programs": [
+        0,
+        93
+      ],
+      "passed": true
+    },
+    {
+      "label": "AB-invalid",
+      "expected": null,
+      "programs": [
+        0,
+        2,
+        4,
+        5,
+        1032
+      ],
+      "passed": true
+    }
+  ]
+}
