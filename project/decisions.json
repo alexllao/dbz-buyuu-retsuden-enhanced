@@ -1097,5 +1097,31 @@
       "quote": "kedan bien",
       "scope": "Five-shot native barrages for Goku Vegeta Cell A18 Krilin Recoome"
     }
+  },
+  "gokuTwoJumpTrial": {
+    "date": "2026-11-08",
+    "buildId": "20261108-143706",
+    "status": "Requested prototype complete; pending user evaluation",
+    "base": "Approved K4 + six five-shot barrages",
+    "scope": "Goku normal short jump and longer running jump; Goku double-tap repair in both comparison sides",
+    "normalVideo": {
+      "heightBefore": 87,
+      "heightAfter": 61,
+      "airSecondsBefore": 0.57,
+      "airSecondsAfter": 0.38
+    },
+    "runningVideo": {
+      "heightBefore": 87,
+      "heightAfter": 87,
+      "rangeBefore": 218,
+      "rangeAfter": 267
+    },
+    "newButtons": [],
+    "newSpecialCommands": [],
+    "newSpriteDrawings": [],
+    "video": "assets/media/jump-two/comparacion.mp4",
+    "documentation": "docs/jump-two.md",
+    "evidence": "evidence/jump-two/validation.json",
+    "limits": "Native animation-timed parabolic arc, not a replacement physical engine; air attacks can extend time; balance/hardware/turbo pending"
   }
 }

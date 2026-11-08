@@ -1,0 +1,111 @@
+{
+  "buildId": "20261108-143706",
+  "sourceSha256": "49b19f1e6f2379c92ff1fea857a7139828d8f39f2b9a3e8556d2cea1fceca2d6",
+  "variants": [
+    {
+      "variant": "control",
+      "sha256": "f7d1b2ee941e926b90f0bb40923b1a72d50c63a19596aacb9b300596ddc38d2d",
+      "edits": [
+        {
+          "address": 4009984,
+          "before": "48e7fffe40e7",
+          "label": "frame_entry"
+        }
+      ],
+      "allowed": [
+        [
+          288,
+          96
+        ],
+        [
+          398,
+          2
+        ],
+        [
+          4022272,
+          712
+        ],
+        [
+          4011146,
+          2
+        ],
+        [
+          4009984,
+          6
+        ]
+      ],
+      "header": "DBZ V1.0 RUN CONTROL 20261108 1437"
+    },
+    {
+      "variant": "candidate",
+      "sha256": "d91ddc9ee390b26c84a3d5824c21711349f2632141e0d30e05a23c28f9f8cea7",
+      "edits": [
+        {
+          "address": 4009984,
+          "before": "48e7fffe40e7",
+          "label": "frame_entry"
+        },
+        {
+          "address": 133776,
+          "before": "4eba004a4e71",
+          "label": "duration"
+        },
+        {
+          "address": 78096,
+          "before": "4eb900021e9c",
+          "label": "vertical"
+        },
+        {
+          "address": 106938,
+          "before": "4eb900021e90",
+          "label": "horizontal"
+        },
+        {
+          "address": 107184,
+          "before": "4eb900021e90",
+          "label": "horizontal"
+        }
+      ],
+      "allowed": [
+        [
+          288,
+          96
+        ],
+        [
+          398,
+          2
+        ],
+        [
+          4022272,
+          712
+        ],
+        [
+          4011146,
+          2
+        ],
+        [
+          4009984,
+          6
+        ],
+        [
+          133776,
+          6
+        ],
+        [
+          78096,
+          6
+        ],
+        [
+          106938,
+          6
+        ],
+        [
+          107184,
+          6
+        ]
+      ],
+      "header": "DBZ V1.0 JUMP2 20261108 1437"
+    }
+  ],
+  "scope": "Goku only; native dash fix in both comparison variants; K4/six barrages preserved"
+}

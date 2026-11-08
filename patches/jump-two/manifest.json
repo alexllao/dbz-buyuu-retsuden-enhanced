@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "Goku short normal jump and long running jump; K4 and six barrages retained",
+  "buildId": "20261108-143706",
+  "headerTitle": "DBZ V1.0 JUMP2 20261108 1437",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_Goku_dos_saltos_build_20261108-143706.bin",
+    "sha256": "d91ddc9ee390b26c84a3d5824c21711349f2632141e0d30e05a23c28f9f8cea7",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/jump-two/Goku-dos-saltos-build-20261108-143706.ips",
+    "sha256": "cff1c8a48226b23fda0d8a653c52f9d6bb675a88af9b1792295b82755275f4cc"
+  },
+  "experimental": true,
+  "userApprovalPending": true
+}
