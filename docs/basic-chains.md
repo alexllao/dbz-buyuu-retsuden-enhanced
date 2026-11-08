@@ -1,6 +1,8 @@
 # Variantes de cadenas básicas de Goku y Short de remates
 
-**8/11/2026 · v1.0 build 20261108-171303 · prueba pendiente de valoración.** Se empieza por Goku humano a velocidad normal, sobre K4, seis ráfagas y la corrección de daño del lanzamiento. El ensayo de dos saltos sigue separado.
+**Aprobado por el usuario el8/11/2026**, junto con las mejoras incluidas en el build200852. Las notas de prueba posteriores conservan el contexto previo a la aprobación.
+
+**8/11/2026 · v1.0 build 20261108-171303 · mejora aprobada por el usuario.** Se empieza por Goku humano a velocidad normal, sobre K4, seis ráfagas y la corrección de daño del lanzamiento. El ensayo de dos saltos sigue separado.
 
 [Short vertical, unos 27 s](../assets/media/basic-chains/short.mp4) · [Comparación de cadenas antes/después, unos 18 s](../assets/media/basic-chains/comparacion.mp4) · [Título y descripción para YouTube](basic-chains-short-texto.txt) · [Manifiesto](../patches/basic-chains/manifest.json) · [Pruebas](../evidence/basic-chains/validation.json)
 

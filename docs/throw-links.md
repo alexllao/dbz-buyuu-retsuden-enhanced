@@ -1,6 +1,8 @@
 # Lanzamiento → especial: revisión de los once personajes
 
-**8/11/2026 · v1.0 build 20261108-160337 · revisión y corrección pendientes de valoración.** Base: K4 y las seis ráfagas aprobadas. Se revisa un especial principal de ki por personaje, con varios momentos de ejecución y ambos mandos. No se modifican los comandos, las cajas de colisión ni la velocidad general.
+**Aprobado por el usuario el8/11/2026**, junto con las mejoras incluidas en el build200852. Las notas de prueba posteriores conservan el contexto previo a la aprobación.
+
+**8/11/2026 · v1.0 build 20261108-160337 · revisión y corrección aprobadas por el usuario.** Base: K4 y las seis ráfagas aprobadas. Se revisa un especial principal de ki por personaje, con varios momentos de ejecución y ambos mandos. No se modifican los comandos, las cajas de colisión ni la velocidad general.
 
 [Vídeo: los once personajes, unos 70 s](../assets/media/throw-links/once-personajes.mp4) · [Vídeo: daño, momento y defensa, unos 37 s](../assets/media/throw-links/comparacion.mp4) · [Manifiesto](../patches/throw-links/manifest.json) · [Pruebas detalladas](../evidence/throw-links/validation.json)
 

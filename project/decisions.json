@@ -1127,7 +1127,7 @@
   "throwSpecialReview": {
     "date": "2026-11-08",
     "buildId": "20261108-160337",
-    "status": "Audit and normal-grab damage-source correction implemented, pending user review",
+    "status": "approved-by-user",
     "base": "Approved K4 + six barrages",
     "jumpTrialMerged": false,
     "newMoves": [],
@@ -1151,7 +1151,9 @@
       "assets/media/throw-links/once-personajes.mp4",
       "assets/media/throw-links/comparacion.mp4"
     ],
-    "documentation": "docs/throw-links.md"
+    "documentation": "docs/throw-links.md",
+    "approvalDate": "2026-11-08",
+    "approvalScope": "User approved the demonstrated current improvements; exhaustive manual/hardware validation is not inferred."
   },
   "threeImprovementShorts": {
     "date": "2026-11-08",
@@ -1172,7 +1174,7 @@
   },
   "gokuBasicChainTrial": {
     "date": "2026-11-08",
-    "status": "pending-user-review",
+    "status": "approved-by-user",
     "build": "20261108-171303",
     "scope": "Human Goku, normal speed, confirmed basic chains",
     "secondPunchProgram": "0x401",
@@ -1193,7 +1195,9 @@
     ],
     "otherCharactersNewChains": false,
     "documentation": "docs/basic-chains.md",
-    "evidence": "evidence/basic-chains/validation.json"
+    "evidence": "evidence/basic-chains/validation.json",
+    "approvalDate": "2026-11-08",
+    "approvalScope": "User approved the demonstrated current improvements; exhaustive manual/hardware validation is not inferred."
   },
   "controlPolishPriority": {
     "date": "2026-11-08",
@@ -1211,7 +1215,7 @@
   "recognizedSpecialRecoveryBuffer": {
     "date": "2026-11-08",
     "build": "20261108-175044",
-    "status": "pending-user-gamepad-review",
+    "status": "approved-by-user",
     "scope": "Goku human normal speed",
     "queueUpdates": 6,
     "finisherStartsBefore": 160,
@@ -1221,7 +1225,9 @@
     "doesNotExtendVictimHitstun": true,
     "documentation": "docs/input-links.md",
     "evidence": "evidence/input-links/validation.json",
-    "remaining": "Other rhythms/matchups still need investigation; no hardware certification."
+    "remaining": "Other rhythms/matchups still need investigation; no hardware certification.",
+    "approvalDate": "2026-11-08",
+    "approvalScope": "User approved the demonstrated current improvements; exhaustive manual/hardware validation is not inferred."
   },
   "elevenCharacterShortAndCellRoute": {
     "date": "2026-11-08",
@@ -1245,7 +1251,7 @@
   "comboOnlySpecialStartupTrial": {
     "date": "2026-11-08",
     "build": "20261108-200852",
-    "status": "pending-user-gamepad-review",
+    "status": "approved-by-user",
     "scope": [
       "Gohan normal Masenko",
       "Vegeta Final Flash"
@@ -1277,6 +1283,16 @@
     "lostStarts": 0,
     "gokuInputsPassed": 200,
     "documentation": "docs/combo-startup.md",
-    "evidence": "evidence/combo-startup/validation.json"
+    "evidence": "evidence/combo-startup/validation.json",
+    "approvalDate": "2026-11-08",
+    "approvalScope": "User approved the demonstrated current improvements; exhaustive manual/hardware validation is not inferred."
+  },
+  "currentApprovedDevelopmentBuild": {
+    "version": "1.0",
+    "buildId": "20261108-200852",
+    "date": "2026-11-08",
+    "userReply": "sisi, todo lo ke has hecho me parece perfecto eh",
+    "scope": "Current valid demonstrated build and included improvements; discarded experiments remain excluded.",
+    "manifest": "patches/combo-startup/manifest.json"
   }
 }

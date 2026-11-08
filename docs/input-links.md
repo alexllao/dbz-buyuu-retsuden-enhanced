@@ -1,6 +1,8 @@
 # Buffer de especiales al terminar básicos
 
-**8/11/2026 · v1.0 build 20261108-175044 · ROM de prueba pendiente de valorar con mando.** Sobre las variantes de Goku del build171303, K4, seis ráfagas y corrección del daño de lanzamiento. El ensayo de dos saltos continúa separado.
+**Aprobado por el usuario el8/11/2026**, junto con las mejoras incluidas en el build200852. Las notas de prueba posteriores conservan el contexto previo a la aprobación.
+
+**8/11/2026 · v1.0 build 20261108-175044 · mejora aprobada por el usuario.** Sobre las variantes de Goku del build171303, K4, seis ráfagas y corrección del daño de lanzamiento. El ensayo de dos saltos continúa separado.
 
 [Vídeo real antes/después, unos10s](../assets/media/input-links/comparacion.mp4) · [Resultados](../evidence/input-links/validation.json) · [Parche y hash](../patches/input-links/manifest.json)
 

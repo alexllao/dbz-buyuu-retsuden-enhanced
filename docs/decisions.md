@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — aprobación general de la versión actual:** el usuario confirma «perfecto, me encanta» y «sisi, todo lo ke has hecho me parece perfecto eh». Quedan aprobadas las mejoras demostradas del build200852, incluidas preparación de Masenko/Final Flash dentro del combo, buffer y variantes de básicos de Goku y corrección de lanzamiento. No se incorporan experimentos descartados ni se infiere certificación en consola. [Revisión aprobada](combo-startup.md).
+
 **8/11/2026 — especial abreviado solo dentro del enlace:** el usuario pide reducir la espera del especial cuando forma parte de un combo y acepta una prueba con dos personajes. Se prepara Masenko/Gohan y Final Flash/Vegeta con tablas alternativas solo tras cadena confirmada y rival en reacción. Build200852, sin cambiar proyectil, hitstun o costes nominales. [Comparación y168 pares de pruebas](combo-startup.md). Pendiente de valoración.
 
 **8/11/2026 — Short de once personajes y secuencia larga:** el usuario pide mostrar más personajes y proponer un combo espectacular. Se graban sus especiales y el cierre A-A-B/cruce/Meteor de Cell (16 impactos en la toma). El rival puede escapar saltando; no se anuncia como inevitable. El buffer común experimental no se integra; se conserva el build175044. [Short, texto, pruebas y límites](short-once-personajes.md).

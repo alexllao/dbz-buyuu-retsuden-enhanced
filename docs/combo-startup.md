@@ -1,6 +1,8 @@
 # Preparación abreviada del especial solo al enlazarlo
 
-**8/11/2026 · v1.0 build20261108-200852 · prueba de Gohan y Vegeta pendiente de valorar.** Base: build175044. Se conservan gráficos, K4, seis ráfagas, corrección de lanzamiento y buffer/cadenas de Goku.
+**Aprobado por el usuario el8/11/2026**, junto con las mejoras incluidas en el build200852. Las notas de prueba posteriores conservan el contexto previo a la aprobación.
+
+**8/11/2026 · v1.0 build20261108-200852 · Gohan y Vegeta aprobados por el usuario.** Base: build175044. Se conservan gráficos, K4, seis ráfagas, corrección de lanzamiento y buffer/cadenas de Goku.
 
 [Vídeo simultáneo antes/después,20s](../assets/media/combo-startup/comparacion.mp4) · [Resultados](../evidence/combo-startup/validation.json) · [Manifiesto](../patches/combo-startup/manifest.json)
 

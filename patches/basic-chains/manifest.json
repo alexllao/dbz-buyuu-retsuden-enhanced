@@ -17,5 +17,8 @@
     "sha256": "f34fcf4aa8bdc01be8c643c180e02b93ab3b94b5cf200bde0fc5c505e0284f35"
   },
   "experimental": true,
-  "userApprovalPending": true
+  "userApprovalPending": false,
+  "userApproved": true,
+  "approvalDate": "2026-11-08",
+  "approvalScope": "Demonstrated improvements included in current approved build200852; not exhaustive hardware certification."
 }
