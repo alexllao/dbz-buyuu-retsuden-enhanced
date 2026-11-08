@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "variant": "Goku five barrage trial",
+  "buildId": "20261108-125325",
+  "headerTitle": "DBZ BUYUU V1.0 FIVE 20261108 1253",
+  "sourceSha256": "f1ca06179d138f2780afc327726e70830b7409bc40653645d5fd8e4a64249dbd",
+  "targetSha256": "23afaf2e86b23b8b9079c296bd4cc590ae628bb22252eb5bdf4b79ef35eb5bf6",
+  "edits": [
+    {
+      "address": 119614,
+      "before": "4eb9000209dc",
+      "helper": "advance"
+    },
+    {
+      "address": 133754,
+      "before": "43f90002025c",
+      "helper": "animation"
+    },
+    {
+      "address": 119662,
+      "before": "103b00246100fdfe",
+      "helper": "slot"
+    },
+    {
+      "address": 119674,
+      "before": "4eb900013610",
+      "helper": "debit"
+    },
+    {
+      "address": 139366,
+      "before": "9228005364024241",
+      "helper": "damage"
+    }
+  ],
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      4039168,
+      280
+    ],
+    [
+      4040702,
+      27
+    ],
+    [
+      119614,
+      6
+    ],
+    [
+      133754,
+      6
+    ],
+    [
+      119662,
+      8
+    ],
+    [
+      119674,
+      6
+    ],
+    [
+      139366,
+      8
+    ]
+  ],
+  "weights": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    6
+  ],
+  "poses": [
+    51,
+    52,
+    58,
+    59,
+    60,
+    52,
+    58,
+    59,
+    60,
+    52,
+    51
+  ],
+  "codeBytes": 280
+}

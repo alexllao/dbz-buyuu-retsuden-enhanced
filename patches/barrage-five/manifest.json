@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "Goku five-shot barrage on approved K4",
+  "buildId": "20261108-125325",
+  "headerTitle": "DBZ BUYUU V1.0 FIVE 20261108 1253",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_K4_Goku_5_disparos_build_20261108-125325.bin",
+    "sha256": "23afaf2e86b23b8b9079c296bd4cc590ae628bb22252eb5bdf4b79ef35eb5bf6",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/barrage-five/Goku-5-disparos-build-20261108-125325.ips",
+    "sha256": "343d7937efe0e9f672d647fc4ffacab987017e32468de8cffd185ad45d076d20"
+  },
+  "experimental": true,
+  "userApprovalPending": true
+}

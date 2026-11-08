@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "initialKi": 20,
+      "heldAAfterCommand": false,
+      "shots": [],
+      "endingKi": 40
+    },
+    {
+      "initialKi": 60,
+      "heldAAfterCommand": false,
+      "shots": [],
+      "endingKi": 80
+    },
+    {
+      "initialKi": 100,
+      "heldAAfterCommand": false,
+      "shots": [],
+      "endingKi": 120
+    },
+    {
+      "initialKi": 180,
+      "heldAAfterCommand": false,
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "ki": 169
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "ki": 158
+        },
+        {
+          "frame": 82,
+          "number": 3,
+          "ki": 146
+        },
+        {
+          "frame": 114,
+          "number": 4,
+          "ki": 135
+        },
+        {
+          "frame": 147,
+          "number": 5,
+          "ki": 124
+        }
+      ],
+      "endingKi": 132
+    },
+    {
+      "initialKi": 240,
+      "heldAAfterCommand": true,
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "ki": 229
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "ki": 218
+        },
+        {
+          "frame": 82,
+          "number": 3,
+          "ki": 206
+        },
+        {
+          "frame": 114,
+          "number": 4,
+          "ki": 195
+        },
+        {
+          "frame": 147,
+          "number": 5,
+          "ki": 184
+        }
+      ],
+      "endingKi": 191
+    }
+  ]
+}

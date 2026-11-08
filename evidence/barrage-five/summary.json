@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "romSha256": "23afaf2e86b23b8b9079c296bd4cc590ae628bb22252eb5bdf4b79ef35eb5bf6",
+  "casesAfter": 32,
+  "casesBefore": 32,
+  "energyCases": 5,
+  "extraTracesIdentical": [
+    "Goku Kamehameha",
+    "Goku standing punch",
+    "Vegeta standing kick"
+  ],
+  "k4ReactionDataIdentical": true,
+  "fiveShotsAreNativeProjectiles": true,
+  "fullBarrageNominalKiCost": 60,
+  "hitDamageScale": "3/5 after native defense calculation, before downstream native modifiers",
+  "maximumObservedDamage": 30,
+  "gameplayVideoSpeedScaling": false,
+  "limits": [
+    "Five impacts confirmed at distances32/64/120 in both ports/directions; at180+ some projectiles miss.",
+    "P2 facing right at240/360 is invalidated by the native camera boundary; it also misses in baseline.",
+    "Holding A does not repeat the barrage in the bounded test; no exhaustive infinite/combo-balance proof.",
+    "Throw plus barrage at tested delay48 misses; no guaranteed aerial conversion implemented.",
+    "Technique animation lasts about0.45s longer overall despite shorter shot intervals.",
+    "Normal-speed emulator only; hardware/turbo and other characters not integrated."
+  ]
+}

@@ -1,0 +1,2002 @@
+{
+  "passed": true,
+  "romSha256": "23afaf2e86b23b8b9079c296bd4cc590ae628bb22252eb5bdf4b79ef35eb5bf6",
+  "cases": [
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 32,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 82,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 110,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 141,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 84,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 113,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 143,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 64,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 82,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 111,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 143,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 86,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 117,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 150,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 120,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 82,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 114,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 147,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 33,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 64,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 98,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 133,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 164,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 180,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 54,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 78,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 108,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 133,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 44,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 78,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 137,
+          "damage": 6,
+          "hits": 3
+        }
+      ],
+      "damage": 18,
+      "maxHits": 3,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 240,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 77,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 102,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 136,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 115,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 169,
+          "damage": 6,
+          "hits": 3
+        }
+      ],
+      "damage": 18,
+      "maxHits": 3,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 360,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 68,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 116,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 147,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 77,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 122,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 170,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 199,
+          "damage": 6,
+          "hits": 4
+        }
+      ],
+      "damage": 24,
+      "maxHits": 4,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 120,
+      "mode": "guard",
+      "shots": [
+        {
+          "frame": 24,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 48,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 71,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 95,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 120,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 0,
+      "distance": 120,
+      "mode": "whiff",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 68,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 148,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 174,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 32,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 110,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 141,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 83,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 113,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 145,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 64,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 110,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 142,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 85,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 116,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 150,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 120,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 53,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 84,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 116,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 148,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 33,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 66,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 99,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 134,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 164,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 180,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 54,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 78,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 108,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 135,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 44,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 78,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 138,
+          "damage": 6,
+          "hits": 3
+        }
+      ],
+      "damage": 18,
+      "maxHits": 3,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 240,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 24,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 77,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 102,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 136,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 55,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 115,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 169,
+          "damage": 6,
+          "hits": 3
+        }
+      ],
+      "damage": 18,
+      "maxHits": 3,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 360,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 68,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 117,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 150,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 77,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 123,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 175,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 203,
+          "damage": 6,
+          "hits": 4
+        }
+      ],
+      "damage": 24,
+      "maxHits": 4,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 120,
+      "mode": "guard",
+      "shots": [
+        {
+          "frame": 24,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 48,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 71,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 95,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 120,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 1,
+      "facing": 1,
+      "distance": 120,
+      "mode": "whiff",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 69,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 106,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 131,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 32,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 51,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 109,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 139,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 83,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 111,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 144,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 64,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 51,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 111,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 141,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 85,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 116,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 147,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 120,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 51,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 112,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 142,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 33,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 63,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 96,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 128,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 158,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 180,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 55,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 76,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 106,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 129,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 45,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 76,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 129,
+          "damage": 6,
+          "hits": 3
+        }
+      ],
+      "damage": 18,
+      "maxHits": 3,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 240,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 22,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 68,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 89,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 111,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 360,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 22,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 68,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 88,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 110,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 120,
+      "mode": "guard",
+      "shots": [
+        {
+          "frame": 24,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 49,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 73,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 95,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 120,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 0,
+      "distance": 120,
+      "mode": "whiff",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 46,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 69,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 92,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 116,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 32,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 52,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 110,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 138,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 55,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 83,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 112,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 143,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 64,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 51,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 80,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 109,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 138,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 25,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 54,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 84,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 114,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 144,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 120,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 51,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 81,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 112,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 142,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 33,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 63,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 96,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 128,
+          "damage": 6,
+          "hits": 4
+        },
+        {
+          "frame": 158,
+          "damage": 6,
+          "hits": 5
+        }
+      ],
+      "damage": 30,
+      "maxHits": 5,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 180,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 54,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 83,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 106,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 135,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 44,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 74,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 106,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 160,
+          "damage": 6,
+          "hits": 4
+        }
+      ],
+      "damage": 24,
+      "maxHits": 4,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 240,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 46,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 77,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 102,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 133,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 56,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 113,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 166,
+          "damage": 6,
+          "hits": 3
+        }
+      ],
+      "damage": 18,
+      "maxHits": 3,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 360,
+      "mode": "hit",
+      "shots": [
+        {
+          "frame": 22,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 45,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 70,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 117,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 148,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [
+        {
+          "frame": 79,
+          "damage": 6,
+          "hits": 1
+        },
+        {
+          "frame": 123,
+          "damage": 6,
+          "hits": 2
+        },
+        {
+          "frame": 170,
+          "damage": 6,
+          "hits": 3
+        },
+        {
+          "frame": 199,
+          "damage": 6,
+          "hits": 4
+        }
+      ],
+      "damage": 24,
+      "maxHits": 4,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 120,
+      "mode": "guard",
+      "shots": [
+        {
+          "frame": 24,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 49,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 73,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 95,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 32
+        },
+        {
+          "frame": 120,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 32
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    },
+    {
+      "port": 2,
+      "facing": 1,
+      "distance": 120,
+      "mode": "whiff",
+      "shots": [
+        {
+          "frame": 23,
+          "number": 1,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 46,
+          "number": 2,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 71,
+          "number": 3,
+          "slot": 2,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 107,
+          "number": 4,
+          "slot": 0,
+          "previousType": 0,
+          "newType": 33
+        },
+        {
+          "frame": 132,
+          "number": 5,
+          "slot": 1,
+          "previousType": 0,
+          "newType": 33
+        }
+      ],
+      "events": [],
+      "damage": 0,
+      "maxHits": 0,
+      "returnedToIdle": true
+    }
+  ]
+}

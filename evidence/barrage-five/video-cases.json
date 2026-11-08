@@ -1,0 +1,111 @@
+[
+  {
+    "label": "01 cinco impactos",
+    "metrics": [
+      {
+        "hits": 3,
+        "damage": 30,
+        "events": [
+          {
+            "frame": 58,
+            "damage": 10
+          },
+          {
+            "frame": 106,
+            "damage": 10
+          },
+          {
+            "frame": 157,
+            "damage": 10
+          }
+        ]
+      },
+      {
+        "hits": 5,
+        "damage": 30,
+        "events": [
+          {
+            "frame": 53,
+            "damage": 6
+          },
+          {
+            "frame": 84,
+            "damage": 6
+          },
+          {
+            "frame": 117,
+            "damage": 6
+          },
+          {
+            "frame": 151,
+            "damage": 6
+          },
+          {
+            "frame": 182,
+            "damage": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "02 contra guardia",
+    "metrics": [
+      {
+        "hits": 0,
+        "damage": 0,
+        "events": []
+      },
+      {
+        "hits": 0,
+        "damage": 0,
+        "events": []
+      }
+    ]
+  },
+  {
+    "label": "03 distancia larga",
+    "metrics": [
+      {
+        "hits": 3,
+        "damage": 30,
+        "events": [
+          {
+            "frame": 66,
+            "damage": 10
+          },
+          {
+            "frame": 115,
+            "damage": 10
+          },
+          {
+            "frame": 166,
+            "damage": 10
+          }
+        ]
+      },
+      {
+        "hits": 4,
+        "damage": 24,
+        "events": [
+          {
+            "frame": 63,
+            "damage": 6
+          },
+          {
+            "frame": 95,
+            "damage": 6
+          },
+          {
+            "frame": 127,
+            "damage": 6
+          },
+          {
+            "frame": 182,
+            "damage": 6
+          }
+        ]
+      }
+    ]
+  }
+]

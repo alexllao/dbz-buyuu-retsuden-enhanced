@@ -1,0 +1,14 @@
+advance=3da200
+check_slots=3da22a
+slot_free=3da268
+native_advance=3da26c
+animation=3da272
+animation_done=3da292
+slot=3da294
+old_slot=3da2b0
+debit=3da2c0
+store_ki=3da2de
+native_debit=3da2e4
+damage=3da2ea
+nonnegative=3da2f4
+damage_done=3da316

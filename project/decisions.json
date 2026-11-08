@@ -1048,5 +1048,20 @@
     "feedbackK3": "Still looks fast; user clarifies they want longer wait lying down before rising",
     "userApproval": "k4 perfecto",
     "originalComparisonVideo": "assets/media/knockdown-k4/original-vs-K4.mp4"
+  },
+  "gokuFiveShotTrial": {
+    "date": "2026-11-08",
+    "status": "Native ROM prototype, pending user visual approval",
+    "base": "Approved K4",
+    "buildId": "20261108-125325",
+    "scope": "Goku C01 only",
+    "command": "quarter circle forward + A",
+    "shots": 5,
+    "nominalKiCost": 60,
+    "exampleDamage": 30,
+    "examples": "Near32/64/120: five contacts. Farther: misses remain possible.",
+    "video": "assets/media/barrage-five/comparacion.mp4",
+    "documentation": "docs/barrage-five.md",
+    "limitations": "Not a guaranteed aerial conversion, blockstring or infinite-proof balance pass. Whole technique about0.45s longer."
   }
 }
