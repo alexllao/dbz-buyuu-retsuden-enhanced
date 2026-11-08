@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — priorizar la base jugable:** el usuario acepta afinar controles, cadenas y recuperación antes de añadir mecánicas. Se audita el build 171303; no se altera la ROM ni se aprueban automáticamente ensayos pendientes. [Resultados, límites y prioridad](control-audit.md).
+
 **8/11/2026 — cadenas de Goku y Short variado:** el usuario acepta probar el primer punto y solicita un Short espectacular con diferentes personajes y ataques, título y texto. Segundo puño y tercera patada de Goku usan variantes nativas; A-A-B ya daba tres impactos en la base. Se conserva el límite del asistente de tres básicos y un remate, sin ampliar la reacción del rival. Vídeo vertical de 27 s con siete personajes, sonido nativo y velocidad normal. [Comparación, pruebas y límites](basic-chains.md). Build 20261108-171303 pendiente de valoración.
 
 **8/11/2026 — tres Shorts:** el usuario pide saltos, lanzamiento/especial y cinco disparos en vertical, mostrando solo la versión mejorada. Se preparan tres vídeos sin antes/después, con pantalla completa, HUD y sonido nativos a velocidad normal. [Archivos y textos](shorts-updates.md). No cambia las ROM ni las aprobaciones de los ensayos.

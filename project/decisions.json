@@ -1194,5 +1194,18 @@
     "otherCharactersNewChains": false,
     "documentation": "docs/basic-chains.md",
     "evidence": "evidence/basic-chains/validation.json"
+  },
+  "controlPolishPriority": {
+    "date": "2026-11-08",
+    "userAcceptedPriority": true,
+    "focus": [
+      "input reliability",
+      "natural links",
+      "consistent recovery"
+    ],
+    "auditedBuild": "20261108-171303",
+    "romChanged": false,
+    "documentation": "docs/control-audit.md",
+    "evidence": "evidence/control-audit/validation.json"
   }
 }
