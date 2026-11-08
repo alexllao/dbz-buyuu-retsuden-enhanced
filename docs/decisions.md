@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — Short de once personajes y secuencia larga:** el usuario pide mostrar más personajes y proponer un combo espectacular. Se graban sus especiales y el cierre A-A-B/cruce/Meteor de Cell (16 impactos en la toma). El rival puede escapar saltando; no se anuncia como inevitable. El buffer común experimental no se integra; se conserva el build175044. [Short, texto, pruebas y límites](short-once-personajes.md).
+
 **8/11/2026 — continuar afinando jugabilidad:** el usuario pide seguir mejorando. Se reproduce un comando reconocido que se pierde al acabar un básico y se prepara un buffer de seis actualizaciones, sin ampliar hitstun ni el asistente. Build20261108-175044, pendiente de prueba con mando. [Vídeo, 180 enlaces por versión y límites](input-links.md).
 
 **8/11/2026 — priorizar la base jugable:** el usuario acepta afinar controles, cadenas y recuperación antes de añadir mecánicas. Se audita el build 171303; no se altera la ROM ni se aprueban automáticamente ensayos pendientes. [Resultados, límites y prioridad](control-audit.md).

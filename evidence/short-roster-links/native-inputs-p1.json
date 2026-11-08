@@ -1,0 +1,4617 @@
+{
+  "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "cases": [
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": false,
+      "damage": 27,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        2055
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        2,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        2,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3087,
+      "started": true,
+      "damage": 52,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": false,
+      "damage": 46,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        1039,
+        2055
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": false,
+      "damage": 28,
+      "maxHits": 3,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        1039
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        2,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        2,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "name": "Gohan",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3087,
+      "started": true,
+      "damage": 71,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": false,
+      "damage": 19,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3096
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3098,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1048,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": false,
+      "damage": 32,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        2061
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": false,
+      "damage": 23,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        2,
+        3,
+        1048,
+        1049,
+        1052
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 2,
+      "name": "Piccolo",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3098,
+      "started": true,
+      "damage": 64,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1048,
+        1049,
+        1052,
+        3098
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": false,
+      "damage": 16,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3106
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3111,
+      "started": true,
+      "damage": 71,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": false,
+      "damage": 33,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3106
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "name": "Vegeta",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3111,
+      "started": true,
+      "damage": 88,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": false,
+      "damage": 17,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3118
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3121,
+      "started": true,
+      "damage": 42,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1072,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 4,
+      "name": "Trunks",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3121,
+      "started": true,
+      "damage": 59,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1072,
+        1075,
+        3121
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": false,
+      "damage": 19,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3132
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3133,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1084,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 5,
+      "name": "Cell",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3133,
+      "started": true,
+      "damage": 75,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1084,
+        1087,
+        3133
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": false,
+      "damage": 10,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3141
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 6,
+      "name": "A18",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3146,
+      "started": true,
+      "damage": 73,
+      "maxHits": 1,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1096,
+        3146
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": false,
+      "damage": 16,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3153
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3158,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1108,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": false,
+      "damage": 36,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3153
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 7,
+      "name": "Krilin",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3158,
+      "started": true,
+      "damage": 86,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        1108,
+        1111,
+        3158
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": false,
+      "damage": 18,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3165
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3169,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1120,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 8,
+      "name": "Freezer",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 2,
+      "expected": 3169,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1120,
+        1123,
+        3169
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": false,
+      "damage": 17,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3177
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3181,
+      "started": true,
+      "damage": 57,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1,
+        1132,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": false,
+      "damage": 36,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3177
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 9,
+      "name": "Recoome",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3181,
+      "started": true,
+      "damage": 76,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1132,
+        1135,
+        3181
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": false,
+      "damage": 16,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3188
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "A",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 1,
+      "expected": 3192,
+      "started": true,
+      "damage": 66,
+      "maxHits": 2,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 2,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 3,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 4,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 0,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 3,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    },
+    {
+      "cid": 10,
+      "name": "Ginyu",
+      "pattern": "AAB",
+      "speed": 5,
+      "delay": 6,
+      "basicContacts": 3,
+      "expected": 3192,
+      "started": true,
+      "damage": 83,
+      "maxHits": 4,
+      "queueSeen": false,
+      "programs": [
+        0,
+        1144,
+        1147,
+        3192
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "mode": "roster",
+  "title": "GOLPES + ESPECIALES",
+  "file": "Short-Once-personajes-y-Cell-16.mp4",
+  "sha256": "2cfbc490c81cabae8f8c7a06cf901eb002a1089aa90bfce9910085bb65b1f912",
+  "buildId": "20261108-175044",
+  "status": "Valid build. Goku recovery buffer; other characters keep native commands. Cell16 is a staged route, not certified unavoidable.",
+  "width": 1080,
+  "height": 1920,
+  "seconds": 44.983424,
+  "nativeAudio": true,
+  "nativeHud": true,
+  "gameplaySpeedScaling": false,
+  "fullGameImagePreserved": true,
+  "onlyImprovedFootage": true,
+  "background": "Blurred darkened copy of the same footage",
+  "clips": [
+    {
+      "source": "work/short-roster-links/video/after/Goku.mp4",
+      "sourceSha256": "e0ef586d3ab611c512ee1667fba5dc4f041f246f21d2fa079c2c4b6296039189",
+      "startFrame": 0,
+      "endFrame": 140,
+      "label": "GOKU",
+      "seconds": 2.3363416300116358
+    },
+    {
+      "source": "work/short-roster-links/video/after/Gohan.mp4",
+      "sourceSha256": "acb108fb4103b3be29ede8cde01b9d4cd9fec5ab0c23f2acba255188f4414641",
+      "startFrame": 0,
+      "endFrame": 153,
+      "label": "GOHAN",
+      "seconds": 2.553287638512716
+    },
+    {
+      "source": "work/short-roster-links/video/after/Piccolo.mp4",
+      "sourceSha256": "21f3c6fa6fde5a2f33a8600842bc9057310154aea70484bc4cf176c590adb7d8",
+      "startFrame": 0,
+      "endFrame": 128,
+      "label": "PICCOLO",
+      "seconds": 2.136083776010638
+    },
+    {
+      "source": "work/short-roster-links/video/after/Vegeta.mp4",
+      "sourceSha256": "74e920b4ddad70f8f3b5e153f91140590fbecadeda43207ff241a8af95ca411d",
+      "startFrame": 0,
+      "endFrame": 182,
+      "label": "VEGETA",
+      "seconds": 3.0372441190151265
+    },
+    {
+      "source": "work/short-roster-links/video/after/Trunks.mp4",
+      "sourceSha256": "0e8c60299afbe1a900db59a776ec3a623a056ace067d62fd978647bb6859f120",
+      "startFrame": 0,
+      "endFrame": 220,
+      "label": "TRUNKS",
+      "seconds": 3.6713939900182844
+    },
+    {
+      "source": "work/short-roster-links/video/after/Cell.mp4",
+      "sourceSha256": "830da30cc2f18865e3a2e0b486e9b42b277ac6f7c0ccf5d276eefc9fd7ffc07d",
+      "startFrame": 0,
+      "endFrame": 218,
+      "label": "CELL",
+      "seconds": 3.6380176810181184
+    },
+    {
+      "source": "work/short-roster-links/video/after/A18.mp4",
+      "sourceSha256": "d6c47a85a434374b4ceaefbe1b7c736c8ab402e2b1fa1dd2ebe0472ee01e3605",
+      "startFrame": 0,
+      "endFrame": 182,
+      "label": "A18",
+      "seconds": 3.0372441190151265
+    },
+    {
+      "source": "work/short-roster-links/video/after/Krilin.mp4",
+      "sourceSha256": "21e89e438e13b045667f6bada3a559f055f4d4184dbd74f8add8120a81885d06",
+      "startFrame": 0,
+      "endFrame": 130,
+      "label": "KRILIN",
+      "seconds": 2.1694600850108046
+    },
+    {
+      "source": "work/short-roster-links/video/after/Freezer.mp4",
+      "sourceSha256": "a16679e052eb7be03b774452ac3a3c3862e8b702229d652f4ef110dc5f909284",
+      "startFrame": 0,
+      "endFrame": 171,
+      "label": "FREEZER",
+      "seconds": 2.853674419514212
+    },
+    {
+      "source": "work/short-roster-links/video/after/Recoome.mp4",
+      "sourceSha256": "08538d648ce8168c875df27450236852e641d29ae7bfd7a93e790f61d4b6dac4",
+      "startFrame": 0,
+      "endFrame": 245,
+      "label": "RECOOME",
+      "seconds": 4.088597852520362
+    },
+    {
+      "source": "work/short-roster-links/video/after/Ginyu.mp4",
+      "sourceSha256": "7f1cb3314b0f6ed24ab9cb85e0ec38592382492a0b876e4439e09326b9202b4d",
+      "startFrame": 0,
+      "endFrame": 203,
+      "label": "GINYU",
+      "seconds": 3.3876953635168716
+    },
+    {
+      "source": "work/long-chain/video/after/Cell-16-impactos.mp4",
+      "sourceSha256": "4c58e77394d164a980b1f9958ca750bdec5325fb2ac237b0635eeb8df21e5ff5",
+      "startFrame": 0,
+      "endFrame": 722,
+      "label": "CELL / 16 IMPACTOS",
+      "seconds": 12.048847549060007
+    }
+  ]
+}

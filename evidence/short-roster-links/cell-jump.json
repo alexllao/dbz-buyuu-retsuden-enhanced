@@ -1,0 +1,25 @@
+{
+  "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "guard": true,
+  "escapeJump": true,
+  "frames": 187,
+  "damage": 27,
+  "maxHits": 3,
+  "contactFrames": [
+    10,
+    29,
+    59
+  ],
+  "programs": [
+    0,
+    1,
+    2,
+    3,
+    1084,
+    1087,
+    1089
+  ],
+  "startHP": 42,
+  "startKi": 237,
+  "controlReturned": true
+}

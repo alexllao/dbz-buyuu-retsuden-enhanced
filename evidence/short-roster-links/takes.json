@@ -1,0 +1,161 @@
+[
+  {
+    "cid": 0,
+    "name": "Goku",
+    "pattern": "AAB",
+    "damage": 96,
+    "maxHits": 4,
+    "contactFrames": [
+      9,
+      29,
+      49,
+      106
+    ],
+    "expected": 3076,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 1,
+    "name": "Gohan",
+    "pattern": "AAB",
+    "damage": 71,
+    "maxHits": 4,
+    "contactFrames": [
+      9,
+      26,
+      45,
+      119
+    ],
+    "expected": 3087,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 2,
+    "name": "Piccolo",
+    "pattern": "A",
+    "damage": 57,
+    "maxHits": 2,
+    "contactFrames": [
+      9,
+      94
+    ],
+    "expected": 3098,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 3,
+    "name": "Vegeta",
+    "pattern": "AAB",
+    "damage": 88,
+    "maxHits": 4,
+    "contactFrames": [
+      9,
+      27,
+      47,
+      148
+    ],
+    "expected": 3111,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 4,
+    "name": "Trunks",
+    "pattern": "AAB",
+    "damage": 59,
+    "maxHits": 4,
+    "contactFrames": [
+      8,
+      27,
+      46,
+      186
+    ],
+    "expected": 3121,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 5,
+    "name": "Cell",
+    "pattern": "AAB",
+    "damage": 75,
+    "maxHits": 4,
+    "contactFrames": [
+      10,
+      30,
+      59,
+      184
+    ],
+    "expected": 3133,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 6,
+    "name": "A18",
+    "pattern": "A",
+    "damage": 73,
+    "maxHits": 2,
+    "contactFrames": [
+      9,
+      148
+    ],
+    "expected": 3146,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 7,
+    "name": "Krilin",
+    "pattern": "AAB",
+    "damage": 86,
+    "maxHits": 4,
+    "contactFrames": [
+      8,
+      26,
+      46,
+      96
+    ],
+    "expected": 3158,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 8,
+    "name": "Freezer",
+    "pattern": "A",
+    "damage": 57,
+    "maxHits": 2,
+    "contactFrames": [
+      9,
+      137
+    ],
+    "expected": 3169,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 9,
+    "name": "Recoome",
+    "pattern": "AAB",
+    "damage": 76,
+    "maxHits": 4,
+    "contactFrames": [
+      9,
+      27,
+      52,
+      211
+    ],
+    "expected": 3181,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  },
+  {
+    "cid": 10,
+    "name": "Ginyu",
+    "pattern": "AAB",
+    "damage": 83,
+    "maxHits": 4,
+    "contactFrames": [
+      10,
+      29,
+      51,
+      169
+    ],
+    "expected": 3192,
+    "romSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4"
+  }
+]

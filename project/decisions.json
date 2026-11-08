@@ -1222,5 +1222,24 @@
     "documentation": "docs/input-links.md",
     "evidence": "evidence/input-links/validation.json",
     "remaining": "Other rhythms/matchups still need investigation; no hardware certification."
+  },
+  "elevenCharacterShortAndCellRoute": {
+    "date": "2026-11-08",
+    "userRequestedMoreCharacters": true,
+    "userRequestedLongSpectacularComboIdea": true,
+    "buildUsed": "20261108-175044",
+    "romChanged": false,
+    "commonNativeParserBufferIntegrated": false,
+    "characters": 11,
+    "shortSeconds": 44.983424,
+    "cellSequence": "A-A-B, side switch, native Meteor",
+    "cellNeutralHits": 16,
+    "cellNeutralDamage": 105,
+    "cellGuardHits": 16,
+    "cellJumpEscapeHits": 3,
+    "unavoidable": false,
+    "gokuMeteorToKameSucceeded": false,
+    "documentation": "docs/short-once-personajes.md",
+    "evidence": "evidence/short-roster-links/validation.json"
   }
 }
