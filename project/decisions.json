@@ -1063,5 +1063,34 @@
     "video": "assets/media/barrage-five/comparacion.mp4",
     "documentation": "docs/barrage-five.md",
     "limitations": "Not a guaranteed aerial conversion, blockstring or infinite-proof balance pass. Whole technique about0.45s longer."
+  },
+  "fiveShotRosterTrial": {
+    "date": "2026-11-08",
+    "buildId": "20261108-135651",
+    "status": "Requested extension implemented as separate prototype, awaiting user evaluation",
+    "characters": [
+      "Goku",
+      "Vegeta",
+      "Cell",
+      "A18",
+      "Krilin",
+      "Recoome"
+    ],
+    "base": "Approved K4",
+    "newMovesAdded": [],
+    "newCommandMappingsAdded": [],
+    "newSpriteDrawingsAdded": [],
+    "newMoveLoggingRule": "Any future new move, command or pose must be logged explicitly in README and docs before being described as integrated.",
+    "commands": "Goku QCF+A; five others retain native charged down then QCB+A.",
+    "video": "assets/media/barrage-roster/comparacion.mp4",
+    "documentation": "docs/barrage-roster.md",
+    "evidence": "evidence/barrage-roster/validation.json",
+    "untouchedRoster": [
+      "Gohan",
+      "Piccolo",
+      "Trunks",
+      "Freezer",
+      "Ginyu"
+    ]
   }
 }

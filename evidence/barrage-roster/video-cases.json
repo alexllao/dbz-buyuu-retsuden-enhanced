@@ -1,0 +1,338 @@
+[
+  {
+    "cid": 0,
+    "name": "Goku",
+    "metrics": [
+      {
+        "shots": 3,
+        "hits": 3,
+        "damage": 30,
+        "events": [
+          {
+            "frame": 51,
+            "damage": 10
+          },
+          {
+            "frame": 102,
+            "damage": 10
+          },
+          {
+            "frame": 152,
+            "damage": 10
+          }
+        ],
+        "nativeCostPerShot": 20
+      },
+      {
+        "shots": 5,
+        "hits": 5,
+        "damage": 30,
+        "events": [
+          {
+            "frame": 47,
+            "damage": 6
+          },
+          {
+            "frame": 78,
+            "damage": 6
+          },
+          {
+            "frame": 112,
+            "damage": 6
+          },
+          {
+            "frame": 146,
+            "damage": 6
+          },
+          {
+            "frame": 176,
+            "damage": 6
+          }
+        ],
+        "nativeCostPerShot": 20
+      }
+    ],
+    "trimStartFrame": 0,
+    "frames": 360
+  },
+  {
+    "cid": 3,
+    "name": "Vegeta",
+    "metrics": [
+      {
+        "shots": 3,
+        "hits": 3,
+        "damage": 24,
+        "events": [
+          {
+            "frame": 160,
+            "damage": 8
+          },
+          {
+            "frame": 210,
+            "damage": 8
+          },
+          {
+            "frame": 262,
+            "damage": 8
+          }
+        ],
+        "nativeCostPerShot": 20
+      },
+      {
+        "shots": 5,
+        "hits": 5,
+        "damage": 20,
+        "events": [
+          {
+            "frame": 158,
+            "damage": 4
+          },
+          {
+            "frame": 190,
+            "damage": 4
+          },
+          {
+            "frame": 222,
+            "damage": 4
+          },
+          {
+            "frame": 253,
+            "damage": 4
+          },
+          {
+            "frame": 283,
+            "damage": 4
+          }
+        ],
+        "nativeCostPerShot": 20
+      }
+    ],
+    "trimStartFrame": 100,
+    "frames": 360
+  },
+  {
+    "cid": 5,
+    "name": "Cell",
+    "metrics": [
+      {
+        "shots": 3,
+        "hits": 3,
+        "damage": 54,
+        "events": [
+          {
+            "frame": 159,
+            "damage": 18
+          },
+          {
+            "frame": 211,
+            "damage": 18
+          },
+          {
+            "frame": 263,
+            "damage": 18
+          }
+        ],
+        "nativeCostPerShot": 20
+      },
+      {
+        "shots": 5,
+        "hits": 5,
+        "damage": 50,
+        "events": [
+          {
+            "frame": 158,
+            "damage": 10
+          },
+          {
+            "frame": 193,
+            "damage": 10
+          },
+          {
+            "frame": 228,
+            "damage": 10
+          },
+          {
+            "frame": 267,
+            "damage": 10
+          },
+          {
+            "frame": 302,
+            "damage": 10
+          }
+        ],
+        "nativeCostPerShot": 20
+      }
+    ],
+    "trimStartFrame": 100,
+    "frames": 360
+  },
+  {
+    "cid": 6,
+    "name": "A18",
+    "metrics": [
+      {
+        "shots": 3,
+        "hits": 3,
+        "damage": 57,
+        "events": [
+          {
+            "frame": 159,
+            "damage": 19
+          },
+          {
+            "frame": 212,
+            "damage": 19
+          },
+          {
+            "frame": 266,
+            "damage": 19
+          }
+        ],
+        "nativeCostPerShot": 10
+      },
+      {
+        "shots": 5,
+        "hits": 5,
+        "damage": 55,
+        "events": [
+          {
+            "frame": 157,
+            "damage": 11
+          },
+          {
+            "frame": 190,
+            "damage": 11
+          },
+          {
+            "frame": 222,
+            "damage": 11
+          },
+          {
+            "frame": 254,
+            "damage": 11
+          },
+          {
+            "frame": 286,
+            "damage": 11
+          }
+        ],
+        "nativeCostPerShot": 10
+      }
+    ],
+    "trimStartFrame": 100,
+    "frames": 360
+  },
+  {
+    "cid": 7,
+    "name": "Krilin",
+    "metrics": [
+      {
+        "shots": 3,
+        "hits": 3,
+        "damage": 24,
+        "events": [
+          {
+            "frame": 161,
+            "damage": 8
+          },
+          {
+            "frame": 213,
+            "damage": 8
+          },
+          {
+            "frame": 264,
+            "damage": 8
+          }
+        ],
+        "nativeCostPerShot": 15
+      },
+      {
+        "shots": 5,
+        "hits": 5,
+        "damage": 20,
+        "events": [
+          {
+            "frame": 158,
+            "damage": 4
+          },
+          {
+            "frame": 189,
+            "damage": 4
+          },
+          {
+            "frame": 222,
+            "damage": 4
+          },
+          {
+            "frame": 254,
+            "damage": 4
+          },
+          {
+            "frame": 285,
+            "damage": 4
+          }
+        ],
+        "nativeCostPerShot": 15
+      }
+    ],
+    "trimStartFrame": 100,
+    "frames": 360
+  },
+  {
+    "cid": 9,
+    "name": "Recoome",
+    "metrics": [
+      {
+        "shots": 3,
+        "hits": 3,
+        "damage": 24,
+        "events": [
+          {
+            "frame": 154,
+            "damage": 8
+          },
+          {
+            "frame": 206,
+            "damage": 8
+          },
+          {
+            "frame": 259,
+            "damage": 8
+          }
+        ],
+        "nativeCostPerShot": 20
+      },
+      {
+        "shots": 5,
+        "hits": 5,
+        "damage": 20,
+        "events": [
+          {
+            "frame": 151,
+            "damage": 4
+          },
+          {
+            "frame": 184,
+            "damage": 4
+          },
+          {
+            "frame": 217,
+            "damage": 4
+          },
+          {
+            "frame": 252,
+            "damage": 4
+          },
+          {
+            "frame": 286,
+            "damage": 4
+          }
+        ],
+        "nativeCostPerShot": 20
+      }
+    ],
+    "trimStartFrame": 100,
+    "frames": 360
+  }
+]

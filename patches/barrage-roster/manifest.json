@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "Five native shots for Goku Vegeta Cell A18 Krilin Recoome on K4",
+  "buildId": "20261108-135651",
+  "headerTitle": "DBZ BUYUU V1.0 FIVE6 20261108 1356",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_K4_Rafagas_6_personajes_build_20261108-135651.bin",
+    "sha256": "49b19f1e6f2379c92ff1fea857a7139828d8f39f2b9a3e8556d2cea1fceca2d6",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/barrage-roster/Rafagas-6-personajes-build-20261108-135651.ips",
+    "sha256": "2069d70cc95e14f0dd8705d20a2643b90d637e3983a6450c956a5dae27a5c6bb"
+  },
+  "experimental": true,
+  "userApprovalPending": true
+}
