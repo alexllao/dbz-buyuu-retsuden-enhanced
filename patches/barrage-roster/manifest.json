@@ -17,5 +17,10 @@
     "sha256": "2069d70cc95e14f0dd8705d20a2643b90d637e3983a6450c956a5dae27a5c6bb"
   },
   "experimental": true,
-  "userApprovalPending": true
+  "userApprovalPending": false,
+  "userVisualApproval": {
+    "date": "2026-11-08",
+    "quote": "kedan bien",
+    "approved": true
+  }
 }

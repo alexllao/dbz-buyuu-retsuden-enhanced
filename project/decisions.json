@@ -1067,7 +1067,7 @@
   "fiveShotRosterTrial": {
     "date": "2026-11-08",
     "buildId": "20261108-135651",
-    "status": "Requested extension implemented as separate prototype, awaiting user evaluation",
+    "status": "Visually approved by user on 2026-11-08; separate build on approved K4",
     "characters": [
       "Goku",
       "Vegeta",
@@ -1091,6 +1091,11 @@
       "Trunks",
       "Freezer",
       "Ginyu"
-    ]
+    ],
+    "userApproval": {
+      "date": "2026-11-08",
+      "quote": "kedan bien",
+      "scope": "Five-shot native barrages for Goku Vegeta Cell A18 Krilin Recoome"
+    }
   }
 }

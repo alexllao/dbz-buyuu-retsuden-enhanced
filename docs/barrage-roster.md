@@ -1,6 +1,6 @@
 # Ráfagas de cinco: seis personajes sobre K4
 
-**8/11/2026 · build 20261108-135651 · prueba pendiente de valoración.** Se amplían las ráfagas existentes de **Goku, Vegeta, Cell, A18, Krilin y Recoome**. Cada uno conserva sus sprites, colores y comando; se reutilizan y ordenan sus poses originales para cinco disparos reales. K4 de derribos sigue aprobada y sus datos se mantienen idénticos.
+**8/11/2026 · build 20261108-135651 · ráfagas aprobadas visualmente por el usuario («kedan bien»).** Se amplían las ráfagas existentes de **Goku, Vegeta, Cell, A18, Krilin y Recoome**. Cada uno conserva sus sprites, colores y comando; se reutilizan y ordenan sus poses originales para cinco disparos reales. K4 de derribos sigue aprobada y sus datos se mantienen idénticos.
 
 [Comparación real de los seis personajes, con sonido](../assets/media/barrage-roster/comparacion.mp4) · [Manifiesto](../patches/barrage-roster/manifest.json) · [Pruebas](../evidence/barrage-roster/validation.json)
 
@@ -48,6 +48,6 @@ El motor tiene tres huecos por jugador: el cuarto y quinto disparo esperan a que
 
 El vídeo contiene seis tomas nativas coordinadas, izquierda tres y derecha cinco. Las cinco tomas con carga direccional recortan 100 frames de preparación iguales en ambas columnas; no se acelera ningún movimiento. Los rótulos superiores resumen el resultado completo; el HUD inferior cuenta dentro del juego. Audio de la propuesta. Las muestras de Kamehameha y puño de Goku y patada normal de Vegeta mantienen trazas idénticas; no se ha auditado exhaustivamente todo el resto de técnicas.
 
-No se demuestra ausencia de infinitos o presión excesiva con estas pruebas acotadas. Pendientes: valoración con mando, equilibrio prolongado, turbo y consola real. No se modifican las colisiones para asegurar cinco contactos ni se introduce una vibración adicional.
+No se demuestra ausencia de infinitos o presión excesiva con estas pruebas acotadas. La aprobación visual no sustituye las pruebas pendientes con mando, equilibrio prolongado, turbo y consola real. No se modifican las colisiones para asegurar cinco contactos ni se introduce una vibración adicional.
 
 Construcción: `pnpm build:review --rom ruta/a/original.bin --version barrage-roster`. El repositorio guarda IPS, código propio, vídeo y evidencias; la ROM completa queda en el paquete local de pruebas. [Prueba anterior, solo Goku](barrage-five.md).

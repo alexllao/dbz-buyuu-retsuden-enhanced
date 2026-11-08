@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — ráfagas de cinco aprobadas:** el usuario confirma «kedan bien» para Goku, Vegeta, Cell, A18, Krilin y Recoome. Se conserva el build 20261108-135651 sobre K4, sin movimientos ni comandos nuevos. [Vídeo y detalles](barrage-roster.md).
+
 **8/11/2026 — ampliación de ráfagas a seis:** el usuario acepta Vegeta, Cell, A18, Krilin y Recoome y pide anotar cualquier movimiento nuevo necesario. Se amplían sus técnicas existentes junto a Goku, sin comandos ni dibujos nuevos. [Vídeo, tabla por personaje y registro](barrage-roster.md). Prototipo pendiente de valoración; K4 aprobada se conserva.
 
 **8/11/2026 — prueba de ráfaga de cinco de Goku:** sobre K4 aprobada, mismo daño total en el ejemplo y 60 ki nominales. [Vídeo real, bloqueo, distancia y límites](barrage-five.md). Pendiente de valoración.
