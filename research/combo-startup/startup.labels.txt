@@ -1,0 +1,14 @@
+entry=3df000
+p1=3df02e
+actor=3df036
+gohan=3df07a
+selected=3df084
+decide=3df096
+enable=3df0d0
+latched=3df0d6
+gohan_table=3df0f4
+clear=3df102
+done=3df108
+gohan_pointer=3df112
+vegeta_pointer=3df11c
+round_reset=3df128

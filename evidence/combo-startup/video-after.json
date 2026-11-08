@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Gohan",
+    "context": "combo",
+    "accepted": 73,
+    "spawn": 101,
+    "startup": 28,
+    "damage": 71,
+    "hits": 4,
+    "fast": true
+  },
+  {
+    "name": "Gohan",
+    "context": "solo",
+    "accepted": 27,
+    "spawn": 68,
+    "startup": 41,
+    "damage": 43,
+    "hits": 1,
+    "fast": false
+  },
+  {
+    "name": "Vegeta",
+    "context": "combo",
+    "accepted": 67,
+    "spawn": 106,
+    "startup": 39,
+    "damage": 88,
+    "hits": 4,
+    "fast": true
+  },
+  {
+    "name": "Vegeta",
+    "context": "solo",
+    "accepted": 19,
+    "spawn": 96,
+    "startup": 77,
+    "damage": 63,
+    "hits": 1,
+    "fast": false
+  }
+]

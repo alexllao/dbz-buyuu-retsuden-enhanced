@@ -1241,5 +1241,42 @@
     "gokuMeteorToKameSucceeded": false,
     "documentation": "docs/short-once-personajes.md",
     "evidence": "evidence/short-roster-links/validation.json"
+  },
+  "comboOnlySpecialStartupTrial": {
+    "date": "2026-11-08",
+    "build": "20261108-200852",
+    "status": "pending-user-gamepad-review",
+    "scope": [
+      "Gohan normal Masenko",
+      "Vegeta Final Flash"
+    ],
+    "activation": "Human normal speed, grounded, confirmed-chain context and opponent still in hit reaction at special start",
+    "recordedFrames": {
+      "MasenkoCombo": [
+        42,
+        28
+      ],
+      "FinalFlashCombo": [
+        79,
+        39
+      ],
+      "MasenkoSolo": [
+        41,
+        41
+      ],
+      "FinalFlashSolo": [
+        77,
+        77
+      ]
+    },
+    "projectileSpeedChanged": false,
+    "hitstunChanged": false,
+    "nominalKiCostChanged": false,
+    "matrixCasesEach": 168,
+    "matrixDamageDifferences": 0,
+    "lostStarts": 0,
+    "gokuInputsPassed": 200,
+    "documentation": "docs/combo-startup.md",
+    "evidence": "evidence/combo-startup/validation.json"
   }
 }

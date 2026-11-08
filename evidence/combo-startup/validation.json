@@ -1,0 +1,57 @@
+{
+  "romSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "buildId": "20261108-200852",
+  "casesEach": 168,
+  "damageDifferences": 0,
+  "lostStarts": 0,
+  "fastCases": 32,
+  "soloGuardWhiffLateFastCases": 0,
+  "soloFrameDeltaRange": [
+    0,
+    2
+  ],
+  "kiTraceDifferences": [
+    {
+      "case": [
+        1,
+        2,
+        0,
+        "hit-AAB",
+        4
+      ],
+      "before": 39,
+      "after": 40
+    },
+    {
+      "case": [
+        1,
+        2,
+        0,
+        "guard-after-third",
+        4
+      ],
+      "before": 39,
+      "after": 40
+    }
+  ],
+  "nominalKiCostTablesUntouched": true,
+  "projectileAndDamageCodeUntouched": true,
+  "releaseAnimationUnitUntouched": true,
+  "inputCasesPassed": 200,
+  "meteorChordsPassed": 10,
+  "negativeSelectionPassed": 7,
+  "extraRuntimeChecks": 5,
+  "repeatedCastChecks": [
+    {
+      "cid": 1,
+      "firstFast": true,
+      "secondSoloFast": false
+    },
+    {
+      "cid": 3,
+      "firstFast": true,
+      "secondSoloFast": false
+    }
+  ],
+  "scope": "Two human characters, normal speed. No new hitstun or guaranteed combo certification. Prototype pending gamepad review."
+}

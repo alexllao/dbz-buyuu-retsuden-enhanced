@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "buildId": "20261108-200852",
+  "headerTitle": "DBZ V1.0 COMBO KI 20261108 2008",
+  "sourceSha256": "7e60aa9b967f9c647bfd77992afbcca2e8261f5e2f63a6534838872aa02c7cc4",
+  "targetSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "codeBytes": 310,
+  "allowed": [
+    [
+      4059136,
+      310
+    ],
+    [
+      133754,
+      6
+    ],
+    [
+      29684,
+      6
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ]
+  ],
+  "state": "F7B0..F7B7, selected program and latched flag per player; spare byte reserved"
+}

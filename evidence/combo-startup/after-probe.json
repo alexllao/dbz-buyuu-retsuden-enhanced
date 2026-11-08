@@ -1,0 +1,105 @@
+{
+  "romSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "cases": [
+    {
+      "cid": 1,
+      "context": "solo",
+      "accepted": 27,
+      "firstProjectile": 68,
+      "startup": 41,
+      "fastUsed": false,
+      "damage": 43,
+      "maxHits": 1,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "context": "A",
+      "accepted": 37,
+      "firstProjectile": 77,
+      "startup": 40,
+      "fastUsed": false,
+      "damage": 52,
+      "maxHits": 2,
+      "programs": [
+        0,
+        1,
+        2,
+        1036,
+        3087
+      ]
+    },
+    {
+      "cid": 1,
+      "context": "AAB",
+      "accepted": 73,
+      "firstProjectile": 101,
+      "startup": 28,
+      "fastUsed": true,
+      "damage": 71,
+      "maxHits": 4,
+      "programs": [
+        0,
+        1,
+        2,
+        1036,
+        1039,
+        3087
+      ]
+    },
+    {
+      "cid": 3,
+      "context": "solo",
+      "accepted": 19,
+      "firstProjectile": 96,
+      "startup": 77,
+      "fastUsed": false,
+      "damage": 63,
+      "maxHits": 1,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "context": "A",
+      "accepted": 29,
+      "firstProjectile": 70,
+      "startup": 41,
+      "fastUsed": true,
+      "damage": 71,
+      "maxHits": 2,
+      "programs": [
+        0,
+        1060,
+        3111
+      ]
+    },
+    {
+      "cid": 3,
+      "context": "AAB",
+      "accepted": 67,
+      "firstProjectile": 106,
+      "startup": 39,
+      "fastUsed": true,
+      "damage": 88,
+      "maxHits": 4,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    }
+  ]
+}
