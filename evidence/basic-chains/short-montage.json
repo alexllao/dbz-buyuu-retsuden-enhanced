@@ -1,0 +1,83 @@
+{
+  "mode": "combos",
+  "title": "COMBOS Y REMATES",
+  "file": "Short-Combos-y-remates.mp4",
+  "sha256": "1f682b2706d6ef50dd580571a7ec8bded78e23ec90f86acbdd26901a7c372075",
+  "buildId": "20261108-171303",
+  "status": "Prueba de variantes de Goku y ataques existentes del plantel",
+  "width": 1080,
+  "height": 1920,
+  "seconds": 27.484966,
+  "nativeAudio": true,
+  "nativeHud": true,
+  "gameplaySpeedScaling": false,
+  "fullGameImagePreserved": true,
+  "onlyImprovedFootage": true,
+  "background": "Blurred darkened copy of the same footage",
+  "clips": [
+    {
+      "source": "work/basic-chains/video/after/AAB-meteor.mp4",
+      "sourceSha256": "8bd059e2f65f8e81c15b2f833ea921d8fca0df5bb42637ff0aa936cf847a05ab",
+      "startFrame": 0,
+      "endFrame": 275,
+      "label": "GOKU / A-A-B + METEOR",
+      "seconds": 4.5892424875228555
+    },
+    {
+      "source": "work/basic-chains/video/after/Vegeta-Meteor.mp4",
+      "sourceSha256": "f118eed8366ad9ca530ca9224e41b6e20841443b4bfe872b0e706faf0a41206e",
+      "startFrame": 12,
+      "endFrame": 269,
+      "label": "VEGETA",
+      "seconds": 4.2888557065213595
+    },
+    {
+      "source": "work/basic-chains/video/after/Piccolo-Meteor.mp4",
+      "sourceSha256": "bb80f6ce0504f8f719ab4a273fd1a10d856ee79c37fae21f7eed060b84856815",
+      "startFrame": 12,
+      "endFrame": 234,
+      "label": "PICCOLO",
+      "seconds": 3.704770299018451
+    },
+    {
+      "source": "work/basic-chains/video/after/Cell-cinco-disparos.mp4",
+      "sourceSha256": "e06ddad499f6cc4ba243981df498b959e1ef90649557b96083031f457c3458a0",
+      "startFrame": 100,
+      "endFrame": 295,
+      "label": "CELL",
+      "seconds": 3.254190127516207
+    },
+    {
+      "source": "work/basic-chains/video/after/Gohan-lanzamiento-Masenko.mp4",
+      "sourceSha256": "90cb12dbffb3d582a966d9393489d9157a820fa274d844161a0cc325c4b55cfe",
+      "startFrame": 0,
+      "endFrame": 222,
+      "label": "GOHAN",
+      "seconds": 3.704770299018451
+    },
+    {
+      "source": "work/basic-chains/video/after/A18-Meteor.mp4",
+      "sourceSha256": "2017feeeb1e8c0aa2c96a66465c9f31a59c0ca792d914fd57b07593afc4acfb8",
+      "startFrame": 12,
+      "endFrame": 159,
+      "label": "A18",
+      "seconds": 2.4531587115122173
+    },
+    {
+      "source": "work/basic-chains/video/after/Freezer-Meteor.mp4",
+      "sourceSha256": "7bbe90d579a6c1f939593795c61aa70857896d4f2dd8d1c3857d621bfb0a982e",
+      "startFrame": 12,
+      "endFrame": 206,
+      "label": "FREEZER",
+      "seconds": 3.2375019730161236
+    },
+    {
+      "source": "work/basic-chains/video/after/AAB-kame.mp4",
+      "sourceSha256": "c2a3a4c881e0816af0fb4a97f29532d9e5285aff45ae0eec29e8da375dd278a2",
+      "startFrame": 0,
+      "endFrame": 133,
+      "label": "GOKU / A-A-B + KAMEHAMEHA",
+      "seconds": 2.2195245485110537
+    }
+  ]
+}

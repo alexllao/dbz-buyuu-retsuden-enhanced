@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — cadenas de Goku y Short variado:** el usuario acepta probar el primer punto y solicita un Short espectacular con diferentes personajes y ataques, título y texto. Segundo puño y tercera patada de Goku usan variantes nativas; A-A-B ya daba tres impactos en la base. Se conserva el límite del asistente de tres básicos y un remate, sin ampliar la reacción del rival. Vídeo vertical de 27 s con siete personajes, sonido nativo y velocidad normal. [Comparación, pruebas y límites](basic-chains.md). Build 20261108-171303 pendiente de valoración.
+
 **8/11/2026 — tres Shorts:** el usuario pide saltos, lanzamiento/especial y cinco disparos en vertical, mostrando solo la versión mejorada. Se preparan tres vídeos sin antes/después, con pantalla completa, HUD y sonido nativos a velocidad normal. [Archivos y textos](shorts-updates.md). No cambia las ROM ni las aprobaciones de los ensayos.
 
 **8/11/2026 — lanzamiento → especial:** el usuario pide revisar los enlaces y vídeos. Se audita un especial principal de cada personaje y se corrige la fuente de daño del lanzamiento al preparar otro ataque antes del aterrizaje. Sin comandos ni movimientos nuevos, sobre K4 y ráfagas aprobadas; los saltos sin valorar siguen aparte. [Dos vídeos y resultados](throw-links.md). Pendiente de valoración.

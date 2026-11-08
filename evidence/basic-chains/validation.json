@@ -1,0 +1,8767 @@
+{
+  "passed": true,
+  "romSha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+  "matrix": {
+    "port1-before": {
+      "passed": true,
+      "romSha256": "bf1b979ffb9596725eb7ec3a38d4dd4afd1671ffa219a84d1c8e47356b495f97",
+      "cases": [
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            27,
+            43
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            27,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            55
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            27,
+            43
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            27,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            55
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        }
+      ]
+    },
+    "port1-after": {
+      "passed": true,
+      "romSha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+      "cases": [
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            29,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 37,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            29,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 37,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            55
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            29,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 37,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            29,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 37,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            31,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 18,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 26,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            48
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 54,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            14,
+            35,
+            55
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 22,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 43,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 1,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 32,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        }
+      ]
+    },
+    "port2-before": {
+      "passed": true,
+      "romSha256": "bf1b979ffb9596725eb7ec3a38d4dd4afd1671ffa219a84d1c8e47356b495f97",
+      "cases": [
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            27,
+            41
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 34,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            27,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 34,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            26,
+            40
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 33,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            26,
+            44
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 33,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            46
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 57,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1024,
+              "action": 32,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 57,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1027,
+              "action": 35,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        }
+      ]
+    },
+    "port2-after": {
+      "passed": true,
+      "romSha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+      "cases": [
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            28,
+            44
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            28,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 0,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            28,
+            43
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            28,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 35,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "AAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 51,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "hit",
+          "contacts": [
+            9,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 17,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            },
+            {
+              "frame": 25,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "ABB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 27,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            30,
+            50
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1025,
+              "action": 33,
+              "chain": 141
+            },
+            {
+              "frame": 38,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BAB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1025,
+              "action": 33,
+              "chain": 136
+            },
+            {
+              "frame": 53,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1024,
+              "action": 32,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1024,
+              "action": 32,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBA",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "hit",
+          "contacts": [
+            12,
+            33,
+            52
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 21,
+              "program": 1027,
+              "action": 35,
+              "chain": 141
+            },
+            {
+              "frame": 40,
+              "program": 1028,
+              "action": 36,
+              "chain": 142
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "guard",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            },
+            {
+              "frame": 50,
+              "program": 1027,
+              "action": 35,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        },
+        {
+          "port": 2,
+          "facing": 1,
+          "pattern": "BBB",
+          "mode": "whiff",
+          "contacts": [],
+          "damage": 0,
+          "maxHits": 0,
+          "starts": [
+            {
+              "frame": 0,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            },
+            {
+              "frame": 31,
+              "program": 1028,
+              "action": 36,
+              "chain": 136
+            }
+          ],
+          "returnedToIdle": true
+        }
+      ]
+    }
+  },
+  "limits": {
+    "before": {
+      "passed": true,
+      "romSha256": "bf1b979ffb9596725eb7ec3a38d4dd4afd1671ffa219a84d1c8e47356b495f97",
+      "cases": [
+        {
+          "mode": "held-A",
+          "contacts": [
+            9
+          ],
+          "damage": 12,
+          "maxHits": 1,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            }
+          ],
+          "assistedStarts": []
+        },
+        {
+          "mode": "fourth-A",
+          "contacts": [
+            9,
+            27,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1027,
+              "chain": 142
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1027,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "fourth-B",
+          "contacts": [
+            9,
+            27,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1027,
+              "chain": 142
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1027,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "guard-after-third",
+          "contacts": [
+            9,
+            27,
+            47
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1027,
+              "chain": 142
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1027,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "spam-A",
+          "contacts": [
+            9,
+            27,
+            43,
+            72,
+            132
+          ],
+          "damage": 58,
+          "maxHits": 5,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1024,
+              "chain": 142
+            },
+            {
+              "f": 63,
+              "program": 1024,
+              "chain": 154
+            },
+            {
+              "f": 96,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 122,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 156,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 182,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 206,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 232,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 259,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 288,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 317,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 344,
+              "program": 1025,
+              "chain": 218
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1024,
+              "chain": 141
+            },
+            {
+              "f": 35,
+              "program": 1024,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "low-ki",
+          "contacts": [
+            9
+          ],
+          "damage": 12,
+          "maxHits": 1,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            }
+          ],
+          "assistedStarts": []
+        }
+      ],
+      "otherCharacters": [
+        {
+          "cid": 1,
+          "damage": 28,
+          "maxHits": 3
+        },
+        {
+          "cid": 2,
+          "damage": 9,
+          "maxHits": 1
+        },
+        {
+          "cid": 3,
+          "damage": 25,
+          "maxHits": 3
+        },
+        {
+          "cid": 4,
+          "damage": 26,
+          "maxHits": 3
+        },
+        {
+          "cid": 5,
+          "damage": 25,
+          "maxHits": 3
+        },
+        {
+          "cid": 6,
+          "damage": 21,
+          "maxHits": 2
+        },
+        {
+          "cid": 7,
+          "damage": 28,
+          "maxHits": 3
+        },
+        {
+          "cid": 8,
+          "damage": 9,
+          "maxHits": 1
+        },
+        {
+          "cid": 9,
+          "damage": 28,
+          "maxHits": 3
+        },
+        {
+          "cid": 10,
+          "damage": 17,
+          "maxHits": 2
+        }
+      ]
+    },
+    "after": {
+      "passed": true,
+      "romSha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+      "cases": [
+        {
+          "mode": "held-A",
+          "contacts": [
+            9
+          ],
+          "damage": 12,
+          "maxHits": 1,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            }
+          ],
+          "assistedStarts": []
+        },
+        {
+          "mode": "fourth-A",
+          "contacts": [
+            9,
+            29,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 37,
+              "program": 1028,
+              "chain": 142
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 37,
+              "program": 1028,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "fourth-B",
+          "contacts": [
+            9,
+            29,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 37,
+              "program": 1028,
+              "chain": 142
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 37,
+              "program": 1028,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "guard-after-third",
+          "contacts": [
+            9,
+            29,
+            49
+          ],
+          "damage": 36,
+          "maxHits": 3,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 37,
+              "program": 1028,
+              "chain": 142
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 37,
+              "program": 1028,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "spam-A",
+          "contacts": [
+            9,
+            29,
+            50,
+            84,
+            120
+          ],
+          "damage": 56,
+          "maxHits": 5,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            },
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 39,
+              "program": 1024,
+              "chain": 142
+            },
+            {
+              "f": 73,
+              "program": 1025,
+              "chain": 154
+            },
+            {
+              "f": 108,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 145,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 171,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 195,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 220,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 249,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 277,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 304,
+              "program": 1025,
+              "chain": 218
+            },
+            {
+              "f": 331,
+              "program": 1025,
+              "chain": 218
+            }
+          ],
+          "assistedStarts": [
+            {
+              "f": 18,
+              "program": 1025,
+              "chain": 141
+            },
+            {
+              "f": 39,
+              "program": 1024,
+              "chain": 142
+            }
+          ]
+        },
+        {
+          "mode": "low-ki",
+          "contacts": [
+            9
+          ],
+          "damage": 12,
+          "maxHits": 1,
+          "starts": [
+            {
+              "f": 0,
+              "program": 1024,
+              "chain": 136
+            }
+          ],
+          "assistedStarts": []
+        }
+      ],
+      "otherCharacters": [
+        {
+          "cid": 1,
+          "damage": 28,
+          "maxHits": 3
+        },
+        {
+          "cid": 2,
+          "damage": 9,
+          "maxHits": 1
+        },
+        {
+          "cid": 3,
+          "damage": 25,
+          "maxHits": 3
+        },
+        {
+          "cid": 4,
+          "damage": 26,
+          "maxHits": 3
+        },
+        {
+          "cid": 5,
+          "damage": 25,
+          "maxHits": 3
+        },
+        {
+          "cid": 6,
+          "damage": 21,
+          "maxHits": 2
+        },
+        {
+          "cid": 7,
+          "damage": 28,
+          "maxHits": 3
+        },
+        {
+          "cid": 8,
+          "damage": 9,
+          "maxHits": 1
+        },
+        {
+          "cid": 9,
+          "damage": 28,
+          "maxHits": 3
+        },
+        {
+          "cid": 10,
+          "damage": 17,
+          "maxHits": 2
+        }
+      ]
+    }
+  },
+  "otherCharacters": [
+    {
+      "cid": 1,
+      "fullTraceIdentical": false,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 2,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 3,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 4,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 5,
+      "fullTraceIdentical": false,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 6,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 7,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 8,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 9,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    },
+    {
+      "cid": 10,
+      "fullTraceIdentical": true,
+      "attackDamageProgramsPosesIdentical": true
+    }
+  ],
+  "beforeProbe": [
+    {
+      "pattern": "AAA",
+      "distance": 24,
+      "hits": [
+        9,
+        27,
+        43
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1024,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30
+      ]
+    },
+    {
+      "pattern": "AAA",
+      "distance": 32,
+      "hits": [
+        9,
+        27,
+        43
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1024,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30
+      ]
+    },
+    {
+      "pattern": "AAA",
+      "distance": 44,
+      "hits": [
+        9,
+        27,
+        43
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1024,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30
+      ]
+    },
+    {
+      "pattern": "AAB",
+      "distance": 24,
+      "hits": [
+        9,
+        27,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1024,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "AAB",
+      "distance": 32,
+      "hits": [
+        9,
+        27,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1024,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "AAB",
+      "distance": 44,
+      "hits": [
+        9,
+        27,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1024,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABA",
+      "distance": 24,
+      "hits": [
+        9,
+        32,
+        48
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABA",
+      "distance": 32,
+      "hits": [
+        9,
+        31,
+        46
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABA",
+      "distance": 44,
+      "hits": [
+        9,
+        32,
+        48
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABB",
+      "distance": 24,
+      "hits": [
+        9,
+        32,
+        51
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABB",
+      "distance": 32,
+      "hits": [
+        9,
+        31,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABB",
+      "distance": 44,
+      "hits": [
+        9,
+        32
+      ],
+      "maxHits": 2,
+      "damage": 24,
+      "programs": [
+        1024,
+        1027,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAA",
+      "distance": 24,
+      "hits": [
+        14,
+        33,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1024,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAA",
+      "distance": 32,
+      "hits": [
+        14,
+        33,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1024,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAA",
+      "distance": 44,
+      "hits": [
+        14,
+        33,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1024,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAB",
+      "distance": 24,
+      "hits": [
+        14,
+        33,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1024,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAB",
+      "distance": 32,
+      "hits": [
+        14,
+        33,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1024,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAB",
+      "distance": 44,
+      "hits": [
+        14,
+        33,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1024,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBA",
+      "distance": 24,
+      "hits": [
+        14,
+        35,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBA",
+      "distance": 32,
+      "hits": [
+        14,
+        35,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBA",
+      "distance": 44,
+      "hits": [
+        14,
+        35,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBB",
+      "distance": 24,
+      "hits": [
+        14,
+        35,
+        55
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBB",
+      "distance": 32,
+      "hits": [
+        14,
+        35,
+        55
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBB",
+      "distance": 44,
+      "hits": [
+        14,
+        35
+      ],
+      "maxHits": 2,
+      "damage": 24,
+      "programs": [
+        1027,
+        1027,
+        1027
+      ],
+      "attackPoses": [
+        2,
+        35,
+        36
+      ]
+    }
+  ],
+  "afterProbe": [
+    {
+      "pattern": "AAA",
+      "distance": 24,
+      "hits": [
+        9,
+        29,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1025,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        32
+      ]
+    },
+    {
+      "pattern": "AAA",
+      "distance": 32,
+      "hits": [
+        9,
+        29,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1025,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        32
+      ]
+    },
+    {
+      "pattern": "AAA",
+      "distance": 44,
+      "hits": [
+        9,
+        29,
+        47
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1025,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        32
+      ]
+    },
+    {
+      "pattern": "AAB",
+      "distance": 24,
+      "hits": [
+        9,
+        29,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1025,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        30,
+        32,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "AAB",
+      "distance": 32,
+      "hits": [
+        9,
+        29,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1025,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        30,
+        32,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "AAB",
+      "distance": 44,
+      "hits": [
+        9,
+        29,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1025,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        30,
+        32,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "ABA",
+      "distance": 24,
+      "hits": [
+        9,
+        31,
+        46
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABA",
+      "distance": 32,
+      "hits": [
+        9,
+        31,
+        46
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABA",
+      "distance": 44,
+      "hits": [
+        9,
+        31,
+        46
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "ABB",
+      "distance": 24,
+      "hits": [
+        9,
+        31,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "ABB",
+      "distance": 32,
+      "hits": [
+        9,
+        31,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "ABB",
+      "distance": 44,
+      "hits": [
+        9,
+        31,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1024,
+        1027,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        30,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "BAA",
+      "distance": 24,
+      "hits": [
+        14,
+        33,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1025,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        32,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAA",
+      "distance": 32,
+      "hits": [
+        14,
+        33,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1025,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        32,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAA",
+      "distance": 44,
+      "hits": [
+        14,
+        33,
+        49
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1025,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        32,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BAB",
+      "distance": 24,
+      "hits": [
+        14,
+        33,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1025,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        32,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "BAB",
+      "distance": 32,
+      "hits": [
+        14,
+        33,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1025,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        32,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "BAB",
+      "distance": 44,
+      "hits": [
+        14,
+        33,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1025,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        32,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "BBA",
+      "distance": 24,
+      "hits": [
+        14,
+        35,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBA",
+      "distance": 32,
+      "hits": [
+        14,
+        35,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBA",
+      "distance": 44,
+      "hits": [
+        14,
+        35,
+        52
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1024
+      ],
+      "attackPoses": [
+        2,
+        29,
+        30,
+        35,
+        36
+      ]
+    },
+    {
+      "pattern": "BBB",
+      "distance": 24,
+      "hits": [
+        14,
+        35,
+        55
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "BBB",
+      "distance": 32,
+      "hits": [
+        14,
+        35,
+        55
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "pattern": "BBB",
+      "distance": 44,
+      "hits": [
+        14,
+        35,
+        55
+      ],
+      "maxHits": 3,
+      "damage": 36,
+      "programs": [
+        1027,
+        1027,
+        1028
+      ],
+      "attackPoses": [
+        2,
+        35,
+        36,
+        37,
+        38
+      ]
+    }
+  ],
+  "finishersBefore": [
+    {
+      "kind": "energy",
+      "speed": 2,
+      "damage": 46,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 79,
+          "damage": 10,
+          "hits": 4,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3072
+      ]
+    },
+    {
+      "kind": "energy",
+      "speed": 3,
+      "damage": 46,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 80,
+          "damage": 10,
+          "hits": 4,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3072
+      ]
+    },
+    {
+      "kind": "energy",
+      "speed": 4,
+      "damage": 46,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 81,
+          "damage": 10,
+          "hits": 4,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3072
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 2,
+      "damage": 96,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 91,
+          "damage": 60,
+          "hits": 4,
+          "enemyAction": 22
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3076
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 3,
+      "damage": 96,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 96,
+          "damage": 60,
+          "hits": 4,
+          "enemyAction": 22
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3076
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 4,
+      "damage": 48,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 82,
+          "damage": 12,
+          "hits": 4,
+          "enemyAction": 12
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 2,
+      "damage": 36,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        }
+      ],
+      "programs": [
+        0,
+        93,
+        1024,
+        1027
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 3,
+      "damage": 71,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 237,
+          "damage": 35,
+          "hits": 6,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1,
+        3,
+        51,
+        1024,
+        1027,
+        2110,
+        2111
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 4,
+      "damage": 71,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 249,
+          "damage": 35,
+          "hits": 6,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        51,
+        1024,
+        1027,
+        2110,
+        2111
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 2,
+      "damage": 44,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 81,
+          "damage": 8,
+          "hits": 4,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3074
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 3,
+      "damage": 44,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 83,
+          "damage": 8,
+          "hits": 4,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3074
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 4,
+      "damage": 44,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 87,
+          "damage": 8,
+          "hits": 4,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        3074
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 2,
+      "damage": 126,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 67,
+          "damage": 30,
+          "hits": 4,
+          "enemyAction": 11
+        },
+        {
+          "f": 122,
+          "damage": 30,
+          "hits": 5,
+          "enemyAction": 11
+        },
+        {
+          "f": 153,
+          "damage": 30,
+          "hits": 6,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        2051
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 3,
+      "damage": 126,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 69,
+          "damage": 30,
+          "hits": 4,
+          "enemyAction": 11
+        },
+        {
+          "f": 122,
+          "damage": 30,
+          "hits": 5,
+          "enemyAction": 11
+        },
+        {
+          "f": 153,
+          "damage": 30,
+          "hits": 6,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        2051
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 4,
+      "damage": 126,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 27,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 47,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 71,
+          "damage": 30,
+          "hits": 4,
+          "enemyAction": 11
+        },
+        {
+          "f": 123,
+          "damage": 30,
+          "hits": 5,
+          "enemyAction": 0
+        },
+        {
+          "f": 153,
+          "damage": 30,
+          "hits": 6,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1027,
+        2051
+      ]
+    }
+  ],
+  "finishersAfter": [
+    {
+      "kind": "energy",
+      "speed": 2,
+      "damage": 46,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 83,
+          "damage": 10,
+          "hits": 4,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3072
+      ]
+    },
+    {
+      "kind": "energy",
+      "speed": 3,
+      "damage": 46,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 84,
+          "damage": 10,
+          "hits": 4,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3072
+      ]
+    },
+    {
+      "kind": "energy",
+      "speed": 4,
+      "damage": 46,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 86,
+          "damage": 10,
+          "hits": 4,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3072
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 2,
+      "damage": 96,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 97,
+          "damage": 60,
+          "hits": 4,
+          "enemyAction": 22
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 3,
+      "damage": 96,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 101,
+          "damage": 60,
+          "hits": 4,
+          "enemyAction": 22
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 4,
+      "damage": 36,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 2,
+      "damage": 36,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        }
+      ],
+      "programs": [
+        0,
+        93,
+        1024,
+        1025,
+        1028
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 3,
+      "damage": 71,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 243,
+          "damage": 35,
+          "hits": 6,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1,
+        3,
+        51,
+        1024,
+        1025,
+        1028,
+        2110,
+        2111
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 4,
+      "damage": 71,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 248,
+          "damage": 35,
+          "hits": 6,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        51,
+        1024,
+        1025,
+        1028,
+        2110,
+        2111
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 2,
+      "damage": 44,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 83,
+          "damage": 8,
+          "hits": 4,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3074
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 3,
+      "damage": 44,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 87,
+          "damage": 8,
+          "hits": 4,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3074
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 4,
+      "damage": 44,
+      "maxHits": 4,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 88,
+          "damage": 8,
+          "hits": 4,
+          "enemyAction": 18
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3074
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 2,
+      "damage": 126,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 68,
+          "damage": 30,
+          "hits": 4,
+          "enemyAction": 11
+        },
+        {
+          "f": 122,
+          "damage": 30,
+          "hits": 5,
+          "enemyAction": 11
+        },
+        {
+          "f": 153,
+          "damage": 30,
+          "hits": 6,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        2051
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 3,
+      "damage": 126,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 72,
+          "damage": 30,
+          "hits": 4,
+          "enemyAction": 11
+        },
+        {
+          "f": 126,
+          "damage": 30,
+          "hits": 5,
+          "enemyAction": 11
+        },
+        {
+          "f": 156,
+          "damage": 30,
+          "hits": 6,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        2051
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 4,
+      "damage": 126,
+      "maxHits": 6,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 73,
+          "damage": 30,
+          "hits": 4,
+          "enemyAction": 11
+        },
+        {
+          "f": 127,
+          "damage": 30,
+          "hits": 5,
+          "enemyAction": 11
+        },
+        {
+          "f": 156,
+          "damage": 30,
+          "hits": 6,
+          "enemyAction": 11
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        2051
+      ]
+    }
+  ],
+  "finisherDefense": [
+    {
+      "kind": "energy",
+      "speed": 3,
+      "damage": 36,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3072
+      ]
+    },
+    {
+      "kind": "kame",
+      "speed": 3,
+      "damage": 66,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 107,
+          "damage": 30,
+          "hits": 3,
+          "enemyAction": 10
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ]
+    },
+    {
+      "kind": "meteor",
+      "speed": 3,
+      "damage": 39,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 94,
+          "damage": 3,
+          "hits": 3,
+          "enemyAction": 10
+        }
+      ],
+      "programs": [
+        0,
+        1,
+        3,
+        1024,
+        1025,
+        1028,
+        2110
+      ]
+    },
+    {
+      "kind": "kiai",
+      "speed": 3,
+      "damage": 38,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 91,
+          "damage": 2,
+          "hits": 3,
+          "enemyAction": 10
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3074
+      ]
+    },
+    {
+      "kind": "flurry",
+      "speed": 3,
+      "damage": 57,
+      "maxHits": 3,
+      "events": [
+        {
+          "f": 9,
+          "damage": 12,
+          "hits": 1,
+          "enemyAction": 12
+        },
+        {
+          "f": 29,
+          "damage": 12,
+          "hits": 2,
+          "enemyAction": 12
+        },
+        {
+          "f": 49,
+          "damage": 12,
+          "hits": 3,
+          "enemyAction": 12
+        },
+        {
+          "f": 75,
+          "damage": 7,
+          "hits": 3,
+          "enemyAction": 10
+        },
+        {
+          "f": 132,
+          "damage": 7,
+          "hits": 3,
+          "enemyAction": 10
+        },
+        {
+          "f": 157,
+          "damage": 7,
+          "hits": 3,
+          "enemyAction": 10
+        }
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        2051
+      ]
+    }
+  ],
+  "tablesDamageK4BarrageThrowFixPreserved": true,
+  "newRamAllocated": false,
+  "limitsOfValidation": [
+    "Normal-speed human Goku only; prototype awaiting user validation.",
+    "The assist remains capped at3basics+1finisher; bounded tests do not prove absence of all native infinites.",
+    "Gohan/Cell have trace phase differences, but matching attack programs/poses/damage/HITS.",
+    "Finishers against a neutral rival are not guaranteed combos; guard-after-third blocks the sampled remates.",
+    "No all-matchup/corner/escape/CPU/turbo/hardware certification."
+  ]
+}

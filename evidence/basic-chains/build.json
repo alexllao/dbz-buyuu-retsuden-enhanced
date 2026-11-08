@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "buildId": "20261108-171303",
+  "headerTitle": "DBZ V1.0 GOKU CHAIN 20261108 1713",
+  "sourceSha256": "bf1b979ffb9596725eb7ec3a38d4dd4afd1671ffa219a84d1c8e47356b495f97",
+  "targetSha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+  "codeBytes": 162,
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      4050944,
+      162
+    ],
+    [
+      134014,
+      8
+    ]
+  ],
+  "scope": "Goku only: second confirmed A -> native401, third confirmed B -> native404. Existing cap3basics+1finisher retained."
+}

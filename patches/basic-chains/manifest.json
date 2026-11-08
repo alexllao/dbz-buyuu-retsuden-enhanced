@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "Goku confirmed basic-chain variants; approved graphics K4 barrages and corrected throws retained",
+  "buildId": "20261108-171303",
+  "headerTitle": "DBZ V1.0 GOKU CHAIN 20261108 1713",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_Goku_cadenas_build_20261108-171303.bin",
+    "sha256": "ed43838799a67b29ff72d84ea9fc096ba46a0df3a60031d70c63cd23bd5416f1",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/basic-chains/Goku-cadenas-build-20261108-171303.ips",
+    "sha256": "f34fcf4aa8bdc01be8c643c180e02b93ab3b94b5cf200bde0fc5c505e0284f35"
+  },
+  "experimental": true,
+  "userApprovalPending": true
+}

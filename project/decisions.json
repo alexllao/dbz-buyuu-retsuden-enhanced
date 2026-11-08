@@ -1169,5 +1169,30 @@
     ],
     "documentation": "docs/shorts-updates.md",
     "evidence": "evidence/shorts-updates/validation.json"
+  },
+  "gokuBasicChainTrial": {
+    "date": "2026-11-08",
+    "status": "pending-user-review",
+    "build": "20261108-171303",
+    "scope": "Human Goku, normal speed, confirmed basic chains",
+    "secondPunchProgram": "0x401",
+    "thirdKickProgram": "0x404",
+    "inheritedAssistLimit": "3 basics + 1 finisher",
+    "newRAM": false,
+    "newCommands": false,
+    "newDrawings": false,
+    "short": "assets/media/basic-chains/short.mp4",
+    "shortCharacters": [
+      "Goku",
+      "Vegeta",
+      "Piccolo",
+      "Cell",
+      "Gohan",
+      "A18",
+      "Freezer"
+    ],
+    "otherCharactersNewChains": false,
+    "documentation": "docs/basic-chains.md",
+    "evidence": "evidence/basic-chains/validation.json"
   }
 }
