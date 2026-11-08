@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "variant": "Throw damage source correction; K4 and six approved barrages",
+  "buildId": "20261108-160337",
+  "headerTitle": "DBZ V1.0 THROW LINK 20261108 1603",
+  "source": {
+    "sha256": "217fc312deeced6bbe3caa02ed3f72e067d6dbd6a0ee64a281ebf2e60f479557",
+    "bytes": 2097152
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_K4_Rafagas_Lanzamientos_build_20261108-160337.bin",
+    "sha256": "bf1b979ffb9596725eb7ec3a38d4dd4afd1671ffa219a84d1c8e47356b495f97",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/throw-links/Lanzamiento-especial-build-20261108-160337.ips",
+    "sha256": "1a845a056fa5e726ac758188ddc2c43a3691e12bae9125e405fc811c45b80f66"
+  },
+  "experimental": true,
+  "userApprovalPending": true
+}

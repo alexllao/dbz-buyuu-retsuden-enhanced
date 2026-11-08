@@ -1,0 +1,56 @@
+003dc000: 4eb900020ca4                             jsr 0x00020ca4.l
+003dc006: 48e7fffe                                 .hex 48e7fffe
+003dc00a: 40e7                                     .hex 40e7
+003dc00c: 4eb9003dc0a6                             jsr 0x3dc0a6.l
+003dc012: 66000024                                 bne.w 0x3dc038
+003dc016: 4252                                     clr.w (A2)
+003dc018: 4eb90001335c                             jsr 0x0001335c.l
+003dc01e: 0c29003a005b                             cmpi.b #0x3a,(0x5b,A1)
+003dc024: 66000012                                 bne.w 0x3dc038
+003dc028: 1569007c0002                             move.b (0x7c,A1),(0x2,A2)
+003dc02e: 156900520003                             move.b (0x52,A1),(0x3,A2)
+003dc034: 34bc746b                                 move.w #0x746b,(A2)
+003dc038: 46df                                     .hex 46df
+003dc03a: 4cdf7fff                                 .hex 4cdf7fff
+003dc03e: 4e75                                     rts
+003dc040: 48e7fffe                                 .hex 48e7fffe
+003dc044: 40e7                                     .hex 40e7
+003dc046: 4eb9003dc0a6                             jsr 0x3dc0a6.l
+003dc04c: 6600004c                                 bne.w 0x3dc09a
+003dc050: 0c52746b                                 cmpi.w #0x746b,(A2)
+003dc054: 66000044                                 bne.w 0x3dc09a
+003dc058: 4eb90001335c                             jsr 0x0001335c.l
+003dc05e: 2f09                                     move.l A1,-(SP)
+003dc060: 4240                                     clr.w D0w
+003dc062: 1029007c                                 move.b (0x7c,A1),D0b
+003dc066: e148                                     lsl.w #0x08,D0w
+003dc068: 10290052                                 move.b (0x52,A1),D0b
+003dc06c: 3f00                                     move.w D0w,-(SP)
+003dc06e: 136a0002007c                             move.b (0x2,A2),(0x7c,A1)
+003dc074: 136a00030052                             move.b (0x3,A2),(0x52,A1)
+003dc07a: 4252                                     clr.w (A2)
+003dc07c: 4240                                     clr.w D0w
+003dc07e: 4eb9000219e4                             jsr 0x000219e4.l
+003dc084: 301f                                     move.w (SP)+,D0w
+003dc086: 225f                                     movea.l (SP)+,A1
+003dc088: 13400052                                 move.b D0b,(0x52,A1)
+003dc08c: e048                                     lsr.w #0x08,D0w
+003dc08e: 1340007c                                 move.b D0b,(0x7c,A1)
+003dc092: 46df                                     .hex 46df
+003dc094: 4cdf7fff                                 .hex 4cdf7fff
+003dc098: 4e75                                     rts
+003dc09a: 46df                                     .hex 46df
+003dc09c: 4cdf7fff                                 .hex 4cdf7fff
+003dc0a0: 4ef9000219e4                             jmp 0x000219e4.l
+003dc0a6: b1fcffffe75e                             cmpa.l #-0x18a2,A0
+003dc0ac: 67000012                                 beq.w 0x3dc0c0
+003dc0b0: b1fcffffe886                             cmpa.l #-0x177a,A0
+003dc0b6: 67000012                                 beq.w 0x3dc0ca
+003dc0ba: 023c00fb                                 .hex 023c00fb
+003dc0be: 4e75                                     rts
+003dc0c0: 45f8f7a0                                 lea (-0x860).w,A2
+003dc0c4: 003c0004                                 .hex 003c0004
+003dc0c8: 4e75                                     rts
+003dc0ca: 45f8f7a8                                 lea (-0x858).w,A2
+003dc0ce: 003c0004                                 .hex 003c0004
+003dc0d2: 4e75                                     rts

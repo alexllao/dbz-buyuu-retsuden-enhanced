@@ -1123,5 +1123,34 @@
     "documentation": "docs/jump-two.md",
     "evidence": "evidence/jump-two/validation.json",
     "limits": "Native animation-timed parabolic arc, not a replacement physical engine; air attacks can extend time; balance/hardware/turbo pending"
+  },
+  "throwSpecialReview": {
+    "date": "2026-11-08",
+    "buildId": "20261108-160337",
+    "status": "Audit and normal-grab damage-source correction implemented, pending user review",
+    "base": "Approved K4 + six barrages",
+    "jumpTrialMerged": false,
+    "newMoves": [],
+    "newCommands": [],
+    "scope": "Normal grab retains cached original type/power at its delayed landing damage; no forced special hits or new aerial juggle system.",
+    "sampleFixes": {
+      "GokuEarlyDamageBefore": 60,
+      "GokuEarlyDamageAfter": 12,
+      "KrilinEarlyDamageBefore": 58,
+      "KrilinEarlyDamageAfter": 15
+    },
+    "counts": {
+      "referenceP1": 126,
+      "correctedP1": 138,
+      "correctedP2": 69,
+      "extraP2": 8,
+      "meteorSamplesBefore": 11,
+      "meteorSamplesAfter": 11
+    },
+    "videos": [
+      "assets/media/throw-links/once-personajes.mp4",
+      "assets/media/throw-links/comparacion.mp4"
+    ],
+    "documentation": "docs/throw-links.md"
   }
 }

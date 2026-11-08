@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — lanzamiento → especial:** el usuario pide revisar los enlaces y vídeos. Se audita un especial principal de cada personaje y se corrige la fuente de daño del lanzamiento al preparar otro ataque antes del aterrizaje. Sin comandos ni movimientos nuevos, sobre K4 y ráfagas aprobadas; los saltos sin valorar siguen aparte. [Dos vídeos y resultados](throw-links.md). Pendiente de valoración.
+
 **8/11/2026 — dos saltos de Goku:** el usuario acepta probar normal corto y largo desde carrera. Se prepara sobre K4 y seis ráfagas aprobadas, con reparación de doble toque en ambos lados de la comparación. Sin comandos ni dibujos nuevos. [Vídeo y límites](jump-two.md). Pendiente de valoración.
 
 **8/11/2026 — ráfagas de cinco aprobadas:** el usuario confirma «kedan bien» para Goku, Vegeta, Cell, A18, Krilin y Recoome. Se conserva el build 20261108-135651 sobre K4, sin movimientos ni comandos nuevos. [Vídeo y detalles](barrage-roster.md).

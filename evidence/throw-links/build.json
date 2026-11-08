@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "buildId": "20261108-160337",
+  "headerTitle": "DBZ V1.0 THROW LINK 20261108 1603",
+  "sourceSha256": "49b19f1e6f2379c92ff1fea857a7139828d8f39f2b9a3e8556d2cea1fceca2d6",
+  "targetSha256": "bf1b979ffb9596725eb7ec3a38d4dd4afd1671ffa219a84d1c8e47356b495f97",
+  "edits": [
+    {
+      "address": 109886,
+      "before": "4eb900020ca4",
+      "label": "capture"
+    },
+    {
+      "address": 110124,
+      "before": "4eb9000219e4",
+      "label": "impact"
+    }
+  ],
+  "allowed": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      4046848,
+      212
+    ],
+    [
+      109886,
+      6
+    ],
+    [
+      110124,
+      6
+    ]
+  ],
+  "ram": "F7A0..F7AF, cached thrown attack type/power per victim",
+  "codeBytes": 212
+}

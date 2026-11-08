@@ -1,0 +1,483 @@
+[
+  {
+    "cid": 0,
+    "name": "Goku",
+    "technique": "Kamehameha",
+    "metrics": {
+      "damage": 72,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 126,
+          "damage": 12,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 194,
+          "damage": 60,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 1,
+    "name": "Gohan",
+    "technique": "Masenko",
+    "metrics": {
+      "damage": 52,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 121,
+          "damage": 9,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 190,
+          "damage": 43,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 2,
+    "name": "Piccolo",
+    "technique": "Special Beam Cannon",
+    "metrics": {
+      "damage": 58,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 145,
+          "damage": 10,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 212,
+          "damage": 48,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 3,
+    "name": "Vegeta",
+    "technique": "Final Flash",
+    "metrics": {
+      "damage": 72,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 128,
+          "damage": 9,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 196,
+          "damage": 63,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 4,
+    "name": "Trunks",
+    "technique": "Burning Attack",
+    "metrics": {
+      "damage": 44,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 131,
+          "damage": 11,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 215,
+          "damage": 33,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 5,
+    "name": "Cell",
+    "technique": "Special Beam Cannon",
+    "metrics": {
+      "damage": 59,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 135,
+          "damage": 11,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 206,
+          "damage": 48,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 6,
+    "name": "A18",
+    "technique": "Energy Flame",
+    "metrics": {
+      "damage": 78,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 123,
+          "damage": 15,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 206,
+          "damage": 63,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 7,
+    "name": "Krilin",
+    "technique": "Kamehameha",
+    "metrics": {
+      "damage": 73,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 121,
+          "damage": 15,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 193,
+          "damage": 58,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 8,
+    "name": "Freezer",
+    "technique": "Mega Buster",
+    "metrics": {
+      "damage": 63,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 134,
+          "damage": 15,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 218,
+          "damage": 48,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 9,
+    "name": "Recoome",
+    "technique": "Eraser Gun",
+    "metrics": {
+      "damage": 61,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 139,
+          "damage": 13,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 229,
+          "damage": 48,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "cid": 10,
+    "name": "Ginyu",
+    "technique": "Terra Smash",
+    "metrics": {
+      "damage": 70,
+      "hits": 2,
+      "events": [
+        {
+          "frame": 140,
+          "damage": 12,
+          "victimAction": 23,
+          "y": 448
+        },
+        {
+          "frame": 205,
+          "damage": 58,
+          "victimAction": 19,
+          "y": 448
+        }
+      ]
+    }
+  },
+  {
+    "label": "fix-Goku",
+    "metrics": [
+      {
+        "damage": 60,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 134,
+            "damage": 60,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "damage": 12,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 134,
+            "damage": 12,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      }
+    ],
+    "source": [
+      "before/fix-Goku",
+      "after/early-Goku"
+    ]
+  },
+  {
+    "label": "fix-Krilin",
+    "metrics": [
+      {
+        "damage": 58,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 127,
+            "damage": 58,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "damage": 15,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 127,
+            "damage": 15,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      }
+    ],
+    "source": [
+      "before/fix-Krilin",
+      "after/early-Krilin"
+    ]
+  },
+  {
+    "label": "timing-Goku",
+    "metrics": [
+      {
+        "damage": 12,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 134,
+            "damage": 12,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "damage": 72,
+        "hits": 2,
+        "events": [
+          {
+            "frame": 126,
+            "damage": 12,
+            "victimAction": 23,
+            "y": 448
+          },
+          {
+            "frame": 194,
+            "damage": 60,
+            "victimAction": 19,
+            "y": 448
+          }
+        ]
+      }
+    ],
+    "source": [
+      "after/early-Goku",
+      "after/link-Goku"
+    ]
+  },
+  {
+    "label": "timing-Gohan",
+    "metrics": [
+      {
+        "damage": 9,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 126,
+            "damage": 9,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "damage": 52,
+        "hits": 2,
+        "events": [
+          {
+            "frame": 121,
+            "damage": 9,
+            "victimAction": 23,
+            "y": 448
+          },
+          {
+            "frame": 190,
+            "damage": 43,
+            "victimAction": 19,
+            "y": 448
+          }
+        ]
+      }
+    ],
+    "source": [
+      "after/early-Gohan",
+      "after/link-Gohan"
+    ]
+  },
+  {
+    "label": "timing-Vegeta",
+    "metrics": [
+      {
+        "damage": 9,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 127,
+            "damage": 9,
+            "victimAction": 23,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "damage": 72,
+        "hits": 2,
+        "events": [
+          {
+            "frame": 128,
+            "damage": 9,
+            "victimAction": 23,
+            "y": 448
+          },
+          {
+            "frame": 196,
+            "damage": 63,
+            "victimAction": 19,
+            "y": 448
+          }
+        ]
+      }
+    ],
+    "source": [
+      "after/early-Vegeta",
+      "after/link-Vegeta"
+    ]
+  },
+  {
+    "label": "guard",
+    "metrics": [
+      {
+        "damage": 72,
+        "hits": 2,
+        "events": [
+          {
+            "frame": 126,
+            "damage": 12,
+            "victimAction": 23,
+            "y": 448
+          },
+          {
+            "frame": 195,
+            "damage": 60,
+            "victimAction": 19,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "damage": 42,
+        "hits": 1,
+        "events": [
+          {
+            "frame": 126,
+            "damage": 12,
+            "victimAction": 23,
+            "y": 448
+          },
+          {
+            "frame": 252,
+            "damage": 30,
+            "victimAction": 10,
+            "y": 448
+          }
+        ]
+      }
+    ],
+    "source": [
+      "after/guard-Goku-timed",
+      "after/guard-Goku-late"
+    ]
+  }
+]
