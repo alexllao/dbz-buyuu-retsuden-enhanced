@@ -1152,5 +1152,22 @@
       "assets/media/throw-links/comparacion.mp4"
     ],
     "documentation": "docs/throw-links.md"
+  },
+  "threeImprovementShorts": {
+    "date": "2026-11-08",
+    "request": "Re-edit three videos for YouTube Shorts using only improved versions",
+    "format": "1080x1920 9:16 H264/AAC",
+    "gameplaySpeedScaling": false,
+    "nativeAudio": true,
+    "onlyImprovedFootage": true,
+    "romChanged": false,
+    "uploadedToYouTube": false,
+    "sourceBuilds": [
+      "20261108-143706",
+      "20261108-160337",
+      "20261108-135651"
+    ],
+    "documentation": "docs/shorts-updates.md",
+    "evidence": "evidence/shorts-updates/validation.json"
   }
 }

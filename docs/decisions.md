@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**8/11/2026 — tres Shorts:** el usuario pide saltos, lanzamiento/especial y cinco disparos en vertical, mostrando solo la versión mejorada. Se preparan tres vídeos sin antes/después, con pantalla completa, HUD y sonido nativos a velocidad normal. [Archivos y textos](shorts-updates.md). No cambia las ROM ni las aprobaciones de los ensayos.
+
 **8/11/2026 — lanzamiento → especial:** el usuario pide revisar los enlaces y vídeos. Se audita un especial principal de cada personaje y se corrige la fuente de daño del lanzamiento al preparar otro ataque antes del aterrizaje. Sin comandos ni movimientos nuevos, sobre K4 y ráfagas aprobadas; los saltos sin valorar siguen aparte. [Dos vídeos y resultados](throw-links.md). Pendiente de valoración.
 
 **8/11/2026 — dos saltos de Goku:** el usuario acepta probar normal corto y largo desde carrera. Se prepara sobre K4 y seis ráfagas aprobadas, con reparación de doble toque en ambos lados de la comparación. Sin comandos ni dibujos nuevos. [Vídeo y límites](jump-two.md). Pendiente de valoración.

@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-08",
+  "romChanged": false,
+  "publishedToYouTube": false,
+  "width": 1080,
+  "height": 1920,
+  "aspect": "9:16",
+  "onlyImprovedFootage": true,
+  "noBeforeAfterComparisons": true,
+  "fullGameAndNativeHudPreserved": true,
+  "gameplaySpeedScaling": false,
+  "audio": "Native game audio with18/25ms cut fades, no added music",
+  "shorts": [
+    {
+      "mode": "saltos",
+      "title": "DOS TIPOS DE SALTO",
+      "file": "Short-Goku-dos-saltos.mp4",
+      "sha256": "1be0fc63570cb3d2e3a1c5bed2643fb16f977a86a9048ee9059cb052b8d20f8f",
+      "buildId": "20261108-143706",
+      "status": "Prueba de Goku",
+      "width": 1080,
+      "height": 1920,
+      "seconds": 12.415987,
+      "nativeAudio": true,
+      "nativeHud": true,
+      "gameplaySpeedScaling": false,
+      "fullGameImagePreserved": true,
+      "onlyImprovedFootage": true,
+      "background": "Blurred darkened copy of the same footage",
+      "clips": [
+        {
+          "source": "work/jump-two/video/candidate/carrera-patada.mp4",
+          "sourceSha256": "f4fa5cf76bce7200b21143c5a03c5c7d477d9e7138735143446f7d934b2ec598",
+          "startFrame": 0,
+          "endFrame": 162,
+          "label": "SALTO + PATADA",
+          "seconds": 2.703481029013464
+        },
+        {
+          "source": "work/jump-two/video/candidate/vertical.mp4",
+          "sourceSha256": "7a8705d1fdb4254e750115275df04c3f07b27126a60ce00ee7644714f917210b",
+          "startFrame": 0,
+          "endFrame": 133,
+          "label": "SALTO NORMAL",
+          "seconds": 2.2195245485110537
+        },
+        {
+          "source": "work/jump-two/video/candidate/diagonal.mp4",
+          "sourceSha256": "75b36a04dfdb6e6c57b95838692c592bcae36f7f9e8dd1655fb5c4ae8458d4a3",
+          "startFrame": 0,
+          "endFrame": 133,
+          "label": "NORMAL EN DIAGONAL",
+          "seconds": 2.2195245485110537
+        },
+        {
+          "source": "work/jump-two/video/candidate/carrera.mp4",
+          "sourceSha256": "0d2b2885ae046ee23c1903147620a6976fdd2708c0c47acb9c62d371144989b1",
+          "startFrame": 0,
+          "endFrame": 153,
+          "label": "SALTO DESDE CARRERA",
+          "seconds": 2.553287638512716
+        },
+        {
+          "source": "work/jump-two/video/candidate/carrera-patada.mp4",
+          "sourceSha256": "f4fa5cf76bce7200b21143c5a03c5c7d477d9e7138735143446f7d934b2ec598",
+          "startFrame": 0,
+          "endFrame": 162,
+          "label": "REMATE EN EL AIRE",
+          "seconds": 2.703481029013464
+        }
+      ]
+    },
+    {
+      "mode": "enlaces",
+      "title": "LANZA Y REMATA",
+      "file": "Short-Lanzamiento-y-especiales.mp4",
+      "sha256": "18dd12f748852150b71227888995360073486f86b91ef2b3734c2b316e0ea3d9",
+      "buildId": "20261108-160337",
+      "status": "Revisión de enlaces",
+      "width": 1080,
+      "height": 1920,
+      "seconds": 35.079637,
+      "nativeAudio": true,
+      "nativeHud": true,
+      "gameplaySpeedScaling": false,
+      "fullGameImagePreserved": true,
+      "onlyImprovedFootage": true,
+      "background": "Blurred darkened copy of the same footage",
+      "clips": [
+        {
+          "source": "work/throw-links/video/after/link-Goku.mp4",
+          "sourceSha256": "1ba475bae58bdc2f87851282dc1da8d8ef949b6abc87ba24408a89389902bf1d",
+          "startFrame": 0,
+          "endFrame": 350,
+          "label": "GOKU",
+          "seconds": 5.840854075029089
+        },
+        {
+          "source": "work/throw-links/video/after/link-Vegeta.mp4",
+          "sourceSha256": "241539be12ca9c075ab59e0e2d58bcf6d4fc41de216fca8a150f48f2113434af",
+          "startFrame": 0,
+          "endFrame": 350,
+          "label": "VEGETA",
+          "seconds": 5.840854075029089
+        },
+        {
+          "source": "work/throw-links/video/after/link-Gohan.mp4",
+          "sourceSha256": "213d9388440e12e558919d0a5c6641a39580239d46da9f8a09afd26c0ebd65e9",
+          "startFrame": 0,
+          "endFrame": 350,
+          "label": "GOHAN",
+          "seconds": 5.840854075029089
+        },
+        {
+          "source": "work/throw-links/video/after/link-Piccolo.mp4",
+          "sourceSha256": "c9c20759d2296814bf7325c5aa52a1a2db098ef4317c8522fa3f957bb82ce263",
+          "startFrame": 0,
+          "endFrame": 350,
+          "label": "PICCOLO",
+          "seconds": 5.840854075029089
+        },
+        {
+          "source": "work/throw-links/video/after/link-Cell.mp4",
+          "sourceSha256": "ceeced337248a5b0ba03ae9c7d31c348e37d30a1650d416e9ffc8ebe1b9ee017",
+          "startFrame": 0,
+          "endFrame": 350,
+          "label": "CELL",
+          "seconds": 5.840854075029089
+        },
+        {
+          "source": "work/throw-links/video/after/link-Krilin.mp4",
+          "sourceSha256": "bb3ae047585b06fc5866d06462efb73b4207883d2b35612166288fcc53687a67",
+          "startFrame": 0,
+          "endFrame": 350,
+          "label": "KRILIN",
+          "seconds": 5.840854075029089
+        }
+      ]
+    },
+    {
+      "mode": "rafagas",
+      "title": "¡CINCO DISPAROS!",
+      "file": "Short-Rafagas-cinco-disparos.mp4",
+      "sha256": "f9880f63cb5b44e7b135a0bdbac78fc9e37b7bdcfc56d6e147aa7bb049bf21aa",
+      "buildId": "20261108-135651",
+      "status": "Ráfagas aprobadas",
+      "width": 1080,
+      "height": 1920,
+      "seconds": 32.064853,
+      "nativeAudio": true,
+      "nativeHud": true,
+      "gameplaySpeedScaling": false,
+      "fullGameImagePreserved": true,
+      "onlyImprovedFootage": true,
+      "background": "Blurred darkened copy of the same footage",
+      "clips": [
+        {
+          "source": "work/barrage-roster/video/after/Goku.mp4",
+          "sourceSha256": "d0a40fb08a61384a836a0ebb0b3e4f5871386e0ce7f90ad8d88dc36baa427f37",
+          "startFrame": 0,
+          "endFrame": 320,
+          "label": "GOKU",
+          "seconds": 5.340209440026595
+        },
+        {
+          "source": "work/barrage-roster/video/after/Vegeta.mp4",
+          "sourceSha256": "105cdab20556b8299623b72215d8601e3bd27f667a3eac83b4485f31be474b96",
+          "startFrame": 100,
+          "endFrame": 420,
+          "label": "VEGETA",
+          "seconds": 5.340209440026595
+        },
+        {
+          "source": "work/barrage-roster/video/after/Cell.mp4",
+          "sourceSha256": "4d89a2f00f7f8656084a036312f4418a90e9d98300010109fcdd3b526e71f96b",
+          "startFrame": 100,
+          "endFrame": 420,
+          "label": "CELL",
+          "seconds": 5.340209440026595
+        },
+        {
+          "source": "work/barrage-roster/video/after/A18.mp4",
+          "sourceSha256": "2fa407911c115aed9822630d18775c9dce38b81a09f548d16d1ffb8f984be1bb",
+          "startFrame": 100,
+          "endFrame": 420,
+          "label": "A18",
+          "seconds": 5.340209440026595
+        },
+        {
+          "source": "work/barrage-roster/video/after/Krilin.mp4",
+          "sourceSha256": "aa59f7677a5e33d29936033336ef700d5e41e0694c84d8506dd7eb39287f515f",
+          "startFrame": 100,
+          "endFrame": 420,
+          "label": "KRILIN",
+          "seconds": 5.340209440026595
+        },
+        {
+          "source": "work/barrage-roster/video/after/Recoome.mp4",
+          "sourceSha256": "c71a37de6c929e9bf6f1cdab5bc448ee308d4b11e5254d3ef994697220079761",
+          "startFrame": 100,
+          "endFrame": 420,
+          "label": "RECOOME",
+          "seconds": 5.340209440026595
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Saltos is the separate Goku jump trial; links is the corrected throw build; barrages is the approved six-character build.",
+    "The jump clip is shown twice as a normal-speed replay; scenes are trimmed, not accelerated.",
+    "Native in-game split-screen, where present, remains part of the game; no before/after panel is used."
+  ]
+}
