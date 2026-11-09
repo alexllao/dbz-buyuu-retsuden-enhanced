@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**9/11/2026 — Namek original preferido:** el usuario aprecia algo el color del concepto, pero prefiere el fondo antiguo y no identifica el motivo. Se conserva el original y se archiva el boceto sin integrarlo. La comparación en suelo/vuelo corresponde a una futura propuesta nativa. [Imagen, procedencia y límites](namek-redraw-v1.md).
+
 **8/11/2026 — aprobación general de la versión actual:** el usuario confirma «perfecto, me encanta» y «sisi, todo lo ke has hecho me parece perfecto eh». Quedan aprobadas las mejoras demostradas del build200852, incluidas preparación de Masenko/Final Flash dentro del combo, buffer y variantes de básicos de Goku y corrección de lanzamiento. No se incorporan experimentos descartados ni se infiere certificación en consola. [Revisión aprobada](combo-startup.md).
 
 **8/11/2026 — especial abreviado solo dentro del enlace:** el usuario pide reducir la espera del especial cuando forma parte de un combo y acepta una prueba con dos personajes. Se prepara Masenko/Gohan y Final Flash/Vegeta con tablas alternativas solo tras cadena confirmada y rival en reacción. Build200852, sin cambiar proyectil, hitstun o costes nominales. [Comparación y168 pares de pruebas](combo-startup.md). Pendiente de valoración.

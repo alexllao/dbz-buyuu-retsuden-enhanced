@@ -1294,5 +1294,16 @@
     "userReply": "sisi, todo lo ke has hecho me parece perfecto eh",
     "scope": "Current valid demonstrated build and included improvements; discarded experiments remain excluded.",
     "manifest": "patches/combo-startup/manifest.json"
+  },
+  "namekRedrawConceptReview": {
+    "date": "2026-11-09",
+    "status": "original-preferred-concept-not-integrated",
+    "userFeedback": "parece un poco mejor en tema de color pero me gusta mas el antiguo, porke no lo se",
+    "romChanged": false,
+    "image": "assets/concepts/namek-redraw-v1/Comparacion-concepto-v1.png",
+    "imageSha256": "b0077eb8adf5d936a36908cf1ea67577406081558594405598ddc3caec8e4e72",
+    "nativeGroundAndFlightComparisonRequestedForFutureIntegration": true,
+    "nativeComparisonProduced": false,
+    "documentation": "docs/namek-redraw-v1.md"
   }
 }
