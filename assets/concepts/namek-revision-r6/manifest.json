@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-09",
+  "revision": "R6",
+  "mode": "built-in imagegen edits",
+  "purpose": "Art masters for PNG review, not native Mega Drive resources",
+  "romModified": false,
+  "normalApproval": "este primerp perfecto",
+  "files": [
+    {
+      "file": "normal-aprobado.png",
+      "status": "approved",
+      "sha256": "2d08f7dfa4bd61b17def99d907893c59711a45c05f2f73bf9a92db836d55f39d",
+      "width": 1254,
+      "height": 1254,
+      "source": "exec-a47ac9eb-e495-43c1-a74f-8b6650302903.png",
+      "byteIdenticalCopy": true
+    },
+    {
+      "file": "aldea-propuesta.png",
+      "status": "pending_user_review",
+      "sha256": "2e99c5f5ef461db74ea97027c89d063dea70d3384262f84082e0ad6efe723525",
+      "width": 1254,
+      "height": 1254,
+      "source": "exec-d17e7769-880a-488c-a553-ab51e8b96fa4.png",
+      "byteIdenticalCopy": true
+    },
+    {
+      "file": "porunga-propuesta.png",
+      "status": "pending_user_review",
+      "sha256": "45acdaae7ffb0cb286ccf23be11162365d4896125d2ef97bc9846c99de4e4c43",
+      "width": 1254,
+      "height": 1254,
+      "source": "exec-bb72a5fb-3349-4970-a6b7-24ba6a2451e4.png",
+      "byteIdenticalCopy": true
+    }
+  ]
+}

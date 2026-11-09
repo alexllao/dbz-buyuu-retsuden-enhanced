@@ -127,3 +127,9 @@ El usuario dice «el color perfecto», señala fragmentos de troncos y pide corr
 ## 9/11/2026 · Solo V5, en formato Short
 
 El usuario aclara que no quiere otra comparación: pide ver únicamente V5, movimiento/carrera y ondas con pantalla partida, en YouTube Short y con el juego bien visible. Se prepara un vídeo1080×1920 de41 s, juego/HUD completos a todo el ancho, tres Namek y velocidad normal. Vegeta ejecuta Final Flash y carrera mediante la CPU nativa; Goku y el vuelo usan entradas coordinadas. La ROM V5 permanece idéntica. Durante la preparación se detecta una incidencia de doble toque manual en112 casos de Goku/Vegeta; se registra para investigación y no se altera la ROM ni se fabrica el movimiento para la promoción. [Short y límites](short-namek-v5.md).
+
+
+## 9/11/2026 · Normal R6 aprobado; validar PNG antes de ROM
+
+El usuario pide redibujar correctamente las uniones del terreno y las ruinas, conservar los colores y revisar primero los PNG completos. Aprueba el nuevo normal: «este primerp perfecto». Se conserva ese archivo sin modificar. Devastado y Porunga se generan con esa base y quedan pendientes de aprobación. Son maestros de arte de1254×1254; no se integran en la ROM ni se presentan como mapas nativos. V5 y su vídeo quedan históricos. [PNG, prompts y alcance](namek-revision-r6.md).
+
