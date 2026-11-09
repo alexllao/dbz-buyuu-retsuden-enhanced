@@ -101,3 +101,8 @@ El usuario ve bien la simulación anterior y pide reducir ligeramente la casa re
 ## 9/11/2026 · Namek nativo y entrega solo de vídeos
 
 La casa debe tener el mismo tamaño en las tres variantes. Se genera un único recurso compartido y se prueba tramado selectivo. Se implementan internamente tres entradas extra conservando el Namek original, verificadas en1P–CPU,1P–2P y CPU–CPU. Práctica independiente no añadida: no aparece entre los submodos nativos revisados. Última petición: entregar cuatro vídeos espectaculares (fondo original y tres nuevos); la ROM todavía no hace falta. Build interno050003 experimental, pendiente de valoración visual; aprobado200852 conservado. [Vídeos y alcance](namek-native-v1.md).
+
+
+## 9/11/2026 · Rechazo del acabado nativo de los nuevos fondos
+
+El usuario señala un aspecto general extraño y, en concreto, césped con parches cuadrados y pixelado superpuesto; el original se ve mejor. Se registra como adaptación visual fallida. No atribuir el fallo a la resolución de Mega Drive: la sustitución automática de patrones rompe la textura. Conservar el suelo original y revisar los añadidos por separado. La reconstrucción está pendiente, sin nueva aprobación visual ni entrega de ROM. [Diagnóstico](namek-native-v1.md).

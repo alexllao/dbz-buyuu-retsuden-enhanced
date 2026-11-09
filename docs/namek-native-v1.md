@@ -2,6 +2,14 @@
 
 9/11/2026. El usuario pide ver cómo quedarían realmente los escenarios en Mega Drive, señala que la casa de la aldea era más pequeña, propone escenarios extra en el selector y sugiere dithering. Después concreta la entrega: **vídeos espectaculares en el fondo original y en los tres nuevos; la ROM todavía no hace falta**.
 
+## Valoración del usuario: adaptación visual rechazada
+
+El usuario considera que el escenario original se ve mucho mejor. Señala especialmente parches cuadrados y pixelado extraño sobre el césped, además de un aspecto general raro. Estas capturas se conservan como prueba fallida de adaptación, no como acabado aprobado.
+
+La conversión reduce miles de patrones de8×8 a736 representantes y sustituye bloques mediante distancia de color. Esos representantes no están dibujados para enlazar entre sí: la textura continua del suelo queda rota. La reducción de paleta agrava la pérdida de matices; el dithering selectivo del cielo no resuelve el problema del césped.
+
+Dirección corregida: conservar píxel a píxel los tiles y el mapa del suelo original, evitando convertir de nuevo un panorama completo. Evaluar la casa y Porunga como elementos separados con un presupuesto propio y comprobar primero una captura nativa. Esa reconstrucción todavía no está realizada ni validada. La ROM aprobada200852 sigue intacta y no se entrega una nueva ROM.
+
 ## Vídeos solicitados
 
 Todos duran aproximadamente 51 segundos y muestran Goku, Gohan, Vegeta y Cell: básicos enlazados con Kamehameha o Masenko, Meteor de Vegeta, cambio de lado y Meteor de Cell, vuelo/aterrizaje y Kamehameha grande con pantalla partida. Cada montaje abre con una toma distinta. Audio original y movimientos a velocidad normal.
