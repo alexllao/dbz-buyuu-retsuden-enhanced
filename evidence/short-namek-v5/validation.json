@@ -1,0 +1,19 @@
+{
+  "romUnchanged": true,
+  "onlyV5": true,
+  "allSourcesVerified": true,
+  "vertical": [
+    1080,
+    1920
+  ],
+  "fullGameRect": [
+    0,
+    500,
+    1080,
+    756
+  ],
+  "gameSpeedScaling": false,
+  "nativeSplitScreen": true,
+  "seconds": 41.052993,
+  "nativeCPUForVegeta": true
+}

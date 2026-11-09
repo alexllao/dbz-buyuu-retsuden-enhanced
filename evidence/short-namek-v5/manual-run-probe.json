@@ -1,0 +1,42 @@
+{
+  "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+  "scope": "Preparation-only input probe, normal speed, P1 right-facing, normal Namek, spacing180",
+  "characters": [
+    "Goku",
+    "Vegeta"
+  ],
+  "firstTapFrames": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12
+  ],
+  "releaseFrames": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "secondHoldFrames": 24,
+  "cases": 112,
+  "observedRunActions7or8": 0,
+  "successfulTimings": [],
+  "status": "Manual double-tap route needs investigation; ROM not modified for this Short",
+  "shortRunSource": {
+    "character": "Vegeta",
+    "controller": "Native CPU",
+    "frames": 79,
+    "y": 448,
+    "xRange": [
+      135,
+      599
+    ]
+  }
+}

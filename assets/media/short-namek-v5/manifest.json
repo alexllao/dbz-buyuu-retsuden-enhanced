@@ -1,0 +1,111 @@
+{
+  "romBuild": "20261109-093419",
+  "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+  "romChanged": false,
+  "onlyV5": true,
+  "noBeforeAfterComparisons": true,
+  "fullGameAndHUDPreserved": true,
+  "gameRect": [
+    0,
+    500,
+    1080,
+    756
+  ],
+  "width": 1080,
+  "height": 1920,
+  "seconds": 41.052993,
+  "fps": 59.92274340431231,
+  "gameplaySpeedScaling": false,
+  "gameNativeSplitScreenPreserved": true,
+  "audio": "Native game sound;18/25ms fades at cuts; no added music",
+  "publishedToYouTube": false,
+  "scenes": [
+    {
+      "source": "work/namek-v5-short/captures/normal/01-carrera.mp4",
+      "sourceSha256": "e4540a0a8c62b098df80063b06a5fb62308092f279cf978bebaaa3c017dbd587",
+      "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+      "startFrame": 332,
+      "endFrame": 1000,
+      "seconds": 11.147687206055519,
+      "stage": "NAMEK",
+      "label": "FINAL FLASH + CARRERA",
+      "control": "Vegeta controlled by native CPU",
+      "nativeSplitScreen": true
+    },
+    {
+      "source": "work/namek-native-v5/promo/aldea/01-vuelo.mp4",
+      "sourceSha256": "1d5ec0ad99cbcc1bc5e245f284689ca05d0e3fd23f7c06abf309e90030b084f7",
+      "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+      "startFrame": 20,
+      "endFrame": 230,
+      "seconds": 3.504512445017453,
+      "stage": "NAMEK DEVASTADO",
+      "label": "COMBATE EN EL AIRE",
+      "control": "Human input flight route",
+      "nativeSplitScreen": false
+    },
+    {
+      "source": "work/namek-v5-short/captures/aldea/02-onda-partida.mp4",
+      "sourceSha256": "22ffa67774c4c9b2d92314dd1474625a85cc83aba041179c9cc60cfbe26fdc62",
+      "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+      "startFrame": 160,
+      "endFrame": 771,
+      "seconds": 10.19646239955078,
+      "stage": "NAMEK DEVASTADO",
+      "label": "KAMEHAMEHA",
+      "control": "Human Goku half-circle + A",
+      "nativeSplitScreen": true
+    },
+    {
+      "source": "work/namek-native-v5/promo/porunga/02-goku.mp4",
+      "sourceSha256": "e4449eb61ae08fc41e9c6aadf8105c15b041651e49d2860cd58cb000a6cad106",
+      "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+      "startFrame": 0,
+      "endFrame": 210,
+      "seconds": 3.504512445017453,
+      "stage": "PORUNGA",
+      "label": "GOLPES + ONDA DE KI",
+      "control": "Human Goku basics and Kamehameha",
+      "nativeSplitScreen": false
+    },
+    {
+      "source": "work/namek-native-v5/promo/porunga/01-vuelo.mp4",
+      "sourceSha256": "7e9c962957919a32e6d651bb5f683105ccad63dc92d72d1fb54d501e3aaf855e",
+      "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+      "startFrame": 80,
+      "endFrame": 220,
+      "seconds": 2.3363416300116358,
+      "stage": "PORUNGA",
+      "label": "VUELO Y DESPLAZAMIENTO",
+      "control": "Human input flight route",
+      "nativeSplitScreen": false
+    },
+    {
+      "source": "work/namek-v5-short/captures/porunga/02-onda-partida.mp4",
+      "sourceSha256": "e4f31557236693eb982cfb9d828dd58f81f19a52634e9d8710852be56d958899",
+      "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+      "startFrame": 160,
+      "endFrame": 776,
+      "seconds": 10.279903172051197,
+      "stage": "PORUNGA",
+      "label": "KAMEHAMEHA A DISTANCIA",
+      "control": "Human Goku half-circle + A",
+      "nativeSplitScreen": true
+    }
+  ],
+  "groundRun": {
+    "character": "Vegeta",
+    "controller": "Native CPU",
+    "frames": 79,
+    "y": 448,
+    "xRange": [
+      135,
+      599
+    ]
+  },
+  "file": {
+    "name": "DBZ-Namek-V5-YouTube-Short.mp4",
+    "sha256": "6d8213408fadb59cd678a810fda9c4578d35fb29db7a3e329a209542d4108bfd",
+    "bytes": 12038843
+  }
+}
