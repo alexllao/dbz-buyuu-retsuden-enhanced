@@ -142,3 +142,7 @@ Se pide añadir lava/volcan, mas humo y una casa destruida cercana al devastado.
 ## 9/11/2026 · R6 se ve pixelado; prueba R7 de detalle fino
 
 Tras ver la grabacion real, el usuario senala que todo se ve pixelado y aporta un recorte de roca y arboles. Se registra como problema de acabado de la adaptacion, sin darlo por resuelto por cumplir limites de consola. Se genera una guia de vetas finas y se importa solo dentro de las rocas y algunas copas existentes. R7 conserva exactamente las paletas y los pixeles exteriores a esas mascaras. Se preparan comparaciones de ROM reales a igual escala, PNG a1x/2x y video local con los tres escenarios. R7 requiere valoracion; R6 y los maestros aprobados permanecen archivados. Los videos no se publican. [Prueba, procedencia y limites](namek-rock-r7.md).
+
+## 9/11/2026 · Preferencia R6 tras comparar la textura
+
+El usuario indica «perfecto yo veo la r6 bien» y pide ver las tres variantes de Namek. Se mantiene R6 como referencia y se muestran normal, devastado con lava y Porunga mediante sus capturas y el video real ya grabado, build115335. R7 se conserva como alternativa; no se da por elegida automaticamente. Los videos continuan locales y sin publicar. [R6](namek-native-r6.md).

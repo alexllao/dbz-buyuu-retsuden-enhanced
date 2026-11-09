@@ -1,5 +1,7 @@
 # Namek R7: prueba de textura fina en la ROM
 
+**Valoración posterior:** el usuario indica que ve bien R6 y solicita ver sus tres variantes. No se elige R7 para sustituirla; se conserva esta prueba como alternativa.
+
 9 de noviembre de 2026. El usuario señala que R6 se ve muy pixelado y aporta una captura. Cumplir las restricciones de Mega Drive no resolvía el acabado: las grandes manchas planas de las mesetas perdían detalle frente a las vetas del fondo original. **R7 es una prueba pendiente de valoración; los maestros aprobados y R6 se conservan.**
 
 [**Comparación de la roca a la misma escala**](../assets/media/namek-rock-r7/Detalle-roca-misma-escala.png) · [Pantallas completas a1x](../assets/media/namek-rock-r7/Comparacion-ROM-1x.png) · [A2x](../assets/media/namek-rock-r7/Comparacion-ROM-2x.png) · [Fondo del juego, R6 y R7 a1x](../assets/media/namek-rock-r7/Referencia-original-R6-R7-1x.png).

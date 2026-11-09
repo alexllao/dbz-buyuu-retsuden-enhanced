@@ -1,6 +1,6 @@
 # Namek R6: revisión real desde la ROM
 
-**Revisión posterior:** el usuario señala que todavía ve el fondo muy pixelado. El acabado R6 no se considera final. Se prepara una [prueba R7 con textura de roca más fina](namek-rock-r7.md), manteniendo paleta, resolución y siluetas; pendiente de valoración.
+**Última valoración:** después de la [comparación R6/R7](namek-rock-r7.md), el usuario indica «yo veo la r6 bien» y pide ver las tres variantes R6. Se muestran normal, devastado con lava y Porunga desde el vídeo y capturas reales del build115335. Se mantiene R6 como referencia visual; R7 queda como alternativa conservada. La observación anterior sobre pixelación motivó esa prueba, pero no implica elegir R7.
 
 9 de noviembre de 2026. [Los tres maestros de arte están aprobados](namek-revision-r6.md), incluido el devastado con volcán distante, humo y una casa rota más cercana. El usuario pide explícitamente integrarlos y que el vídeo salga de la ROM, para revisión personal y sin subirlo. **La aprobación del dibujo no se extiende automáticamente a esta adaptación nativa.**
 
