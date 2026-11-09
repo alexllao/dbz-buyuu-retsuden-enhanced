@@ -1,0 +1,50 @@
+[
+  {
+    "scene": "ground-close",
+    "x": [
+      300,
+      332
+    ],
+    "plane": [
+      false,
+      false
+    ],
+    "AZeroBVisiblePixels": 0,
+    "AAndBZeroPixels": 20,
+    "nativeMatchesLowerPlane": 0,
+    "AZeroBVisibleOnBottomGrass": 0,
+    "backgroundSamples": 28468
+  },
+  {
+    "scene": "separated-ground",
+    "x": [
+      57,
+      332
+    ],
+    "plane": [
+      false,
+      false
+    ],
+    "AZeroBVisiblePixels": 0,
+    "AAndBZeroPixels": 0,
+    "nativeMatchesLowerPlane": 0,
+    "AZeroBVisibleOnBottomGrass": 0,
+    "backgroundSamples": 27984
+  },
+  {
+    "scene": "P1-flight",
+    "x": [
+      57,
+      332
+    ],
+    "plane": [
+      true,
+      false
+    ],
+    "AZeroBVisiblePixels": 0,
+    "AAndBZeroPixels": 0,
+    "nativeMatchesLowerPlane": 0,
+    "AZeroBVisibleOnBottomGrass": 0,
+    "backgroundSamples": 28682
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "all": {
+    "pixels": 262144,
+    "vqChangedPixels": 66012,
+    "vqChangedFraction": 0.2518157958984375,
+    "tiles": 4096,
+    "tilesWithVqPixelChanges": 2436,
+    "postZeroPixels": 66,
+    "preZeroPixels": 137,
+    "vqRGB_RMSE": 14.726483105513768
+  },
+  "sky": {
+    "pixels": 143360,
+    "vqChangedPixels": 48684,
+    "vqChangedFraction": 0.3395926339285714,
+    "tiles": 2240,
+    "tilesWithVqPixelChanges": 1442,
+    "postZeroPixels": 12,
+    "preZeroPixels": 83,
+    "vqRGB_RMSE": 14.598476645468992
+  },
+  "grass": {
+    "pixels": 81920,
+    "vqChangedPixels": 12501,
+    "vqChangedFraction": 0.15260009765625,
+    "tiles": 1280,
+    "tilesWithVqPixelChanges": 731,
+    "postZeroPixels": 12,
+    "preZeroPixels": 12,
+    "vqRGB_RMSE": 16.090618374521195
+  },
+  "rocks": {
+    "pixels": 36864,
+    "vqChangedPixels": 4827,
+    "vqChangedFraction": 0.13094075520833334,
+    "tiles": 576,
+    "tilesWithVqPixelChanges": 263,
+    "postZeroPixels": 42,
+    "preZeroPixels": 42,
+    "vqRGB_RMSE": 11.749384341632858
+  },
+  "uniqueBefore": [
+    2943,
+    26
+  ],
+  "afterTiles": 736,
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "sampling": "non-integer nearest resize to512; piecewise y resample; per-tile canonical flips and medoid substitution"
+}

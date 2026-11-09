@@ -8,7 +8,11 @@ El usuario considera que el escenario original se ve mucho mejor. Señala especi
 
 La conversión reduce miles de patrones de8×8 a736 representantes y sustituye bloques mediante distancia de color. Esos representantes no están dibujados para enlazar entre sí: la textura continua del suelo queda rota. La reducción de paleta agrava la pérdida de matices; el dithering selectivo del cielo no resuelve el problema del césped.
 
-Dirección corregida: conservar píxel a píxel los tiles y el mapa del suelo original, evitando convertir de nuevo un panorama completo. Evaluar la casa y Porunga como elementos separados con un presupuesto propio y comprobar primero una captura nativa. Esa reconstrucción todavía no está realizada ni validada. La ROM aprobada200852 sigue intacta y no se entrega una nueva ROM.
+Aclaración del usuario: los diseños gustan; el problema es su adaptación a Mega Drive. Se conserva la composición aprobada, incluidas montañas, colores de intención y localizaciones. Reutilizar texturas nativas para el césped es una técnica que estudiar, no una decisión de sustituir el diseño por el fondo antiguo. La nueva adaptación debe conservar continuidad, siluetas y límites entre materiales sin reemplazar cada bloque por un representante independiente. Todavía no está realizada ni validada; la ROM aprobada200852 sigue intacta.
+
+Idea propuesta por el usuario: Porunga podría ser un sprite independiente con una pequeña flotación vertical. Queda registrada como propuesta, no como animación implementada. Necesita presupuesto de tiles y sprites, paleta y recorte por cada cámara/pantalla partida. Separarlo no arregla por sí mismo el césped.
+
+La auditoría confirma que la sustitución de patrones modifica12.501 píxeles del césped (15,26 %) y afecta731 de1.280 tiles (57,1 %), después de cuantizar colores. El muestreo vecino más próximo1254→512 y la segunda proyección vertical también pueden añadir aliasing. En cambio solo12 píxeles de césped usan índice transparente0; las muestras VDP de suelo y vuelo no muestran exposición visible de la otra cámara en la zona inspeccionada. La transparencia requiere corrección preventiva, pero no explica el defecto general. [Datos de patrones](../evidence/namek-native-v1/quality-pattern-audit.json) · [Muestras VDP](../evidence/namek-native-v1/quality-vdp-transparency.json).
 
 ## Vídeos solicitados
 

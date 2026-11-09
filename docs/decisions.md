@@ -106,3 +106,8 @@ La casa debe tener el mismo tamaño en las tres variantes. Se genera un único r
 ## 9/11/2026 · Rechazo del acabado nativo de los nuevos fondos
 
 El usuario señala un aspecto general extraño y, en concreto, césped con parches cuadrados y pixelado superpuesto; el original se ve mejor. Se registra como adaptación visual fallida. No atribuir el fallo a la resolución de Mega Drive: la sustitución automática de patrones rompe la textura. Conservar el suelo original y revisar los añadidos por separado. La reconstrucción está pendiente, sin nueva aprobación visual ni entrega de ROM. [Diagnóstico](namek-native-v1.md).
+
+
+## 9/11/2026 · Conservar diseños y estudiar Porunga como sprite
+
+El usuario aclara que los diseños son bonitos y el problema está al adaptarlos a Mega Drive. No se decide volver al diseño del escenario antiguo: se mantiene la composición aprobada y se rehace la adaptación técnica. Sugiere Porunga como sprite con un pequeño movimiento de flotación vertical; idea pendiente, sin animación integrada. La auditoría identifica sustitución independiente de tiles como causa principal de los parches, no una limitación inevitable de la consola. [Diagnóstico y evidencias](namek-native-v1.md).
