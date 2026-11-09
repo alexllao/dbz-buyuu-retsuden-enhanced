@@ -1,0 +1,19 @@
+{
+  "variant": "aldea",
+  "tiles": 736,
+  "limit": 736,
+  "contourGroups": 653,
+  "materialBoundaryChanges": 0,
+  "rockShadeBoundaryChanges": 0,
+  "nativeForegroundExactFromY": 432,
+  "nativeGroundModuleX": [
+    208,
+    336
+  ],
+  "textureChangedPixels": 418,
+  "paletteOwnedEntries": 22,
+  "commonUntouched": true,
+  "sourceSha256": "caad88f14035ff15c526dc97592640076bc1b5d8a7861659487ec953d3315d34",
+  "houseColorSha256": "db3b8d0173900223e5bfe242f5acac5b9b7d16befe2ed7c3b1945a9177a317da",
+  "nativeApprovalPending": true
+}

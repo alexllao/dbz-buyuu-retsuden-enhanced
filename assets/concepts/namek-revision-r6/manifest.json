@@ -3,7 +3,6 @@
   "revision": "R6",
   "mode": "built-in imagegen edits",
   "purpose": "Art masters for PNG review, not native Mega Drive resources",
-  "romModified": false,
   "normalApproval": "este primerp perfecto",
   "files": [
     {
@@ -17,7 +16,7 @@
     },
     {
       "file": "aldea-propuesta.png",
-      "status": "pending_user_review",
+      "status": "archived_superseded_by_lava",
       "sha256": "2e99c5f5ef461db74ea97027c89d063dea70d3384262f84082e0ad6efe723525",
       "width": 1254,
       "height": 1254,
@@ -26,12 +25,27 @@
     },
     {
       "file": "porunga-propuesta.png",
-      "status": "pending_user_review",
+      "status": "approved",
       "sha256": "45acdaae7ffb0cb286ccf23be11162365d4896125d2ef97bc9846c99de4e4c43",
       "width": 1254,
       "height": 1254,
       "source": "exec-bb72a5fb-3349-4970-a6b7-24ba6a2451e4.png",
       "byteIdenticalCopy": true
+    },
+    {
+      "file": "aldea-lava-aprobado.png",
+      "status": "approved",
+      "sha256": "caad88f14035ff15c526dc97592640076bc1b5d8a7861659487ec953d3315d34",
+      "width": 1254,
+      "height": 1254,
+      "source": "exec-d4b1e520-5fd9-44c9-b651-c7245df9dda7.png",
+      "byteIdenticalCopy": true
     }
-  ]
+  ],
+  "approval": "perfctos los tres, kedan muy bien, almenso como yo lo veo",
+  "lavaApproval": "si, mucho mejor",
+  "scope": "Art masters approved; native adaptation requires separate review",
+  "nativeIntegrationAuthorized": true,
+  "nativeRequest": "el video ke sea de la rom",
+  "romModifiedDuringArtGeneration": false
 }

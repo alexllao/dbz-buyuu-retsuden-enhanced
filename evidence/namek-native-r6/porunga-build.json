@@ -1,0 +1,19 @@
+{
+  "variant": "porunga",
+  "tiles": 736,
+  "limit": 736,
+  "contourGroups": 732,
+  "materialBoundaryChanges": 0,
+  "rockShadeBoundaryChanges": 0,
+  "nativeForegroundExactFromY": 432,
+  "nativeGroundModuleX": [
+    208,
+    336
+  ],
+  "textureChangedPixels": 8225,
+  "paletteOwnedEntries": 22,
+  "commonUntouched": true,
+  "sourceSha256": "45acdaae7ffb0cb286ccf23be11162365d4896125d2ef97bc9846c99de4e4c43",
+  "houseColorSha256": "db3b8d0173900223e5bfe242f5acac5b9b7d16befe2ed7c3b1945a9177a317da",
+  "nativeApprovalPending": true
+}

@@ -1,0 +1,19 @@
+{
+  "variant": "normal",
+  "tiles": 736,
+  "limit": 736,
+  "contourGroups": 646,
+  "materialBoundaryChanges": 0,
+  "rockShadeBoundaryChanges": 0,
+  "nativeForegroundExactFromY": 432,
+  "nativeGroundModuleX": [
+    208,
+    336
+  ],
+  "textureChangedPixels": 266,
+  "paletteOwnedEntries": 22,
+  "commonUntouched": true,
+  "sourceSha256": "2d08f7dfa4bd61b17def99d907893c59711a45c05f2f73bf9a92db836d55f39d",
+  "houseColorSha256": "db3b8d0173900223e5bfe242f5acac5b9b7d16befe2ed7c3b1945a9177a317da",
+  "nativeApprovalPending": true
+}

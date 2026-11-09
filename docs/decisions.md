@@ -133,3 +133,8 @@ El usuario aclara que no quiere otra comparación: pide ver únicamente V5, movi
 
 El usuario pide redibujar correctamente las uniones del terreno y las ruinas, conservar los colores y revisar primero los PNG completos. Aprueba el nuevo normal: «este primerp perfecto». Se conserva ese archivo sin modificar. Devastado y Porunga se generan con esa base y quedan pendientes de aprobación. Son maestros de arte de1254×1254; no se integran en la ROM ni se presentan como mapas nativos. V5 y su vídeo quedan históricos. [PNG, prompts y alcance](namek-revision-r6.md).
 
+
+## 9/11/2026 · Tres maestros R6 aprobados; video privado de la ROM
+
+Se pide añadir lava/volcan, mas humo y una casa destruida cercana al devastado. Se genera otra variante y el usuario la elige: «si, mucho mejor». Despues aprueba los tres PNG: «perfctos los tres, kedan muy bien, almenso como yo lo veo». Pide integracion real y aclara que el video ha de ser de la ROM, para revision propia y sin subirlo. Se integra R6 en un build experimental separado, se recuperan patrones del suelo original y se corrige una primera aproximacion con bloques en las sombras de roca. Los maestros aprobados se conservan intactos; el acabado nativo requiere su propia valoracion. El video queda local, sin publicarse ni incluirse en el repositorio. Humo, lava y Porunga siguen estaticos. [Adaptacion, capturas y pruebas](namek-native-r6.md).
+

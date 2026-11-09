@@ -1,0 +1,102 @@
+{
+  "romSha256": "7e2bd26e6b801c823a1be61ba79bfbdb1719c0b51eba62b971ceeffa7c92c084",
+  "cases": [
+    {
+      "scenario": "normal",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "normal",
+      "cid": 1,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "normal",
+      "cid": 3,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "normal",
+      "cid": 5,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "aldea",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 2,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "aldea",
+      "cid": 1,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 2,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "aldea",
+      "cid": 3,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 2,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "aldea",
+      "cid": 5,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 2,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "porunga",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 3,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "porunga",
+      "cid": 1,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 3,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "porunga",
+      "cid": 3,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 3,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "porunga",
+      "cid": 5,
+      "enemy": 0,
+      "stage": 6,
+      "variant": 3,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    }
+  ],
+  "fixtureScope": "After native stage selection: actors control bytes human, initial spacing/facing only. Critical HP obtained by real P2 punches and natural recovery; ki by native charge inputs."
+}
