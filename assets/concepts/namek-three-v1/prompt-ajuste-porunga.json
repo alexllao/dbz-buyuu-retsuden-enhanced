@@ -1,0 +1,5 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit target image1: dark Namek panorama with Porunga. Change ONLY Porunga's size and position so he is a more distant background figure, about 60% of his present dimensions, located lower in the sky above the LEFT low mesa, centered around x=40% of canvas, his top horns at approximately y=35% of canvas and his tail ending near y=57% of canvas. His whole head/torso/tail should read as one recognizable small distant dragon in the strip between y=35% and y=57%, fully behind distant scenery. This placement is essential because the ground-level game camera crops away the upper third of this panorama. Preserve every other pixel-art object, mountain, little Guru house (same small size), terrain, trees, colors, dark sky and green lighting in exactly their existing layout. Where the old large dragon was, restore matching dark pixel-art sky/clouds. Crisp 16-bit pixel art, no text or HUD, no fighters. Do not change camera or canvas.",
+  "input": "porunga-encuadre-anterior.png"
+}

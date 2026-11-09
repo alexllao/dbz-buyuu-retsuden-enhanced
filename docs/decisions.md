@@ -91,3 +91,8 @@ Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducci
 ## 9/11/2026 · Namek, simulación y escenarios alternativos
 
 Se acepta la dirección general del redibujado, con montañas retocadas y casa del Gran Patriarca corregida a partir de la referencia del usuario. Debe ser pixel art. Se solicita ver combate, vuelo y ataque grande; se entrega una simulación comparativa con imágenes reales del build200852, sin cambiar la ROM. Se conservan conceptos de Namek normal, aldea devastada y cielo de invocación de Porunga. La adaptación a paletas, tiles y capas nativas queda pendiente. [Vídeo, referencias y alcance](namek-redraw-v2.md).
+
+
+## 9/11/2026 · Casa más pequeña y tres simulaciones de Namek
+
+El usuario ve bien la simulación anterior y pide reducir ligeramente la casa respecto a la montaña. Se conserva la dirección visual y se preparan panoramas y vídeos de Namek normal, aldea devastada y Porunga, con los mismos combates y vuelo. Son simulaciones sobre juego real; no escenarios integrados ni variantes finales aprobadas todavía. [Entrega y alcance](namek-three-v1.md).

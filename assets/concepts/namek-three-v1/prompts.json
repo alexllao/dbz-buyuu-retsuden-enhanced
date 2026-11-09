@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-09",
+  "normal": {
+    "prompt": "Use case: precise-object-edit. Edit target: first image, the square full Namek background panorama. Primary request: shrink ONLY Guru's ivory horned house on top of the right mountain to approximately 75-80 percent of its current width and height, anchored to the same mountain summit surface; expose a little more blue grassy summit on either side. Preserve its low elongated shape, horns, round teal windows, entrance. Keep the mountain itself unchanged in size and position. Preserve ALL other scenery, layout, horizon, trees, green sky, blue terrain, ochre rock, native pixel-art style and square canvas; no characters, no HUD, no text. Crisp authentic 16-bit pixel clusters, hard edges, no smoothing. This is the normal version and must remain visually the same apart from the modestly smaller house.",
+    "input": "assets/concepts/namek-redraw-v2/Panorama-casa-correcta.png"
+  },
+  "aldea": {
+    "prompt": "Use case: precise-object-edit. Image 1 is the edit target square game-background panorama, image 2 only reference for the devastated middle-panel mood. Create the ALDEA DEVASTADA variant of image 1 as a single square full background, no board, labels, fighters or HUD. Preserve EXACT layout, framing, horizon height, original mountains and their dimensions, original trees positions, and the newly smaller ivory horned Guru house anchored on the right mountain summit. Add several broken low ivory Namekian village houses with round green windows, craters and dark rubble in the lower foreground/near horizon, small rising smoke plumes. Do not obstruct the clear central fighting area; ruined houses should sit back and toward the edges. Change the sky to muted olive green/yellow with dim clouds as in middle reference. Blue terrain remains blue with subdued shadows, ochre rocks remain ochre. All assets in consistent crisp 16-bit pixel art, limited stepped color clusters, no smooth painting, no characters, no text. No perspective or canvas changes. The Guru house is still intact and should remain the same SMALL size as image 1.",
+    "inputs": [
+      "assets/concepts/namek-three-v1/normal.png",
+      "assets/concepts/namek-redraw-v2/Variantes-Namek.png"
+    ]
+  },
+  "porunga": {
+    "prompt": "Use case: lighting-weather with compositing. Image 1 is the edit target square game-background panorama; image 2 is a style reference for the rightmost Porunga scene. Create INVOCACION DE PORUNGA as a single square panorama with EXACT SAME scenery layout, horizon height, dimensions, mountains, trees and especially the modest SMALL ivory horned Guru house on the right summit. Alter sky to dark navy-black clouds with ominous green light at the horizon. Add Porunga, the large bulky horned green Namekian wish dragon with muscular humanoid upper torso, coiling pale-bellied serpent lower body and NO legs, recognizable from image2, floating DISTANTLY in the upper-left/center sky, outlined by restrained pale yellow-green glow rendered in pixel clusters. Leave sky above and around dragon for flight camera. Dragon should occupy approximately x 25-60 percent and y 25-53 percent of canvas, entirely behind mountains. Preserve terrain layout and blue/ochre identity, shade it for dark green-lit sky. No ruined village in this version. Authentic 16-bit game pixel art with hard pixel edges and limited stepped color clusters, no smoothing or realistic painting. No fighters, HUD, labels, borders or text. This is a different sky and distant backdrop, not a different camera composition.",
+    "inputs": [
+      "assets/concepts/namek-three-v1/normal.png",
+      "assets/concepts/namek-redraw-v2/Variantes-Namek.png"
+    ]
+  }
+}

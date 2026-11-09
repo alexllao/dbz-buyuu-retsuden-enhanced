@@ -34,3 +34,7 @@ Se conservan tres conceptos: Namek normal, aldea devastada con casas rotas y hum
 [Panorama con la casa corregida](../assets/concepts/namek-redraw-v2/Panorama-casa-correcta.png). [Boceto anterior](../assets/concepts/namek-redraw-v2/Comparacion-concepto-v2.png), conservado aunque su casa fue reemplazada. [Primera propuesta y comentarios históricos](namek-redraw-v1.md).
 
 Las referencias visuales de manga y anime las aporta el usuario. El dibujo artístico se genera con image_gen; Python se utiliza para decodificar y componer capas reales y FFmpeg para el montaje. No se presentan los conceptos generados como capturas nativas.
+
+## Revisión posterior
+
+El usuario considera correcto el resultado y solicita una casa algo más pequeña y simulaciones de las tres variantes. [Vídeos y panoramas revisados](namek-three-v1.md). Esta comparación anterior se conserva como referencia.

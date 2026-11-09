@@ -1,0 +1,44 @@
+[
+  {
+    "label": "01-vuelo",
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "allNativeActorStatesMatch": true,
+    "rasterFrames": 0
+  },
+  {
+    "label": "02-goku",
+    "frames": 300,
+    "seconds": 5.006446350024933,
+    "allNativeActorStatesMatch": true,
+    "rasterFrames": 0
+  },
+  {
+    "label": "03-gohan",
+    "frames": 297,
+    "seconds": 4.956381886524684,
+    "allNativeActorStatesMatch": true,
+    "rasterFrames": 0
+  },
+  {
+    "label": "04-vegeta",
+    "frames": 413,
+    "seconds": 6.892207808534325,
+    "allNativeActorStatesMatch": true,
+    "rasterFrames": 0
+  },
+  {
+    "label": "05-cell",
+    "frames": 841,
+    "seconds": 14.034737934569897,
+    "allNativeActorStatesMatch": true,
+    "rasterFrames": 0
+  },
+  {
+    "label": "06-pantalla-partida",
+    "frames": 769,
+    "seconds": 12.833190810563913,
+    "allNativeActorStatesMatch": true,
+    "rasterFrames": 753
+  }
+]

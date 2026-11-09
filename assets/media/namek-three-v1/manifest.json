@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-09",
+  "sourceBuild": "20261108-200852",
+  "sourceRomSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "backgroundIntegrated": false,
+  "house": "Approximately 75-80% of preceding normal-house dimensions; mountains unchanged in intention",
+  "variants": [
+    "normal",
+    "aldea devastada",
+    "invocacion de Porunga"
+  ],
+  "assets": [
+    {
+      "path": "repository/assets/concepts/namek-three-v1/aldea.png",
+      "sha256": "e38257457787f6b23cc7dbf989736e6fc51a54090ac6b9f1526b13d653fddc07"
+    },
+    {
+      "path": "repository/assets/concepts/namek-three-v1/normal.png",
+      "sha256": "77b5aa25315433bc628db1a7b60a5d975f9ea0336fe115a1a81cf9c698242f5c"
+    },
+    {
+      "path": "repository/assets/concepts/namek-three-v1/porunga-encuadre-anterior.png",
+      "sha256": "def1e43f2d05a4d71ec90764d12155c8b3bdcaa5a5a23bf1a022369b44359fc1"
+    },
+    {
+      "path": "repository/assets/concepts/namek-three-v1/porunga.png",
+      "sha256": "7a9eba445c46147444880e14114da4b6fb86b3139f5a4ddca399580313916759"
+    }
+  ],
+  "audit": [
+    {
+      "label": "01-vuelo",
+      "frames": 437,
+      "seconds": 7.29272351653632,
+      "allNativeActorStatesMatch": true,
+      "rasterFrames": 0
+    },
+    {
+      "label": "02-goku",
+      "frames": 300,
+      "seconds": 5.006446350024933,
+      "allNativeActorStatesMatch": true,
+      "rasterFrames": 0
+    },
+    {
+      "label": "03-gohan",
+      "frames": 297,
+      "seconds": 4.956381886524684,
+      "allNativeActorStatesMatch": true,
+      "rasterFrames": 0
+    },
+    {
+      "label": "04-vegeta",
+      "frames": 413,
+      "seconds": 6.892207808534325,
+      "allNativeActorStatesMatch": true,
+      "rasterFrames": 0
+    },
+    {
+      "label": "05-cell",
+      "frames": 841,
+      "seconds": 14.034737934569897,
+      "allNativeActorStatesMatch": true,
+      "rasterFrames": 0
+    },
+    {
+      "label": "06-pantalla-partida",
+      "frames": 769,
+      "seconds": 12.833190810563913,
+      "allNativeActorStatesMatch": true,
+      "rasterFrames": 753
+    }
+  ],
+  "media": [
+    {
+      "slug": "normal",
+      "path": "repository/assets/media/namek-three-v1/normal.mp4",
+      "sha256": "135e298280317de1ddd4c5a89bf5bb51afedbbb33ef621dce7bbaa8b68402de1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 764,
+            "r_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.037310"
+        }
+      }
+    },
+    {
+      "slug": "aldea",
+      "path": "repository/assets/media/namek-three-v1/aldea.mp4",
+      "sha256": "b56753087b4245b1cb4b9b2343cc1d1fd537d774f4bb70849e4c3a51bc2d3581",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 764,
+            "r_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.037310"
+        }
+      }
+    },
+    {
+      "slug": "porunga",
+      "path": "repository/assets/media/namek-three-v1/porunga.mp4",
+      "sha256": "390d3f65c9df7b2130f5dfd68183058f259b792c4da4b597e8f21b1afb84c1a3",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 764,
+            "r_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.037310"
+        }
+      }
+    },
+    {
+      "slug": "tres",
+      "path": "repository/assets/media/namek-three-v1/tres.mp4",
+      "sha256": "db0888ee2391d667e342e5bbc3b447aa2ae49b85146032e4723d07adaba701bb",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 538,
+            "r_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.037310"
+        }
+      }
+    }
+  ]
+}
