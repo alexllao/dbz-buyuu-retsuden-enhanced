@@ -1,0 +1,104 @@
+{
+  "buildId": "20261109-083420",
+  "romSha256": "50d3e3a96b178ee81c0aa4953b7ee67aef9a11b9692038e7077558e66e7bf228",
+  "nativeCaptures": true,
+  "backgroundCompositing": false,
+  "normalSpeed": true,
+  "romDelivered": false,
+  "userApprovalPending": true,
+  "physicalConsoleTested": false,
+  "comparison": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 504,
+        "avg_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "12.232417"
+    }
+  },
+  "videos": [
+    {
+      "scenario": "normal",
+      "filename": "Namek-normal-V4.mp4",
+      "sha256": "7d9a92b3fbe266465e4ae6b1eb90e72761c1e3e143bfeec0969fd93f3582f268",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "13.165011"
+        }
+      }
+    },
+    {
+      "scenario": "aldea",
+      "filename": "Namek-aldea-V4.mp4",
+      "sha256": "ccea28f0fed9557bc9c4e1895d76d4c72cae01055b94c80ca95dae590438e4c2",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "13.165011"
+        }
+      }
+    },
+    {
+      "scenario": "porunga",
+      "filename": "Namek-porunga-V4.mp4",
+      "sha256": "d342302a2733ff02e11faf7cde51217ed7dc4e56f3b6662c659a51366c527165",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "13.165011"
+        }
+      }
+    }
+  ],
+  "notes": "V3 versus V4. Only palettes and house pixel color indices change; shapes/textures and gameplay retained. Sky band removed in normal Namek by equal green entries. Porunga remains static."
+}

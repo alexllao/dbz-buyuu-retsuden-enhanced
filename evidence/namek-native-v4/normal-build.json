@@ -1,0 +1,60 @@
+{
+  "variant": "normal",
+  "buildId": "20261109-083242",
+  "tiles": 730,
+  "limit": 736,
+  "recompressedLosslessly": true,
+  "source": "V3 indices; no spatial resampling",
+  "outsideHouseIndicesChanged": 0,
+  "houseChangedPixels": 348,
+  "houseColorSha256": "970a9d27eafaa10b9552c99b9a737838f65da1715bf92a512d6548051845e7f2",
+  "earthPalette": {
+    "6": [
+      6,
+      5,
+      4
+    ],
+    "7": [
+      4,
+      4,
+      3
+    ],
+    "8": [
+      3,
+      3,
+      2
+    ],
+    "9": [
+      2,
+      2,
+      2
+    ],
+    "14": [
+      6,
+      6,
+      5
+    ]
+  },
+  "houseRemap": {
+    "6": 15,
+    "7": 14,
+    "8": 6,
+    "9": 8
+  },
+  "normalSky": {
+    "continuous": true,
+    "paletteIndices": [
+      11,
+      12
+    ],
+    "color9bit": [
+      1,
+      5,
+      2
+    ],
+    "previousTransitionPixels": 596
+  },
+  "sharedPaletteUntouched": true,
+  "targetSha256": "9e1e7ef088d2617e32f29d24a4760bfb3111e5cf3d81080d6131e2e908382538",
+  "userApprovalPending": true
+}

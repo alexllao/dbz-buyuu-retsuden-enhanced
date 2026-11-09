@@ -1,5 +1,7 @@
 # Namek: revisión de la definición nativa
 
+**Revisión posterior:** el usuario considera bastante mejor la definición, pero pide tierras menos rojizas, casa marfil y quitar la franja del cielo. Esos ajustes se presentan en [V4](namek-native-v4.md), pendientes de valoración.
+
 9/11/2026. El usuario rechaza los parches de la primera adaptación y la excesiva pixelación de la segunda prueba. Pide trabajar sin mostrar más avances hasta tener un resultado comprobado. **V1 y V2 quedan descartadas. V3 es una nueva prueba técnica y visual; todavía no está aprobada por el usuario.** La última versión general aprobada sigue siendo200852.
 
 [**Antes/ahora de los tres escenarios · unos37 s**](../assets/media/namek-native-v3/comparacion.mp4). Izquierda: adaptación V1 descartada; derecha: V3. Ambas son capturas del emulador con recursos cargados por la ROM, a velocidad normal. Se comparan las mismas rutas de vuelo y básicos/Kamehameha; no se garantiza que la fase de animación de cada actor coincida exactamente. Se escucha la captura nueva.
