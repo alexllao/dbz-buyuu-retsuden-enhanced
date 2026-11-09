@@ -1,0 +1,125 @@
+{
+  "romSha256": "1e12cd036f5c0bb9ef464f6e428d9ee2df32a17e5b80ac67fbfb2330c06373b4",
+  "checks": [
+    {
+      "variant": "normal",
+      "label": "ground",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 1
+    },
+    {
+      "variant": "normal",
+      "label": "flight-one",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 1
+    },
+    {
+      "variant": "normal",
+      "label": "flight-both",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 1
+    },
+    {
+      "variant": "normal",
+      "label": "landed",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 1
+    },
+    {
+      "variant": "normal",
+      "label": "aura",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 1
+    },
+    {
+      "variant": "aldea",
+      "label": "ground",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 2
+    },
+    {
+      "variant": "aldea",
+      "label": "flight-one",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 2
+    },
+    {
+      "variant": "aldea",
+      "label": "flight-both",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 2
+    },
+    {
+      "variant": "aldea",
+      "label": "landed",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 2
+    },
+    {
+      "variant": "aldea",
+      "label": "aura",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 2
+    },
+    {
+      "variant": "porunga",
+      "label": "ground",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 3
+    },
+    {
+      "variant": "porunga",
+      "label": "flight-one",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 3
+    },
+    {
+      "variant": "porunga",
+      "label": "flight-both",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 3
+    },
+    {
+      "variant": "porunga",
+      "label": "landed",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 3
+    },
+    {
+      "variant": "porunga",
+      "label": "aura",
+      "backgroundVramExact": true,
+      "palette22WordsExact": true,
+      "stage": 6,
+      "variantByte": 3
+    }
+  ]
+}

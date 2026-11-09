@@ -1,0 +1,14 @@
+[
+  {
+    "label": "01-vuelo",
+    "framesBefore": 437,
+    "framesAfter": 437,
+    "nativeActorsAndInputsFrameExact": true
+  },
+  {
+    "label": "06-pantalla-partida",
+    "framesBefore": 775,
+    "framesAfter": 775,
+    "nativeActorsAndInputsFrameExact": true
+  }
+]

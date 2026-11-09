@@ -1,0 +1,24 @@
+{
+  "resources": {
+    "work/namek-native-r7/normal/tiles.bin": "8d9816f4a4ec7f093a61d2d05b3fc2a1b4152669713c80a06a9c95b2c2ae39e9",
+    "work/namek-native-r7/normal/gfx.lz": "d17eeaed94d5cef39a054ce54ed98b907a556e7b4ed38df8735043683b241b28",
+    "work/namek-native-r7/normal/map.bin": "2086c54c8d6b9ddc614b81bedd24dfbb2ca0b8c4321c9f580af176c3a4410a00",
+    "work/namek-native-r7/normal/map-header.bin": "9c84210ed1935b097d4a63c1e071164caac36ddb730ab1fbd0bf1b66db9f0ebb",
+    "work/namek-native-r7/normal/palette.bin": "91f19a289f6ea810fbd67bc8e87d7807fe44635525eb0b2b66ac6538bb44c9b8",
+    "work/namek-native-r7/aldea/tiles.bin": "398ebb48b177755d6bde69e10387e7177ee8ad1c9696defa7b26d1d0d2c02f90",
+    "work/namek-native-r7/aldea/gfx.lz": "d5035f86935d83abb9159381819282dec338346e33ebd3b2812ca2dd25d7d821",
+    "work/namek-native-r7/aldea/map.bin": "9054dad67571d58042c72a9c98459394df4cc4ec742a75e95ad7568a554494e8",
+    "work/namek-native-r7/aldea/map-header.bin": "59d50de3051fbf550104a28d0af2b8c715beec15a6594ee64006025bb04135b5",
+    "work/namek-native-r7/aldea/palette.bin": "255f89b3020a159557f3b6de03d3be59524eda750f4676bac8820e5d29d3b5a8",
+    "work/namek-native-r7/porunga/tiles.bin": "99fef9a0f4d6e94d1852177b75cbcab72e23b9762cf342314783cf5ea6d8984b",
+    "work/namek-native-r7/porunga/gfx.lz": "ed228e5ad8641b9d33ee9751439d716e8430f3a86eb329099ec33d199e329541",
+    "work/namek-native-r7/porunga/map.bin": "41894d714c84e98457b9ce569995e074f7a6c9e7c5b781fb451cdecf4df25491",
+    "work/namek-native-r7/porunga/map-header.bin": "e6bba45f13cd8457a631f4c159932e20d4d2d29c20a38bbd178dd092c4c00d59",
+    "work/namek-native-r7/porunga/palette.bin": "ed81703e78a36bd5d4882408b1dc8052ca33cc598a938ede62bd70c1d297e14e"
+  },
+  "all15ResourcesByteIdentical": true,
+  "all9EmbeddedRomResourcesExact": true,
+  "all3PalettesR6Exact": true,
+  "editedRegionsOnly": true,
+  "romSha256": "1e12cd036f5c0bb9ef464f6e428d9ee2df32a17e5b80ac67fbfb2330c06373b4"
+}

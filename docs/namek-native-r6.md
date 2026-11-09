@@ -1,5 +1,7 @@
 # Namek R6: revisión real desde la ROM
 
+**Revisión posterior:** el usuario señala que todavía ve el fondo muy pixelado. El acabado R6 no se considera final. Se prepara una [prueba R7 con textura de roca más fina](namek-rock-r7.md), manteniendo paleta, resolución y siluetas; pendiente de valoración.
+
 9 de noviembre de 2026. [Los tres maestros de arte están aprobados](namek-revision-r6.md), incluido el devastado con volcán distante, humo y una casa rota más cercana. El usuario pide explícitamente integrarlos y que el vídeo salga de la ROM, para revisión personal y sin subirlo. **La aprobación del dibujo no se extiende automáticamente a esta adaptación nativa.**
 
 Vídeo local: `Namek-R6-ROM-tres-escenarios.mp4`, carpeta de entrega `outputs/Namek-R6-ROM-revision`, aproximadamente **2:34**. No se publica en YouTube ni se copia el MP4 al repositorio. Es una captura directa del framebuffer y sonido de Genesis Plus GX, a velocidad normal. No se sustituye el fondo en posproducción. Solo se añaden rótulos y se concatenan las tomas.

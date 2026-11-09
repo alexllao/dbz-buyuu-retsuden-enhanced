@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-09",
+  "mode": "built-in image_gen.imagegen",
+  "guideSha256": "085535ec37c1e7a3bb02a00a6059bdbcdcda85c24fd85237c655a357c9018976",
+  "sourceOutput": "exec-0269863c-8fc5-46d5-ab9e-87e126d88a03.png",
+  "prompt": "prompt.json",
+  "nativeApprovalPending": true
+}

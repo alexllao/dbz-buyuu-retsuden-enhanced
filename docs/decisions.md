@@ -138,3 +138,7 @@ El usuario pide redibujar correctamente las uniones del terreno y las ruinas, co
 
 Se pide añadir lava/volcan, mas humo y una casa destruida cercana al devastado. Se genera otra variante y el usuario la elige: «si, mucho mejor». Despues aprueba los tres PNG: «perfctos los tres, kedan muy bien, almenso como yo lo veo». Pide integracion real y aclara que el video ha de ser de la ROM, para revision propia y sin subirlo. Se integra R6 en un build experimental separado, se recuperan patrones del suelo original y se corrige una primera aproximacion con bloques en las sombras de roca. Los maestros aprobados se conservan intactos; el acabado nativo requiere su propia valoracion. El video queda local, sin publicarse ni incluirse en el repositorio. Humo, lava y Porunga siguen estaticos. [Adaptacion, capturas y pruebas](namek-native-r6.md).
 
+
+## 9/11/2026 · R6 se ve pixelado; prueba R7 de detalle fino
+
+Tras ver la grabacion real, el usuario senala que todo se ve pixelado y aporta un recorte de roca y arboles. Se registra como problema de acabado de la adaptacion, sin darlo por resuelto por cumplir limites de consola. Se genera una guia de vetas finas y se importa solo dentro de las rocas y algunas copas existentes. R7 conserva exactamente las paletas y los pixeles exteriores a esas mascaras. Se preparan comparaciones de ROM reales a igual escala, PNG a1x/2x y video local con los tres escenarios. R7 requiere valoracion; R6 y los maestros aprobados permanecen archivados. Los videos no se publican. [Prueba, procedencia y limites](namek-rock-r7.md).

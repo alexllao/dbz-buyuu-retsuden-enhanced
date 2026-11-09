@@ -1,0 +1,17 @@
+{
+  "variant": "aldea",
+  "patternsBefore": 734,
+  "tiles": 734,
+  "limit": 736,
+  "budgetAdjustmentPixels": 0,
+  "budgetAdjustmentWrites": 0,
+  "losslessPatternPackingAfterAdjustment": true,
+  "paletteR6Exact": true,
+  "changedPixels": 4985,
+  "rockChangedPixels": 4877,
+  "treeChangedPixels": 108,
+  "outsideEditedRegionsChangedPixels": 0,
+  "sourceGuideSha256": "085535ec37c1e7a3bb02a00a6059bdbcdcda85c24fd85237c655a357c9018976",
+  "houseColorSha256": "db3b8d0173900223e5bfe242f5acac5b9b7d16befe2ed7c3b1945a9177a317da",
+  "nativeApprovalPending": true
+}
