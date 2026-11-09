@@ -1,0 +1,138 @@
+{
+  "romBuild": "20261109-050003",
+  "romSha256": "f45950acb6b7cc7ea7f5a272c1cd17c1ca98fb9bcc7a3bc49370c15a076e0e43",
+  "nativeBackgrounds": true,
+  "postproductionBackgroundCompositing": false,
+  "normalGameSpeed": true,
+  "romDelivered": false,
+  "videos": [
+    {
+      "scenario": "original",
+      "filename": "01-Namek-original.mp4",
+      "sha256": "cfc3f86f7766aed5594ffd7f59e81af2634add1e530178beab4209ee4cb99567",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "466257608/7806011"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.387256"
+        }
+      },
+      "chapters": [
+        "02-goku",
+        "03-gohan",
+        "04-vegeta",
+        "05-cell",
+        "01-vuelo",
+        "06-pantalla-partida"
+      ]
+    },
+    {
+      "scenario": "normal",
+      "filename": "02-Namek-Gran-Patriarca.mp4",
+      "sha256": "5ffa9251f91dcc5c2a451098c09d7be3a156d963399c733024813f95f1e1b31b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "463825224/7772969"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.219229"
+        }
+      },
+      "chapters": [
+        "01-vuelo",
+        "03-gohan",
+        "02-goku",
+        "04-vegeta",
+        "05-cell",
+        "06-pantalla-partida"
+      ]
+    },
+    {
+      "scenario": "aldea",
+      "filename": "03-Namek-aldea-devastada.mp4",
+      "sha256": "fc614d6b82ddf85ee205cfb1c2c4cf6b6d8a675485449cddd7c21d4fd1f7b1a8",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "465345464/7790815"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.320227"
+        }
+      },
+      "chapters": [
+        "04-vegeta",
+        "02-goku",
+        "03-gohan",
+        "05-cell",
+        "01-vuelo",
+        "06-pantalla-partida"
+      ]
+    },
+    {
+      "scenario": "porunga",
+      "filename": "04-Namek-Porunga.mp4",
+      "sha256": "7d7bfc1bbfb67fc671c42a2929e79e181f214835b35fa23d0cf5841f7cb31b75",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "93190712/1561213"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.437234"
+        }
+      },
+      "chapters": [
+        "05-cell",
+        "04-vegeta",
+        "02-goku",
+        "03-gohan",
+        "01-vuelo",
+        "06-pantalla-partida"
+      ]
+    }
+  ]
+}

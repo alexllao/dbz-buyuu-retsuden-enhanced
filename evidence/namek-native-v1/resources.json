@@ -1,0 +1,69 @@
+{
+  "baseSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "resources": [
+    {
+      "variant": "normal",
+      "file": "gfx.lz",
+      "address": "0x300000",
+      "bytes": 27650,
+      "sha256": "a1dcdbdc4c28e31aa0949818e59e0eb5c8564e2b31fd0478bb815f0b06ea6fef"
+    },
+    {
+      "variant": "normal",
+      "file": "map-header.bin",
+      "address": "0x307000",
+      "bytes": 8194,
+      "sha256": "a418996d1a1724f343cfcbee50cfbb7eff5ae9bdcf58367c266bcaa1bb474681"
+    },
+    {
+      "variant": "normal",
+      "file": "palette.bin",
+      "address": "0x309100",
+      "bytes": 48,
+      "sha256": "2f519f9ccdbc60ab095797463f10121fcf20b89a44cef7185eec4a37c17a0bbd"
+    },
+    {
+      "variant": "aldea",
+      "file": "gfx.lz",
+      "address": "0x310000",
+      "bytes": 27650,
+      "sha256": "80d3ca6e7f03e899bb314da0ee76dd39abadfd71486f9b9a0d997ae9e2378036"
+    },
+    {
+      "variant": "aldea",
+      "file": "map-header.bin",
+      "address": "0x317000",
+      "bytes": 8194,
+      "sha256": "362a67711052f7a83d3f371d9aaa1f47da7726204dcf595c938ff5cd78763dfe"
+    },
+    {
+      "variant": "aldea",
+      "file": "palette.bin",
+      "address": "0x319100",
+      "bytes": 48,
+      "sha256": "8b9b03536163150ab6285bb780703db69a0244c1e500192a73a98d62e1820930"
+    },
+    {
+      "variant": "porunga",
+      "file": "gfx.lz",
+      "address": "0x320000",
+      "bytes": 27650,
+      "sha256": "5b5405fcb6c6e02c70b6ba99b9850b95cf0cfab24753c4992e87d0e2bb631e8b"
+    },
+    {
+      "variant": "porunga",
+      "file": "map-header.bin",
+      "address": "0x327000",
+      "bytes": 8194,
+      "sha256": "a32edc1accf6dd292d43f33255c2eb67444e54374b821145ddf26ee42690166b"
+    },
+    {
+      "variant": "porunga",
+      "file": "palette.bin",
+      "address": "0x329100",
+      "bytes": 48,
+      "sha256": "23461c9b6a1aa475bb4ccca44078f7a8fcd0ef47b4a8f15efe90c3ecb9b20133"
+    }
+  ],
+  "originalStage6DataAndPointersUntouched": true
+}

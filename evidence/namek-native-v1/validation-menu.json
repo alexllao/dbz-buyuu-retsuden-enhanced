@@ -1,0 +1,110 @@
+[
+  {
+    "label": "parameters",
+    "state": 32,
+    "phase": 3,
+    "stage": 0,
+    "variant": 0,
+    "row": 0,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "stage-row",
+    "state": 32,
+    "phase": 3,
+    "stage": 0,
+    "variant": 0,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "previous-1",
+    "state": 32,
+    "phase": 3,
+    "stage": 6,
+    "variant": 3,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "fight-1",
+    "state": 12,
+    "phase": 4,
+    "stage": 6,
+    "variant": 3,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "previous-2",
+    "state": 32,
+    "phase": 3,
+    "stage": 6,
+    "variant": 2,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "fight-2",
+    "state": 12,
+    "phase": 4,
+    "stage": 6,
+    "variant": 2,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "previous-3",
+    "state": 32,
+    "phase": 3,
+    "stage": 6,
+    "variant": 1,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "fight-3",
+    "state": 12,
+    "phase": 4,
+    "stage": 6,
+    "variant": 1,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  },
+  {
+    "label": "previous-4",
+    "state": 32,
+    "phase": 3,
+    "stage": 8,
+    "variant": 0,
+    "row": 1,
+    "control": [
+      0,
+      255
+    ]
+  }
+]

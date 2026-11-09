@@ -1,0 +1,84 @@
+{
+  "romSha256": "f45950acb6b7cc7ea7f5a272c1cd17c1ca98fb9bcc7a3bc49370c15a076e0e43",
+  "mode": "Native COM watching selected from main menu with RIGHT twice",
+  "cases": [
+    {
+      "variant": 1,
+      "slug": "normal",
+      "controls": [
+        255,
+        255
+      ],
+      "hpBefore": [
+        189,
+        189
+      ],
+      "hpAfter": [
+        181,
+        156
+      ],
+      "assetChecksBefore": {
+        "backgroundVramExact": true,
+        "palette22WordsExact": true
+      },
+      "assetChecksAfter": {
+        "backgroundVramExact": true,
+        "palette22WordsExact": true
+      },
+      "stageSelectionViaController": true,
+      "fixtureWrites": []
+    },
+    {
+      "variant": 2,
+      "slug": "aldea",
+      "controls": [
+        255,
+        255
+      ],
+      "hpBefore": [
+        200,
+        189
+      ],
+      "hpAfter": [
+        162,
+        189
+      ],
+      "assetChecksBefore": {
+        "backgroundVramExact": true,
+        "palette22WordsExact": true
+      },
+      "assetChecksAfter": {
+        "backgroundVramExact": true,
+        "palette22WordsExact": true
+      },
+      "stageSelectionViaController": true,
+      "fixtureWrites": []
+    },
+    {
+      "variant": 3,
+      "slug": "porunga",
+      "controls": [
+        255,
+        255
+      ],
+      "hpBefore": [
+        200,
+        200
+      ],
+      "hpAfter": [
+        192,
+        192
+      ],
+      "assetChecksBefore": {
+        "backgroundVramExact": true,
+        "palette22WordsExact": true
+      },
+      "assetChecksAfter": {
+        "backgroundVramExact": true,
+        "palette22WordsExact": true
+      },
+      "stageSelectionViaController": true,
+      "fixtureWrites": []
+    }
+  ]
+}

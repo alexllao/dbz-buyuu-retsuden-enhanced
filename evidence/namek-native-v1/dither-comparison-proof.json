@@ -1,0 +1,14 @@
+[
+  {
+    "take": "01-vuelo",
+    "framesBefore": 437,
+    "framesAfter": 437,
+    "actorStatesIdentical": true
+  },
+  {
+    "take": "02-goku",
+    "framesBefore": 300,
+    "framesAfter": 300,
+    "actorStatesIdentical": true
+  }
+]

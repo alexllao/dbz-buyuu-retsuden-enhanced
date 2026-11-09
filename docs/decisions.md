@@ -96,3 +96,8 @@ Se acepta la dirección general del redibujado, con montañas retocadas y casa d
 ## 9/11/2026 · Casa más pequeña y tres simulaciones de Namek
 
 El usuario ve bien la simulación anterior y pide reducir ligeramente la casa respecto a la montaña. Se conserva la dirección visual y se preparan panoramas y vídeos de Namek normal, aldea devastada y Porunga, con los mismos combates y vuelo. Son simulaciones sobre juego real; no escenarios integrados ni variantes finales aprobadas todavía. [Entrega y alcance](namek-three-v1.md).
+
+
+## 9/11/2026 · Namek nativo y entrega solo de vídeos
+
+La casa debe tener el mismo tamaño en las tres variantes. Se genera un único recurso compartido y se prueba tramado selectivo. Se implementan internamente tres entradas extra conservando el Namek original, verificadas en1P–CPU,1P–2P y CPU–CPU. Práctica independiente no añadida: no aparece entre los submodos nativos revisados. Última petición: entregar cuatro vídeos espectaculares (fondo original y tres nuevos); la ROM todavía no hace falta. Build interno050003 experimental, pendiente de valoración visual; aprobado200852 conservado. [Vídeos y alcance](namek-native-v1.md).

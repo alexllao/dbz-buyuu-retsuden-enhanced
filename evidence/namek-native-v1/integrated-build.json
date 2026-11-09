@@ -1,0 +1,326 @@
+{
+  "version": "1.0",
+  "buildId": "20261109-050003",
+  "headerTitle": "DBZ V1.0 EXTRA NAMEK 20261109 0500",
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "targetSha256": "f45950acb6b7cc7ea7f5a272c1cd17c1ca98fb9bcc7a3bc49370c15a076e0e43",
+  "targetBytes": 4194304,
+  "experimental": true,
+  "userApprovalPending": true,
+  "physicalConsoleTested": false,
+  "originalStage6DataAndSharedColorsUntouched": true,
+  "menuOperations": {
+    "sourceSha256": "4f36a488a3685e4f518b4becd9931bbc68c9399684ae31c67934731ba4f70b6f",
+    "targetSha256": "5b0b64e31ce70b1e584abd738c50e00abba2ec15dd34d6adb8cb5ca1c6ac4ab7",
+    "operations": [
+      {
+        "offset": 3342336,
+        "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "data": "42800c380006e7416600000e1038f7c00c400003630000084238f7c042404a404e756100ffdc67000008064000084e751038e7414e754238f7c00c400009650000120440000811c0f7c011fc0006e7414e7511c0e7414e756100ffc853406a000004700b6100ffd04ef90003a9486100ffb252400c40000c6500000442406100ffb64ef90003aa044eb90000072e4a78e750660000064238f7c04e752f006100ff606700001253404840207c00300000d1c0600000141038e741d040d040207c001769cad0c02050201f4e756100ff326700001453404840207c00309100d1c04ef9000090e01038e7414ef9000090d02f006100ff0c670000125340e948207c00332000d0c0600000121038e741d040207c0018c168d0c0d0d0201f4e756100ffd04e756100ffca22484ef90000a3fa6100ffbe4ef9000369bc4eb900001fe66100febe670000405340c0fc0300207c00331000d1c0227c00009c00303c03004eb9000017806100fe985340e748207c00332100d0c0383ce4e0303cd59e4eb90003aee44e754ef90003ac2a10104238f7c011c0e7414e75",
+        "why": "Ayudas de carga y selector; F7C0 guarda la variante y E741 sigue fisico"
+      },
+      {
+        "offset": 37040,
+        "before": "3f0042401038e741",
+        "data": "4ef90033009c4e71",
+        "why": "load_graphics"
+      },
+      {
+        "offset": 37066,
+        "before": "42401038e741",
+        "data": "4ef9003300cc",
+        "why": "load_palette"
+      },
+      {
+        "offset": 37142,
+        "before": "3f0042401038e741",
+        "data": "4ef90033011e4e71",
+        "why": "load_map"
+      },
+      {
+        "offset": 41960,
+        "before": "42401038e741",
+        "data": "4ef900330124",
+        "why": "load_map_a1"
+      },
+      {
+        "offset": 223658,
+        "before": "41f90018c168",
+        "data": "4ef900330130",
+        "why": "load_map_menu"
+      },
+      {
+        "offset": 239930,
+        "before": "5338e74164000008",
+        "data": "4ef9003300584e71",
+        "why": "select_previous"
+      },
+      {
+        "offset": 240114,
+        "before": "5238e7410c380009e741",
+        "data": "4ef90033006e4e714e71",
+        "why": "select_next"
+      },
+      {
+        "offset": 240676,
+        "before": "4eb900001fe6",
+        "data": "4ef90033013a",
+        "why": "draw_stage_label"
+      },
+      {
+        "offset": 246520,
+        "before": "101011c0e741",
+        "data": "4eb90033018c",
+        "why": "assign_story_stage"
+      },
+      {
+        "offset": 3350528,
+        "before": "ffffffffffffffffffffffffffffffff",
+        "data": "003070000030700000307000ffffffff",
+        "why": "Lista de franjas nativas de la variante"
+      },
+      {
+        "offset": 3350544,
+        "before": "ffffffffffffffffffffffffffffffff",
+        "data": "003170000031700000317000ffffffff",
+        "why": "Lista de franjas nativas de la variante"
+      },
+      {
+        "offset": 3350560,
+        "before": "ffffffffffffffffffffffffffffffff",
+        "data": "003270000032700000327000ffffffff",
+        "why": "Lista de franjas nativas de la variante"
+      },
+      {
+        "offset": 3346432,
+        "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "data": "000ee00000e11e0000e11ee000e1111e00e1111e00e1111e00e1111e00e11ee100e11ee100e11e0e00e11e0000e11e0000e11e0000e11e0000e11e00000ee000000ee00000e11e0000e11e0000e11e0000e11e0000e11e00e0e11e001ee11e001ee11e00e1111e00e1111e00e1111e00e1111e000ee11e0000e11e00000ee000000ee00000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11eee000ee1110000e11100000eee000ee00000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e00eee11e00111ee000111e0000eee00000000eeeee00e1111100e1111100e11eee00e11e0000e11e0000e11eee00e1111100e1111100e11eee00e11e0000e11e0000e11eee00e1111100e11111000eeeeeeeeee00011111e0011111e00eeeee0000000000000000000eee00000111e0000111e0000eee000000000000000000000eeeee00011111e0011111e00eeeee000000ee00000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11ee0000ee11e0000e11e00000ee1000000e10000000e000ee00000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e000ee11e00e11ee000e11e00001ee000001e000000e000000000000eee0000e111000ee11100e11eee00e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11eee000ee1110000e11100000eeeeee00000111e0000111ee000eee11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e00eee11e00111ee000111e0000eee000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "why": "Rotulo nativo NUEVO"
+      },
+      {
+        "offset": 3350784,
+        "before": "ffffffffffffffff",
+        "data": "0001020304ff0000",
+        "why": "Indice de glifos NUEVO"
+      },
+      {
+        "offset": 3347200,
+        "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "data": "000eeeee00e1111100e1111100e11eee00e11e0000e11e0000e11eee00e1111100e1111100e11ee100e11ee100e11e0e00e11e0000e11e0000e11e00000ee000eee00000111e0000111ee000eee11e0000e11e0000e11e00eee11e00111ee000111e00001ee000001ee00000e11e0000e11ee0000ee11e0000e11e00000ee000000ee00000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11eee000ee1110000e11100000eee000ee00000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e00eee11e00111ee000111e0000eee00000000eeeee00e1111100e11111000eeee1000000e1000000e1000000e1000000e1000000e1000000e1000000e1000000e1000eeee100e1111100e11111000eeeeeeeeee00011111e0011111e001eeee0001e0000001e0000001e0000001e0000001e0000001e0000001e0000001e0000001eeee00011111e0011111e00eeeee000000ee00000e11e0000e11ee000e1111e00e1111e00e1111e00e1111e00e11ee100e11ee100e11e0e00e11e0000e11e0000e11e0000e11e0000e11e00000ee000000ee00000e11e0000e11e0000e11e0000e11e0000e11e00e0e11e001ee11e001ee11e00e1111e00e1111e00e1111e00e1111e000ee11e0000e11e00000ee00000000eee0000e111000ee11100e11eee00e11e0000e11e0000e11eee00e1111100e1111100e11eee00e11e0000e11e0000e11e0000e11e0000e11e00000ee000eee00000111e0000111ee000eee11e0000e11e0000e11e00eee11e0011111e0011111e00eee11e0000e11e0000e11e0000e11e0000e11e0000e11e00000ee00000000eee0000e111000ee11100e11eee00e11e0000e11e0000e11eee000ee1110000e11100000eee0000000000000000000eeeee00e1111100e11111000eeeeeeeeee00011111e0011111e00eeeee0000000000000000000eee00000111e0000111ee000eee11e0000e11e0000e11e00eee11e00111ee000111e0000eee00000",
+        "why": "Rotulo nativo RUINAS"
+      },
+      {
+        "offset": 3350792,
+        "before": "ffffffffffffffff",
+        "data": "000102030405ff00",
+        "why": "Indice de glifos RUINAS"
+      },
+      {
+        "offset": 3347968,
+        "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "data": "000eeeee00e1111100e1111100e11eee00e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11eee00e1111100e11111000eeeeeeee00000111e0000111ee000eee11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e00eee11e00111ee000111e0000eee00000000eeeee00e1111100e1111100e11eee00e11e0000e11e0000e11eee00e1111100e1111100e11ee100e11ee100e11e0e00e11e0000e11e0000e11e00000ee000eee00000111e0000111ee000eee11e0000e11e0000e11e00eee11e00111ee000111e00001ee000001ee00000e11e0000e11ee0000ee11e0000e11e00000ee00000000eee0000e111000ee11100e11eee00e11e0000e11e0000e11eee00e1111100e1111100e11eee00e11e0000e11e0000e11e0000e11e0000e11e00000ee000eee00000111e0000111ee000eee11e0000e11e0000e11e00eee11e0011111e0011111e00eee11e0000e11e0000e11e0000e11e0000e11e0000e11e00000ee00000000eee0000e111000ee11100e11eee00e11e0000e11e0000e11e0e00e11ee100e11ee100e11e0e00e11e0000e11e0000e11eee000ee1110000e11100000eeeeee00000111e0000111ee000eee11e0000e11e00000ee000eeeee00011111e0011111e00eee11e0000e11e0000e11e00eee11e00111ee000111e0000eee0000000000eee0000e111000ee11100e11eee00e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11eee000ee1110000e11100000eeeeee00000111e0000111ee000eee11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e0000e11e00eee11e00111ee000111e0000eee00000000ee00000e11e0000e11ee000e1111e00e1111e00e1111e00e1111e00e11ee100e11ee100e11e0e00e11e0000e11e0000e11e0000e11e0000e11e00000ee000000ee00000e11e0000e11e0000e11e0000e11e0000e11e00e0e11e001ee11e001ee11e00e1111e00e1111e00e1111e00e1111e000ee11e0000e11e00000ee000",
+        "why": "Rotulo nativo DRAGON"
+      },
+      {
+        "offset": 3350800,
+        "before": "ffffffffffffffff",
+        "data": "000102030405ff00",
+        "why": "Indice de glifos DRAGON"
+      }
+    ],
+    "ramVariant": "F7C0",
+    "physicalStageIds": "0..8; variants1..3 use physical6",
+    "menuVirtualIds": "0..11, extras9..11"
+  },
+  "resources": {
+    "baseSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+    "resources": [
+      {
+        "variant": "normal",
+        "file": "gfx.lz",
+        "address": "0x300000",
+        "bytes": 27650,
+        "sha256": "a1dcdbdc4c28e31aa0949818e59e0eb5c8564e2b31fd0478bb815f0b06ea6fef"
+      },
+      {
+        "variant": "normal",
+        "file": "map-header.bin",
+        "address": "0x307000",
+        "bytes": 8194,
+        "sha256": "a418996d1a1724f343cfcbee50cfbb7eff5ae9bdcf58367c266bcaa1bb474681"
+      },
+      {
+        "variant": "normal",
+        "file": "palette.bin",
+        "address": "0x309100",
+        "bytes": 48,
+        "sha256": "2f519f9ccdbc60ab095797463f10121fcf20b89a44cef7185eec4a37c17a0bbd"
+      },
+      {
+        "variant": "aldea",
+        "file": "gfx.lz",
+        "address": "0x310000",
+        "bytes": 27650,
+        "sha256": "80d3ca6e7f03e899bb314da0ee76dd39abadfd71486f9b9a0d997ae9e2378036"
+      },
+      {
+        "variant": "aldea",
+        "file": "map-header.bin",
+        "address": "0x317000",
+        "bytes": 8194,
+        "sha256": "362a67711052f7a83d3f371d9aaa1f47da7726204dcf595c938ff5cd78763dfe"
+      },
+      {
+        "variant": "aldea",
+        "file": "palette.bin",
+        "address": "0x319100",
+        "bytes": 48,
+        "sha256": "8b9b03536163150ab6285bb780703db69a0244c1e500192a73a98d62e1820930"
+      },
+      {
+        "variant": "porunga",
+        "file": "gfx.lz",
+        "address": "0x320000",
+        "bytes": 27650,
+        "sha256": "5b5405fcb6c6e02c70b6ba99b9850b95cf0cfab24753c4992e87d0e2bb631e8b"
+      },
+      {
+        "variant": "porunga",
+        "file": "map-header.bin",
+        "address": "0x327000",
+        "bytes": 8194,
+        "sha256": "a32edc1accf6dd292d43f33255c2eb67444e54374b821145ddf26ee42690166b"
+      },
+      {
+        "variant": "porunga",
+        "file": "palette.bin",
+        "address": "0x329100",
+        "bytes": 48,
+        "sha256": "23461c9b6a1aa475bb4ccca44078f7a8fcd0ef47b4a8f15efe90c3ecb9b20133"
+      }
+    ],
+    "originalStage6DataAndPointersUntouched": true
+  },
+  "allowedChanges": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      3145728,
+      27650
+    ],
+    [
+      3174400,
+      8194
+    ],
+    [
+      3182848,
+      48
+    ],
+    [
+      3211264,
+      27650
+    ],
+    [
+      3239936,
+      8194
+    ],
+    [
+      3248384,
+      48
+    ],
+    [
+      3276800,
+      27650
+    ],
+    [
+      3305472,
+      8194
+    ],
+    [
+      3313920,
+      48
+    ],
+    [
+      3342336,
+      408
+    ],
+    [
+      37040,
+      8
+    ],
+    [
+      37066,
+      6
+    ],
+    [
+      37142,
+      8
+    ],
+    [
+      41960,
+      6
+    ],
+    [
+      223658,
+      6
+    ],
+    [
+      239930,
+      8
+    ],
+    [
+      240114,
+      10
+    ],
+    [
+      240676,
+      6
+    ],
+    [
+      246520,
+      6
+    ],
+    [
+      3350528,
+      16
+    ],
+    [
+      3350544,
+      16
+    ],
+    [
+      3350560,
+      16
+    ],
+    [
+      3346432,
+      768
+    ],
+    [
+      3350784,
+      8
+    ],
+    [
+      3347200,
+      768
+    ],
+    [
+      3350792,
+      8
+    ],
+    [
+      3347968,
+      768
+    ],
+    [
+      3350800,
+      8
+    ]
+  ]
+}

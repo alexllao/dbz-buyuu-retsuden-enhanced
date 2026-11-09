@@ -37,3 +37,7 @@ El arte es pixel art y se muestrea sin interpolación a un panorama de 512×512 
 - [Registro de scripts locales](../research/namek-three-v1/README.txt). Requieren los recursos privados del entorno de trabajo y no constituyen una distribución autónoma de la ROM o del emulador.
 
 Se mantienen la [comparación anterior contra el fondo original](namek-redraw-v2.md) y los bocetos previos, sin sobrescribirlos.
+
+## Adaptación nativa posterior
+
+El usuario señala una diferencia de tamaño de la casa y solicita ver los fondos realmente en el juego. Se prepara una casa compartida, recursos nativos y un selector con entradas adicionales. La entrega final solicitada son [cuatro vídeos nativos](namek-native-v1.md), sin entregar ROM todavía. Las limitaciones de simulación descritas arriba corresponden a esta versión histórica.

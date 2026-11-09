@@ -1,0 +1,314 @@
+{
+  "romSha256": "f45950acb6b7cc7ea7f5a272c1cd17c1ca98fb9bcc7a3bc49370c15a076e0e43",
+  "checks": [
+    {
+      "name": "all12_forward_and_wrap",
+      "passed": true,
+      "states": [
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 0,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 1,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 2,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 3,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 4,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 5,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 6,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 7,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 8,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 6,
+          "variant": 1,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 6,
+          "variant": 2,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 6,
+          "variant": 3,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        },
+        {
+          "state": 32,
+          "phase": 3,
+          "stage": 0,
+          "variant": 0,
+          "hp": [
+            200,
+            200
+          ],
+          "mode": 1
+        }
+      ]
+    },
+    {
+      "name": "original_namek_graphics_preserved",
+      "passed": true,
+      "stage": 6,
+      "variant": 0,
+      "vramSha256": "96b9ee8c65f6188d1f8c0a09d567fc993f1787e88e8b1921b2e9eb78b42a2486"
+    },
+    {
+      "name": "native_cpu_match_until_post_ko",
+      "passed": true,
+      "koFrame": 8845,
+      "end": {
+        "state": 24,
+        "phase": 8,
+        "stage": 6,
+        "variant": 3,
+        "hp": [
+          112,
+          0
+        ],
+        "mode": 2
+      },
+      "transitions": [
+        {
+          "f": 0,
+          "state": [
+            12,
+            4,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9366,
+          "state": [
+            24,
+            0,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9367,
+          "state": [
+            24,
+            1,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9385,
+          "state": [
+            24,
+            2,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9425,
+          "state": [
+            24,
+            3,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9426,
+          "state": [
+            24,
+            4,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9727,
+          "state": [
+            24,
+            6,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9746,
+          "state": [
+            24,
+            7,
+            6,
+            3
+          ]
+        },
+        {
+          "f": 9766,
+          "state": [
+            24,
+            8,
+            6,
+            3
+          ]
+        }
+      ],
+      "fixtureWrites": []
+    },
+    {
+      "name": "cpu_postmatch_confirm",
+      "state": {
+        "state": 36,
+        "phase": 0,
+        "stage": 6,
+        "variant": 3,
+        "hp": [
+          112,
+          0
+        ],
+        "mode": 2
+      },
+      "variantRetained": true
+    },
+    {
+      "name": "cpu_rematch_retains_selected_variant",
+      "passed": true,
+      "result": {
+        "state": 32,
+        "phase": 3,
+        "stage": 6,
+        "variant": 3,
+        "hp": [
+          200,
+          200
+        ],
+        "mode": 2
+      },
+      "fixtureWrites": []
+    },
+    {
+      "name": "story_clears_stale_variant",
+      "passed": true,
+      "fixtureWrites": [
+        {
+          "address": "F7C0",
+          "value": 3,
+          "when": "fresh story character screen before confirming"
+        }
+      ],
+      "result": {
+        "state": 36,
+        "phase": 0,
+        "stage": 5,
+        "variant": 0,
+        "hp": [
+          199,
+          239
+        ],
+        "mode": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "allThreeHouseMasksAndPaletteIndicesIdentical": true,
+  "entries": [
+    {
+      "variant": "normal",
+      "dimensions": [
+        58,
+        32
+      ],
+      "position": [
+        345,
+        190
+      ],
+      "maskSha256": "2f8671b7d35a19921734f1248ad2d71331c68353ed6ecdae5d45e2b969d858be",
+      "houseIndexSha256": "5b8fb4a21744b5d2c631869039c1835da028e4852d21f7bda36f7108d683f615",
+      "dithering": {
+        "enabled": true,
+        "pattern": "Bayer4x4",
+        "region": "smooth sky palette boundaries only, native worldY<286; house excluded",
+        "pixels": 27463
+      }
+    },
+    {
+      "variant": "aldea",
+      "dimensions": [
+        58,
+        32
+      ],
+      "position": [
+        345,
+        190
+      ],
+      "maskSha256": "2f8671b7d35a19921734f1248ad2d71331c68353ed6ecdae5d45e2b969d858be",
+      "houseIndexSha256": "5b8fb4a21744b5d2c631869039c1835da028e4852d21f7bda36f7108d683f615",
+      "dithering": {
+        "enabled": true,
+        "pattern": "Bayer4x4",
+        "region": "smooth sky palette boundaries only, native worldY<286; house excluded",
+        "pixels": 33346
+      }
+    },
+    {
+      "variant": "porunga",
+      "dimensions": [
+        58,
+        32
+      ],
+      "position": [
+        345,
+        190
+      ],
+      "maskSha256": "2f8671b7d35a19921734f1248ad2d71331c68353ed6ecdae5d45e2b969d858be",
+      "houseIndexSha256": "5b8fb4a21744b5d2c631869039c1835da028e4852d21f7bda36f7108d683f615",
+      "dithering": {
+        "enabled": true,
+        "pattern": "Bayer4x4",
+        "region": "smooth sky palette boundaries only, native worldY<286; house excluded",
+        "pixels": 73049
+      }
+    }
+  ]
+}

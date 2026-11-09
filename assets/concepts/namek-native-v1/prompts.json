@@ -1,0 +1,18 @@
+{
+  "normal": {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Edit target: this exact square pixel-art game background. Remove ONLY the small ivory horned Guru house from the summit of the tall right mountain. Restore the blue grassy summit surface and matching sky behind the removed house. Keep absolutely every other part of this panorama fixed: mountain size and silhouette, colors, rocks, trees, ground, cloud placement, village ruins and distant Porunga if present. Do not remove smoke plumes in the devastated variant. This empty summit is needed so one shared house asset can be inserted consistently in the actual Mega Drive tilemap. No added objects or text, no framing change, no smoothing. Preserve hard pixel-art edges and square canvas."
+  },
+  "aldea": {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Edit target: this exact square pixel-art game background. Remove ONLY the small ivory horned Guru house from the summit of the tall right mountain. Restore the blue grassy summit surface and matching sky behind the removed house. Keep absolutely every other part of this panorama fixed: mountain size and silhouette, colors, rocks, trees, ground, cloud placement, village ruins and distant Porunga if present. Do not remove smoke plumes in the devastated variant. This empty summit is needed so one shared house asset can be inserted consistently in the actual Mega Drive tilemap. No added objects or text, no framing change, no smoothing. Preserve hard pixel-art edges and square canvas."
+  },
+  "porunga": {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Edit target: this exact square pixel-art game background. Remove ONLY the small ivory horned Guru house from the summit of the tall right mountain. Restore the blue grassy summit surface and matching sky behind the removed house. Keep absolutely every other part of this panorama fixed: mountain size and silhouette, colors, rocks, trees, ground, cloud placement, village ruins and distant Porunga if present. Do not remove smoke plumes in the devastated variant. This empty summit is needed so one shared house asset can be inserted consistently in the actual Mega Drive tilemap. No added objects or text, no framing change, no smoothing. Preserve hard pixel-art edges and square canvas."
+  },
+  "house": {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: background-extraction. Extract ONLY the small ivory horned Guru house on the right mountain summit from this reference. Return that same low elongated house, entrance, round teal windows and pointed horns as an isolated clean pixel-art asset on genuine TRANSPARENT background. Preserve its proportions, perspective, colors, light direction and silhouette from the reference. Do not include mountain, grass, shadow cast onto ground, sky, trees or any other objects. Center the complete house with modest transparent padding; no text, no checkerboard painted background, no redesign, no new detail, no smoothing. This shared cutout will be reused at exactly the same native dimensions in three Mega Drive backgrounds."
+  }
+}

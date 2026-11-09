@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "buildId": "20261109-045146",
+  "variant": "normal",
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "targetSha256": "3232338e94f616c11defd576e30fc68fcb7c5dbe173ff4c98518fdf01b654b3d",
+  "tiles": 736,
+  "limit": 736,
+  "paletteOwnedWords": 22,
+  "sharedPaletteUntouched": true,
+  "clusters": [
+    {
+      "bank": 2,
+      "uniqueBefore": 1656,
+      "fixed": 0,
+      "representatives": 678
+    },
+    {
+      "bank": 3,
+      "uniqueBefore": 104,
+      "fixed": 26,
+      "representatives": 32
+    }
+  ],
+  "houseAssetShared": true,
+  "houseArtPosition": [
+    345,
+    190
+  ],
+  "houseArtDimensions": [
+    58,
+    32
+  ],
+  "allowedChanges": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      1534434,
+      4
+    ],
+    [
+      1672474,
+      8192
+    ],
+    [
+      1697342,
+      44
+    ],
+    [
+      3145728,
+      27650
+    ]
+  ],
+  "sourceImage": "repository/assets/concepts/namek-native-v1/normal-sans-house.png",
+  "sourceImageSha256": "597bdb53f858d96bdbb584850810537ec2e25a4d8d20a7ba9798c23e260dae4e",
+  "dithering": {
+    "enabled": true,
+    "pattern": "Bayer4x4",
+    "region": "smooth sky palette boundaries only, native worldY<286; house excluded",
+    "pixels": 27463
+  },
+  "integrated": true,
+  "experimental": true,
+  "stageSlot": 6,
+  "newStageSlotAdded": false
+}

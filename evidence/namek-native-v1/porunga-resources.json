@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "buildId": "20261109-045154",
+  "variant": "porunga",
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "targetSha256": "c16cb524fb63b56a6b1cd07d396a7bdaf3dbe4dd7b854500b2d5d4ef455c26bc",
+  "tiles": 736,
+  "limit": 736,
+  "paletteOwnedWords": 22,
+  "sharedPaletteUntouched": true,
+  "clusters": [
+    {
+      "bank": 2,
+      "uniqueBefore": 2943,
+      "fixed": 98,
+      "representatives": 612
+    },
+    {
+      "bank": 3,
+      "uniqueBefore": 26,
+      "fixed": 26,
+      "representatives": 0
+    }
+  ],
+  "houseAssetShared": true,
+  "houseArtPosition": [
+    345,
+    190
+  ],
+  "houseArtDimensions": [
+    58,
+    32
+  ],
+  "allowedChanges": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      1534434,
+      4
+    ],
+    [
+      1672474,
+      8192
+    ],
+    [
+      1697342,
+      44
+    ],
+    [
+      3145728,
+      27650
+    ]
+  ],
+  "sourceImage": "repository/assets/concepts/namek-native-v1/porunga-sans-house.png",
+  "sourceImageSha256": "33c71be6855473891ace1d8928d955a21c67f85ed285e3b065eb1292175592e9",
+  "dithering": {
+    "enabled": true,
+    "pattern": "Bayer4x4",
+    "region": "smooth sky palette boundaries only, native worldY<286; house excluded",
+    "pixels": 73049
+  },
+  "integrated": true,
+  "experimental": true,
+  "stageSlot": 6,
+  "newStageSlotAdded": false
+}

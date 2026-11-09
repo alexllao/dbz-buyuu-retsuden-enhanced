@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "buildId": "20261109-045149",
+  "variant": "aldea",
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "targetSha256": "3f6ab9a7ac612bb153960770da3f43ee47eb1a12bbc3c6cc52b917ef9c7733c8",
+  "tiles": 736,
+  "limit": 736,
+  "paletteOwnedWords": 22,
+  "sharedPaletteUntouched": true,
+  "clusters": [
+    {
+      "bank": 2,
+      "uniqueBefore": 2373,
+      "fixed": 0,
+      "representatives": 692
+    },
+    {
+      "bank": 3,
+      "uniqueBefore": 88,
+      "fixed": 26,
+      "representatives": 18
+    }
+  ],
+  "houseAssetShared": true,
+  "houseArtPosition": [
+    345,
+    190
+  ],
+  "houseArtDimensions": [
+    58,
+    32
+  ],
+  "allowedChanges": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      1534434,
+      4
+    ],
+    [
+      1672474,
+      8192
+    ],
+    [
+      1697342,
+      44
+    ],
+    [
+      3145728,
+      27650
+    ]
+  ],
+  "sourceImage": "repository/assets/concepts/namek-native-v1/aldea-sans-house.png",
+  "sourceImageSha256": "06664b285bf856a0c6215a9556126e4e56c52c4fe0fa1a02c71e40e36d87b7af",
+  "dithering": {
+    "enabled": true,
+    "pattern": "Bayer4x4",
+    "region": "smooth sky palette boundaries only, native worldY<286; house excluded",
+    "pixels": 33346
+  },
+  "integrated": true,
+  "experimental": true,
+  "stageSlot": 6,
+  "newStageSlotAdded": false
+}

@@ -1,0 +1,137 @@
+{
+  "romSha256": "f45950acb6b7cc7ea7f5a272c1cd17c1ca98fb9bcc7a3bc49370c15a076e0e43",
+  "cases": [
+    {
+      "nativeMode": 0,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          21,
+          8
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          145,
+          200
+        ],
+        "nativeAction": [
+          22,
+          56
+        ]
+      },
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 1,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          0,
+          0
+        ]
+      },
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 2,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          189,
+          189
+        ],
+        "nativeAction": [
+          21,
+          0
+        ]
+      },
+      "fixtureWrites": []
+    }
+  ]
+}
