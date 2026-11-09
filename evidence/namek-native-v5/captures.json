@@ -1,0 +1,152 @@
+[
+  {
+    "scenario": "normal",
+    "label": "01-vuelo",
+    "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+    "stage": 6,
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "damage": 0,
+    "maxHits": 0,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      52,
+      53,
+      101,
+      106
+    ],
+    "expected": null,
+    "firstHP": 200
+  },
+  {
+    "scenario": "normal",
+    "label": "02-goku",
+    "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+    "stage": 6,
+    "frames": 348,
+    "seconds": 5.8074777660289225,
+    "damage": 88,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "aldea",
+    "label": "01-vuelo",
+    "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+    "stage": 6,
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "damage": 0,
+    "maxHits": 0,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      52,
+      53,
+      101,
+      106
+    ],
+    "expected": null,
+    "firstHP": 200
+  },
+  {
+    "scenario": "aldea",
+    "label": "02-goku",
+    "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+    "stage": 6,
+    "frames": 348,
+    "seconds": 5.8074777660289225,
+    "damage": 88,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "porunga",
+    "label": "01-vuelo",
+    "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+    "stage": 6,
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "damage": 0,
+    "maxHits": 0,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      52,
+      53,
+      101,
+      106
+    ],
+    "expected": null,
+    "firstHP": 200
+  },
+  {
+    "scenario": "porunga",
+    "label": "02-goku",
+    "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+    "stage": 6,
+    "frames": 349,
+    "seconds": 5.824165920529006,
+    "damage": 88,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  }
+]

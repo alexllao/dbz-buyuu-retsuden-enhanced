@@ -1,0 +1,196 @@
+{
+  "buildId": "20261109-093419",
+  "sha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "allowedChanges": [
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      3145728,
+      27650
+    ],
+    [
+      3174400,
+      8194
+    ],
+    [
+      3182848,
+      48
+    ],
+    [
+      3211264,
+      27650
+    ],
+    [
+      3239936,
+      8194
+    ],
+    [
+      3248384,
+      48
+    ],
+    [
+      3276800,
+      27650
+    ],
+    [
+      3305472,
+      8194
+    ],
+    [
+      3313920,
+      48
+    ],
+    [
+      3342336,
+      408
+    ],
+    [
+      37040,
+      8
+    ],
+    [
+      37066,
+      6
+    ],
+    [
+      37142,
+      8
+    ],
+    [
+      41960,
+      6
+    ],
+    [
+      223658,
+      6
+    ],
+    [
+      239930,
+      8
+    ],
+    [
+      240114,
+      10
+    ],
+    [
+      240676,
+      6
+    ],
+    [
+      246520,
+      6
+    ],
+    [
+      3350528,
+      16
+    ],
+    [
+      3350544,
+      16
+    ],
+    [
+      3350560,
+      16
+    ],
+    [
+      3346432,
+      768
+    ],
+    [
+      3350784,
+      8
+    ],
+    [
+      3347200,
+      768
+    ],
+    [
+      3350792,
+      8
+    ],
+    [
+      3347968,
+      768
+    ],
+    [
+      3350800,
+      8
+    ]
+  ],
+  "resources": [
+    {
+      "variant": "normal",
+      "path": "gfx.lz",
+      "address": 3145728,
+      "bytes": 27650,
+      "sha256": "850562f62f317d94b61c24da6dc87864afe433d4af77c7175eef0e38fbf6dc19"
+    },
+    {
+      "variant": "normal",
+      "path": "map-header.bin",
+      "address": 3174400,
+      "bytes": 8194,
+      "sha256": "bbbbddffc21d707f58d0072fcf744ba386e2a929c968f51d3fe760f56878f1af"
+    },
+    {
+      "variant": "normal",
+      "path": "palette.bin",
+      "address": 3182848,
+      "bytes": 48,
+      "sha256": "9951343424dddb8d07e4bb1d7c37208bdb64aa2d803f4ec8480cbb506e5b1a42"
+    },
+    {
+      "variant": "aldea",
+      "path": "gfx.lz",
+      "address": 3211264,
+      "bytes": 27650,
+      "sha256": "5b6ed94f4ce5f817271a6d6e43cf7c0846e4fab1fae4143d49d920c859f08435"
+    },
+    {
+      "variant": "aldea",
+      "path": "map-header.bin",
+      "address": 3239936,
+      "bytes": 8194,
+      "sha256": "aa2797d063119603ac1c57d0e8951c64bbbdc846090602f77d2da1efb5b1caaf"
+    },
+    {
+      "variant": "aldea",
+      "path": "palette.bin",
+      "address": 3248384,
+      "bytes": 48,
+      "sha256": "ab17c15e46af92cfa3a05c97a72fd30433a1a4667ddc33f7b0d50190a645be2b"
+    },
+    {
+      "variant": "porunga",
+      "path": "gfx.lz",
+      "address": 3276800,
+      "bytes": 27650,
+      "sha256": "5b5462aadd4df4ac0c65ed39331b355efd71664d28bd0c0a5d8e906e2c74dca2"
+    },
+    {
+      "variant": "porunga",
+      "path": "map-header.bin",
+      "address": 3305472,
+      "bytes": 8194,
+      "sha256": "62ddf62253398dea57df4cf7b2bd45d2255e84d62a1cd2035322efa2ba8a90f9"
+    },
+    {
+      "variant": "porunga",
+      "path": "palette.bin",
+      "address": 3313920,
+      "bytes": 48,
+      "sha256": "df5299e0619e5d61aaf86639355b05433a632436a42d5b436ef7c8b6596cce66"
+    }
+  ],
+  "originalNamekUntouched": true,
+  "gameplayUntouched": true,
+  "sharedHouseExact": true,
+  "userApprovalPending": true
+}

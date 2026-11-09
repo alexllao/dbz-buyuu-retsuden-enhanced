@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "variant": "normal",
+      "clip": "01-vuelo",
+      "frames": 437,
+      "actorStatesAndInputsExact": true,
+      "paletteV4Exact": true
+    },
+    {
+      "variant": "normal",
+      "clip": "02-goku",
+      "frames": 348,
+      "actorStatesAndInputsExact": true,
+      "paletteV4Exact": true
+    },
+    {
+      "variant": "aldea",
+      "clip": "01-vuelo",
+      "frames": 437,
+      "actorStatesAndInputsExact": true,
+      "paletteV4Exact": true
+    },
+    {
+      "variant": "aldea",
+      "clip": "02-goku",
+      "frames": 348,
+      "actorStatesAndInputsExact": true,
+      "paletteV4Exact": true
+    },
+    {
+      "variant": "porunga",
+      "clip": "01-vuelo",
+      "frames": 437,
+      "actorStatesAndInputsExact": true,
+      "paletteV4Exact": true
+    },
+    {
+      "variant": "porunga",
+      "clip": "02-goku",
+      "frames": 349,
+      "actorStatesAndInputsExact": true,
+      "paletteV4Exact": true
+    }
+  ],
+  "verifiedAgainst": "V4 actor trace, input route and approved palette bytes"
+}

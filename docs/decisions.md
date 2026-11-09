@@ -119,3 +119,7 @@ El usuario rechaza con claridad la definición de las imágenes de prueba V2: lo
 ## 9/11/2026 · V3 mejora la definición; ajustar rojizo y franja del cielo
 
 El usuario considera bastante mejor el resultado, pero no quiere el tono rojizo de montaña y casa. Señala también el corte horizontal del cielo del Namek normal. V4 conserva los dibujos/índices espaciales de V3, lleva las tierras a piedra/beige, recolorea la casa en marfil y unifica los dos verdes que formaban la franja. Los tonos de tierra compartidos también afectan al suelo. Se conserva el mismo tamaño/color de casa en las tres variantes. Se comprueba el cielo en CRAM durante suelo/vuelo y se entregan capturas y vídeos de comparación. Pendiente de valoración de color; sin ROM ni cambios de jugabilidad. [V4 y evidencias](namek-native-v4.md).
+
+## 9/11/2026 · Color V4 aprobado; limpiar recortes en los tres Namek
+
+El usuario dice «el color perfecto», señala fragmentos de troncos y pide corregir también los otros tipos de Namek. Se fija la paleta V4 y se limpia el módulo nativo antes de espejo/repetición, protegiendo laderas y árboles conectados. Aplicado y grabado en normal, devastado y Porunga. Las paletas son idénticas byte a byte; seis trazas de entradas y actores coinciden con V4 fotograma a fotograma. El acabado gráfico V5 queda para valoración; no se entrega ROM ni se cambia la jugabilidad. [V5, vídeos y alcance](namek-native-v5.md).

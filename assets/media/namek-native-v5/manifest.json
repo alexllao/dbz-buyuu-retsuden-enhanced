@@ -1,0 +1,105 @@
+{
+  "buildId": "20261109-093419",
+  "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+  "nativeCaptures": true,
+  "backgroundCompositing": false,
+  "normalSpeed": true,
+  "romDelivered": false,
+  "paletteV4Exact": true,
+  "userApprovalPending": true,
+  "physicalConsoleTested": false,
+  "comparison": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 520,
+        "avg_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "39.050282"
+    }
+  },
+  "videos": [
+    {
+      "scenario": "normal",
+      "path": "Namek-normal-V5.mp4",
+      "sha256": "0d4360511409591badb8114ef031aafd4210191c3f557a930062ff7db05ff3ca",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "13.165011"
+        }
+      }
+    },
+    {
+      "scenario": "aldea",
+      "path": "Namek-aldea-V5.mp4",
+      "sha256": "e3fe10c71a1e25434afd8b7bc7bba8edf95c3f15ed9fd99b83a681cba76ef34c",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "13.165011"
+        }
+      }
+    },
+    {
+      "scenario": "porunga",
+      "path": "Namek-porunga-V5.mp4",
+      "sha256": "696ebaedc099cc3e32484c57deec5d088853fabd134bc5b416f676e71a654fe5",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "13.165011"
+        }
+      }
+    }
+  ],
+  "notes": "V4 versus V5, all three variants. Native reused terrain module cleaned of cropped original trees. Existing concept slopes and connected stems protected. Porunga remains static."
+}

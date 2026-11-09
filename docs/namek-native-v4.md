@@ -1,6 +1,6 @@
 # Namek V4: piedra neutra, casa marfil y cielo continuo
 
-9/11/2026. El usuario considera bastante mejor la definición de V3, pero pide quitar el rojizo de montaña/casa y corregir la franja horizontal del cielo. **La revisión de color V4 está pendiente de valoración visual.** La última versión general aprobada continúa siendo200852.
+9/11/2026. El usuario considera bastante mejor la definición de V3, pero pide quitar el rojizo de montaña/casa y corregir la franja horizontal del cielo. **Después aprueba el color V4 («el color perfecto») y señala fragmentos del terreno que se corrigen en [V5](namek-native-v5.md).** La última versión general aprobada continúa siendo200852.
 
 [![Antes V3 y después V4](../assets/media/namek-native-v4/comparacion.png)](../assets/media/namek-native-v4/comparacion.mp4)
 
