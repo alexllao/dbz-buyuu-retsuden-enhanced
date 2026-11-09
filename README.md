@@ -2,9 +2,9 @@
 
 Mod de **Mega Drive / Genesis** para mejorar controles y paletas de *Dragon Ball Z: Buyuu Retsuden (Japan)*, con el anime y Hyper Dragon Ball Z como referencias.
 
-**Actualizado: 8 de noviembre de2026 · rama `development`. Última revisión aprobada por el usuario: v1.0 · build `20261108-200852`.** [Preparación abreviada dentro del combo](docs/combo-startup.md) y mejoras anteriores incluidas, con aprobación general del usuario. El build174207 se conserva como base histórica; las versiones y fechas identifican cada archivo y manifiesto.
+**Actualizado: 9 de noviembre de2026 · rama `development`. Última revisión aprobada por el usuario: v1.0 · build `20261108-200852`.** [Preparación abreviada dentro del combo](docs/combo-startup.md) y mejoras anteriores incluidas, con aprobación general del usuario. El build174207 se conserva como base histórica; las versiones y fechas identifican cada archivo y manifiesto.
 
-**Namek · 9/11/2026:** el usuario prefiere el fondo antiguo frente al redibujado conceptual. [Comparación archivada y decisión](docs/namek-redraw-v1.md). Se conserva el escenario actual; **la ROM no cambia**. Una futura propuesta deberá conservar su identidad y comprobarse en suelo y vuelo.
+**Namek · nueva simulación en pixel art · 9/11/2026:** montañas revisadas y casa del Gran Patriarca corregida según la referencia. [**Ver comparación con vuelo, cuatro combates y Kamehameha de pantalla partida · 51 s**](assets/media/namek-simulation/comparacion.mp4) · [Portada](assets/media/namek-simulation/portada.png) · [Variantes normal, aldea devastada y Porunga](assets/concepts/namek-redraw-v2/Variantes-Namek.png). Personajes, efectos y sonido reales; fondo compuesto en posproducción. **Todavía no está integrado en la ROM.** [Alcance y decisiones actuales](docs/namek-redraw-v2.md).
 
 **Aprobado: especial más rápido solo al enlazarlo · Gohan y Vegeta.** [**Antes/después simultáneo · 20 s**](assets/media/combo-startup/comparacion.mp4) · [Condiciones, datos y pruebas](docs/combo-startup.md). Después de A-A-B, Masenko **42→28f** y Final Flash **79→39f**, conservando daño e impactos en las muestras. Lanzados sueltos usan sus tablas nativas; las tomas del vídeo mantienen41f y77f. No cambia la velocidad del proyectil ni el hitstun. **v1.0 build `20261108-200852`, aprobado el8/11/2026.**
 

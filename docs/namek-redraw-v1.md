@@ -13,3 +13,7 @@ El usuario no identifica aún el motivo de la preferencia. Como hipótesis de di
 La comparación completa se generó con image_gen. **Ambos paneles son una recreación aproximada**, incluso el rotulado «ACTUAL»: la referencia real está enlazada aparte. No se garantizan píxeles idénticos del HUD o personajes, resolución lógica320×224, paleta compatible, tiles, capas o integración nativa. No se afirma que pueda insertarse esta imagen directamente en el juego.
 
 Si se retoma la mejora, la dirección propuesta es conservar formas y composición originales y probar ajustes pequeños de sombra/profundidad. La comparación nativa de suelo y vuelo sigue siendo un requisito para valorar una futura integración; no se ha producido ese vídeo ni se ha cambiado el escenario en la ROM aprobada200852.
+
+## Aclaración posterior
+
+El usuario acepta después el resto de la propuesta y concreta los cambios en montañas y casa del Gran Patriarca. La dirección actual y el vídeo de simulación se documentan en [Namek v2](namek-redraw-v2.md). La preferencia anterior queda como historial, no como decisión final de descartar todo redibujado.

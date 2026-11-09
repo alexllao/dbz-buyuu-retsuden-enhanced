@@ -86,3 +86,8 @@ Versión y build en nombre de ROM, cabeceras y manifiesto. Corregidas la reducci
 ## Gohan HITS y YouTube Short · 6 de noviembre de 2026
 
 [Build 124607: Gohan de dos a cinco HITS, mismo daño, doce casos y doce de regresión de Piccolo](gohan-hits-v1.md). [Short vertical de 28 segundos](youtube-short-v1.md), sin acelerar y sin ese Meteor; mantiene su procedencia 105411. La presentación larga anterior permanece archivada.
+
+
+## 9/11/2026 · Namek, simulación y escenarios alternativos
+
+Se acepta la dirección general del redibujado, con montañas retocadas y casa del Gran Patriarca corregida a partir de la referencia del usuario. Debe ser pixel art. Se solicita ver combate, vuelo y ataque grande; se entrega una simulación comparativa con imágenes reales del build200852, sin cambiar la ROM. Se conservan conceptos de Namek normal, aldea devastada y cielo de invocación de Porunga. La adaptación a paletas, tiles y capas nativas queda pendiente. [Vídeo, referencias y alcance](namek-redraw-v2.md).
