@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**9/11/2026 — Casa y Porunga de R8 rechazados:** el usuario indica que no le gustan ni se parecen a la referencia. R8 no se considera elegida. Se conserva un nuevo estudio de Porunga basado directamente en el anime, todavía sin integrar en la ROM ni validar su paleta nativa. La casa sigue pendiente de sustitución. [Estado, fuentes y límites](namek-likeness-study.md).
+
 **9/11/2026 — Namek original preferido:** el usuario aprecia algo el color del concepto, pero prefiere el fondo antiguo y no identifica el motivo. Se conserva el original y se archiva el boceto sin integrarlo. La comparación en suelo/vuelo corresponde a una futura propuesta nativa. [Imagen, procedencia y límites](namek-redraw-v1.md).
 
 **8/11/2026 — aprobación general de la versión actual:** el usuario confirma «perfecto, me encanta» y «sisi, todo lo ke has hecho me parece perfecto eh». Quedan aprobadas las mejoras demostradas del build200852, incluidas preparación de Masenko/Final Flash dentro del combo, buffer y variantes de básicos de Goku y corrección de lanzamiento. No se incorporan experimentos descartados ni se infiere certificación en consola. [Revisión aprobada](combo-startup.md).

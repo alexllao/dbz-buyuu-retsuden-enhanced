@@ -1,0 +1,19 @@
+{
+  "status": "Unapproved likeness study. NOT integrated in ROM; no hardware palette or tile validation.",
+  "reference": "User-provided anime frame codex-clipboard-72f156dd-782e-492d-b651-517da5ccb2b0.png",
+  "source": "C:\\Users\\usuari\\.codex\\generated_images\\01a1a2b1-d929-7be2-bf04-737f7260041f\\exec-d9cf10c5-1d55-44a9-9555-deb53d384e31.png",
+  "sourceSHA256": "9c31937a3e35bdaf457ad1d64b0d342aa24bfbb6ce5354b9d9a912f0e93c19f2",
+  "crop": [
+    111,
+    18,
+    1081,
+    1383
+  ],
+  "studySize": [
+    57,
+    80
+  ],
+  "resize": "Nearest-neighbor, preserving aspect ratio; no hardware palette reduction",
+  "tool": "Built-in image_gen.imagegen",
+  "supersedes": "R8 figure rejected for likeness; R8 house also rejected, replacement pending"
+}

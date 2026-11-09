@@ -1,5 +1,7 @@
 # Namek R8: casa definida y cielo de Porunga reconstruido
 
+**Valoración posterior: casa y Porunga rechazados por falta de parecido.** R8 queda archivada como prueba; los controles técnicos no validan el dibujo. [Estudio posterior y pendientes](namek-likeness-study.md).
+
 9 de noviembre de 2026. El usuario vuelve a señalar falta de definición en R6 y franjas/cortes en el cielo de Porunga. La preferencia anterior por R6 no se interpreta como aprobación final: se reabre la revisión. **R8 es una nueva entrega para valorar; R6, R7 y los maestros de arte se conservan.**
 
 [**Los tres fondos R8, capturas reales**](../assets/media/namek-native-r8/R8-tres-variantes-ROM.png) · [R6/R8 a tamaño nativo](../assets/media/namek-native-r8/Comparacion-R6-R8-1x.png) · [Casa y roca, igual escala](../assets/media/namek-native-r8/Casa-y-roca-R6-R8.png) · [Cielo de Porunga, igual escala](../assets/media/namek-native-r8/Cielo-Porunga-R6-R8.png).
