@@ -1,0 +1,48 @@
+{
+  "version": "V5",
+  "buildId": "20261109-093419",
+  "romSha256": "ed28bb56d207f0d0fd12f1cd1e6eff5597c0f8344e6a7bcf39c8b4017c89f2a8",
+  "source": "Integrated ROM graphics/map and verified native CRAM snapshots",
+  "images": [
+    {
+      "variant": "normal",
+      "file": "01-Namek-normal-V5-512x512.png",
+      "width": 512,
+      "height": 512,
+      "nativePixelScale": 1,
+      "backgroundOnly": true,
+      "gameAndCompilationResampling": false,
+      "palette": "Genesis Plus GX RGB565, same conversion as native PNG captures",
+      "verifiedBackgroundPixels": 57373,
+      "colorMatchesCaptureExactly": true,
+      "sha256": "96c6eac39daa882856c0b09d0fdaf8116178c5d1012745be00d7903a9fc8aa1b"
+    },
+    {
+      "variant": "aldea",
+      "file": "02-Namek-devastado-V5-512x512.png",
+      "width": 512,
+      "height": 512,
+      "nativePixelScale": 1,
+      "backgroundOnly": true,
+      "gameAndCompilationResampling": false,
+      "palette": "Genesis Plus GX RGB565, same conversion as native PNG captures",
+      "verifiedBackgroundPixels": 57373,
+      "colorMatchesCaptureExactly": true,
+      "sha256": "9fa33c7f37f47c1de9fdd793ba004fe34ae9881a4fa4d6e2d1aa8a0f4a62a23d"
+    },
+    {
+      "variant": "porunga",
+      "file": "03-Namek-Porunga-V5-512x512.png",
+      "width": 512,
+      "height": 512,
+      "nativePixelScale": 1,
+      "backgroundOnly": true,
+      "gameAndCompilationResampling": false,
+      "palette": "Genesis Plus GX RGB565, same conversion as native PNG captures",
+      "verifiedBackgroundPixels": 57373,
+      "colorMatchesCaptureExactly": true,
+      "sha256": "24cf7ae22146052cf60f2a6901ddd560644a834a5a97d1d677acc6b5256ebb5a"
+    }
+  ],
+  "noRomIncluded": true
+}

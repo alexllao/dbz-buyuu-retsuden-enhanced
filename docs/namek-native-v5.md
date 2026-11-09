@@ -8,6 +8,8 @@
 
 Clips nuevos completos: [Namek normal](../assets/media/namek-native-v5/normal.mp4) · [Aldea devastada](../assets/media/namek-native-v5/aldea.mp4) · [Porunga](../assets/media/namek-native-v5/porunga.mp4), unos13 s cada uno.
 
+**PNG completos para inspección,512×512 y sin HUD/personajes:** [normal](../assets/media/namek-v5-fullmaps/normal.png) · [devastado](../assets/media/namek-v5-fullmaps/aldea.png) · [Porunga](../assets/media/namek-v5-fullmaps/porunga.png). Copias4x sin suavizado: [normal](../assets/media/namek-v5-fullmaps/normal-4x.png) · [devastado](../assets/media/namek-v5-fullmaps/aldea-4x.png) · [Porunga](../assets/media/namek-v5-fullmaps/porunga-4x.png). Son los mapas base completos que reutiliza el scroll, decodificados de los recursos del build093419; no son recortes del juego. Se usa la misma conversión RGB565 que las capturas nativas, verificada en57.373 píxeles visibles de fondo por variante. [Procedencia y hashes](../assets/media/namek-v5-fullmaps/manifest.json).
+
 ## Causa y corrección
 
 El módulo de suelo reutilizado conservaba fragmentos de dos árboles del dibujo antiguo. Al usar solo su parte inferior desdeY352, faltaban sus copas. El espejo y la repetición del módulo duplicaban esos trozos; uno aparecía como dos palos verticales unidos por la base.
