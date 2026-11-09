@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-09",
+  "mode": "built-in image_gen.imagegen for dragon and cloud guides; existing transparent house source",
+  "dragonSource": "exec-3e6dda14-0702-4208-bff4-2e2eed0b904b.png",
+  "cloudSource": "exec-1c5325a0-e37d-4a3e-8dbd-f81505531946.png",
+  "houseSource": "namek-native-v1/house.png",
+  "hashes": {
+    "house-source.png": "96b369218a8566e48da2457d3be53ff7398e4077d7cbd6adc3c08985a250d96d",
+    "porunga-guide.png": "864b5e04f71027e8eedc5a093c843ad6dc11c1cc9ba776e846b53bbc85fd5e9c",
+    "cloud-guide.png": "f37bf2ba06ce241bb4a435faad8c61e72cbdfb6df37661b8367a48ef8f0144a5",
+    "prompts.json": "150915d5f45a0653a17a1e746b04eb43d0ebb6831a1101f5d07c5a90493edac0"
+  },
+  "nativeApprovalPending": true
+}

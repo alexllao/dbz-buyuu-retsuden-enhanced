@@ -146,3 +146,7 @@ Tras ver la grabacion real, el usuario senala que todo se ve pixelado y aporta u
 ## 9/11/2026 · Preferencia R6 tras comparar la textura
 
 El usuario indica «perfecto yo veo la r6 bien» y pide ver las tres variantes de Namek. Se mantiene R6 como referencia y se muestran normal, devastado con lava y Porunga mediante sus capturas y el video real ya grabado, build115335. R7 se conserva como alternativa; no se da por elegida automaticamente. Los videos continuan locales y sin publicar. [R6](namek-native-r6.md).
+
+## 9/11/2026 · R6 no queda validada; R8 de definicion y cielo
+
+El usuario vuelve a indicar falta de definicion en casa/roca y cortes en Porunga, y pide dedicar el tiempo necesario. Se reabre la validacion: la preferencia anterior por R6 no se considera final. R8 conserva las vetas finas de R7, corrige el alfa/contorno y las proporciones de la casa, y reconstruye Porunga y su cielo con nubes completas. Se eliminan franjas y restos de nubes anteriores, incluidos bordes grises aislados. Paletas identicas; empaquetado R8 sin perdida adicional, casa compartida exacta. Se graban los tres fondos desde la ROM a escala entera2x y se comprueban33 casos de VRAM/paleta, tambien al terminar especiales. Video local sin publicar. R8 pendiente de valoracion visual; R6/R7 y maestros conservados. [R8, pruebas y fuentes](namek-native-r8.md).

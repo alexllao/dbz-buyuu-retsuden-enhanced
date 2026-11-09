@@ -1,6 +1,6 @@
 # Namek R7: prueba de textura fina en la ROM
 
-**Valoración posterior:** el usuario indica que ve bien R6 y solicita ver sus tres variantes. No se elige R7 para sustituirla; se conserva esta prueba como alternativa.
+**Estado posterior:** tras volver a ver R6, el usuario reabre la revisión por falta de definición y fallos en Porunga. [R8](namek-native-r8.md) conserva las vetas finas de esta prueba y corrige casa, figura y cielo; su acabado queda pendiente de valoración. R7 se conserva como antecedente.
 
 9 de noviembre de 2026. El usuario señala que R6 se ve muy pixelado y aporta una captura. Cumplir las restricciones de Mega Drive no resolvía el acabado: las grandes manchas planas de las mesetas perdían detalle frente a las vetas del fondo original. **R7 es una prueba pendiente de valoración; los maestros aprobados y R6 se conservan.**
 

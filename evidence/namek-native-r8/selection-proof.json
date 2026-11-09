@@ -1,0 +1,30 @@
+{
+  "romSha256": "d32e0d412ffc3f977bc25767fd2cd7258a4e69a089bce58717f92c047d23dc06",
+  "cases": [
+    {
+      "scenario": "normal",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "aldea",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 2,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "porunga",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 3,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    }
+  ],
+  "fixtureScope": "After native stage selection: actors control bytes human, initial spacing/facing only. Critical HP obtained by real P2 punches and natural recovery; ki by native charge inputs."
+}

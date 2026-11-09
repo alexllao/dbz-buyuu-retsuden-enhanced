@@ -1,0 +1,28 @@
+{
+  "variant": "normal",
+  "tiles": 736,
+  "limit": 736,
+  "losslessPacking": true,
+  "compactWholeClouds": false,
+  "paletteR7Exact": true,
+  "houseSourceAlphaBox": [
+    312,
+    261,
+    1213,
+    766
+  ],
+  "housePosition": [
+    345,
+    282
+  ],
+  "houseSize": [
+    58,
+    32
+  ],
+  "houseColorSha256": "9a6f86d610135361b3c4e9d75df2be27ae2aca3a8d34d8e93cb3fc81ce0d6c77",
+  "outsideEditedRegionsChangedPixels": 0,
+  "paletteErrorsOutsideDragon": 0,
+  "dragonPaletteApproximationPixels": 0,
+  "longestNightSkyGreenRun": null,
+  "nativeApprovalPending": true
+}

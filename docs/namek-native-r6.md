@@ -1,6 +1,6 @@
 # Namek R6: revisión real desde la ROM
 
-**Última valoración:** después de la [comparación R6/R7](namek-rock-r7.md), el usuario indica «yo veo la r6 bien» y pide ver las tres variantes R6. Se muestran normal, devastado con lava y Porunga desde el vídeo y capturas reales del build115335. Se mantiene R6 como referencia visual; R7 queda como alternativa conservada. La observación anterior sobre pixelación motivó esa prueba, pero no implica elegir R7.
+**Revisión reabierta:** después de volver a ver las tres variantes, el usuario señala falta de definición y cortes en el cielo de Porunga. La preferencia anterior por R6 no se considera una aprobación final del acabado. Se prepara [R8 con la casa corregida, roca fina, Porunga redibujado y cielo reconstruido](namek-native-r8.md). R6 se conserva como referencia histórica.
 
 9 de noviembre de 2026. [Los tres maestros de arte están aprobados](namek-revision-r6.md), incluido el devastado con volcán distante, humo y una casa rota más cercana. El usuario pide explícitamente integrarlos y que el vídeo salga de la ROM, para revisión personal y sin subirlo. **La aprobación del dibujo no se extiende automáticamente a esta adaptación nativa.**
 
