@@ -1,0 +1,419 @@
+{
+  "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+  "cases": [
+    {
+      "nativeMode": 0,
+      "variant": 1,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 1,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          21,
+          8
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 1,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          192,
+          200
+        ],
+        "nativeAction": [
+          0,
+          39
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 0,
+      "variant": 2,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 2,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          21,
+          8
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 2,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          179,
+          200
+        ],
+        "nativeAction": [
+          19,
+          36
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 0,
+      "variant": 3,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          21,
+          8
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 0,
+        "types": [
+          0,
+          255
+        ],
+        "hp": [
+          182,
+          200
+        ],
+        "nativeAction": [
+          19,
+          39
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 1,
+      "variant": 1,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 1,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 1,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          0,
+          0
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 1,
+      "variant": 2,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 2,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 2,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          0,
+          0
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 1,
+      "variant": 3,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 1,
+        "types": [
+          0,
+          0
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          0,
+          0
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 2,
+      "variant": 1,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 1,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 1,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          2,
+          3
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 2,
+      "variant": 2,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 2,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 2,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          3,
+          3
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    },
+    {
+      "nativeMode": 2,
+      "variant": 3,
+      "selected": {
+        "state": 32,
+        "phase": 3,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          200
+        ],
+        "nativeAction": [
+          39,
+          11
+        ]
+      },
+      "playing": {
+        "state": 12,
+        "phase": 4,
+        "row": 1,
+        "physical": 6,
+        "variant": 3,
+        "mode": 2,
+        "types": [
+          255,
+          255
+        ],
+        "hp": [
+          200,
+          189
+        ],
+        "nativeAction": [
+          56,
+          21
+        ]
+      },
+      "backgroundVRAMExact": true,
+      "fixtureWrites": []
+    }
+  ]
+}

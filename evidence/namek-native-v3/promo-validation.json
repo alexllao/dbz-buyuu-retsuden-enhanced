@@ -1,0 +1,494 @@
+[
+  {
+    "scenario": "normal",
+    "label": "01-vuelo",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "damage": 0,
+    "maxHits": 0,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      52,
+      53,
+      101,
+      106
+    ],
+    "expected": null,
+    "firstHP": 200
+  },
+  {
+    "scenario": "normal",
+    "label": "02-goku",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 300,
+    "seconds": 5.006446350024933,
+    "damage": 88,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "normal",
+    "label": "03-gohan",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 299,
+    "seconds": 4.989758195524851,
+    "damage": 71,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      1036,
+      1039,
+      3087
+    ],
+    "expected": 3087,
+    "firstHP": 200
+  },
+  {
+    "scenario": "normal",
+    "label": "04-vegeta",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 421,
+    "seconds": 7.02571304453499,
+    "damage": 74,
+    "maxHits": 11,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      51,
+      1060,
+      1063,
+      2118,
+      2119
+    ],
+    "expected": 2118,
+    "firstHP": 42
+  },
+  {
+    "scenario": "normal",
+    "label": "05-cell",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 836,
+    "seconds": 13.951297162069482,
+    "damage": 105,
+    "maxHits": 16,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      1084,
+      1087,
+      2115,
+      2122
+    ],
+    "expected": 2122,
+    "firstHP": 42
+  },
+  {
+    "scenario": "normal",
+    "label": "06-pantalla-partida",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 775,
+    "seconds": 12.93331973756441,
+    "damage": 58,
+    "maxHits": 1,
+    "nativeScenes": [
+      0,
+      1,
+      129
+    ],
+    "nativeCinematics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      3076,
+      3078
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "aldea",
+    "label": "04-vegeta",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 412,
+    "seconds": 6.875519654034242,
+    "damage": 74,
+    "maxHits": 11,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      51,
+      1060,
+      1063,
+      2118,
+      2119
+    ],
+    "expected": 2118,
+    "firstHP": 42
+  },
+  {
+    "scenario": "aldea",
+    "label": "02-goku",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 300,
+    "seconds": 5.006446350024933,
+    "damage": 88,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "aldea",
+    "label": "03-gohan",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 298,
+    "seconds": 4.9730700410247675,
+    "damage": 71,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      1036,
+      1039,
+      3087
+    ],
+    "expected": 3087,
+    "firstHP": 200
+  },
+  {
+    "scenario": "aldea",
+    "label": "05-cell",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 860,
+    "seconds": 14.351812870071475,
+    "damage": 105,
+    "maxHits": 16,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      1084,
+      1087,
+      2115,
+      2122
+    ],
+    "expected": 2122,
+    "firstHP": 42
+  },
+  {
+    "scenario": "aldea",
+    "label": "01-vuelo",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "damage": 0,
+    "maxHits": 0,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      52,
+      53,
+      101,
+      106
+    ],
+    "expected": null,
+    "firstHP": 200
+  },
+  {
+    "scenario": "aldea",
+    "label": "06-pantalla-partida",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 775,
+    "seconds": 12.93331973756441,
+    "damage": 58,
+    "maxHits": 1,
+    "nativeScenes": [
+      0,
+      1,
+      129
+    ],
+    "nativeCinematics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      3076,
+      3078
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "porunga",
+    "label": "05-cell",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 854,
+    "seconds": 14.251683943070978,
+    "damage": 105,
+    "maxHits": 16,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      1084,
+      1087,
+      2115,
+      2122
+    ],
+    "expected": 2122,
+    "firstHP": 42
+  },
+  {
+    "scenario": "porunga",
+    "label": "04-vegeta",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 412,
+    "seconds": 6.875519654034242,
+    "damage": 74,
+    "maxHits": 11,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      51,
+      1060,
+      1063,
+      2118,
+      2119
+    ],
+    "expected": 2118,
+    "firstHP": 42
+  },
+  {
+    "scenario": "porunga",
+    "label": "02-goku",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 300,
+    "seconds": 5.006446350024933,
+    "damage": 88,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1024,
+      1025,
+      1028,
+      3076
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  },
+  {
+    "scenario": "porunga",
+    "label": "03-gohan",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 298,
+    "seconds": 4.9730700410247675,
+    "damage": 71,
+    "maxHits": 4,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      1036,
+      1039,
+      3087
+    ],
+    "expected": 3087,
+    "firstHP": 200
+  },
+  {
+    "scenario": "porunga",
+    "label": "01-vuelo",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 437,
+    "seconds": 7.29272351653632,
+    "damage": 0,
+    "maxHits": 0,
+    "nativeScenes": [
+      0
+    ],
+    "nativeCinematics": [
+      0
+    ],
+    "programs": [
+      0,
+      52,
+      53,
+      101,
+      106
+    ],
+    "expected": null,
+    "firstHP": 200
+  },
+  {
+    "scenario": "porunga",
+    "label": "06-pantalla-partida",
+    "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+    "stage": 6,
+    "frames": 775,
+    "seconds": 12.93331973756441,
+    "damage": 58,
+    "maxHits": 1,
+    "nativeScenes": [
+      0,
+      1,
+      129
+    ],
+    "nativeCinematics": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "programs": [
+      0,
+      1,
+      2,
+      3,
+      3076,
+      3078
+    ],
+    "expected": 3076,
+    "firstHP": 200
+  }
+]

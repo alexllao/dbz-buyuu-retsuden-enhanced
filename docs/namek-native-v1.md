@@ -1,5 +1,7 @@
 # Namek: cuatro vídeos con fondos cargados por la ROM
 
+**Historial descartado.** La nueva [revisión V3](namek-native-v3.md) abandona los bloques ampliados de V2 y reconstruye el terreno con texturas nativas a un píxel. Sus vídeos y límites se documentan por separado; el acabado nuevo todavía necesita valoración del usuario.
+
 9/11/2026. El usuario pide ver cómo quedarían realmente los escenarios en Mega Drive, señala que la casa de la aldea era más pequeña, propone escenarios extra en el selector y sugiere dithering. Después concreta la entrega: **vídeos espectaculares en el fondo original y en los tres nuevos; la ROM todavía no hace falta**.
 
 ## Valoración del usuario: adaptación visual rechazada

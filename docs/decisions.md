@@ -111,3 +111,7 @@ El usuario señala un aspecto general extraño y, en concreto, césped con parch
 ## 9/11/2026 · Conservar diseños y estudiar Porunga como sprite
 
 El usuario aclara que los diseños son bonitos y el problema está al adaptarlos a Mega Drive. No se decide volver al diseño del escenario antiguo: se mantiene la composición aprobada y se rehace la adaptación técnica. Sugiere Porunga como sprite con un pequeño movimiento de flotación vertical; idea pendiente, sin animación integrada. La auditoría identifica sustitución independiente de tiles como causa principal de los parches, no una limitación inevitable de la consola. [Diagnóstico y evidencias](namek-native-v1.md).
+
+## 9/11/2026 · V2 descartada por pixelación; nueva construcción nativa V3
+
+El usuario rechaza con claridad la definición de las imágenes de prueba V2: los píxeles del fondo se ven mucho mayores que los de los personajes. Pide seguir trabajando sin más avances hasta comprobarlo. Se abandona la miniatura256/128 ampliada. V3 reutiliza textura nativa a un píxel, conserva montañas y casa con muestreo directo y distribuye los recursos por regiones y materiales. Se verifica en suelo, vuelo y ataques grandes; se preparan tres demostraciones y una comparación con la adaptación descartada. El suelo modular cambia el primer plano respecto al concepto y no reproduce íntegros sus escombros; debe valorarse, no consta como aprobado. Porunga continúa estático. No se entrega ROM ni se cambia la jugabilidad aprobada200852. [Vídeos, medidas y límites](namek-native-v3.md).

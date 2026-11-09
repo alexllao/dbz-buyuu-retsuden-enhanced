@@ -1,0 +1,130 @@
+{
+  "buildId": "20261109-081031",
+  "romSha256": "af4a56b9918576303e5a86c593e4d104a5cadbce84f7da82b8ba29c118584381",
+  "nativeBackgrounds": true,
+  "backgroundCompositing": false,
+  "normalSpeed": true,
+  "romDelivered": false,
+  "physicalConsoleTested": false,
+  "userApprovalPending": true,
+  "porungaAnimated": false,
+  "videos": [
+    {
+      "scenario": "normal",
+      "filename": "Namek-Gran-Patriarca.mp4",
+      "sha256": "7e826f2d3e8c35b7cc2c3eb2ae5eafc656a8ebf3695dc7f71c6171dd1f979817",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.269002"
+        }
+      },
+      "chapters": [
+        "01-vuelo",
+        "02-goku",
+        "03-gohan",
+        "04-vegeta",
+        "05-cell",
+        "06-pantalla-partida"
+      ]
+    },
+    {
+      "scenario": "aldea",
+      "filename": "Namek-aldea-devastada.mp4",
+      "sha256": "6c8a475939cd79373008fb6899080219c35256d5a513cca039e3e356b572af18",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.548005"
+        }
+      },
+      "chapters": [
+        "04-vegeta",
+        "02-goku",
+        "03-gohan",
+        "05-cell",
+        "01-vuelo",
+        "06-pantalla-partida"
+      ]
+    },
+    {
+      "scenario": "porunga",
+      "filename": "Namek-Porunga.mp4",
+      "sha256": "14417e813aa0b821317f20f0ce0c1c01dbee8494cbc2fb66aba6b06c78606626",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 960,
+            "height": 754,
+            "avg_frame_rate": "152024/2537"
+          },
+          {
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "51.431995"
+        }
+      },
+      "chapters": [
+        "05-cell",
+        "04-vegeta",
+        "02-goku",
+        "03-gohan",
+        "01-vuelo",
+        "06-pantalla-partida"
+      ]
+    }
+  ],
+  "comparison": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 520,
+        "avg_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "36.630499"
+    }
+  },
+  "comparisonMeaning": "Earlier native adaptation versus new native assets; same scripted routes at normal speed, not guaranteed identical actor animation phase. Audio from new capture.",
+  "originalReference": "Existing050003 recording: original stage assets with Enhanced gameplay; unchanged in current build."
+}

@@ -1,0 +1,22 @@
+{
+  "variant": "normal",
+  "buildId": "20261109-080625",
+  "sourceSampling": "Direct area projection to512; native one-pixel terrain128-wide mirrored and repeated; foreground y376:512 exact; shared house58x23 at345,291; Porunga cloud resource reused unscaled",
+  "coarseGridUpscaling": false,
+  "tiles": 732,
+  "limit": 736,
+  "topologyGroups": 525,
+  "patternsBefore": 732,
+  "opaquePixels": 262144,
+  "materialBoundaryChanges": 0,
+  "textureChangedPixels": 0,
+  "grassTextureChangedPixels": 0,
+  "foregroundTextureChangedPixels": 0,
+  "foregroundBlueTextureChangedPixels": 0,
+  "houseColorSha256": "4afc94e27de1a7d7d8ebf1b490ae747fab7aa92775d201d587623dfeba1c024e",
+  "porungaAnimated": false,
+  "experimental": true,
+  "userApprovalPending": true,
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "targetSha256": "1f4bc7020912af663b5981918973e26f95f10bf24188bf52dadbaf7ebb81ca83"
+}

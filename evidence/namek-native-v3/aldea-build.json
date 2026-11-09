@@ -1,0 +1,22 @@
+{
+  "variant": "aldea",
+  "buildId": "20261109-080627",
+  "sourceSampling": "Direct area projection to512; native one-pixel terrain128-wide mirrored and repeated; foreground y376:512 exact; shared house58x23 at345,291; Porunga cloud resource reused unscaled",
+  "coarseGridUpscaling": false,
+  "tiles": 736,
+  "limit": 736,
+  "topologyGroups": 672,
+  "patternsBefore": 891,
+  "opaquePixels": 262144,
+  "materialBoundaryChanges": 0,
+  "textureChangedPixels": 2051,
+  "grassTextureChangedPixels": 0,
+  "foregroundTextureChangedPixels": 0,
+  "foregroundBlueTextureChangedPixels": 0,
+  "houseColorSha256": "4afc94e27de1a7d7d8ebf1b490ae747fab7aa92775d201d587623dfeba1c024e",
+  "porungaAnimated": false,
+  "experimental": true,
+  "userApprovalPending": true,
+  "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+  "targetSha256": "0dadb4eaf5fa934bd20f917a4e600487ff2b5e52c9d6af611675d8fe248e867d"
+}
