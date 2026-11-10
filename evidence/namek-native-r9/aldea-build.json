@@ -1,0 +1,28 @@
+{
+  "variant": "aldea",
+  "tiles": 732,
+  "limit": 736,
+  "losslessPacking": true,
+  "compactWholeClouds": false,
+  "paletteR7Exact": true,
+  "houseSourceAlphaBox": [
+    0,
+    0,
+    1178,
+    646
+  ],
+  "housePosition": [
+    345,
+    282
+  ],
+  "houseSize": [
+    58,
+    32
+  ],
+  "houseColorSha256": "0f9c4bdea48210b0cf3e34335a695ac29c667a8848ea1e68bf3bae7f75f29699",
+  "outsideEditedRegionsChangedPixels": 0,
+  "paletteErrorsOutsideDragon": 0,
+  "dragonPaletteApproximationPixels": 0,
+  "longestNightSkyGreenRun": null,
+  "nativeApprovalPending": true
+}

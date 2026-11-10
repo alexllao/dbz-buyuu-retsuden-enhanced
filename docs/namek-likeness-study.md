@@ -1,5 +1,7 @@
 # Casa y Porunga: revisión del parecido
 
+**Estado posterior:** los dos dibujos se han integrado en [R9](namek-native-r9.md) para revisar su resultado real en la ROM. Los estudios siguientes se conservan como procedencia. El resultado nativo sigue pendiente de valoración.
+
 ## 10 de noviembre: prueba de borde suave en la casa
 
 El usuario considera mejor encaminado el nuevo estudio de Porunga («si, eso es otra cosa»); esto valida la dirección del dibujo, no una adaptación nativa todavía inexistente. Señala después que el borde de la casa es excesivo y parece un pegote. Se prepara una [propuesta visual de borde más suave](../assets/concepts/namek-house-soft-outline/prueba-borde-suave.png), con contornos gris/oliva y luces marfil en lugar de una línea negra continua. [Prompt y alcance](../assets/concepts/namek-house-soft-outline/prompt.json).

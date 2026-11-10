@@ -1,0 +1,27 @@
+{
+  "romSha256": "40e7d04b2e725938322070d3d0f02a95caa870248ccba76f8386cf3524dc5d21",
+  "resourceHashes": {
+    "work/namek-native-r9/normal/tiles.bin": "d018fd64dab8f81e86c87faffa44795f921bf3c71e6a42c6427613eb0b7ca0e0",
+    "work/namek-native-r9/normal/gfx.lz": "b5db821fac3d2ecac322d1949142af9a0d91c69cfb190a7c53a32f95c8ab0be6",
+    "work/namek-native-r9/normal/map.bin": "9cca5f73fcf31b3eb0e41b42f491d3c26ddf1a26e44f8a9705ca7a6a103a1e7a",
+    "work/namek-native-r9/normal/map-header.bin": "287c21cc8264bab85a798e74bd121afe43acd95126897fb613a0a5ee4b0d1fc2",
+    "work/namek-native-r9/normal/palette.bin": "91f19a289f6ea810fbd67bc8e87d7807fe44635525eb0b2b66ac6538bb44c9b8",
+    "work/namek-native-r9/aldea/tiles.bin": "86e86865e7c986dc1b0cc726c7b9feba8ea0827052d63e7f9e563b595aca1428",
+    "work/namek-native-r9/aldea/gfx.lz": "8e4444aa60f90cdd43a24837b51aacd2af8d7e35b1e158fdc9576895147f309a",
+    "work/namek-native-r9/aldea/map.bin": "866a64f40e3e3771a2419fb535799ab9ec0258c00d27269616d7ce7d5206c815",
+    "work/namek-native-r9/aldea/map-header.bin": "0bbe5d214f81ab29b4f20a2435a3d30c21006627e32b51a68aebbff7ca9e2d09",
+    "work/namek-native-r9/aldea/palette.bin": "255f89b3020a159557f3b6de03d3be59524eda750f4676bac8820e5d29d3b5a8",
+    "work/namek-native-r9/porunga/tiles.bin": "b2189886b9c47ae7908bc09da8b7886bb6769b45e9110634b1380c9232744662",
+    "work/namek-native-r9/porunga/gfx.lz": "19bfe30e897756f47595d9557b94a69842b2e5912d18268a28e4c10a9e4df552",
+    "work/namek-native-r9/porunga/map.bin": "5efebdc9587fe6011737d3d33af606fe0ca7c1fd80ccff019fe0008fae96cd63",
+    "work/namek-native-r9/porunga/map-header.bin": "07bd645f367a3fd6f2b81e77189c6cfebc28d1f6912213b82e8d3ec36574155e",
+    "work/namek-native-r9/porunga/palette.bin": "ed81703e78a36bd5d4882408b1dc8052ca33cc598a938ede62bd70c1d297e14e"
+  },
+  "all15ResourcesReproducible": true,
+  "all9EmbeddedResourcesExact": true,
+  "all3PalettesUnchanged": true,
+  "sharedHouseExact": true,
+  "opaqueBackgrounds": true,
+  "losslessPacking": true,
+  "nightNoLongGreenStrips": true
+}

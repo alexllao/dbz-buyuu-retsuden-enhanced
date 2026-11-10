@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**10/11/2026 — R9 integrada; revisión del suelo abierta:** se aceptan la dirección de Porunga del anime y la casa de borde suave. Se integran en una ROM experimental y se graban los tres Namek, suelo, vuelo y especiales. Se corrige la posición para mostrar la cabeza de Porunga bajo el HUD. El usuario señala marcas repetidas del suelo: no se ha identificado el recorte exacto ni se da por corregido. Vídeo privado local; aprobación nativa pendiente. [R9 y límites](namek-native-r9.md).
+
 **9/11/2026 — Casa y Porunga de R8 rechazados:** el usuario indica que no le gustan ni se parecen a la referencia. R8 no se considera elegida. Se conserva un nuevo estudio de Porunga basado directamente en el anime, todavía sin integrar en la ROM ni validar su paleta nativa. La casa sigue pendiente de sustitución. [Estado, fuentes y límites](namek-likeness-study.md).
 
 **9/11/2026 — Namek original preferido:** el usuario aprecia algo el color del concepto, pero prefiere el fondo antiguo y no identifica el motivo. Se conserva el original y se archiva el boceto sin integrarlo. La comparación en suelo/vuelo corresponde a una futura propuesta nativa. [Imagen, procedencia y límites](namek-redraw-v1.md).

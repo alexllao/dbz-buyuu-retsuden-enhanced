@@ -1,0 +1,131 @@
+{
+  "romSha256": "40e7d04b2e725938322070d3d0f02a95caa870248ccba76f8386cf3524dc5d21",
+  "backgroundIntegrated": true,
+  "method": "Direct native ROM framebuffer/audio; integer2x presentation; no background replacement",
+  "checks": [
+    {
+      "variant": "normal",
+      "label": "01-vuelo-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "flight-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "02-goku-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "ground-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "06-pantalla-partida-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "split-screen-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    }
+  ],
+  "takes": [
+    {
+      "label": "01-vuelo",
+      "romSha256": "40e7d04b2e725938322070d3d0f02a95caa870248ccba76f8386cf3524dc5d21",
+      "stage": 6,
+      "frames": 437,
+      "seconds": 7.29272351653632,
+      "damage": 0,
+      "maxHits": 0,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        52,
+        53,
+        101,
+        106
+      ],
+      "expected": null,
+      "firstHP": 200
+    },
+    {
+      "label": "02-goku",
+      "romSha256": "40e7d04b2e725938322070d3d0f02a95caa870248ccba76f8386cf3524dc5d21",
+      "stage": 6,
+      "frames": 348,
+      "seconds": 5.8074777660289225,
+      "damage": 88,
+      "maxHits": 4,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    },
+    {
+      "label": "06-pantalla-partida",
+      "romSha256": "40e7d04b2e725938322070d3d0f02a95caa870248ccba76f8386cf3524dc5d21",
+      "stage": 6,
+      "frames": 775,
+      "seconds": 12.93331973756441,
+      "damage": 58,
+      "maxHits": 1,
+      "nativeScenes": [
+        0,
+        1,
+        129
+      ],
+      "nativeCinematics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3076,
+        3078
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    }
+  ]
+}

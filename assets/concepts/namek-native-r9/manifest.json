@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "sources": {
+    "house": "../namek-house-soft-outline/prueba-borde-suave.png",
+    "porunga": "../namek-likeness-study/porunga-anime-study.png",
+    "cloud": "../namek-native-r8/cloud-guide.png"
+  },
+  "hashes": {
+    "cloud-guide.png": "f37bf2ba06ce241bb4a435faad8c61e72cbdfb6df37661b8367a48ef8f0144a5",
+    "house-source.png": "13c44929ce3f916e3521a7a3bce8f91fd247db7464f935b2a9b1a40a4c77adc8",
+    "import.json": "35d37e46fcd9d3d957ef9e78857be6096343f5b357ee1d7b361ac7bb980cd33b",
+    "porunga-guide.png": "9c31937a3e35bdaf457ad1d64b0d342aa24bfbb6ce5354b9d9a912f0e93c19f2"
+  },
+  "nativeApprovalPending": true
+}

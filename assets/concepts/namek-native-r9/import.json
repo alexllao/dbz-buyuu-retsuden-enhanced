@@ -1,0 +1,27 @@
+{
+  "houseSource": "repository/assets/concepts/namek-house-soft-outline/prueba-borde-suave.png",
+  "houseSourceSha256": "86a0ebf542b96699df9b8ac6f958cdec0ae836655a1f5c67d6b6b6fa732a7a60",
+  "sourceROI": [
+    270,
+    110,
+    1475,
+    774
+  ],
+  "alphaBox": [
+    14,
+    14,
+    1192,
+    660
+  ],
+  "alphaMethod": "Sky/grass color key plus enclosed windows. No forced black contour.",
+  "dragonSource": "namek-likeness-study/porunga-anime-study.png",
+  "houseTarget": [
+    58,
+    32
+  ],
+  "dragonTarget": [
+    57,
+    80
+  ],
+  "sourceApproval": "User accepts soft house outline and anime-based Porunga direction. Native result pending review."
+}
