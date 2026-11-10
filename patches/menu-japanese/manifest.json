@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "buildId": "20261110-173703",
+  "source": {
+    "build": "20261110-120502",
+    "sha256": "7c35a85d50855b7b33868b8111158fc86a2cc9a57732e2bf6e7d1595af107d32"
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_Namek_JP_build_20261110-173703.bin",
+    "sha256": "666135fff3069ecd06d25bab945b43970d929fea5d3493b88ff1fe6a54ca1f7f",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/menu-japanese/Selector-japones-sobre-cargas-combo-build-20261110-173703.ips",
+    "sha256": "136cf8cc77ccd312b7e6c8c51ad451766d8f83b0f36df4ef41d9551e4e708f03",
+    "scope": "Delta against combo-charge build 20261110-120502, not original retail ROM"
+  },
+  "changes": "Japanese native-font names for the three extra Namek stages; combat and stage graphics unchanged",
+  "userVisualReviewPending": true
+}

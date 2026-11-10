@@ -1,0 +1,38 @@
+{
+  "romSha256": "666135fff3069ecd06d25bab945b43970d929fea5d3493b88ff1fe6a54ca1f7f",
+  "captures": [
+    {
+      "scenario": "original",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 0,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "normal",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "aldea",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 2,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    },
+    {
+      "scenario": "porunga",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 3,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    }
+  ],
+  "method": "Native menu buttons and direct framebuffer. No text overlay, stage writes or replacement font."
+}
