@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "buildId": "20261110-120502",
+  "experimental": true,
+  "userApprovalPending": true,
+  "source": {
+    "name": "Namek R10 build 20261110-094744",
+    "sha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf"
+  },
+  "target": {
+    "filename": "DBZ_Enhanced_v1.0_Cargas_combo_build_20261110-120502.bin",
+    "sha256": "7c35a85d50855b7b33868b8111158fc86a2cc9a57732e2bf6e7d1595af107d32",
+    "bytes": 4194304
+  },
+  "patch": {
+    "path": "patches/combo-charge-all/Cargas-en-combo-sobre-Namek-R10-build-20261110-120502.ips",
+    "sha256": "3dc1084b303fd12173c7f370e074293b986dd9d0c2fa452ad2bca4e9e994adfd",
+    "scope": "Delta against exact Namek R10 parent; not against the original retail ROM."
+  },
+  "validation": {
+    "buildId": "20261110-120502",
+    "romSha256": "7c35a85d50855b7b33868b8111158fc86a2cc9a57732e2bf6e7d1595af107d32",
+    "rosterCasesEach": 88,
+    "damageDifferences": 0,
+    "soloFastCases": 0,
+    "fastCases": 42,
+    "notConfirmedOrExpired": [
+      {
+        "port": 2,
+        "cid": 1,
+        "side": 1,
+        "context": "combo",
+        "before": 40,
+        "after": 40,
+        "damage": 61,
+        "fast": false
+      },
+      {
+        "port": 2,
+        "cid": 4,
+        "side": 0,
+        "context": "combo",
+        "before": 115,
+        "after": 117,
+        "damage": 42,
+        "fast": false
+      }
+    ],
+    "soloFrameDeltaRange": [
+      -2,
+      3
+    ],
+    "focusedContextsEach": 24,
+    "repeatedCastCases": 11,
+    "recordedCharacters": 5,
+    "mode": "Normal speed, scripted human input, two ports and two directions; not an exhaustive audit of every catalog entry or Turbo/CPU/console behavior.",
+    "catalogEntries": 110
+  }
+}

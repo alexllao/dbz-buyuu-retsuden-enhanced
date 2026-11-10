@@ -1,0 +1,14 @@
+{
+  "romSha256": "7c35a85d50855b7b33868b8111158fc86a2cc9a57732e2bf6e7d1595af107d32",
+  "cases": [
+    {
+      "scenario": "normal",
+      "cid": 0,
+      "enemy": 8,
+      "stage": 6,
+      "variant": 1,
+      "selection": "Native menu buttons only; no stage/variant/palette writes"
+    }
+  ],
+  "fixtureScope": "After native stage selection: actors control bytes human, initial spacing/facing only. Critical HP obtained by real P2 punches and natural recovery; ki by native charge inputs."
+}

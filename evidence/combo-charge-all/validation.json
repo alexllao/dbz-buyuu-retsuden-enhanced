@@ -1,0 +1,39 @@
+{
+  "buildId": "20261110-120502",
+  "romSha256": "7c35a85d50855b7b33868b8111158fc86a2cc9a57732e2bf6e7d1595af107d32",
+  "rosterCasesEach": 88,
+  "damageDifferences": 0,
+  "soloFastCases": 0,
+  "fastCases": 42,
+  "notConfirmedOrExpired": [
+    {
+      "port": 2,
+      "cid": 1,
+      "side": 1,
+      "context": "combo",
+      "before": 40,
+      "after": 40,
+      "damage": 61,
+      "fast": false
+    },
+    {
+      "port": 2,
+      "cid": 4,
+      "side": 0,
+      "context": "combo",
+      "before": 115,
+      "after": 117,
+      "damage": 42,
+      "fast": false
+    }
+  ],
+  "soloFrameDeltaRange": [
+    -2,
+    3
+  ],
+  "focusedContextsEach": 24,
+  "repeatedCastCases": 11,
+  "recordedCharacters": 5,
+  "mode": "Normal speed, scripted human input, two ports and two directions; not an exhaustive audit of every catalog entry or Turbo/CPU/console behavior.",
+  "catalogEntries": 110
+}

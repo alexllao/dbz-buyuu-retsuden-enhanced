@@ -1,0 +1,612 @@
+[
+  {
+    "kind": "kame",
+    "context": "solo",
+    "program": 3076,
+    "accepted": 19,
+    "launch": 46,
+    "startup": 27,
+    "damage": 58,
+    "hitEvents": [
+      48
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "kame",
+    "context": "combo",
+    "program": 3076,
+    "accepted": 70,
+    "launch": 98,
+    "startup": 28,
+    "damage": 88,
+    "hitEvents": [
+      9,
+      30,
+      51,
+      102
+    ],
+    "relativeHits": [
+      4
+    ],
+    "maxHits": 4,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "kame",
+    "context": "cross",
+    "program": 3076,
+    "accepted": 119,
+    "launch": 146,
+    "startup": 27,
+    "damage": 88,
+    "hitEvents": [
+      9,
+      30,
+      51,
+      148
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 4,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "kame",
+    "context": "late",
+    "program": 3076,
+    "accepted": 250,
+    "launch": 278,
+    "startup": 28,
+    "damage": 88,
+    "hitEvents": [
+      9,
+      30,
+      51,
+      284
+    ],
+    "relativeHits": [
+      6
+    ],
+    "maxHits": 3,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "kame",
+    "context": "guard",
+    "program": 3076,
+    "accepted": 109,
+    "launch": 135,
+    "startup": 26,
+    "damage": 58,
+    "hitEvents": [
+      140
+    ],
+    "relativeHits": [
+      5
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "kame",
+    "context": "whiff",
+    "program": 3076,
+    "accepted": 109,
+    "launch": 134,
+    "startup": 25,
+    "damage": 58,
+    "hitEvents": [
+      150
+    ],
+    "relativeHits": [
+      16
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "super",
+    "context": "solo",
+    "program": 3077,
+    "accepted": 36,
+    "launch": 173,
+    "startup": 137,
+    "damage": 10,
+    "hitEvents": [
+      151
+    ],
+    "relativeHits": [],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "super",
+    "context": "combo",
+    "program": 3077,
+    "accepted": 88,
+    "launch": 222,
+    "startup": 134,
+    "damage": 113,
+    "hitEvents": [
+      9,
+      30,
+      51,
+      226
+    ],
+    "relativeHits": [
+      4
+    ],
+    "maxHits": 4,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "super",
+    "context": "cross",
+    "program": 3077,
+    "accepted": 136,
+    "launch": 268,
+    "startup": 132,
+    "damage": 113,
+    "hitEvents": [
+      9,
+      30,
+      51,
+      270
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 3,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "super",
+    "context": "late",
+    "program": 3077,
+    "accepted": 268,
+    "launch": 405,
+    "startup": 137,
+    "damage": 113,
+    "hitEvents": [
+      9,
+      30,
+      51,
+      409
+    ],
+    "relativeHits": [
+      4
+    ],
+    "maxHits": 3,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "super",
+    "context": "guard",
+    "program": 3077,
+    "accepted": 126,
+    "launch": 258,
+    "startup": 132,
+    "damage": 83,
+    "hitEvents": [
+      264
+    ],
+    "relativeHits": [
+      6
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "super",
+    "context": "whiff",
+    "program": 3077,
+    "accepted": 126,
+    "launch": 259,
+    "startup": 133,
+    "damage": 83,
+    "hitEvents": [
+      277
+    ],
+    "relativeHits": [
+      18
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "flash",
+    "context": "solo",
+    "program": 3111,
+    "accepted": 16,
+    "launch": 91,
+    "startup": 75,
+    "damage": 63,
+    "hitEvents": [
+      93
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "flash",
+    "context": "combo",
+    "program": 3111,
+    "accepted": 64,
+    "launch": 102,
+    "startup": 38,
+    "damage": 88,
+    "hitEvents": [
+      9,
+      26,
+      44,
+      104
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 4,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "flash",
+    "context": "cross",
+    "program": 3111,
+    "accepted": 101,
+    "launch": 179,
+    "startup": 78,
+    "damage": 88,
+    "hitEvents": [
+      9,
+      26,
+      44,
+      181
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 4,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "flash",
+    "context": "late",
+    "program": 3111,
+    "accepted": 240,
+    "launch": 317,
+    "startup": 77,
+    "damage": 88,
+    "hitEvents": [
+      9,
+      26,
+      44,
+      319
+    ],
+    "relativeHits": [
+      2
+    ],
+    "maxHits": 3,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "flash",
+    "context": "guard",
+    "program": 3111,
+    "accepted": 105,
+    "launch": 182,
+    "startup": 77,
+    "damage": 63,
+    "hitEvents": [
+      189
+    ],
+    "relativeHits": [
+      7
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "flash",
+    "context": "whiff",
+    "program": 3111,
+    "accepted": 105,
+    "launch": 181,
+    "startup": 76,
+    "damage": 63,
+    "hitEvents": [
+      199
+    ],
+    "relativeHits": [
+      18
+    ],
+    "maxHits": 1,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "cell",
+    "context": "solo",
+    "program": 2122,
+    "accepted": 16,
+    "launch": 93,
+    "startup": 77,
+    "damage": 104,
+    "hitEvents": [
+      107,
+      134,
+      175,
+      204,
+      244,
+      280,
+      315,
+      343,
+      394,
+      435,
+      475,
+      514,
+      544
+    ],
+    "relativeHits": [
+      14,
+      41,
+      82,
+      111,
+      151,
+      187,
+      222,
+      250,
+      301,
+      342,
+      382,
+      421,
+      451
+    ],
+    "maxHits": 13,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "cell",
+    "context": "combo",
+    "program": 2122,
+    "accepted": 83,
+    "launch": 162,
+    "startup": 79,
+    "damage": 137,
+    "hitEvents": [
+      9,
+      28,
+      56,
+      175,
+      201,
+      241,
+      269,
+      308,
+      340,
+      373,
+      401,
+      453,
+      493,
+      532,
+      571,
+      602
+    ],
+    "relativeHits": [
+      13,
+      39,
+      79,
+      107,
+      146,
+      178,
+      211,
+      239,
+      291,
+      331,
+      370,
+      409,
+      440
+    ],
+    "maxHits": 16,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "cell",
+    "context": "cross",
+    "program": 2122,
+    "accepted": 124,
+    "launch": 202,
+    "startup": 78,
+    "damage": 137,
+    "hitEvents": [
+      9,
+      28,
+      56,
+      215,
+      241,
+      281,
+      308,
+      346,
+      380,
+      413,
+      440,
+      489,
+      530,
+      569,
+      609,
+      641
+    ],
+    "relativeHits": [
+      13,
+      39,
+      79,
+      106,
+      144,
+      178,
+      211,
+      238,
+      287,
+      328,
+      367,
+      407,
+      439
+    ],
+    "maxHits": 16,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "cell",
+    "context": "late",
+    "program": 2122,
+    "accepted": 254,
+    "launch": 330,
+    "startup": 76,
+    "damage": 137,
+    "hitEvents": [
+      9,
+      28,
+      56,
+      343,
+      370,
+      411,
+      439,
+      478,
+      510,
+      544,
+      571,
+      623,
+      663,
+      703,
+      744,
+      777
+    ],
+    "relativeHits": [
+      13,
+      40,
+      81,
+      109,
+      148,
+      180,
+      214,
+      241,
+      293,
+      333,
+      373,
+      414,
+      447
+    ],
+    "maxHits": 13,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "cell",
+    "context": "guard",
+    "program": 2122,
+    "accepted": 106,
+    "launch": 186,
+    "startup": 80,
+    "damage": 104,
+    "hitEvents": [
+      198,
+      225,
+      265,
+      292,
+      330,
+      364,
+      395,
+      423,
+      474,
+      512,
+      554,
+      593,
+      626
+    ],
+    "relativeHits": [
+      12,
+      39,
+      79,
+      106,
+      144,
+      178,
+      209,
+      237,
+      288,
+      326,
+      368,
+      407,
+      440
+    ],
+    "maxHits": 13,
+    "fastUsed": false,
+    "returnedToIdle": true
+  },
+  {
+    "kind": "cell",
+    "context": "whiff",
+    "program": 2122,
+    "accepted": 106,
+    "launch": 185,
+    "startup": 79,
+    "damage": 104,
+    "hitEvents": [
+      199,
+      227,
+      268,
+      296,
+      337,
+      372,
+      407,
+      435,
+      484,
+      526,
+      568,
+      610,
+      641
+    ],
+    "relativeHits": [
+      14,
+      42,
+      83,
+      111,
+      152,
+      187,
+      222,
+      250,
+      299,
+      341,
+      383,
+      425,
+      456
+    ],
+    "maxHits": 13,
+    "fastUsed": false,
+    "returnedToIdle": true
+  }
+]

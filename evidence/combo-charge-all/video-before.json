@@ -1,0 +1,47 @@
+{
+  "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+  "fps": 59.92274340431231,
+  "takes": [
+    {
+      "label": "01-super-kame",
+      "frames": 330,
+      "damage": 113,
+      "maxHits": 4,
+      "fast": false,
+      "program": 3077
+    },
+    {
+      "label": "02-masenko",
+      "frames": 290,
+      "damage": 71,
+      "maxHits": 4,
+      "fast": false,
+      "program": 3087
+    },
+    {
+      "label": "03-final-flash",
+      "frames": 320,
+      "damage": 88,
+      "maxHits": 4,
+      "fast": false,
+      "program": 3111
+    },
+    {
+      "label": "04-trunks",
+      "frames": 330,
+      "damage": 59,
+      "maxHits": 4,
+      "fast": false,
+      "program": 3121
+    },
+    {
+      "label": "05-cell-cruce-meteor",
+      "frames": 880,
+      "damage": 137,
+      "maxHits": 16,
+      "fast": false,
+      "program": 2122
+    }
+  ],
+  "method": "Native ROM framebuffer and audio; same scheduled inputs; normal speed. Initial spacing and facing staged before capture, no live HP/KI/timer edits. Coordinated human ports, not CPU play."
+}

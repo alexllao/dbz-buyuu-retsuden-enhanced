@@ -1,0 +1,804 @@
+[
+  {
+    "cid": 0,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3076,
+    "accepted": 23,
+    "launch": 51,
+    "startup": 28,
+    "fast": false,
+    "damage": 58,
+    "contacts": [
+      53
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 0,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3076,
+    "accepted": 77,
+    "launch": 102,
+    "startup": 25,
+    "fast": false,
+    "damage": 88,
+    "contacts": [
+      10,
+      31,
+      51,
+      106
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 0,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3076,
+    "accepted": 23,
+    "launch": 51,
+    "startup": 28,
+    "fast": false,
+    "damage": 58,
+    "contacts": [
+      53
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 0,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3076,
+    "accepted": 77,
+    "launch": 102,
+    "startup": 25,
+    "fast": false,
+    "damage": 88,
+    "contacts": [
+      10,
+      31,
+      51,
+      106
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 1,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3087,
+    "accepted": 27,
+    "launch": 66,
+    "startup": 39,
+    "fast": false,
+    "damage": 43,
+    "contacts": [
+      68
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 1,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3087,
+    "accepted": 73,
+    "launch": 99,
+    "startup": 26,
+    "fast": false,
+    "damage": 71,
+    "contacts": [
+      8,
+      26,
+      45,
+      103
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 1,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3087,
+    "accepted": 27,
+    "launch": 66,
+    "startup": 39,
+    "fast": false,
+    "damage": 43,
+    "contacts": [
+      68
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 1,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3087,
+    "accepted": 73,
+    "launch": 99,
+    "startup": 26,
+    "fast": false,
+    "damage": 71,
+    "contacts": [
+      8,
+      26,
+      45,
+      104
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 2,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3098,
+    "accepted": 20,
+    "launch": 80,
+    "startup": 60,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      83
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 2,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3098,
+    "accepted": 31,
+    "launch": 91,
+    "startup": 60,
+    "fast": false,
+    "damage": 57,
+    "contacts": [
+      10,
+      94
+    ],
+    "hits": 2,
+    "idle": true
+  },
+  {
+    "cid": 2,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3098,
+    "accepted": 20,
+    "launch": 80,
+    "startup": 60,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      83
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 2,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3098,
+    "accepted": 31,
+    "launch": 91,
+    "startup": 60,
+    "fast": false,
+    "damage": 57,
+    "contacts": [
+      10,
+      94
+    ],
+    "hits": 2,
+    "idle": true
+  },
+  {
+    "cid": 3,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3111,
+    "accepted": 19,
+    "launch": 95,
+    "startup": 76,
+    "fast": false,
+    "damage": 63,
+    "contacts": [
+      97
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 3,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3111,
+    "accepted": 64,
+    "launch": 143,
+    "startup": 79,
+    "fast": false,
+    "damage": 88,
+    "contacts": [
+      8,
+      25,
+      44,
+      145
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 3,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3111,
+    "accepted": 19,
+    "launch": 95,
+    "startup": 76,
+    "fast": false,
+    "damage": 63,
+    "contacts": [
+      97
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 3,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3111,
+    "accepted": 64,
+    "launch": 143,
+    "startup": 79,
+    "fast": false,
+    "damage": 88,
+    "contacts": [
+      8,
+      25,
+      44,
+      145
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 4,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3121,
+    "accepted": 19,
+    "launch": 131,
+    "startup": 112,
+    "fast": false,
+    "damage": 33,
+    "contacts": [
+      132
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 4,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3121,
+    "accepted": 67,
+    "launch": 181,
+    "startup": 114,
+    "fast": false,
+    "damage": 59,
+    "contacts": [
+      9,
+      29,
+      47,
+      182
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 4,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3121,
+    "accepted": 19,
+    "launch": 131,
+    "startup": 112,
+    "fast": false,
+    "damage": 33,
+    "contacts": [
+      132
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 4,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3121,
+    "accepted": 67,
+    "launch": 181,
+    "startup": 114,
+    "fast": false,
+    "damage": 59,
+    "contacts": [
+      9,
+      29,
+      47,
+      183
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 5,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3133,
+    "accepted": 19,
+    "launch": 115,
+    "startup": 96,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      118
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 5,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3133,
+    "accepted": 89,
+    "launch": 179,
+    "startup": 90,
+    "fast": false,
+    "damage": 75,
+    "contacts": [
+      10,
+      29,
+      61,
+      182
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 5,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3133,
+    "accepted": 19,
+    "launch": 115,
+    "startup": 96,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      118
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 5,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3133,
+    "accepted": 74,
+    "launch": 168,
+    "startup": 94,
+    "fast": false,
+    "damage": 74,
+    "contacts": [
+      10,
+      29,
+      52,
+      173
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 6,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3146,
+    "accepted": 19,
+    "launch": 137,
+    "startup": 118,
+    "fast": false,
+    "damage": 63,
+    "contacts": [
+      138
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 6,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3146,
+    "accepted": 28,
+    "launch": 146,
+    "startup": 118,
+    "fast": false,
+    "damage": 73,
+    "contacts": [
+      8,
+      148
+    ],
+    "hits": 2,
+    "idle": true
+  },
+  {
+    "cid": 6,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3146,
+    "accepted": 19,
+    "launch": 137,
+    "startup": 118,
+    "fast": false,
+    "damage": 63,
+    "contacts": [
+      138
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 6,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3146,
+    "accepted": 28,
+    "launch": 146,
+    "startup": 118,
+    "fast": false,
+    "damage": 73,
+    "contacts": [
+      8,
+      148
+    ],
+    "hits": 2,
+    "idle": true
+  },
+  {
+    "cid": 7,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3158,
+    "accepted": 19,
+    "launch": 46,
+    "startup": 27,
+    "fast": false,
+    "damage": 58,
+    "contacts": [
+      48
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 7,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3158,
+    "accepted": 67,
+    "launch": 95,
+    "startup": 28,
+    "fast": false,
+    "damage": 86,
+    "contacts": [
+      8,
+      27,
+      47,
+      97
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 7,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3158,
+    "accepted": 19,
+    "launch": 46,
+    "startup": 27,
+    "fast": false,
+    "damage": 58,
+    "contacts": [
+      48
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 7,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3158,
+    "accepted": 67,
+    "launch": 95,
+    "startup": 28,
+    "fast": false,
+    "damage": 86,
+    "contacts": [
+      8,
+      27,
+      47,
+      97
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 8,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3169,
+    "accepted": 19,
+    "launch": 122,
+    "startup": 103,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      125
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 8,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3169,
+    "accepted": 29,
+    "launch": 133,
+    "startup": 104,
+    "fast": false,
+    "damage": 57,
+    "contacts": [
+      9,
+      137
+    ],
+    "hits": 2,
+    "idle": true
+  },
+  {
+    "cid": 8,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3169,
+    "accepted": 19,
+    "launch": 122,
+    "startup": 103,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      125
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 8,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3169,
+    "accepted": 29,
+    "launch": 133,
+    "startup": 104,
+    "fast": false,
+    "damage": 57,
+    "contacts": [
+      9,
+      137
+    ],
+    "hits": 2,
+    "idle": true
+  },
+  {
+    "cid": 9,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3181,
+    "accepted": 19,
+    "launch": 149,
+    "startup": 130,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      153
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 9,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3181,
+    "accepted": 80,
+    "launch": 211,
+    "startup": 131,
+    "fast": false,
+    "damage": 76,
+    "contacts": [
+      10,
+      29,
+      52,
+      217
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 9,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3181,
+    "accepted": 19,
+    "launch": 149,
+    "startup": 130,
+    "fast": false,
+    "damage": 48,
+    "contacts": [
+      153
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 9,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3181,
+    "accepted": 81,
+    "launch": 212,
+    "startup": 131,
+    "fast": false,
+    "damage": 76,
+    "contacts": [
+      10,
+      29,
+      53,
+      219
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 10,
+    "port": 1,
+    "side": 0,
+    "context": "solo",
+    "program": 3192,
+    "accepted": 19,
+    "launch": 112,
+    "startup": 93,
+    "fast": false,
+    "damage": 58,
+    "contacts": [
+      114
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 10,
+    "port": 1,
+    "side": 0,
+    "context": "combo",
+    "program": 3192,
+    "accepted": 71,
+    "launch": 166,
+    "startup": 95,
+    "fast": false,
+    "damage": 83,
+    "contacts": [
+      9,
+      29,
+      51,
+      167
+    ],
+    "hits": 4,
+    "idle": true
+  },
+  {
+    "cid": 10,
+    "port": 1,
+    "side": 1,
+    "context": "solo",
+    "program": 3192,
+    "accepted": 19,
+    "launch": 112,
+    "startup": 93,
+    "fast": false,
+    "damage": 58,
+    "contacts": [
+      114
+    ],
+    "hits": 1,
+    "idle": true
+  },
+  {
+    "cid": 10,
+    "port": 1,
+    "side": 1,
+    "context": "combo",
+    "program": 3192,
+    "accepted": 71,
+    "launch": 166,
+    "startup": 95,
+    "fast": false,
+    "damage": 83,
+    "contacts": [
+      9,
+      29,
+      51,
+      167
+    ],
+    "hits": 4,
+    "idle": true
+  }
+]

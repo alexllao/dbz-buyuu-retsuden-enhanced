@@ -1,0 +1,56 @@
+{
+  "buildId": "20261110-120502",
+  "sourceSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+  "targetSha256": "7c35a85d50855b7b33868b8111158fc86a2cc9a57732e2bf6e7d1595af107d32",
+  "codeBytes": 692,
+  "catalogEntries": 110,
+  "allowed": [
+    [
+      4067328,
+      692
+    ],
+    [
+      4075520,
+      1776
+    ],
+    [
+      133770,
+      12
+    ],
+    [
+      133754,
+      6
+    ],
+    [
+      72734,
+      6
+    ],
+    [
+      73460,
+      6
+    ],
+    [
+      73940,
+      6
+    ],
+    [
+      29684,
+      6
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ]
+  ],
+  "minimumPreparationClockTicks": {
+    "singlePose": 3,
+    "multiPoseEach": 1
+  },
+  "originalAnimationTablesUnchanged": true,
+  "graphicsR10Unchanged": true,
+  "state": "F7B0..F7B7: program, fast latch and phase. F7D0..F7EF: native hurt rectangles with CID/facing/plane tags; all reset each round."
+}

@@ -1,5 +1,7 @@
 # Preparación abreviada del especial solo al enlazarlo
 
+**Histórico de Gohan/Vegeta.** El10/11/2026 se prepara una [nueva candidata general para técnicas de ki del plantel y Meteor de Cell](combo-charge-all.md), con vídeo y ROM locales. Este documento conserva la prueba aprobada del8/11 y sus tiempos anteriores.
+
 **Aprobado por el usuario el8/11/2026**, junto con las mejoras incluidas en el build200852. Las notas de prueba posteriores conservan el contexto previo a la aprobación.
 
 **8/11/2026 · v1.0 build20261108-200852 · Gohan y Vegeta aprobados por el usuario.** Base: build175044. Se conservan gráficos, K4, seis ráfagas, corrección de lanzamiento y buffer/cadenas de Goku.
