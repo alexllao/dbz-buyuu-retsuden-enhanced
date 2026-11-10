@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-10",
+  "sourceHouse": "../namek-native-r9/house-source.png",
+  "sourceCloud": "../namek-native-r9/cloud-guide.png",
+  "mode": "Deterministic native resource import/edit; no new generated art",
+  "houseRepair": "Restore opaque blue source pixels inside warm wall row envelope; green sky stays outside alpha",
+  "floor": "Reuse R9 normal indexed terrain fromY392; preserve ruined architecture/smoke",
+  "sha256": "c501d101c7ae7dca3c90f61d8a87fed46efb5cf68713fe9fab9f7aa89b6f66a7"
+}

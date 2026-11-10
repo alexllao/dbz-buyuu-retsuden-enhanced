@@ -1,5 +1,7 @@
 # Namek R9: casa con borde suave y Porunga del anime en la ROM
 
+**Seguimiento posterior:** los recortes se localizan y corrigen en [R10](namek-native-r10.md). El patrón estaba en la variante Porunga, heredado de la adaptación del suelo. Las notas siguientes reflejan el estado de la investigación al entregar R9.
+
 10 de noviembre de 2026. El usuario acepta la dirección de Porunga del nuevo estudio y el acabado de la casa sin el contorno negro grueso. Pide que ambos se vean bien en la ROM. Se integran los recursos en un build experimental separado: **v1.0 `20261110-082044`**, SHA-256 `40e7d04b2e725938322070d3d0f02a95caa870248ccba76f8386cf3524dc5d21`. El acabado nativo queda pendiente de su valoración.
 
 [Tres capturas reales a tamaño nativo](../assets/media/namek-native-r9/R9-tres-variantes-ROM.png) · [Casa R8/R9, misma escala](../assets/media/namek-native-r9/Casa-y-roca-R8-R9.png) · [Porunga R8/R9, misma escala](../assets/media/namek-native-r9/Cielo-Porunga-R8-R9.png).

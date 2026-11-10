@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**10/11/2026 — R10 corrige ventana, nubes y textura repetida:** se localiza el recorte exacto en Porunga0:52 de R9. Era una textura heredada de la adaptación, no una sobrescritura de gráficos. Se recuperan cristal/puerta opacos, se separan las nubes de los árboles y se comparte el suelo limpio de normal. Mapas y fotograma ya no contienen el patrón señalado. Vídeo real local, aprobación estética pendiente. [R10](namek-native-r10.md).
+
 **10/11/2026 — R9 integrada; revisión del suelo abierta:** se aceptan la dirección de Porunga del anime y la casa de borde suave. Se integran en una ROM experimental y se graban los tres Namek, suelo, vuelo y especiales. Se corrige la posición para mostrar la cabeza de Porunga bajo el HUD. El usuario señala marcas repetidas del suelo: no se ha identificado el recorte exacto ni se da por corregido. Vídeo privado local; aprobación nativa pendiente. [R9 y límites](namek-native-r9.md).
 
 **9/11/2026 — Casa y Porunga de R8 rechazados:** el usuario indica que no le gustan ni se parecen a la referencia. R8 no se considera elegida. Se conserva un nuevo estudio de Porunga basado directamente en el anime, todavía sin integrar en la ROM ni validar su paleta nativa. La casa sigue pendiente de sustitución. [Estado, fuentes y límites](namek-likeness-study.md).

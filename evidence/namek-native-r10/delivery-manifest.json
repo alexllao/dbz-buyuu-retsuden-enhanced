@@ -1,0 +1,787 @@
+{
+  "date": "2026-11-10",
+  "privateReview": true,
+  "published": false,
+  "backgroundIntegrated": true,
+  "postproductionBackgroundReplacement": false,
+  "nativeFrame": [
+    320,
+    224
+  ],
+  "integerPresentationScale": 2,
+  "build": {
+    "buildId": "20261110-094744",
+    "sha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+    "parentSha256": "68f838f7ce1fcf0f237d56c09826a359d26931d331cc1ec9716b9d321654ffab",
+    "allowedChanges": [
+      [
+        288,
+        96
+      ],
+      [
+        398,
+        2
+      ],
+      [
+        3145728,
+        27650
+      ],
+      [
+        3174400,
+        8194
+      ],
+      [
+        3182848,
+        48
+      ],
+      [
+        3211264,
+        27650
+      ],
+      [
+        3239936,
+        8194
+      ],
+      [
+        3248384,
+        48
+      ],
+      [
+        3276800,
+        27650
+      ],
+      [
+        3305472,
+        8194
+      ],
+      [
+        3313920,
+        48
+      ],
+      [
+        3342336,
+        408
+      ],
+      [
+        37040,
+        8
+      ],
+      [
+        37066,
+        6
+      ],
+      [
+        37142,
+        8
+      ],
+      [
+        41960,
+        6
+      ],
+      [
+        223658,
+        6
+      ],
+      [
+        239930,
+        8
+      ],
+      [
+        240114,
+        10
+      ],
+      [
+        240676,
+        6
+      ],
+      [
+        246520,
+        6
+      ],
+      [
+        3350528,
+        16
+      ],
+      [
+        3350544,
+        16
+      ],
+      [
+        3350560,
+        16
+      ],
+      [
+        3346432,
+        768
+      ],
+      [
+        3350784,
+        8
+      ],
+      [
+        3347200,
+        768
+      ],
+      [
+        3350792,
+        8
+      ],
+      [
+        3347968,
+        768
+      ],
+      [
+        3350800,
+        8
+      ]
+    ],
+    "resources": [
+      {
+        "variant": "normal",
+        "path": "gfx.lz",
+        "address": 3145728,
+        "bytes": 27650,
+        "sha256": "653ed79f239f3cc671d7c59ed95cd3bca2af62a3652fb818b0b7cb8a546d57bb"
+      },
+      {
+        "variant": "normal",
+        "path": "map-header.bin",
+        "address": 3174400,
+        "bytes": 8194,
+        "sha256": "bc15eda319b5db82d9d57938a01eac8c68c7b140030571adb09a1e542cf45b57"
+      },
+      {
+        "variant": "normal",
+        "path": "palette.bin",
+        "address": 3182848,
+        "bytes": 48,
+        "sha256": "91f19a289f6ea810fbd67bc8e87d7807fe44635525eb0b2b66ac6538bb44c9b8"
+      },
+      {
+        "variant": "aldea",
+        "path": "gfx.lz",
+        "address": 3211264,
+        "bytes": 27650,
+        "sha256": "4f87c3c3eba93bc617ee1c4e56a04c662a142f0afc8344333fc2578c7815274d"
+      },
+      {
+        "variant": "aldea",
+        "path": "map-header.bin",
+        "address": 3239936,
+        "bytes": 8194,
+        "sha256": "2503b8573855beb8fd91e9bd2ac09f24a217d558b6382bbd89c8c6095a2b8454"
+      },
+      {
+        "variant": "aldea",
+        "path": "palette.bin",
+        "address": 3248384,
+        "bytes": 48,
+        "sha256": "255f89b3020a159557f3b6de03d3be59524eda750f4676bac8820e5d29d3b5a8"
+      },
+      {
+        "variant": "porunga",
+        "path": "gfx.lz",
+        "address": 3276800,
+        "bytes": 27650,
+        "sha256": "ed586596bcdffe6accb258ca551a6a90bd42876783a3fd3e0170766fde95622a"
+      },
+      {
+        "variant": "porunga",
+        "path": "map-header.bin",
+        "address": 3305472,
+        "bytes": 8194,
+        "sha256": "953482e9bc732103bb7041bdc67ef71a7bc648dde1ac4f559c33646ead2061a5"
+      },
+      {
+        "variant": "porunga",
+        "path": "palette.bin",
+        "address": 3313920,
+        "bytes": 48,
+        "sha256": "ed81703e78a36bd5d4882408b1dc8052ca33cc598a938ede62bd70c1d297e14e"
+      }
+    ],
+    "originalNamekUntouched": true,
+    "gameplayUntouched": true,
+    "sharedHouseExact": true,
+    "userApprovalPending": true
+  },
+  "chapters": [
+    {
+      "variant": "normal",
+      "start": 0,
+      "end": 26.033521020129655
+    },
+    {
+      "variant": "aldea",
+      "start": 26.033521020129655,
+      "end": 52.00028942225898
+    },
+    {
+      "variant": "porunga",
+      "start": 52.00028942225898,
+      "end": 78.0671867513888
+    }
+  ],
+  "takes": [
+    {
+      "variant": "normal",
+      "label": "01-vuelo",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 437,
+      "seconds": 7.29272351653632,
+      "damage": 0,
+      "maxHits": 0,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        52,
+        53,
+        101,
+        106
+      ],
+      "expected": null,
+      "firstHP": 200
+    },
+    {
+      "variant": "normal",
+      "label": "02-goku",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 348,
+      "seconds": 5.8074777660289225,
+      "damage": 88,
+      "maxHits": 4,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    },
+    {
+      "variant": "normal",
+      "label": "06-pantalla-partida",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 775,
+      "seconds": 12.93331973756441,
+      "damage": 58,
+      "maxHits": 1,
+      "nativeScenes": [
+        0,
+        1,
+        129
+      ],
+      "nativeCinematics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3076,
+        3078
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    },
+    {
+      "variant": "aldea",
+      "label": "01-vuelo",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 437,
+      "seconds": 7.29272351653632,
+      "damage": 0,
+      "maxHits": 0,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        52,
+        53,
+        101,
+        106
+      ],
+      "expected": null,
+      "firstHP": 200
+    },
+    {
+      "variant": "aldea",
+      "label": "02-goku",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 348,
+      "seconds": 5.8074777660289225,
+      "damage": 88,
+      "maxHits": 4,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    },
+    {
+      "variant": "aldea",
+      "label": "06-pantalla-partida",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 771,
+      "seconds": 12.86656711956408,
+      "damage": 58,
+      "maxHits": 1,
+      "nativeScenes": [
+        0,
+        1,
+        129
+      ],
+      "nativeCinematics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3076,
+        3078
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    },
+    {
+      "variant": "porunga",
+      "label": "01-vuelo",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 437,
+      "seconds": 7.29272351653632,
+      "damage": 0,
+      "maxHits": 0,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        52,
+        53,
+        101,
+        106
+      ],
+      "expected": null,
+      "firstHP": 200
+    },
+    {
+      "variant": "porunga",
+      "label": "02-goku",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 349,
+      "seconds": 5.824165920529006,
+      "damage": 88,
+      "maxHits": 4,
+      "nativeScenes": [
+        0
+      ],
+      "nativeCinematics": [
+        0
+      ],
+      "programs": [
+        0,
+        1024,
+        1025,
+        1028,
+        3076
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    },
+    {
+      "variant": "porunga",
+      "label": "06-pantalla-partida",
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "stage": 6,
+      "frames": 776,
+      "seconds": 12.950007892064495,
+      "damage": 58,
+      "maxHits": 1,
+      "nativeScenes": [
+        0,
+        1,
+        129
+      ],
+      "nativeCinematics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        3076,
+        3078
+      ],
+      "expected": 3076,
+      "firstHP": 200
+    }
+  ],
+  "phaseResourceChecks": [
+    {
+      "variant": "normal",
+      "label": "01-vuelo-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "flight-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "02-goku-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "ground-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "06-pantalla-partida-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "split-screen-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "01-vuelo-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "flight-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "02-goku-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "ground-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "06-pantalla-partida-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "split-screen-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "01-vuelo-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "flight-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "02-goku-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "ground-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "06-pantalla-partida-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "split-screen-special-end",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    }
+  ],
+  "runtime": {
+    "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+    "checks": [
+      {
+        "variant": "normal",
+        "label": "ground",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "normal",
+        "label": "flight-one",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "normal",
+        "label": "flight-both",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "normal",
+        "label": "landed",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "normal",
+        "label": "aura",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "aldea",
+        "label": "ground",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "aldea",
+        "label": "flight-one",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "aldea",
+        "label": "flight-both",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "aldea",
+        "label": "landed",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "aldea",
+        "label": "aura",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "porunga",
+        "label": "ground",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "porunga",
+        "label": "flight-one",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "porunga",
+        "label": "flight-both",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "porunga",
+        "label": "landed",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      },
+      {
+        "variant": "porunga",
+        "label": "aura",
+        "backgroundVramExact": true,
+        "own22PaletteWordsExact": true,
+        "common10PaletteWordsExact": true
+      }
+    ]
+  },
+  "selection": {
+    "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+    "cases": [
+      {
+        "scenario": "normal",
+        "cid": 0,
+        "enemy": 8,
+        "stage": 6,
+        "variant": 1,
+        "selection": "Native menu buttons only; no stage/variant/palette writes"
+      },
+      {
+        "scenario": "aldea",
+        "cid": 0,
+        "enemy": 8,
+        "stage": 6,
+        "variant": 2,
+        "selection": "Native menu buttons only; no stage/variant/palette writes"
+      },
+      {
+        "scenario": "porunga",
+        "cid": 0,
+        "enemy": 8,
+        "stage": 6,
+        "variant": 3,
+        "selection": "Native menu buttons only; no stage/variant/palette writes"
+      }
+    ],
+    "fixtureScope": "After native stage selection: actors control bytes human, initial spacing/facing only. Critical HP obtained by real P2 punches and natural recovery; ki by native charge inputs."
+  },
+  "video": {
+    "path": "C:/Users/usuari/Documents/Codex/2026-11-03/sa/outputs/Namek-R10-revision/DBZ-v1.0-Namek-R10-20261110-094744.mp4",
+    "sha256": "f1b64d62184885f955612857270eeb16a0df9f86dcc43fa5e952a6d89e17b70a",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 512,
+          "r_frame_rate": "152024/2537"
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0"
+        },
+        {
+          "codec_name": "bin_data",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": "0.000000",
+          "end_time": "26.034000"
+        },
+        {
+          "start_time": "26.034000",
+          "end_time": "52.000000"
+        },
+        {
+          "start_time": "52.000000",
+          "end_time": "78.067000"
+        }
+      ],
+      "format": {
+        "duration": "78.086213"
+      }
+    },
+    "decodeComplete": true
+  },
+  "approvalPending": true
+}

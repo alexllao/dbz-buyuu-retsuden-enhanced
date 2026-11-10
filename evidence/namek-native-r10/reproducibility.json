@@ -1,0 +1,63 @@
+{
+  "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+  "all15ResourcesReproducible": true,
+  "all9EmbeddedResourcesExact": true,
+  "all3PalettesUnchanged": true,
+  "sharedHouseExact": true,
+  "reportedOldStampCount": 10,
+  "fixes": [
+    {
+      "variant": "normal",
+      "reportedStampOccurrences": 0,
+      "windowCenterRGB": [
+        0,
+        137,
+        205
+      ],
+      "tiles": 655,
+      "opaqueGlassPixels": 37,
+      "cloudMaxY": 303
+    },
+    {
+      "variant": "aldea",
+      "reportedStampOccurrences": 0,
+      "windowCenterRGB": [
+        0,
+        137,
+        205
+      ],
+      "tiles": 712,
+      "opaqueGlassPixels": 37,
+      "cloudMaxY": 303
+    },
+    {
+      "variant": "porunga",
+      "reportedStampOccurrences": 0,
+      "windowCenterRGB": [
+        0,
+        137,
+        205
+      ],
+      "tiles": 649,
+      "opaqueGlassPixels": 37,
+      "cloudMaxY": 303
+    }
+  ],
+  "resourceHashes": {
+    "work/namek-native-r10/normal/tiles.bin": "2e0dcacf262994dc5bfa0e686d7bb405e0ae4d47078c60afac295676392fe52d",
+    "work/namek-native-r10/normal/gfx.lz": "653ed79f239f3cc671d7c59ed95cd3bca2af62a3652fb818b0b7cb8a546d57bb",
+    "work/namek-native-r10/normal/map.bin": "e76bfc1a61dc0a7fdc55e03cbf83e16f2500541dbe28547dc1288e9778de7ca0",
+    "work/namek-native-r10/normal/map-header.bin": "bc15eda319b5db82d9d57938a01eac8c68c7b140030571adb09a1e542cf45b57",
+    "work/namek-native-r10/normal/palette.bin": "91f19a289f6ea810fbd67bc8e87d7807fe44635525eb0b2b66ac6538bb44c9b8",
+    "work/namek-native-r10/aldea/tiles.bin": "5bceb6c598bb8b112799bd6acd902705a2e08c609489d3a78780a80ed9f8f1d2",
+    "work/namek-native-r10/aldea/gfx.lz": "4f87c3c3eba93bc617ee1c4e56a04c662a142f0afc8344333fc2578c7815274d",
+    "work/namek-native-r10/aldea/map.bin": "897eb47f7651fad7452e625b3cba474c83c44e138eac55d8ee2afab7a2b0b666",
+    "work/namek-native-r10/aldea/map-header.bin": "2503b8573855beb8fd91e9bd2ac09f24a217d558b6382bbd89c8c6095a2b8454",
+    "work/namek-native-r10/aldea/palette.bin": "255f89b3020a159557f3b6de03d3be59524eda750f4676bac8820e5d29d3b5a8",
+    "work/namek-native-r10/porunga/tiles.bin": "f7aff4ef0beccee583fd868473efdbc6867ea1502631e9aa69e76f2b41e38cec",
+    "work/namek-native-r10/porunga/gfx.lz": "ed586596bcdffe6accb258ca551a6a90bd42876783a3fd3e0170766fde95622a",
+    "work/namek-native-r10/porunga/map.bin": "b8dfddc3bfcd7fbf8fa425fe4d598ee2a704788cd7afa8e2692561e1e23b2d0f",
+    "work/namek-native-r10/porunga/map-header.bin": "953482e9bc732103bb7041bdc67ef71a7bc648dde1ac4f559c33646ead2061a5",
+    "work/namek-native-r10/porunga/palette.bin": "ed81703e78a36bd5d4882408b1dc8052ca33cc598a938ede62bd70c1d297e14e"
+  }
+}
