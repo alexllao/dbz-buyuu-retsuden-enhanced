@@ -1,5 +1,7 @@
 # Decisiones vigentes
 
+**10/11/2026 — R10 aceptada; Short de30 s:** el usuario responde «perfecto» a las correcciones y pide una pieza vistosa para Shorts. Se entrega montaje vertical de30,1 s desde la misma ROM, sin aceleración, con Goku, Vegeta y Cell en los tres Namek. Vídeo local listo para subir, título/descripcion preparados; sin publicación automática. [Short](short-namek-r10.md).
+
 **10/11/2026 — R10 corrige ventana, nubes y textura repetida:** se localiza el recorte exacto en Porunga0:52 de R9. Era una textura heredada de la adaptación, no una sobrescritura de gráficos. Se recuperan cristal/puerta opacos, se separan las nubes de los árboles y se comparte el suelo limpio de normal. Mapas y fotograma ya no contienen el patrón señalado. Vídeo real local, aprobación estética pendiente. [R10](namek-native-r10.md).
 
 **10/11/2026 — R9 integrada; revisión del suelo abierta:** se aceptan la dirección de Porunga del anime y la casa de borde suave. Se integran en una ROM experimental y se graban los tres Namek, suelo, vuelo y especiales. Se corrige la posición para mostrar la cabeza de Porunga bajo el HUD. El usuario señala marcas repetidas del suelo: no se ha identificado el recorte exacto ni se da por corregido. Vídeo privado local; aprobación nativa pendiente. [R9 y límites](namek-native-r9.md).

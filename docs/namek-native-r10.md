@@ -1,5 +1,7 @@
 # Namek R10: cristal opaco, nubes y marcas del suelo
 
+**Valoración posterior:** el usuario responde «perfecto» y pide un [Short](short-namek-r10.md) con esta revisión. Se conserva el build sin modificaciones para la grabación.
+
 10 de noviembre de2026. Se atienden los tres fallos señalados con recortes: ventana de la casa que deja ver el cielo, nubes con cortes/formas rectas y una nube demasiado cerca de un árbol; también los rectángulos repetidos del suelo. Se conserva R9 como comparación. **R10 está integrada y grabada desde la ROM, pendiente de valoración visual del usuario.**
 
 [**Antes/después de los tres fallos, capturas reales**](../assets/media/namek-native-r10/Correcciones-R9-R10-ROM.png) · [Tres escenarios completos](../assets/media/namek-native-r10/R10-tres-variantes-ROM.png).

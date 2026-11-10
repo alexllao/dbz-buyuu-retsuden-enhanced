@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-10",
+  "romBuild": "20261110-094744",
+  "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+  "romUnchanged": true,
+  "realROMGameplay": true,
+  "gameRect": [
+    60,
+    560,
+    960,
+    672
+  ],
+  "nativeGameSize": [
+    320,
+    224
+  ],
+  "integerGameScale": 3,
+  "fullGameAndHUDVisible": true,
+  "width": 1080,
+  "height": 1920,
+  "seconds": 30.092993,
+  "fps": 59.92274340431231,
+  "gameSpeedChanged": false,
+  "postproductionBackgroundReplacement": false,
+  "editing": "Five continuous native excerpts, hard cuts between takes, no speed ramps. Native audio with12/18ms edge fades; no added music.",
+  "scenes": [
+    {
+      "source": "work/namek-r10-short/captures/normal/02-crosses-meteor.mp4",
+      "sourceSha256": "159602959de9cc95c0053be95d43c1f7b22eda5f29b08e4e52bd8f56c06de205",
+      "stage": "normal",
+      "label": "02-crosses-meteor",
+      "firstFrame": 0,
+      "lastFrame": 322,
+      "frames": 322,
+      "seconds": 5.373585749026762,
+      "caption": "3 CRUCES + METEOR",
+      "maxHitsInExcerpt": 3,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        51,
+        2110,
+        2111,
+        2115
+      ]
+    },
+    {
+      "source": "work/namek-r10-short/captures/aldea/01-vegeta-finalflash.mp4",
+      "sourceSha256": "f68a11fa11a81815bd0e796210a70867efb93c6a8deaf30ae80b2625a40c9490",
+      "stage": "aldea",
+      "label": "01-vegeta-finalflash",
+      "firstFrame": 0,
+      "lastFrame": 190,
+      "frames": 190,
+      "seconds": 3.1707493550157912,
+      "caption": "COMBO + FINAL FLASH",
+      "maxHitsInExcerpt": 4,
+      "programs": [
+        0,
+        1060,
+        1063,
+        3111
+      ]
+    },
+    {
+      "source": "work/namek-r10-short/captures/aldea/02-vegeta-meteor.mp4",
+      "sourceSha256": "0d19496ef86e6ff082617c9e46c029aa3de218fe4ee1fc0f1df151250b2419ad",
+      "stage": "aldea",
+      "label": "02-vegeta-meteor",
+      "firstFrame": 0,
+      "lastFrame": 322,
+      "frames": 322,
+      "seconds": 5.373585749026762,
+      "caption": "METEOR DE VEGETA",
+      "maxHitsInExcerpt": 11,
+      "programs": [
+        0,
+        1,
+        1060,
+        1063,
+        2118,
+        2119
+      ]
+    },
+    {
+      "source": "work/namek-r10-short/captures/porunga/01-cell-chain.mp4",
+      "sourceSha256": "2b6b14b9fbd053cc84ded95fa774ed05edec4c508ed1475e7b8caa9063c56f0e",
+      "stage": "porunga",
+      "label": "01-cell-chain",
+      "firstFrame": 0,
+      "lastFrame": 678,
+      "frames": 678,
+      "seconds": 11.314568751056349,
+      "caption": "COMBO + CRUCE + METEOR",
+      "maxHitsInExcerpt": 16,
+      "programs": [
+        0,
+        1,
+        2,
+        3,
+        1084,
+        1087,
+        2115,
+        2122
+      ]
+    },
+    {
+      "source": "work/namek-r10-short/captures/normal/01-goku-super.mp4",
+      "sourceSha256": "ed80ab2160a9610a2e777419b716385c7270705acab92f80f2001c1540a70e1e",
+      "stage": "normal",
+      "label": "01-goku-super",
+      "firstFrame": 0,
+      "lastFrame": 286,
+      "frames": 286,
+      "seconds": 4.77281218702377,
+      "caption": "SUPER KAMEHAMEHA",
+      "maxHitsInExcerpt": 4,
+      "programs": [
+        0,
+        1,
+        1024,
+        1027,
+        1028,
+        3077
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "build": "20261110-094744",
+      "nativeStage": 6,
+      "variant": "normal",
+      "checks": [
+        {
+          "variant": "normal",
+          "label": "01-goku-super-start",
+          "backgroundVramExact": true,
+          "own22PaletteWordsExact": true,
+          "common10PaletteWordsExact": true
+        },
+        {
+          "variant": "normal",
+          "label": "02-crosses-meteor-start",
+          "backgroundVramExact": true,
+          "own22PaletteWordsExact": true,
+          "common10PaletteWordsExact": true
+        }
+      ],
+      "sideSwitches": [
+        {
+          "label": "02-crosses-meteor",
+          "kind": "side-switch",
+          "port": 1,
+          "start": 6,
+          "end": 27
+        },
+        {
+          "label": "02-crosses-meteor",
+          "kind": "side-switch",
+          "port": 2,
+          "start": 27,
+          "end": 49
+        },
+        {
+          "label": "02-crosses-meteor",
+          "kind": "side-switch",
+          "port": 1,
+          "start": 50,
+          "end": 70
+        }
+      ],
+      "takes": [
+        {
+          "label": "01-goku-super",
+          "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+          "stage": 6,
+          "frames": 808,
+          "seconds": 13.484028836067154,
+          "damage": 113,
+          "maxHits": 4,
+          "nativeScenes": [
+            0
+          ],
+          "nativeCinematics": [
+            0
+          ],
+          "programs": [
+            0,
+            1,
+            1024,
+            1027,
+            1028,
+            3077
+          ],
+          "expected": 3077,
+          "firstHP": 200
+        },
+        {
+          "label": "02-crosses-meteor",
+          "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+          "stage": 6,
+          "frames": 523,
+          "seconds": 8.727904803543467,
+          "damage": 33,
+          "maxHits": 3,
+          "nativeScenes": [
+            0
+          ],
+          "nativeCinematics": [
+            0
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            51,
+            2110,
+            2111,
+            2115
+          ],
+          "expected": 2110,
+          "firstHP": 200
+        }
+      ],
+      "fixture": "Native menu/charge/critical HP before recording; initial actor spacing/facing and human control only. No live action, position, HP, KI or timer edits during the clips. Two coordinated human input ports, not reactive CPU."
+    },
+    {
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "build": "20261110-094744",
+      "nativeStage": 6,
+      "variant": "aldea",
+      "checks": [
+        {
+          "variant": "aldea",
+          "label": "01-vegeta-finalflash-start",
+          "backgroundVramExact": true,
+          "own22PaletteWordsExact": true,
+          "common10PaletteWordsExact": true
+        },
+        {
+          "variant": "aldea",
+          "label": "02-vegeta-meteor-start",
+          "backgroundVramExact": true,
+          "own22PaletteWordsExact": true,
+          "common10PaletteWordsExact": true
+        }
+      ],
+      "sideSwitches": [],
+      "takes": [
+        {
+          "label": "01-vegeta-finalflash",
+          "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+          "stage": 6,
+          "frames": 691,
+          "seconds": 11.53151475955743,
+          "damage": 88,
+          "maxHits": 4,
+          "nativeScenes": [
+            0
+          ],
+          "nativeCinematics": [
+            0
+          ],
+          "programs": [
+            0,
+            1060,
+            1063,
+            3111
+          ],
+          "expected": 3111,
+          "firstHP": 200
+        },
+        {
+          "label": "02-vegeta-meteor",
+          "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+          "stage": 6,
+          "frames": 399,
+          "seconds": 6.658573645533162,
+          "damage": 74,
+          "maxHits": 11,
+          "nativeScenes": [
+            0
+          ],
+          "nativeCinematics": [
+            0
+          ],
+          "programs": [
+            0,
+            1,
+            51,
+            1060,
+            1063,
+            2118,
+            2119
+          ],
+          "expected": 2118,
+          "firstHP": 42
+        }
+      ],
+      "fixture": "Native menu/charge/critical HP before recording; initial actor spacing/facing and human control only. No live action, position, HP, KI or timer edits during the clips. Two coordinated human input ports, not reactive CPU."
+    },
+    {
+      "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+      "build": "20261110-094744",
+      "nativeStage": 6,
+      "variant": "porunga",
+      "checks": [
+        {
+          "variant": "porunga",
+          "label": "01-cell-chain-start",
+          "backgroundVramExact": true,
+          "own22PaletteWordsExact": true,
+          "common10PaletteWordsExact": true
+        }
+      ],
+      "sideSwitches": [
+        {
+          "label": "01-cell-chain",
+          "kind": "side-switch",
+          "port": 1,
+          "start": 91,
+          "end": 115
+        }
+      ],
+      "takes": [
+        {
+          "label": "01-cell-chain",
+          "romSha256": "85d7090885e83cba884ecaf161c1913feb80a118d0aa3c86f58f7945de2483cf",
+          "stage": 6,
+          "frames": 808,
+          "seconds": 13.484028836067154,
+          "damage": 137,
+          "maxHits": 16,
+          "nativeScenes": [
+            0
+          ],
+          "nativeCinematics": [
+            0
+          ],
+          "programs": [
+            0,
+            1,
+            2,
+            3,
+            1084,
+            1087,
+            2115,
+            2122
+          ],
+          "expected": 2122,
+          "firstHP": 45
+        }
+      ],
+      "fixture": "Native menu/charge/critical HP before recording; initial actor spacing/facing and human control only. No live action, position, HP, KI or timer edits during the clips. Two coordinated human input ports, not reactive CPU."
+    }
+  ],
+  "publication": "Local deliverable for user to upload; not published to YouTube/GitHub.",
+  "file": {
+    "path": "C:/Users/usuari/Documents/Codex/2026-11-03/sa/outputs/YouTube-Short-Namek-R10/DBZ-Namek-R10-Short-30s.mp4",
+    "bytes": 13934045,
+    "sha256": "c9d3a0d1050b221feb7934cd119f03a88df5f94af9ef20271ba4505be555e755"
+  },
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "30.092993"
+    }
+  }
+}
