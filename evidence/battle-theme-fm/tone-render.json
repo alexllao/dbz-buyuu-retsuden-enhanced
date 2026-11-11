@@ -1,0 +1,15 @@
+{
+  "mode": "tone",
+  "emulator": "Genesis Plus GX",
+  "coreVersion": "v1.7.4 f27655b",
+  "sampleRate": 44100.0,
+  "fps": 59.92274340431231,
+  "seconds": 2.686780045351474,
+  "peak": 0.025604248046875,
+  "rms": 0.01400286780365963,
+  "clippedSamples": 0,
+  "playerFrameCounter": 156,
+  "romSha256": "5ea730de44d10c168208b0c3e4dfbd6a305959d901e1ab966d4b228d33a6535a",
+  "wavSha256": "69a20e99bfb025e14b38029c7c512b9f42782a7e6f0ce79beaad8e125264115b",
+  "calibrationHz": 439.99999999999994
+}

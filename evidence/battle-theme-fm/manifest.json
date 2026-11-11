@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-11",
+  "status": "Automatic transcription and FM/PSG instrumentation draft for listening, not integrated in Buyuu Retsuden and not added to its BGM menu",
+  "source": {
+    "filename": "Y2Mate.is - Dragon ball Z soundtrack Battle theme Fight music.mp3",
+    "sha256": "520544130c63bfef9fd8c741bfb3d7c5466ffc4400a7ecef62134a5fa5c6fa02",
+    "durationSeconds": 92.238367,
+    "excerptSeconds": 25,
+    "upload": false
+  },
+  "arrangement": {
+    "pitchedFMParts": 5,
+    "fmKickParts": 1,
+    "psgNoisePercussion": true,
+    "transcription": "Automatic harmonic estimation; melody, harmony, voicing and articulation require listening/manual review. Not claimed note-perfect.",
+    "loopReady": false
+  },
+  "nativeSynthesis": {
+    "core": "Genesis Plus GX",
+    "version": "v1.7.4 f27655b",
+    "fps": 59.92274340431231,
+    "standaloneRomSha256": "ea986aac6d9bf2142c9a49eef471a91b27eafeea065f5790d20f0358bda14264",
+    "registerWrites": 2883,
+    "calibrationHz": 439.99999999999994,
+    "clippedSamples": 0,
+    "method": "Standalone original 68000 audition player, YM2612 register synthesis and PSG noise. No MP3 PCM playback. Game sound driver is not used or modified."
+  },
+  "files": [
+    {
+      "name": "Battle-theme-boceto-FM-25s.mp3",
+      "sha256": "3fa4c20a57418fef33c993bb44ee6a112406b0bffd6357c4ed4572e5b13ea9da"
+    },
+    {
+      "name": "Referencia-original-25s.mp3",
+      "sha256": "29b76f43be4eadbb8ddbe56f7d16859ff55768774b565bb51ba31ece6b5a6db0"
+    }
+  ],
+  "gameRom": {
+    "build": "20261110-173703",
+    "sha256": "666135fff3069ecd06d25bab945b43970d929fea5d3493b88ff1fe6a54ca1f7f",
+    "changed": false
+  },
+  "postprocessing": "Loudness normalization to -16 LUFS target, -1.5 dBTP target, 250 ms end fade; MP3 at192kbps. Native raw WAV kept locally.",
+  "remaining": [
+    "Review transcription and instruments by ear",
+    "Prepare a musical loop",
+    "Encode/adapt to the game music player",
+    "Add selectable BGM entry and verify sound effects/voices in combat"
+  ]
+}
