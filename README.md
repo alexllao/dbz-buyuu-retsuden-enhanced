@@ -1,5 +1,7 @@
 # Dragon Ball Z: Buyuu Retsuden Enhanced
 
+**Short de Meteor listo · 32,4 s · 1080×1920.** Goku y Vegeta: lanzamiento, persecución, dos golpes y remate completo. Textos por fase, HUD sin recortar, audio nativo y velocidad normal. [Vista](assets/media/air-pursuit-meteor/short-meteor.png) · [Archivo local y comprobaciones](docs/air-pursuit-meteor.md#short-de-meteor-con-textos) · [Título y descripción](docs/short-meteor-aereo-texto.txt).
+
 **Persecución + Meteor y caída corregida · 18/11/2026 · build `20261118-143144`.** Goku y Vegeta ya pueden enlazar lanzamiento, ↑ + C, dos golpes aéreos y Meteor al aterrizar. Kamehameha, Super y Final Flash recuperan la pose de caída después del disparo. **Vídeo real de32,4 s y Short v2 de22,9 s**, a velocidad normal. [**Ver cambios, vídeos locales y límites**](docs/air-pursuit-meteor.md) · [**COMANDOS NUEVOS: tabla para jugar**](docs/comandos-persecucion-aerea.md).28 casos de enlace,10 negativos y88 pares de regresión. Prototipo pendiente de mando/equilibrio; no certifica HITS/stun generales.
 
 ![Goku recupera su pose de caída tras la onda](assets/media/air-pursuit-meteor/goku-caida.png)

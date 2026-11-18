@@ -25,3 +25,12 @@ Short actualizado **22,895 s**: `outputs/YouTube-Short-Persecuciones-Aereas-v2/D
 - Final Flash con dos fotogramas por dirección falló en una ruta P2. Con tres pasa la matriz final. La tolerancia de entrada, interrupciones durante la cola de Meteor, KO, juego libre, equilibrio, mando y consola real siguen pendientes. HITS y stun generales no se dan por corregidos. No se afirma que estas cadenas sean inevitables.
 
 [Matriz](../evidence/air-pursuit-meteor/matrix.json) · [Negativos](../evidence/air-pursuit-meteor/negative.json) · [Regresión](../evidence/air-pursuit-meteor/validation.json) · [Vídeo Meteor](../evidence/air-pursuit-meteor/video-manifest.json) · [Short v2](../evidence/air-pursuit-meteor/short-manifest.json) · [ASM comentado](../research/air-pursuit-meteor/pursuit.asm).
+
+
+## Short de Meteor con textos
+
+A petición de Alex se adapta el vídeo de los cuatro Meteor a **YouTube Shorts:1080×1920,32,438 s**. Archivo local `outputs/YouTube-Short-Meteor-Aereo/DBZ-Combos-Aereos-Meteor-Short.mp4`. Se usan las mismas tomas nativas del build143144; no cambia la ROM. Juego/HUD completos a escala entera3×, audio nativo y velocidad normal. Cada toma incluye el lanzamiento, persecución, dos básicos, Meteor completo y recuperación.
+
+Rótulos exteriores al juego: «¡REMATE METEOR!», nombre del personaje, y pasos temporizados «Lanza al rival», «Persigue y enlaza dos golpes», «¡Remata con el Meteor!». Crédito ALEX LLAO y versión/build visibles. Se comprueban resolución/duración, hash de las fuentes, escenario/variante en todos los fotogramas seleccionados, remate completo y decodificación del MP4; se revisan capturas del lanzamiento, enlace y Meteor. No se publica automáticamente ni se guarda el MP4 en Git.
+
+[Vista del Short](../assets/media/air-pursuit-meteor/short-meteor.png) · [Título y descripción](short-meteor-aereo-texto.txt) · [Manifiesto](../evidence/air-pursuit-meteor/short-meteor-manifest.json) · [Montaje reproducible](../research/air-pursuit-meteor/render-short-meteor.py).

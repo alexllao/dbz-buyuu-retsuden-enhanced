@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-18",
+  "status": "Gameplay prototype; user/gamepad validation pending.",
+  "romBuild": "20261118-143144",
+  "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+  "realROMGameplay": true,
+  "normalSpeed": true,
+  "fullGameAndHUD": true,
+  "nativeSize": [
+    320,
+    224
+  ],
+  "integerScale": 3,
+  "gameRect": [
+    60,
+    560,
+    960,
+    672
+  ],
+  "clips": [
+    {
+      "label": "01-goku-meteor",
+      "frames": 450,
+      "seconds": 7.5096695250374,
+      "sourceSha256": "c573573ead877b81f1b96fcdaa654dbd220974ce5b38829a1aefd7304d401126",
+      "lastDamageFrame": 366,
+      "caption": "METEOR DE GOKU"
+    },
+    {
+      "label": "02-vegeta-meteor",
+      "frames": 520,
+      "seconds": 8.677840340043218,
+      "sourceSha256": "8a6294bbacc46e60cf6ab92ab6cf870d941aa5ed14f1c7c7baba1150acdfe84b",
+      "lastDamageFrame": 394,
+      "caption": "METEOR DE VEGETA"
+    },
+    {
+      "label": "03-goku-meteor",
+      "frames": 450,
+      "seconds": 7.5096695250374,
+      "sourceSha256": "6767196b9881b2807b3f4b7454bd239818e8c57abaf02757099d69b5c548a92d",
+      "lastDamageFrame": 370,
+      "caption": "METEOR DE GOKU"
+    },
+    {
+      "label": "04-vegeta-meteor",
+      "frames": 520,
+      "seconds": 8.677840340043218,
+      "sourceSha256": "23725b8eca4efa24fe13056e5d4b16fbf5a4b0f5d6440e1f7f2e1d9ce1cdc6e8",
+      "lastDamageFrame": 394,
+      "caption": "METEOR DE VEGETA"
+    }
+  ],
+  "seconds": 32.438005,
+  "file": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\outputs\\YouTube-Short-Meteor-Aereo\\DBZ-Combos-Aereos-Meteor-Short.mp4",
+  "sha256": "478b948990a3cfd635fff8924d7e94042915b90cd6674fba0f870199ad38db16",
+  "editing": "Four continuous sequences including complete Meteor and recovery, cuts between takes, no acceleration or interpolated motion; native audio and timed captions outside game.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "32.438005"
+    }
+  }
+}
