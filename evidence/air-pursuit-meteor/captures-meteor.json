@@ -1,0 +1,163 @@
+{
+  "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+  "fps": 59.92274340431231,
+  "takes": [
+    {
+      "cid": 0,
+      "finish": "meteor",
+      "second": true,
+      "chaseStart": 76,
+      "startFinish": 116,
+      "frames": 839,
+      "programs": [
+        0,
+        4,
+        1033,
+        2110,
+        2111
+      ],
+      "maxHits": 6,
+      "damage": 64,
+      "label": "01-goku-meteor",
+      "scenario": "normal",
+      "side": 0,
+      "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+      "videoSha256": "c573573ead877b81f1b96fcdaa654dbd220974ce5b38829a1aefd7304d401126",
+      "lastDamageFrame": 366,
+      "airFinisher": false
+    },
+    {
+      "cid": 3,
+      "finish": "meteor",
+      "second": true,
+      "chaseStart": 70,
+      "startFinish": 112,
+      "frames": 833,
+      "programs": [
+        0,
+        13,
+        51,
+        1069,
+        2118,
+        2119
+      ],
+      "maxHits": 11,
+      "damage": 78,
+      "label": "02-vegeta-meteor",
+      "scenario": "aldea",
+      "side": 0,
+      "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+      "videoSha256": "8a6294bbacc46e60cf6ab92ab6cf870d941aa5ed14f1c7c7baba1150acdfe84b",
+      "lastDamageFrame": 394,
+      "airFinisher": false
+    },
+    {
+      "cid": 0,
+      "finish": "meteor",
+      "second": true,
+      "chaseStart": 77,
+      "startFinish": 120,
+      "frames": 843,
+      "programs": [
+        0,
+        4,
+        1033,
+        2110,
+        2111
+      ],
+      "maxHits": 6,
+      "damage": 64,
+      "label": "03-goku-meteor",
+      "scenario": "porunga",
+      "side": 1,
+      "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+      "videoSha256": "6767196b9881b2807b3f4b7454bd239818e8c57abaf02757099d69b5c548a92d",
+      "lastDamageFrame": 370,
+      "airFinisher": false
+    },
+    {
+      "cid": 3,
+      "finish": "meteor",
+      "second": true,
+      "chaseStart": 71,
+      "startFinish": 112,
+      "frames": 833,
+      "programs": [
+        0,
+        13,
+        51,
+        1069,
+        2118,
+        2119
+      ],
+      "maxHits": 11,
+      "damage": 78,
+      "label": "04-vegeta-meteor",
+      "scenario": "porunga",
+      "side": 1,
+      "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+      "videoSha256": "23725b8eca4efa24fe13056e5d4b16fbf5a4b0f5d6440e1f7f2e1d9ce1cdc6e8",
+      "lastDamageFrame": 394,
+      "airFinisher": false
+    }
+  ],
+  "resources": [
+    {
+      "variant": "normal",
+      "label": "01-goku-meteor-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "01-goku-meteor-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "02-vegeta-meteor-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "02-vegeta-meteor-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "03-goku-meteor-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "03-goku-meteor-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "04-vegeta-meteor-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "04-vegeta-meteor-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    }
+  ],
+  "method": "Direct ROM framebuffer/audio, scripted human ports. Initial spacing/facing only before capture; no position/action/HP/KI/timer writes during a take. Menu seeds from native selection."
+}

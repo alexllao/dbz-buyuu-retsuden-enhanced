@@ -1,4 +1,6 @@
-# Persecución aérea: prototipo y Short
+# Persecución aérea: primer prototipo140820 y Short
+
+**Histórico.** [Revisión actual: Meteor y caída corregidos, build143144](air-pursuit-meteor.md) · [Comandos](comandos-persecucion-aerea.md).
 
 18 de noviembre de 2026. Prueba real de ROM v1.0 build `20261118-140820`, derivada del selector japonés `20261110-173703`. No sustituye la candidata anterior ni se presenta como versión final validada con mando.
 

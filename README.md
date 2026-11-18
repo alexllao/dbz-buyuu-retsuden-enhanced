@@ -1,6 +1,10 @@
 # Dragon Ball Z: Buyuu Retsuden Enhanced
 
-**Nuevo Short · persecuciones aéreas · 18/11/2026.** Goku y Vegeta: lanzamiento, ↑ + C, dos golpes aéreos y remate de ki. **22,9 s de ROM real, a velocidad normal**, en los tres Namek R10. Prototipo v1.0 build `20261118-140820`: 20 casos comprobados en ambos mandos y sentidos; validación con mando y pruebas negativas pendientes. El enlace con Meteor sigue fallando y no aparece en este vídeo. [**Vídeo local, reglas y límites**](docs/air-pursuit.md) · [Título y descripción](docs/short-air-pursuit-texto.txt).
+**Persecución + Meteor y caída corregida · 18/11/2026 · build `20261118-143144`.** Goku y Vegeta ya pueden enlazar lanzamiento, ↑ + C, dos golpes aéreos y Meteor al aterrizar. Kamehameha, Super y Final Flash recuperan la pose de caída después del disparo. **Vídeo real de32,4 s y Short v2 de22,9 s**, a velocidad normal. [**Ver cambios, vídeos locales y límites**](docs/air-pursuit-meteor.md) · [**COMANDOS NUEVOS: tabla para jugar**](docs/comandos-persecucion-aerea.md).28 casos de enlace,10 negativos y88 pares de regresión. Prototipo pendiente de mando/equilibrio; no certifica HITS/stun generales.
+
+![Goku recupera su pose de caída tras la onda](assets/media/air-pursuit-meteor/goku-caida.png)
+
+**Primer Short · persecuciones aéreas · histórico140820.** Goku y Vegeta: lanzamiento, ↑ + C, dos golpes aéreos y remate de ki. **22,9 s de ROM real, a velocidad normal**, en los tres Namek R10. Prototipo v1.0 build `20261118-140820`: 20 casos comprobados en ambos mandos y sentidos; validación con mando y pruebas negativas pendientes. En este primer build el enlace con Meteor fallaba y no aparece en ese vídeo; corregido en143144. [**Vídeo local, reglas y límites**](docs/air-pursuit.md) · [Título y descripción](docs/short-air-pursuit-texto.txt).
 
 ![Persecuciones aéreas: vista del Short](assets/media/air-pursuit/short-preview.png)
 

@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-18",
+  "romBuild": "20261118-143144",
+  "romSha256": "bd352394b7b091863b57c8aa53b84b702e1234565b9af11bb670267247f591d4",
+  "realROMGameplay": true,
+  "normalSpeed": true,
+  "fullGameAndHUD": true,
+  "integerScale": 3,
+  "gameRect": [
+    0,
+    88,
+    960,
+    672
+  ],
+  "seconds": 32.438005,
+  "scenes": [
+    {
+      "label": "01-goku-meteor",
+      "frames": 450,
+      "seconds": 7.5096695250374,
+      "sourceSha256": "c573573ead877b81f1b96fcdaa654dbd220974ce5b38829a1aefd7304d401126",
+      "lastDamageFrame": 366
+    },
+    {
+      "label": "02-vegeta-meteor",
+      "frames": 520,
+      "seconds": 8.677840340043218,
+      "sourceSha256": "8a6294bbacc46e60cf6ab92ab6cf870d941aa5ed14f1c7c7baba1150acdfe84b",
+      "lastDamageFrame": 394
+    },
+    {
+      "label": "03-goku-meteor",
+      "frames": 450,
+      "seconds": 7.5096695250374,
+      "sourceSha256": "6767196b9881b2807b3f4b7454bd239818e8c57abaf02757099d69b5c548a92d",
+      "lastDamageFrame": 370
+    },
+    {
+      "label": "04-vegeta-meteor",
+      "frames": 520,
+      "seconds": 8.677840340043218,
+      "sourceSha256": "23725b8eca4efa24fe13056e5d4b16fbf5a4b0f5d6440e1f7f2e1d9ce1cdc6e8",
+      "lastDamageFrame": 394
+    }
+  ],
+  "file": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\outputs\\Persecucion-Aerea-Meteor\\DBZ-Persecucion-Aerea-Combos-Meteor.mp4",
+  "sha256": "d39e783af2e6b243ac55c4a96abc486a5dcf910cf3cd5bae01bb6d300ecfe532",
+  "editing": "Four continuous real sequences including complete Meteor and recovery, native audio, captions outside game; no speed changes.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 850,
+        "r_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "32.438005"
+    }
+  }
+}
