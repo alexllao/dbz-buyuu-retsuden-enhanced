@@ -1,0 +1,20 @@
+[
+  {
+    "label": "01-goku-kame",
+    "firstDifferentAudioByte": 528328,
+    "oldBytes": 1557264,
+    "newBytes": 1557264
+  },
+  {
+    "label": "02-vegeta-flash",
+    "firstDifferentAudioByte": 524524,
+    "oldBytes": 1554320,
+    "newBytes": 1554320
+  },
+  {
+    "label": "05-goku-super",
+    "firstDifferentAudioByte": 534252,
+    "oldBytes": 1586704,
+    "newBytes": 1586704
+  }
+]

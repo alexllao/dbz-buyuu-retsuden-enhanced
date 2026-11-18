@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-18",
+  "status": "Prototype; user/gamepad validation pending. This Short shows KI finishes with recovered falling poses; Meteor verified separately.",
+  "romBuild": "20261118-145200",
+  "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+  "realROMGameplay": true,
+  "normalSpeed": true,
+  "fullGameAndHUD": true,
+  "nativeSize": [
+    320,
+    224
+  ],
+  "integerScale": 3,
+  "gameRect": [
+    60,
+    560,
+    960,
+    672
+  ],
+  "clips": [
+    {
+      "label": "01-goku-kame",
+      "frames": 270,
+      "seconds": 4.50580171502244,
+      "sourceSha256": "35bb0f053f53cbf2af98e648dc7200f6661180d40e58da61a854bfef0bef3158",
+      "lastDamageFrame": 140,
+      "caption": "LANZA Y PERSIGUE"
+    },
+    {
+      "label": "02-vegeta-flash",
+      "frames": 270,
+      "seconds": 4.50580171502244,
+      "sourceSha256": "a0cbd64ec5ad64c20272650af050bd5b8ad401668ef63d66ea2f3fcce66f9978",
+      "lastDamageFrame": 140,
+      "caption": "VEGETA / FINAL FLASH"
+    },
+    {
+      "label": "03-goku-kame",
+      "frames": 270,
+      "seconds": 4.50580171502244,
+      "sourceSha256": "871e298b89087fbde9947622da515cb86adf8ed1dc4ac89220d88bc94463e0c3",
+      "lastDamageFrame": 142,
+      "caption": "GOKU / KAMEHAMEHA"
+    },
+    {
+      "label": "04-vegeta-flash",
+      "frames": 270,
+      "seconds": 4.50580171502244,
+      "sourceSha256": "6c2d3547bb89b9891a6fb16524333d2af30698763f999273dd6c5c00ff3ca26f",
+      "lastDamageFrame": 135,
+      "caption": "DOS GOLPES EN EL AIRE"
+    },
+    {
+      "label": "05-goku-super",
+      "frames": 285,
+      "seconds": 4.756124032523687,
+      "sourceSha256": "b4efd295ce03978317126b626b0eee70505bccae4f32ca39792b9395a32cc2af",
+      "lastDamageFrame": 149,
+      "caption": "SUPER KAMEHAMEHA"
+    }
+  ],
+  "seconds": 22.895011,
+  "file": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\outputs\\YouTube-Short-Persecuciones-Aereas-v3\\DBZ-Combos-Aereos-Short.mp4",
+  "sha256": "56fb82c88cc5eff089e2c434e5b51ca3394f2f348534dc56309c77428e846c65",
+  "editing": "Five continuous sequences, cuts between takes, no acceleration or interpolated motion; native audio, captions outside game.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "22.895011"
+    }
+  }
+}

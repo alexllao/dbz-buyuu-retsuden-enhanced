@@ -1,6 +1,6 @@
 # Comandos de la persecución aérea
 
-Prototipo v1.0 build **20261118-143144**, 18 de noviembre de 2026. Funciona con **Goku y Vegeta controlados por un jugador, a velocidad normal**. Las ROM anteriores a la persecución no incluyen ↑ + C tras lanzar. No hay todavía un comando equivalente anunciado para los otros nueve personajes o para turbo.
+Prototipo v1.0 build **20261118-145200**, 18 de noviembre de 2026. Funciona con **Goku y Vegeta controlados por un jugador, a velocidad normal**. Las ROM anteriores a la persecución no incluyen ↑ + C tras lanzar. No hay todavía un comando equivalente anunciado para los otros nueve personajes o para turbo.
 
 Todas las flechas de esta tabla suponen que miras **a la derecha**. Invierte izquierda/derecha al mirar al otro lado; tras el lanzamiento comprueba hacia dónde mira tu personaje.
 

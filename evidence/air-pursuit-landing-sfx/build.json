@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "buildId": "20261118-145200",
+  "sourceSha256": "666135fff3069ecd06d25bab945b43970d929fea5d3493b88ff1fe6a54ca1f7f",
+  "targetSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+  "codeBytes": 2728,
+  "hooks": [
+    [
+      3997696,
+      "frame_entry",
+      "4ef9003de000",
+      "4ef9"
+    ],
+    [
+      77856,
+      "dispatch",
+      "43fa6bac3010",
+      "4ef9"
+    ],
+    [
+      72734,
+      "boxes",
+      "4ef9003e1148",
+      "4ef9"
+    ],
+    [
+      73236,
+      "damage_p1",
+      "4eb9003d038e",
+      "4eb9"
+    ],
+    [
+      73720,
+      "damage_p2",
+      "4eb9003d039a",
+      "4eb9"
+    ],
+    [
+      29684,
+      "round_reset",
+      "4eb9003e128e",
+      "4eb9"
+    ],
+    [
+      37476,
+      "matcher",
+      "4ef9003de0e2",
+      "4ef9"
+    ],
+    [
+      135706,
+      "ground_gate",
+      "303c01c00828",
+      "4ef9"
+    ]
+  ],
+  "allowed": [
+    [
+      4083712,
+      2728
+    ],
+    [
+      288,
+      96
+    ],
+    [
+      398,
+      2
+    ],
+    [
+      135712,
+      4
+    ],
+    [
+      3997696,
+      6
+    ],
+    [
+      77856,
+      6
+    ],
+    [
+      72734,
+      6
+    ],
+    [
+      73236,
+      6
+    ],
+    [
+      73720,
+      6
+    ],
+    [
+      29684,
+      6
+    ],
+    [
+      37476,
+      6
+    ],
+    [
+      135706,
+      6
+    ]
+  ],
+  "status": "Internal prototype, not validated",
+  "ram": "F800..F87F, two64-byte slots",
+  "command": "UP+C after own native throw, Goku/Vegeta human, normal speed;16KI; at most2air basics"
+}

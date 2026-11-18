@@ -1,0 +1,194 @@
+{
+  "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+  "fps": 59.92274340431231,
+  "takes": [
+    {
+      "cid": 0,
+      "finish": "kame",
+      "second": true,
+      "chaseStart": 76,
+      "startFinish": 116,
+      "frames": 529,
+      "programs": [
+        0,
+        4,
+        1033,
+        3076
+      ],
+      "maxHits": 4,
+      "damage": 89,
+      "label": "01-goku-kame",
+      "scenario": "normal",
+      "side": 0,
+      "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+      "videoSha256": "35bb0f053f53cbf2af98e648dc7200f6661180d40e58da61a854bfef0bef3158",
+      "lastDamageFrame": 140,
+      "airFinisher": true
+    },
+    {
+      "cid": 3,
+      "finish": "flash",
+      "second": true,
+      "chaseStart": 71,
+      "startFinish": 113,
+      "frames": 528,
+      "programs": [
+        0,
+        13,
+        1069,
+        3111
+      ],
+      "maxHits": 4,
+      "damage": 92,
+      "label": "02-vegeta-flash",
+      "scenario": "aldea",
+      "side": 0,
+      "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+      "videoSha256": "a0cbd64ec5ad64c20272650af050bd5b8ad401668ef63d66ea2f3fcce66f9978",
+      "lastDamageFrame": 140,
+      "airFinisher": true
+    },
+    {
+      "cid": 0,
+      "finish": "kame",
+      "second": true,
+      "chaseStart": 77,
+      "startFinish": 120,
+      "frames": 533,
+      "programs": [
+        0,
+        4,
+        1033,
+        3076
+      ],
+      "maxHits": 4,
+      "damage": 89,
+      "label": "03-goku-kame",
+      "scenario": "porunga",
+      "side": 1,
+      "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+      "videoSha256": "871e298b89087fbde9947622da515cb86adf8ed1dc4ac89220d88bc94463e0c3",
+      "lastDamageFrame": 142,
+      "airFinisher": true
+    },
+    {
+      "cid": 3,
+      "finish": "flash",
+      "second": true,
+      "chaseStart": 70,
+      "startFinish": 111,
+      "frames": 526,
+      "programs": [
+        0,
+        13,
+        1069,
+        3111
+      ],
+      "maxHits": 4,
+      "damage": 92,
+      "label": "04-vegeta-flash",
+      "scenario": "porunga",
+      "side": 1,
+      "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+      "videoSha256": "6c2d3547bb89b9891a6fb16524333d2af30698763f999273dd6c5c00ff3ca26f",
+      "lastDamageFrame": 135,
+      "airFinisher": true
+    },
+    {
+      "cid": 0,
+      "finish": "super",
+      "second": true,
+      "chaseStart": 76,
+      "startFinish": 116,
+      "frames": 539,
+      "programs": [
+        0,
+        4,
+        1033,
+        3077
+      ],
+      "maxHits": 4,
+      "damage": 114,
+      "label": "05-goku-super",
+      "scenario": "aldea",
+      "side": 0,
+      "romSha256": "98c242aab3bf22ab1169c38948aa06b74e43c02e2663a11ce1fc00f908d27c17",
+      "videoSha256": "b4efd295ce03978317126b626b0eee70505bccae4f32ca39792b9395a32cc2af",
+      "lastDamageFrame": 149,
+      "airFinisher": true
+    }
+  ],
+  "resources": [
+    {
+      "variant": "normal",
+      "label": "01-goku-kame-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "01-goku-kame-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "02-vegeta-flash-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "02-vegeta-flash-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "03-goku-kame-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "03-goku-kame-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "04-vegeta-flash-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "04-vegeta-flash-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "05-goku-super-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "aldea",
+      "label": "05-goku-super-air",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    }
+  ],
+  "method": "Direct ROM framebuffer/audio, scripted human ports. Initial spacing/facing only before capture; no position/action/HP/KI/timer writes during a take. Menu seeds from native selection."
+}
