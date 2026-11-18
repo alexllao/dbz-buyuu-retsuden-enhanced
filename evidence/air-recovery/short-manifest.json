@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-18",
+  "status": "Experimental Goku/Vegeta, normal speed, manual/gamepad validation pending.",
+  "romBuild": "20261118-152153",
+  "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+  "realROMGameplay": true,
+  "normalSpeed": true,
+  "fullGameAndHUD": true,
+  "nativeSize": [
+    320,
+    224
+  ],
+  "integerScale": 3,
+  "gameRect": [
+    60,
+    560,
+    960,
+    672
+  ],
+  "clips": [
+    {
+      "label": "01-goku-escape",
+      "frames": 360,
+      "seconds": 6.00773562002992,
+      "defenderCid": 0,
+      "sourceSha256": "416f507932b103183a626e063ae272ee9c0d5442df9305d0cc173b7d5f7785a4",
+      "lastCounterContact": 213,
+      "escapeSeconds": 1.5353102140076462,
+      "groundSeconds": 2.6200402565130485,
+      "counterSeconds": 2.953803346514711
+    },
+    {
+      "label": "02-vegeta-escape",
+      "frames": 385,
+      "seconds": 6.424939482531998,
+      "defenderCid": 3,
+      "sourceSha256": "8d072abdc1216bb0c683b5ebfc630e97ccf2ff388a8a337ffcfb78d2d3bd9bb9",
+      "lastCounterContact": 256,
+      "escapeSeconds": 1.4685575960073138,
+      "groundSeconds": 2.5699757930127993,
+      "counterSeconds": 2.836986265014129
+    },
+    {
+      "label": "03-goku-escape",
+      "frames": 360,
+      "seconds": 6.00773562002992,
+      "defenderCid": 0,
+      "sourceSha256": "02ca7f0dc0658fefe200ba52a8efdc81700a162607199dcd3f4c2942fd9f7419",
+      "lastCounterContact": 213,
+      "escapeSeconds": 1.4685575960073138,
+      "groundSeconds": 2.6200402565130485,
+      "counterSeconds": 2.953803346514711
+    },
+    {
+      "label": "04-vegeta-escape",
+      "frames": 385,
+      "seconds": 6.424939482531998,
+      "defenderCid": 3,
+      "sourceSha256": "3c7872ff10ae7ade88f77d03bf541aa2628a42e1d334dad33fc14c1fbc56a458",
+      "lastCounterContact": 258,
+      "escapeSeconds": 1.50193390500748,
+      "groundSeconds": 2.6033521020129653,
+      "counterSeconds": 2.8703625740142953
+    }
+  ],
+  "seconds": 24.915011,
+  "file": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\outputs\\YouTube-Short-Defensa-Aerea\\DBZ-Defensa-Aerea-Short.mp4",
+  "sha256": "387175d9918dc1b7736a331aeb000c3d94963c16cf26c857d774c455676ab7dd",
+  "editing": "Four continuous native sequences with recovery and ground counterattack; cuts between takes; native audio and timed captions outside game. No speed changes or background replacement. Clips may end during opponent knockdown after counter, after all counter contacts and defender recovery.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "152024/2537"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "24.915011"
+    }
+  }
+}

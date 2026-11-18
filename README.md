@@ -1,5 +1,9 @@
 # Dragon Ball Z: Buyuu Retsuden Enhanced
 
+**Nueva defensa aérea · prueba Goku/Vegeta · build `20261118-152153`.** **A+C tras recibir el básico aéreo,32 de ki y una vez por combo.** Recupera la postura, se separa y permite responder al aterrizar. Short de24,9 s con Kamehameha/Final Flash, pantalla completa y velocidad normal. [**Vídeo local, reglas y límites**](docs/air-recovery.md) · [Comandos](docs/comandos-persecucion-aerea.md) · [Título y descripción](docs/short-air-recovery-texto.txt). Prototipo:48 casos de defensa y10 puertas aisladas; se conservan28 enlaces y10 negativos anteriores. Pendiente de mando/equilibrio; solo en la persecución nueva, no una salida universal de todos los ataques.
+
+![Nueva recuperación aérea de Goku y Vegeta](assets/media/air-recovery/short.png)
+
 **Recuperación del rival corregida · build `20261118-150132`.** El combo aéreo ya no fuerza al rival a ponerse de pie al tocar suelo: conserva rebote, espera tumbado e incorporación. K4 intacta; las caídas fuertes mantienen sus tiempos nativos. [**Antes/después y mediciones**](docs/air-pursuit-knockdown.md) · [Short v4 y textos](docs/short-air-pursuit-v4-texto.txt). Se conservan sonido, daño y enlaces comprobados.
 
 **Aterrizaje con sonido corregido · build `20261118-145200`.** Goku y Vegeta recuperan el efecto original al tocar suelo después de las ondas. **Short v3 de22,9 s**, audio real y velocidad normal.28 casos con comprobación de sonido y10 negativos. [Vídeo local, corrección y límites](docs/air-pursuit-landing-sfx.md) · [Textos para YouTube](docs/short-air-pursuit-v3-texto.txt).

@@ -1,0 +1,46 @@
+{
+  "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+  "fixture": "A real native first contact creates the eligible baseline. Each guard is then isolated by explicitly setting its condition before three frames (ground Y, HP0, incoming action, strong-hurt action, or turbo speed). These are synthetic guard checks, not complete playable Meteor/KO scenarios or recorded takes.",
+  "cases": [
+    {
+      "test": "ground",
+      "accepted": false
+    },
+    {
+      "test": "KO",
+      "accepted": false
+    },
+    {
+      "test": "strong-hurt",
+      "accepted": false
+    },
+    {
+      "test": "Meteor-action",
+      "accepted": false
+    },
+    {
+      "test": "KI-action",
+      "accepted": false
+    },
+    {
+      "test": "turbo",
+      "accepted": false
+    },
+    {
+      "test": "A-only",
+      "accepted": false
+    },
+    {
+      "test": "C-only",
+      "accepted": false
+    },
+    {
+      "test": "KI31",
+      "accepted": false
+    },
+    {
+      "test": "KI32",
+      "accepted": true
+    }
+  ]
+}

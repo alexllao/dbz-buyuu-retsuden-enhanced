@@ -1,0 +1,229 @@
+{
+  "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+  "fps": 59.92274340431231,
+  "takes": [
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        92
+      ],
+      "firstAirContact": 90,
+      "grounded": 157,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": 3076,
+      "counterDamage": 60,
+      "frames": 440,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 157
+        },
+        {
+          "name": "counterCommand",
+          "frame": 157
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ],
+      "label": "01-goku-escape",
+      "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+      "videoSha256": "416f507932b103183a626e063ae272ee9c0d5442df9305d0cc173b7d5f7785a4",
+      "lastCounterContact": 213
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "porunga",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        88
+      ],
+      "firstAirContact": 87,
+      "grounded": 154,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": 3111,
+      "counterDamage": 63,
+      "frames": 433,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 154
+        },
+        {
+          "name": "counterCommand",
+          "frame": 154
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ],
+      "label": "02-vegeta-escape",
+      "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+      "videoSha256": "8d072abdc1216bb0c683b5ebfc630e97ccf2ff388a8a337ffcfb78d2d3bd9bb9",
+      "lastCounterContact": 256
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "porunga",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        88
+      ],
+      "firstAirContact": 88,
+      "grounded": 157,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": 3076,
+      "counterDamage": 60,
+      "frames": 440,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 88
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 157
+        },
+        {
+          "name": "counterCommand",
+          "frame": 157
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ],
+      "label": "03-goku-escape",
+      "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+      "videoSha256": "02ca7f0dc0658fefe200ba52a8efdc81700a162607199dcd3f4c2942fd9f7419",
+      "lastCounterContact": 213
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        90
+      ],
+      "firstAirContact": 89,
+      "grounded": 156,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": 3111,
+      "counterDamage": 63,
+      "frames": 435,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 156
+        },
+        {
+          "name": "counterCommand",
+          "frame": 156
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ],
+      "label": "04-vegeta-escape",
+      "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+      "videoSha256": "3c7872ff10ae7ade88f77d03bf541aa2628a42e1d334dad33fc14c1fbc56a458",
+      "lastCounterContact": 258
+    }
+  ],
+  "resources": [
+    {
+      "variant": "normal",
+      "label": "01-goku-escape-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "01-goku-escape-recover",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "02-vegeta-escape-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "02-vegeta-escape-recover",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "03-goku-escape-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "porunga",
+      "label": "03-goku-escape-recover",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "04-vegeta-escape-start",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    },
+    {
+      "variant": "normal",
+      "label": "04-vegeta-escape-recover",
+      "backgroundVramExact": true,
+      "own22PaletteWordsExact": true,
+      "common10PaletteWordsExact": true
+    }
+  ],
+  "method": "Native ROM framebuffer/audio. Scripted human ports, native menu seeds. Only spacing/facing before a take; no position, HP, KI, action, palette or timer writes during capture."
+}

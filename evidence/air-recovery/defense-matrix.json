@@ -1,0 +1,1382 @@
+{
+  "romSha256": "d3a29d308473b966ed4edda70a0b9df154f1badb2371e92e0d7b23e7b2ccc3fb",
+  "cases": [
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        92
+      ],
+      "firstAirContact": 90,
+      "grounded": 157,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": 3076,
+      "counterDamage": 60,
+      "frames": 440,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 157
+        },
+        {
+          "name": "counterCommand",
+          "frame": 157
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 162,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 362,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 162
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 97,
+      "grounded": 168,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 368,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 97
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 168
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 163,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 363,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 163
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 169,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 369,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 169
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 162,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 362,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 162
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        90
+      ],
+      "firstAirContact": 89,
+      "grounded": 157,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": 3076,
+      "counterDamage": 60,
+      "frames": 440,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 157
+        },
+        {
+          "name": "counterCommand",
+          "frame": 157
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 163,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 363,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 163
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 96,
+      "grounded": 165,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 365,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 96
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 165
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 163,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 363,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 163
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 167,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 367,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 167
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 163,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 363,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 163
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        90
+      ],
+      "firstAirContact": 90,
+      "grounded": 155,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": 3076,
+      "counterDamage": 60,
+      "frames": 438,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 155
+        },
+        {
+          "name": "counterCommand",
+          "frame": 155
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 165,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 365,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 165
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 96,
+      "grounded": 168,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 368,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 96
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 168
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 165,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 365,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 165
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 170,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 370,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 170
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 90,
+      "grounded": 165,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 365,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 90
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 165
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        87
+      ],
+      "firstAirContact": 87,
+      "grounded": 153,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": 3076,
+      "counterDamage": 60,
+      "frames": 436,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 153
+        },
+        {
+          "name": "counterCommand",
+          "frame": 153
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 159,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 359,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 159
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 92,
+      "grounded": 168,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 368,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 92
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 168
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 165,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 365,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 165
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 168,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 368,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 168
+        }
+      ]
+    },
+    {
+      "defenderCid": 0,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 164,
+      "damageReceived": 18,
+      "hpAfterFirst": 182,
+      "hpAfterPressure": 182,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 364,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 164
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        88
+      ],
+      "firstAirContact": 87,
+      "grounded": 156,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": 3111,
+      "counterDamage": 63,
+      "frames": 435,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 156
+        },
+        {
+          "name": "counterCommand",
+          "frame": 156
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 158,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 358,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 158
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 95,
+      "grounded": 160,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 360,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 95
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 160
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 155,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 355,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 155
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 198,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 398,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 198
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 155,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 355,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 155
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        85
+      ],
+      "firstAirContact": 83,
+      "grounded": 151,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": 3111,
+      "counterDamage": 63,
+      "frames": 430,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 83
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 151
+        },
+        {
+          "name": "counterCommand",
+          "frame": 151
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 83,
+      "grounded": 149,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 349,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 83
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 149
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 154,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 354,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 154
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 83,
+      "grounded": 149,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 349,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 83
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 149
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 83,
+      "grounded": 156,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 356,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 83
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 156
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 1,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 83,
+      "grounded": 150,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 350,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 83
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 150
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        90
+      ],
+      "firstAirContact": 89,
+      "grounded": 156,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": 3111,
+      "counterDamage": 63,
+      "frames": 435,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 156
+        },
+        {
+          "name": "counterCommand",
+          "frame": 156
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 158,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 358,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 158
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 96,
+      "grounded": 161,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 361,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 96
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 161
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 158,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 358,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 158
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 169,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 369,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 169
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 0,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 89,
+      "grounded": 158,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 358,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 89
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 158
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "valid",
+      "escaped": true,
+      "escapeEntries": [
+        87
+      ],
+      "firstAirContact": 87,
+      "grounded": 153,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": 3111,
+      "counterDamage": 63,
+      "frames": 432,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 153
+        },
+        {
+          "name": "counterCommand",
+          "frame": 153
+        }
+      ],
+      "KIAtRecovery": [
+        225,
+        193
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "none",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 152,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 352,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 152
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "held",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 91,
+      "grounded": 161,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 361,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 91
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 161
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "low_ki",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 152,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 352,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 152
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "late",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 200,
+      "damageReceived": 25,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 175,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 400,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 200
+        }
+      ]
+    },
+    {
+      "defenderCid": 3,
+      "attackPort": 2,
+      "side": 1,
+      "scenario": "normal",
+      "mode": "used",
+      "escaped": false,
+      "escapeEntries": [],
+      "firstAirContact": 87,
+      "grounded": 152,
+      "damageReceived": 37,
+      "hpAfterFirst": 175,
+      "hpAfterPressure": 163,
+      "counter": null,
+      "counterDamage": 0,
+      "frames": 352,
+      "events": [
+        {
+          "name": "firstAirContact",
+          "frame": 87
+        },
+        {
+          "name": "bothGrounded",
+          "frame": 152
+        }
+      ]
+    }
+  ],
+  "fixture": "Fresh menu seeds; spacing/facing before each take. Negative low_ki and used explicitly change KI/credit immediately before attempted input; no such writes in valid or held/late/control cases."
+}

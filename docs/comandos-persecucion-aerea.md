@@ -1,6 +1,6 @@
 # Comandos de la persecución aérea
 
-Prototipo v1.0 build **20261118-150132**, 18 de noviembre de 2026. Funciona con **Goku y Vegeta controlados por un jugador, a velocidad normal**. Las ROM anteriores a la persecución no incluyen ↑ + C tras lanzar. No hay todavía un comando equivalente anunciado para los otros nueve personajes o para turbo.
+Prototipo v1.0 build **20261118-152153**, 18 de noviembre de 2026. Funciona con **Goku y Vegeta controlados por un jugador, a velocidad normal**. Las ROM anteriores a la persecución no incluyen ↑ + C tras lanzar. No hay todavía un comando equivalente anunciado para los otros nueve personajes o para turbo.
 
 Todas las flechas de esta tabla suponen que miras **a la derecha**. Invierte izquierda/derecha al mirar al otro lado; tras el lanzamiento comprueba hacia dónde mira tu personaje.
 
@@ -15,8 +15,11 @@ Todas las flechas de esta tabla suponen que miras **a la derecha**. Invierte izq
 | Goku: Meteor | ← ↙ ↓ ↘ →, ← ↙ ↓ ↘ → + A+B | Introducir tras el básico durante la caída; la ROM conserva el comando hasta aterrizar. |
 | Vegeta: Final Flash | ↓ ↙ ← → + A | Comando que ya conserva Vegeta; no se ha convertido al esquema de Goku. |
 | Vegeta: Meteor | → ↘ ↓ ↙ ← → + B | Comando original y requisitos nativos, incluida vida baja. Pruebas grabadas con 42 HP y ki cargado. |
+| Recuperación aérea defensiva | A + C después del básico recibido | Goku/Vegeta, persecución enemiga nueva;32 de ki, una vez por cadena, pulsación nueva en la ventana. No desde derribo fuerte ni Meteor iniciado. |
 | Cambio de lado anterior | → ← → + C | Cerca del rival. Es independiente de ↑ + C tras lanzar. |
 
 El Meteor se inicia **al llegar al suelo** y conserva su secuencia original. No se ejecuta solo: debes introducir su comando. Una persecución por cadena, sin repetir automáticamente al mantener A. La comodidad con mando, la amplitud de los buffers y el equilibrio siguen pendientes de validar. En las pruebas finales de Final Flash se usan tres fotogramas por dirección: una entrada más extrema de dos fotogramas falló en un caso de P2.
 
 [Vídeo de Meteor, cambios y pruebas](air-pursuit-meteor.md).
+
+[Prueba de recuperación aérea, Short y límites](air-recovery.md).
