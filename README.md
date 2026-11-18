@@ -1,5 +1,7 @@
 # Dragon Ball Z: Buyuu Retsuden Enhanced
 
+**Recuperación del rival corregida · build `20261118-150132`.** El combo aéreo ya no fuerza al rival a ponerse de pie al tocar suelo: conserva rebote, espera tumbado e incorporación. K4 intacta; las caídas fuertes mantienen sus tiempos nativos. [**Antes/después y mediciones**](docs/air-pursuit-knockdown.md) · [Short v4 y textos](docs/short-air-pursuit-v4-texto.txt). Se conservan sonido, daño y enlaces comprobados.
+
 **Aterrizaje con sonido corregido · build `20261118-145200`.** Goku y Vegeta recuperan el efecto original al tocar suelo después de las ondas. **Short v3 de22,9 s**, audio real y velocidad normal.28 casos con comprobación de sonido y10 negativos. [Vídeo local, corrección y límites](docs/air-pursuit-landing-sfx.md) · [Textos para YouTube](docs/short-air-pursuit-v3-texto.txt).
 
 **Short de Meteor listo · 32,4 s · 1080×1920.** Goku y Vegeta: lanzamiento, persecución, dos golpes y remate completo. Textos por fase, HUD sin recortar, audio nativo y velocidad normal. [Vista](assets/media/air-pursuit-meteor/short-meteor.png) · [Archivo local y comprobaciones](docs/air-pursuit-meteor.md#short-de-meteor-con-textos) · [Título y descripción](docs/short-meteor-aereo-texto.txt).

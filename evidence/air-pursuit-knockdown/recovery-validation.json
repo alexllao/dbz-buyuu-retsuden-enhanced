@@ -1,0 +1,156 @@
+{
+  "build": {
+    "version": "1.0",
+    "buildId": "20261118-150132",
+    "sourceSha256": "666135fff3069ecd06d25bab945b43970d929fea5d3493b88ff1fe6a54ca1f7f",
+    "targetSha256": "87c5802b4ba677b2b5c3443e08d105a0a9fe7cdf758f45f6bfdd3c9415569cc0",
+    "codeBytes": 2764,
+    "hooks": [
+      [
+        3997696,
+        "frame_entry",
+        "4ef9003de000",
+        "4ef9"
+      ],
+      [
+        77856,
+        "dispatch",
+        "43fa6bac3010",
+        "4ef9"
+      ],
+      [
+        72734,
+        "boxes",
+        "4ef9003e1148",
+        "4ef9"
+      ],
+      [
+        73236,
+        "damage_p1",
+        "4eb9003d038e",
+        "4eb9"
+      ],
+      [
+        73720,
+        "damage_p2",
+        "4eb9003d039a",
+        "4eb9"
+      ],
+      [
+        29684,
+        "round_reset",
+        "4eb9003e128e",
+        "4eb9"
+      ],
+      [
+        37476,
+        "matcher",
+        "4ef9003de0e2",
+        "4ef9"
+      ],
+      [
+        135706,
+        "ground_gate",
+        "303c01c00828",
+        "4ef9"
+      ]
+    ],
+    "allowed": [
+      [
+        4083712,
+        2764
+      ],
+      [
+        288,
+        96
+      ],
+      [
+        398,
+        2
+      ],
+      [
+        135712,
+        4
+      ],
+      [
+        3997696,
+        6
+      ],
+      [
+        77856,
+        6
+      ],
+      [
+        72734,
+        6
+      ],
+      [
+        73236,
+        6
+      ],
+      [
+        73720,
+        6
+      ],
+      [
+        29684,
+        6
+      ],
+      [
+        37476,
+        6
+      ],
+      [
+        135706,
+        6
+      ]
+    ],
+    "status": "Internal prototype, not validated",
+    "ram": "F800..F87F, two64-byte slots",
+    "command": "UP+C after own native throw, Goku/Vegeta human, normal speed;16KI; at most2air basics"
+  },
+  "cases": [
+    {
+      "label": "01-goku-kame",
+      "firstGroundBefore": 179,
+      "settled": 199,
+      "wake": 231,
+      "endGetup": 261,
+      "waitFrames": 32,
+      "waitSeconds": 0.5340209440026595,
+      "beforeSha256": "35bb0f053f53cbf2af98e648dc7200f6661180d40e58da61a854bfef0bef3158",
+      "afterSha256": "d87815c6d2af22517e82cfd5d34f99f7379439d1d243d83aa210c6c998401abe"
+    },
+    {
+      "label": "02-vegeta-flash",
+      "firstGroundBefore": 178,
+      "settled": 216,
+      "wake": 257,
+      "endGetup": 294,
+      "waitFrames": 41,
+      "waitSeconds": 0.6842143345034075,
+      "beforeSha256": "a0cbd64ec5ad64c20272650af050bd5b8ad401668ef63d66ea2f3fcce66f9978",
+      "afterSha256": "43c7258d3a280b3a0c6d87d538cd3d9b9a5c16c4f5918ff146c2e9717b79ec1e"
+    },
+    {
+      "label": "05-goku-super",
+      "firstGroundBefore": 181,
+      "settled": 232,
+      "wake": 277,
+      "endGetup": 306,
+      "waitFrames": 45,
+      "waitSeconds": 0.75096695250374,
+      "beforeSha256": "b4efd295ce03978317126b626b0eee70505bccae4f32ca39792b9395a32cc2af",
+      "afterSha256": "d05e8da757c7b6553610a3ebbc71a0da77c60a2739912eda4d60e68a178ca7bb"
+    }
+  ],
+  "fps": 59.92274340431231,
+  "frames": 990,
+  "seconds": 16.52127295508228,
+  "normalSpeed": true,
+  "gameplayUnaltered": true,
+  "sourceFormat": "Direct native ROM framebuffer and audio; initial spacing/facing before capture only.",
+  "audio": "After only",
+  "file": "C:\\Users\\usuari\\Documents\\Codex\\2026-11-03\\sa\\outputs\\Recuperacion-K4-Combos-Aereos\\Antes-despues-recuperacion-K4.mp4",
+  "sha256": "c383c47c61600072482945caca6a9179f26008906c36c42a03202ffc520a905f"
+}
